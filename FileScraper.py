@@ -3,12 +3,12 @@ Created on 5 May 2018
 
 @author: PJP2810
 '''
-import os
-import json
+from textwrap import indent
+from PIL.Image import effect_mandelbrot
 
+# Function definitions
 
-
-def writeSeg(data, segment):
+def writeSegments(data, segment):
     
     # Move to output directory
     os.chdir("cached_definitions")
@@ -24,9 +24,9 @@ def writeSeg(data, segment):
         else:
             segData = [x for x in data[str(segment)]]
             with open(str(segment)+'.json', 'w') as outfile:
-                json.dump(segData, outfile, indent=True,sort_keys=True)
+                json.dump(segData, outfile, indent=True, sort_keys=True)
     except:
-        print("---Exception--- " + str(data[segment]) +"\n")
+        print("---Exception--- " + json.dumps(segment) +"\n")
     
     # Return to workingDirectory
     os.chdir("..")
@@ -50,31 +50,62 @@ def listSegments(data):
     return segments
 
 
+def sortUpgrades(fullUpgrades):
+    
+    # Loop through fullUpgrades
+    for x in fullUpgrades:
+        
+        # store {effect, hero_id, id, required_level, required_upgrade_id} to variables
+        upgradeID = x['id']
+        upgradeEffect = x['effect']
+        upgradeHeroID = x['hero_id']
+        upgradeRequiredID = x['required_upgrade_id']
+        upgradeLevel = x['required_level']
+        upgradeType = x['upgrade_type']
+        
+        # save variables to dict based on hero_id
+        
+        
+        # add dictName to list
+        
+        
+        # clear duplicates from list
+        
+        
+        # iterate through list of names
+        
+            # output name dict to file 
+        
+    return
+
+
+
 '''
 main_
 '''
 
+import os
+import json
 
 os.chdir("workingDir")
 
-file = "cached_definitions"
-
-fullData = readJSON(file)
+fullData = readJSON("cached_definitions")
 
 segNames = listSegments(fullData)
 
 for x in segNames:
-    writeSeg(fullData, x)
+    writeSegments(fullData, x)
+    
+# Parse segment.json, write to file in usable format
 
+upgrades = readJSON("upgrade_defines", "cached_definitions")
 
+#print(json.dumps(upgrades, sort_keys=True, indent = True))
+#print(len(upgrades))
 
+#print(upgrades[0]['hero_id'])
 
-
-
-
-
-
-
+sortUpgrades(upgrades)
 
 
 
