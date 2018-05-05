@@ -1,0 +1,3084 @@
+[
+ {
+  "animations": [
+   {
+    "damage_frame": 2,
+    "jump_sound": 30,
+    "sound_frames": {
+     "2": 154
+    },
+    "target_offset_x": -34,
+    "type": "melee_attack"
+   }
+  ],
+  "aoe_radius": 0,
+  "cooldown": 4,
+  "damage_modifier": 1,
+  "damage_types": [
+   "melee"
+  ],
+  "description": "Bruenor slashes at the closest enemy with his axe.",
+  "graphic_id": 0,
+  "id": 1,
+  "long_description": "",
+  "name": "Slice",
+  "num_targets": 1,
+  "tags": [
+   "melee"
+  ],
+  "target": "front"
+ },
+ {
+  "animations": [
+   {
+    "damage_frame": 38,
+    "hit_frames": [
+     2,
+     20
+    ],
+    "shake_on_hit": 0.1,
+    "sound_frames": {
+     "2": 158
+    },
+    "target_offset_x": -34,
+    "type": "melee_attack"
+   }
+  ],
+  "aoe_radius": 0,
+  "cooldown": 60,
+  "damage_modifier": 0.075,
+  "damage_types": [
+   "melee"
+  ],
+  "description": "Bruenor delivers a devastating blow to the closest enemy.",
+  "graphic_id": 669,
+  "id": 2,
+  "long_description": "Bruenor delivers a devastating blow to a single enemy using his shield and axe.",
+  "name": "Bash",
+  "num_targets": 1,
+  "tags": [
+   "melee",
+   "ultimate"
+  ],
+  "target": "front"
+ },
+ {
+  "animations": [
+   {
+    "projectile": "guiding_bolt",
+    "projectile_graphic_id": 1,
+    "shoot_frame": 13,
+    "shoot_sound": 164,
+    "type": "ranged_attack"
+   }
+  ],
+  "aoe_radius": 0,
+  "cooldown": 6,
+  "damage_modifier": 1,
+  "damage_types": [
+   "magic"
+  ],
+  "description": "A flash of light streaks towards the closest enemy.",
+  "graphic_id": 0,
+  "id": 3,
+  "long_description": "",
+  "name": "Guiding Bolt",
+  "num_targets": 1,
+  "tags": [
+   "ranged"
+  ],
+  "target": "front"
+ },
+ {
+  "animations": [
+   {
+    "effect_frames": {
+     "projectile": {
+      "effect_string": "heal_all_to_percent,100"
+     }
+    },
+    "projectile": "flame_strike",
+    "projectile_graphic_id": 1,
+    "projectile_multi_hits": true,
+    "shoot_sound": 168,
+    "type": "ranged_attack",
+    "unique_hit_cooldown_time": 0.5,
+    "visual_effect_frames": {
+     "projectile": {
+      "effect": "formation_heal_glow"
+     }
+    }
+   }
+  ],
+  "aoe_radius": 200,
+  "cooldown": 180,
+  "damage_modifier": 0.00833,
+  "damage_types": [
+   "magic"
+  ],
+  "description": "Celeste calls forth a pillar of flame centered on a random enemy.",
+  "graphic_id": 671,
+  "id": 4,
+  "long_description": "Celeste prays for the power of Sel\u00fbne to call forth a pillar of flame on a random enemy, burning all nearby enemies as well. Simultaneously, a pillar of light heals living party members to full health.",
+  "name": "Flame Strike",
+  "num_targets": 1,
+  "tags": [
+   "ranged",
+   "aoe",
+   "ultimate"
+  ],
+  "target": "random"
+ },
+ {
+  "animations": [
+   {
+    "damage_frame": 2,
+    "jump_sound": 30,
+    "sound_frames": {
+     "2": 194
+    },
+    "target_offset_x": -34,
+    "type": "melee_attack"
+   }
+  ],
+  "aoe_radius": 150,
+  "cooldown": 8,
+  "damage_modifier": 1,
+  "damage_types": [
+   "melee"
+  ],
+  "description": "Nayeli cleaves all targets near the closest enemy.",
+  "graphic_id": 0,
+  "id": 5,
+  "long_description": "",
+  "name": "Swing",
+  "num_targets": 1,
+  "tags": [
+   "melee",
+   "aoe"
+  ],
+  "target": "front"
+ },
+ {
+  "animations": [
+   {
+    "power_up_sequence": {
+     "end_frame": 29,
+     "sound_frames": {
+      "2": 198
+     },
+     "start_frame": 0
+    },
+    "sequences": [
+     {
+      "damage_frame": 32,
+      "effect_frames": {
+       "hit+0.35": {
+        "effect_string": "damage_and_stun,0,5,none,0,626"
+       }
+      },
+      "end_frame": 42,
+      "start_frame": 30,
+      "visual_effect_frames": {
+       "hit": {
+        "effect": "animated_clip",
+        "graphic_id": 625,
+        "offset_x": 70,
+        "sort_offset": -9999
+       }
+      }
+     }
+    ],
+    "shake_on_hit": 0.1,
+    "type": "melee_attack"
+   }
+  ],
+  "aoe_radius": 0,
+  "cooldown": 120,
+  "damage_modifier": 0.03333,
+  "damage_types": [
+   "melee"
+  ],
+  "description": "Nayeli deals massive damage to a random enemy and stuns all enemies.",
+  "graphic_id": 677,
+  "id": 6,
+  "long_description": "Nayeli leaps to a random enemy, dealing massive damage and stunning all enemies.",
+  "name": "Banishing Smite",
+  "num_targets": 1,
+  "tags": [
+   "melee",
+   "ultimate"
+  ],
+  "target": "random"
+ },
+ {
+  "animations": [
+   {
+    "animation": "backstab",
+    "sound_frames": {
+     "2": 179
+    },
+    "target_offset_x": 180,
+    "type": "melee_attack"
+   }
+  ],
+  "aoe_radius": 0,
+  "cooldown": 5,
+  "damage_modifier": 1,
+  "damage_types": [
+   "melee"
+  ],
+  "description": "Jarlaxle disappears into the shadows and attacks the furthest enemy.",
+  "graphic_id": 0,
+  "id": 7,
+  "long_description": "",
+  "name": "Sneak Attack",
+  "num_targets": 1,
+  "tags": [
+   "melee"
+  ],
+  "target": "back"
+ },
+ {
+  "animations": [
+   {
+    "hit_sound": 142,
+    "projectile": "flurry",
+    "projectile_graphic_id": 1,
+    "shoot_frame": 29,
+    "sound_frames": {
+     "1": 180
+    },
+    "type": "ranged_attack"
+   }
+  ],
+  "aoe_radius": 0,
+  "cooldown": 300,
+  "damage_modifier": 0.0075,
+  "damage_types": [
+   "ranged"
+  ],
+  "description": "Jarlaxle flings hidden knives from below his cloak, hitting several random enemies.",
+  "graphic_id": 674,
+  "id": 8,
+  "long_description": "Jarlaxle flings hidden knives from below his cloak, hitting up to 10 random enemies.",
+  "name": "Fan of Knives",
+  "num_targets": 10,
+  "tags": [
+   "ranged",
+   "aoe",
+   "ultimate"
+  ],
+  "target": "random"
+ },
+ {
+  "animations": [
+   {
+    "hit_sound": 133,
+    "projectile": "song_of_pain",
+    "projectile_graphic_id": 1,
+    "shoot_frame": 9,
+    "shoot_sound": 159,
+    "type": "ranged_attack"
+   }
+  ],
+  "aoe_radius": 0,
+  "cooldown": 3.7,
+  "damage_modifier": 1,
+  "damage_types": [
+   "magic"
+  ],
+  "description": "Calliope lets loose a string of insulting melodies, hitting the two closest enemies.",
+  "graphic_id": 0,
+  "id": 9,
+  "long_description": "",
+  "name": "Vicious Mockery",
+  "num_targets": 2,
+  "tags": [
+   "ranged"
+  ],
+  "target": "front"
+ },
+ {
+  "animations": [
+   {
+    "effect_frames": {
+     "-1": {
+      "effect_string": "grant_all_instant_temporary_hp_with_bonus,500,72"
+     }
+    },
+    "hit_sound": 142,
+    "line_damage_distance": 100,
+    "projectile": "impale",
+    "projectile_graphic_id": 1,
+    "shoot_frame": 29,
+    "sound_frames": {
+     "1": 163
+    },
+    "type": "ranged_attack"
+   }
+  ],
+  "aoe_radius": 0,
+  "cooldown": 180,
+  "damage_modifier": 0.03125,
+  "damage_types": [
+   "ranged"
+  ],
+  "description": "Calliope lets loose a piercing crossbow bolt and shields all members of the party.",
+  "graphic_id": 670,
+  "id": 10,
+  "long_description": "Calliope points her lute at a random enemy and lets loose a hidden crossbow bolt. It tears through all enemies in a line. After attacking, she engages her damage shield on all members of your party.",
+  "name": "Impale",
+  "num_targets": 1,
+  "tags": [
+   "ranged",
+   "line",
+   "ultimate"
+  ],
+  "target": "random"
+ },
+ {
+  "animations": [
+   {
+    "hit_sound": 133,
+    "projectile": "magic_missile",
+    "projectile_count": 3,
+    "projectile_delay": 0.1,
+    "projectile_graphic_id": 1,
+    "shoot_frame": 18,
+    "shoot_sound": 149,
+    "type": "ranged_attack"
+   }
+  ],
+  "aoe_radius": 0,
+  "cooldown": 7,
+  "damage_modifier": 1,
+  "damage_types": [
+   "magic"
+  ],
+  "description": "Asharra lets loose a barrage of missiles, hitting random targets.",
+  "graphic_id": 0,
+  "id": 11,
+  "long_description": "",
+  "name": "Magic Missile",
+  "num_targets": 3,
+  "tags": [
+   "ranged",
+   "multitarget"
+  ],
+  "target": "random"
+ },
+ {
+  "animations": [
+   {
+    "effect_frames": {
+     "34": {
+      "effect_string": "enemies_pushback,11,200"
+     },
+     "44": {
+      "effect_string": "enemies_pushback,11,200"
+     },
+     "54": {
+      "effect_string": "enemies_pushback,11,200"
+     }
+    },
+    "hit_sound": 142,
+    "projectile": "fireball",
+    "projectile_graphic_id": 1,
+    "shoot_frame": 75,
+    "sound_frames": {
+     "1": 153
+    },
+    "type": "ranged_attack"
+   }
+  ],
+  "aoe_radius": 200,
+  "cooldown": 420,
+  "damage_modifier": 0.00595,
+  "damage_types": [
+   "magic"
+  ],
+  "description": "Asharra pushes back all enemies and casts a massive Fireball on a random one.",
+  "graphic_id": 668,
+  "id": 12,
+  "long_description": "Asharra leaps into the air, flapping her wings and pushing all enemies away from the party. Hovering there, she summons a massive fireball that hits a random enemy and all other enemies within a small radius.",
+  "name": "Fireball",
+  "num_targets": 1,
+  "tags": [
+   "ranged",
+   "aoe",
+   "ultimate"
+  ],
+  "target": "random"
+ },
+ {
+  "animations": [
+   {
+    "damage_frame": 2,
+    "jump_sound": 30,
+    "sound_frames": {
+     "2": 189
+    },
+    "target_offset_x": -34,
+    "type": "melee_attack"
+   }
+  ],
+  "aoe_radius": 150,
+  "cooldown": 4.5,
+  "damage_modifier": 1,
+  "damage_types": [
+   "melee"
+  ],
+  "description": "Minsc cleaves all targets near the closest enemy.",
+  "graphic_id": 0,
+  "id": 13,
+  "long_description": "",
+  "name": "Cleave",
+  "num_targets": 1,
+  "tags": [
+   "melee",
+   "aoe"
+  ],
+  "target": "front"
+ },
+ {
+  "animations": [
+   {
+    "jump_sound": 30,
+    "power_up_sequence": {
+     "effect_frames": {
+      "1": {
+       "effect_string": "boo_ultimate,5,0.3,100,30"
+      }
+     },
+     "end_frame": 57,
+     "repeat": true,
+     "sound_frames": {
+      "1": 193
+     },
+     "start_frame": 0
+    },
+    "sequences": [
+     {
+      "damage_frame": 93,
+      "end_frame": 103,
+      "hit_frames": [
+       60,
+       72
+      ],
+      "sound_frames": {
+       "60": 214,
+       "70": 215,
+       "80": 216,
+       "90": 217
+      },
+      "start_frame": 58,
+      "target_offset_x": -50
+     }
+    ],
+    "type": "melee_attack"
+   }
+  ],
+  "aoe_radius": 200,
+  "cooldown": 180,
+  "damage_modifier": 0.01875,
+  "damage_types": [
+   "melee"
+  ],
+  "description": "Minsc and Boo attack together, dealing massive cleaving damage.",
+  "graphic_id": 676,
+  "id": 14,
+  "long_description": "Minsc swings his greatsword in a massive circle centered on the front-most enemy while Boo leaps about causing up to 5 random enemies to take double damage for the next 30 seconds.",
+  "name": "Go for the Eyes!",
+  "num_targets": 1,
+  "tags": [
+   "melee",
+   "aoe",
+   "ultimate"
+  ],
+  "target": "front"
+ },
+ {
+  "animations": [
+   {
+    "hit_sound": 133,
+    "projectile": "witch_bolt",
+    "projectile_graphic_id": 1,
+    "shoot_frame": 20,
+    "shoot_offset_x": 75,
+    "shoot_offset_y": -15,
+    "sound_frames": {
+     "1": 169
+    },
+    "type": "ranged_attack"
+   }
+  ],
+  "aoe_radius": 0,
+  "cooldown": 4.7,
+  "damage_modifier": 1,
+  "damage_types": [
+   "magic"
+  ],
+  "description": "Blue cracking lightning hits the closest enemy.",
+  "graphic_id": 0,
+  "id": 15,
+  "long_description": "",
+  "name": "Witch Bolt",
+  "num_targets": 1,
+  "tags": [
+   "ranged"
+  ],
+  "target": "front"
+ },
+ {
+  "animations": [
+   {
+    "projectile": "ice_storm",
+    "projectile_graphic_id": 1,
+    "projectile_multi_hits": true,
+    "shoot_frame": 30,
+    "shoot_offset_y": -55,
+    "sound_frames": {
+     "1": 173
+    },
+    "type": "ranged_attack",
+    "unique_hit_cooldown_time": 0.5
+   }
+  ],
+  "aoe_radius": 0,
+  "cooldown": 240,
+  "damage_modifier": 0.01667,
+  "damage_types": [
+   "magic"
+  ],
+  "description": "Delina summons a deadly storm or ice from above.",
+  "graphic_id": 672,
+  "id": 16,
+  "long_description": "Delina summons a storm from above, causing sharp shards of ice to strike 3 random enemies.",
+  "name": "Ice Storm",
+  "num_targets": 3,
+  "tags": [
+   "ranged",
+   "multitarget",
+   "ultimate"
+  ],
+  "target": "random"
+ },
+ {
+  "animations": [
+   {
+    "hit_sound": -1,
+    "projectile": "eldritch_blast",
+    "projectile_graphic_id": 1,
+    "shoot_frame": 20,
+    "shoot_offset_x": 40,
+    "sound_frames": {
+     "1": 184
+    },
+    "type": "ranged_attack"
+   }
+  ],
+  "aoe_radius": 0,
+  "cooldown": 5.7,
+  "damage_modifier": 1,
+  "damage_types": [
+   "magic"
+  ],
+  "description": "A beam of green crackling energy streaks towards a random enemy.",
+  "graphic_id": 0,
+  "id": 17,
+  "long_description": "",
+  "name": "Eldritch Blast",
+  "num_targets": 1,
+  "tags": [
+   "ranged"
+  ],
+  "target": "random"
+ },
+ {
+  "animations": [
+   {
+    "hit_sound": 133,
+    "projectile": "circle_of_death",
+    "projectile_graphic_id": 1,
+    "shoot_frame": 45,
+    "sound_frames": {
+     "1": 188
+    },
+    "type": "ranged_attack"
+   }
+  ],
+  "aoe_radius": 200,
+  "cooldown": 300,
+  "damage_modifier": 0.00833,
+  "damage_types": [
+   "magic"
+  ],
+  "description": "A sphere of negative energy ripples out from a random enemy.",
+  "graphic_id": 675,
+  "id": 18,
+  "long_description": "A sphere of negative energy ripples out from a random enemy, causing that enemy and all other enemies near it to take heavy damage.",
+  "name": "Circle of Death",
+  "num_targets": 1,
+  "tags": [
+   "ranged",
+   "aoe",
+   "ultimate"
+  ],
+  "target": "random"
+ },
+ {
+  "animations": [
+   {
+    "damage_frame": 6,
+    "sound_frames": {
+     "2": 199
+    },
+    "target_offset_x": -60,
+    "type": "melee_attack"
+   }
+  ],
+  "aoe_radius": 0,
+  "cooldown": 6.2,
+  "damage_modifier": 1,
+  "damage_types": [
+   "melee"
+  ],
+  "description": "Tyril smacks the closest enemy with his staff.",
+  "graphic_id": 0,
+  "id": 19,
+  "long_description": "",
+  "name": "Shillelagh",
+  "num_targets": 1,
+  "tags": [
+   "melee"
+  ],
+  "target": "front"
+ },
+ {
+  "animations": [
+   {
+    "line_damage_distance": 100,
+    "projectile": "sun_beam",
+    "projectile_graphic_id": 1,
+    "shoot_offset_x": 50,
+    "shoot_offset_y": -30,
+    "sound_frames": {
+     "1": 203
+    },
+    "type": "ranged_attack"
+   }
+  ],
+  "aoe_radius": 0,
+  "cooldown": 240,
+  "damage_modifier": 0.0125,
+  "damage_types": [
+   "magic"
+  ],
+  "description": "Tyril hits a line of enemies with a brilliant and deadly beam of light.",
+  "graphic_id": 679,
+  "id": 20,
+  "long_description": "A beam of brilliant light flahes out from Tyril's off-hand and hits all enemies in a line, targetting a random enemy.",
+  "name": "Sunbeam",
+  "num_targets": 1,
+  "tags": [
+   "ranged",
+   "line",
+   "ultimate"
+  ],
+  "target": "random"
+ },
+ {
+  "animations": [
+   {
+    "damage_frame": 8,
+    "type": "melee_attack"
+   }
+  ],
+  "aoe_radius": 0,
+  "cooldown": 4,
+  "damage_modifier": 1,
+  "damage_types": [
+   "melee"
+  ],
+  "description": "",
+  "graphic_id": 0,
+  "id": 21,
+  "long_description": "",
+  "name": "Monster Melee Normal",
+  "num_targets": 1,
+  "tags": [
+   "monster",
+   "melee"
+  ],
+  "target": "front"
+ },
+ {
+  "animations": [
+   {
+    "projectile": "arrow",
+    "type": "ranged_attack"
+   }
+  ],
+  "aoe_radius": 0,
+  "cooldown": 3,
+  "damage_modifier": 0.33,
+  "damage_types": [
+   "ranged"
+  ],
+  "description": "",
+  "graphic_id": 0,
+  "id": 22,
+  "long_description": "",
+  "name": "Monster Ranged Normal",
+  "num_targets": 1,
+  "tags": [
+   "monster",
+   "ranged"
+  ],
+  "target": "front"
+ },
+ {
+  "animations": [
+   {
+    "animation": "split_sequence_multi_target",
+    "sequences": [
+     {
+      "damage_frame": 2,
+      "jump_sound": 30,
+      "sound_frames": {
+       "2": 174
+      }
+     }
+    ],
+    "target_offset_x": -34,
+    "type": "melee_attack"
+   }
+  ],
+  "aoe_radius": 0,
+  "cooldown": 6.5,
+  "damage_modifier": 1,
+  "damage_types": [
+   "melee"
+  ],
+  "description": "Jamilah leaps out at slashes the closest enemy.",
+  "graphic_id": 0,
+  "id": 23,
+  "long_description": "",
+  "name": "Uppercut",
+  "num_targets": 1,
+  "tags": [
+   "melee"
+  ],
+  "target": "front"
+ },
+ {
+  "animations": [
+   {
+    "animation": "split_sequence_multi_target",
+    "sequences": [
+     {
+      "damage_frame": 3,
+      "end_frame": 9,
+      "sound_frames": {
+       "3": 208
+      },
+      "start_frame": 0
+     },
+     {
+      "damage_frame": 14,
+      "end_frame": 20,
+      "sound_frames": {
+       "3": 209
+      },
+      "start_frame": 9
+     }
+    ],
+    "shake_on_hit": 0.1,
+    "target_offset_x": -80,
+    "type": "melee_attack"
+   }
+  ],
+  "aoe_radius": 0,
+  "cooldown": 120,
+  "damage_modifier": 0.02917,
+  "damage_types": [
+   "melee"
+  ],
+  "description": "Jamilah leaps quickly from enemy to enemy, swinging her greatsword.",
+  "graphic_id": 673,
+  "id": 24,
+  "long_description": "Jamilah leaps quickly from enemy to enemy, swinging her greatsword through them in a feat of strength and agility. She hits 6 times in total.",
+  "name": "Rage!",
+  "num_targets": 6,
+  "tags": [
+   "melee",
+   "ultimate"
+  ],
+  "target": "random"
+ },
+ {
+  "animations": [
+   {
+    "damage_frame": 2,
+    "jump_sound": 30,
+    "sound_frames": {
+     "2": 144
+    },
+    "target_offset_x": -34,
+    "type": "melee_attack"
+   }
+  ],
+  "aoe_radius": 0,
+  "cooldown": 3.9,
+  "damage_modifier": 1,
+  "damage_types": [
+   "melee"
+  ],
+  "description": "Arkhan attacks the closest enemy with the fury of Tiamat.",
+  "graphic_id": 0,
+  "id": 25,
+  "long_description": "",
+  "name": "Tiamat's Fury",
+  "num_targets": 1,
+  "tags": [
+   "melee"
+  ],
+  "target": "front"
+ },
+ {
+  "animations": [
+   {
+    "cone_damage_angle": 60,
+    "cone_damage_distance": 2000,
+    "jump_to_target": true,
+    "projectile": "fire_breath",
+    "shoot_frame": 15,
+    "shoot_offset_x": 36,
+    "shoot_offset_y": -37,
+    "sound_frames": {
+     "2": 148
+    },
+    "target_offset_x": -234,
+    "type": "ranged_attack"
+   }
+  ],
+  "aoe_radius": 0,
+  "cooldown": 180,
+  "damage_modifier": 0.01111,
+  "damage_types": [
+   "magic"
+  ],
+  "description": "Arkhan breaths deadly dragon fire on a cone of enemies.",
+  "graphic_id": 667,
+  "id": 26,
+  "long_description": "Arkhan rushes forward to the nearest enemy and breaths dragon fire on them and all enemies in a large cone.",
+  "name": "Flame Breath",
+  "num_targets": 1,
+  "tags": [
+   "ranged",
+   "cone",
+   "ultimate"
+  ],
+  "target": "front"
+ },
+ {
+  "animations": [
+   {
+    "damage_frame": 12,
+    "effect_frames": {
+     "hit+0.5": {
+      "effect_string": "grant_attack_damage_timed_temporary_hp,1,30,ultimate",
+      "targets": [
+       "self"
+      ]
+     }
+    },
+    "sound_frames": {
+     "12": 199,
+     "2": 97
+    },
+    "target_offset_x": -60,
+    "type": "melee_attack"
+   }
+  ],
+  "aoe_radius": 0,
+  "cooldown": 240,
+  "damage_modifier": 0.01875,
+  "damage_types": [
+   "melee"
+  ],
+  "description": "Tyril bites a random enemy and gains a massive damage shield.",
+  "graphic_id": 678,
+  "id": 27,
+  "long_description": "Tyril leaps to a random enemy, biting them with his huge jaws and gaining a percentage of the damage done as a damage shield that slowly fades over time.",
+  "name": "Shielding Bite",
+  "num_targets": 1,
+  "tags": [
+   "melee",
+   "ultimate"
+  ],
+  "target": "random"
+ },
+ {
+  "animations": [
+   {
+    "character": "companion",
+    "damage_frame": 35,
+    "hit_frames": [
+     2,
+     23,
+     35
+    ],
+    "jump_from": "offscreen",
+    "jump_sound": 218,
+    "shake_on_hit": 0.1,
+    "sound_frames": {
+     "2": 148,
+     "23": 148,
+     "35": 148
+    },
+    "target_offset_x": -100,
+    "type": "melee_attack"
+   }
+  ],
+  "aoe_radius": 50,
+  "cooldown": 180,
+  "damage_modifier": 0.02222,
+  "damage_types": [
+   "melee"
+  ],
+  "description": "Chango enters the battle, dealing enormous damage to a random enemy and all nearby enemies.",
+  "graphic_id": 666,
+  "id": 28,
+  "long_description": "Arkhan's pet manticore, Chango, enters the battle, leaping to a random enemy and dealing enormous damage to it and all nearby foes.",
+  "name": "Chango Unchained",
+  "num_targets": 1,
+  "tags": [
+   "melee",
+   "ultimate"
+  ],
+  "target": "random"
+ },
+ {
+  "animations": [
+   {
+    "damage_frame": 8,
+    "type": "melee_attack"
+   }
+  ],
+  "aoe_radius": 0,
+  "cooldown": 8,
+  "damage_modifier": 1,
+  "damage_types": [
+   "melee"
+  ],
+  "description": "",
+  "graphic_id": 0,
+  "id": 29,
+  "long_description": "",
+  "name": "Monster Melee Slow",
+  "num_targets": 0,
+  "tags": [
+   "monster",
+   "melee"
+  ],
+  "target": "front"
+ },
+ {
+  "animations": [
+   {
+    "damage_frame": 4,
+    "type": "melee_attack"
+   }
+  ],
+  "aoe_radius": 0,
+  "cooldown": 2,
+  "damage_modifier": 1,
+  "damage_types": [
+   "melee"
+  ],
+  "description": "",
+  "graphic_id": 0,
+  "id": 30,
+  "long_description": "",
+  "name": "Monster Melee Fast",
+  "num_targets": 0,
+  "tags": [
+   "monster",
+   "melee"
+  ],
+  "target": "front"
+ },
+ {
+  "animations": [
+   {
+    "projectile": "arrow",
+    "type": "ranged_attack"
+   }
+  ],
+  "aoe_radius": 0,
+  "cooldown": 6,
+  "damage_modifier": 0.33,
+  "damage_types": [
+   "ranged"
+  ],
+  "description": "",
+  "graphic_id": 0,
+  "id": 31,
+  "long_description": "",
+  "name": "Monster Ranged Slow",
+  "num_targets": 1,
+  "tags": [
+   "monster",
+   "ranged"
+  ],
+  "target": "front"
+ },
+ {
+  "animations": [
+   {
+    "damage_frame": 6,
+    "sound_frames": {
+     "2": 51
+    },
+    "target_offset_x": -60,
+    "type": "melee_attack"
+   }
+  ],
+  "aoe_radius": 0,
+  "cooldown": 6.2,
+  "damage_modifier": 1,
+  "damage_types": [
+   "melee"
+  ],
+  "description": "Tyril claws at the nearest enemy.",
+  "graphic_id": 0,
+  "id": 32,
+  "long_description": "",
+  "name": "Maul",
+  "num_targets": 1,
+  "tags": [
+   "melee"
+  ],
+  "target": "front"
+ },
+ {
+  "animations": [
+   {
+    "projectile": "fireball",
+    "type": "ranged_attack"
+   }
+  ],
+  "aoe_radius": 0,
+  "cooldown": 3,
+  "damage_modifier": 1,
+  "damage_types": [
+   "magic"
+  ],
+  "description": "",
+  "graphic_id": 0,
+  "id": 33,
+  "long_description": "",
+  "name": "Enemy Fireball",
+  "num_targets": 1,
+  "tags": [
+   "monster",
+   "ranged"
+  ],
+  "target": "front"
+ },
+ {
+  "animations": [
+   {
+    "projectile": "magic_missile",
+    "projectile_count": 3,
+    "type": "ranged_attack"
+   }
+  ],
+  "aoe_radius": 0,
+  "cooldown": 3,
+  "damage_modifier": 0.33,
+  "damage_types": [
+   "magic"
+  ],
+  "description": "",
+  "graphic_id": 0,
+  "id": 34,
+  "long_description": "",
+  "name": "Enemy Magic Missile",
+  "num_targets": 1,
+  "tags": [
+   "monster",
+   "ranged"
+  ],
+  "target": "front"
+ },
+ {
+  "animations": [
+   {
+    "projectile": "eldritch_blast",
+    "type": "ranged_attack"
+   }
+  ],
+  "aoe_radius": 0,
+  "cooldown": 5,
+  "damage_modifier": 1,
+  "damage_types": [
+   "magic"
+  ],
+  "description": "",
+  "graphic_id": 0,
+  "id": 44,
+  "long_description": "",
+  "name": "Enemy Eldritch Blast",
+  "num_targets": 1,
+  "tags": [
+   "monster",
+   "ranged"
+  ],
+  "target": "front"
+ },
+ {
+  "animations": [
+   {
+    "projectile": "guiding_bolt",
+    "type": "ranged_attack"
+   }
+  ],
+  "aoe_radius": 0,
+  "cooldown": 4,
+  "damage_modifier": 1,
+  "damage_types": [
+   "magic"
+  ],
+  "description": "",
+  "graphic_id": 0,
+  "id": 45,
+  "long_description": "",
+  "name": "Enemy Guiding Bolt",
+  "num_targets": 1,
+  "tags": [
+   "monster",
+   "ranged"
+  ],
+  "target": "front"
+ },
+ {
+  "animations": [
+   {
+    "effect_frames": {
+     "projectile": {
+      "active_graphic_id": 1060,
+      "active_graphic_y": -60,
+      "effect_string": "base_attack_speed_decrease,50",
+      "for_time": 5
+     }
+    },
+    "projectile": "spit",
+    "type": "ranged_attack"
+   }
+  ],
+  "aoe_radius": 0,
+  "cooldown": 4,
+  "damage_modifier": 1,
+  "damage_types": [
+   "ranged"
+  ],
+  "description": "",
+  "graphic_id": 0,
+  "id": 36,
+  "long_description": "",
+  "name": "Mad Cow Spit",
+  "num_targets": 1,
+  "tags": [
+   "monster",
+   "ranged"
+  ],
+  "target": "random"
+ },
+ {
+  "animations": [
+   {
+    "chain_attack_id": 40,
+    "hit_sound": 142,
+    "projectile": "knife",
+    "projectile_graphic_id": 1,
+    "shoot_frame": 14,
+    "sound_frames": {
+     "1": 180
+    },
+    "type": "ranged_attack"
+   }
+  ],
+  "aoe_radius": 0,
+  "cooldown": 4.9,
+  "damage_modifier": 1,
+  "damage_types": [
+   "ranged"
+  ],
+  "description": "Hitch throws a number of daggers and then stabs the nearest target in the face.",
+  "graphic_id": 0,
+  "id": 39,
+  "long_description": "",
+  "name": "Facestab",
+  "num_targets": 1,
+  "tags": [
+   "ranged",
+   "melee"
+  ],
+  "target": "random"
+ },
+ {
+  "animations": [
+   {
+    "projectile": "witch_bolt",
+    "type": "ranged_attack"
+   }
+  ],
+  "aoe_radius": 0,
+  "cooldown": 3,
+  "damage_modifier": 1,
+  "damage_types": [
+   "magic"
+  ],
+  "description": "",
+  "graphic_id": 0,
+  "id": 37,
+  "long_description": "",
+  "name": "Enemy Witch Bolt",
+  "num_targets": 1,
+  "tags": [
+   "monster",
+   "ranged"
+  ],
+  "target": "front"
+ },
+ {
+  "animations": [
+   {
+    "projectile": "magic_missile",
+    "projectile_count": 1,
+    "type": "ranged_attack"
+   }
+  ],
+  "aoe_radius": 0,
+  "cooldown": 3,
+  "damage_modifier": 1,
+  "damage_types": [
+   "magic"
+  ],
+  "description": "",
+  "graphic_id": 0,
+  "id": 38,
+  "long_description": "",
+  "name": "Enemy Single Missile",
+  "num_targets": 1,
+  "tags": [
+   "monster",
+   "ranged"
+  ],
+  "target": "front"
+ },
+ {
+  "animations": [
+   {
+    "damage_frame": 6,
+    "jump_sound": 30,
+    "sound_frames": {
+     "3": 179
+    },
+    "target_offset_x": -14,
+    "type": "melee_attack"
+   }
+  ],
+  "aoe_radius": 0,
+  "cooldown": 4.9,
+  "damage_modifier": 1,
+  "damage_types": [
+   "melee"
+  ],
+  "description": "Hitch stabs the nearest target in the face. Ouch!",
+  "graphic_id": 0,
+  "id": 40,
+  "long_description": "",
+  "name": "Facestab",
+  "num_targets": 1,
+  "tags": [
+   "melee"
+  ],
+  "target": "front"
+ },
+ {
+  "animations": [
+   {
+    "animation": "split_sequence_multi_target",
+    "sequences": [
+     {
+      "damage_frame": 6,
+      "end_frame": 28,
+      "scale_x": -1,
+      "sound_frames": {
+       "2": 174,
+       "3": 179
+      },
+      "start_frame": 0,
+      "target_offset_x": 140
+     }
+    ],
+    "shake_on_hit": 0.1,
+    "type": "melee_attack"
+   }
+  ],
+  "aoe_radius": 0,
+  "cooldown": 195,
+  "damage_modifier": 0.02051,
+  "damage_types": [
+   "melee"
+  ],
+  "description": "Hitch disappears into the shadows and brutally backstabs the five furthest enemies.",
+  "graphic_id": 1035,
+  "id": 41,
+  "long_description": "Hitch disappears into the shadows and reappears behind the furthest enemy, whom he stabs. He then repeats this for the next four furthest enemies, if applicable.",
+  "name": "Shadow Attack",
+  "num_targets": 5,
+  "tags": [
+   "melee",
+   "ultimate"
+  ],
+  "target": "back"
+ },
+ {
+  "animations": [
+   {
+    "animation": "split_sequence_multi_target",
+    "max_target_unique_hits": 1,
+    "sequences": [
+     {
+      "damage_frame": 25,
+      "end_frame": 25,
+      "hit_frames": [
+       5,
+       10,
+       15,
+       20
+      ],
+      "sound_frames": {
+       "10": 199,
+       "15": 199,
+       "20": 199,
+       "5": 199
+      },
+      "start_frame": 0,
+      "target_offset_x": -60
+     }
+    ],
+    "type": "melee_attack",
+    "unique_hit_on_damage_only": true
+   }
+  ],
+  "aoe_radius": 0,
+  "cooldown": 3.75,
+  "damage_modifier": 1,
+  "damage_types": [
+   "melee"
+  ],
+  "description": "Stoki leaps out and attacks the closest enemies with her fists.",
+  "graphic_id": 0,
+  "id": 42,
+  "long_description": "",
+  "name": "Flurry of Blows",
+  "num_targets": 1,
+  "tags": [
+   "melee"
+  ],
+  "target": "front"
+ },
+ {
+  "animations": [
+   {
+    "animation": "split_sequence_multi_target",
+    "damage_over_time": {
+     "graphic_id": 0,
+     "percent": 0.9,
+     "tick_time": 0.02,
+     "time": 10
+    },
+    "sequences": [
+     {
+      "damage_frame": 20,
+      "end_frame": 25,
+      "sound_frames": {
+       "2": 174
+      },
+      "start_frame": 0,
+      "target_offset_x": -70
+     }
+    ],
+    "shake_on_hit": 0.1,
+    "type": "melee_attack"
+   }
+  ],
+  "aoe_radius": 0,
+  "cooldown": 160,
+  "damage_modifier": 0.025,
+  "damage_types": [
+   "melee"
+  ],
+  "description": "Stoki leaps around the screen attacking random enemies and causing damage over time.",
+  "graphic_id": 1117,
+  "id": 43,
+  "long_description": "Stoki leaps out and attacks five random enemies with extremely powerful palm thrusts. Over the next 10 seconds, all affected enemies take massive damage over time.",
+  "name": "Quivering Palm",
+  "num_targets": 5,
+  "tags": [
+   "melee",
+   "ultimate"
+  ],
+  "target": "random"
+ },
+ {
+  "animations": [
+   {
+    "damage_frame": 2,
+    "jump_sound": 30,
+    "sound_frames": {
+     "2": 154
+    },
+    "target_offset_x": -80,
+    "type": "melee_attack"
+   }
+  ],
+  "aoe_radius": 0,
+  "cooldown": 5.75,
+  "damage_modifier": 1,
+  "damage_types": [
+   "melee"
+  ],
+  "description": "Krond leaps out and attacks the front-most target with his bonded warhammer.",
+  "graphic_id": 0,
+  "id": 46,
+  "long_description": "",
+  "name": "Orcish Smash",
+  "num_targets": 1,
+  "tags": [
+   "melee"
+  ],
+  "target": "front"
+ },
+ {
+  "animations": [
+   {
+    "chain_attack_id": 51,
+    "damage_frame": 2,
+    "return_to_formation": false,
+    "sequences": [
+     {
+      "damage_frame": 2,
+      "end_frame": 9,
+      "sound_frames": {
+       "3": 154
+      },
+      "start_frame": 0,
+      "target_offset_x": -80
+     }
+    ],
+    "type": "melee_attack"
+   }
+  ],
+  "aoe_radius": 0,
+  "cooldown": 5.75,
+  "damage_modifier": 1,
+  "damage_types": [
+   "melee"
+  ],
+  "description": "Krond leaps out and attacks the front-most target with his bonded warhammer and then casts Thunderclap, damaging all nearby enemies.",
+  "graphic_id": 0,
+  "id": 47,
+  "long_description": "",
+  "name": "War Magic",
+  "num_targets": 1,
+  "tags": [
+   "melee"
+  ],
+  "target": "front"
+ },
+ {
+  "animations": [
+   {
+    "chain_attack_id": 52,
+    "damage_frame": 2,
+    "return_to_formation": false,
+    "sequences": [
+     {
+      "damage_frame": 2,
+      "end_frame": 9,
+      "sound_frames": {
+       "3": 154
+      },
+      "start_frame": 0,
+      "target_offset_x": -80
+     }
+    ],
+    "type": "melee_attack"
+   }
+  ],
+  "aoe_radius": 0,
+  "cooldown": 5.75,
+  "damage_modifier": 1,
+  "damage_types": [
+   "melee"
+  ],
+  "description": "Krond leaps out and attacks the front-most target with his bonded warhammer and then casts Shocking Grasp, adding additional damage.",
+  "graphic_id": 0,
+  "id": 48,
+  "long_description": "",
+  "name": "War Magic",
+  "num_targets": 1,
+  "tags": [
+   "melee"
+  ],
+  "target": "front"
+ },
+ {
+  "animations": [
+   {
+    "chain_attack_id": 53,
+    "damage_frame": 2,
+    "return_to_formation": false,
+    "sequences": [
+     {
+      "damage_frame": 2,
+      "end_frame": 9,
+      "sound_frames": {
+       "3": 154
+      },
+      "start_frame": 0,
+      "target_offset_x": -80
+     }
+    ],
+    "type": "melee_attack"
+   }
+  ],
+  "aoe_radius": 0,
+  "cooldown": 5.75,
+  "damage_modifier": 1,
+  "damage_types": [
+   "melee"
+  ],
+  "description": "Krond leaps out and attacks the front-most target with his bonded warhammer and then casts Fire Bolt, damaging several random enemies.",
+  "graphic_id": 0,
+  "id": 49,
+  "long_description": "",
+  "name": "War Magic",
+  "num_targets": 1,
+  "tags": [
+   "melee"
+  ],
+  "target": "front"
+ },
+ {
+  "animations": [
+   {
+    "power_up_sequence": {
+     "end_frame": 15,
+     "sound_frames": {
+      "2": 149
+     },
+     "start_frame": 0
+    },
+    "sequences": [
+     {
+      "damage_frame": 22,
+      "end_frame": 44,
+      "sound_frames": {
+       "20": 133
+      },
+      "start_frame": 18,
+      "visual_effect_frames": {
+       "hit": {
+        "effect": "animated_clip",
+        "graphic_id": 1321,
+        "offset_x": 70,
+        "sort_offset": -9999
+       }
+      }
+     }
+    ],
+    "shake_on_hit": 0.1,
+    "type": "melee_attack"
+   }
+  ],
+  "aoe_radius": 200,
+  "cooldown": 210,
+  "damage_modifier": 0.01667,
+  "damage_types": [
+   "magic"
+  ],
+  "description": "Krond teleports to a random enemy and causes massive aoe damage.",
+  "graphic_id": 1356,
+  "id": 50,
+  "long_description": "Krond throws down his warhammer and leaps up into the air, teleporting to a random enemy and causing massive aoe damage by slamming down to the ground and casting Shatter when he appears.",
+  "name": "Arcane Charge",
+  "num_targets": 1,
+  "tags": [
+   "melee",
+   "ultimate"
+  ],
+  "target": "random"
+ },
+ {
+  "animations": [
+   {
+    "hit_sound": 133,
+    "jump_from_target": true,
+    "projectile": "thunderclap",
+    "shoot_frame": 11,
+    "shoot_offset_x": 75,
+    "shoot_offset_y": -15,
+    "sound_frames": {
+     "1": 169
+    },
+    "target_offset_x": 90,
+    "target_offset_y": -60,
+    "type": "ranged_attack"
+   }
+  ],
+  "aoe_radius": 200,
+  "cooldown": 5.75,
+  "damage_modifier": 0.5,
+  "damage_types": [
+   "magic"
+  ],
+  "description": "Part 2 of Kronds Attack - Thunderclap",
+  "graphic_id": 0,
+  "id": 51,
+  "long_description": "",
+  "name": "Krond's Thunderclap",
+  "num_targets": 1,
+  "tags": [
+   "melee",
+   "aoe"
+  ],
+  "target": "ground"
+ },
+ {
+  "animations": [
+   {
+    "hit_sound": 133,
+    "jump_from_target": true,
+    "projectile": "shocking_grasp",
+    "shoot_frame": 11,
+    "shoot_offset_x": 75,
+    "shoot_offset_y": -15,
+    "sound_frames": {
+     "1": 164
+    },
+    "type": "ranged_attack"
+   }
+  ],
+  "aoe_radius": 0,
+  "cooldown": 5.75,
+  "damage_modifier": 2,
+  "damage_types": [
+   "magic"
+  ],
+  "description": "Part 2 of Kronds Attack - Shocking Grasp",
+  "graphic_id": 0,
+  "id": 52,
+  "long_description": "",
+  "name": "Krond's Shocking Grasp",
+  "num_targets": 1,
+  "tags": [
+   "melee"
+  ],
+  "target": "chain_source"
+ },
+ {
+  "animations": [
+   {
+    "hit_sound": 69,
+    "jump_from_target": true,
+    "projectile": "firebolt",
+    "shoot_frame": 11,
+    "sound_frames": {
+     "4": 84
+    },
+    "type": "ranged_attack"
+   }
+  ],
+  "aoe_radius": 0,
+  "cooldown": 5.75,
+  "damage_modifier": 0.66,
+  "damage_types": [
+   "magic"
+  ],
+  "description": "Part 2 of Kronds Attack - Fire Bolt",
+  "graphic_id": 0,
+  "id": 53,
+  "long_description": "",
+  "name": "Krond's Fire Bolt",
+  "num_targets": 3,
+  "tags": [
+   "ranged"
+  ],
+  "target": "random"
+ },
+ {
+  "animations": [
+   {
+    "projectile": "spit",
+    "type": "ranged_attack"
+   }
+  ],
+  "aoe_radius": 0,
+  "cooldown": 4,
+  "damage_modifier": 1,
+  "damage_types": [
+   "ranged"
+  ],
+  "description": "",
+  "graphic_id": 0,
+  "id": 54,
+  "long_description": "",
+  "name": "Enemy Poison Spit",
+  "num_targets": 1,
+  "tags": [
+   "monster",
+   "ranged"
+  ],
+  "target": "front"
+ },
+ {
+  "animations": [
+   {
+    "damage_frame": 2,
+    "jump_sound": 30,
+    "sound_frames": {
+     "2": 154
+    },
+    "target_offset_x": -84,
+    "type": "melee_attack"
+   }
+  ],
+  "aoe_radius": 0,
+  "cooldown": 4.6,
+  "damage_modifier": 1,
+  "damage_types": [
+   "melee"
+  ],
+  "description": "Gromma Nander, moving faster than you would expect for an 80 year old Tortle, stabs the closest enemy with her spear.",
+  "graphic_id": 0,
+  "id": 57,
+  "long_description": "",
+  "name": "Slow and Steady",
+  "num_targets": 1,
+  "tags": [
+   "melee"
+  ],
+  "target": "front"
+ },
+ {
+  "animations": [
+   {
+    "projectile": "magic_missile",
+    "projectile_count": 3,
+    "type": "ranged_attack"
+   }
+  ],
+  "aoe_radius": 0,
+  "cooldown": 3,
+  "damage_modifier": 0.33,
+  "damage_types": [
+   "magic"
+  ],
+  "description": "",
+  "graphic_id": 0,
+  "id": 56,
+  "long_description": "",
+  "name": "Enemy Random Magic Missile",
+  "num_targets": 1,
+  "tags": [
+   "monster",
+   "ranged"
+  ],
+  "target": "random"
+ },
+ {
+  "animations": [
+   {
+    "hit_sound": 81,
+    "projectile": "acid_arrow",
+    "projectile_count": 1,
+    "shoot_frame": 11,
+    "type": "ranged_attack"
+   }
+  ],
+  "aoe_radius": 0,
+  "cooldown": 4.6,
+  "damage_modifier": 1,
+  "damage_types": [
+   "magic"
+  ],
+  "description": "Gromma draws upon her Druid training to fling an Acid Arrow on the nearest enemy.",
+  "graphic_id": 0,
+  "id": 58,
+  "long_description": "",
+  "name": "Melf's Acid Arrow",
+  "num_targets": 1,
+  "tags": [
+   "ranged"
+  ],
+  "target": "front"
+ },
+ {
+  "animations": [
+   {
+    "aoe_rect": {
+     "height": 1400,
+     "width": 40,
+     "x": -20,
+     "y": -700
+    },
+    "hit_sound": 81,
+    "projectile": "wall_of_stone",
+    "projectile_count": 1,
+    "shoot_frame": 10,
+    "type": "ranged_attack"
+   }
+  ],
+  "aoe_radius": 0,
+  "cooldown": 120,
+  "damage_modifier": 0.038,
+  "damage_types": [
+   "magic"
+  ],
+  "description": "Gromma summons a wall of stone, knocking enemies back and blocking their movement.",
+  "graphic_id": 1487,
+  "id": 59,
+  "long_description": "A wall of stone bursts up out of the ground under a random enemy. The targeted enemy and any enemies in the column that the wall appears in take damage and are knocked backwards. The wall lasts for 15 seconds, and for that time enemies cannot pass it.",
+  "name": "Wall Of Stone",
+  "num_targets": 1,
+  "tags": [
+   "ranged",
+   "ultimate"
+  ],
+  "target": "random"
+ },
+ {
+  "animations": [
+   {
+    "projectile": "random_chromatic_orb",
+    "type": "ranged_attack"
+   }
+  ],
+  "aoe_radius": 0,
+  "cooldown": 3.5,
+  "damage_modifier": 1,
+  "damage_types": [
+   "magic"
+  ],
+  "description": "Dhadius tosses a Chromatic orb with a random element at the nearest enemy.",
+  "graphic_id": 0,
+  "id": 60,
+  "long_description": "",
+  "name": "Chromatic Orb",
+  "num_targets": 1,
+  "tags": [
+   "ranged"
+  ],
+  "target": "front"
+ },
+ {
+  "animations": [
+   {
+    "additional_targets": [
+     {
+      "amount": 1,
+      "type": "per_monster"
+     }
+    ],
+    "hit_sound": 133,
+    "projectile": "magic_missile",
+    "projectile_count": 5,
+    "projectile_delay": 0.05,
+    "projectile_graphic_id": 1,
+    "shoot_frame": 21,
+    "shoot_sound": 149,
+    "type": "ranged_attack"
+   }
+  ],
+  "aoe_radius": 0,
+  "cooldown": 250,
+  "damage_modifier": 0.0125,
+  "damage_types": [
+   "magic"
+  ],
+  "description": "Dhadius summons a storm of Magic Missiles.",
+  "graphic_id": 1649,
+  "id": 61,
+  "long_description": "Dhadius summons a storm of Magic Missiles - one for every enemy, plus a few extras for good measure.",
+  "name": "Magic Missile Barrage",
+  "num_targets": 5,
+  "tags": [
+   "ranged",
+   "ultimate"
+  ],
+  "target": "random"
+ },
+ {
+  "animations": [
+   {
+    "projectile": "monkey_skull",
+    "type": "ranged_attack"
+   }
+  ],
+  "aoe_radius": 0,
+  "cooldown": 4,
+  "damage_modifier": 1,
+  "damage_types": [
+   "ranged"
+  ],
+  "description": "",
+  "graphic_id": 0,
+  "id": 62,
+  "long_description": "",
+  "name": "Monkey Skull",
+  "num_targets": 1,
+  "tags": [
+   "ranged"
+  ],
+  "target": "random"
+ },
+ {
+  "animations": [
+   {
+    "damage_frame": 2,
+    "jump_sound": 30,
+    "sound_frames": {
+     "2": 154
+    },
+    "target_offset_x": -34,
+    "type": "melee_attack"
+   }
+  ],
+  "aoe_radius": 0,
+  "cooldown": 4.2,
+  "damage_modifier": 1,
+  "damage_types": [
+   "melee"
+  ],
+  "description": "Drizzt attacks the nearest enemy with his twin scimitars, Icingdeath and Twinkle.",
+  "graphic_id": 0,
+  "id": 63,
+  "long_description": "",
+  "name": "Dual Wield",
+  "num_targets": 1,
+  "tags": [
+   "melee"
+  ],
+  "target": "front"
+ },
+ {
+  "animations": [
+   {
+    "animation_sequence": 4,
+    "damage_frame": 2,
+    "jump_sound": 30,
+    "sound_frames": {
+     "2": 154
+    },
+    "target_offset_x": -34,
+    "type": "melee_attack"
+   }
+  ],
+  "aoe_radius": 150,
+  "cooldown": 4.2,
+  "damage_modifier": 1,
+  "damage_types": [
+   "melee"
+  ],
+  "description": "Drizzt becomes a whirlwind of steel, dealing AOE damage centered on the nearest enemy.",
+  "graphic_id": 0,
+  "id": 64,
+  "long_description": "",
+  "name": "Whirl of Steel",
+  "num_targets": 1,
+  "tags": [
+   "melee"
+  ],
+  "target": "front"
+ },
+ {
+  "animations": [
+   {
+    "animation": "split_sequence_multi_target",
+    "jump_sound": 30,
+    "sequences": [
+     {
+      "animation_sequence": 11,
+      "damage_frame": 6,
+      "end_frame": 30,
+      "sound_frames": {
+       "2": 154
+      },
+      "start_frame": 0,
+      "target_offset_x": -34
+     },
+     {
+      "animation_sequence": 11,
+      "damage_frame": 37,
+      "end_frame": 55,
+      "sound_frames": {
+       "39": 154
+      },
+      "start_frame": 31,
+      "target_offset_x": -34
+     },
+     {
+      "animation_sequence": 3,
+      "damage_frame": 6,
+      "end_frame": 26,
+      "sound_frames": {
+       "2": 194
+      },
+      "start_frame": 0,
+      "target_offset_x": -34
+     }
+    ],
+    "type": "melee_attack",
+    "unique_final_sequence": true
+   }
+  ],
+  "aoe_radius": 0,
+  "cooldown": 4.2,
+  "damage_modifier": 1,
+  "damage_types": [
+   "melee"
+  ],
+  "description": "Drizzt attacks the three nearest enemies with his twin scimitars.",
+  "graphic_id": 0,
+  "id": 65,
+  "long_description": "",
+  "name": "Drow Stalker",
+  "num_targets": 3,
+  "tags": [
+   "melee"
+  ],
+  "target": "front"
+ },
+ {
+  "animations": [
+   {
+    "animation": "spawn_guenhwyvar",
+    "effect_frames": {
+     "48": {
+      "active_graphic_id": 1957,
+      "active_graphic_slot": true,
+      "active_graphic_x": 195,
+      "active_graphic_y": 3,
+      "apply_to_hero": true,
+      "effect_string": "guenhwyvar_stalking,69",
+      "for_time": 30
+     }
+    },
+    "offset_x": 195,
+    "offset_y": 3,
+    "sound_frames": {
+     "2": 154
+    },
+    "type": "melee_attack",
+    "use_damage_from_other_attack": 69,
+    "visual_effect_frames": {
+     "48": {
+      "effect": "spawn_guenhwyvar"
+     }
+    }
+   }
+  ],
+  "aoe_radius": 0,
+  "cooldown": 280,
+  "damage_modifier": 0,
+  "damage_types": [
+   "melee"
+  ],
+  "description": "Drizzt tosses his Figurine of Wondrous Power on the ground, summoning Guenhwyvar.",
+  "graphic_id": 1965,
+  "id": 66,
+  "long_description": "Drizzt tosses his Figurine of Wondrous Power on the ground, summoning Guenhwyvar. For the next 30 seconds, whenever Drizzt attacks, Guenhwyvar also attacks from off-screen.",
+  "name": "Guenhwyvar",
+  "num_targets": 0,
+  "tags": [
+   "melee",
+   "ultimate"
+  ],
+  "target": "none"
+ },
+ {
+  "animations": [
+   {
+    "damage_frame": 6,
+    "sound_frames": {
+     "2": 199
+    },
+    "target_offset_x": -60,
+    "type": "melee_attack"
+   }
+  ],
+  "aoe_radius": 0,
+  "cooldown": 4.4,
+  "damage_modifier": 1,
+  "damage_types": [
+   "melee"
+  ],
+  "description": "Barrowin smashes the nearest enemy with her mighty warhammer.",
+  "graphic_id": 0,
+  "id": 67,
+  "long_description": "",
+  "name": "Mighty Hammer",
+  "num_targets": 1,
+  "tags": [
+   "melee"
+  ],
+  "target": "front"
+ },
+ {
+  "animations": [
+   {
+    "effects_on_monsters": [
+     {
+      "active_graphic_id": 626,
+      "after_damage": true,
+      "effect_string": "per_attack_additional_global_dps_percent,3",
+      "for_time": 5
+     }
+    ],
+    "hit_sound": 133,
+    "hold_shoot_frame": true,
+    "projectile": "holy_weapon",
+    "projectile_graphic_id": 1,
+    "shoot_frame": 28,
+    "shoot_sound": 149,
+    "stun_on_hit": 5,
+    "type": "ranged_attack"
+   }
+  ],
+  "aoe_radius": 0,
+  "cooldown": 360,
+  "damage_modifier": 0.03,
+  "damage_types": [
+   "ranged"
+  ],
+  "description": "Barrowin infuses her warhammer with holy energy and then tosses it at a random enemy.",
+  "graphic_id": 1872,
+  "id": 68,
+  "long_description": "Barrowin infuses her warhammer with holy energy and then tosses it at a random enemy. For the next 5 seconds, that enemy takes additional damage when it is attacked by other Champions.",
+  "name": "Holy Weapon",
+  "num_targets": 1,
+  "tags": [
+   "melee",
+   "ultimate"
+  ],
+  "target": "random"
+ },
+ {
+  "animations": [
+   {
+    "damage_frame": 8,
+    "damage_uses_cooldown_from_hero_base_attack": 18,
+    "reverse": true,
+    "scale_x": -1,
+    "type": "melee_attack"
+   }
+  ],
+  "aoe_radius": 0,
+  "cooldown": 0,
+  "damage_modifier": 3,
+  "damage_types": [
+   "melee"
+  ],
+  "description": "Guenhwyvar deals a punishing blow",
+  "graphic_id": 0,
+  "id": 69,
+  "long_description": "Guenhwyvar deals a punishing blow",
+  "name": "Guenhwyvar Attack",
+  "num_targets": 1,
+  "tags": [
+   "melee",
+   "ultimate"
+  ],
+  "target": "random"
+ },
+ {
+  "animations": [
+   {
+    "projectile": "knife",
+    "type": "ranged_attack"
+   }
+  ],
+  "aoe_radius": 0,
+  "cooldown": 4,
+  "damage_modifier": 1,
+  "damage_types": [
+   "ranged"
+  ],
+  "description": "",
+  "graphic_id": 0,
+  "id": 70,
+  "long_description": "",
+  "name": "Enemy Dagger Throw",
+  "num_targets": 1,
+  "tags": [
+   "monster",
+   "ranged"
+  ],
+  "target": "random"
+ },
+ {
+  "animations": [
+   {
+    "damage_frame": 12,
+    "hit_frames": [
+     2
+    ],
+    "jump_sound": 30,
+    "sound_frames": {
+     "2": 154
+    },
+    "target_offset_x": -40,
+    "type": "melee_attack"
+   }
+  ],
+  "aoe_radius": 0,
+  "cooldown": 7.8,
+  "damage_modifier": 1,
+  "damage_types": [
+   "melee"
+  ],
+  "description": "Regis reluctantly stabs the nearest enemy with his dagger.",
+  "graphic_id": 0,
+  "id": 71,
+  "long_description": "",
+  "name": "Reluctant Stab",
+  "num_targets": 1,
+  "tags": [
+   "melee"
+  ],
+  "target": "front"
+ },
+ {
+  "animations": [
+   {
+    "jump_sound": 30,
+    "power_up_sequence": {
+     "effect_frames": {
+      "27": {
+       "effect_string": "effect_def,80"
+      }
+     },
+     "end_frame": 35,
+     "repeat": false,
+     "sound_frames": {
+      "14": 164
+     },
+     "start_frame": 0
+    },
+    "sequences": [
+     {
+      "damage_frame": 41,
+      "end_frame": 53,
+      "hit_frames": [
+       41
+      ],
+      "sound_frames": {
+       "39": 174
+      },
+      "start_frame": 36,
+      "target_offset_x": -50
+     }
+    ],
+    "type": "melee_attack"
+   }
+  ],
+  "aoe_radius": 150,
+  "cooldown": 300,
+  "damage_modifier": 0.01,
+  "damage_types": [
+   "melee"
+  ],
+  "description": "Regis attacks using the power of his ruby pendant.",
+  "graphic_id": 2002,
+  "id": 72,
+  "long_description": "Regis holds his ruby pendant up, mesmerizing enemies before attacking damaging all enemies in a medium radius and providing the effect of Ruby Encouragement to all champions for 15 seconds.",
+  "name": "Ruby Manipulation",
+  "num_targets": 1,
+  "tags": [
+   "melee",
+   "ultimate"
+  ],
+  "target": "random"
+ },
+ {
+  "animations": [
+   {
+    "projectile": "magic_missile",
+    "projectile_count": 1,
+    "special_attack_handler": {
+     "type": "devourer"
+    },
+    "type": "ranged_attack"
+   }
+  ],
+  "aoe_radius": 0,
+  "cooldown": 0,
+  "damage_modifier": 0,
+  "damage_types": [
+   "magic"
+  ],
+  "description": "Devourer hits a Champion, transports them to their belly and eats them",
+  "graphic_id": 753,
+  "id": 73,
+  "long_description": "Devourer hits a Champion, transports them to their belly and eats them",
+  "name": "Devourer Blast",
+  "num_targets": 1,
+  "tags": [
+   "monster",
+   "ranged"
+  ],
+  "target": "random"
+ },
+ {
+  "animations": [
+   {
+    "animation": "split_sequence_multi_target",
+    "sequences": [
+     {
+      "damage_frame": 2,
+      "end_frame": 25,
+      "hit_frames": [
+       2
+      ],
+      "sound_frames": {
+       "2": 199
+      },
+      "start_frame": 0,
+      "target_offset_x": -60
+     }
+    ],
+    "type": "melee_attack"
+   }
+  ],
+  "aoe_radius": 0,
+  "cooldown": 3.75,
+  "damage_modifier": 1,
+  "damage_types": [
+   "melee"
+  ],
+  "description": "Birdsong leaps out with a cat's grace and attacks her enemies with her sword.",
+  "graphic_id": 0,
+  "id": 74,
+  "long_description": "",
+  "name": "Flashing Blades",
+  "num_targets": 1,
+  "tags": [
+   "melee"
+  ],
+  "target": "front"
+ },
+ {
+  "animations": [
+   {
+    "animation": "split_sequence_multi_target",
+    "complete_effect": {
+     "apply_to_hero": true,
+     "effect_string": "base_attack_speed_mult,100",
+     "for_time": 15
+    },
+    "sequences": [
+     {
+      "damage_frame": 20,
+      "end_frame": 27,
+      "hit_frames": [
+       2,
+       20
+      ],
+      "sound_frames": {
+       "2": 199,
+       "20": 199
+      },
+      "start_frame": 0,
+      "target_offset_x": -60
+     }
+    ],
+    "shake_on_hit": 0.1,
+    "stun_graphic": 1509,
+    "stun_on_hit": 5,
+    "target_offset_x": -80,
+    "type": "melee_attack"
+   }
+  ],
+  "aoe_radius": 0,
+  "cooldown": 180,
+  "damage_modifier": 0.0325,
+  "damage_types": [
+   "melee"
+  ],
+  "description": "Birdsong leaps from enemy to enemy, dealing damage and stunning them.",
+  "graphic_id": 2125,
+  "id": 75,
+  "long_description": "Birdsong leaps from enemy to enemy 5 times, dealing damage and stunning them for 5 seconds. When she's done, her normal attack cooldown is lowered by 50% for 15 seconds.",
+  "name": "Cat's Agility",
+  "num_targets": 5,
+  "tags": [
+   "melee",
+   "ultimate"
+  ],
+  "target": "random"
+ },
+ {
+  "animations": [
+   {
+    "projectile": "magic_missile",
+    "projectile_count": 3,
+    "special_attack_handler": {
+     "type": "golem_spawn"
+    },
+    "type": "ranged_attack"
+   }
+  ],
+  "aoe_radius": 0,
+  "cooldown": 1.5,
+  "damage_modifier": 0.33,
+  "damage_types": [
+   "magic"
+  ],
+  "description": "",
+  "graphic_id": 0,
+  "id": 76,
+  "long_description": "",
+  "name": "Nanny Pu'pu Magic Missile",
+  "num_targets": 1,
+  "tags": [
+   "monster",
+   "ranged"
+  ],
+  "target": "front"
+ },
+ {
+  "animations": [
+   {
+    "projectile": "spear",
+    "type": "ranged_attack"
+   }
+  ],
+  "aoe_radius": 0,
+  "cooldown": 3,
+  "damage_modifier": 0.33,
+  "damage_types": [
+   "ranged"
+  ],
+  "description": "",
+  "graphic_id": 0,
+  "id": 77,
+  "long_description": "",
+  "name": "Enemy Ranged Spear",
+  "num_targets": 1,
+  "tags": [
+   "monster",
+   "ranged"
+  ],
+  "target": "front"
+ },
+ {
+  "animations": [
+   {
+    "projectile": "web",
+    "type": "ranged_attack"
+   }
+  ],
+  "aoe_radius": 0,
+  "cooldown": 3,
+  "damage_modifier": 0.33,
+  "damage_types": [
+   "ranged"
+  ],
+  "description": "",
+  "graphic_id": 0,
+  "id": 78,
+  "long_description": "",
+  "name": "Enemy Ranged Web Spit NOT USED?",
+  "num_targets": 1,
+  "tags": [
+   "monster",
+   "ranged"
+  ],
+  "target": "front"
+ },
+ {
+  "animations": [
+   {
+    "always_new_targets": true,
+    "effect_frames": {
+     "projectile": {
+      "active_graphic_id": 2464,
+      "active_graphic_y": -60,
+      "effect_string": "disable_hero_properties,0,0,0,1",
+      "for_time": 10
+     }
+    },
+    "projectile": "web",
+    "type": "ranged_attack"
+   }
+  ],
+  "aoe_radius": 0,
+  "cooldown": 5,
+  "damage_modifier": 1,
+  "damage_types": [
+   "ranged"
+  ],
+  "description": "",
+  "graphic_id": 0,
+  "id": 79,
+  "long_description": "",
+  "name": "Huge Spider Queen Web",
+  "num_targets": 1,
+  "tags": [
+   "monster",
+   "ranged"
+  ],
+  "target": "random"
+ },
+ {
+  "animations": [
+   {
+    "hit_sound": 142,
+    "line_damage_distance": 100,
+    "projectile": "impale",
+    "projectile_graphic_id": 1,
+    "shoot_frame": 5,
+    "sound_frames": {
+     "1": 163
+    },
+    "type": "ranged_attack"
+   }
+  ],
+  "aoe_radius": 0,
+  "cooldown": 6.2,
+  "damage_modifier": 1,
+  "damage_types": [
+   "ranged"
+  ],
+  "description": "Zorbu fires a bolt from his massive crossbow at a random enemy, dealing damage to all.",
+  "graphic_id": 0,
+  "id": 82,
+  "long_description": "",
+  "name": "Massive Bolt",
+  "num_targets": 1,
+  "tags": [
+   "ranged"
+  ],
+  "target": "random"
+ },
+ {
+  "animations": [
+   {
+    "projectile": "squirrel",
+    "shoot_frame": 35,
+    "shoot_offset_x": 43,
+    "shoot_offset_y": 51,
+    "type": "ranged_attack"
+   }
+  ],
+  "aoe_radius": 200,
+  "cooldown": 240,
+  "damage_modifier": 0.014,
+  "damage_types": [
+   "ranged"
+  ],
+  "description": "Zorbu winds up a small mechanical squirrel and sends it skittering towards a random enemy.",
+  "graphic_id": 2430,
+  "id": 83,
+  "long_description": "Zorbu winds up a small mechanical squirrel and sends it skittering towards a random enemy. When it reaches them, it detonates the hidden vial of Alchemist's fire inside, and does AOE damage to all nearby enemies.",
+  "name": "Mechanical Squirrel",
+  "num_targets": 1,
+  "tags": [
+   "ranged",
+   "ultimate"
+  ],
+  "target": "random"
+ },
+ {
+  "animations": [
+   {
+    "always_new_targets": true,
+    "damage_frame": 8,
+    "effect_frames": {
+     "hit": {
+      "active_graphic_id": 1509,
+      "active_graphic_y": -100,
+      "effect_string": "disable_hero_properties,0,0,0,1",
+      "for_time": 2
+     }
+    },
+    "melee_hit_graphic": true,
+    "type": "melee_attack"
+   }
+  ],
+  "aoe_radius": 0,
+  "cooldown": 5,
+  "damage_modifier": 1,
+  "damage_types": [
+   "melee"
+  ],
+  "description": "",
+  "graphic_id": 0,
+  "id": 84,
+  "long_description": "",
+  "name": "Tentacle Stun",
+  "num_targets": 1,
+  "tags": [
+   "melee"
+  ],
+  "target": "random"
+ },
+ {
+  "animations": [
+   {
+    "always_new_targets": true,
+    "damage_frame": 8,
+    "melee_hit_graphic": true,
+    "type": "melee_attack"
+   }
+  ],
+  "aoe_radius": 0,
+  "cooldown": 6,
+  "damage_modifier": 1,
+  "damage_types": [
+   "melee"
+  ],
+  "description": "",
+  "graphic_id": 0,
+  "id": 85,
+  "long_description": "",
+  "name": "Tentacle Smash",
+  "num_targets": 3,
+  "tags": [
+   "melee"
+  ],
+  "target": "random"
+ },
+ {
+  "animations": [
+   {
+    "always_new_targets": true,
+    "damage_frame": 8,
+    "effect_frames": {
+     "hit": {
+      "effect_string": "add_monster_health,3,510"
+     }
+    },
+    "melee_hit_graphic": true,
+    "type": "melee_attack"
+   }
+  ],
+  "aoe_radius": 0,
+  "cooldown": 7,
+  "damage_modifier": 1,
+  "damage_types": [
+   "melee"
+  ],
+  "description": "",
+  "graphic_id": 0,
+  "id": 86,
+  "long_description": "",
+  "name": "Tentacle Lifesteal",
+  "num_targets": 1,
+  "tags": [
+   "melee"
+  ],
+  "target": "front"
+ },
+ {
+  "animations": [
+   {
+    "hit_sound": 142,
+    "projectile": "green_fireball",
+    "shoot_frame": 10,
+    "sound_frames": {
+     "1": 153
+    },
+    "type": "ranged_attack"
+   }
+  ],
+  "aoe_radius": 150,
+  "cooldown": 6.5,
+  "damage_modifier": 1,
+  "damage_types": [
+   "magic"
+  ],
+  "description": "Strix throws a fireball at a random enemy, dealing a small amount of aoe damage.",
+  "graphic_id": 0,
+  "id": 87,
+  "long_description": "",
+  "name": "Fireball",
+  "num_targets": 1,
+  "tags": [
+   "ranged",
+   "aoe"
+  ],
+  "target": "random"
+ },
+ {
+  "animations": [
+   {
+    "no_damage_display": true,
+    "type": "strix_ultimate"
+   }
+  ],
+  "aoe_radius": 0,
+  "cooldown": 270,
+  "damage_modifier": 0.03,
+  "damage_types": [
+   "magic"
+  ],
+  "description": "Strix's staff polymorphs into a random object, changing the way she attacks for a brief period.",
+  "graphic_id": 2606,
+  "id": 88,
+  "long_description": "Strix's staff polymorphs into a pie plate, an owlbear plushy, or a flying broom, and changes her base attack for a brief period of time.",
+  "name": "Polymorph Staff",
+  "num_targets": 0,
+  "tags": [
+   "ultimate"
+  ],
+  "target": "none"
+ },
+ {
+  "animations": [
+   {
+    "projectile": "batiri_goblin_spear",
+    "type": "ranged_attack"
+   }
+  ],
+  "aoe_radius": 0,
+  "cooldown": 3,
+  "damage_modifier": 1,
+  "damage_types": [
+   "ranged"
+  ],
+  "description": "",
+  "graphic_id": 0,
+  "id": 89,
+  "long_description": "",
+  "name": "Enemy Ranged Goblin Spear",
+  "num_targets": 1,
+  "tags": [
+   "monster",
+   "ranged"
+  ],
+  "target": "front"
+ },
+ {
+  "animations": [
+   {
+    "projectile": "sailor_arrow",
+    "type": "ranged_attack"
+   }
+  ],
+  "aoe_radius": 0,
+  "cooldown": 3,
+  "damage_modifier": 1,
+  "damage_types": [
+   "ranged"
+  ],
+  "description": "",
+  "graphic_id": 0,
+  "id": 90,
+  "long_description": "",
+  "name": "Enemy Ranged Crossbow Bolt",
+  "num_targets": 1,
+  "tags": [
+   "monster",
+   "ranged"
+  ],
+  "target": "front"
+ },
+ {
+  "animations": [
+   {
+    "projectile": "cannonball",
+    "type": "ranged_attack"
+   }
+  ],
+  "aoe_radius": 0,
+  "cooldown": 10,
+  "damage_modifier": 1,
+  "damage_types": [
+   "ranged"
+  ],
+  "description": "",
+  "graphic_id": 0,
+  "id": 91,
+  "long_description": "",
+  "name": "Enemy Ranged Cannonball",
+  "num_targets": 1,
+  "tags": [
+   "monster",
+   "ranged"
+  ],
+  "target": "front"
+ },
+ {
+  "animations": [
+   {
+    "damage_frame": 2,
+    "jump_sound": 30,
+    "sound_frames": {
+     "2": 154
+    },
+    "target_offset_x": -34,
+    "type": "melee_attack"
+   }
+  ],
+  "aoe_radius": 0,
+  "cooldown": 6.5,
+  "damage_modifier": 5,
+  "damage_types": [
+   "melee"
+  ],
+  "description": "Strix attacks with her Flame Blade pie plate, hitting a nearby enemy as well",
+  "graphic_id": 0,
+  "id": 92,
+  "long_description": "Strix attacks with her Flame Blade pie plate dealing 5x the damage of her regular attacking, and hitting a nearby enemy with that same damage as well",
+  "name": "Pie Plate Punch",
+  "num_targets": 1,
+  "tags": [
+   "melee"
+  ],
+  "target": "front"
+ },
+ {
+  "animations": [
+   {
+    "both_characters_animate": true,
+    "character": "companion",
+    "damage_frame": 2,
+    "hit_frames": [
+     2
+    ],
+    "jump_sound": 218,
+    "shake_on_hit": 0.1,
+    "sound_frames": {
+     "2": 148
+    },
+    "target_offset_x": -100,
+    "type": "melee_attack"
+   }
+  ],
+  "aoe_radius": 0,
+  "cooldown": 6,
+  "damage_modifier": 3,
+  "damage_types": [
+   "melee"
+  ],
+  "description": "Waffles attacks in Strix's stead, become more enraged with each attack",
+  "graphic_id": 0,
+  "id": 93,
+  "long_description": "Strix's Owlbear companion, Waffles, attacks in her stead. Waffles starts doing 3x Strix's damage, and does 2x the damage each attack for 5 attacks.",
+  "name": "Waffles Whack",
+  "num_targets": 1,
+  "tags": [
+   "melee"
+  ],
+  "target": "front"
+ },
+ {
+  "animations": [
+   {
+    "damage_frame": 8,
+    "type": "melee_attack"
+   }
+  ],
+  "aoe_radius": 0,
+  "cooldown": 4,
+  "damage_modifier": 1,
+  "damage_types": [
+   "melee"
+  ],
+  "description": "",
+  "graphic_id": 0,
+  "id": 94,
+  "long_description": "",
+  "name": "Chain Brute Cleave",
+  "num_targets": 1,
+  "tags": [
+   "melee"
+  ],
+  "target": "front_2_col"
+ },
+ {
+  "animations": [
+   {
+    "hit_sound": 142,
+    "projectile": "green_fireball",
+    "shoot_frame": 10,
+    "sound_frames": {
+     "1": 153
+    },
+    "type": "ranged_attack"
+   }
+  ],
+  "aoe_radius": 150,
+  "cooldown": 6.5,
+  "damage_modifier": 1,
+  "damage_types": [
+   "magic"
+  ],
+  "description": "Strix throws a fireball at a random enemy, dealing a small amount of aoe damage.",
+  "graphic_id": 0,
+  "id": 95,
+  "long_description": "",
+  "name": "Flying Fireball",
+  "num_targets": 1,
+  "tags": [
+   "ranged",
+   "aoe"
+  ],
+  "target": "random"
+ },
+ {
+  "animations": [
+   {
+    "projectile": "ogre_bolt",
+    "type": "ranged_attack"
+   }
+  ],
+  "aoe_radius": 0,
+  "cooldown": 3,
+  "damage_modifier": 0.33,
+  "damage_types": [
+   "ranged"
+  ],
+  "description": "",
+  "graphic_id": 0,
+  "id": 96,
+  "long_description": "",
+  "name": "Ogre Bolt Ranged",
+  "num_targets": 1,
+  "tags": [
+   "monster",
+   "ranged"
+  ],
+  "target": "front"
+ },
+ {
+  "animations": [
+   {
+    "animation": "split_sequence_multi_target",
+    "type": "melee_attack"
+   }
+  ],
+  "aoe_radius": 0,
+  "cooldown": 5,
+  "damage_modifier": 1,
+  "damage_types": [
+   "melee"
+  ],
+  "description": "Nrakk attacks the nearest enemy with his Kensei Naginata.",
+  "graphic_id": 0,
+  "id": 97,
+  "long_description": "",
+  "name": "Kensei Weapon",
+  "num_targets": 1,
+  "tags": [
+   "melee"
+  ],
+  "target": "front"
+ },
+ {
+  "animations": [
+   {
+    "no_damage_display": true,
+    "nrakk_effect": "effect_def,127",
+    "type": "nrakk_ultimate"
+   }
+  ],
+  "aoe_radius": 0,
+  "cooldown": 260,
+  "damage_modifier": 0.03,
+  "damage_types": [
+   "melee"
+  ],
+  "description": "Nrakk channels Ki into his Naginata, increasing the damage dealt by all of his attacks.",
+  "graphic_id": 2690,
+  "id": 98,
+  "long_description": "Nrakk channels Ki into his Naginata, increasing the damage dealt by all of his attacks by $(nrakk_ult_buffed 200)% for the next 30 seconds.",
+  "name": "Sharpen the Blade",
+  "num_targets": 0,
+  "tags": [
+   "ultimate"
+  ],
+  "target": "none"
+ },
+ {
+  "animations": [
+   {
+    "projectile": "catti_brie_arrow",
+    "shoot_frame": 9,
+    "shoot_offset_x": 30,
+    "shoot_offset_y": -45,
+    "type": "ranged_attack"
+   }
+  ],
+  "aoe_radius": 0,
+  "cooldown": 5.4,
+  "damage_modifier": 1,
+  "damage_types": [
+   "ranged"
+  ],
+  "description": "Catti-brie shoots the farthest enemy with her bow",
+  "graphic_id": 0,
+  "id": 99,
+  "long_description": "",
+  "name": "Long Shot",
+  "num_targets": 1,
+  "tags": [
+   "ranged"
+  ],
+  "target": "back"
+ },
+ {
+  "animations": [
+   {
+    "effects_on_monsters": [
+     {
+      "effect_string": "add_monster_crit_chance_from_source,30,2875"
+     }
+    ],
+    "projectile": "catti_brie_arrow",
+    "projectile_count": 6,
+    "projectile_delay": 0.03,
+    "shoot_frame": 26,
+    "shoot_offset_x": 30,
+    "shoot_offset_y": -45,
+    "type": "ranged_attack"
+   }
+  ],
+  "aoe_radius": 0,
+  "cooldown": 340,
+  "damage_modifier": 0.04,
+  "damage_types": [
+   "ranged"
+  ],
+  "description": "Catti-Brie shoots six arrows at once from her bow, making each enemy hit more vulnerable for 30 seconds.",
+  "graphic_id": 2845,
+  "id": 100,
+  "long_description": "Catti-Brie shoots six arrows at once from her bow. Each enemy hit by her arrows can be crit by all Champions using Catti-brie's crit chance and damage bonus for 30 seconds.",
+  "name": "Empty the Quiver",
+  "num_targets": 6,
+  "tags": [
+   "ranged",
+   "ultimate"
+  ],
+  "target": "random"
+ }
+]

@@ -1,0 +1,1305 @@
+[
+ {
+  "details": {
+   "blocker_mode": "all",
+   "dialog_hero_id": 1,
+   "dialog_loc": "50%,65%",
+   "dialog_text": "Ugh! Gnolls are attacking me! Don't worry, I'll take 'em out.",
+   "done_conditions": {
+    "or": [
+     "new_monsters_killed,2",
+     "hero_under_attack"
+    ]
+   },
+   "pause": false,
+   "start_conditions": "monster_on_screen",
+   "tutorial_actions": "close_all_dialogs"
+  },
+  "id": 1,
+  "name": "intro",
+  "order": 10
+ },
+ {
+  "details": {
+   "dialog_hero_id": 1,
+   "dialog_loc": "50%,65%",
+   "dialog_text": "Ye can help me out by clicking enemies. Ye don't do much damage, but every little bit helps.",
+   "done_conditions": [
+    "monster_clicked",
+    "wait,5"
+   ],
+   "pause": false,
+   "start_conditions": {
+    "or": [
+     [
+      "tutorial_state_complete_this_session,intro",
+      "num_monsters_clicked,0"
+     ],
+     "monster_halfway"
+    ]
+   }
+  },
+  "id": 2,
+  "name": "click",
+  "order": 20
+ },
+ {
+  "details": {
+   "allow_ui": "level_up_button,1",
+   "arrow_dir": "down",
+   "arrow_target": "level_up_button,1",
+   "blocker_mode": "all",
+   "dialog_hero_id": 1,
+   "dialog_loc": "50%,65%",
+   "dialog_text": "Hey, why don't ye spend that gold ye've collected to level me up?",
+   "done_conditions": "hero_level,1,2",
+   "pause": true,
+   "start_conditions": [
+    "hero_level,1,1",
+    "enough_gold_for_next_level_mult_by,1,1",
+    "no_game_dialogs"
+   ],
+   "this_state_options": [
+    "no_hero_pane_scroll"
+   ],
+   "tutorial_actions": [
+    "scroll_hero_bar_index,1"
+   ],
+   "when_done": "level_up_1_post"
+  },
+  "id": 3,
+  "name": "level_up_1",
+  "order": 30
+ },
+ {
+  "details": {
+   "dialog_hero_id": 1,
+   "dialog_loc": "50%,65%",
+   "dialog_text": "Aha! My damage is increased! Thank ye, friend!",
+   "done_conditions": "wait,5",
+   "finish_on_close_button": true,
+   "pause": false
+  },
+  "id": 4,
+  "name": "level_up_1_post",
+  "order": 0
+ },
+ {
+  "details": {
+   "arrow_dir": "down",
+   "arrow_target": "level_up_button,1",
+   "dialog_hero_id": 1,
+   "dialog_loc": "50%,65%",
+   "dialog_text": "Don't forget, ye can level me up to increase my damage!",
+   "done_conditions": "hero_leveled_up,1",
+   "finish_on_close_button": true,
+   "pause": false,
+   "start_conditions": [
+    "tutorial_state_complete,level_up_1",
+    "!tutorial_state_complete,upgrade_1",
+    "enough_gold_for_next_level_mult_by,1,3"
+   ],
+   "this_state_options": [
+    "no_hero_pane_scroll"
+   ],
+   "tutorial_actions": [
+    "scroll_hero_bar_index,1"
+   ]
+  },
+  "id": 5,
+  "name": "level_up_2",
+  "order": 40
+ },
+ {
+  "details": {
+   "arrow_dir": "down",
+   "arrow_target": "level_up_button,1",
+   "dialog_hero_id": 1,
+   "dialog_loc": "50%,65%",
+   "dialog_text": "There's no reason to be thrifty, friend! Spend more of ye gold to level me up more!",
+   "done_conditions": "hero_leveled_up,1",
+   "finish_on_close_button": true,
+   "pause": false,
+   "start_conditions": [
+    "tutorial_state_complete,level_up_2",
+    "!tutorial_state_complete,upgrade_1",
+    "enough_gold_for_next_level_mult_by,1,3",
+    "flag_on_for_time,tutorial_complete_level_up_2,10"
+   ],
+   "this_state_options": [
+    "no_hero_pane_scroll"
+   ],
+   "tutorial_actions": [
+    "scroll_hero_bar_index,1"
+   ]
+  },
+  "id": 6,
+  "name": "level_up_3",
+  "order": 50
+ },
+ {
+  "details": {
+   "allow_ui": "upgrade_button,1",
+   "arrow_dir": "down",
+   "arrow_target": "upgrade_button,1",
+   "blocker_mode": "all",
+   "dialog_hero_id": 1,
+   "dialog_loc": "50%,65%",
+   "dialog_text": "Ah! I've levelled up enough to earn an upgrade! Click it to apply it!",
+   "done_conditions": "hero_has_upgrade,1,1",
+   "pause": true,
+   "skip_conditions": "hero_has_upgrade,1,1",
+   "start_conditions": [
+    "hero_upgrade_purchase_available,1,1",
+    "no_game_dialogs"
+   ],
+   "this_state_options": [
+    "no_hero_pane_scroll"
+   ],
+   "tutorial_actions": [
+    "scroll_hero_bar_index,1"
+   ],
+   "when_done": "upgrade_1_post"
+  },
+  "id": 7,
+  "name": "upgrade_1",
+  "order": 60
+ },
+ {
+  "details": {
+   "dialog_hero_id": 1,
+   "dialog_loc": "50%,65%",
+   "dialog_text": "Hey, ye got an upgrade to apply! It don't cost anything, so get on with it!",
+   "done_conditions": "hero_upgrade_clicked",
+   "finish_on_close_button": true,
+   "pause": false,
+   "start_conditions": [
+    "tutorial_state_complete,upgrade_1",
+    "flag_on_for_time,non_spec_upgrade_available,15"
+   ]
+  },
+  "id": 8,
+  "name": "upgrade_2",
+  "order": 70
+ },
+ {
+  "details": {
+   "dialog_hero_id": 1,
+   "dialog_loc": "50%,65%",
+   "dialog_text": "Finally, this area's quest is complete! Click the arrow to move onto the next area!",
+   "done_conditions": "current_area,2",
+   "finish_on_close_button": true,
+   "pause": false,
+   "start_conditions": "current_area_complete,1"
+  },
+  "id": 9,
+  "name": "next_area_1",
+  "order": 80
+ },
+ {
+  "details": {
+   "completed_when_done": false,
+   "dialog_hero_id": 1,
+   "dialog_loc": "50%,65%",
+   "dialog_text": "Don't forget to click the arrow to move onto the next area!",
+   "done_conditions": "area_changed",
+   "pause": false,
+   "show_close_button": true,
+   "skip_conditions": "current_area,4",
+   "start_conditions": [
+    "flag_on_for_time,area_quest_complete,10",
+    {
+     "or": [
+      "current_area,1",
+      "current_area,2",
+      "current_area,3"
+     ]
+    },
+    "changed_area_since_last_ran,next_area_2"
+   ]
+  },
+  "id": 10,
+  "name": "next_area_2",
+  "order": 90
+ },
+ {
+  "details": {
+   "allow_ui": "level_up_button,2",
+   "arrow_dir": "down",
+   "arrow_target": "level_up_button,2",
+   "blocker_mode": "all",
+   "dialog_hero_id": 1,
+   "dialog_loc": "50%,65%",
+   "dialog_text": "Ye've got enough gold to recruit another Champion! Click here to recruit Celeste and she will join me in me fight against the gnolls!",
+   "done_conditions": "hero_recruited,2",
+   "pause": true,
+   "start_conditions": [
+    "can_recruit_hero,2",
+    "no_game_dialogs"
+   ],
+   "this_state_options": [
+    "no_hero_pane_scroll"
+   ],
+   "tutorial_actions": [
+    "scroll_hero_bar_index,2"
+   ],
+   "when_done": "second_champion_post"
+  },
+  "id": 11,
+  "name": "second_champion",
+  "order": 100
+ },
+ {
+  "details": {
+   "dialog_hero_id": 2,
+   "dialog_loc": "50%,65%",
+   "dialog_text": "Well met, Bruenor. Sel\u00fbne shall guide us to victory.",
+   "done_conditions": "wait,5",
+   "finish_on_close_button": true,
+   "pause": false
+  },
+  "id": 12,
+  "name": "second_champion_post",
+  "order": 0
+ },
+ {
+  "details": {
+   "always_when_done": "formation_abilities_1_post",
+   "dialog_hero_id": 1,
+   "dialog_loc": "50%,65%",
+   "dialog_text": "That last upgrade I got gave me a formation ability! If ye move me closer to Celeste, or Celeste closer to me, it'll increase me damage!",
+   "done_conditions": "heroes_adjacent,1,2",
+   "finish_on_close_button": true,
+   "pause": false,
+   "start_conditions": [
+    "hero_fielded,2",
+    "hero_fielded,1",
+    "hero_has_upgrade,1,2"
+   ]
+  },
+  "id": 13,
+  "name": "formation_abilities_1",
+  "order": 110
+ },
+ {
+  "details": {
+   "dialog_hero_id": 1,
+   "dialog_loc": "50%,65%",
+   "dialog_text": "Ah, I love fightin' beside me companions! Celeste has me all a-fired up to smash some heads and me damage has gone up!",
+   "done_conditions": "wait,8",
+   "finish_on_close_button": true,
+   "pause": false
+  },
+  "id": 14,
+  "name": "formation_abilities_1_post",
+  "order": 0
+ },
+ {
+  "details": {
+   "allow_ui": "click_level_up_button",
+   "arrow_dir": "down",
+   "arrow_target": "click_level_up_button",
+   "blocker_mode": "all",
+   "dialog_hero_id": 1,
+   "dialog_loc": "50%,65%",
+   "dialog_text": "Did ye know ye can increase the damage ye do when ye click? Just click here to increase ye click damage!",
+   "done_conditions": {
+    "or": [
+     "click_level,2",
+     "wait,10",
+     "click_to_close"
+    ]
+   },
+   "pause": true,
+   "start_conditions": [
+    "click_level,1",
+    "enough_gold_for_click_level_mult_by,1000",
+    "no_game_dialogs"
+   ],
+   "this_state_options": [
+    "no_hero_pane_scroll"
+   ],
+   "tutorial_actions": [
+    "scroll_hero_bar_index,0"
+   ]
+  },
+  "id": 15,
+  "name": "click_damage",
+  "order": 120
+ },
+ {
+  "details": {
+   "dialog_hero_id": 1,
+   "dialog_loc": "50%,65%",
+   "dialog_text": "Look out! The monsters ahead are especially strong, and they're lead by a terrible boss monster!",
+   "done_conditions": "wait,8",
+   "finish_on_close_button": true,
+   "pause": false,
+   "start_conditions": [
+    "enter_boss_area"
+   ]
+  },
+  "id": 16,
+  "name": "bosses",
+  "order": 130
+ },
+ {
+  "details": {
+   "arrow_dir": "down",
+   "arrow_target": "ultimate,1",
+   "dialog_hero_id": 1,
+   "dialog_loc": "50%,40%",
+   "dialog_text": "Ah, that last upgrade you unlocked is my Ultimate Attack! You can choose when you use it by clicking this button on the bar. Ultimates have a short cooldown between uses, but are quite powerful!",
+   "done_conditions": {
+    "or": [
+     "wait,15",
+     "hero_ultimate_used,1"
+    ]
+   },
+   "finish_on_close_button": true,
+   "pause": false,
+   "start_conditions": [
+    "hero_has_upgrade,1,3"
+   ]
+  },
+  "id": 17,
+  "name": "ultimate",
+  "order": 140
+ },
+ {
+  "details": {
+   "dialog_hero_id": 1,
+   "dialog_loc": "50%,65%",
+   "dialog_text": "Aha! Take that, Gnoll scum!",
+   "done_conditions": "wait,6",
+   "finish_on_close_button": true,
+   "pause": false,
+   "start_conditions": [
+    "hero_ultimate_used,1",
+    "tutorial_state_just_completed,ultimate"
+   ]
+  },
+  "id": 18,
+  "name": "ultimate_post",
+  "order": 150
+ },
+ {
+  "details": {
+   "allow_ui": "chest_open_button",
+   "arrow_dir": "up",
+   "arrow_highlight": true,
+   "arrow_target": "chest_open_button",
+   "blocker_mode": "all",
+   "dialog_hero_id": 1,
+   "dialog_loc": "50%,65%",
+   "dialog_text": "Aha! That boss dropped a chest! Chests contain gear, potions, and contracts. I'll explain those all later. For now, click up here to view your chest stash.",
+   "done_conditions": {
+    "or": [
+     "wait,15",
+     "chest_open_screen",
+     "click_to_close"
+    ]
+   },
+   "pause": true,
+   "start_conditions": "boss_chest_this_session"
+  },
+  "id": 19,
+  "name": "boss_chest",
+  "order": 160
+ },
+ {
+  "details": {
+   "_allow_ui": "chest_open_button",
+   "_arrow_dir": "up",
+   "_arrow_target": "chest_open_button",
+   "_blocker_mode": "all",
+   "arrow_highlight": true,
+   "dialog_hero_id": 1,
+   "dialog_loc": "50%,65%",
+   "dialog_text": "Ah, look at that shiny treasure chest! Go ahead and open it up by clickin' on it!",
+   "done_conditions": {
+    "or": [
+     "chest_opened",
+     "!chest_open_screen"
+    ]
+   },
+   "pause": true,
+   "start_conditions": [
+    "has_any_chests",
+    "chest_open_screen",
+    "stat_value,TreasureChestsOpened,==,0"
+   ]
+  },
+  "id": 20,
+  "name": "open_chests",
+  "order": 170
+ },
+ {
+  "details": {
+   "allow_ui": "hero_portrait,1",
+   "arrow_dir": "down",
+   "arrow_highlight": true,
+   "arrow_target": "hero_portrait,1",
+   "blocker_mode": "all",
+   "dialog_hero_id": 1,
+   "dialog_loc": "50%,65%",
+   "dialog_text": "That chest ye just opened had some gear for me in it! Click on me portrait to view my character sheet!",
+   "done_conditions": "hero_info,1",
+   "pause": true,
+   "start_conditions": [
+    "hero_loot_gained,1",
+    "no_game_dialogs"
+   ],
+   "this_state_options": [
+    "no_hero_pane_scroll"
+   ],
+   "tutorial_actions": [
+    "scroll_hero_bar_index,1"
+   ],
+   "when_done": "equipment_post"
+  },
+  "id": 21,
+  "name": "equipment",
+  "order": 180
+ },
+ {
+  "details": {
+   "dialog_hero_id": 1,
+   "dialog_loc": "50%,-20",
+   "dialog_text": "Gear is automatically equipped when you get it!",
+   "done_conditions": "wait,5",
+   "finish_on_close_button": true,
+   "pause": false
+  },
+  "id": 22,
+  "name": "equipment_post",
+  "order": 0
+ },
+ {
+  "details": {
+   "dialog_hero_id": 1,
+   "dialog_loc": "50%,65%",
+   "dialog_text": "Ye got some duplicate gear in that chest! Duplicate gear makes the item you already have in the slot more powerful!",
+   "done_conditions": "wait,8",
+   "finish_on_close_button": true,
+   "pause": false,
+   "start_conditions": "any_loot_disenchanted"
+  },
+  "id": 23,
+  "name": "disenchant",
+  "order": 190
+ },
+ {
+  "details": {
+   "dialog_hero_id": 1,
+   "dialog_loc": "50%,65%",
+   "dialog_text": "Praise Moradin! I feel much more powerful! My damage is greatly increased!",
+   "done_conditions": "wait,5",
+   "finish_on_close_button": true,
+   "pause": false
+  },
+  "id": 24,
+  "name": "upgrade_1_post",
+  "order": 0
+ },
+ {
+  "details": {
+   "blocker_mode": "all",
+   "dialog_hero_id": 1,
+   "dialog_loc": "50%,65%",
+   "dialog_text": "Ugh, I must be off me game. Don't forget you can click on the gnolls to help me out!",
+   "done_conditions": {
+    "or": [
+     "wait,5",
+     "click_to_close"
+    ]
+   },
+   "finish_on_close_button": true,
+   "pause": false,
+   "start_conditions": [
+    "current_area,1",
+    "area_failed"
+   ]
+  },
+  "id": 25,
+  "name": "wipe_1",
+  "order": 93
+ },
+ {
+  "details": {
+   "dialog_hero_id": 1,
+   "dialog_loc": "50%,65%",
+   "dialog_text": "A tough battle, but we'll regroup one area back and try again when we've leveled up some. Just click the next area arrow to push forward again. Moradin willing, we won't fail again.",
+   "done_conditions": {
+    "or": [
+     "wait,10",
+     "area_changed_by_user"
+    ]
+   },
+   "finish_on_close_button": true,
+   "pause": false,
+   "start_conditions": [
+    "!current_area,1",
+    "area_failed"
+   ]
+  },
+  "id": 26,
+  "name": "wipe_2",
+  "order": 95
+ },
+ {
+  "details": {
+   "dialog_hero_id": 1,
+   "dialog_loc": "50%,center:-80",
+   "dialog_text": "Ye can choose which specialization you'd like this Champion to have. Different specializations unlock different upgrades in the future. Don't worry if ye don't know what to choose. Ye can change your Champion's specialization every time you do a new adventure.",
+   "done_conditions": "!specialization_dialog",
+   "finish_on_close_button": true,
+   "start_conditions": "specialization_dialog"
+  },
+  "id": 27,
+  "name": "specialization",
+  "order": 75
+ },
+ {
+  "details": {
+   "dialog_hero_id": 1,
+   "dialog_loc": "50%,65%",
+   "dialog_text": "Moradin's beard! There's too many gnolls to handle on our own! If ye save up 50 gold to recruit another Champion, they could really help us out!",
+   "done_conditions": "wait,8",
+   "finish_on_close_button": true,
+   "skip_conditions": "has_resets,1",
+   "start_conditions": [
+    "can_recruit_hero,2",
+    "hero_min_level,1,12"
+   ]
+  },
+  "id": 28,
+  "name": "second_champion_2",
+  "order": 105
+ },
+ {
+  "details": {
+   "dialog_hero_id": 1,
+   "dialog_loc": "50%,65%",
+   "dialog_text": "Look out! That enemy's got a bow! Ranged enemies can attack from afar, but ye can click them to interrupt their attacks, if yer quick about it!",
+   "done_conditions": "wait,8",
+   "finish_on_close_button": true,
+   "pause": true,
+   "start_conditions": "ranged_enemy_attacked"
+  },
+  "id": 29,
+  "name": "ranged",
+  "order": 125
+ },
+ {
+  "details": {
+   "dialog_hero_id": 1,
+   "dialog_loc": "50%,65%",
+   "dialog_text": "Ye've got a Champion on the bench who ain't helpin' our cause. Ye can click and drag 'em into yer formation if ye can find a spot where they'll be useful. There might not be enough room for all of us at once, though.",
+   "done_conditions": "wait,8",
+   "finish_on_close_button": true,
+   "pause": false,
+   "start_conditions": [
+    "alive_hero_benched",
+    "formation_not_empty"
+   ]
+  },
+  "id": 30,
+  "name": "benched",
+  "order": 155
+ },
+ {
+  "details": {
+   "add_tutorial_options": [
+    "no_shop_promotions"
+   ],
+   "allow_ui": "store_button",
+   "arrow_dir": "up",
+   "arrow_highlight": true,
+   "arrow_target": "store_button",
+   "blocker_mode": "all",
+   "dialog_hero_id": 1,
+   "dialog_loc": "50%,65%",
+   "dialog_text": "Did ye know ye can spend those gems ye've been gettin' from bosses? Click here to open the store and I'll show ye how.",
+   "done_conditions": "store_clicked",
+   "start_conditions": [
+    "min_current_area,17",
+    "min_gems,50",
+    "no_game_dialogs"
+   ],
+   "when_done": "buy_chests_2",
+   "will_manually_complete": true
+  },
+  "id": 31,
+  "name": "buy_chests_1",
+  "order": 165
+ },
+ {
+  "details": {
+   "allow_ui": "select_buy_chests_button,1,false",
+   "arrow_dir": "down",
+   "arrow_highlight": true,
+   "arrow_target": "select_buy_chests_button,1,false",
+   "blocker_mode": "all",
+   "continue_on_close_button": false,
+   "dialog_hero_id": 1,
+   "dialog_loc": "50%,25%",
+   "dialog_text": "Click here to select one silver chest.",
+   "done_conditions": "select_buy_chests,1,false",
+   "finish_on_close_button": true,
+   "quit_early_actions": [
+    "complete_state,buy_chests_1"
+   ],
+   "tutorial_actions": "show_store_base_tab",
+   "when_done": "buy_chests_3"
+  },
+  "id": 32,
+  "name": "buy_chests_2",
+  "order": 0
+ },
+ {
+  "details": {
+   "allow_ui": "buy_chests_button",
+   "arrow_dir": "down",
+   "arrow_highlight": true,
+   "arrow_target": "buy_chests_button",
+   "blocker_mode": "all",
+   "continue_on_close_button": false,
+   "dialog_hero_id": 1,
+   "dialog_loc": "50%,25%",
+   "dialog_text": "And click here to purchase it!",
+   "done_conditions": "bought_chests",
+   "finish_on_close_button": true,
+   "quit_early_actions": [
+    "complete_state,buy_chests_1"
+   ],
+   "when_done": "buy_chests_4"
+  },
+  "id": 33,
+  "name": "buy_chests_3",
+  "order": 0
+ },
+ {
+  "details": {
+   "continue_on_close_button": false,
+   "dialog_hero_id": 1,
+   "dialog_loc": "50%,25%",
+   "dialog_text": "Voila! Chests can contain gear, potions, and gold for our party. Ye can buy Gold Chests, too, if ye save up more gems.",
+   "done_conditions": "wait,10",
+   "finish_on_close_button": true,
+   "remove_tutorial_options": [
+    "no_shop_promotions"
+   ],
+   "tutorial_actions": [
+    "complete_state,buy_chests_1"
+   ]
+  },
+  "id": 34,
+  "name": "buy_chests_4",
+  "order": 0
+ },
+ {
+  "details": {
+   "allow_ui": "inventory_button",
+   "arrow_dir": "down",
+   "arrow_highlight": true,
+   "arrow_target": "inventory_button",
+   "blocker_mode": "all",
+   "dialog_hero_id": 1,
+   "dialog_loc": "50%,25%",
+   "dialog_text": "Hey ye got a potion from a chest! Great! Potions can be used to buff everyone up temporarily. Ye can find them in the inventory here.",
+   "done_conditions": {
+    "or": [
+     "open_inventory",
+     "wait,10",
+     "click_to_close"
+    ]
+   },
+   "finish_on_close_button": true,
+   "pause": true,
+   "start_conditions": [
+    "potion_gained",
+    "no_game_dialogs"
+   ]
+  },
+  "id": 35,
+  "name": "potions",
+  "order": 195
+ },
+ {
+  "details": {
+   "allow_ui": "inventory_button",
+   "arrow_dir": "down",
+   "arrow_highlight": true,
+   "arrow_target": "inventory_button",
+   "blocker_mode": "all",
+   "dialog_hero_id": 1,
+   "dialog_loc": "50%,25%",
+   "dialog_text": "Oh, ye got a bounty contract! Ye can use those to instantly earn a boatload o' gold. You can find them in yer inventory here.",
+   "done_conditions": {
+    "or": [
+     "open_inventory",
+     "wait,10",
+     "click_to_close"
+    ]
+   },
+   "finish_on_close_button": true,
+   "pause": true,
+   "start_conditions": [
+    "contract_gained",
+    "no_game_dialogs"
+   ],
+   "tutorial_actions": [
+    "complete_state,contracts_in_inventory"
+   ]
+  },
+  "id": 36,
+  "name": "contracts",
+  "order": 196
+ },
+ {
+  "details": {
+   "blocker_mode": "all",
+   "dialog_hero_id": 1,
+   "dialog_loc": "50%,95%",
+   "dialog_text": "Ah ye lucky dog! Yer makin' an old dwarf very jealous. Ye got a shiny piece of gear! Shiny gear is super rare and more powerful than normal gear. Now that ye got a shiny in that equipment slot, all other gear in that slot will be shiny too.",
+   "done_conditions": [
+    "wait,5",
+    {
+     "or": [
+      "wait,10",
+      "blocker_clicked"
+     ]
+    }
+   ],
+   "finish_on_close_button": 5,
+   "pause": false,
+   "start_conditions": "shiny_loot_shown"
+  },
+  "id": 37,
+  "name": "shiny",
+  "order": 191
+ },
+ {
+  "details": {
+   "blocker_mode": "all",
+   "dialog_hero_id": 1,
+   "dialog_loc": "50%,65%",
+   "dialog_text": "Oh hey, ye've got some contracts as well. They can be found here, too.",
+   "done_conditions": {
+    "or": [
+     "wait,10",
+     "click_to_close"
+    ]
+   },
+   "finish_on_close_button": true,
+   "start_conditions": [
+    "contract_gained",
+    "inventory_dialog"
+   ],
+   "tutorial_actions": [
+    "complete_state,contracts"
+   ]
+  },
+  "id": 39,
+  "name": "contracts_in_inventory",
+  "order": 194
+ },
+ {
+  "details": {
+   "blocker_delay": 5,
+   "blocker_mode": "all",
+   "dialog_hero_id": 1,
+   "dialog_loc": "50%,65%",
+   "dialog_text": "Me last upgrade is another formation ability! It increases the damage of everyone in the same column as me. Can ye arrange yer formation to take advantage of that?",
+   "done_conditions": [
+    "wait,5",
+    {
+     "or": [
+      "wait,10",
+      "blocker_clicked"
+     ]
+    }
+   ],
+   "finish_on_close_button": 5,
+   "pause": false,
+   "start_conditions": [
+    "hero_fielded,1",
+    "hero_has_upgrade,1,4"
+   ]
+  },
+  "id": 41,
+  "name": "formation_abilties_2",
+  "order": 210
+ },
+ {
+  "details": {
+   "blocker_delay": 5,
+   "blocker_mode": "all",
+   "dialog_hero_id": 1,
+   "dialog_loc": "50%,65%",
+   "dialog_text": "That upgrade ye just unlocked increased the whole party's damage! Keep an eye out for more upgrades like that. They're great!",
+   "done_conditions": [
+    "wait,5",
+    {
+     "or": [
+      "wait,10",
+      "blocker_clicked"
+     ]
+    }
+   ],
+   "finish_on_close_button": 5,
+   "pause": false,
+   "start_conditions": [
+    "hero_fielded,2",
+    "hero_has_upgrade,2,23"
+   ]
+  },
+  "id": 40,
+  "name": "global_upgrade",
+  "order": 200
+ },
+ {
+  "details": {
+   "allow_ui": "auto_progress_button",
+   "arrow_dir": "up",
+   "arrow_highlight": true,
+   "arrow_target": "auto_progress_button",
+   "blocker_mode": "all",
+   "dialog_hero_id": 1,
+   "dialog_loc": "50%,65%",
+   "dialog_text": "Did ye know ye can turn on auto progress and we'll hurry on to the next area as soon as we're done the quest? Just click this button here to toggle it, and ye can just step back and let us do our thing.",
+   "done_conditions": "auto_progress_manual_toggle_this_session",
+   "pause": true,
+   "when_done": "auto_progress_post"
+  },
+  "id": 42,
+  "name": "auto_progress",
+  "order": 0
+ },
+ {
+  "details": {
+   "blocker_delay": 5,
+   "blocker_mode": "all",
+   "dialog_hero_id": 1,
+   "dialog_loc": "50%,65%",
+   "dialog_text": "Auto progress will turn off if we're defeated, so check back often ta level us up and get us movin' forward again.",
+   "done_conditions": [
+    "wait,5",
+    {
+     "or": [
+      "wait,10",
+      "blocker_clicked"
+     ]
+    }
+   ],
+   "finish_on_close_button": 5,
+   "pause": false,
+   "tutorial_actions": [
+    "complete_state,auto_progress_pre"
+   ]
+  },
+  "id": 43,
+  "name": "auto_progress_post",
+  "order": 0
+ },
+ {
+  "details": {
+   "done_conditions": [
+    "wait,5"
+   ],
+   "pause": false,
+   "start_conditions": [
+    "min_current_area,14",
+    "!ever_set_autoprogress",
+    "no_game_dialogs"
+   ],
+   "when_done": "auto_progress",
+   "will_manually_complete": true
+  },
+  "id": 44,
+  "name": "auto_progress_pre",
+  "order": 220
+ },
+ {
+  "details": {
+   "blocker_delay": 7,
+   "blocker_mode": "all",
+   "dialog_hero_id": 1,
+   "dialog_loc": "50%,65%",
+   "dialog_text": "Ye've got yerself a new Champion! Great! Ye don't have enough gold to unlock them quite yet, so I'll bug ye again when you do.",
+   "done_conditions": [
+    "wait,7",
+    {
+     "or": [
+      "wait,12",
+      "blocker_clicked"
+     ]
+    }
+   ],
+   "finish_on_close_button": 7,
+   "pause": false,
+   "start_conditions": [
+    "seat_has_swap_not_unlocked",
+    "no_game_dialogs"
+   ]
+  },
+  "id": 50,
+  "name": "swap_champions_later",
+  "order": 260
+ },
+ {
+  "details": {
+   "allow_ui": "confirm_reset_button",
+   "arrow_dir": "down",
+   "arrow_highlight": true,
+   "arrow_target": "confirm_reset_button",
+   "blocker_mode": "all",
+   "dialog_hero_id": 1,
+   "dialog_loc": "50%,center:260",
+   "dialog_text": "We've journeyed hard and completed the objective for this adventure. Now it's time to complete it and reset. For resetting, we'll earn the favor of Torm and earn more gold on our future adventures. Click here to do that.",
+   "done_conditions": "confirm_reset",
+   "pause": true,
+   "start_conditions": "soft_reset_warning_dialog"
+  },
+  "id": 45,
+  "name": "reset",
+  "order": 230
+ },
+ {
+  "details": {
+   "arrow_dir": "up",
+   "dialog_hero_id": 1,
+   "dialog_loc": "50%,80%",
+   "dialog_text": "Ah, the Sword Coast. Home. There's plenty to do, but first we have some unfinished business in that last adventure. Click here."
+  },
+  "id": 46,
+  "name": "choose_adventure_1",
+  "order": 240
+ },
+ {
+  "details": {
+   "arrow_dir": "right",
+   "dialog_hero_id": 1,
+   "dialog_loc": "50%,center:300",
+   "dialog_text": "This here be an adventure variant! It's a twist on the base adventure that adds some extra challenge!"
+  },
+  "id": 47,
+  "name": "choose_adventure_2",
+  "order": 0
+ },
+ {
+  "details": {
+   "blocker_delay": 7,
+   "blocker_mode": "all",
+   "dialog_hero_id": 1,
+   "dialog_loc": "50%,65%",
+   "dialog_text": "Look familiar, eh? Except for this blasted wagon. Don't fret, ye've earned some favor with Torm so we'll be collectin' more gold from every monster we kill. Ye'll be finished and resettin' again before ye can spit.",
+   "done_conditions": [
+    "wait,7",
+    {
+     "or": [
+      "wait,12",
+      "blocker_clicked"
+     ]
+    }
+   ],
+   "finish_on_close_button": 7,
+   "pause": false,
+   "start_conditions": [
+    "current_area,1",
+    "adventure,2",
+    "no_game_dialogs"
+   ]
+  },
+  "id": 48,
+  "name": "faith_bonus",
+  "order": 163
+ },
+ {
+  "details": {
+   "blocker_delay": 7,
+   "blocker_mode": "all",
+   "dialog_hero_id": 1,
+   "dialog_loc": "50%,65%",
+   "dialog_text": "Ye may have noticed that the story has started again. Ye can keep going to earn more gold and favor, but the enemies will be harder this time around. Good luck!",
+   "done_conditions": [
+    "wait,7",
+    {
+     "or": [
+      "wait,12",
+      "blocker_clicked"
+     ]
+    }
+   ],
+   "finish_on_close_button": 7,
+   "pause": false,
+   "start_conditions": [
+    "in_repeat_area",
+    "reset_reminder_dismissed",
+    "no_game_dialogs"
+   ]
+  },
+  "id": 49,
+  "name": "repeat_story",
+  "order": 250
+ },
+ {
+  "details": {
+   "allow_ui": "first_swappable_seat",
+   "arrow_dir": "down",
+   "arrow_highlight": true,
+   "arrow_target": "first_swappable_seat",
+   "blocker_mode": "all",
+   "dialog_hero_id": 1,
+   "dialog_loc": "50%,45%",
+   "dialog_text": "Let me show ye how to swap in yer new Champion! Yer new champion is in this seat. Click to bring up the character sheet of the base Champion in the bench slot.",
+   "done_conditions": "hero_info",
+   "pause": false,
+   "start_conditions": [
+    "seat_has_swap_unlocked",
+    "no_game_dialogs"
+   ],
+   "this_state_options": [
+    "no_hero_pane_scroll"
+   ],
+   "tutorial_actions": [
+    "complete_state,swap_champions_later",
+    "scroll_hero_bar_first_swappable_seat"
+   ],
+   "when_done": "swap_champions_now_2",
+   "will_manually_complete": true
+  },
+  "id": 51,
+  "name": "swap_champions_now_1",
+  "order": 270
+ },
+ {
+  "details": {
+   "allow_ui": "swap_button",
+   "arrow_dir": "up",
+   "arrow_highlight": true,
+   "arrow_target": "swap_button",
+   "blocker_mode": "all",
+   "dialog_hero_id": 1,
+   "dialog_loc": "50%,65%",
+   "dialog_text": "Click on the swap button to pick another hero to swap into this bench slot.",
+   "done_conditions": "swap_button_clicked",
+   "pause": false,
+   "when_done": "swap_champions_now_3"
+  },
+  "id": 52,
+  "name": "swap_champions_now_2",
+  "order": 0
+ },
+ {
+  "details": {
+   "allow_ui": "first_seat_crusader_button",
+   "arrow_dir": "left",
+   "arrow_highlight": true,
+   "arrow_target": "first_seat_crusader_button",
+   "blocker_mode": "all",
+   "dialog_hero_id": 1,
+   "dialog_loc": "50%,65%",
+   "dialog_text": "And click on the button next to yer new Champion to swap 'em in!",
+   "done_conditions": "crusader_swapped",
+   "finish_on_close_button": true,
+   "pause": false,
+   "this_state_options": [
+    "no_swap_pane_scroll"
+   ],
+   "when_done": "swap_champions_now_4"
+  },
+  "id": 53,
+  "name": "swap_champions_now_3",
+  "order": 0
+ },
+ {
+  "details": {
+   "blocker_delay": 7,
+   "blocker_mode": "all",
+   "dialog_hero_id": 1,
+   "dialog_loc": "50%,65%",
+   "dialog_text": "If ye just hit Swap, ye can now use yer new Champion. Every Champion has a specific bench slot they occupy, but ye can only have one Champion in each bench slot at a time. As you unlock more and more Champions, ye'll have to pick which one in each slot ye want to be usin'.",
+   "done_conditions": [
+    "wait,7",
+    {
+     "or": [
+      "wait,12",
+      "blocker_clicked"
+     ]
+    }
+   ],
+   "finish_on_close_button": 7,
+   "pause": false,
+   "tutorial_actions": [
+    "complete_state,swap_champions_now_1",
+    "close_hero_swap"
+   ]
+  },
+  "id": 54,
+  "name": "swap_champions_now_4",
+  "order": 0
+ },
+ {
+  "details": {
+   "arrow_dir": "down",
+   "arrow_target": "event_token",
+   "blocker_delay": 4,
+   "blocker_mode": "all",
+   "dialog_hero_id": 1,
+   "dialog_loc": "50%,-120",
+   "dialog_text": "Hey! Ye just got an event token! Ye can use those to start event adventures and variants in the event campaign that's currently available! I'll tell ye more the next time you reset.",
+   "done_conditions": [
+    "wait,4",
+    {
+     "or": [
+      "wait,12",
+      "blocker_clicked"
+     ]
+    }
+   ],
+   "finish_on_close_button": 4,
+   "pause": true,
+   "start_conditions": [
+    "event_token_dropped",
+    "no_game_dialogs"
+   ]
+  },
+  "id": 55,
+  "name": "event_tokens",
+  "order": 280
+ },
+ {
+  "details": {
+   "arrow_dir": "up",
+   "dialog_hero_id": 1,
+   "dialog_loc": "50%,80%",
+   "dialog_text": "Hey, before ye start a new adventure, there's an event active! Events are temporary campaigns that last for a limited time and provide great rewards, like brand new Champions. Click here to view the event campaign."
+  },
+  "id": 56,
+  "name": "start_event_adventure_1",
+  "order": 290
+ },
+ {
+  "details": {
+   "blocker_mode": "all",
+   "dialog_hero_id": 1,
+   "dialog_loc": "50%,80%",
+   "dialog_text": "During each event, a different deity watches over our party, so there's a new type of Divine Favor to collect. Don't be alarmed if ye start with no bonuses, they'll ramp up quickly during events!",
+   "show_close_button": 5
+  },
+  "id": 57,
+  "name": "start_event_adventure_2",
+  "order": 0
+ },
+ {
+  "details": {
+   "blocker_mode": "all",
+   "dialog_hero_id": 1,
+   "dialog_loc": "50%,50%",
+   "dialog_text": "Event adventures cost Event Tokens to start. Ye collect tokens just by killin' monsters in any campaign or adventure. The tokens for this event are called $token_plural, and ye've already got $token_count of them. If ye don't have enough to start an adventure now, don't fret. Just do a different adventure until ye've collected enough, then reset again.",
+   "show_close_button": 5
+  },
+  "id": 58,
+  "name": "start_event_adventure_3",
+  "order": 300
+ },
+ {
+  "details": {
+   "blocker_mode": "all",
+   "dialog_hero_id": 1,
+   "dialog_loc": "50%,50%",
+   "dialog_text": "Now that ye've recruited a new Champion, ye can gear them up by completing the variants or free play. The chests ye get from those adventures will award gear just for the new Champion! Ye can also buy more chests for them in the store while the event is runnin'.",
+   "show_close_button": 5
+  },
+  "id": 59,
+  "name": "start_event_adventure_4",
+  "order": 310
+ },
+ {
+  "details": {
+   "arrow_dir": "up",
+   "dialog_hero_id": 1,
+   "dialog_loc": "50%,80%",
+   "dialog_text": "Hey, before ye start a new adventure, there's an event active! Events are temporary campaigns that last for a limited time and provide great rewards, like brand new Champions. You're already on the event campaign map."
+  },
+  "id": 60,
+  "name": "start_event_adventure_1_alt",
+  "order": 280
+ },
+ {
+  "details": {
+   "arrow_dir": "up",
+   "dialog_hero_id": 1,
+   "dialog_loc": "50%,290",
+   "dialog_text": "Now that ye've been on a few Adventures, your Champions are ready to expand their horizons a bit! Ye can now start adventurin' in the Tomb of Annihilation Campaign! This Campaign unlocks new Adventures in an all new map, with all new locations and a new formation!"
+  },
+  "id": 61,
+  "name": "new_campaign_available",
+  "order": 320
+ },
+ {
+  "details": {
+   "arrow_dir": "up",
+   "dialog_hero_id": 1,
+   "dialog_loc": "50%,290",
+   "dialog_text": "It looks like ye've decided to visit a new Campaign! Yer party will be blessed by a different Deity in every Campaign, so you'll have to start earnin' Favor with them from scratch. Make sure you check what blessing this Deity provides to your party, so that ye can be sure you've set your Formation up to take advantage!"
+  },
+  "id": 62,
+  "name": "open_new_campaign",
+  "order": 330
+ },
+ {
+  "details": {
+   "arrow_dir": "left",
+   "arrow_target": "familiar_button",
+   "dialog_hero_id": 1,
+   "dialog_loc": "50%,bottom_ui:-100",
+   "dialog_text": "Familiars can now be summoned to help yer sore clickin' finger. Buy them here, then assign them to help ye click monsters, level up yer Champions, or trigger yer ultimate attacks.",
+   "done_conditions": "open_familiars",
+   "pause": false,
+   "start_conditions": [
+    "no_game_dialogs",
+    {
+     "or": [
+      "stat_value,HighestAreaCompletedEver,>,66",
+      "entered_area,66"
+     ]
+    }
+   ],
+   "tutorial_actions": [
+    "show_familiar_button"
+   ],
+   "when_done": "familiars_post"
+  },
+  "id": 64,
+  "name": "familiars",
+  "order": 400
+ },
+ {
+  "details": {
+   "blocker_delay": 7,
+   "blocker_mode": "all",
+   "dialog_hero_id": 1,
+   "dialog_loc": "50%,bottom_ui:-310",
+   "dialog_text": "Many familiars can be purchased fer gems, but a few will cost ye real money. They all do the same thin's, though.",
+   "done_conditions": [
+    "wait,7",
+    {
+     "or": [
+      "wait,12",
+      "blocker_clicked"
+     ]
+    }
+   ],
+   "finish_on_close_button": 7,
+   "this_state_options": [
+    "keep_familiars_open"
+   ]
+  },
+  "id": 65,
+  "name": "familiars_post",
+  "order": 410
+ }
+]

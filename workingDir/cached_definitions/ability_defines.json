@@ -1,0 +1,102 @@
+[
+ {
+  "base_cooldown": 3600,
+  "description": "Bruenor Active Ability - Global DPS x2",
+  "duration": 30,
+  "effect": "effect_def,28",
+  "graphic_id": 1,
+  "hero_ids": [],
+  "id": 1,
+  "name": "Commander"
+ },
+ {
+  "base_cooldown": 1800,
+  "description": "Celeste Active Ability - FAs x2",
+  "duration": 30,
+  "effect": "{\"effect_string\":\"buff_upgrades,100,24,26\",\"visual_effect\":\"stars\"}",
+  "graphic_id": 1,
+  "hero_ids": [],
+  "id": 2,
+  "name": "Channel Divnity"
+ },
+ {
+  "base_cooldown": 7200,
+  "description": "Character Name: Nayeli Active Ability - Stun and take damage",
+  "duration": 0,
+  "effect": "damage_and_stun,25,5,fall,198,199",
+  "graphic_id": 1,
+  "hero_ids": [],
+  "id": 3,
+  "name": "Divine Smite"
+ },
+ {
+  "base_cooldown": 900,
+  "description": "Jarlaxle Active Ability - Attack twice as often",
+  "duration": 30,
+  "effect": "{\"effect_string\":\"attack_speed_mult,100\",\"visual_effect\":\"red_sparks\"}",
+  "graphic_id": 1,
+  "hero_ids": [],
+  "id": 4,
+  "name": "Cunning Action"
+ },
+ {
+  "base_cooldown": 1800,
+  "description": "Calliope Active Ability - FA applies immediately to all heroes",
+  "duration": 30,
+  "effect": "add_target_to_upgrade,all,72",
+  "graphic_id": 1,
+  "hero_ids": [],
+  "id": 5,
+  "name": "Bardic Inspiration"
+ },
+ {
+  "base_cooldown": 3600,
+  "description": "Asharra Active Ability - All enemies are pushed away from the formation",
+  "duration": 0,
+  "effect": "enemies_pushback,200,200",
+  "graphic_id": 1,
+  "hero_ids": [],
+  "id": 6,
+  "name": "Fierce Gust"
+ },
+ {
+  "base_cooldown": 3600,
+  "description": "Minsc Active Ability - Boo attacks enemies, increasing damage taken",
+  "duration": 30,
+  "effect": "boo_attack_increase_damage,100,3",
+  "graphic_id": 1,
+  "hero_ids": [],
+  "id": 7,
+  "name": "Go for the Eyes!"
+ },
+ {
+  "base_cooldown": 3600,
+  "description": "Delina Active Ability - Immediately activates Ultimate",
+  "duration": 30,
+  "effect": "activate_ultimate",
+  "graphic_id": 1,
+  "hero_ids": [],
+  "id": 8,
+  "name": "Wild Magic"
+ },
+ {
+  "base_cooldown": 3600,
+  "description": "Makos Active Ability - Hero DPS x2",
+  "duration": 30,
+  "effect": "{\"effect_string\":\"hero_dps_multiplier_mult,100\",\"active_graphic_id\":201}",
+  "graphic_id": 1,
+  "hero_ids": [],
+  "id": 9,
+  "name": "Pact Weapon"
+ },
+ {
+  "base_cooldown": 3600,
+  "description": "Tyril Active Ability - Transform into an Eagle and do sweet DPS",
+  "duration": 30,
+  "effect": "hero_dps_multiplier_mult,1",
+  "graphic_id": 1,
+  "hero_ids": [],
+  "id": 10,
+  "name": "Wild Shape"
+ }
+]

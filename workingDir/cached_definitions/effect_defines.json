@@ -1,0 +1,2504 @@
+[
+ {
+  "description": "Increase the damage of $target by $amount% for each adjacent Champion",
+  "effect_keys": [
+   {
+    "effect_string": "hero_dps_mult_per_target_crusader,100,adj",
+    "targets": [
+     "self"
+    ]
+   }
+  ],
+  "flavour_text": "",
+  "graphic_id": 892,
+  "id": 1,
+  "properties": [],
+  "requirements": []
+ },
+ {
+  "description": "Increases the damage of Champions in the same column as $source by $(amount)%",
+  "effect_keys": [
+   {
+    "effect_string": "hero_dps_multiplier_mult,100",
+    "targets": [
+     "col"
+    ]
+   }
+  ],
+  "flavour_text": "",
+  "graphic_id": 896,
+  "id": 2,
+  "properties": [],
+  "requirements": []
+ },
+ {
+  "description": "Increases the damage of Champions next to $source by $(amount)%",
+  "effect_keys": [
+   {
+    "effect_string": "hero_dps_multiplier_mult,100",
+    "targets": [
+     "adj"
+    ]
+   }
+  ],
+  "flavour_text": "",
+  "graphic_id": 889,
+  "id": 3,
+  "properties": [],
+  "requirements": []
+ },
+ {
+  "description": "Heals Champions in the column in front of $source for $(amount) every second",
+  "effect_keys": [
+   {
+    "effect_string": "heal,10",
+    "targets": [
+     "next_col"
+    ]
+   }
+  ],
+  "flavour_text": "",
+  "graphic_id": 898,
+  "id": 4,
+  "properties": [],
+  "requirements": []
+ },
+ {
+  "description": "Increases the damage of Champions in the column behind $source by $(amount)%",
+  "effect_keys": [
+   {
+    "effect_string": "hero_dps_multiplier_mult,100",
+    "targets": [
+     "prev_col"
+    ]
+   }
+  ],
+  "flavour_text": "",
+  "graphic_id": 884,
+  "id": 5,
+  "properties": [],
+  "requirements": []
+ },
+ {
+  "description": "Increases the damage of all Champions by $(amount)% for each enemy attacking $source.",
+  "effect_keys": [
+   {
+    "effect_string": "attacking_monsters_global_dps_mult,50",
+    "targets": [
+     "self_slot"
+    ]
+   }
+  ],
+  "flavour_text": "",
+  "graphic_id": 885,
+  "id": 6,
+  "properties": [],
+  "requirements": []
+ },
+ {
+  "description": "Increases the damage of $source by $(amount)% if there is nobody directly in front of them.",
+  "effect_keys": [
+   {
+    "effect_string": "hero_dps_multiplier_mult,100"
+   }
+  ],
+  "flavour_text": "",
+  "graphic_id": 897,
+  "id": 7,
+  "properties": [],
+  "requirements": [
+   {
+    "requirement": "no_front"
+   }
+  ]
+ },
+ {
+  "description": "Increases the damage of $source by $(amount)% if there are no Dwarves adjacent to them.",
+  "effect_keys": [
+   {
+    "effect_string": "hero_dps_multiplier_mult,100"
+   }
+  ],
+  "flavour_text": "",
+  "graphic_id": 895,
+  "id": 8,
+  "properties": [],
+  "requirements": [
+   {
+    "amount": 0,
+    "requirement": "num_adjacent",
+    "satisfies_tag_exp": "dwarf"
+   }
+  ]
+ },
+ {
+  "description": "Increases the damage of Champions in the column in front of $source by $(amount)%",
+  "effect_keys": [
+   {
+    "effect_string": "hero_dps_multiplier_mult,100",
+    "targets": [
+     "next_col"
+    ]
+   }
+  ],
+  "flavour_text": "",
+  "graphic_id": 886,
+  "id": 9,
+  "properties": [],
+  "requirements": []
+ },
+ {
+  "description": "Grants $(amount) temporary hit-points to damaged Champions within 2 slots of $source.",
+  "effect_keys": [
+   {
+    "effect_string": "grant_temporary_hp,250,3",
+    "targets": [
+     {
+      "distance": 2,
+      "type": "distance"
+     }
+    ]
+   }
+  ],
+  "flavour_text": "",
+  "graphic_id": 885,
+  "id": 10,
+  "properties": [],
+  "requirements": []
+ },
+ {
+  "description": "Increases the damage of Human Champions by $(amount)%.",
+  "effect_keys": [
+   {
+    "effect_string": "hero_dps_multiplier_mult,100",
+    "filter_targets": [
+     {
+      "tags": "human",
+      "type": "by_tags"
+     }
+    ],
+    "targets": [
+     "all"
+    ]
+   }
+  ],
+  "flavour_text": "",
+  "graphic_id": 888,
+  "id": 11,
+  "properties": [],
+  "requirements": []
+ },
+ {
+  "description": "Increases the damage of Elven and Dwarven Champions by $(amount)%.",
+  "effect_keys": [
+   {
+    "effect_string": "hero_dps_multiplier_mult,100",
+    "filter_targets": [
+     {
+      "tags": "elf|dwarf",
+      "type": "by_tags"
+     }
+    ],
+    "targets": [
+     "all"
+    ]
+   }
+  ],
+  "flavour_text": "",
+  "graphic_id": 887,
+  "id": 12,
+  "properties": [],
+  "requirements": []
+ },
+ {
+  "description": "Increases the damage of Tiefling, Firbolg, and Dragonborn Champions by $(amount)%.",
+  "effect_keys": [
+   {
+    "effect_string": "hero_dps_multiplier_mult,100",
+    "filter_targets": [
+     {
+      "tags": "tiefling|firbolg|dragonborn",
+      "type": "by_tags"
+     }
+    ],
+    "targets": [
+     "all"
+    ]
+   }
+  ],
+  "flavour_text": "",
+  "graphic_id": 974,
+  "id": 13,
+  "properties": [],
+  "requirements": []
+ },
+ {
+  "description": "Increases damage done to Humanoid enemies by $(amount)%.",
+  "effect_keys": [
+   {
+    "active_graphic_id": 186,
+    "active_graphic_sort": "bottom",
+    "effect_string": "monster_with_tag_more_damage,100,humanoid"
+   }
+  ],
+  "flavour_text": "",
+  "graphic_id": 1,
+  "id": 14,
+  "properties": {
+   "show_incoming": false
+  },
+  "requirements": []
+ },
+ {
+  "description": "Increases damage done to Bestial enemies by $(amount)%.",
+  "effect_keys": [
+   {
+    "active_graphic_id": 186,
+    "active_graphic_sort": "bottom",
+    "effect_string": "monster_with_tag_more_damage,100,beast"
+   }
+  ],
+  "flavour_text": "",
+  "graphic_id": 1,
+  "id": 15,
+  "properties": {
+   "show_incoming": false
+  },
+  "requirements": []
+ },
+ {
+  "description": "Increases damage done to Undead enemies by $(amount)%.",
+  "effect_keys": [
+   {
+    "active_graphic_id": 186,
+    "active_graphic_sort": "bottom",
+    "effect_string": "monster_with_tag_more_damage,100,undead"
+   }
+  ],
+  "flavour_text": "",
+  "graphic_id": 1,
+  "id": 16,
+  "properties": {
+   "show_incoming": false
+  },
+  "requirements": []
+ },
+ {
+  "description": "Increases damage done to Fey enemies by $(amount)%.",
+  "effect_keys": [
+   {
+    "active_graphic_id": 186,
+    "active_graphic_sort": "bottom",
+    "effect_string": "monster_with_tag_more_damage,100,fey"
+   }
+  ],
+  "flavour_text": "",
+  "graphic_id": 1,
+  "id": 17,
+  "properties": {
+   "show_incoming": false
+  },
+  "requirements": []
+ },
+ {
+  "description": "Increases damage done to Monstrosity enemies by $(amount)%.",
+  "effect_keys": [
+   {
+    "active_graphic_id": 186,
+    "active_graphic_sort": "bottom",
+    "effect_string": "monster_with_tag_more_damage,100,monstrosity"
+   }
+  ],
+  "flavour_text": "",
+  "graphic_id": 1,
+  "id": 18,
+  "properties": {
+   "show_incoming": false
+  },
+  "requirements": []
+ },
+ {
+  "description": "Increase the damage of Champions not adjacent to $source by $(amount)%",
+  "effect_keys": [
+   {
+    "effect_string": "hero_dps_multiplier_mult,100",
+    "targets": [
+     "non_adj"
+    ]
+   }
+  ],
+  "flavour_text": "",
+  "graphic_id": 890,
+  "id": 23,
+  "properties": [],
+  "requirements": []
+ },
+ {
+  "description": "Increase the damage of all Champions by $(amount)%, minus $reduce% for each Champion adjacent to $source.",
+  "effect_keys": [
+   {
+    "effect_string": "global_dps_multiplier_mult_minus_targets,100,20,adj",
+    "targets": [
+     "self"
+    ]
+   }
+  ],
+  "flavour_text": "",
+  "graphic_id": 894,
+  "id": 24,
+  "properties": [],
+  "requirements": []
+ },
+ {
+  "description": "Transform into a bear and gain $(amount) health points.",
+  "effect_keys": [
+   {
+    "effect_string": "health_add,100000000000"
+   },
+   {
+    "change_crusader_world_graphic_id": 906,
+    "effect_string": "change_base_attack,32"
+   }
+  ],
+  "flavour_text": "",
+  "graphic_id": 1,
+  "id": 25,
+  "properties": {
+   "is_formation_ability": false
+  },
+  "requirements": []
+ },
+ {
+  "description": "Heals Champions adjacent to $source for $(amount) every second.",
+  "effect_keys": [
+   {
+    "effect_string": "heal,12500000000",
+    "targets": [
+     "adj"
+    ]
+   }
+  ],
+  "flavour_text": "",
+  "graphic_id": 1,
+  "id": 26,
+  "properties": [],
+  "requirements": []
+ },
+ {
+  "description": "Reduce damage taken by $source by $(amount). Cannot reduce to below 5% of initial damage.",
+  "effect_keys": [
+   {
+    "effect_string": "reduce_damage_with_limit,12500000000,5",
+    "targets": [
+     "self"
+    ]
+   }
+  ],
+  "flavour_text": "",
+  "graphic_id": 1,
+  "id": 27,
+  "properties": [],
+  "requirements": []
+ },
+ {
+  "description": "Increases the damage of all Champions by $amount%",
+  "effect_keys": [
+   {
+    "active_graphic_id": 195,
+    "effect_string": "global_dps_multiplier_mult,100",
+    "targets": [
+     "self"
+    ]
+   },
+   {
+    "active_graphic_id": 196,
+    "effect_string": "do_nothing",
+    "targets": [
+     "other"
+    ]
+   }
+  ],
+  "flavour_text": "",
+  "graphic_id": 1,
+  "id": 28,
+  "properties": {
+   "is_formation_ability": false
+  },
+  "requirements": []
+ },
+ {
+  "description": "Increases the damage of $source by $amount% if there are at least 3 unique Races adjacent to them",
+  "effect_keys": [
+   {
+    "effect_string": "hero_dps_multiplier_mult,100"
+   }
+  ],
+  "flavour_text": "",
+  "graphic_id": 895,
+  "id": 29,
+  "properties": [],
+  "requirements": [
+   {
+    "condition": "unique_race",
+    "greater_than": 2,
+    "requirement": "num_adjacent"
+   }
+  ]
+ },
+ {
+  "description": "Increases the damage of $source by $amount% if they are in the Front row of the formation",
+  "effect_keys": [
+   {
+    "effect_string": "hero_dps_multiplier_mult,100"
+   }
+  ],
+  "flavour_text": "",
+  "graphic_id": 891,
+  "id": 30,
+  "properties": [],
+  "requirements": [
+   {
+    "requirement": "in_front_col"
+   }
+  ]
+ },
+ {
+  "description": "Increases the Health of $source by $amount, and provides self-Heal of $amount___2 every second if $source's Health is below $limit___2%",
+  "effect_keys": [
+   {
+    "effect_string": "health_add,54000000000000000"
+   },
+   {
+    "effect_string": "heal_if_damaged_below,700000000000000,50",
+    "targets": [
+     "self_slot"
+    ]
+   }
+  ],
+  "flavour_text": "",
+  "graphic_id": 975,
+  "id": 32,
+  "properties": {
+   "indexed_effect_properties": true
+  },
+  "requirements": []
+ },
+ {
+  "description": "Increases the Health of $source by $amount% if there are 2 Champions in the Column behind them",
+  "effect_keys": [
+   {
+    "effect_string": "health_mult,50"
+   }
+  ],
+  "flavour_text": "",
+  "graphic_id": 893,
+  "id": 31,
+  "properties": [],
+  "requirements": [
+   {
+    "greater_than": 1,
+    "requirement": "num_in_target_slots",
+    "targets": "prev_col"
+   }
+  ]
+ },
+ {
+  "description": "Increases the damage of $source by $amount%, but $source also takes $amount___2% more damage",
+  "effect_keys": [
+   {
+    "effect_string": "hero_dps_multiplier_mult,100"
+   },
+   {
+    "effect_string": "damage_increase,100"
+   }
+  ],
+  "flavour_text": "",
+  "graphic_id": 976,
+  "id": 33,
+  "properties": {
+   "indexed_effect_properties": true
+  },
+  "requirements": []
+ },
+ {
+  "description": "Disables $target's Damage and Upgrades\t",
+  "effect_keys": [
+   {
+    "effect_string": "disable_hero_properties,1,1,0"
+   }
+  ],
+  "flavour_text": "",
+  "graphic_id": 1,
+  "id": 34,
+  "properties": {
+   "is_formation_ability": false
+  },
+  "requirements": []
+ },
+ {
+  "description": "Adds the Thunderclap cantrip to Krond's Base Attack, causing his attacks to deal additional AOE damage to all nearby enemies.",
+  "effect_keys": [
+   {
+    "effect_string": "change_base_attack,47"
+   }
+  ],
+  "flavour_text": "",
+  "graphic_id": 1355,
+  "id": 39,
+  "properties": [],
+  "requirements": []
+ },
+ {
+  "description": "Increase the damage of Champions by $amount% if their charisma score is higher than 13.",
+  "effect_keys": [
+   {
+    "effect_string": "hero_dps_multiplier_mult,100",
+    "filter_targets": [
+     {
+      "check": "greater_than",
+      "score": 13,
+      "stat": "cha",
+      "type": "stat_score"
+     }
+    ],
+    "formation_arrows_for_effected_only": true,
+    "targets": [
+     "all"
+    ]
+   }
+  ],
+  "flavour_text": "",
+  "graphic_id": 1038,
+  "id": 35,
+  "properties": [],
+  "requirements": []
+ },
+ {
+  "description": "Enemies attacked by $target drop $amount% extra gold when killed.",
+  "effect_keys": [
+   {
+    "effect_string": "add_monster_hit_effects,25",
+    "monster_effect": {
+     "effect_string": "chance_monster_extra_gold,$amount,100"
+    }
+   }
+  ],
+  "flavour_text": "",
+  "graphic_id": 1121,
+  "id": 36,
+  "properties": [],
+  "requirements": []
+ },
+ {
+  "description": "Enemies attacked by $target take $amount% extra damage for the next 5 seconds.",
+  "effect_keys": [
+   {
+    "after_damage": true,
+    "effect_string": "add_monster_hit_effects,50",
+    "monster_effect": {
+     "active_graphic_id": 664,
+     "effect_string": "increase_monster_damage,$amount",
+     "for_time": 5
+    }
+   }
+  ],
+  "flavour_text": "",
+  "graphic_id": 1120,
+  "id": 37,
+  "properties": [],
+  "requirements": []
+ },
+ {
+  "description": "Adds a thrown Dagger to Hitch's Base Attack",
+  "effect_keys": [
+   {
+    "effect_string": "change_base_attack,39"
+   }
+  ],
+  "flavour_text": "",
+  "graphic_id": 1,
+  "id": 38,
+  "properties": {
+   "is_formation_ability": false
+  },
+  "requirements": []
+ },
+ {
+  "description": "Adds the Shocking Grasp cantrip to Krond's Base Attack, causing his attacks to deal additional damage to his primary target.",
+  "effect_keys": [
+   {
+    "effect_string": "change_base_attack,48"
+   }
+  ],
+  "flavour_text": "",
+  "graphic_id": 1354,
+  "id": 40,
+  "properties": [],
+  "requirements": []
+ },
+ {
+  "description": "Adds the Fire Bolt cantrip to Krond's Base Attack, causing his attacks to deal additional damage to three random enemies.",
+  "effect_keys": [
+   {
+    "effect_string": "change_base_attack,49"
+   }
+  ],
+  "flavour_text": "",
+  "graphic_id": 1353,
+  "id": 41,
+  "properties": [],
+  "requirements": []
+ },
+ {
+  "description": "Enemies that Krond damages will take additional damage from his Cantrip spells.",
+  "effect_keys": [
+   {
+    "after_damage": true,
+    "effect_string": "add_monster_hit_effects,0,47,48,49",
+    "monster_effect": {
+     "active_graphic_id": 1401,
+     "active_graphic_sort": "bottom",
+     "effect_string": "increase_monster_damage_if_from_attacks,200,51,52,53",
+     "one_per_hero": true,
+     "use_chained_attack": true
+    },
+    "use_chained_attack": false
+   }
+  ],
+  "flavour_text": "",
+  "graphic_id": 1356,
+  "id": 42,
+  "properties": [],
+  "requirements": []
+ },
+ {
+  "description": "$target's Attack timer is slowed by $amount% until your next Attack",
+  "effect_keys": [
+   {
+    "active_graphic_id": 1060,
+    "effect_string": "base_attack_speed_decrease_next_attack,75"
+   }
+  ],
+  "flavour_text": "",
+  "graphic_id": 1403,
+  "id": 43,
+  "properties": {
+   "debuff": true,
+   "effect_name": "Sluggishness",
+   "is_formation_ability": true
+  },
+  "requirements": []
+ },
+ {
+  "description": "NOT USED, OVERWRITTEN BY champion_death_stacks_effect. REPORT IF SEEN!",
+  "effect_keys": [
+   {
+    "active_graphic_id": 1434,
+    "active_graphic_y": -50,
+    "effect_string": "hero_dps_multiplier_reduce,0"
+   }
+  ],
+  "flavour_text": "",
+  "graphic_id": 1433,
+  "id": 46,
+  "properties": {
+   "debuff": true,
+   "effect_name": "Death Curse",
+   "is_formation_ability": true,
+   "time_stack_type": "time_reset",
+   "use_outgoing_description": true
+  },
+  "requirements": []
+ },
+ {
+  "description": "Decreases the damage of $target by $amount%",
+  "effect_keys": [
+   {
+    "active_graphic_id": 1435,
+    "active_graphic_y": -155,
+    "effect_string": "hero_dps_multiplier_reduce,90",
+    "for_time": 5,
+    "stack_across_effects": true,
+    "time_stack_type": "time_reset"
+   }
+  ],
+  "flavour_text": "",
+  "graphic_id": 1436,
+  "id": 45,
+  "properties": {
+   "debuff": true,
+   "effect_name": "Red Wizard Debuff",
+   "is_formation_ability": true
+  },
+  "requirements": []
+ },
+ {
+  "description": "Increases the damage of all Champions in proportion to their age: Champions get a $amount% increase, reduced by $reduce% for every $every_years years old they are over age $(start_years) (to a minimum of $min%)",
+  "effect_keys": [
+   {
+    "effect_string": "hero_dps_multiplier_reduced_by_age,100,5,20,10,10",
+    "targets": [
+     "other"
+    ]
+   }
+  ],
+  "flavour_text": "",
+  "graphic_id": 1503,
+  "id": 47,
+  "properties": {
+   "is_formation_ability": true
+  },
+  "requirements": []
+ },
+ {
+  "description": "$target gains Stoneskin and takes half damage from all ranged attacks.",
+  "effect_keys": [
+   {
+    "effect_string": "damage_reduction_ranged,50"
+   }
+  ],
+  "flavour_text": "",
+  "graphic_id": 1,
+  "id": 48,
+  "properties": [],
+  "requirements": []
+ },
+ {
+  "description": "$target casts Sleet Storm when they attack. The target enemy, and all nearby enemies, are slowed by half and their attack timers are doubled.",
+  "effect_keys": [
+   {
+    "after_damage": true,
+    "effect_string": "add_monster_hit_effects,0,57",
+    "monster_effect": {
+     "effect_string": "effect_def,54"
+    },
+    "range": 200,
+    "use_chained_attack": false
+   }
+  ],
+  "flavour_text": "",
+  "graphic_id": 1,
+  "id": 49,
+  "properties": [],
+  "requirements": []
+ },
+ {
+  "description": "Gromma now casts Melf's Acid Arrow as her primary attack.",
+  "effect_keys": [
+   {
+    "effect_string": "change_base_attack,58"
+   }
+  ],
+  "flavour_text": "",
+  "graphic_id": 1,
+  "id": 50,
+  "properties": [],
+  "requirements": []
+ },
+ {
+  "description": "NOT USED",
+  "effect_keys": [],
+  "flavour_text": "",
+  "graphic_id": 1,
+  "id": 51,
+  "properties": [],
+  "requirements": []
+ },
+ {
+  "description": "Enemies affected by Sleet Storm take $amount% additional damage",
+  "effect_keys": [
+   {
+    "effect_string": "increase_monster_damage_if_affected_by,25,54"
+   }
+  ],
+  "flavour_text": "",
+  "graphic_id": 1,
+  "id": 52,
+  "properties": [],
+  "requirements": []
+ },
+ {
+  "description": "Melf's Acid Arrow now does $amount% of its damage as splash damage to nearby enemies.",
+  "effect_keys": [
+   {
+    "effect_string": "add_attack_aoe_targets,25,200,58"
+   }
+  ],
+  "flavour_text": "",
+  "graphic_id": 1,
+  "id": 53,
+  "properties": [],
+  "requirements": []
+ },
+ {
+  "description": "$target is slowed by $amount%, and has their attack speed reduced by $(amount___2)%",
+  "effect_keys": [
+   {
+    "active_graphic_id": 1507,
+    "active_graphic_y": -50,
+    "effect_string": "monster_speed_reduce,50",
+    "for_time": 10,
+    "stack_across_effects": true,
+    "time_stack_type": "time_reset"
+   },
+   {
+    "effect_string": "monster_attack_speed_reduce,50"
+   }
+  ],
+  "flavour_text": "",
+  "graphic_id": 1,
+  "id": 54,
+  "properties": {
+   "indexed_effect_properties": true
+  },
+  "requirements": []
+ },
+ {
+  "description": "$target's damage is increased by $amount%, and their Base Attack cooldown is reduced by $(amount___2) seconds",
+  "effect_keys": [
+   {
+    "effect_string": "hero_dps_multiplier_mult,300"
+   },
+   {
+    "effect_string": "reduce_attack_cooldown,2"
+   }
+  ],
+  "flavour_text": "",
+  "graphic_id": 1508,
+  "id": 55,
+  "properties": {
+   "effect_name": "Nandventure",
+   "indexed_effect_properties": true,
+   "is_formation_ability": true,
+   "use_outgoing_description": true
+  },
+  "requirements": []
+ },
+ {
+  "description": "Decreases the Base Attack cooldown of Champions on the edge of the formation by $amount seconds",
+  "effect_keys": [
+   {
+    "effect_string": "reduce_attack_cooldown,$replace",
+    "targets": [
+     "edge"
+    ]
+   }
+  ],
+  "flavour_text": "",
+  "graphic_id": 1616,
+  "id": 56,
+  "properties": {
+   "is_formation_ability": true
+  },
+  "requirements": []
+ },
+ {
+  "description": "Increases the damage of Female Champions by $amount%",
+  "effect_keys": [
+   {
+    "effect_string": "hero_dps_multiplier_mult,$replace",
+    "targets": [
+     {
+      "tags": [
+       "female"
+      ],
+      "type": "by_tags"
+     }
+    ]
+   }
+  ],
+  "flavour_text": "",
+  "graphic_id": 1617,
+  "id": 57,
+  "properties": {
+   "is_formation_ability": true
+  },
+  "requirements": []
+ },
+ {
+  "description": "Increases the damage of Male Champions by $amount%",
+  "effect_keys": [
+   {
+    "effect_string": "hero_dps_multiplier_mult,$replace",
+    "targets": [
+     {
+      "tags": [
+       "male"
+      ],
+      "type": "by_tags"
+     }
+    ]
+   }
+  ],
+  "flavour_text": "",
+  "graphic_id": 1618,
+  "id": 58,
+  "properties": {
+   "is_formation_ability": true
+  },
+  "requirements": []
+ },
+ {
+  "description": "Increases the damage of Champions in the rearmost column of the formation by $amount%",
+  "effect_keys": [
+   {
+    "effect_string": "hero_dps_multiplier_mult,$replace",
+    "targets": [
+     "back_column"
+    ]
+   }
+  ],
+  "flavour_text": "",
+  "graphic_id": 1508,
+  "id": 59,
+  "properties": {
+   "is_formation_ability": true
+  },
+  "requirements": []
+ },
+ {
+  "description": "Increases the damage of Champions within 2 slots distance of Dhadius (as the crow flies) by $amount% if their Intelligence stat is 14 or higher.",
+  "effect_keys": [
+   {
+    "active_graphic_id": 1704,
+    "active_graphic_owner_only": true,
+    "active_graphic_under": true,
+    "effect_string": "hero_dps_multiplier_mult,200",
+    "filter_targets": [
+     {
+      "check": "greater_than",
+      "score": 13,
+      "stat": "int",
+      "type": "stat_score"
+     }
+    ],
+    "targets": [
+     {
+      "distance": 50,
+      "type": "pixel_distance"
+     }
+    ]
+   }
+  ],
+  "flavour_text": "",
+  "graphic_id": 1645,
+  "id": 60,
+  "properties": [],
+  "requirements": []
+ },
+ {
+  "description": "Increases the damage of Chromatic Orbs by $amount% each time the same element is cast in a row. This effect stacks each time the same element is cast.",
+  "effect_keys": [
+   {
+    "effect_string": "dhadius_stacking_damage_buff,50"
+   }
+  ],
+  "flavour_text": "",
+  "graphic_id": 1646,
+  "id": 61,
+  "properties": [],
+  "requirements": []
+ },
+ {
+  "description": "Chromatic orbs now do AOE damage.",
+  "effect_keys": [
+   {
+    "effect_string": "add_attack_aoe_targets,100,100,60"
+   }
+  ],
+  "flavour_text": "",
+  "graphic_id": 0,
+  "id": 62,
+  "properties": [],
+  "requirements": []
+ },
+ {
+  "description": "$target does between $min_amount% and $amount% bonus $damage_type damage to enemies they attack",
+  "effect_keys": [
+   {
+    "effect_string": "bonus_damage_range,25,10,frost"
+   }
+  ],
+  "flavour_text": "",
+  "graphic_id": 0,
+  "id": 64,
+  "properties": [],
+  "requirements": []
+ },
+ {
+  "description": "Enemies damaged by $source have a $amount% chance to miss their next attack",
+  "effect_keys": [
+   {
+    "effect_string": "add_monster_hit_effects,50,63,64,65",
+    "monster_effect": {
+     "effect_string": "next_attack_miss_chance,$amount",
+     "one_per_hero": true
+    },
+    "use_chained_attack": false
+   }
+  ],
+  "flavour_text": "",
+  "graphic_id": 0,
+  "id": 65,
+  "properties": [],
+  "requirements": []
+ },
+ {
+  "description": "For each other member of the Companions of the Hall in the formation, $target's damage is increased by $amount% (and the damage of all Champions is increased by half that, $(amount___2)%)",
+  "effect_keys": [
+   {
+    "effect_string": "targets_with_tag_hero_dps_mult,50,other,companion",
+    "override_key_desc": "Increases the Damage of $target by $amount% for every other Champion of the Hall in the formation"
+   },
+   {
+    "effect_string": "hero_dps_mult_by_tag_additive,25,other,companion",
+    "override_key_desc": "Increases the Damage of $target by $amount% for every Champion of the Hall in the formation other than $source_hero",
+    "targets": [
+     "other"
+    ]
+   }
+  ],
+  "flavour_text": "",
+  "graphic_id": 1975,
+  "id": 66,
+  "properties": {
+   "indexed_effect_properties": true,
+   "is_formation_ability": true,
+   "use_outgoing_description": false
+  },
+  "requirements": []
+ },
+ {
+  "description": "Drizzt now deals AOE damage to a medium radius around his primary target",
+  "effect_keys": [
+   {
+    "effect_string": "change_base_attack,64"
+   }
+  ],
+  "flavour_text": "",
+  "graphic_id": 0,
+  "id": 67,
+  "properties": [],
+  "requirements": []
+ },
+ {
+  "description": "Increase the number of targets attacked by Drizzt to 3",
+  "effect_keys": [
+   {
+    "effect_string": "change_base_attack,65"
+   }
+  ],
+  "flavour_text": "",
+  "graphic_id": 0,
+  "id": 68,
+  "properties": [],
+  "requirements": []
+ },
+ {
+  "description": "When $source attacks, they bless all adjacent Champions, causing them to do $amount% more damage with their next base attack (stacks multiplicatively until they attack)",
+  "effect_keys": [
+   {
+    "effect_string": "add_monster_hit_effects,100,67",
+    "monster_effect": {
+     "effect_string": "effect_def,72"
+    }
+   }
+  ],
+  "flavour_text": "",
+  "graphic_id": 1867,
+  "id": 69,
+  "properties": {
+   "is_formation_ability": true,
+   "use_outgoing_description": true
+  },
+  "requirements": []
+ },
+ {
+  "description": "Heals all Champions in $source's column for $amount health every second",
+  "effect_keys": [
+   {
+    "effect_string": "heal,400000000",
+    "targets": [
+     "col"
+    ]
+   }
+  ],
+  "flavour_text": "",
+  "graphic_id": 1868,
+  "id": 70,
+  "properties": [],
+  "requirements": []
+ },
+ {
+  "description": "After $source attacks, their next Healing Word will grant temporary hit-points instead of healing",
+  "effect_keys": [
+   {
+    "effect_string": "add_monster_hit_effects,0,67",
+    "monster_effect": {
+     "effect_string": "effect_def,73"
+    },
+    "target_hero": true
+   }
+  ],
+  "flavour_text": "",
+  "graphic_id": 1869,
+  "id": 71,
+  "properties": {
+   "is_formation_ability": true
+  },
+  "requirements": []
+ },
+ {
+  "description": "Increases the damage of $target's next base attack by $amount%",
+  "effect_keys": [
+   {
+    "active_graphic_id": 2069,
+    "active_graphic_use_count": true,
+    "active_graphic_y": -60,
+    "effect_string": "next_attack_damage_multiplier,0",
+    "filter_targets": [
+     {
+      "limit": 4,
+      "type": "limit_per_hero_attack"
+     }
+    ],
+    "sticks_to_target": true,
+    "target_dead": false,
+    "target_escorts": false,
+    "targets": [
+     "adj"
+    ]
+   }
+  ],
+  "flavour_text": "",
+  "graphic_id": 1867,
+  "id": 72,
+  "properties": {
+   "effect_name": "Blessed Hammer",
+   "show_outgoing_description": false
+  },
+  "requirements": []
+ },
+ {
+  "description": "$(upgrade_name id) will grant temporary hit-points instead of healing",
+  "effect_keys": [
+   {
+    "effect_string": "next_heal_is_bonus_health,641"
+   }
+  ],
+  "flavour_text": "",
+  "graphic_id": 1869,
+  "id": 73,
+  "properties": {
+   "effect_name": "Shield of Faith"
+  },
+  "requirements": []
+ },
+ {
+  "description": "$target is distracted by the Chatty Map, disabling their Damage and Upgrades",
+  "effect_keys": [
+   {
+    "effect_string": "disable_hero_properties,1,1,0"
+   }
+  ],
+  "flavour_text": "",
+  "graphic_id": 0,
+  "id": 74,
+  "properties": {
+   "effect_name": "Chatty Map"
+  },
+  "requirements": []
+ },
+ {
+  "description": "Increases the damage of Champions in the column in front of $source by $(amount)%",
+  "effect_keys": [
+   {
+    "effect_string": "hero_dps_multiplier_mult,100",
+    "targets": [
+     "next_col"
+    ]
+   }
+  ],
+  "flavour_text": "",
+  "graphic_id": 1995,
+  "id": 75,
+  "properties": [],
+  "requirements": []
+ },
+ {
+  "description": "Increases the damage of Champions in the column behind $source by $(amount)%",
+  "effect_keys": [
+   {
+    "effect_string": "hero_dps_multiplier_mult,100",
+    "targets": [
+     "prev_col"
+    ]
+   }
+  ],
+  "flavour_text": "",
+  "graphic_id": 1995,
+  "id": 76,
+  "properties": [],
+  "requirements": []
+ },
+ {
+  "description": "Increase the damage taken by enemies when damaged by ranged attacks by $(amount)%.",
+  "effect_keys": [
+   {
+    "effect_string": "increase_monster_damage_from,100,ranged"
+   }
+  ],
+  "flavour_text": "",
+  "graphic_id": 1996,
+  "id": 77,
+  "properties": {
+   "is_formation_ability": true,
+   "show_incoming": false
+  },
+  "requirements": []
+ },
+ {
+  "description": "Increase the damage taken by enemies when damaged by melee attacks by $(amount)%.",
+  "effect_keys": [
+   {
+    "effect_string": "increase_monster_damage_from,100,melee"
+   }
+  ],
+  "flavour_text": "",
+  "graphic_id": 1996,
+  "id": 78,
+  "properties": {
+   "is_formation_ability": true,
+   "show_incoming": false
+  },
+  "requirements": []
+ },
+ {
+  "description": "Increase the damage taken by enemies when damaged by magic attacks by $(amount)%.",
+  "effect_keys": [
+   {
+    "effect_string": "increase_monster_damage_from,100,magic"
+   }
+  ],
+  "flavour_text": "",
+  "graphic_id": 1996,
+  "id": 79,
+  "properties": {
+   "is_formation_ability": true,
+   "show_incoming": false
+  },
+  "requirements": []
+ },
+ {
+  "description": "Increases the damage of all Champions by $amount%",
+  "effect_keys": [
+   {
+    "effect_string": "add_target_to_upgrades,all,695,696",
+    "for_time": 15
+   }
+  ],
+  "flavour_text": "",
+  "graphic_id": 1995,
+  "id": 80,
+  "properties": [],
+  "requirements": []
+ },
+ {
+  "description": "Disables $target's damage and upgrades",
+  "effect_keys": [
+   {
+    "effect_string": "disable_hero_properties,1,1,0"
+   }
+  ],
+  "flavour_text": "",
+  "graphic_id": 1436,
+  "id": 81,
+  "properties": {
+   "effect_name": "Pixie Dust Overload",
+   "is_formation_ability": true
+  },
+  "requirements": []
+ },
+ {
+  "description": "$source takes no damage when Enemies are killed, and all adjacent Champions take $(amount___2)% less damage",
+  "effect_keys": [
+   {
+    "effect_string": "block_monster_killed_hero_damage,100",
+    "targets": [
+     "self"
+    ]
+   },
+   {
+    "effect_string": "block_monster_killed_hero_damage,70",
+    "targets": [
+     "adj"
+    ]
+   }
+  ],
+  "flavour_text": "",
+  "graphic_id": 2078,
+  "id": 82,
+  "properties": {
+   "effect_name": "Payback Protection",
+   "indexed_effect_properties": true,
+   "is_formation_ability": true
+  },
+  "requirements": []
+ },
+ {
+  "description": "Increases the damage of Champions within 2 slots of $source by $amount%",
+  "effect_keys": [
+   {
+    "effect_string": "hero_dps_multiplier_mult,100",
+    "targets": [
+     {
+      "distance": 2,
+      "type": "distance"
+     }
+    ]
+   }
+  ],
+  "flavour_text": "",
+  "graphic_id": 2119,
+  "id": 83,
+  "properties": [],
+  "requirements": []
+ },
+ {
+  "description": "Whenever $source hits an enemy, increases the effect of Song of Battle by 100% for 10 seconds",
+  "effect_keys": [
+   {
+    "effect_string": "add_monster_hit_effects,100,74",
+    "monster_effect": {
+     "effect_string": "effect_def,85"
+    },
+    "target_hero": true
+   }
+  ],
+  "flavour_text": "",
+  "graphic_id": 2120,
+  "id": 84,
+  "properties": {
+   "is_formation_ability": true,
+   "use_outgoing_description": true
+  },
+  "requirements": []
+ },
+ {
+  "description": "Increases the effect of $(upgrade_name id) by $amount%",
+  "effect_keys": [
+   {
+    "active_graphic_id": 2280,
+    "active_graphic_y": -40,
+    "effect_string": "buff_upgrade,0,741",
+    "for_time": 10,
+    "stack_across_effects": true,
+    "targets": [
+     "self_slot"
+    ],
+    "time_stack_time": "time_reset"
+   }
+  ],
+  "flavour_text": "",
+  "graphic_id": 0,
+  "id": 85,
+  "properties": {
+   "is_formation_ability": false
+  },
+  "requirements": []
+ },
+ {
+  "description": "Whenever $source gets a killing blow, increases the effect of Song of Battle by $amount% for 15 seconds (stacks up to 3 times, each killing blow also resets the timer)",
+  "effect_keys": [
+   {
+    "after_damage": true,
+    "effect_string": "add_monster_hit_effects,100",
+    "monster_effect": {
+     "effect_string": "effect_def,87"
+    },
+    "reqs": [
+     "killing_blow"
+    ],
+    "target_hero": true
+   }
+  ],
+  "flavour_text": "",
+  "graphic_id": 2121,
+  "id": 86,
+  "properties": {
+   "is_formation_ability": true,
+   "use_outgoing_description": true
+  },
+  "requirements": []
+ },
+ {
+  "description": "Increases the effect of $(upgrade_name id) by $amount%",
+  "effect_keys": [
+   {
+    "active_graphic_id": 2282,
+    "active_graphic_use_count": true,
+    "active_graphic_y": -80,
+    "effect_string": "buff_upgrade,0,741",
+    "filter_targets": [
+     {
+      "limit": 3,
+      "type": "limit_per_hero_attack"
+     }
+    ],
+    "for_time": 15,
+    "stack_across_effects": true,
+    "targets": [
+     "self_slot"
+    ],
+    "time_stack_type": "none_and_always_reset_others"
+   }
+  ],
+  "flavour_text": "",
+  "graphic_id": 0,
+  "id": 87,
+  "properties": {
+   "is_formation_ability": false,
+   "tracking_name": "tempo_of_victory_buff"
+  },
+  "requirements": []
+ },
+ {
+  "description": "Doubles the effect of $(upgrade_name upgrade_id) on all \"Good\" Champions",
+  "effect_keys": [
+   {
+    "effect_string": "buff_effects_from_upgrade_fa,100,741",
+    "targets": [
+     {
+      "tags": "good",
+      "type": "by_tags"
+     }
+    ]
+   }
+  ],
+  "flavour_text": "",
+  "graphic_id": 2124,
+  "id": 88,
+  "properties": {
+   "is_formation_ability": true,
+   "requires_owner_slot": true,
+   "use_outgoing_description": true
+  },
+  "requirements": []
+ },
+ {
+  "description": "Doubles the effect of $(upgrade_name upgrade_id) on all \"Neutral\" Champions",
+  "effect_keys": [
+   {
+    "effect_string": "buff_effects_from_upgrade_fa,100,741",
+    "targets": [
+     {
+      "tags": "neutral^!(good|evil)",
+      "type": "by_tags"
+     }
+    ]
+   }
+  ],
+  "flavour_text": "",
+  "graphic_id": 2122,
+  "id": 89,
+  "properties": {
+   "is_formation_ability": true,
+   "requires_owner_slot": true,
+   "use_outgoing_description": true
+  },
+  "requirements": []
+ },
+ {
+  "description": "Doubles the effect of $(upgrade_name upgrade_id) on all \"Evil\" Champions",
+  "effect_keys": [
+   {
+    "effect_string": "buff_effects_from_upgrade_fa,100,741",
+    "targets": [
+     {
+      "tags": "evil",
+      "type": "by_tags"
+     }
+    ]
+   }
+  ],
+  "flavour_text": "",
+  "graphic_id": 2123,
+  "id": 90,
+  "properties": {
+   "is_formation_ability": true,
+   "requires_owner_slot": true,
+   "use_outgoing_description": true
+  },
+  "requirements": []
+ },
+ {
+  "description": "Any Champion that is adjacent to more than 1 other Champion has their damage reduced to 0",
+  "effect_keys": [
+   {
+    "effect_string": "hero_dps_multiplier_reduce,100"
+   }
+  ],
+  "flavour_text": "",
+  "graphic_id": 1121,
+  "id": 91,
+  "properties": {
+   "debuff": true,
+   "effect_name": "Three's a Crowd",
+   "is_formation_ability": true,
+   "use_outgoing_description": true
+  },
+  "requirements": [
+   {
+    "greater_than": 1,
+    "requirement": "num_adjacent"
+   }
+  ]
+ },
+ {
+  "description": "When the two Champions that drank the Love Potion are adjacent, they each have their Damage increased by $amount%, and they each increase global Damage by $(amount___2)%",
+  "effect_keys": [
+   {
+    "active_graphic_id": 2286,
+    "active_graphic_y": -50,
+    "effect_string": "hero_dps_multiplier_mult,300"
+   },
+   {
+    "effect_string": "global_dps_multiplier_mult,75"
+   }
+  ],
+  "flavour_text": "",
+  "graphic_id": 2285,
+  "id": 92,
+  "properties": {
+   "effect_name": "Love Potion",
+   "indexed_effect_properties": true,
+   "use_outgoing_description": true
+  },
+  "requirements": [
+   {
+    "requirement": "has_adjacent",
+    "with_tracked_effect": "love_potion"
+   }
+  ]
+ },
+ {
+  "description": "Just to have an always-on effect we can check for in the requirements of Love Potion",
+  "effect_keys": [],
+  "flavour_text": "",
+  "graphic_id": 2286,
+  "id": 93,
+  "properties": {
+   "is_formation_ability": false,
+   "tracking_name": "love_potion"
+  },
+  "requirements": []
+ },
+ {
+  "description": "So we can display an overlay when Love Potion is off",
+  "effect_keys": [
+   {
+    "active_graphic_id": 2287,
+    "active_graphic_y": -50,
+    "effect_string": "do_nothing"
+   }
+  ],
+  "flavour_text": "",
+  "graphic_id": 0,
+  "id": 94,
+  "properties": {
+   "is_formation_ability": false
+  },
+  "requirements": [
+   {
+    "requirement": "no_adjacent",
+    "with_tracked_effect": "love_potion"
+   }
+  ]
+ },
+ {
+  "description": "Every 30 seconds, 3 heavy packages are randomly given to a Champion in the formation. Champions carrying a package can't use their Formation Abilities.",
+  "effect_keys": [
+   {
+    "active_graphic_id": 2467,
+    "active_graphic_y": -60,
+    "effect_string": "disable_hero_properties,0,1,0",
+    "for_random": 3,
+    "for_time": 30,
+    "on_timer": 30,
+    "targets": [
+     "all_slots"
+    ]
+   }
+  ],
+  "flavour_text": "",
+  "graphic_id": 1436,
+  "id": 95,
+  "properties": {
+   "debuff": true,
+   "effect_name": "Heavy Burden",
+   "is_formation_ability": true
+  },
+  "requirements": []
+ },
+ {
+  "description": "Every attack, Champions have a $chance% chance to step in the swamp and \"wet feet\", reducing their base attack speed by $amount% for 3 attacks",
+  "effect_keys": [
+   {
+    "chance": 30,
+    "effect_string": "add_monster_hit_effects,50",
+    "monster_effect": {
+     "effect_string": "effect_def,97"
+    },
+    "override_from": "Wet Feet",
+    "target_hero": true,
+    "targets": [
+     "all_slots"
+    ]
+   }
+  ],
+  "flavour_text": "",
+  "graphic_id": 1436,
+  "id": 96,
+  "properties": {
+   "debuff": true,
+   "effect_name": "Wet Feet"
+  },
+  "requirements": []
+ },
+ {
+  "description": "$target has Wet Feet, reducing their base attack speed by $amount%",
+  "effect_keys": [
+   {
+    "active_graphic_id": 2468,
+    "active_graphic_y": -65,
+    "attacks_remaining": 3,
+    "effect_string": "base_attack_speed_decrease_next_attack,0",
+    "filter_targets": [
+     {
+      "limit": 1,
+      "type": "limit_per_effect"
+     }
+    ],
+    "sticks_to_target": true,
+    "targets": [
+     "self_slot"
+    ]
+   }
+  ],
+  "flavour_text": "",
+  "graphic_id": 1436,
+  "id": 97,
+  "properties": {
+   "debuff": true,
+   "effect_name": "Wet Feet"
+  },
+  "requirements": []
+ },
+ {
+  "description": "Increases damage done to Drow enemies by $(amount)%.",
+  "effect_keys": [
+   {
+    "active_graphic_id": 186,
+    "active_graphic_sort": "bottom",
+    "effect_string": "monster_with_tag_more_damage,300,drow"
+   }
+  ],
+  "flavour_text": "",
+  "graphic_id": 1,
+  "id": 98,
+  "properties": {
+   "show_incoming": false
+  },
+  "requirements": []
+ },
+ {
+  "description": "Increases damage done to Fiend enemies by $(amount)%.",
+  "effect_keys": [
+   {
+    "active_graphic_id": 186,
+    "active_graphic_sort": "bottom",
+    "effect_string": "monster_with_tag_more_damage,300,fiend"
+   }
+  ],
+  "flavour_text": "",
+  "graphic_id": 1,
+  "id": 99,
+  "properties": {
+   "show_incoming": false
+  },
+  "requirements": []
+ },
+ {
+  "description": "Increases damage done to Aberration enemies by $(amount)%.",
+  "effect_keys": [
+   {
+    "active_graphic_id": 186,
+    "active_graphic_sort": "bottom",
+    "effect_string": "monster_with_tag_more_damage,300,aberration"
+   }
+  ],
+  "flavour_text": "",
+  "graphic_id": 1,
+  "id": 100,
+  "properties": {
+   "show_incoming": false
+  },
+  "requirements": []
+ },
+ {
+  "description": "Increases damage done to Giant enemies by $(amount)%.",
+  "effect_keys": [
+   {
+    "active_graphic_id": 186,
+    "active_graphic_sort": "bottom",
+    "effect_string": "monster_with_tag_more_damage,300,giant"
+   }
+  ],
+  "flavour_text": "",
+  "graphic_id": 1,
+  "id": 101,
+  "properties": {
+   "show_incoming": false
+  },
+  "requirements": []
+ },
+ {
+  "description": "Increases damage done to Elemental enemies by $(amount)%.",
+  "effect_keys": [
+   {
+    "active_graphic_id": 186,
+    "active_graphic_sort": "bottom",
+    "effect_string": "monster_with_tag_more_damage,300,elemental"
+   }
+  ],
+  "flavour_text": "",
+  "graphic_id": 1,
+  "id": 102,
+  "properties": {
+   "show_incoming": false
+  },
+  "requirements": []
+ },
+ {
+  "description": "Increases the damage of Champions adjacent to $source by $amount%, if they have a dexterity score of 15 or higher",
+  "effect_keys": [
+   {
+    "effect_string": "hero_dps_multiplier_mult,100",
+    "filter_targets": [
+     {
+      "check": "greater_than",
+      "score": 14,
+      "stat": "dex",
+      "type": "stat_score"
+     }
+    ],
+    "targets": [
+     "adj"
+    ]
+   }
+  ],
+  "flavour_text": "",
+  "graphic_id": 2422,
+  "id": 103,
+  "properties": [],
+  "requirements": []
+ },
+ {
+  "description": "$source does a bonus $amount% damage against enemies that are already damaged",
+  "effect_keys": [
+   {
+    "effect_string": "bonus_damage_when_monster_damaged,200"
+   }
+  ],
+  "flavour_text": "",
+  "graphic_id": 0,
+  "id": 104,
+  "properties": [],
+  "requirements": []
+ },
+ {
+  "description": "$source does a bonus $amount% damage against enemies that are attacking",
+  "effect_keys": [
+   {
+    "effect_string": "bonus_damage_when_monster_attacking,300"
+   }
+  ],
+  "flavour_text": "",
+  "graphic_id": 0,
+  "id": 105,
+  "properties": [],
+  "requirements": []
+ },
+ {
+  "description": "A Lightning charge gives $target $amount% bonus damage on their next attack",
+  "effect_keys": [
+   {
+    "effect_details": {
+     "effect_string": "effect_def,107"
+    },
+    "effect_string": "effect_when_hit_random_crusader_damage,900"
+   }
+  ],
+  "flavour_text": "",
+  "graphic_id": 0,
+  "id": 106,
+  "properties": [],
+  "requirements": []
+ },
+ {
+  "description": "Crashing Waves prevent $target from doing any damage",
+  "effect_keys": [
+   {
+    "active_graphic_id": 2468,
+    "active_graphic_y": -65,
+    "effect_string": "hero_dps_multiplier_reduce,100"
+   }
+  ],
+  "flavour_text": "",
+  "graphic_id": 2479,
+  "id": 108,
+  "properties": {
+   "debuff": true,
+   "effect_name": "Crashing Wave",
+   "is_formation_ability": true
+  },
+  "requirements": []
+ },
+ {
+  "description": "A Lightning charge gives $target $amount% bonus damage on their next attack",
+  "effect_keys": [
+   {
+    "effect_string": "next_attack_damage_multiplier,0"
+   }
+  ],
+  "flavour_text": "",
+  "graphic_id": 2480,
+  "id": 107,
+  "properties": {
+   "effect_name": "Lightning Charge",
+   "is_formation_ability": true
+  },
+  "requirements": []
+ },
+ {
+  "description": "The Shipwright dances with two adjacent Champions, swapping their slots",
+  "effect_keys": [
+   {
+    "effect_string": "swap_slot_crusaders,0,3,4",
+    "on_timer": 15
+   }
+  ],
+  "flavour_text": "",
+  "graphic_id": 0,
+  "id": 109,
+  "properties": [],
+  "requirements": []
+ },
+ {
+  "description": "The Shipwright dances with two adjacent Champions, swapping their slots",
+  "effect_keys": [
+   {
+    "effect_string": "swap_slot_crusaders,6,8",
+    "on_timer": 15
+   }
+  ],
+  "flavour_text": "",
+  "graphic_id": 0,
+  "id": 110,
+  "properties": [],
+  "requirements": []
+ },
+ {
+  "description": "If a Champion within 2 slots of Strix is about to be killed, Strix revives them at $gain_percent% of their max health, and takes $lose_percent% of her max health in damage (if she can take that much damage without dying, can only fire once every $wait_time seconds)",
+  "effect_keys": [
+   {
+    "effect_string": "revive_with_health_transfer,50,50,30",
+    "targets": [
+     {
+      "distance": 2,
+      "self": false,
+      "type": "distance"
+     }
+    ]
+   }
+  ],
+  "flavour_text": "",
+  "graphic_id": 2601,
+  "id": 111,
+  "properties": {
+   "use_outgoing_description": true
+  },
+  "requirements": []
+ },
+ {
+  "description": "Increases the damage of all Champions by $amount% for each ally in the formation that is dead (stacks additively)",
+  "effect_keys": [
+   {
+    "effect_string": "global_dps_multiplier_per_dead_champion_additive,100"
+   }
+  ],
+  "flavour_text": "",
+  "graphic_id": 2602,
+  "id": 112,
+  "properties": {
+   "is_formation_ability": true
+  },
+  "requirements": []
+ },
+ {
+  "description": "Enemies approaching your formation take $amount% more damage due to $source's unique odour",
+  "effect_keys": [
+   {
+    "active_graphic_id": 2654,
+    "effect_string": "increase_monster_damage_percent_to_party,100,80"
+   }
+  ],
+  "flavour_text": "",
+  "graphic_id": 2603,
+  "id": 113,
+  "properties": {
+   "show_incoming": false
+  },
+  "requirements": []
+ },
+ {
+  "description": "$target's Base Attack cooldown is reduced by $(seconds_plural amount) if any ally in the formation is under attack",
+  "effect_keys": [
+   {
+    "effect_string": "reduce_attack_cooldown_if_formation_under_attack,1,87,92,95"
+   }
+  ],
+  "flavour_text": "",
+  "graphic_id": 0,
+  "id": 114,
+  "properties": [],
+  "requirements": []
+ },
+ {
+  "description": "$target's Base Attack cooldown is permentantly increased by $(seconds_plural amount), but their damage is also increased by $(amount___2)%",
+  "effect_keys": [
+   {
+    "effect_string": "increase_attack_cooldown,1,87,92,95"
+   },
+   {
+    "effect_string": "hero_dps_multiplier_mult,20"
+   }
+  ],
+  "flavour_text": "",
+  "graphic_id": 0,
+  "id": 115,
+  "properties": {
+   "indexed_effect_properties": true
+  },
+  "requirements": []
+ },
+ {
+  "description": "",
+  "effect_keys": [
+   {
+    "effect_string": "change_base_attack,92"
+   },
+   {
+    "effect_string": "attacks_ricochet,100,1,2653,0.3"
+   }
+  ],
+  "flavour_text": "",
+  "graphic_id": 0,
+  "id": 116,
+  "properties": [],
+  "requirements": []
+ },
+ {
+  "description": "",
+  "effect_keys": [
+   {
+    "effect_string": "change_base_attack,93"
+   }
+  ],
+  "flavour_text": "",
+  "graphic_id": 0,
+  "id": 117,
+  "properties": [],
+  "requirements": []
+ },
+ {
+  "description": "",
+  "effect_keys": [
+   {
+    "effect_string": "change_base_attack,95"
+   },
+   {
+    "effect_string": "base_attack_speed_mult,100"
+   },
+   {
+    "effect_string": "hero_dps_multiplier_mult,100"
+   }
+  ],
+  "flavour_text": "",
+  "graphic_id": 0,
+  "id": 118,
+  "properties": [],
+  "requirements": []
+ },
+ {
+  "description": "",
+  "effect_keys": [
+   {
+    "effect_string": "do_nothing"
+   }
+  ],
+  "flavour_text": "",
+  "graphic_id": 0,
+  "id": 119,
+  "properties": {
+   "tracking_name": "farmers_son"
+  },
+  "requirements": []
+ },
+ {
+  "description": "",
+  "effect_keys": [
+   {
+    "effect_string": "block_spawn_monster_timer"
+   }
+  ],
+  "flavour_text": "",
+  "graphic_id": 0,
+  "id": 120,
+  "properties": {
+   "is_formation_ability": false
+  },
+  "requirements": [
+   {
+    "requirement": "has_adjacent",
+    "with_tracked_effect": "farmers_son"
+   }
+  ]
+ },
+ {
+  "description": "Add a wide aoe cleave to every 3rd normal attack",
+  "effect_keys": [
+   {
+    "alternate_attack_sequence": "attack_b",
+    "effect_string": "add_attack_aoe_targets_every,100,150,3,97"
+   }
+  ],
+  "flavour_text": "",
+  "graphic_id": 2686,
+  "id": 122,
+  "properties": [],
+  "requirements": []
+ },
+ {
+  "description": "Deal $amount% more damage with every 2nd normal attack",
+  "effect_keys": [
+   {
+    "effect_string": "bonus_damage_every,100,2,97",
+    "separate_popup": false
+   }
+  ],
+  "flavour_text": "",
+  "graphic_id": 2685,
+  "id": 123,
+  "properties": [],
+  "requirements": []
+ },
+ {
+  "description": "25% chance to stun all enemies hit for 3 seconds",
+  "effect_keys": [
+   {
+    "effect_string": "add_attack_stun,25,3,1509,97"
+   }
+  ],
+  "flavour_text": "",
+  "graphic_id": 2687,
+  "id": 124,
+  "properties": [],
+  "requirements": []
+ },
+ {
+  "description": "After Nrakk stuns enemies, the c/d of his next base attack is reduced by $cooldown secs and it does $amount% more damage for each stunned enemy",
+  "effect_keys": [
+   {
+    "effect_string": "stun_does_cooldown_and_damage_mult,50,900,2,97"
+   }
+  ],
+  "flavour_text": "",
+  "graphic_id": 0,
+  "id": 125,
+  "properties": [],
+  "requirements": []
+ },
+ {
+  "description": "If Nrakk's attack only hits one enemy, he will attack the enemy again for +200% damage",
+  "effect_keys": [
+   {
+    "effect_string": "single_hit_attacks_again,200,97"
+   }
+  ],
+  "flavour_text": "",
+  "graphic_id": 0,
+  "id": 126,
+  "properties": [],
+  "requirements": []
+ },
+ {
+  "description": "",
+  "effect_keys": [
+   {
+    "change_crusader_world_graphic_id": 2744,
+    "effect_string": "hero_dps_multiplier_mult,200",
+    "for_time": 30
+   }
+  ],
+  "flavour_text": "",
+  "graphic_id": 0,
+  "id": 127,
+  "properties": [],
+  "requirements": []
+ },
+ {
+  "description": "Disables $target's attacks and abilities",
+  "effect_keys": [
+   {
+    "effect_string": "disable_hero_properties,1,1,0,1"
+   }
+  ],
+  "flavour_text": "",
+  "graphic_id": 2792,
+  "id": 128,
+  "properties": {
+   "effect_name": "Elder Brain Insanity",
+   "graphic_as_portrait": true,
+   "is_formation_ability": true
+  },
+  "requirements": []
+ },
+ {
+  "description": "Increases the damage of $target by $amount%",
+  "effect_keys": [
+   {
+    "active_graphic_id": 2780,
+    "active_graphic_y": -70,
+    "effect_string": "hero_dps_multiplier_mult,400",
+    "for_time": 15
+   }
+  ],
+  "flavour_text": "",
+  "graphic_id": 2784,
+  "id": 129,
+  "properties": {
+   "effect_name": "Power Flower",
+   "graphic_as_portrait": true,
+   "is_formation_ability": true
+  },
+  "requirements": []
+ },
+ {
+  "description": "Enemies killed by $target drop $amount% more gold",
+  "effect_keys": [
+   {
+    "effect_string": "owner_killing_blow_gold_bonus,100",
+    "for_time": 10
+   },
+   {
+    "active_graphic_id": 2781,
+    "active_graphic_y": -70,
+    "effect_string": "do_nothing",
+    "for_time": 10
+   }
+  ],
+  "flavour_text": "",
+  "graphic_id": 2785,
+  "id": 130,
+  "properties": {
+   "effect_name": "Rare Flower",
+   "graphic_as_portrait": true,
+   "is_formation_ability": true
+  },
+  "requirements": []
+ },
+ {
+  "description": "$target is stunned, blocking their Attacks and Abilities",
+  "effect_keys": [
+   {
+    "active_graphic_id": 2779,
+    "active_graphic_y": -70,
+    "effect_string": "disable_hero_properties,1,1,0,1",
+    "for_time": 5
+   }
+  ],
+  "flavour_text": "",
+  "graphic_id": 2783,
+  "id": 131,
+  "properties": {
+   "effect_name": "Sleeping Flower",
+   "graphic_as_portrait": true,
+   "is_formation_ability": true
+  },
+  "requirements": []
+ },
+ {
+  "description": "Reduces $target's damage by $amount%",
+  "effect_keys": [
+   {
+    "active_graphic_id": 2779,
+    "active_graphic_y": -70,
+    "effect_string": "hero_dps_multiplier_reduce,100",
+    "for_time": 15
+   }
+  ],
+  "flavour_text": "",
+  "graphic_id": 2783,
+  "id": 132,
+  "properties": {
+   "effect_name": "Dulling Flower",
+   "graphic_as_portrait": true,
+   "is_formation_ability": true
+  },
+  "requirements": []
+ },
+ {
+  "description": "$target takes $amount% of their Max Health in unavoidable damage",
+  "effect_keys": [
+   {
+    "effect_string": "damage_hero_percent,75"
+   }
+  ],
+  "flavour_text": "",
+  "graphic_id": 0,
+  "id": 133,
+  "properties": {
+   "effect_name": "Poison Flower",
+   "graphic_as_portrait": true,
+   "is_formation_ability": true
+  },
+  "requirements": []
+ },
+ {
+  "description": "Increases the DPS of Nrakk by $amount%, if Nrakk is adjacent to $source in the formation",
+  "effect_keys": [
+   {
+    "active_graphic_id": 2789,
+    "active_graphic_y": -80,
+    "effect_string": "hero_dps_multiplier_mult,400",
+    "filter_targets": [
+     {
+      "hero_ids": [
+       24
+      ],
+      "type": "hero_ids"
+     }
+    ],
+    "targets": [
+     "adj"
+    ]
+   }
+  ],
+  "flavour_text": "",
+  "graphic_id": 896,
+  "id": 134,
+  "properties": {
+   "effect_name": "Unlikely Ally"
+  },
+  "requirements": []
+ },
+ {
+  "description": "Every $on_timer seconds, reduces the Damage of a random Champion to 0 for $for_time seconds",
+  "effect_keys": [
+   {
+    "active_graphic_id": 2740,
+    "active_graphic_x": 25,
+    "active_graphic_y": -120,
+    "effect_string": "hero_dps_multiplier_reduce,100",
+    "for_random": 1,
+    "for_time": 30,
+    "on_timer": 15,
+    "targets": [
+     "all"
+    ]
+   }
+  ],
+  "flavour_text": "",
+  "graphic_id": 1436,
+  "id": 135,
+  "properties": {
+   "effect_name": "Distracted",
+   "graphic_as_portrait": true,
+   "is_formation_ability": true
+  },
+  "requirements": []
+ },
+ {
+  "description": "Every $on_timer seconds, some bad advice from the ill-informed Guide reduces the Damage of a random Champion to 0 for $for_time seconds",
+  "effect_keys": [
+   {
+    "active_graphic_id": 2824,
+    "active_graphic_y": -45,
+    "effect_string": "hero_dps_multiplier_reduce,100",
+    "for_random": 1,
+    "for_time": 20,
+    "on_timer": 10,
+    "target_empty_slots": false,
+    "targets": [
+     "other"
+    ]
+   }
+  ],
+  "flavour_text": "",
+  "graphic_id": 1436,
+  "id": 136,
+  "properties": {
+   "effect_name": "Bad Guidance",
+   "graphic_as_portrait": true,
+   "is_formation_ability": true
+  },
+  "requirements": ""
+ },
+ {
+  "description": "Increases the damage of Half-Orc and Half-Elf Champions by $(amount)%.",
+  "effect_keys": [
+   {
+    "effect_string": "hero_dps_multiplier_mult,1100",
+    "filter_targets": [
+     {
+      "tags": "half-elf|half-orc",
+      "type": "by_tags"
+     }
+    ],
+    "targets": [
+     "all"
+    ]
+   }
+  ],
+  "flavour_text": "",
+  "graphic_id": 2829,
+  "id": 137,
+  "properties": [],
+  "requirements": []
+ },
+ {
+  "description": "Increases the damage of Gith and Tabaxi Champions by $(amount)%.",
+  "effect_keys": [
+   {
+    "effect_string": "hero_dps_multiplier_mult,1100",
+    "filter_targets": [
+     {
+      "tags": "githzerai|tabaxi",
+      "type": "by_tags"
+     }
+    ],
+    "targets": [
+     "all"
+    ]
+   }
+  ],
+  "flavour_text": "",
+  "graphic_id": 2828,
+  "id": 138,
+  "properties": [],
+  "requirements": []
+ },
+ {
+  "description": "Increases the damage of Gnome and Halfling Champions by $(amount)%.",
+  "effect_keys": [
+   {
+    "effect_string": "hero_dps_multiplier_mult,1100",
+    "filter_targets": [
+     {
+      "tags": "gnome|halfling",
+      "type": "by_tags"
+     }
+    ],
+    "targets": [
+     "all"
+    ]
+   }
+  ],
+  "flavour_text": "",
+  "graphic_id": 2830,
+  "id": 139,
+  "properties": [],
+  "requirements": []
+ },
+ {
+  "description": "$source deals additional damage to enemies the farther they are from the formation: starting at 0% when they are $start_percent% from away from the formation, up to $amount% more damage when they are at the spawn point",
+  "effect_keys": [
+   {
+    "effect_string": "bonus_damage_monster_percent_from_party_range,100,20,100",
+    "separate_popup": false
+   }
+  ],
+  "flavour_text": "",
+  "graphic_id": 0,
+  "id": 140,
+  "properties": [],
+  "requirements": []
+ },
+ {
+  "description": "When $source hits an enemy, they take $amount% more damage from all Champions for $seconds seconds. During this time, if they get hit $hits times, they will be stunned for $stun_time seconds",
+  "effect_keys": [
+   {
+    "after_damage": true,
+    "copy_keys": [
+     "seconds",
+     "hits",
+     "stun_time"
+    ],
+    "effect_string": "add_monster_hit_effects,100,99,100",
+    "hits": 10,
+    "monster_effect": {
+     "effect_string": "cattibrie_mark_for_death,$amount,$seconds,$hits,$stun_time,2874,1509"
+    },
+    "seconds": 60,
+    "stun_time": 5
+   }
+  ],
+  "flavour_text": "",
+  "graphic_id": 0,
+  "id": 141,
+  "properties": [],
+  "requirements": []
+ },
+ {
+  "description": "When $source crits, their next $base_attacks_remaining hit for $amount% more damage",
+  "effect_keys": [
+   {
+    "attacks_remaining": 4,
+    "copy_keys": [
+     "attacks_remaining"
+    ],
+    "crit_effect": {
+     "attacks_remaining_graphic_id": 2873,
+     "effect_string": "next_attack_damage_multiplier,100"
+    },
+    "effect_string": "add_crit_effect,100,99",
+    "target_hero": true
+   }
+  ],
+  "flavour_text": "",
+  "graphic_id": 0,
+  "id": 142,
+  "properties": [],
+  "requirements": []
+ },
+ {
+  "description": "Increases the Damage of all Champions adjacent to $source by $amount%",
+  "effect_keys": [
+   {
+    "effect_string": "hero_dps_multiplier_mult,400",
+    "targets": [
+     "adj"
+    ]
+   }
+  ],
+  "flavour_text": "",
+  "graphic_id": 1508,
+  "id": 143,
+  "properties": {
+   "effect_name": "Companionship",
+   "graphic_as_portrait": true
+  },
+  "requirements": []
+ }
+]

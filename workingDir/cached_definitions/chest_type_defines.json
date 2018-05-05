@@ -1,0 +1,436 @@
+[
+ {
+  "details": {
+   "cost": {
+    "soft_currency": 50
+   },
+   "inventory_graphic_id": 746,
+   "num_items": 3,
+   "short_name": "Silver"
+  },
+  "graphic_id": 759,
+  "id": 1,
+  "name": "Silver Chest"
+ },
+ {
+  "details": {
+   "cost": {
+    "soft_currency": 500
+   },
+   "gold_is_quantum": true,
+   "inventory_graphic_id": 747,
+   "num_items": 5,
+   "short_name": "Gold"
+  },
+  "graphic_id": 758,
+  "id": 2,
+  "name": "Gold Chest"
+ },
+ {
+  "details": {
+   "inventory_graphic_id": 1168,
+   "num_items": 3,
+   "short_name": "Silver Stoki"
+  },
+  "graphic_id": 1160,
+  "id": 3,
+  "name": "Silver Stoki Chest"
+ },
+ {
+  "details": {
+   "cost": {
+    "event_currency": 10000,
+    "event_id": 1
+   },
+   "gold_is_quantum": true,
+   "inventory_graphic_id": 1167,
+   "num_items": 5,
+   "short_name": "Gold Stoki"
+  },
+  "graphic_id": 1159,
+  "id": 4,
+  "name": "Gold Stoki Chest"
+ },
+ {
+  "details": {
+   "inventory_graphic_id": 1398,
+   "num_items": 3,
+   "short_name": "Silver Krond"
+  },
+  "graphic_id": 1395,
+  "id": 5,
+  "name": "Silver Krond Chest"
+ },
+ {
+  "details": {
+   "cost": {
+    "event_currency": 10000,
+    "event_id": 2
+   },
+   "gold_is_quantum": true,
+   "inventory_graphic_id": 1397,
+   "num_items": 5,
+   "short_name": "Gold Krond"
+  },
+  "graphic_id": 1394,
+  "id": 6,
+  "name": "Gold Krond Chest"
+ },
+ {
+  "details": {
+   "inventory_graphic_id": 1466,
+   "num_items": 3,
+   "short_name": "Silver Gromma"
+  },
+  "graphic_id": 1497,
+  "id": 7,
+  "name": "Silver Gromma Chest"
+ },
+ {
+  "details": {
+   "cost": {
+    "event_currency": 10000,
+    "event_id": 3
+   },
+   "gold_is_quantum": true,
+   "inventory_graphic_id": 1465,
+   "num_items": 5,
+   "short_name": "Gold Gromma"
+  },
+  "graphic_id": 1496,
+  "id": 8,
+  "name": "Gold Gromma Chest"
+ },
+ {
+  "details": {
+   "inventory_graphic_id": 1660,
+   "num_items": 3,
+   "short_name": "Silver Dhadius"
+  },
+  "graphic_id": 1680,
+  "id": 9,
+  "name": "Silver Dhadius Chest"
+ },
+ {
+  "details": {
+   "cost": {
+    "event_currency": 10000,
+    "event_id": 4
+   },
+   "gold_is_quantum": true,
+   "inventory_graphic_id": 1659,
+   "num_items": 5,
+   "short_name": "Gold Dhadius"
+  },
+  "graphic_id": 1679,
+  "id": 10,
+  "name": "Gold Dhadius Chest"
+ },
+ {
+  "details": {
+   "inventory_graphic_id": 1930,
+   "num_items": 3,
+   "short_name": "Silver Barrowin"
+  },
+  "graphic_id": 1933,
+  "id": 11,
+  "name": "Silver Barrowin Chest"
+ },
+ {
+  "details": {
+   "cost": {
+    "event_currency": 10000,
+    "event_id": 5
+   },
+   "gold_is_quantum": true,
+   "inventory_graphic_id": 1929,
+   "num_items": 5,
+   "short_name": "Gold Barrowin"
+  },
+  "graphic_id": 1932,
+  "id": 12,
+  "name": "Gold Barrowin Chest"
+ },
+ {
+  "details": {
+   "gold_is_quantum": true,
+   "inventory_graphic_id": 1983,
+   "num_items": 5,
+   "short_name": "Gold Snowy"
+  },
+  "graphic_id": 1982,
+  "id": 13,
+  "name": "Gold Snowy Chest"
+ },
+ {
+  "details": {
+   "gold_is_quantum": true,
+   "inventory_graphic_id": 2065,
+   "num_items": 5,
+   "short_name": "Gold Chultan"
+  },
+  "graphic_id": 2066,
+  "id": 14,
+  "name": "Gold Chultan Chest"
+ },
+ {
+  "details": {
+   "gold_is_quantum": true,
+   "inventory_graphic_id": 2072,
+   "num_items": 5,
+   "short_name": "Gold Wayside"
+  },
+  "graphic_id": 2073,
+  "id": 15,
+  "name": "Gold Wayside Chest"
+ },
+ {
+  "details": {
+   "inventory_graphic_id": 2014,
+   "num_items": 3,
+   "short_name": "Silver Regis"
+  },
+  "graphic_id": 2061,
+  "id": 16,
+  "name": "Silver Regis Chest"
+ },
+ {
+  "details": {
+   "cost": {
+    "event_currency": 10000,
+    "event_id": 9
+   },
+   "gold_is_quantum": true,
+   "inventory_graphic_id": 2013,
+   "num_items": 5,
+   "short_name": "Gold Regis"
+  },
+  "graphic_id": 2060,
+  "id": 17,
+  "name": "Gold Regis Chest"
+ },
+ {
+  "details": {
+   "inventory_graphic_id": 2103,
+   "num_items": 3,
+   "short_name": "Silver Birdsong"
+  },
+  "graphic_id": 2083,
+  "id": 18,
+  "name": "Silver Birdsong Chest"
+ },
+ {
+  "details": {
+   "cost": {
+    "event_currency": 10000,
+    "event_id": 10
+   },
+   "gold_is_quantum": true,
+   "inventory_graphic_id": 2102,
+   "num_items": 5,
+   "short_name": "Gold Birdsong"
+  },
+  "graphic_id": 2082,
+  "id": 19,
+  "name": "Gold Birdsong Chest"
+ },
+ {
+  "details": {
+   "gold_is_quantum": true,
+   "inventory_graphic_id": 2389,
+   "num_items": 5,
+   "short_name": "Gold Neutral"
+  },
+  "graphic_id": 2392,
+  "id": 20,
+  "name": "Gold Neutral Chest"
+ },
+ {
+  "details": {
+   "inventory_graphic_id": 2412,
+   "num_items": 3,
+   "short_name": "Silver Zorbu"
+  },
+  "graphic_id": 2437,
+  "id": 21,
+  "name": "Silver Zorbu Chest"
+ },
+ {
+  "details": {
+   "cost": {
+    "event_currency": 10000,
+    "event_id": 12
+   },
+   "gold_is_quantum": true,
+   "inventory_graphic_id": 2411,
+   "num_items": 5,
+   "short_name": "Gold Zorbu"
+  },
+  "graphic_id": 2436,
+  "id": 22,
+  "name": "Gold Zorbu Chest"
+ },
+ {
+  "details": {
+   "gold_is_quantum": true,
+   "inventory_graphic_id": 2476,
+   "num_items": 5,
+   "short_name": "Gold Evil"
+  },
+  "graphic_id": 2477,
+  "id": 23,
+  "name": "Gold Evil Chest"
+ },
+ {
+  "details": {
+   "gold_is_quantum": true,
+   "inventory_graphic_id": 2486,
+   "num_items": 5,
+   "short_name": "Gold Chaos"
+  },
+  "graphic_id": 2483,
+  "id": 24,
+  "name": "Gold Chaos Chest"
+ },
+ {
+  "details": {
+   "gold_is_quantum": true,
+   "inventory_graphic_id": 2630,
+   "num_items": 5,
+   "short_name": "Gold Good"
+  },
+  "graphic_id": 2627,
+  "id": 25,
+  "name": "Gold Good Chest"
+ },
+ {
+  "details": {
+   "inventory_graphic_id": 2591,
+   "num_items": 3,
+   "short_name": "Silver Strix"
+  },
+  "graphic_id": 2636,
+  "id": 26,
+  "name": "Silver Strix Chest"
+ },
+ {
+  "details": {
+   "cost": {
+    "event_currency": 10000,
+    "event_id": 16
+   },
+   "gold_is_quantum": true,
+   "inventory_graphic_id": 2590,
+   "num_items": 5,
+   "short_name": "Gold Strix"
+  },
+  "graphic_id": 2635,
+  "id": 27,
+  "name": "Gold Strix Chest"
+ },
+ {
+  "details": {
+   "gold_is_quantum": true,
+   "inventory_graphic_id": 2727,
+   "num_items": 5,
+   "short_name": "Gold Spring"
+  },
+  "graphic_id": 2724,
+  "id": 28,
+  "name": "Gold Spring Chest"
+ },
+ {
+  "details": {
+   "inventory_graphic_id": 2675,
+   "num_items": 3,
+   "short_name": "Silver Nrakk"
+  },
+  "graphic_id": 2716,
+  "id": 29,
+  "name": "Silver Nrakk Chest"
+ },
+ {
+  "details": {
+   "cost": {
+    "event_currency": 10000,
+    "event_id": 18
+   },
+   "gold_is_quantum": true,
+   "inventory_graphic_id": 2674,
+   "num_items": 5,
+   "short_name": "Gold Nrakk"
+  },
+  "graphic_id": 2715,
+  "id": 30,
+  "name": "Gold Nrakk Chest"
+ },
+ {
+  "details": {
+   "gold_is_quantum": true,
+   "inventory_graphic_id": 2746,
+   "num_items": 5,
+   "short_name": "Gold Lawful"
+  },
+  "graphic_id": 2749,
+  "id": 31,
+  "name": "Gold Lawful Chest"
+ },
+ {
+  "details": {
+   "gold_is_quantum": true,
+   "inventory_graphic_id": 2795,
+   "num_items": 5,
+   "short_name": "Gold Companions'"
+  },
+  "graphic_id": 2796,
+  "id": 32,
+  "name": "Gold Companions' Chest"
+ },
+ {
+  "details": {
+   "gold_is_quantum": true,
+   "inventory_graphic_id": 2817,
+   "num_items": 5,
+   "short_name": "Gold Force Grey"
+  },
+  "graphic_id": 2818,
+  "id": 33,
+  "name": "Gold Force Grey Chest"
+ },
+ {
+  "details": {
+   "gold_is_quantum": true,
+   "inventory_graphic_id": 2834,
+   "num_items": 5,
+   "short_name": "Gold Bird-Loving"
+  },
+  "graphic_id": 2831,
+  "id": 34,
+  "name": "Gold Bird-Loving Chest"
+ },
+ {
+  "details": {
+   "inventory_graphic_id": 2860,
+   "num_items": 3,
+   "short_name": "Silver Catti-Brie"
+  },
+  "graphic_id": 2915,
+  "id": 35,
+  "name": "Silver Catti-Brie Chest"
+ },
+ {
+  "details": {
+   "cost": {
+    "event_currency": 10000,
+    "event_id": 23
+   },
+   "gold_is_quantum": true,
+   "inventory_graphic_id": 2859,
+   "num_items": 5,
+   "short_name": "Gold Catti-Brie"
+  },
+  "graphic_id": 2914,
+  "id": 36,
+  "name": "Gold Catti-Brie Chest"
+ }
+]

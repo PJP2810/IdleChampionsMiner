@@ -1,0 +1,808 @@
+[
+ {
+  "description": "A transparent potion in which floats the sliver of a giant's fingernail.",
+  "duration": 300,
+  "effect": "global_dps_multiplier_mult,100",
+  "graphic_id": 730,
+  "id": 1,
+  "name": "Small Potion of Giant's Strength",
+  "odds": 100,
+  "properties": {
+   "inventory_graphic_id": 731
+  },
+  "rarity": 1
+ },
+ {
+  "description": "A transparent potion in which floats the sliver of a giant's fingernail.",
+  "duration": 900,
+  "effect": "global_dps_multiplier_mult,300",
+  "graphic_id": 732,
+  "id": 2,
+  "name": "Medium Potion of Giant's Strength",
+  "odds": 50,
+  "properties": {
+   "inventory_graphic_id": 733
+  },
+  "rarity": 2
+ },
+ {
+  "description": "A transparent potion in which floats the sliver of a giant's fingernail.",
+  "duration": 3600,
+  "effect": "global_dps_multiplier_mult,500",
+  "graphic_id": 734,
+  "id": 3,
+  "name": "Large Potion of Giant's Strength",
+  "odds": 20,
+  "properties": {
+   "inventory_graphic_id": 735
+  },
+  "rarity": 3
+ },
+ {
+  "description": "A transparent potion in which floats the sliver of a giant's fingernail.",
+  "duration": 315360000,
+  "effect": "global_dps_multiplier_mult,900",
+  "graphic_id": 736,
+  "id": 4,
+  "name": "Huge Potion of Giant's Strength",
+  "odds": 5,
+  "properties": {
+   "inventory_graphic_id": 737
+  },
+  "rarity": 4
+ },
+ {
+  "description": "An eyeball bobs in this yellowish potion.",
+  "duration": 300,
+  "effect": "gold_multiplier_mult,100",
+  "graphic_id": 714,
+  "id": 5,
+  "name": "Small Potion of Clairvoyance",
+  "odds": 100,
+  "properties": {
+   "inventory_graphic_id": 715
+  },
+  "rarity": 1
+ },
+ {
+  "description": "An eyeball bobs in this yellowish potion.",
+  "duration": 900,
+  "effect": "gold_multiplier_mult,200",
+  "graphic_id": 716,
+  "id": 6,
+  "name": "Medium Potion of Clairvoyance",
+  "odds": 50,
+  "properties": {
+   "inventory_graphic_id": 717
+  },
+  "rarity": 2
+ },
+ {
+  "description": "An eyeball bobs in this yellowish potion.",
+  "duration": 3600,
+  "effect": "gold_multiplier_mult,300",
+  "graphic_id": 718,
+  "id": 7,
+  "name": "Large Potion of Clairvoyance",
+  "odds": 20,
+  "properties": {
+   "inventory_graphic_id": 719
+  },
+  "rarity": 3
+ },
+ {
+  "description": "An eyeball bobs in this yellowish potion.",
+  "duration": 315360000,
+  "effect": "gold_multiplier_mult,400",
+  "graphic_id": 720,
+  "id": 8,
+  "name": "Huge Potion of Clairvoyance",
+  "odds": 5,
+  "properties": {
+   "inventory_graphic_id": 721
+  },
+  "rarity": 4
+ },
+ {
+  "description": "The orange liquid in this vial flickers and smoke fills the top of the container; it looks a little expired.",
+  "duration": 60,
+  "effect": "click_damage_percent_max_health,1",
+  "graphic_id": 2261,
+  "id": 9,
+  "name": "Small Expired Potion of Fire Breath",
+  "odds": 0,
+  "properties": {
+   "inventory_graphic_id": 2262
+  },
+  "rarity": 1
+ },
+ {
+  "description": "The orange liquid in this vial flickers and smoke fills the top of the container; it looks a little expired.",
+  "duration": 120,
+  "effect": "click_damage_percent_max_health,2",
+  "graphic_id": 2263,
+  "id": 10,
+  "name": "Medium Expired Potion of Fire Breath",
+  "odds": 0,
+  "properties": {
+   "inventory_graphic_id": 2264
+  },
+  "rarity": 2
+ },
+ {
+  "description": "The orange liquid in this vial flickers and smoke fills the top of the container; it looks a little expired.",
+  "duration": 240,
+  "effect": "click_damage_percent_max_health,4",
+  "graphic_id": 2265,
+  "id": 11,
+  "name": "Large Expired Potion of Fire Breath",
+  "odds": 0,
+  "properties": {
+   "inventory_graphic_id": 2266
+  },
+  "rarity": 3
+ },
+ {
+  "description": "The orange liquid in this vial flickers and smoke fills the top of the container; it looks a little expired.",
+  "duration": 480,
+  "effect": "click_damage_percent_max_health,8",
+  "graphic_id": 2267,
+  "id": 12,
+  "name": "Huge Expired Potion of Fire Breath",
+  "odds": 0,
+  "properties": {
+   "inventory_graphic_id": 2268
+  },
+  "rarity": 4
+ },
+ {
+  "description": "The blue liquid in this potion bubbles and steams as if boiling.",
+  "duration": 300,
+  "effect": "health_mult,100",
+  "graphic_id": 738,
+  "id": 13,
+  "name": "Small Potion of Heroism",
+  "odds": 0,
+  "properties": {
+   "inventory_graphic_id": 739
+  },
+  "rarity": 1
+ },
+ {
+  "description": "The blue liquid in this potion bubbles and steams as if boiling.",
+  "duration": 900,
+  "effect": "health_mult,300",
+  "graphic_id": 740,
+  "id": 14,
+  "name": "Medium Potion of Heroism",
+  "odds": 0,
+  "properties": {
+   "inventory_graphic_id": 741
+  },
+  "rarity": 2
+ },
+ {
+  "description": "The blue liquid in this potion bubbles and steams as if boiling.",
+  "duration": 3600,
+  "effect": "health_mult,500",
+  "graphic_id": 742,
+  "id": 15,
+  "name": "Large Potion of Heroism",
+  "odds": 0,
+  "properties": {
+   "inventory_graphic_id": 743
+  },
+  "rarity": 3
+ },
+ {
+  "description": "The blue liquid in this potion bubbles and steams as if boiling.",
+  "duration": 315360000,
+  "effect": "health_mult,900",
+  "graphic_id": 744,
+  "id": 16,
+  "name": "Huge Potion of Heroism",
+  "odds": 0,
+  "properties": {
+   "inventory_graphic_id": 745
+  },
+  "rarity": 4
+ },
+ {
+  "description": "Claim a bounty worth 5 minutes of offline gold earnings. Also awards event tokens if an event is running.",
+  "duration": 0,
+  "effect": "seconds_worth_of_gold,300",
+  "graphic_id": 698,
+  "id": 17,
+  "name": "Tiny Bounty Contract",
+  "odds": 100,
+  "properties": {
+   "exclude_unless_specified": true,
+   "inventory_graphic_id": 699
+  },
+  "rarity": 1
+ },
+ {
+  "description": "Claim a bounty worth 30 minutes of offline gold earnings. Also awards event tokens if an event is running.",
+  "duration": 0,
+  "effect": "seconds_worth_of_gold,1800",
+  "graphic_id": 700,
+  "id": 18,
+  "name": "Small Bounty Contract",
+  "odds": 100,
+  "properties": {
+   "exclude_unless_specified": true,
+   "inventory_graphic_id": 701
+  },
+  "rarity": 2
+ },
+ {
+  "description": "Claim a bounty worth 4 hours of offline gold earnings. Also awards event tokens if an event is running.",
+  "duration": 0,
+  "effect": "seconds_worth_of_gold,14400",
+  "graphic_id": 702,
+  "id": 19,
+  "name": "Medium Bounty Contract",
+  "odds": 10,
+  "properties": {
+   "exclude_unless_specified": true,
+   "inventory_graphic_id": 703
+  },
+  "rarity": 3
+ },
+ {
+  "description": "Claim a bounty worth 8 hours of offline gold earnings. Also awards event tokens if an event is running.",
+  "duration": 0,
+  "effect": "seconds_worth_of_gold,28800",
+  "graphic_id": 704,
+  "id": 20,
+  "name": "Large Bounty Contract",
+  "odds": 1,
+  "properties": {
+   "exclude_unless_specified": true,
+   "inventory_graphic_id": 705
+  },
+  "rarity": 4
+ },
+ {
+  "description": "Thanks for watching an ad!",
+  "duration": 14400,
+  "effect": "global_dps_multiplier_mult,100",
+  "graphic_id": 1,
+  "id": 21,
+  "name": "Opt-in Ad DPS Bonus",
+  "odds": 0,
+  "properties": {
+   "apply_offline": true,
+   "keep_on_reset": true,
+   "should_buff_duration": false,
+   "show_on_active_buff_display": true
+  },
+  "rarity": 4
+ },
+ {
+  "description": "Thanks for watching an ad!",
+  "duration": 14400,
+  "effect": "gold_multiplier_mult,50",
+  "graphic_id": 1,
+  "id": 22,
+  "name": "Opt-in Ad Gold Bonus",
+  "odds": 0,
+  "properties": {
+   "apply_offline": true,
+   "keep_on_reset": true,
+   "should_buff_duration": false,
+   "show_on_active_buff_display": true
+  },
+  "rarity": 4
+ },
+ {
+  "description": "Buffs Damage Done (x2)",
+  "duration": 86400,
+  "effect": "global_dps_multiplier_mult,100",
+  "graphic_id": 970,
+  "id": 23,
+  "name": "Empowered Power Boost",
+  "odds": 0,
+  "properties": {
+   "apply_offline": true,
+   "dont_show_on_buff_panel": true,
+   "inventory_graphic_id": 970,
+   "keep_on_reset": true
+  },
+  "rarity": 4
+ },
+ {
+  "description": "Buffs Damage Done More (x4)",
+  "duration": 172800,
+  "effect": "global_dps_multiplier_mult,300",
+  "graphic_id": 971,
+  "id": 24,
+  "name": "Empowered Power Burst",
+  "odds": 0,
+  "properties": {
+   "apply_offline": true,
+   "dont_show_on_buff_panel": true,
+   "inventory_graphic_id": 971,
+   "keep_on_reset": true
+  },
+  "rarity": 4
+ },
+ {
+  "description": "Buffs Reset Currency Earned (50% more)",
+  "duration": 259200,
+  "effect": "bonus_favor_earned_from_reset,50",
+  "graphic_id": 972,
+  "id": 25,
+  "name": "Empowered Faith",
+  "odds": 0,
+  "properties": {
+   "apply_offline": true,
+   "dont_show_on_buff_panel": true,
+   "inventory_graphic_id": 972,
+   "keep_on_reset": true
+  },
+  "rarity": 4
+ },
+ {
+  "description": "Buffs Gold Found (x2)",
+  "duration": 345600,
+  "effect": "gold_multiplier_mult,100",
+  "graphic_id": 973,
+  "id": 26,
+  "name": "Empowered Clairvoyance",
+  "odds": 0,
+  "properties": {
+   "apply_offline": true,
+   "dont_show_on_buff_panel": true,
+   "inventory_graphic_id": 973,
+   "keep_on_reset": true
+  },
+  "rarity": 4
+ },
+ {
+  "description": "Buffs Odd To Earn Chests (x2)",
+  "duration": 432000,
+  "effect": "chest_chance,100",
+  "graphic_id": 969,
+  "id": 27,
+  "name": "Empowered Rewards",
+  "odds": 0,
+  "properties": {
+   "apply_offline": true,
+   "dont_show_on_buff_panel": true,
+   "inventory_graphic_id": 969,
+   "keep_on_reset": true
+  },
+  "rarity": 4
+ },
+ {
+  "description": "It's the most wonderful time of the year (to be buffed).",
+  "duration": 1,
+  "effect": "event_buff,6",
+  "graphic_id": 1,
+  "id": 28,
+  "name": "Wonderful Winter Weekend",
+  "odds": 0,
+  "properties": {
+   "apply_offline": true,
+   "for_event_id": 6,
+   "keep_on_reset": true,
+   "show_on_active_buff_display": false
+  },
+  "rarity": 4
+ },
+ {
+  "description": "Some buffs to help with the recent Tomb of Annihilation variants?",
+  "duration": 1,
+  "effect": "event_buff,7",
+  "graphic_id": 1,
+  "id": 29,
+  "name": "Grand Chultan Weekend",
+  "odds": 0,
+  "properties": {
+   "apply_offline": true,
+   "for_event_id": 7,
+   "keep_on_reset": true,
+   "show_on_active_buff_display": false
+  },
+  "rarity": 4
+ },
+ {
+  "description": "There are new Grand Tour variants! Perhaps these buffs will help!",
+  "duration": 1,
+  "effect": "event_buff,8",
+  "graphic_id": 1,
+  "id": 30,
+  "name": "Wayside Inn Weekend",
+  "odds": 0,
+  "properties": {
+   "apply_offline": true,
+   "for_event_id": 8,
+   "keep_on_reset": true,
+   "show_on_active_buff_display": false
+  },
+  "rarity": 4
+ },
+ {
+  "description": "Contract a master blacksmith to improve a piece of loot owned by one of your Champions.",
+  "duration": 0,
+  "effect": "level_up_loot,1",
+  "graphic_id": 2150,
+  "id": 31,
+  "name": "Tiny Blacksmithing Contract",
+  "odds": 100,
+  "properties": {
+   "has_use_count": false,
+   "inventory_graphic_id": 2151,
+   "select_hero": true,
+   "server_call": true
+  },
+  "rarity": 1
+ },
+ {
+  "description": "Contract a master blacksmith to improve a piece of loot owned by one of your Champions.",
+  "duration": 0,
+  "effect": "level_up_loot,2",
+  "graphic_id": 2152,
+  "id": 32,
+  "name": "Small Blacksmithing Contract",
+  "odds": 50,
+  "properties": {
+   "has_use_count": false,
+   "inventory_graphic_id": 2153,
+   "select_hero": true,
+   "server_call": true
+  },
+  "rarity": 2
+ },
+ {
+  "description": "Contract a master blacksmith to improve a piece of loot owned by one of your Champions.",
+  "duration": 0,
+  "effect": "level_up_loot,6",
+  "graphic_id": 2154,
+  "id": 33,
+  "name": "Medium Blacksmithing Contract",
+  "odds": 20,
+  "properties": {
+   "has_use_count": false,
+   "inventory_graphic_id": 2155,
+   "select_hero": true,
+   "server_call": true
+  },
+  "rarity": 3
+ },
+ {
+  "description": "Contract a master blacksmith to improve a piece of loot owned by one of your Champions.",
+  "duration": 0,
+  "effect": "level_up_loot,24",
+  "graphic_id": 2156,
+  "id": 34,
+  "name": "Large Blacksmithing Contract",
+  "odds": 5,
+  "properties": {
+   "has_use_count": false,
+   "inventory_graphic_id": 2157,
+   "select_hero": true,
+   "server_call": true
+  },
+  "rarity": 4
+ },
+ {
+  "description": "The dense, purple liquid has an avoid cloud of pink floating in it.",
+  "duration": 0,
+  "effect": "reset_specializations,1",
+  "graphic_id": 2158,
+  "id": 35,
+  "name": "Potion of Specialization",
+  "odds": 10,
+  "properties": {
+   "has_use_count": false,
+   "inventory_graphic_id": 2159,
+   "select_hero": true,
+   "wait_for_inventory_decrement": true
+  },
+  "rarity": 2
+ },
+ {
+  "description": "This shiny, silver liquid clings to the edge of the bottle in an unusual way.",
+  "duration": 0,
+  "effect": "random_shiny,1",
+  "graphic_id": 2160,
+  "id": 36,
+  "name": "Potion of Polish",
+  "odds": 0,
+  "properties": {
+   "has_use_count": false,
+   "inventory_graphic_id": 2161,
+   "server_call": true
+  },
+  "rarity": 4
+ },
+ {
+  "description": "The orange liquid in this vial flickers and smoke fills the top of the container.",
+  "duration": 300,
+  "effect": "click_damage_seconds_global_dps,60",
+  "graphic_id": 722,
+  "id": 37,
+  "name": "Small Potion of Fire Breath",
+  "odds": 100,
+  "properties": {
+   "inventory_graphic_id": 723
+  },
+  "rarity": 1
+ },
+ {
+  "description": "The orange liquid in this vial flickers and smoke fills the top of the container.",
+  "duration": 900,
+  "effect": "click_damage_seconds_global_dps,150",
+  "graphic_id": 724,
+  "id": 38,
+  "name": "Medium Potion of Fire Breath",
+  "odds": 50,
+  "properties": {
+   "inventory_graphic_id": 725
+  },
+  "rarity": 2
+ },
+ {
+  "description": "The orange liquid in this vial flickers and smoke fills the top of the container.",
+  "duration": 3600,
+  "effect": "click_damage_seconds_global_dps,300",
+  "graphic_id": 726,
+  "id": 39,
+  "name": "Large Potion of Fire Breath",
+  "odds": 20,
+  "properties": {
+   "inventory_graphic_id": 727
+  },
+  "rarity": 3
+ },
+ {
+  "description": "The orange liquid in this vial flickers and smoke fills the top of the container.",
+  "duration": 315360000,
+  "effect": "click_damage_seconds_global_dps,600",
+  "graphic_id": 728,
+  "id": 40,
+  "name": "Huge Potion of Fire Breath",
+  "odds": 5,
+  "properties": {
+   "inventory_graphic_id": 729
+  },
+  "rarity": 4
+ },
+ {
+  "description": "Tired of making a moral choices? Then this alignment is for you!",
+  "duration": 1,
+  "effect": "event_buff,11",
+  "graphic_id": 1,
+  "id": 41,
+  "name": "Truly Neutral Weekend",
+  "odds": 0,
+  "properties": {
+   "apply_offline": true,
+   "for_event_id": 11,
+   "keep_on_reset": true,
+   "show_on_active_buff_display": false
+  },
+  "rarity": 4
+ },
+ {
+  "description": "Feel particularily evil? This weekend may be for you.",
+  "duration": 1,
+  "effect": "event_buff,13",
+  "graphic_id": 1,
+  "id": 42,
+  "name": "Extra Evil Weekend",
+  "odds": 0,
+  "properties": {
+   "apply_offline": true,
+   "for_event_id": 13,
+   "keep_on_reset": true,
+   "show_on_active_buff_display": false
+  },
+  "rarity": 4
+ },
+ {
+  "description": "We're feeling a little chaotic, which means some of your champions are buffed!",
+  "duration": 1,
+  "effect": "event_buff,14",
+  "graphic_id": 1,
+  "id": 43,
+  "name": "Chaotic Chaos Weekend",
+  "odds": 0,
+  "properties": {
+   "apply_offline": true,
+   "for_event_id": 14,
+   "keep_on_reset": true,
+   "show_on_active_buff_display": false
+  },
+  "rarity": 4
+ },
+ {
+  "description": "Rested Champions move extra fast",
+  "duration": 600,
+  "effect": "time_scale,2",
+  "graphic_id": 2720,
+  "id": 44,
+  "name": "Rested",
+  "odds": 0,
+  "properties": {
+   "inventory_graphic_id": 2720
+  },
+  "rarity": 1
+ },
+ {
+  "description": "The Monsters have been waiting for you!",
+  "duration": 600,
+  "effect": "increase_monster_spawn_time_mult,100",
+  "graphic_id": 720,
+  "id": 45,
+  "name": "Rested Monsters",
+  "odds": 0,
+  "properties": {
+   "keep_on_reset": true
+  },
+  "rarity": 1
+ },
+ {
+  "description": "Your rested eyes spot collection items more quickly",
+  "duration": 600,
+  "effect": "chance_multiply_monster_quest_rewards,100,2",
+  "graphic_id": 720,
+  "id": 46,
+  "name": "Rested Eyes",
+  "odds": 0,
+  "properties": {
+   "keep_on_reset": true
+  },
+  "rarity": 1
+ },
+ {
+  "description": "You feel even more rested",
+  "duration": 300,
+  "effect": "time_scale,2",
+  "graphic_id": 2720,
+  "id": 47,
+  "name": "Rested",
+  "odds": 0,
+  "properties": {
+   "inventory_graphic_id": 2720
+  },
+  "rarity": 1
+ },
+ {
+  "description": "Mega rest bonus",
+  "duration": 120,
+  "effect": "time_scale,2",
+  "graphic_id": 2720,
+  "id": 48,
+  "name": "Rested",
+  "odds": 0,
+  "properties": {
+   "inventory_graphic_id": 2720
+  },
+  "rarity": 1
+ },
+ {
+  "description": "Your rested eyes spot collection items more quickly",
+  "duration": 300,
+  "effect": "chance_multiply_monster_quest_rewards,100,2",
+  "graphic_id": 0,
+  "id": 49,
+  "name": "Rested Eyes Level 2",
+  "odds": 0,
+  "properties": {
+   "keep_on_reset": true
+  },
+  "rarity": 1
+ },
+ {
+  "description": "Your rested eyes spot collection items more quickly",
+  "duration": 120,
+  "effect": "chance_multiply_monster_quest_rewards,100,2",
+  "graphic_id": 0,
+  "id": 50,
+  "name": "Rested Eyes Level 3",
+  "odds": 0,
+  "properties": {
+   "keep_on_reset": true
+  },
+  "rarity": 1
+ },
+ {
+  "description": "We can't not have a good weekend! Whoops!",
+  "duration": 1,
+  "effect": "event_buff,15",
+  "graphic_id": 1,
+  "id": 51,
+  "name": "Generally Good Weekend",
+  "odds": 0,
+  "properties": {
+   "apply_offline": true,
+   "for_event_id": 15,
+   "keep_on_reset": true,
+   "show_on_active_buff_display": false
+  },
+  "rarity": 4
+ },
+ {
+  "description": "Spring is a time of renewal.",
+  "duration": 1,
+  "effect": "event_buff,17",
+  "graphic_id": 1,
+  "id": 52,
+  "name": "Spring Showers Weekend",
+  "odds": 0,
+  "properties": {
+   "apply_offline": true,
+   "for_event_id": 17,
+   "keep_on_reset": true,
+   "show_on_active_buff_display": false
+  },
+  "rarity": 4
+ },
+ {
+  "description": "Stop! In the name of the law!",
+  "duration": 1,
+  "effect": "event_buff,19",
+  "graphic_id": 1,
+  "id": 53,
+  "name": "Law Abiding Weekend",
+  "odds": 0,
+  "properties": {
+   "apply_offline": true,
+   "for_event_id": 19,
+   "keep_on_reset": true,
+   "show_on_active_buff_display": false
+  },
+  "rarity": 4
+ },
+ {
+  "description": "Want to go on a jounrey to the Mithril Hall?",
+  "duration": 1,
+  "effect": "event_buff,20",
+  "graphic_id": 1,
+  "id": 54,
+  "name": "Companions' Weekend",
+  "odds": 0,
+  "properties": {
+   "apply_offline": true,
+   "for_event_id": 20,
+   "keep_on_reset": true,
+   "show_on_active_buff_display": false
+  },
+  "rarity": 4
+ },
+ {
+  "description": "An elite force of popular players!",
+  "duration": 1,
+  "effect": "event_buff,21",
+  "graphic_id": 1,
+  "id": 55,
+  "name": "Force Grey Weekend",
+  "odds": 0,
+  "properties": {
+   "apply_offline": true,
+   "for_event_id": 21,
+   "keep_on_reset": true,
+   "show_on_active_buff_display": false
+  },
+  "rarity": 4
+ },
+ {
+  "description": "Who likes birds? Not Justin's fiance.",
+  "duration": 1,
+  "effect": "event_buff,22",
+  "graphic_id": 1,
+  "id": 56,
+  "name": "Bird-Loving Weekend",
+  "odds": 0,
+  "properties": {
+   "apply_offline": true,
+   "for_event_id": 22,
+   "keep_on_reset": true,
+   "show_on_active_buff_display": false
+  },
+  "rarity": 4
+ }
+]

@@ -1,0 +1,68 @@
+[
+ {
+  "cost": {
+   "soft_currency": 1000
+  },
+  "description": "A commonly summoned magical poking device.",
+  "graphic_id": 2638,
+  "id": 1,
+  "name": "Mage Hand",
+  "properties": {
+   "target_offset_x": 20
+  }
+ },
+ {
+  "cost": {
+   "soft_currency": 10000
+  },
+  "description": "She's taking some time off from the riding races.",
+  "graphic_id": 2639,
+  "id": 2,
+  "name": "Pixie",
+  "properties": {
+   "target_offset_x": 70
+  }
+ },
+ {
+  "cost": {
+   "soft_currency": 50000
+  },
+  "description": "Brought to Chult From the distant land of Zakhara.",
+  "graphic_id": 2637,
+  "id": 3,
+  "name": "Almiraj",
+  "properties": []
+ },
+ {
+  "cost": {
+   "premium_item": 24
+  },
+  "description": "An adorable pet for your everyday evil mage.",
+  "graphic_id": 2466,
+  "id": 4,
+  "name": "Gazer",
+  "properties": {
+   "target_offset_x": 50
+  }
+ },
+ {
+  "cost": {
+   "premium_item": 23
+  },
+  "description": "Painfully shy, Chwingas are fascinated by humanoids.",
+  "graphic_id": 2469,
+  "id": 5,
+  "name": "Chwinga",
+  "properties": []
+ },
+ {
+  "cost": {
+   "premium_item": 25
+  },
+  "description": "The playful version of a terrible destructive dragon.",
+  "graphic_id": 2640,
+  "id": 6,
+  "name": "Pseudodragon",
+  "properties": []
+ }
+]

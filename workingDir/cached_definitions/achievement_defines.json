@@ -1,0 +1,1795 @@
+[
+ {
+  "description": "Click $(amount) times",
+  "effect": "global_dps_multiplier_mult,1",
+  "graphic_id": 830,
+  "id": 1,
+  "name": "Clicking Novice",
+  "properties": {
+   "category": "Clicks, Kills & Gold"
+  },
+  "requirements": "Clicks>=500"
+ },
+ {
+  "description": "Click $(amount) times",
+  "effect": "global_dps_multiplier_mult,1",
+  "graphic_id": 830,
+  "id": 2,
+  "name": "Clicking Expert",
+  "properties": {
+   "category": "Clicks, Kills & Gold"
+  },
+  "requirements": "Clicks>=2500"
+ },
+ {
+  "description": "Click $(amount) times",
+  "effect": "global_dps_multiplier_mult,1",
+  "graphic_id": 830,
+  "id": 3,
+  "name": "Not So Idle",
+  "properties": {
+   "category": "Clicks, Kills & Gold"
+  },
+  "requirements": "Clicks>=10000"
+ },
+ {
+  "description": "Click $(amount) times",
+  "effect": "global_dps_multiplier_mult,1",
+  "graphic_id": 830,
+  "id": 4,
+  "name": "Total Stunner",
+  "properties": {
+   "category": "Clicks, Kills & Gold"
+  },
+  "requirements": "Clicks>=25000"
+ },
+ {
+  "description": "Click $(amount) times",
+  "effect": "global_dps_multiplier_mult,5",
+  "graphic_id": 830,
+  "id": 5,
+  "name": "Stunlock Master",
+  "properties": {
+   "category": "Clicks, Kills & Gold"
+  },
+  "requirements": "Clicks>=50000"
+ },
+ {
+  "description": "Earn $(amount) gold",
+  "effect": "global_dps_multiplier_mult,1",
+  "graphic_id": 835,
+  "id": 6,
+  "name": "Golden",
+  "properties": {
+   "category": "Clicks, Kills & Gold"
+  },
+  "requirements": "GoldGainedAcrossAllResets>=100000"
+ },
+ {
+  "description": "Earn $(amount) gold",
+  "effect": "global_dps_multiplier_mult,1",
+  "graphic_id": 835,
+  "id": 7,
+  "name": "Set For Life",
+  "properties": {
+   "category": "Clicks, Kills & Gold"
+  },
+  "requirements": "GoldGainedAcrossAllResets>=100M"
+ },
+ {
+  "description": "Earn $(amount) gold",
+  "effect": "global_dps_multiplier_mult,1",
+  "graphic_id": 835,
+  "id": 8,
+  "name": "Not Enough",
+  "properties": {
+   "category": "Clicks, Kills & Gold"
+  },
+  "requirements": "GoldGainedAcrossAllResets>=1e14"
+ },
+ {
+  "description": "Earn $(amount) gold",
+  "effect": "global_dps_multiplier_mult,1",
+  "graphic_id": 835,
+  "id": 9,
+  "name": "Need More Gold",
+  "properties": {
+   "category": "Clicks, Kills & Gold"
+  },
+  "requirements": "GoldGainedAcrossAllResets>=1e20"
+ },
+ {
+  "description": "Earn $(amount) gold",
+  "effect": "global_dps_multiplier_mult,1",
+  "graphic_id": 835,
+  "id": 10,
+  "name": "Can't Stop Earning",
+  "properties": {
+   "category": "Clicks, Kills & Gold"
+  },
+  "requirements": "GoldGainedAcrossAllResets>=1e26"
+ },
+ {
+  "description": "Earn $(amount) gold",
+  "effect": "global_dps_multiplier_mult,1",
+  "graphic_id": 835,
+  "id": 11,
+  "name": "Ludicrous Gold",
+  "properties": {
+   "category": "Clicks, Kills & Gold"
+  },
+  "requirements": "GoldGainedAcrossAllResets>=1e32"
+ },
+ {
+  "description": "Earn $(amount) gold",
+  "effect": "global_dps_multiplier_mult,1",
+  "graphic_id": 835,
+  "id": 12,
+  "name": "Gilded Gold",
+  "properties": {
+   "category": "Clicks, Kills & Gold"
+  },
+  "requirements": "GoldGainedAcrossAllResets>=1e38"
+ },
+ {
+  "description": "Earn $(amount) gold",
+  "effect": "global_dps_multiplier_mult,1",
+  "graphic_id": 835,
+  "id": 13,
+  "name": "Impressive Stash",
+  "properties": {
+   "category": "Clicks, Kills & Gold"
+  },
+  "requirements": "GoldGainedAcrossAllResets>=1e44"
+ },
+ {
+  "description": "Earn $(amount) gold",
+  "effect": "global_dps_multiplier_mult,5",
+  "graphic_id": 835,
+  "id": 14,
+  "name": "Keep On Golding",
+  "properties": {
+   "category": "Clicks, Kills & Gold"
+  },
+  "requirements": "GoldGainedAcrossAllResets>=1e50"
+ },
+ {
+  "description": "Earn $(amount) gold",
+  "effect": "global_dps_multiplier_mult,1",
+  "graphic_id": 835,
+  "id": 15,
+  "name": "Gold Obsessed",
+  "properties": {
+   "category": "Clicks, Kills & Gold"
+  },
+  "requirements": "GoldGainedAcrossAllResets>=1e60"
+ },
+ {
+  "description": "Earn $(amount) gold",
+  "effect": "global_dps_multiplier_mult,1",
+  "graphic_id": 835,
+  "id": 16,
+  "name": "Bank Breaker",
+  "properties": {
+   "category": "Clicks, Kills & Gold"
+  },
+  "requirements": "GoldGainedAcrossAllResets>=1e70"
+ },
+ {
+  "description": "Earn $(amount) gold",
+  "effect": "global_dps_multiplier_mult,1",
+  "graphic_id": 835,
+  "id": 17,
+  "name": "Safety Deposit Box",
+  "properties": {
+   "category": "Clicks, Kills & Gold"
+  },
+  "requirements": "GoldGainedAcrossAllResets>=1e80"
+ },
+ {
+  "description": "Earn $(amount) gold",
+  "effect": "global_dps_multiplier_mult,1",
+  "graphic_id": 835,
+  "id": 18,
+  "name": "Set For Multiple Lives",
+  "properties": {
+   "category": "Clicks, Kills & Gold"
+  },
+  "requirements": "GoldGainedAcrossAllResets>=1e90"
+ },
+ {
+  "description": "Earn $(amount) gold",
+  "effect": "global_dps_multiplier_mult,5",
+  "graphic_id": 835,
+  "id": 19,
+  "name": "Still Not Enough",
+  "properties": {
+   "category": "Clicks, Kills & Gold"
+  },
+  "requirements": "GoldGainedAcrossAllResets>=1e100"
+ },
+ {
+  "description": "Earn $(amount) gold",
+  "effect": "global_dps_multiplier_mult,1",
+  "graphic_id": 835,
+  "id": 20,
+  "name": "Gold Hoarder",
+  "properties": {
+   "category": "Clicks, Kills & Gold"
+  },
+  "requirements": "GoldGainedAcrossAllResets>=1e125"
+ },
+ {
+  "description": "Earn $(amount) gold",
+  "effect": "global_dps_multiplier_mult,1",
+  "graphic_id": 835,
+  "id": 21,
+  "name": "End Game Gold",
+  "properties": {
+   "category": "Clicks, Kills & Gold"
+  },
+  "requirements": "GoldGainedAcrossAllResets>=1e150"
+ },
+ {
+  "description": "Earn $(amount) gold",
+  "effect": "global_dps_multiplier_mult,1",
+  "graphic_id": 835,
+  "id": 22,
+  "name": "Understandably Golden",
+  "properties": {
+   "category": "Clicks, Kills & Gold"
+  },
+  "requirements": "GoldGainedAcrossAllResets>=1e175"
+ },
+ {
+  "description": "Earn $(amount) gold",
+  "effect": "global_dps_multiplier_mult,5",
+  "graphic_id": 835,
+  "id": 23,
+  "name": "Golden Dragons",
+  "properties": {
+   "category": "Clicks, Kills & Gold"
+  },
+  "requirements": "GoldGainedAcrossAllResets>=1e200"
+ },
+ {
+  "description": "Complete area $(amount) in any adventure",
+  "effect": "global_dps_multiplier_mult,1",
+  "graphic_id": 814,
+  "id": 24,
+  "name": "Adventurer",
+  "properties": {
+   "category": "Adventures"
+  },
+  "requirements": "HighestAreaCompletedOverAllCampaigns>=10"
+ },
+ {
+  "description": "Complete area $(amount) in any adventure",
+  "effect": "global_dps_multiplier_mult,1",
+  "graphic_id": 815,
+  "id": 25,
+  "name": "Tutorialist",
+  "properties": {
+   "category": "Adventures"
+  },
+  "requirements": "HighestAreaCompletedOverAllCampaigns>=25"
+ },
+ {
+  "description": "Complete area $(amount) in any adventure",
+  "effect": "global_dps_multiplier_mult,1",
+  "graphic_id": 816,
+  "id": 26,
+  "name": "Completionist",
+  "properties": {
+   "category": "Adventures"
+  },
+  "requirements": "HighestAreaCompletedOverAllCampaigns>=50"
+ },
+ {
+  "description": "Complete area $(amount) in any adventure",
+  "effect": "global_dps_multiplier_mult,5",
+  "graphic_id": 817,
+  "id": 27,
+  "name": "Double Completionist",
+  "properties": {
+   "category": "Adventures"
+  },
+  "requirements": "HighestAreaCompletedOverAllCampaigns>=100"
+ },
+ {
+  "description": "Complete area $(amount) in any adventure",
+  "effect": "global_dps_multiplier_mult,1",
+  "graphic_id": 818,
+  "id": 28,
+  "name": "Quadruple Completionist",
+  "properties": {
+   "category": "Adventures"
+  },
+  "requirements": "HighestAreaCompletedOverAllCampaigns>=200"
+ },
+ {
+  "description": "Complete area $(amount) in any adventure",
+  "effect": "global_dps_multiplier_mult,1",
+  "graphic_id": 819,
+  "id": 29,
+  "name": "We Must Go Deeper",
+  "properties": {
+   "category": "Adventures"
+  },
+  "requirements": "HighestAreaCompletedOverAllCampaigns>=300"
+ },
+ {
+  "description": "Complete area $(amount) in any adventure",
+  "effect": "global_dps_multiplier_mult,1",
+  "graphic_id": 820,
+  "id": 30,
+  "name": "Deja Vu",
+  "properties": {
+   "category": "Adventures"
+  },
+  "requirements": "HighestAreaCompletedOverAllCampaigns>=400"
+ },
+ {
+  "description": "Complete area $(amount) in any adventure",
+  "effect": "global_dps_multiplier_mult,5",
+  "graphic_id": 821,
+  "id": 31,
+  "name": "Will It Ever End?",
+  "properties": {
+   "category": "Adventures"
+  },
+  "requirements": "HighestAreaCompletedOverAllCampaigns>=500"
+ },
+ {
+  "description": "Complete area $(amount) in any adventure",
+  "effect": "global_dps_multiplier_mult,1",
+  "graphic_id": 822,
+  "id": 32,
+  "name": "Just Another Hundred",
+  "properties": {
+   "category": "Adventures"
+  },
+  "requirements": "HighestAreaCompletedOverAllCampaigns>=600"
+ },
+ {
+  "description": "Complete area $(amount) in any adventure",
+  "effect": "global_dps_multiplier_mult,1",
+  "graphic_id": 823,
+  "id": 33,
+  "name": "Keep On Pushing",
+  "properties": {
+   "category": "Adventures"
+  },
+  "requirements": "HighestAreaCompletedOverAllCampaigns>=700"
+ },
+ {
+  "description": "Complete area $(amount) in any adventure",
+  "effect": "global_dps_multiplier_mult,1",
+  "graphic_id": 824,
+  "id": 34,
+  "name": "Almost There",
+  "properties": {
+   "category": "Adventures"
+  },
+  "requirements": "HighestAreaCompletedOverAllCampaigns>=800"
+ },
+ {
+  "description": "Complete area $(amount) in any adventure",
+  "effect": "global_dps_multiplier_mult,1",
+  "graphic_id": 825,
+  "id": 35,
+  "name": "Perpetual Adventurer",
+  "properties": {
+   "category": "Adventures"
+  },
+  "requirements": "HighestAreaCompletedOverAllCampaigns>=900"
+ },
+ {
+  "description": "Complete area $(amount) in any adventure",
+  "effect": "global_dps_multiplier_mult,5",
+  "graphic_id": 826,
+  "id": 36,
+  "name": "Four-Digit Adventurer",
+  "properties": {
+   "category": "Adventures"
+  },
+  "requirements": "HighestAreaCompletedOverAllCampaigns>=1000"
+ },
+ {
+  "description": "Complete the Tutorial Adventure",
+  "effect": "global_dps_multiplier_mult,1",
+  "graphic_id": 839,
+  "id": 37,
+  "name": "A Tutorial Completed",
+  "properties": {
+   "category": "Adventures"
+  },
+  "requirements": "UniqueAdventuresCompleted>=1"
+ },
+ {
+  "description": "Complete $(amount) Unique Adventures",
+  "effect": "global_dps_multiplier_mult,1",
+  "graphic_id": 840,
+  "id": 38,
+  "name": "Sword Coast Adventurer",
+  "properties": {
+   "category": "Adventures"
+  },
+  "requirements": "UniqueAdventuresCompleted>=2"
+ },
+ {
+  "description": "Complete $(amount) Unique Adventures",
+  "effect": "global_dps_multiplier_mult,1",
+  "graphic_id": 840,
+  "id": 39,
+  "name": "Seasoned Adventurer",
+  "properties": {
+   "category": "Adventures"
+  },
+  "requirements": "UniqueAdventuresCompleted>=4"
+ },
+ {
+  "description": "Complete $(amount) Unique Adventure Variants",
+  "effect": "global_dps_multiplier_mult,1",
+  "graphic_id": 840,
+  "id": 41,
+  "name": "Change Things Up",
+  "properties": {
+   "category": "Adventures"
+  },
+  "requirements": "UniqueVariantsCompleted>=4"
+ },
+ {
+  "description": "Complete $(amount) Unique Adventure Variants",
+  "effect": "global_dps_multiplier_mult,1",
+  "graphic_id": 840,
+  "id": 42,
+  "name": "Never A Dull Moment",
+  "properties": {
+   "category": "Adventures"
+  },
+  "requirements": "UniqueVariantsCompleted>=7"
+ },
+ {
+  "description": "Complete $(amount) Unique Adventure Variants",
+  "effect": "global_dps_multiplier_mult,1",
+  "graphic_id": 840,
+  "id": 43,
+  "name": "Versatile Adventurer",
+  "properties": {
+   "category": "Adventures"
+  },
+  "requirements": "UniqueVariantsCompleted>=10"
+ },
+ {
+  "description": "Kill $(amount) Monsters",
+  "effect": "global_dps_multiplier_mult,1",
+  "graphic_id": 836,
+  "id": 44,
+  "name": "Monster Mangler",
+  "properties": {
+   "category": "Clicks, Kills & Gold"
+  },
+  "requirements": "MonsterKills>=500"
+ },
+ {
+  "description": "Kill $(amount) Monsters",
+  "effect": "global_dps_multiplier_mult,1",
+  "graphic_id": 836,
+  "id": 45,
+  "name": "Monster Masher",
+  "properties": {
+   "category": "Clicks, Kills & Gold"
+  },
+  "requirements": "MonsterKills>=25000"
+ },
+ {
+  "description": "Kill $(amount) Monsters",
+  "effect": "global_dps_multiplier_mult,1",
+  "graphic_id": 836,
+  "id": 46,
+  "name": "Monster Obliterator",
+  "properties": {
+   "category": "Clicks, Kills & Gold"
+  },
+  "requirements": "MonsterKills>=750000"
+ },
+ {
+  "description": "Kill $(amount) Monsters",
+  "effect": "global_dps_multiplier_mult,1",
+  "graphic_id": 836,
+  "id": 47,
+  "name": "Monster Decimator",
+  "properties": {
+   "category": "Clicks, Kills & Gold"
+  },
+  "requirements": "MonsterKills>=5000000"
+ },
+ {
+  "description": "Kill $(amount) Monsters",
+  "effect": "global_dps_multiplier_mult,5",
+  "graphic_id": 836,
+  "id": 48,
+  "name": "The Real Monster Here",
+  "properties": {
+   "category": "Clicks, Kills & Gold"
+  },
+  "requirements": "MonsterKills>=25000000"
+ },
+ {
+  "description": "Defeat $(amount) Bosses",
+  "effect": "global_dps_multiplier_mult,1",
+  "graphic_id": 827,
+  "id": 49,
+  "name": "Boss Smasher",
+  "properties": {
+   "category": "Clicks, Kills & Gold"
+  },
+  "requirements": "BossKills>=10"
+ },
+ {
+  "description": "Defeat $(amount) Bosses",
+  "effect": "global_dps_multiplier_mult,1",
+  "graphic_id": 827,
+  "id": 51,
+  "name": "Boss Grinder",
+  "properties": {
+   "category": "Clicks, Kills & Gold"
+  },
+  "requirements": "BossKills>=100"
+ },
+ {
+  "description": "Defeat $(amount) Bosses",
+  "effect": "global_dps_multiplier_mult,1",
+  "graphic_id": 827,
+  "id": 52,
+  "name": "Bossed Around",
+  "properties": {
+   "category": "Clicks, Kills & Gold"
+  },
+  "requirements": "BossKills>=1000"
+ },
+ {
+  "description": "Defeat $(amount) Bosses",
+  "effect": "global_dps_multiplier_mult,1",
+  "graphic_id": 827,
+  "id": 53,
+  "name": "Bossed Out",
+  "properties": {
+   "category": "Clicks, Kills & Gold"
+  },
+  "requirements": "BossKills>=5000"
+ },
+ {
+  "description": "Defeat $(amount) Bosses",
+  "effect": "global_dps_multiplier_mult,5",
+  "graphic_id": 827,
+  "id": 54,
+  "name": "Boss Idler",
+  "properties": {
+   "category": "Clicks, Kills & Gold"
+  },
+  "requirements": "BossKills>=10000"
+ },
+ {
+  "description": "Recruit $(amount) Champions",
+  "effect": "global_dps_multiplier_mult,1",
+  "graphic_id": 837,
+  "id": 55,
+  "name": "Bringing the Team Together",
+  "properties": [],
+  "requirements": "MostHeroesUnlocked>=3"
+ },
+ {
+  "description": "Recruit $(amount) Champions",
+  "effect": "global_dps_multiplier_mult,1",
+  "graphic_id": 837,
+  "id": 56,
+  "name": "A Good Sized Troupe",
+  "properties": [],
+  "requirements": "MostHeroesUnlocked>=6"
+ },
+ {
+  "description": "Recruit $(amount) Champions",
+  "effect": "global_dps_multiplier_mult,5",
+  "graphic_id": 837,
+  "id": 57,
+  "name": "All Together Now",
+  "properties": [],
+  "requirements": "MostHeroesUnlocked>=12"
+ },
+ {
+  "description": "Open $(amount) Chests",
+  "effect": "global_dps_multiplier_mult,1",
+  "graphic_id": 829,
+  "id": 59,
+  "name": "Treasure Chest Opener",
+  "properties": [],
+  "requirements": "TreasureChestsOpened>=5"
+ },
+ {
+  "description": "Open $(amount) Chests",
+  "effect": "global_dps_multiplier_mult,1",
+  "graphic_id": 829,
+  "id": 60,
+  "name": "Treasure Chest Hoarder",
+  "properties": [],
+  "requirements": "TreasureChestsOpened>=50"
+ },
+ {
+  "description": "Open $(amount) Chests",
+  "effect": "global_dps_multiplier_mult,1",
+  "graphic_id": 829,
+  "id": 61,
+  "name": "Treasure Chest Collector",
+  "properties": [],
+  "requirements": "TreasureChestsOpened>=250"
+ },
+ {
+  "description": "Open $(amount) Chests",
+  "effect": "global_dps_multiplier_mult,1",
+  "graphic_id": 829,
+  "id": 62,
+  "name": "Treasure Chest Connoisseur",
+  "properties": [],
+  "requirements": "TreasureChestsOpened>=500"
+ },
+ {
+  "description": "Open $(amount) Chests",
+  "effect": "global_dps_multiplier_mult,5",
+  "graphic_id": 829,
+  "id": 63,
+  "name": "Treasure Chest Expert",
+  "properties": [],
+  "requirements": "TreasureChestsOpened>=1000"
+ },
+ {
+  "description": "Find $(amount) pieces of Gear of any rarity",
+  "effect": "global_dps_multiplier_mult,1",
+  "graphic_id": 813,
+  "id": 64,
+  "name": "Equipped",
+  "properties": {
+   "category": "Gear"
+  },
+  "requirements": "LootGained>=5"
+ },
+ {
+  "description": "Find $(amount) pieces of Gear of any rarity",
+  "effect": "global_dps_multiplier_mult,1",
+  "graphic_id": 813,
+  "id": 65,
+  "name": "Well Equipped",
+  "properties": {
+   "category": "Gear"
+  },
+  "requirements": "LootGained>=20"
+ },
+ {
+  "description": "Find $(amount) pieces of Gear of any rarity",
+  "effect": "global_dps_multiplier_mult,1",
+  "graphic_id": 813,
+  "id": 66,
+  "name": "Excellently Equipped",
+  "properties": {
+   "category": "Gear"
+  },
+  "requirements": "LootGained>=60"
+ },
+ {
+  "description": "Find $(amount) pieces of Gear of any rarity",
+  "effect": "global_dps_multiplier_mult,1",
+  "graphic_id": 813,
+  "id": 67,
+  "name": "Buried in Equipment",
+  "properties": {
+   "category": "Gear"
+  },
+  "requirements": "LootGained>=125"
+ },
+ {
+  "description": "Find $(amount) pieces of Gear of any rarity",
+  "effect": "global_dps_multiplier_mult,5",
+  "graphic_id": 813,
+  "id": 68,
+  "name": "Insanely Equipped",
+  "properties": {
+   "category": "Gear"
+  },
+  "requirements": "LootGained>=250"
+ },
+ {
+  "description": "Find a piece of Epic Gear",
+  "effect": "global_dps_multiplier_mult,1",
+  "graphic_id": 832,
+  "id": 69,
+  "name": "Epically Equipped",
+  "properties": {
+   "category": "Gear"
+  },
+  "requirements": "EpicLootGained>=1"
+ },
+ {
+  "description": "Find $(amount) pieces of Epic Gear",
+  "effect": "global_dps_multiplier_mult,1",
+  "graphic_id": 832,
+  "id": 70,
+  "name": "Purple Fever",
+  "properties": {
+   "category": "Gear"
+  },
+  "requirements": "EpicLootGained>=5"
+ },
+ {
+  "description": "Find $(amount) pieces of Epic Gear",
+  "effect": "global_dps_multiplier_mult,1",
+  "graphic_id": 832,
+  "id": 71,
+  "name": "Epic Excitement",
+  "properties": {
+   "category": "Gear"
+  },
+  "requirements": "EpicLootGained>=15"
+ },
+ {
+  "description": "Find $(amount) pieces of Epic Gear",
+  "effect": "global_dps_multiplier_mult,1",
+  "graphic_id": 832,
+  "id": 72,
+  "name": "Endless Epics",
+  "properties": {
+   "category": "Gear"
+  },
+  "requirements": "EpicLootGained>=25"
+ },
+ {
+  "description": "Find $(amount) pieces of Epic Gear",
+  "effect": "global_dps_multiplier_mult,5",
+  "graphic_id": 832,
+  "id": 73,
+  "name": "Epics for Everyone",
+  "properties": {
+   "category": "Gear"
+  },
+  "requirements": "EpicLootGained>=50"
+ },
+ {
+  "description": "Fully equip any Champion",
+  "effect": "global_dps_multiplier_mult,1",
+  "graphic_id": 833,
+  "id": 74,
+  "name": "Fully Geared",
+  "properties": {
+   "category": "Gear"
+  },
+  "requirements": "ChampionsFullyEquipped>=1"
+ },
+ {
+  "description": "Fully equip $(amount) Champions",
+  "effect": "global_dps_multiplier_mult,1",
+  "graphic_id": 833,
+  "id": 75,
+  "name": "Fully Geared Gang",
+  "properties": {
+   "category": "Gear"
+  },
+  "requirements": "ChampionsFullyEquipped>=4"
+ },
+ {
+  "description": "Fully equip $(amount) Champions",
+  "effect": "global_dps_multiplier_mult,5",
+  "graphic_id": 833,
+  "id": 76,
+  "name": "Fully Geared Formation",
+  "properties": {
+   "category": "Gear"
+  },
+  "requirements": "ChampionsFullyEquipped>=12"
+ },
+ {
+  "description": "Reset the game twice",
+  "effect": "global_dps_multiplier_mult,1",
+  "graphic_id": 812,
+  "id": 77,
+  "name": "Favor of the Gods",
+  "properties": [],
+  "requirements": "Resets>=2"
+ },
+ {
+  "description": "Reset the game $(amount) times",
+  "effect": "global_dps_multiplier_mult,1",
+  "graphic_id": 812,
+  "id": 78,
+  "name": "Starting Over Again",
+  "properties": [],
+  "requirements": "Resets>=5"
+ },
+ {
+  "description": "Reset the game $(amount) times",
+  "effect": "global_dps_multiplier_mult,1",
+  "graphic_id": 812,
+  "id": 79,
+  "name": "Much Faster Now",
+  "properties": [],
+  "requirements": "Resets>=25"
+ },
+ {
+  "description": "Reset the game $(amount) times",
+  "effect": "global_dps_multiplier_mult,1",
+  "graphic_id": 812,
+  "id": 80,
+  "name": "Not So New Anymore",
+  "properties": [],
+  "requirements": "Resets>=100"
+ },
+ {
+  "description": "Reset the game $(amount) times",
+  "effect": "global_dps_multiplier_mult,5",
+  "graphic_id": 812,
+  "id": 81,
+  "name": "Old Hat Resetter",
+  "properties": [],
+  "requirements": "Resets>=250"
+ },
+ {
+  "description": "Unlock $(amount) Achievements",
+  "effect": "global_dps_multiplier_mult,1",
+  "graphic_id": 811,
+  "id": 82,
+  "name": "So Meta",
+  "properties": [],
+  "requirements": "AchievementsUnlocked>=25"
+ },
+ {
+  "description": "Unlock $(amount) Achievements",
+  "effect": "global_dps_multiplier_mult,1",
+  "graphic_id": 811,
+  "id": 83,
+  "name": "Achievement Hunter",
+  "properties": [],
+  "requirements": "AchievementsUnlocked>=50"
+ },
+ {
+  "description": "Unlock $(amount) Achievements",
+  "effect": "global_dps_multiplier_mult,1",
+  "graphic_id": 811,
+  "id": 84,
+  "name": "Achievement Master",
+  "properties": [],
+  "requirements": "AchievementsUnlocked>=75"
+ },
+ {
+  "description": "Unlock $(amount) Achievements",
+  "effect": "global_dps_multiplier_mult,5",
+  "graphic_id": 811,
+  "id": 85,
+  "name": "Achievement Achiever",
+  "properties": [],
+  "requirements": "AchievementsUnlocked>=100"
+ },
+ {
+  "description": "View the Credits",
+  "effect": "global_dps_multiplier_mult,1",
+  "graphic_id": 831,
+  "id": 86,
+  "name": "View the Credits",
+  "properties": {
+   "category": "Other"
+  },
+  "requirements": "CreditsSeen=1"
+ },
+ {
+  "description": "Level a piece of Gear to level $(amount)",
+  "effect": "global_dps_multiplier_mult,1",
+  "graphic_id": 834,
+  "id": 87,
+  "name": "Duplicated",
+  "properties": {
+   "category": "Gear"
+  },
+  "requirements": "HighestGearLevel>=10"
+ },
+ {
+  "description": "Level a piece of Gear to level $(amount)",
+  "effect": "global_dps_multiplier_mult,1",
+  "graphic_id": 834,
+  "id": 88,
+  "name": "Getting Better Now",
+  "properties": {
+   "category": "Gear"
+  },
+  "requirements": "HighestGearLevel>=50"
+ },
+ {
+  "description": "Level a piece of Gear to level $(amount)",
+  "effect": "global_dps_multiplier_mult,1",
+  "graphic_id": 834,
+  "id": 89,
+  "name": "A Significant Boost",
+  "properties": {
+   "category": "Gear"
+  },
+  "requirements": "HighestGearLevel>=250"
+ },
+ {
+  "description": "Level a piece of Gear to level $(amount)",
+  "effect": "global_dps_multiplier_mult,1",
+  "graphic_id": 834,
+  "id": 90,
+  "name": "Twice As Awesome",
+  "properties": {
+   "category": "Gear"
+  },
+  "requirements": "HighestGearLevel>=1000"
+ },
+ {
+  "description": "Level a piece of Gear to level $(amount)",
+  "effect": "global_dps_multiplier_mult,5",
+  "graphic_id": 834,
+  "id": 91,
+  "name": "Can't Stop Me Now",
+  "properties": {
+   "category": "Gear"
+  },
+  "requirements": "HighestGearLevel>=5000"
+ },
+ {
+  "description": "Find a piece of Shiny gear",
+  "effect": "global_dps_multiplier_mult,1",
+  "graphic_id": 838,
+  "id": 92,
+  "name": "Shiny!",
+  "properties": {
+   "category": "Gear"
+  },
+  "requirements": "NumShinyGearObtained>=1"
+ },
+ {
+  "description": "Find $(amount) pieces of Shiny gear",
+  "effect": "global_dps_multiplier_mult,1",
+  "graphic_id": 838,
+  "id": 93,
+  "name": "Twice as Lucky",
+  "properties": {
+   "category": "Gear"
+  },
+  "requirements": "NumShinyGearObtained>=2"
+ },
+ {
+  "description": "Find $(amount) pieces of Shiny gear",
+  "effect": "global_dps_multiplier_mult,1",
+  "graphic_id": 838,
+  "id": 94,
+  "name": "Extremely Shiny",
+  "properties": {
+   "category": "Gear"
+  },
+  "requirements": "NumShinyGearObtained>=5"
+ },
+ {
+  "description": "Find $(amount) pieces of Shiny gear",
+  "effect": "global_dps_multiplier_mult,1",
+  "graphic_id": 838,
+  "id": 95,
+  "name": "Never Tell Me The Odds",
+  "properties": {
+   "category": "Gear"
+  },
+  "requirements": "NumShinyGearObtained>=10"
+ },
+ {
+  "description": "Find $(amount) pieces of Shiny gear",
+  "effect": "global_dps_multiplier_mult,5",
+  "graphic_id": 838,
+  "id": 96,
+  "name": "Blindingly Shiny",
+  "properties": {
+   "category": "Gear"
+  },
+  "requirements": "NumShinyGearObtained>=20"
+ },
+ {
+  "description": "Level Bruenor up to level $(amount)",
+  "effect": "global_dps_multiplier_mult,1",
+  "graphic_id": 828,
+  "id": 98,
+  "name": "That's One Tough Dwarf",
+  "properties": {
+   "category": "Champions"
+  },
+  "requirements": "Champion1HighestLevel>=500"
+ },
+ {
+  "description": "Have Celeste heal $(amount) damage",
+  "effect": "global_dps_multiplier_mult,1",
+  "graphic_id": 961,
+  "id": 99,
+  "name": "Sel\u00fbne's Blessing",
+  "properties": {
+   "category": "Champions"
+  },
+  "requirements": "CelesteTotalHealing>=1B"
+ },
+ {
+  "description": "Have Nayeli take $(amount) damage",
+  "effect": "global_dps_multiplier_mult,1",
+  "graphic_id": 967,
+  "id": 100,
+  "name": "Sworn Protector",
+  "properties": {
+   "category": "Champions"
+  },
+  "requirements": "NayeliDamageTaken>=1q"
+ },
+ {
+  "description": "Activate both of Jarlaxle's Formation Abilities at the same time",
+  "effect": "global_dps_multiplier_mult,1",
+  "graphic_id": 964,
+  "id": 101,
+  "name": "The Most Particular Drow",
+  "properties": {
+   "category": "Champions"
+  },
+  "requirements": "JarlaxleBothAbilities=1"
+ },
+ {
+  "description": "Have Calliope provide $(amount) total Damage Shield",
+  "effect": "global_dps_multiplier_mult,1",
+  "graphic_id": 960,
+  "id": 102,
+  "name": "Shielding Melody",
+  "properties": {
+   "category": "Champions"
+  },
+  "requirements": "CalliopeTotalShield>=1o"
+ },
+ {
+  "description": "Have each of Asharra's Bond specializations buff your highest damage Champion",
+  "effect": "global_dps_multiplier_mult,1",
+  "graphic_id": 959,
+  "id": 103,
+  "name": "Shared Bonds",
+  "properties": {
+   "category": "Champions"
+  },
+  "requirements": "AsharraBonds>=3"
+ },
+ {
+  "description": "Have Minsc kill $(amount) or more Enemies in one Ultimate Attack",
+  "effect": "global_dps_multiplier_mult,1",
+  "graphic_id": 966,
+  "id": 104,
+  "name": "Went For The Eyes",
+  "properties": {
+   "category": "Champions"
+  },
+  "requirements": "MinscUltimateKills>=15"
+ },
+ {
+  "description": "Have Delina burn a Boss to death",
+  "effect": "global_dps_multiplier_mult,1",
+  "graphic_id": 962,
+  "id": 105,
+  "name": "A Slow Death",
+  "properties": {
+   "category": "Champions"
+  },
+  "requirements": "DelinaBurnBoss=1"
+ },
+ {
+  "description": "Gain $(amount) Gold from Makos' Dark Luck",
+  "effect": "global_dps_multiplier_mult,1",
+  "graphic_id": 965,
+  "id": 106,
+  "name": "The Fiend's Riches",
+  "properties": {
+   "category": "Champions"
+  },
+  "requirements": "MakosDarkLuckGold>=1e39"
+ },
+ {
+  "description": "Gain $(amount) Shield HP from Tyril's Shielding Bite",
+  "effect": "global_dps_multiplier_mult,1",
+  "graphic_id": 968,
+  "id": 107,
+  "name": "Shielding Fury",
+  "properties": {
+   "category": "Champions"
+  },
+  "requirements": "TyrilShieldingBiteAmount>=1e42"
+ },
+ {
+  "description": "Complete all three variants of \"The Bandit's Harvest\" adventure",
+  "effect": "global_dps_multiplier_mult,1",
+  "graphic_id": 1081,
+  "id": 111,
+  "name": "Harvest Interrupted",
+  "properties": {
+   "category": "HighHarvestide",
+   "for_event": 1
+  },
+  "requirements": "HighharvestideVariantsCompleted>=3"
+ },
+ {
+  "description": "Unlock Jamilah before unlocking Area 50",
+  "effect": "global_dps_multiplier_mult,1",
+  "graphic_id": 963,
+  "id": 108,
+  "name": "Early Rage",
+  "properties": {
+   "category": "Champions"
+  },
+  "requirements": "UnlockJamilahBeforeArea50=1"
+ },
+ {
+  "description": "Have Arkhan hit $(amount)+ Enemies with Fire Breath",
+  "effect": "global_dps_multiplier_mult,1",
+  "graphic_id": 958,
+  "id": 109,
+  "name": "Flamethrower",
+  "properties": {
+   "category": "Champions"
+  },
+  "requirements": "ArkhanFireBreathHits>=20"
+ },
+ {
+  "description": "Recruit Stami \"Stoki\" Gackle, the Gnome Monk",
+  "effect": "global_dps_multiplier_mult,1",
+  "graphic_id": 1080,
+  "id": 110,
+  "name": "Recruit Stami \"Stoki\" Gackle",
+  "properties": {
+   "category": "HighHarvestide",
+   "for_event": 1
+  },
+  "requirements": "Champion14Recruited=1"
+ },
+ {
+  "description": "Obtain a piece of gear for each of Stoki's six equipment slots",
+  "effect": "global_dps_multiplier_mult,1",
+  "graphic_id": 1082,
+  "id": 112,
+  "name": "Solemnly Geared",
+  "properties": {
+   "category": "HighHarvestide",
+   "for_event": 1
+  },
+  "requirements": "Champion14EquipSlotsFull=6"
+ },
+ {
+  "description": "Complete area 150 in \"The Bandit's Harvest\" free play",
+  "effect": "global_dps_multiplier_mult,1",
+  "graphic_id": 1083,
+  "id": 113,
+  "name": "Endless Harvest",
+  "properties": {
+   "category": "HighHarvestide",
+   "for_event": 1
+  },
+  "requirements": "BanditsHarvestHighestArea>=150"
+ },
+ {
+  "description": "Have Champions other than Stoki kill $(amount) bosses that are affected by her Ki Strike",
+  "effect": "global_dps_multiplier_mult,1",
+  "graphic_id": 1084,
+  "id": 114,
+  "name": "I Loosened It For You",
+  "properties": {
+   "category": "HighHarvestide",
+   "for_event": 1
+  },
+  "requirements": "BossesKilledWithKiStrikeActive>=500"
+ },
+ {
+  "description": "Recruit Krond, the Half-Orc Eldritch Knight",
+  "effect": "global_dps_multiplier_mult,1",
+  "graphic_id": 1375,
+  "id": 115,
+  "name": "Recruit Krond",
+  "properties": {
+   "category": "Liars' Night",
+   "for_event": 2
+  },
+  "requirements": "Champion15Recruited=1"
+ },
+ {
+  "description": "Complete all three variants of \"The Trickster's Delight\" adventure",
+  "effect": "global_dps_multiplier_mult,1",
+  "graphic_id": 1376,
+  "id": 116,
+  "name": "The Trickster's End",
+  "properties": {
+   "category": "Liars' Night",
+   "for_event": 2
+  },
+  "requirements": "Adventure44VariantsCompleted>=3"
+ },
+ {
+  "description": "Obtain a piece of gear for each of Krond's six equipment slots",
+  "effect": "global_dps_multiplier_mult,1",
+  "graphic_id": 1377,
+  "id": 117,
+  "name": "Heritage",
+  "properties": {
+   "category": "Liars' Night",
+   "for_event": 2
+  },
+  "requirements": "Champion15EquipSlotsFull=6"
+ },
+ {
+  "description": "Complete area 150 in \"The Trickster's Delight\" free play",
+  "effect": "global_dps_multiplier_mult,1",
+  "graphic_id": 1378,
+  "id": 118,
+  "name": "Endless Tricks",
+  "properties": {
+   "category": "Liars' Night",
+   "for_event": 2
+  },
+  "requirements": "Campaign4FreePlayHighestArea>=150"
+ },
+ {
+  "description": "Kill 100 enemies with each of Krond's Cantrips",
+  "effect": "global_dps_multiplier_mult,1",
+  "graphic_id": 1379,
+  "id": 119,
+  "name": "Arcane Versatility",
+  "properties": {
+   "category": "Liars' Night",
+   "for_event": 2
+  },
+  "requirements": "NumKrondCantrip100KillsCompleted>=300"
+ },
+ {
+  "description": "Recruit Gromma Nander, the Tortle Druid",
+  "effect": "global_dps_multiplier_mult,1",
+  "graphic_id": 1451,
+  "id": 120,
+  "name": "Recruit Gromma Nander",
+  "properties": {
+   "category": "Feast of the Moon",
+   "for_event": 3
+  },
+  "requirements": "Champion16Recruited=1"
+ },
+ {
+  "description": "Complete all three variants of \"The Crypt of Legends\" adventure",
+  "effect": "global_dps_multiplier_mult,1",
+  "graphic_id": 1452,
+  "id": 121,
+  "name": "A Heavy Feast",
+  "properties": {
+   "category": "Feast of the Moon",
+   "for_event": 3
+  },
+  "requirements": "Adventure49VariantsCompleted>=3"
+ },
+ {
+  "description": "Obtain a piece of gear for each of Gromma's six equipment slots",
+  "effect": "global_dps_multiplier_mult,1",
+  "graphic_id": 1453,
+  "id": 122,
+  "name": "Knick-Knacks For The Shell",
+  "properties": {
+   "category": "Feast of the Moon",
+   "for_event": 3
+  },
+  "requirements": "Champion16EquipSlotsFull=6"
+ },
+ {
+  "description": "Complete area 175 in \"The Crypt of Legends\" free play",
+  "effect": "global_dps_multiplier_mult,1",
+  "graphic_id": 1454,
+  "id": 123,
+  "name": "Endless Feasting",
+  "properties": {
+   "category": "Feast of the Moon",
+   "for_event": 3
+  },
+  "requirements": "Campaign5FreePlayHighestArea>=175"
+ },
+ {
+  "description": "Complete area 175 while using each of Gromma's three specializations",
+  "effect": "global_dps_multiplier_mult,1",
+  "graphic_id": 1455,
+  "id": 124,
+  "name": "Versitortle",
+  "properties": {
+   "category": "Feast of the Moon",
+   "for_event": 3
+  },
+  "requirements": "NumGrommaSpecsBeatArea175=3"
+ },
+ {
+  "description": "Recruit Dhadius the Scarlet, the Human Wizard",
+  "effect": "global_dps_multiplier_mult,1",
+  "graphic_id": 1640,
+  "id": 125,
+  "name": "Recruit Dhadius the Scarlet",
+  "properties": {
+   "category": "Simril",
+   "for_event": 4
+  },
+  "requirements": "Champion17Recruited=1"
+ },
+ {
+  "description": "Complete all three variants of \"The Simril Spoilsport\" adventure",
+  "effect": "global_dps_multiplier_mult,1",
+  "graphic_id": 1641,
+  "id": 126,
+  "name": "Simril is Saved!",
+  "properties": {
+   "category": "Simril",
+   "for_event": 4
+  },
+  "requirements": "Adventure64VariantsCompleted>=3"
+ },
+ {
+  "description": "Obtain a piece of gear for each of Dhadius' six equipment slots",
+  "effect": "global_dps_multiplier_mult,1",
+  "graphic_id": 1642,
+  "id": 127,
+  "name": "Powerful Magic",
+  "properties": {
+   "category": "Simril",
+   "for_event": 4
+  },
+  "requirements": "Champion17EquipSlotsFull=6"
+ },
+ {
+  "description": "Complete area 175 in \"The Simril Spoilsport\" free play",
+  "effect": "global_dps_multiplier_mult,1",
+  "graphic_id": 1643,
+  "id": 128,
+  "name": "Frozen Adventure",
+  "properties": {
+   "category": "Simril",
+   "for_event": 4
+  },
+  "requirements": "Campaign6FreePlayHighestArea>=175"
+ },
+ {
+  "description": "Watch Dhadius cast the same Chromatic Orb element 6 times in a row",
+  "effect": "global_dps_multiplier_mult,1",
+  "graphic_id": 1644,
+  "id": 129,
+  "name": "Chromatic Luck",
+  "properties": {
+   "category": "Simril",
+   "for_event": 4
+  },
+  "requirements": "HighestDhadiusOrbStack>=6"
+ },
+ {
+  "description": "Recruit Barrowin Undurr, the Dwarf Cleric",
+  "effect": "global_dps_multiplier_mult,1",
+  "graphic_id": 1862,
+  "id": 130,
+  "name": "Recruit Barrowin Undurr",
+  "properties": {
+   "category": "Wintershield",
+   "for_event": 5
+  },
+  "requirements": "Champion19Recruited=1"
+ },
+ {
+  "description": "Complete all three variants of \"The Merry Map Adventure\" adventure",
+  "effect": "global_dps_multiplier_mult,1",
+  "graphic_id": 1863,
+  "id": 131,
+  "name": "A Merry Chase",
+  "properties": {
+   "category": "Wintershield",
+   "for_event": 5
+  },
+  "requirements": "Adventure84VariantsCompleted>=3"
+ },
+ {
+  "description": "Obtain a piece of gear for each of Barrowin's six equipment slots",
+  "effect": "global_dps_multiplier_mult,1",
+  "graphic_id": 1864,
+  "id": 132,
+  "name": "Gold Dwarved",
+  "properties": {
+   "category": "Wintershield",
+   "for_event": 5
+  },
+  "requirements": "Champion19EquipSlotsFull=6"
+ },
+ {
+  "description": "Complete area 175 in \"The Merry Map Adventure\" free play",
+  "effect": "global_dps_multiplier_mult,1",
+  "graphic_id": 1865,
+  "id": 133,
+  "name": "The Load Road",
+  "properties": {
+   "category": "Wintershield",
+   "for_event": 5
+  },
+  "requirements": "Campaign7FreePlayHighestArea>=175"
+ },
+ {
+  "description": "Use Shield of Faith to provide $(amount) worth of damage shields",
+  "effect": "global_dps_multiplier_mult,1",
+  "graphic_id": 1866,
+  "id": 134,
+  "name": "The Faith Shield",
+  "properties": {
+   "category": "Wintershield",
+   "for_event": 5
+  },
+  "requirements": "BarrowinTotalShield>=1e22"
+ },
+ {
+  "description": "Recruit Regis, the Halfling Rogue",
+  "effect": "global_dps_multiplier_mult,1",
+  "graphic_id": 1990,
+  "id": 135,
+  "name": "Recruit Regis",
+  "properties": {
+   "category": "Midwinter",
+   "for_event": 9
+  },
+  "requirements": "Champion20Recruited=1"
+ },
+ {
+  "description": "Complete all three variants of the \"Deadwinter Day\" adventure",
+  "effect": "global_dps_multiplier_mult,1",
+  "graphic_id": 1991,
+  "id": 136,
+  "name": "Deadwinter Done",
+  "properties": {
+   "category": "Midwinter",
+   "for_event": 9
+  },
+  "requirements": "Adventure89VariantsCompleted>=3"
+ },
+ {
+  "description": "Obtain a piece of gear for each of Regis' six equipment slots",
+  "effect": "global_dps_multiplier_mult,1",
+  "graphic_id": 1992,
+  "id": 137,
+  "name": "Comfortable Attire",
+  "properties": {
+   "category": "Midwinter",
+   "for_event": 9
+  },
+  "requirements": "Champion20EquipSlotsFull=6"
+ },
+ {
+  "description": "Complete area 175 in the \"Deadwinter Day\" free play",
+  "effect": "global_dps_multiplier_mult,1",
+  "graphic_id": 1993,
+  "id": 138,
+  "name": "The Long Patrol",
+  "properties": {
+   "category": "Midwinter",
+   "for_event": 9
+  },
+  "requirements": "Campaign8FreePlayHighestArea>=175"
+ },
+ {
+  "description": "Use all six of Regis' specialization combinations",
+  "effect": "global_dps_multiplier_mult,1",
+  "graphic_id": 1994,
+  "id": 139,
+  "name": "Problem Solving Halfling",
+  "properties": {
+   "category": "Midwinter",
+   "for_event": 9
+  },
+  "requirements": "RegisSpecializations=6"
+ },
+ {
+  "description": "Recruit Birdsong, the Tabaxi Bard",
+  "effect": "global_dps_multiplier_mult,1",
+  "graphic_id": 2084,
+  "id": 140,
+  "name": "Recruit Birdsong",
+  "properties": {
+   "category": "Grand Revel",
+   "for_event": 10
+  },
+  "requirements": "Champion21Recruited=1"
+ },
+ {
+  "description": "Complete all three variants of the \"The Missing Merchants\" adventure",
+  "effect": "global_dps_multiplier_mult,1",
+  "graphic_id": 2085,
+  "id": 141,
+  "name": "Love's Never Lost",
+  "properties": {
+   "category": "Grand Revel",
+   "for_event": 10
+  },
+  "requirements": "Adventure104VariantsCompleted>=3"
+ },
+ {
+  "description": "Obtain a piece of gear for each of Birdsong's six equipment slots",
+  "effect": "global_dps_multiplier_mult,1",
+  "graphic_id": 2086,
+  "id": 142,
+  "name": "A Bard's Tale",
+  "properties": {
+   "category": "Grand Revel",
+   "for_event": 10
+  },
+  "requirements": "Champion21EquipSlotsFull=6"
+ },
+ {
+  "description": "Complete area 175 in the \"The Missing Merchants\" free play",
+  "effect": "global_dps_multiplier_mult,1",
+  "graphic_id": 2087,
+  "id": 143,
+  "name": "Jungle Fever",
+  "properties": {
+   "category": "Grand Revel",
+   "for_event": 10
+  },
+  "requirements": "Campaign9FreePlayHighestArea>=175"
+ },
+ {
+  "description": "Maintain Tempo of Victory for a full minute with a full formation",
+  "effect": "global_dps_multiplier_mult,1",
+  "graphic_id": 2088,
+  "id": 144,
+  "name": "Warrior's Tempo",
+  "properties": {
+   "category": "Grand Revel",
+   "for_event": 10
+  },
+  "requirements": "BirdsongTempoMaxSeconds>=60"
+ },
+ {
+  "description": "Recruit Zorbu \"Thunderbolt\" Natten, the Gnome Ranger",
+  "effect": "global_dps_multiplier_mult,1",
+  "graphic_id": 2393,
+  "id": 145,
+  "name": "Recruit Zorbu",
+  "properties": {
+   "category": "Fleetswake",
+   "for_event": 12
+  },
+  "requirements": "Champion22Recruited=1"
+ },
+ {
+  "description": "Complete all three variants of the \"The Unfair Sea\" adventure",
+  "effect": "global_dps_multiplier_mult,1",
+  "graphic_id": 2394,
+  "id": 146,
+  "name": "A Successful Fleetswake",
+  "properties": {
+   "category": "Fleetswake",
+   "for_event": 12
+  },
+  "requirements": "Adventure119VariantsCompleted>=3"
+ },
+ {
+  "description": "Obtain a piece of gear for each of Zorbu's six equipment slots",
+  "effect": "global_dps_multiplier_mult,1",
+  "graphic_id": 2395,
+  "id": 147,
+  "name": "A Gnome's Best Friends",
+  "properties": {
+   "category": "Fleetswake",
+   "for_event": 12
+  },
+  "requirements": "Champion22EquipSlotsFull=6"
+ },
+ {
+  "description": "Complete area 175 in the \"The Unfair Sea\" free play",
+  "effect": "global_dps_multiplier_mult,1",
+  "graphic_id": 2396,
+  "id": 148,
+  "name": "The Deepest Sea",
+  "properties": {
+   "category": "Fleetswake",
+   "for_event": 12
+  },
+  "requirements": "Campaign10FreePlayHighestArea>=175"
+ },
+ {
+  "description": "Shoot a single crossbow bolt through 30 enemies at once",
+  "effect": "global_dps_multiplier_mult,1",
+  "graphic_id": 2397,
+  "id": 149,
+  "name": "The Unstoppable Force",
+  "properties": {
+   "category": "Fleetswake",
+   "for_event": 12
+  },
+  "requirements": "MostZorbuCrossbowHits>=30"
+ },
+ {
+  "description": "Recruit Strix, the Tiefling Sorcerer also known as the Trash Witch",
+  "effect": "global_dps_multiplier_mult,1",
+  "graphic_id": 2573,
+  "id": 150,
+  "name": "Recruit Strix",
+  "properties": {
+   "category": "Festival of Fools",
+   "for_event": 16
+  },
+  "requirements": "Champion23Recruited=1"
+ },
+ {
+  "description": "Complete all three variants of the \"A Fool's Errand\" adventure",
+  "effect": "global_dps_multiplier_mult,1",
+  "graphic_id": 2572,
+  "id": 151,
+  "name": "Foolish Ventures",
+  "properties": {
+   "category": "Festival of Fools",
+   "for_event": 16
+  },
+  "requirements": "Adventure134VariantsCompleted>=3"
+ },
+ {
+  "description": "Obtain a piece of gear for each of Strix's six equipment slots",
+  "effect": "global_dps_multiplier_mult,1",
+  "graphic_id": 2574,
+  "id": 152,
+  "name": "Half Trash",
+  "properties": {
+   "category": "Festival of Fools",
+   "for_event": 16
+  },
+  "requirements": "Champion23EquipSlotsFull=6"
+ },
+ {
+  "description": "Complete area 175 in the \"A Fool's Errand\" free play",
+  "effect": "global_dps_multiplier_mult,1",
+  "graphic_id": 2575,
+  "id": 153,
+  "name": "Extended Foolishness",
+  "properties": {
+   "category": "Festival of Fools",
+   "for_event": 16
+  },
+  "requirements": "Campaign11FreePlayHighestArea>=175"
+ },
+ {
+  "description": "Use Death Ward to save an ally from death, then beat the area",
+  "effect": "global_dps_multiplier_mult,1",
+  "graphic_id": 2576,
+  "id": 154,
+  "name": "Save The Day",
+  "properties": {
+   "category": "Festival of Fools",
+   "for_event": 16
+  },
+  "requirements": "StrixSaveTheDay=1"
+ },
+ {
+  "description": "Recruit Nrakk, the Githzerai Monk",
+  "effect": "global_dps_multiplier_mult,1",
+  "graphic_id": 2656,
+  "id": 155,
+  "name": "Recruit Nrakk",
+  "properties": {
+   "category": "Greengrass",
+   "for_event": 18
+  },
+  "requirements": "Champion24Recruited=1"
+ },
+ {
+  "description": "Complete all three variants of the \"The Endless War\" adventure",
+  "effect": "global_dps_multiplier_mult,1",
+  "graphic_id": 2657,
+  "id": 156,
+  "name": "The Variants Below",
+  "properties": {
+   "category": "Greengrass",
+   "for_event": 18
+  },
+  "requirements": "Adventure139VariantsCompleted>=3"
+ },
+ {
+  "description": "Obtain a piece of gear for each of Nrakk' six equipment slots",
+  "effect": "global_dps_multiplier_mult,1",
+  "graphic_id": 2658,
+  "id": 157,
+  "name": "Material Possessions",
+  "properties": {
+   "category": "Greengrass",
+   "for_event": 18
+  },
+  "requirements": "Champion24EquipSlotsFull=6"
+ },
+ {
+  "description": "Complete area 175 in the \"The Endless War\" adventure",
+  "effect": "global_dps_multiplier_mult,1",
+  "graphic_id": 2659,
+  "id": 158,
+  "name": "The Endless Adventure",
+  "properties": {
+   "category": "Greengrass",
+   "for_event": 18
+  },
+  "requirements": "Campaign12FreePlayHighestArea>=175"
+ },
+ {
+  "description": "Kill a boss with the damage bonus from the Kensei Advantage specialization",
+  "effect": "global_dps_multiplier_mult,1",
+  "graphic_id": 2660,
+  "id": 159,
+  "name": "Finish Him",
+  "properties": {
+   "category": "Greengrass",
+   "for_event": 18
+  },
+  "requirements": "NrakkFinishHim=1"
+ },
+ {
+  "description": "Recruit Catti-Brie, the Human Fighter",
+  "effect": "global_dps_multiplier_mult,1",
+  "graphic_id": 2835,
+  "id": 161,
+  "name": "Recruit Catti-Brie",
+  "properties": {
+   "category": "The Running",
+   "for_event": 23
+  },
+  "requirements": "Champion25Recruited=1"
+ },
+ {
+  "description": "For showcasing outstanding community leadership",
+  "effect": "",
+  "graphic_id": 831,
+  "id": 160,
+  "name": "Community Champion",
+  "properties": {
+   "category": "Other",
+   "hidden": 1
+  },
+  "requirements": "CommunityChampion=1"
+ },
+ {
+  "description": "Complete all three variants of the \"The Grandfather Acorn\" adventure",
+  "effect": "global_dps_multiplier_mult,1",
+  "graphic_id": 2836,
+  "id": 162,
+  "name": "A Pretty Important Acorn",
+  "properties": {
+   "category": "The Running",
+   "for_event": 23
+  },
+  "requirements": "Adventure144VariantsCompleted>=3"
+ },
+ {
+  "description": "Obtain a piece of gear for each of Catti-Brie's six equipment slots",
+  "effect": "global_dps_multiplier_mult,1",
+  "graphic_id": 2837,
+  "id": 163,
+  "name": "Equipment of the Hall",
+  "properties": {
+   "category": "The Running",
+   "for_event": 23
+  },
+  "requirements": "Champion25EquipSlotsFull=6"
+ },
+ {
+  "description": "Complete area 175 in the \"The Grandfather Acorn\" adventure",
+  "effect": "global_dps_multiplier_mult,1",
+  "graphic_id": 2838,
+  "id": 164,
+  "name": "Complete 175",
+  "properties": {
+   "category": "The Running",
+   "for_event": 23
+  },
+  "requirements": "Campaign13FreePlayHighestArea>=175"
+ },
+ {
+  "description": "Get 5 critical hits in a row with Catti-brie",
+  "effect": "global_dps_multiplier_mult,1",
+  "graphic_id": 2839,
+  "id": 165,
+  "name": "Critical Streak",
+  "properties": {
+   "category": "The Running",
+   "for_event": 23
+  },
+  "requirements": "CattiBrieConsecutiveCrits>=5"
+ }
+]

@@ -1,0 +1,1500 @@
+[
+ {
+  "name": "GooberAscendingScale/ASC_1",
+  "pack_id": 6,
+  "sound_id": 1,
+  "stream": 0,
+  "vol": 38
+ },
+ {
+  "name": "GooberAscendingScale/ASC_2",
+  "pack_id": 6,
+  "sound_id": 2,
+  "stream": 0,
+  "vol": 38
+ },
+ {
+  "name": "GooberAscendingScale/ASC_3",
+  "pack_id": 6,
+  "sound_id": 3,
+  "stream": 0,
+  "vol": 38
+ },
+ {
+  "name": "GooberAscendingScale/ASC_4",
+  "pack_id": 6,
+  "sound_id": 4,
+  "stream": 0,
+  "vol": 38
+ },
+ {
+  "name": "GooberAscendingScale/ASC_5",
+  "pack_id": 6,
+  "sound_id": 5,
+  "stream": 0,
+  "vol": 38
+ },
+ {
+  "name": "GooberAscendingScale/ASC_6",
+  "pack_id": 6,
+  "sound_id": 6,
+  "stream": 0,
+  "vol": 38
+ },
+ {
+  "name": "GooberAscendingScale/ASC_7",
+  "pack_id": 6,
+  "sound_id": 7,
+  "stream": 0,
+  "vol": 38
+ },
+ {
+  "name": "GooberAscendingScale/ASC_8",
+  "pack_id": 6,
+  "sound_id": 8,
+  "stream": 0,
+  "vol": 38
+ },
+ {
+  "name": "GooberAscendingScale/ASC_9",
+  "pack_id": 6,
+  "sound_id": 9,
+  "stream": 0,
+  "vol": 38
+ },
+ {
+  "name": "Legacy/BellSingle",
+  "pack_id": 6,
+  "sound_id": 10,
+  "stream": 0,
+  "vol": 64
+ },
+ {
+  "name": "ButtonClick",
+  "pack_id": 6,
+  "sound_id": 11,
+  "stream": 0,
+  "vol": 64
+ },
+ {
+  "name": "Creatures/Cobra/Cobra_Die_01",
+  "pack_id": 6,
+  "sound_id": 12,
+  "stream": 0,
+  "vol": 26
+ },
+ {
+  "name": "Creatures/Goblin/GoblinDie_01",
+  "pack_id": 6,
+  "sound_id": 13,
+  "stream": 0,
+  "vol": 26
+ },
+ {
+  "name": "MouseOut",
+  "pack_id": 6,
+  "sound_id": 14,
+  "stream": 0,
+  "vol": 64
+ },
+ {
+  "name": "MouseOver",
+  "pack_id": 6,
+  "sound_id": 15,
+  "stream": 0,
+  "vol": 64
+ },
+ {
+  "name": "Purchase",
+  "pack_id": 6,
+  "sound_id": 16,
+  "stream": 0,
+  "vol": 64
+ },
+ {
+  "name": "ReceiveItem",
+  "pack_id": 6,
+  "sound_id": 17,
+  "stream": 0,
+  "vol": 19
+ },
+ {
+  "name": "Creatures/Scorpion/Scorpion_Die_01",
+  "pack_id": 6,
+  "sound_id": 18,
+  "stream": 0,
+  "vol": 26
+ },
+ {
+  "name": "Legacy/achievement",
+  "pack_id": 6,
+  "sound_id": 19,
+  "stream": 0,
+  "vol": 64
+ },
+ {
+  "name": "Legacy/ding",
+  "pack_id": 6,
+  "sound_id": 20,
+  "stream": 0,
+  "vol": 64
+ },
+ {
+  "name": "getEnergy",
+  "pack_id": 6,
+  "sound_id": 21,
+  "stream": 0,
+  "vol": 109
+ },
+ {
+  "name": "getcoins",
+  "pack_id": 6,
+  "sound_id": 22,
+  "stream": 0,
+  "vol": 64
+ },
+ {
+  "name": "getPower",
+  "pack_id": 6,
+  "sound_id": 23,
+  "stream": 0,
+  "vol": 64
+ },
+ {
+  "name": "levelup",
+  "pack_id": 6,
+  "sound_id": 24,
+  "stream": 0,
+  "vol": 51
+ },
+ {
+  "name": "popout",
+  "pack_id": 6,
+  "sound_id": 25,
+  "stream": 0,
+  "vol": 26
+ },
+ {
+  "name": "Creatures/Spider/Spider_Die_01",
+  "pack_id": 6,
+  "sound_id": 26,
+  "stream": 0,
+  "vol": 26
+ },
+ {
+  "name": "Legacy/sword1",
+  "pack_id": 6,
+  "sound_id": 27,
+  "stream": 0,
+  "vol": 51
+ },
+ {
+  "name": "Legacy/sword2",
+  "pack_id": 6,
+  "sound_id": 28,
+  "stream": 0,
+  "vol": 51
+ },
+ {
+  "name": "Legacy/sword3",
+  "pack_id": 6,
+  "sound_id": 29,
+  "stream": 0,
+  "vol": 51
+ },
+ {
+  "name": "Legacy/sword4",
+  "pack_id": 6,
+  "sound_id": 30,
+  "stream": 0,
+  "vol": 51
+ },
+ {
+  "name": "Creatures/Troll/TrollDie_01",
+  "pack_id": 6,
+  "sound_id": 31,
+  "stream": 0,
+  "vol": 38
+ },
+ {
+  "name": "Battle_v1.1_comp",
+  "pack_id": 0,
+  "sound_id": 32,
+  "stream": 1,
+  "vol": 100
+ },
+ {
+  "name": "swipe1",
+  "pack_id": 6,
+  "sound_id": 33,
+  "stream": 0,
+  "vol": 64
+ },
+ {
+  "name": "swipe2",
+  "pack_id": 6,
+  "sound_id": 34,
+  "stream": 0,
+  "vol": 64
+ },
+ {
+  "name": "swipe3",
+  "pack_id": 6,
+  "sound_id": 35,
+  "stream": 0,
+  "vol": 64
+ },
+ {
+  "name": "EffectSound_Hit",
+  "pack_id": 6,
+  "sound_id": 36,
+  "stream": 0,
+  "vol": 256
+ },
+ {
+  "name": "Legacy/BellDouble",
+  "pack_id": 6,
+  "sound_id": 37,
+  "stream": 0,
+  "vol": 192
+ },
+ {
+  "name": "Creatures/Boar/Boar_Attack_02",
+  "pack_id": 6,
+  "sound_id": 38,
+  "stream": 0,
+  "vol": 26
+ },
+ {
+  "name": "Creatures/Boar/Boar_Die_01",
+  "pack_id": 6,
+  "sound_id": 39,
+  "stream": 0,
+  "vol": 26
+ },
+ {
+  "name": "Creatures/Leopard/Leopard_Die_01",
+  "pack_id": 6,
+  "sound_id": 40,
+  "stream": 0,
+  "vol": 26
+ },
+ {
+  "name": "Creatures/SandWorm/SandWorm_Attack_01",
+  "pack_id": 6,
+  "sound_id": 41,
+  "stream": 0,
+  "vol": 26
+ },
+ {
+  "name": "Creatures/Wasp/Wasp_Die",
+  "pack_id": 6,
+  "sound_id": 42,
+  "stream": 0,
+  "vol": 26
+ },
+ {
+  "name": "Creatures/Soldier/Soldier_Female_01",
+  "pack_id": 6,
+  "sound_id": 43,
+  "stream": 0,
+  "vol": 38
+ },
+ {
+  "name": "Creatures/Soldier/Soldier_Female_02",
+  "pack_id": 6,
+  "sound_id": 44,
+  "stream": 0,
+  "vol": 38
+ },
+ {
+  "name": "Creatures/Soldier/Soldier_Male_01",
+  "pack_id": 6,
+  "sound_id": 45,
+  "stream": 0,
+  "vol": 38
+ },
+ {
+  "name": "Creatures/Soldier/Soldier_Male_02",
+  "pack_id": 6,
+  "sound_id": 46,
+  "stream": 0,
+  "vol": 38
+ },
+ {
+  "name": "STAR3_REV_Jun25_01",
+  "pack_id": 6,
+  "sound_id": 47,
+  "stream": 0,
+  "vol": 32
+ },
+ {
+  "name": "Footsteps-Dirt_transition_long",
+  "pack_id": 6,
+  "sound_id": 48,
+  "stream": 0,
+  "vol": 51
+ },
+ {
+  "name": "pummel1",
+  "pack_id": 6,
+  "sound_id": 49,
+  "stream": 0,
+  "vol": 32
+ },
+ {
+  "name": "pummel2",
+  "pack_id": 6,
+  "sound_id": 50,
+  "stream": 0,
+  "vol": 32
+ },
+ {
+  "name": "Battle/Warrior/Warrior_Strike",
+  "pack_id": 6,
+  "sound_id": 51,
+  "stream": 0,
+  "vol": 50
+ },
+ {
+  "name": "Battle/Warrior/Warrior_Whirlwind_Strike_01",
+  "pack_id": 6,
+  "sound_id": 52,
+  "stream": 0,
+  "vol": 50
+ },
+ {
+  "name": "Battle/Warrior/Warrior_Whirlwind_Strike_02",
+  "pack_id": 6,
+  "sound_id": 53,
+  "stream": 0,
+  "vol": 50
+ },
+ {
+  "name": "Battle/Warrior/Warrior_Whirlwind_Strike_03",
+  "pack_id": 6,
+  "sound_id": 54,
+  "stream": 0,
+  "vol": 50
+ },
+ {
+  "name": "EffectSound_Hit2",
+  "pack_id": 6,
+  "sound_id": 55,
+  "stream": 0,
+  "vol": 64
+ },
+ {
+  "name": "EffectSound_Shield",
+  "pack_id": 6,
+  "sound_id": 56,
+  "stream": 0,
+  "vol": 64
+ },
+ {
+  "name": "EffectSound_Electric1",
+  "pack_id": 6,
+  "sound_id": 57,
+  "stream": 0,
+  "vol": 64
+ },
+ {
+  "name": "EffectSound_Sword2",
+  "pack_id": 6,
+  "sound_id": 58,
+  "stream": 0,
+  "vol": 64
+ },
+ {
+  "name": "EffectSound_Sword",
+  "pack_id": 6,
+  "sound_id": 59,
+  "stream": 0,
+  "vol": 64
+ },
+ {
+  "name": "EffectSound_Clang",
+  "pack_id": 6,
+  "sound_id": 60,
+  "stream": 0,
+  "vol": 64
+ },
+ {
+  "name": "Footsteps_Dirt_transition_long",
+  "pack_id": 6,
+  "sound_id": 61,
+  "stream": 0,
+  "vol": 45
+ },
+ {
+  "name": "UI/AchievementUnlocked_01",
+  "pack_id": 6,
+  "sound_id": 62,
+  "stream": 0,
+  "vol": 51
+ },
+ {
+  "name": "card_flip",
+  "pack_id": 6,
+  "sound_id": 63,
+  "stream": 0,
+  "vol": 64
+ },
+ {
+  "name": "card_fly",
+  "pack_id": 6,
+  "sound_id": 64,
+  "stream": 0,
+  "vol": 64
+ },
+ {
+  "name": "UI/Dialog_Close_NEW",
+  "pack_id": 6,
+  "sound_id": 65,
+  "stream": 0,
+  "vol": 19
+ },
+ {
+  "name": "UI/Dialog_Open_NEW",
+  "pack_id": 6,
+  "sound_id": 66,
+  "stream": 0,
+  "vol": 19
+ },
+ {
+  "name": "UI/Dialog_Open",
+  "pack_id": 6,
+  "sound_id": 67,
+  "stream": 0,
+  "vol": 19
+ },
+ {
+  "name": "Emote_Male_Scared1_01",
+  "pack_id": 6,
+  "sound_id": 68,
+  "stream": 0,
+  "vol": 64
+ },
+ {
+  "name": "firestorm_hit",
+  "pack_id": 6,
+  "sound_id": 69,
+  "stream": 0,
+  "vol": 100
+ },
+ {
+  "name": "GemSound_01",
+  "pack_id": 6,
+  "sound_id": 70,
+  "stream": 0,
+  "vol": 64
+ },
+ {
+  "name": "LevelUp_01",
+  "pack_id": 6,
+  "sound_id": 71,
+  "stream": 0,
+  "vol": 64
+ },
+ {
+  "name": "LevelWinHighscore",
+  "pack_id": 6,
+  "sound_id": 72,
+  "stream": 0,
+  "vol": 64
+ },
+ {
+  "name": "open_chest",
+  "pack_id": 6,
+  "sound_id": 73,
+  "stream": 0,
+  "vol": 64
+ },
+ {
+  "name": "pillar_glow",
+  "pack_id": 6,
+  "sound_id": 74,
+  "stream": 0,
+  "vol": 64
+ },
+ {
+  "name": "TakeItemSound_01",
+  "pack_id": 6,
+  "sound_id": 75,
+  "stream": 0,
+  "vol": 64
+ },
+ {
+  "name": "tickle1",
+  "pack_id": 6,
+  "sound_id": 76,
+  "stream": 0,
+  "vol": 32
+ },
+ {
+  "name": "tickle2",
+  "pack_id": 6,
+  "sound_id": 77,
+  "stream": 0,
+  "vol": 32
+ },
+ {
+  "name": "tickle3",
+  "pack_id": 6,
+  "sound_id": 78,
+  "stream": 0,
+  "vol": 32
+ },
+ {
+  "name": "tickle4",
+  "pack_id": 6,
+  "sound_id": 79,
+  "stream": 0,
+  "vol": 32
+ },
+ {
+  "name": "TreasureChestOpen_01",
+  "pack_id": 6,
+  "sound_id": 80,
+  "stream": 0,
+  "vol": 64
+ },
+ {
+  "name": "Battle/Wizard/Wizard_Firestorm_Impact 3",
+  "pack_id": 6,
+  "sound_id": 81,
+  "stream": 0,
+  "vol": 64
+ },
+ {
+  "name": "world_explosion",
+  "pack_id": 6,
+  "sound_id": 82,
+  "stream": 0,
+  "vol": 64
+ },
+ {
+  "name": "Item_enchanted",
+  "pack_id": 6,
+  "sound_id": 86,
+  "stream": 0,
+  "vol": 64
+ },
+ {
+  "name": "star1",
+  "pack_id": 6,
+  "sound_id": 83,
+  "stream": 0,
+  "vol": 64
+ },
+ {
+  "name": "Battle/Wizard/Wizard_Firestorm_Whoosh_1",
+  "pack_id": 6,
+  "sound_id": 84,
+  "stream": 0,
+  "vol": 100
+ },
+ {
+  "name": "Powerup291",
+  "pack_id": 6,
+  "sound_id": 85,
+  "stream": 0,
+  "vol": 64
+ },
+ {
+  "name": "Item_enchanted2",
+  "pack_id": 6,
+  "sound_id": 87,
+  "stream": 0,
+  "vol": 64
+ },
+ {
+  "name": "COTLI - Ingame Loop - 2.6 - Stereo 128kbps",
+  "pack_id": 0,
+  "sound_id": 88,
+  "stream": 1,
+  "vol": 100
+ },
+ {
+  "name": "damage_increase",
+  "pack_id": 6,
+  "sound_id": 89,
+  "stream": 0,
+  "vol": 50
+ },
+ {
+  "name": "damage_decrease",
+  "pack_id": 6,
+  "sound_id": 90,
+  "stream": 0,
+  "vol": 50
+ },
+ {
+  "name": "COTLI - Ingame Loop - 2.6 - Mono 56bps",
+  "pack_id": 0,
+  "sound_id": 91,
+  "stream": 1,
+  "vol": 100
+ },
+ {
+  "name": "COTLI-Ingame_Loop-2.6-Mono_56bps",
+  "pack_id": 6,
+  "sound_id": 92,
+  "stream": 0,
+  "vol": 100
+ },
+ {
+  "name": "Battle/Ranger/Ranger_Aim",
+  "pack_id": 0,
+  "sound_id": 93,
+  "stream": 0,
+  "vol": 100
+ },
+ {
+  "name": "Creatures/Fire Elemental/Fire_Elemental_Die",
+  "pack_id": 0,
+  "sound_id": 94,
+  "stream": 0,
+  "vol": 26
+ },
+ {
+  "name": "Creatures/Bear/Bear_Attack_1",
+  "pack_id": 0,
+  "sound_id": 95,
+  "stream": 0,
+  "vol": 26
+ },
+ {
+  "name": "Creatures/Wolf/Wolf_Attack_1_short",
+  "pack_id": 0,
+  "sound_id": 96,
+  "stream": 0,
+  "vol": 26
+ },
+ {
+  "name": "Creatures/Bear/Bear_Attack_2",
+  "pack_id": 0,
+  "sound_id": 97,
+  "stream": 0,
+  "vol": 26
+ },
+ {
+  "name": "Effects/JumpDown_01_short",
+  "pack_id": 0,
+  "sound_id": 98,
+  "stream": 0,
+  "vol": 100
+ },
+ {
+  "name": "Effects/JumpDown_02_short",
+  "pack_id": 0,
+  "sound_id": 99,
+  "stream": 0,
+  "vol": 100
+ },
+ {
+  "name": "Creatures/Goblin/GoblinLeaderDie",
+  "pack_id": 0,
+  "sound_id": 100,
+  "stream": 0,
+  "vol": 38
+ },
+ {
+  "name": "Creatures/Goblin/GoblinDie_Low",
+  "pack_id": 0,
+  "sound_id": 101,
+  "stream": 0,
+  "vol": 38
+ },
+ {
+  "name": "Music/AutumnForest",
+  "pack_id": 0,
+  "sound_id": 102,
+  "stream": 0,
+  "vol": 100
+ },
+ {
+  "name": "Music/Evil_no_delay",
+  "pack_id": 0,
+  "sound_id": 103,
+  "stream": 0,
+  "vol": 100
+ },
+ {
+  "name": "Music/Snow",
+  "pack_id": 0,
+  "sound_id": 104,
+  "stream": 0,
+  "vol": 100
+ },
+ {
+  "name": "Music/Tavern",
+  "pack_id": 0,
+  "sound_id": 105,
+  "stream": 0,
+  "vol": 100
+ },
+ {
+  "name": "Battle/Wizard/Wizard_Firestorm_Impact_1",
+  "pack_id": 0,
+  "sound_id": 106,
+  "stream": 0,
+  "vol": 100
+ },
+ {
+  "name": "Battle/Ranger/Ranger_PinCushion",
+  "pack_id": 0,
+  "sound_id": 107,
+  "stream": 0,
+  "vol": 100
+ },
+ {
+  "name": "Stars/star1",
+  "pack_id": 0,
+  "sound_id": 108,
+  "stream": 0,
+  "vol": 100
+ },
+ {
+  "name": "Stars/star2",
+  "pack_id": 0,
+  "sound_id": 109,
+  "stream": 0,
+  "vol": 100
+ },
+ {
+  "name": "Stars/star3",
+  "pack_id": 0,
+  "sound_id": 110,
+  "stream": 0,
+  "vol": 100
+ },
+ {
+  "name": "Stars/star4",
+  "pack_id": 0,
+  "sound_id": 111,
+  "stream": 0,
+  "vol": 100
+ },
+ {
+  "name": "Stars/star5",
+  "pack_id": 0,
+  "sound_id": 112,
+  "stream": 0,
+  "vol": 100
+ },
+ {
+  "name": "Stars/star6",
+  "pack_id": 0,
+  "sound_id": 113,
+  "stream": 0,
+  "vol": 100
+ },
+ {
+  "name": "Stars/star7",
+  "pack_id": 0,
+  "sound_id": 114,
+  "stream": 0,
+  "vol": 100
+ },
+ {
+  "name": "Stars/star8",
+  "pack_id": 0,
+  "sound_id": 115,
+  "stream": 0,
+  "vol": 100
+ },
+ {
+  "name": "Stars/star9",
+  "pack_id": 0,
+  "sound_id": 116,
+  "stream": 0,
+  "vol": 100
+ },
+ {
+  "name": "Stars/star10",
+  "pack_id": 0,
+  "sound_id": 117,
+  "stream": 0,
+  "vol": 100
+ },
+ {
+  "name": "Chimes/Coins_01",
+  "pack_id": 0,
+  "sound_id": 119,
+  "stream": 0,
+  "vol": 100
+ },
+ {
+  "name": "Chimes/Coins_02",
+  "pack_id": 0,
+  "sound_id": 120,
+  "stream": 0,
+  "vol": 100
+ },
+ {
+  "name": "Chimes/Coins_03",
+  "pack_id": 0,
+  "sound_id": 121,
+  "stream": 0,
+  "vol": 100
+ },
+ {
+  "name": "Chimes/Coins_04",
+  "pack_id": 0,
+  "sound_id": 122,
+  "stream": 0,
+  "vol": 100
+ },
+ {
+  "name": "Chimes/Coins_05",
+  "pack_id": 0,
+  "sound_id": 123,
+  "stream": 0,
+  "vol": 100
+ },
+ {
+  "name": "Chimes/Coins_06",
+  "pack_id": 0,
+  "sound_id": 124,
+  "stream": 0,
+  "vol": 100
+ },
+ {
+  "name": "Chimes/Coins_07",
+  "pack_id": 0,
+  "sound_id": 125,
+  "stream": 0,
+  "vol": 100
+ },
+ {
+  "name": "Chimes/Coins_08",
+  "pack_id": 0,
+  "sound_id": 126,
+  "stream": 0,
+  "vol": 100
+ },
+ {
+  "name": "Chimes/Coins_09",
+  "pack_id": 0,
+  "sound_id": 127,
+  "stream": 0,
+  "vol": 100
+ },
+ {
+  "name": "LightRainwithThunder",
+  "pack_id": 0,
+  "sound_id": 128,
+  "stream": 0,
+  "vol": 100
+ },
+ {
+  "name": "Spells/BurnedtoAshes",
+  "pack_id": 0,
+  "sound_id": 129,
+  "stream": 0,
+  "vol": 100
+ },
+ {
+  "name": "Spells/DungeonDoorMetalHandle",
+  "pack_id": 0,
+  "sound_id": 130,
+  "stream": 0,
+  "vol": 100
+ },
+ {
+  "name": "Spells/DungeonDoorShut",
+  "pack_id": 0,
+  "sound_id": 131,
+  "stream": 0,
+  "vol": 100
+ },
+ {
+  "name": "Characters/sfx_arkhan_pain_02",
+  "pack_id": 0,
+  "sound_id": 146,
+  "stream": 0,
+  "vol": 100
+ },
+ {
+  "name": "Spells/Explosion_01",
+  "pack_id": 0,
+  "sound_id": 133,
+  "stream": 0,
+  "vol": 100
+ },
+ {
+  "name": "Spells/Explosion_02",
+  "pack_id": 0,
+  "sound_id": 134,
+  "stream": 0,
+  "vol": 100
+ },
+ {
+  "name": "Spells/FireballFire",
+  "pack_id": 0,
+  "sound_id": 135,
+  "stream": 0,
+  "vol": 100
+ },
+ {
+  "name": "Spells/FireSpell_01",
+  "pack_id": 0,
+  "sound_id": 136,
+  "stream": 0,
+  "vol": 100
+ },
+ {
+  "name": "Spells/FireSpell_02",
+  "pack_id": 0,
+  "sound_id": 137,
+  "stream": 0,
+  "vol": 100
+ },
+ {
+  "name": "Spells/Ignite_01",
+  "pack_id": 0,
+  "sound_id": 138,
+  "stream": 0,
+  "vol": 100
+ },
+ {
+  "name": "Spells/MagicMissileFire",
+  "pack_id": 0,
+  "sound_id": 139,
+  "stream": 0,
+  "vol": 100
+ },
+ {
+  "name": "Spells/MetalPunch",
+  "pack_id": 0,
+  "sound_id": 140,
+  "stream": 0,
+  "vol": 100
+ },
+ {
+  "name": "Characters/sfx_arkhan_pain_01",
+  "pack_id": 0,
+  "sound_id": 145,
+  "stream": 0,
+  "vol": 100
+ },
+ {
+  "name": "Characters/sfx_arkhan_baseattack",
+  "pack_id": 0,
+  "sound_id": 144,
+  "stream": 0,
+  "vol": 100
+ },
+ {
+  "name": "Music/RolePlaying_Orch_v2.1",
+  "pack_id": 0,
+  "sound_id": 143,
+  "stream": 0,
+  "vol": 100
+ },
+ {
+  "name": "Characters/sfx_arkhan_pain_03",
+  "pack_id": 0,
+  "sound_id": 147,
+  "stream": 0,
+  "vol": 100
+ },
+ {
+  "name": "Characters/sfx_arkhan_ultimateattack",
+  "pack_id": 0,
+  "sound_id": 148,
+  "stream": 0,
+  "vol": 100
+ },
+ {
+  "name": "Characters/sfx_asharra_baseattack",
+  "pack_id": 0,
+  "sound_id": 149,
+  "stream": 0,
+  "vol": 100
+ },
+ {
+  "name": "Characters/sfx_asharra_pain_01",
+  "pack_id": 0,
+  "sound_id": 150,
+  "stream": 0,
+  "vol": 100
+ },
+ {
+  "name": "Characters/sfx_asharra_pain_02",
+  "pack_id": 0,
+  "sound_id": 151,
+  "stream": 0,
+  "vol": 100
+ },
+ {
+  "name": "Characters/sfx_asharra_pain_03",
+  "pack_id": 0,
+  "sound_id": 152,
+  "stream": 0,
+  "vol": 100
+ },
+ {
+  "name": "Characters/sfx_asharra_ultimateattack",
+  "pack_id": 0,
+  "sound_id": 153,
+  "stream": 0,
+  "vol": 100
+ },
+ {
+  "name": "Characters/sfx_bruenor_baseattack",
+  "pack_id": 0,
+  "sound_id": 154,
+  "stream": 0,
+  "vol": 100
+ },
+ {
+  "name": "Characters/sfx_bruenor_pain_01",
+  "pack_id": 0,
+  "sound_id": 155,
+  "stream": 0,
+  "vol": 100
+ },
+ {
+  "name": "Characters/sfx_bruenor_pain_02",
+  "pack_id": 0,
+  "sound_id": 156,
+  "stream": 0,
+  "vol": 100
+ },
+ {
+  "name": "Characters/sfx_bruenor_pain_03",
+  "pack_id": 0,
+  "sound_id": 157,
+  "stream": 0,
+  "vol": 100
+ },
+ {
+  "name": "Characters/sfx_bruenor_ultimateattack",
+  "pack_id": 0,
+  "sound_id": 158,
+  "stream": 0,
+  "vol": 100
+ },
+ {
+  "name": "Characters/sfx_calliope_baseattack",
+  "pack_id": 0,
+  "sound_id": 159,
+  "stream": 0,
+  "vol": 100
+ },
+ {
+  "name": "Characters/sfx_calliope_pain_01",
+  "pack_id": 0,
+  "sound_id": 160,
+  "stream": 0,
+  "vol": 100
+ },
+ {
+  "name": "Characters/sfx_calliope_pain_02",
+  "pack_id": 0,
+  "sound_id": 161,
+  "stream": 0,
+  "vol": 100
+ },
+ {
+  "name": "Characters/sfx_calliope_pain_03",
+  "pack_id": 0,
+  "sound_id": 162,
+  "stream": 0,
+  "vol": 100
+ },
+ {
+  "name": "Characters/sfx_calliope_ultimateattack",
+  "pack_id": 0,
+  "sound_id": 163,
+  "stream": 0,
+  "vol": 100
+ },
+ {
+  "name": "Characters/sfx_celeste_baseattack",
+  "pack_id": 0,
+  "sound_id": 164,
+  "stream": 0,
+  "vol": 100
+ },
+ {
+  "name": "Characters/sfx_celeste_pain_01",
+  "pack_id": 0,
+  "sound_id": 165,
+  "stream": 0,
+  "vol": 100
+ },
+ {
+  "name": "Characters/sfx_celeste_pain_02",
+  "pack_id": 0,
+  "sound_id": 166,
+  "stream": 0,
+  "vol": 100
+ },
+ {
+  "name": "Characters/sfx_celeste_pain_03",
+  "pack_id": 0,
+  "sound_id": 167,
+  "stream": 0,
+  "vol": 100
+ },
+ {
+  "name": "Characters/sfx_celeste_ultimateattack",
+  "pack_id": 0,
+  "sound_id": 168,
+  "stream": 0,
+  "vol": 100
+ },
+ {
+  "name": "Characters/sfx_delina_baseattack",
+  "pack_id": 0,
+  "sound_id": 169,
+  "stream": 0,
+  "vol": 100
+ },
+ {
+  "name": "Characters/sfx_delina_pain_01",
+  "pack_id": 0,
+  "sound_id": 170,
+  "stream": 0,
+  "vol": 100
+ },
+ {
+  "name": "Characters/sfx_delina_pain_02",
+  "pack_id": 0,
+  "sound_id": 171,
+  "stream": 0,
+  "vol": 100
+ },
+ {
+  "name": "Characters/sfx_delina_pain_03",
+  "pack_id": 0,
+  "sound_id": 172,
+  "stream": 0,
+  "vol": 100
+ },
+ {
+  "name": "Characters/sfx_delina_ultimateattack",
+  "pack_id": 0,
+  "sound_id": 173,
+  "stream": 0,
+  "vol": 100
+ },
+ {
+  "name": "Characters/sfx_jamilah_baseattack",
+  "pack_id": 0,
+  "sound_id": 174,
+  "stream": 0,
+  "vol": 100
+ },
+ {
+  "name": "Characters/sfx_jamilah_pain_01",
+  "pack_id": 0,
+  "sound_id": 175,
+  "stream": 0,
+  "vol": 100
+ },
+ {
+  "name": "Characters/sfx_jamilah_pain_02",
+  "pack_id": 0,
+  "sound_id": 176,
+  "stream": 0,
+  "vol": 100
+ },
+ {
+  "name": "Characters/sfx_jamilah_pain_03",
+  "pack_id": 0,
+  "sound_id": 177,
+  "stream": 0,
+  "vol": 100
+ },
+ {
+  "name": "Characters/sfx_jamilah_ultimateattack",
+  "pack_id": 0,
+  "sound_id": 178,
+  "stream": 0,
+  "vol": 100
+ },
+ {
+  "name": "Characters/sfx_jarkaxke_baseattack",
+  "pack_id": 0,
+  "sound_id": 179,
+  "stream": 0,
+  "vol": 100
+ },
+ {
+  "name": "Characters/sfx_jarkaxke_ultimateattack",
+  "pack_id": 0,
+  "sound_id": 180,
+  "stream": 0,
+  "vol": 100
+ },
+ {
+  "name": "Characters/sfx_jarlaxle_pain_01",
+  "pack_id": 0,
+  "sound_id": 181,
+  "stream": 0,
+  "vol": 100
+ },
+ {
+  "name": "Characters/sfx_jarlaxle_pain_02",
+  "pack_id": 0,
+  "sound_id": 182,
+  "stream": 0,
+  "vol": 100
+ },
+ {
+  "name": "Characters/sfx_jarlaxle_pain_03",
+  "pack_id": 0,
+  "sound_id": 183,
+  "stream": 0,
+  "vol": 100
+ },
+ {
+  "name": "Characters/sfx_makos_baseattack",
+  "pack_id": 0,
+  "sound_id": 184,
+  "stream": 0,
+  "vol": 100
+ },
+ {
+  "name": "Characters/sfx_makos_pain_01",
+  "pack_id": 0,
+  "sound_id": 185,
+  "stream": 0,
+  "vol": 100
+ },
+ {
+  "name": "Characters/sfx_makos_pain_02",
+  "pack_id": 0,
+  "sound_id": 186,
+  "stream": 0,
+  "vol": 100
+ },
+ {
+  "name": "Characters/sfx_makos_pain_03",
+  "pack_id": 0,
+  "sound_id": 187,
+  "stream": 0,
+  "vol": 100
+ },
+ {
+  "name": "Characters/sfx_makos_ultimateattack",
+  "pack_id": 0,
+  "sound_id": 188,
+  "stream": 0,
+  "vol": 100
+ },
+ {
+  "name": "Characters/sfx_minsc_baseattack",
+  "pack_id": 0,
+  "sound_id": 189,
+  "stream": 0,
+  "vol": 100
+ },
+ {
+  "name": "Characters/sfx_minsc_pain_01",
+  "pack_id": 0,
+  "sound_id": 190,
+  "stream": 0,
+  "vol": 100
+ },
+ {
+  "name": "Characters/sfx_minsc_pain_02",
+  "pack_id": 0,
+  "sound_id": 191,
+  "stream": 0,
+  "vol": 100
+ },
+ {
+  "name": "Characters/sfx_minsc_pain_03",
+  "pack_id": 0,
+  "sound_id": 192,
+  "stream": 0,
+  "vol": 100
+ },
+ {
+  "name": "Characters/sfx_minsc_ultimateattack",
+  "pack_id": 0,
+  "sound_id": 193,
+  "stream": 0,
+  "vol": 100
+ },
+ {
+  "name": "Characters/sfx_nayeli_baseattack",
+  "pack_id": 0,
+  "sound_id": 194,
+  "stream": 0,
+  "vol": 100
+ },
+ {
+  "name": "Characters/sfx_nayeli_pain_01",
+  "pack_id": 0,
+  "sound_id": 195,
+  "stream": 0,
+  "vol": 100
+ },
+ {
+  "name": "Characters/sfx_nayeli_pain_02",
+  "pack_id": 0,
+  "sound_id": 196,
+  "stream": 0,
+  "vol": 100
+ },
+ {
+  "name": "Characters/sfx_nayeli_pain_03",
+  "pack_id": 0,
+  "sound_id": 197,
+  "stream": 0,
+  "vol": 100
+ },
+ {
+  "name": "Characters/sfx_nayeli_ultimateattack",
+  "pack_id": 0,
+  "sound_id": 198,
+  "stream": 0,
+  "vol": 100
+ },
+ {
+  "name": "Characters/sfx_tyril_baseattack",
+  "pack_id": 0,
+  "sound_id": 199,
+  "stream": 0,
+  "vol": 100
+ },
+ {
+  "name": "Characters/sfx_tyril_pain_01",
+  "pack_id": 0,
+  "sound_id": 200,
+  "stream": 0,
+  "vol": 100
+ },
+ {
+  "name": "Characters/sfx_tyril_pain_02",
+  "pack_id": 0,
+  "sound_id": 201,
+  "stream": 0,
+  "vol": 100
+ },
+ {
+  "name": "Characters/sfx_tyril_pain_03",
+  "pack_id": 0,
+  "sound_id": 202,
+  "stream": 0,
+  "vol": 100
+ },
+ {
+  "name": "Characters/sfx_tyril_ultimateattack",
+  "pack_id": 0,
+  "sound_id": 203,
+  "stream": 0,
+  "vol": 100
+ },
+ {
+  "name": "ChestOpening/sfx_gui_card_flip",
+  "pack_id": 0,
+  "sound_id": 204,
+  "stream": 0,
+  "vol": 50
+ },
+ {
+  "name": "ChestOpening/sfx_gui_chest_drop",
+  "pack_id": 0,
+  "sound_id": 205,
+  "stream": 0,
+  "vol": 100
+ },
+ {
+  "name": "ChestOpening/sfx_gui_clear_cards",
+  "pack_id": 0,
+  "sound_id": 206,
+  "stream": 0,
+  "vol": 100
+ },
+ {
+  "name": "ChestOpening/sfx_gui_duplicate",
+  "pack_id": 0,
+  "sound_id": 207,
+  "stream": 0,
+  "vol": 100
+ },
+ {
+  "name": "Characters/sfx_jamilah_ultimateattack_impact_01",
+  "pack_id": 0,
+  "sound_id": 208,
+  "stream": 0,
+  "vol": 100
+ },
+ {
+  "name": "Characters/sfx_jamilah_ultimateattack_impact_02",
+  "pack_id": 0,
+  "sound_id": 209,
+  "stream": 0,
+  "vol": 100
+ },
+ {
+  "name": "Characters/sfx_jamilah_ultimateattack_impact_03",
+  "pack_id": 0,
+  "sound_id": 210,
+  "stream": 0,
+  "vol": 100
+ },
+ {
+  "name": "Characters/sfx_jamilah_ultimateattack_impact_04",
+  "pack_id": 0,
+  "sound_id": 211,
+  "stream": 0,
+  "vol": 100
+ },
+ {
+  "name": "Characters/sfx_jamilah_ultimateattack_impact_05",
+  "pack_id": 0,
+  "sound_id": 212,
+  "stream": 0,
+  "vol": 100
+ },
+ {
+  "name": "Characters/sfx_jamilah_ultimateattack_impact_06",
+  "pack_id": 0,
+  "sound_id": 213,
+  "stream": 0,
+  "vol": 100
+ },
+ {
+  "name": "Characters/sfx_minsc_ultimateattack_impact_01",
+  "pack_id": 0,
+  "sound_id": 214,
+  "stream": 0,
+  "vol": 100
+ },
+ {
+  "name": "Characters/sfx_minsc_ultimateattack_impact_02",
+  "pack_id": 0,
+  "sound_id": 215,
+  "stream": 0,
+  "vol": 100
+ },
+ {
+  "name": "Characters/sfx_minsc_ultimateattack_impact_03",
+  "pack_id": 0,
+  "sound_id": 216,
+  "stream": 0,
+  "vol": 100
+ },
+ {
+  "name": "Characters/sfx_minsc_ultimateattack_impact_04",
+  "pack_id": 0,
+  "sound_id": 217,
+  "stream": 0,
+  "vol": 100
+ },
+ {
+  "name": "Characters/sfx_arkhan_chango",
+  "pack_id": 0,
+  "sound_id": 218,
+  "stream": 0,
+  "vol": 100
+ }
+]

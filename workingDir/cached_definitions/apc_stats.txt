@@ -1,0 +1,1 @@
+apc_stats:{'sets': 0, 'gets_time': '0.00000', 'sets_time': '0.00000', 'gets': 173}

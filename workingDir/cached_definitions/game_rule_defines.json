@@ -1,0 +1,79 @@
+[
+ {
+  "id": 1,
+  "rule": {
+   "tags": [
+    "dwarf",
+    "human",
+    "elf",
+    "half-elf",
+    "aarakocra",
+    "tiefling",
+    "firbolg",
+    "dragonborn",
+    "tabaxi",
+    "tortle",
+    "halfling",
+    "gnome",
+    "half-orc",
+    "gith"
+   ]
+  },
+  "rule_name": "race_tags"
+ },
+ {
+  "id": 2,
+  "rule": {
+   "multiplier": 0.25
+  },
+  "rule_name": "idle_gold_rate"
+ },
+ {
+  "id": 3,
+  "rule": {
+   "tags": [
+    "aarakocra",
+    "aberration",
+    "beast",
+    "bullywug",
+    "construct",
+    "drow",
+    "dwarf",
+    "elemental",
+    "elf",
+    "fey",
+    "fiend",
+    "giant",
+    "githyanki",
+    "gnoll",
+    "goblin",
+    "grung",
+    "half-elf",
+    "half-orc",
+    "halfling",
+    "hobgoblin",
+    "human",
+    "humanoid",
+    "kobold",
+    "lizardfolk",
+    "monstrosity",
+    "ogre",
+    "ooze",
+    "plant",
+    "quaggoth",
+    "seaspawn",
+    "tiefling",
+    "undead",
+    "yuan-ti"
+   ]
+  },
+  "rule_name": "enemy_hover_tags"
+ },
+ {
+  "id": 4,
+  "rule": {
+   "multiplier": 0.5
+  },
+  "rule_name": "idle_gold_rate_v2"
+ }
+]
