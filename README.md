@@ -5,7 +5,7 @@ Soon to be growing compilation of python scripting to scrape the `cached_definit
 
 ## Plans/Goals for these scripts:
 * Scrape all the data from Idle Champions `cached_definitions.json`
-	* Format data into csv (or other suitable file) for the folowing groupings:
+	* Format data into csv/xml (or other suitable file) for the following groupings:
 		* Hero Char Sheets
         * Hero Upgrades
         * Hero Scaling
