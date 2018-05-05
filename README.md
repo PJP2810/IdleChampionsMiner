@@ -1,4 +1,4 @@
-# Welcome to StackEdit!
+# Idle Champions Miner
 
 Soon to be growing compilation of python scripting to scrape the `cached_definitions.json` file from Idle Champions of the Forgotten Realms. 
 
