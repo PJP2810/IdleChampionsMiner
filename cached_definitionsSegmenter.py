@@ -14,12 +14,29 @@ with open('cached_definitions.json') as json_file:
     data = json.load(json_file)
 
 # Separate JSON segments
-hero_defines = [x for x in data['hero_defines']]
+def segJSON(fullData, segment):
+    
+    segData = [x for x in fullData[str(segment)]]
+    
+    with open(str(segment)+'.json', 'w') as outfile:
+        json.dump(segData, outfile, indent=True,sort_keys=True)
+    return
 
-with open('hero_defines.json', 'w') as outfile:
-    json.dump(hero_defines, outfile, indent=True,sort_keys=True)
 
-upgrade_defines = [x for x in data['upgrade_defines']]
 
-with open('upgrade_defines.json', 'w') as outfile:
-    json.dump(upgrade_defines, outfile, indent=True,sort_keys=True)
+segment = 'loot_defines'
+
+segJSON(data, segment)
+
+'''
+TODO:
+
+- Create array of desired segments
+    hero_defines
+    upgrade_defines
+    loot_defines
+    effect_defines
+    upgrade_defines
+        etc
+- Loop through segmentArray calling segJSON
+'''

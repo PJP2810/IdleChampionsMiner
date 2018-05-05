@@ -1,0 +1,8430 @@
+[
+ {
+  "description": "It isn't much, but it'll get the job done.",
+  "effects": [
+   {
+    "effect_string": "hero_dps_multiplier_mult,50"
+   }
+  ],
+  "graphic_id": 244,
+  "hero_id": 1,
+  "id": 1,
+  "name": "Chipped Axe",
+  "rarity": 1,
+  "slot_id": 1
+ },
+ {
+  "description": "So sharp I can skin dinner with it.",
+  "effects": [
+   {
+    "effect_string": "hero_dps_multiplier_mult,125"
+   }
+  ],
+  "graphic_id": 244,
+  "hero_id": 1,
+  "id": 2,
+  "name": "Sharpened Axe",
+  "rarity": 2,
+  "slot_id": 1
+ },
+ {
+  "description": "I've lost count of the number of goblins slaughtered by its razor edge.",
+  "effects": [
+   {
+    "effect_string": "hero_dps_multiplier_mult,200"
+   }
+  ],
+  "graphic_id": 245,
+  "hero_id": 1,
+  "id": 3,
+  "name": "Well Used Axe",
+  "rarity": 3,
+  "slot_id": 1
+ },
+ {
+  "description": "This axe has seen a thousand battles, and been victorious in every one.",
+  "effects": [
+   {
+    "effect_string": "hero_dps_multiplier_mult,350"
+   }
+  ],
+  "graphic_id": 246,
+  "hero_id": 1,
+  "id": 4,
+  "name": "Many-notched Axe",
+  "rarity": 4,
+  "slot_id": 1
+ },
+ {
+  "description": "They're a bit heavy, but they keep my beard in check.",
+  "effects": [
+   {
+    "effect_string": "global_dps_multiplier_mult,10"
+   }
+  ],
+  "graphic_id": 247,
+  "hero_id": 1,
+  "id": 5,
+  "name": "Iron Beard Clips",
+  "rarity": 1,
+  "slot_id": 2
+ },
+ {
+  "description": "Lighter than your average clips, they let my beard swing furiously when I attack.",
+  "effects": [
+   {
+    "effect_string": "global_dps_multiplier_mult,65"
+   }
+  ],
+  "graphic_id": 247,
+  "hero_id": 1,
+  "id": 6,
+  "name": "Steel Beard Clips",
+  "rarity": 2,
+  "slot_id": 2
+ },
+ {
+  "description": "Crafted from a meteorite that fell near Icewind Dale.",
+  "effects": [
+   {
+    "effect_string": "global_dps_multiplier_mult,120"
+   }
+  ],
+  "graphic_id": 248,
+  "hero_id": 1,
+  "id": 7,
+  "name": "Dark Iron Beard Clips",
+  "rarity": 3,
+  "slot_id": 2
+ },
+ {
+  "description": "Ancient family clips found in the depths of the Mithral Hall.",
+  "effects": [
+   {
+    "effect_string": "global_dps_multiplier_mult,230"
+   }
+  ],
+  "graphic_id": 249,
+  "hero_id": 1,
+  "id": 8,
+  "name": "Gold Beard Clips of the Clan",
+  "rarity": 4,
+  "slot_id": 2
+ },
+ {
+  "description": "It'll hold up your pants, if you don't move around too quickly.",
+  "effects": [
+   {
+    "effect_string": "buff_upgrade,25,2"
+   }
+  ],
+  "graphic_id": 250,
+  "hero_id": 1,
+  "id": 9,
+  "name": "Frayed Belt",
+  "rarity": 1,
+  "slot_id": 3
+ },
+ {
+  "description": "It's seen better days, but it still does the trick.",
+  "effects": [
+   {
+    "effect_string": "buff_upgrade,87.5,2"
+   }
+  ],
+  "graphic_id": 250,
+  "hero_id": 1,
+  "id": 10,
+  "name": "Faded Leather Belt",
+  "rarity": 2,
+  "slot_id": 3
+ },
+ {
+  "description": "It's quite slimming!",
+  "effects": [
+   {
+    "effect_string": "buff_upgrade,150,2"
+   }
+  ],
+  "graphic_id": 251,
+  "hero_id": 1,
+  "id": 11,
+  "name": "Thick Sturdy Belt",
+  "rarity": 3,
+  "slot_id": 3
+ },
+ {
+  "description": "An ancient family belt recovered from a Battlehammer heirloom cache.",
+  "effects": [
+   {
+    "effect_string": "buff_upgrade,275,2"
+   }
+  ],
+  "graphic_id": 252,
+  "hero_id": 1,
+  "id": 12,
+  "name": "Golden Hide Belt of the Ancestors",
+  "rarity": 4,
+  "slot_id": 3
+ },
+ {
+  "description": "A simple ring with little magical power.",
+  "effects": [
+   {
+    "effect_string": "buff_upgrade,25,4"
+   }
+  ],
+  "graphic_id": 256,
+  "hero_id": 1,
+  "id": 13,
+  "name": "Plain Iron Ring",
+  "rarity": 1,
+  "slot_id": 4
+ },
+ {
+  "description": "A shiny ring that seems to radiate mild heat on its own.",
+  "effects": [
+   {
+    "effect_string": "buff_upgrade,87.5,4"
+   }
+  ],
+  "graphic_id": 256,
+  "hero_id": 1,
+  "id": 14,
+  "name": "Shiny Steel Ring",
+  "rarity": 2,
+  "slot_id": 4
+ },
+ {
+  "description": "A magical ring crafted from a fallen meteorite.",
+  "effects": [
+   {
+    "effect_string": "buff_upgrade,150,4"
+   }
+  ],
+  "graphic_id": 257,
+  "hero_id": 1,
+  "id": 15,
+  "name": "Dark Iron Ring",
+  "rarity": 3,
+  "slot_id": 4
+ },
+ {
+  "description": "Specially crafted by the craftsmen in Mirabar as a peace offering to Clan Battlehammer.",
+  "effects": [
+   {
+    "effect_string": "buff_upgrade,275,4"
+   }
+  ],
+  "graphic_id": 258,
+  "hero_id": 1,
+  "id": 16,
+  "name": "Golden Sigil Ring of Dwarves",
+  "rarity": 4,
+  "slot_id": 4
+ },
+ {
+  "description": "Looks like someone took a warhammer to this.",
+  "effects": [
+   {
+    "effect_string": "buff_ultimate,25"
+   }
+  ],
+  "graphic_id": 259,
+  "hero_id": 1,
+  "id": 17,
+  "name": "Dented Shield",
+  "rarity": 1,
+  "slot_id": 5
+ },
+ {
+  "description": "If you can get it up in time, it'll do the job.",
+  "effects": [
+   {
+    "effect_string": "buff_ultimate,87.5"
+   }
+  ],
+  "graphic_id": 259,
+  "hero_id": 1,
+  "id": 18,
+  "name": "Heavy Shield",
+  "rarity": 2,
+  "slot_id": 5
+ },
+ {
+  "description": "It's strong enough to stop a blow from a raging giant.",
+  "effects": [
+   {
+    "effect_string": "buff_ultimate,150"
+   }
+  ],
+  "graphic_id": 260,
+  "hero_id": 1,
+  "id": 19,
+  "name": "Strong Shield",
+  "rarity": 3,
+  "slot_id": 5
+ },
+ {
+  "description": "A magical shield with secret and mysterious powers.",
+  "effects": [
+   {
+    "effect_string": "buff_ultimate,275"
+   }
+  ],
+  "graphic_id": 261,
+  "hero_id": 1,
+  "id": 20,
+  "name": "Shield of Foaming Ale",
+  "rarity": 4,
+  "slot_id": 5
+ },
+ {
+  "description": "To be fair, I think it's supposed to be broken.",
+  "effects": [
+   {
+    "effect_string": "reduce_ultimate_cooldown,2"
+   }
+  ],
+  "graphic_id": 254,
+  "hero_id": 1,
+  "id": 21,
+  "name": "Broken Helm",
+  "rarity": 1,
+  "slot_id": 6
+ },
+ {
+  "description": "Someone needs to get some spit and polish on this thing.",
+  "effects": [
+   {
+    "effect_string": "reduce_ultimate_cooldown,3"
+   }
+  ],
+  "graphic_id": 254,
+  "hero_id": 1,
+  "id": 22,
+  "name": "Scuffed Helm",
+  "rarity": 2,
+  "slot_id": 6
+ },
+ {
+  "description": "Stronger than steel, and far lighter.",
+  "effects": [
+   {
+    "effect_string": "reduce_ultimate_cooldown,6"
+   }
+  ],
+  "graphic_id": 255,
+  "hero_id": 1,
+  "id": 23,
+  "name": "Mithral Helm",
+  "rarity": 3,
+  "slot_id": 6
+ },
+ {
+  "description": "This helm has seen Bruenor through a hundred sticky situations.",
+  "effects": [
+   {
+    "effect_string": "reduce_ultimate_cooldown,15"
+   }
+  ],
+  "graphic_id": 253,
+  "hero_id": 1,
+  "id": 24,
+  "name": "Gilded Helm of Clan Battlehammer",
+  "rarity": 4,
+  "slot_id": 6
+ },
+ {
+  "description": "An understated headband with a small blue gem.",
+  "effects": [
+   {
+    "effect_string": "global_dps_multiplier_mult,10"
+   }
+  ],
+  "graphic_id": 292,
+  "hero_id": 2,
+  "id": 25,
+  "name": "Iron Headband",
+  "rarity": 1,
+  "slot_id": 1
+ },
+ {
+  "description": "A scuffed headband with brilliant potential.",
+  "effects": [
+   {
+    "effect_string": "global_dps_multiplier_mult,65"
+   }
+  ],
+  "graphic_id": 292,
+  "hero_id": 2,
+  "id": 26,
+  "name": "Silver Headband",
+  "rarity": 2,
+  "slot_id": 1
+ },
+ {
+  "description": "A complex headband composed of dozens of golden leaves.",
+  "effects": [
+   {
+    "effect_string": "global_dps_multiplier_mult,120"
+   }
+  ],
+  "graphic_id": 293,
+  "hero_id": 2,
+  "id": 27,
+  "name": "Gold Headband",
+  "rarity": 3,
+  "slot_id": 1
+ },
+ {
+  "description": "A golden headband inlaid with a brilliant blue sapphire.",
+  "effects": [
+   {
+    "effect_string": "global_dps_multiplier_mult,230"
+   }
+  ],
+  "graphic_id": 294,
+  "hero_id": 2,
+  "id": 28,
+  "name": "Ornate Headband of Faith",
+  "rarity": 4,
+  "slot_id": 1
+ },
+ {
+  "description": "They'll keep the dust off my hands, at least.",
+  "effects": [
+   {
+    "effect_string": "global_dps_multiplier_mult,10"
+   }
+  ],
+  "graphic_id": 289,
+  "hero_id": 2,
+  "id": 29,
+  "name": "Cloth Gauntlets",
+  "rarity": 1,
+  "slot_id": 2
+ },
+ {
+  "description": "The inside is padded to protect against bumps and bruises.",
+  "effects": [
+   {
+    "effect_string": "global_dps_multiplier_mult,65"
+   }
+  ],
+  "graphic_id": 289,
+  "hero_id": 2,
+  "id": 30,
+  "name": "Leather Gauntlets",
+  "rarity": 2,
+  "slot_id": 2
+ },
+ {
+  "description": "Masterfully crafted to fit my hands precisely.",
+  "effects": [
+   {
+    "effect_string": "global_dps_multiplier_mult,120"
+   }
+  ],
+  "graphic_id": 290,
+  "hero_id": 2,
+  "id": 31,
+  "name": "Golden Gauntlets",
+  "rarity": 3,
+  "slot_id": 2
+ },
+ {
+  "description": "The small inlaid sapphires - tears of Sel\u00fbne herself - empower myself and my allies.",
+  "effects": [
+   {
+    "effect_string": "global_dps_multiplier_mult,230"
+   }
+  ],
+  "graphic_id": 291,
+  "hero_id": 2,
+  "id": 32,
+  "name": "Scale Gauntlets of Sel\u00fbne",
+  "rarity": 4,
+  "slot_id": 2
+ },
+ {
+  "description": "A basic belt from a simpler time in my life.",
+  "effects": [
+   {
+    "effect_string": "buff_upgrade,25,24"
+   }
+  ],
+  "graphic_id": 283,
+  "hero_id": 2,
+  "id": 33,
+  "name": "Cloth Belt",
+  "rarity": 1,
+  "slot_id": 3
+ },
+ {
+  "description": "Given to me by a sister cleric on my first day of worship at the temple.",
+  "effects": [
+   {
+    "effect_string": "buff_upgrade,87.5,24"
+   }
+  ],
+  "graphic_id": 283,
+  "hero_id": 2,
+  "id": 34,
+  "name": "Soft Belt",
+  "rarity": 2,
+  "slot_id": 3
+ },
+ {
+  "description": "This belt has saved my life in battle many times.",
+  "effects": [
+   {
+    "effect_string": "buff_upgrade,150,24"
+   }
+  ],
+  "graphic_id": 284,
+  "hero_id": 2,
+  "id": 35,
+  "name": "Thick Scalemail Belt",
+  "rarity": 3,
+  "slot_id": 3
+ },
+ {
+  "description": "The texture of this belt matches exactly the face of the goddess above.",
+  "effects": [
+   {
+    "effect_string": "buff_upgrade,275,24"
+   }
+  ],
+  "graphic_id": 285,
+  "hero_id": 2,
+  "id": 36,
+  "name": "Obsidian Scale Belt of the Moon",
+  "rarity": 4,
+  "slot_id": 3
+ },
+ {
+  "description": "Commonly carried by many of Sel\u00fbne's acolytes.",
+  "effects": [
+   {
+    "effect_string": "buff_upgrade,25,26"
+   }
+  ],
+  "graphic_id": 280,
+  "hero_id": 2,
+  "id": 37,
+  "name": "Iron Amulet",
+  "rarity": 1,
+  "slot_id": 4
+ },
+ {
+  "description": "A more durable form of a commonly carried amulet.",
+  "effects": [
+   {
+    "effect_string": "buff_upgrade,87.5,26"
+   }
+  ],
+  "graphic_id": 280,
+  "hero_id": 2,
+  "id": 38,
+  "name": "Steel Amulet",
+  "rarity": 2,
+  "slot_id": 4
+ },
+ {
+  "description": "Often mistaken for gold, this amulet shines nearly as bright.",
+  "effects": [
+   {
+    "effect_string": "buff_upgrade,150,26"
+   }
+  ],
+  "graphic_id": 281,
+  "hero_id": 2,
+  "id": 39,
+  "name": "Copper Amulet",
+  "rarity": 3,
+  "slot_id": 4
+ },
+ {
+  "description": "One of the few relics recovered from Shadowmantle's undead horde.",
+  "effects": [
+   {
+    "effect_string": "buff_upgrade,275,26"
+   }
+  ],
+  "graphic_id": 282,
+  "hero_id": 2,
+  "id": 40,
+  "name": "Golden Amulet of the Goddess",
+  "rarity": 4,
+  "slot_id": 4
+ },
+ {
+  "description": "Comfortable, but not ideal for long journeys such as this one.",
+  "effects": [
+   {
+    "effect_string": "buff_ultimate,25"
+   }
+  ],
+  "graphic_id": 286,
+  "hero_id": 2,
+  "id": 41,
+  "name": "Cloth Boots",
+  "rarity": 1,
+  "slot_id": 5
+ },
+ {
+  "description": "Durable and soft, these boots can last a lifetime if properly cared for.",
+  "effects": [
+   {
+    "effect_string": "buff_ultimate,87.5"
+   }
+  ],
+  "graphic_id": 286,
+  "hero_id": 2,
+  "id": 42,
+  "name": "Smooth Leather Boots",
+  "rarity": 2,
+  "slot_id": 5
+ },
+ {
+  "description": "Not the stealthiest boot, but then stealth was never my style.",
+  "effects": [
+   {
+    "effect_string": "buff_ultimate,150"
+   }
+  ],
+  "graphic_id": 287,
+  "hero_id": 2,
+  "id": 43,
+  "name": "Chainmail Boots",
+  "rarity": 3,
+  "slot_id": 5
+ },
+ {
+  "description": "One of Sel\u00fbne's skilled followers crafted these for me after I saved them.",
+  "effects": [
+   {
+    "effect_string": "buff_ultimate,275"
+   }
+  ],
+  "graphic_id": 288,
+  "hero_id": 2,
+  "id": 44,
+  "name": "Well Fitted Boots of Fellowship",
+  "rarity": 4,
+  "slot_id": 5
+ },
+ {
+  "description": "Though old, this item still holds a dear place in my heart.",
+  "effects": [
+   {
+    "effect_string": "reduce_ultimate_cooldown,5"
+   }
+  ],
+  "graphic_id": 295,
+  "hero_id": 2,
+  "id": 45,
+  "name": "Faded Holy Symbol",
+  "rarity": 1,
+  "slot_id": 6
+ },
+ {
+  "description": "Never underestimate the wrath of an angry goddess.",
+  "effects": [
+   {
+    "effect_string": "reduce_ultimate_cooldown,9"
+   }
+  ],
+  "graphic_id": 295,
+  "hero_id": 2,
+  "id": 46,
+  "name": "Understated Holy Symbol",
+  "rarity": 2,
+  "slot_id": 6
+ },
+ {
+  "description": "A fine tribute to the true goddess of the night sky.",
+  "effects": [
+   {
+    "effect_string": "reduce_ultimate_cooldown,18"
+   }
+  ],
+  "graphic_id": 296,
+  "hero_id": 2,
+  "id": 47,
+  "name": "Ornate Holy Symbol",
+  "rarity": 3,
+  "slot_id": 6
+ },
+ {
+  "description": "Bestowed upon me by the goddess herself in my greatest time of need.",
+  "effects": [
+   {
+    "effect_string": "reduce_ultimate_cooldown,45"
+   }
+  ],
+  "graphic_id": 297,
+  "hero_id": 2,
+  "id": 48,
+  "name": "Holy Symbol of Sel\u00fbne's Grace",
+  "rarity": 4,
+  "slot_id": 6
+ },
+ {
+  "description": "A faded owl motif. Someday I'll tell you the story of it.",
+  "effects": [
+   {
+    "effect_string": "global_dps_multiplier_mult,10"
+   }
+  ],
+  "graphic_id": 376,
+  "hero_id": 3,
+  "id": 49,
+  "name": "Faded Figurine",
+  "rarity": 1,
+  "slot_id": 1
+ },
+ {
+  "description": "A magical item used to hunt down those who have done wrong.",
+  "effects": [
+   {
+    "effect_string": "global_dps_multiplier_mult,65"
+   }
+  ],
+  "graphic_id": 376,
+  "hero_id": 3,
+  "id": 50,
+  "name": "Hunting Figurine",
+  "rarity": 2,
+  "slot_id": 1
+ },
+ {
+  "description": "A brilliant serpentine owl figurine imbued with magical power.",
+  "effects": [
+   {
+    "effect_string": "global_dps_multiplier_mult,120"
+   }
+  ],
+  "graphic_id": 377,
+  "hero_id": 3,
+  "id": 51,
+  "name": "Detailed Owl Figurine",
+  "rarity": 3,
+  "slot_id": 1
+ },
+ {
+  "description": "A wondrous item that grants me the power to track down those I've sworn vengeance against.",
+  "effects": [
+   {
+    "effect_string": "global_dps_multiplier_mult,230"
+   }
+  ],
+  "graphic_id": 378,
+  "hero_id": 3,
+  "id": 52,
+  "name": "Figurine Of Wondrous Power",
+  "rarity": 4,
+  "slot_id": 1
+ },
+ {
+  "description": "It's starting to rust, but it can still take a few good blows.",
+  "effects": [
+   {
+    "effect_string": "health_mult,25"
+   }
+  ],
+  "graphic_id": 370,
+  "hero_id": 3,
+  "id": 53,
+  "name": "Tarnished Breastplate",
+  "rarity": 1,
+  "slot_id": 2
+ },
+ {
+  "description": "A sturdy breastplate. Well enough to deliver evenhanded justice in, at least.",
+  "effects": [
+   {
+    "effect_string": "health_mult,87.5"
+   }
+  ],
+  "graphic_id": 370,
+  "hero_id": 3,
+  "id": 54,
+  "name": "Iron Breastplate",
+  "rarity": 2,
+  "slot_id": 2
+ },
+ {
+  "description": "A fine breastplate, crafted using a special steel alloy known only to a few.",
+  "effects": [
+   {
+    "effect_string": "health_mult,150"
+   }
+  ],
+  "graphic_id": 371,
+  "hero_id": 3,
+  "id": 55,
+  "name": "Ornate Breastplate",
+  "rarity": 3,
+  "slot_id": 2
+ },
+ {
+  "description": "It borders on gaudy, but you can't deny its raw power.",
+  "effects": [
+   {
+    "effect_string": "health_mult,275"
+   }
+  ],
+  "graphic_id": 372,
+  "hero_id": 3,
+  "id": 56,
+  "name": "Breastplate of the Devoted Champion",
+  "rarity": 4,
+  "slot_id": 2
+ },
+ {
+  "description": "It restricts my movement, but not enough to hinder the Maimed God's justice.",
+  "effects": [
+   {
+    "effect_string": "buff_upgrade,25,38"
+   }
+  ],
+  "graphic_id": 373,
+  "hero_id": 3,
+  "id": 57,
+  "name": "Heavy Chainmail Shirt",
+  "rarity": 1,
+  "slot_id": 3
+ },
+ {
+  "description": "As fine a shirt as you could expect to find, from a common merchant.",
+  "effects": [
+   {
+    "effect_string": "buff_upgrade,87.5,38"
+   }
+  ],
+  "graphic_id": 373,
+  "hero_id": 3,
+  "id": 58,
+  "name": "Fine Chainmail Shirt",
+  "rarity": 2,
+  "slot_id": 3
+ },
+ {
+  "description": "Even dwarven folk can appreciate the need for Tyr's justice.",
+  "effects": [
+   {
+    "effect_string": "buff_upgrade,150,38"
+   }
+  ],
+  "graphic_id": 374,
+  "hero_id": 3,
+  "id": 59,
+  "name": "Dwarven Mithral Shirt",
+  "rarity": 3,
+  "slot_id": 3
+ },
+ {
+  "description": "Gifted to me by Lord Maldwyn, shortly before... I'd rather not talk about it.",
+  "effects": [
+   {
+    "effect_string": "buff_upgrade,275,38"
+   }
+  ],
+  "graphic_id": 375,
+  "hero_id": 3,
+  "id": 60,
+  "name": "Finely Crafted Scalemail of Justice",
+  "rarity": 4,
+  "slot_id": 3
+ },
+ {
+  "description": "Your run of the mill plate gauntlets.",
+  "effects": [
+   {
+    "effect_string": "buff_upgrade,25,40"
+   }
+  ],
+  "graphic_id": 379,
+  "hero_id": 3,
+  "id": 61,
+  "name": "Basic Gauntlets",
+  "rarity": 1,
+  "slot_id": 4
+ },
+ {
+  "description": "They won't budge in battle, and with a sturdy wrist will deflect all but the strongest attack.",
+  "effects": [
+   {
+    "effect_string": "buff_upgrade,87.5,40"
+   }
+  ],
+  "graphic_id": 379,
+  "hero_id": 3,
+  "id": 62,
+  "name": "Sturdy Gauntlets",
+  "rarity": 2,
+  "slot_id": 4
+ },
+ {
+  "description": "A finely crafted gauntlet worn by many Paladins throughout the land.",
+  "effects": [
+   {
+    "effect_string": "buff_upgrade,150,40"
+   }
+  ],
+  "graphic_id": 380,
+  "hero_id": 3,
+  "id": 63,
+  "name": "Paladin's Gauntlets",
+  "rarity": 3,
+  "slot_id": 4
+ },
+ {
+  "description": "Pristine scalemail gauntlets that give my blows a little extra oomph.",
+  "effects": [
+   {
+    "effect_string": "buff_upgrade,275,40"
+   }
+  ],
+  "graphic_id": 381,
+  "hero_id": 3,
+  "id": 64,
+  "name": "Gauntlets of Sworn Vengeance",
+  "rarity": 4,
+  "slot_id": 4
+ },
+ {
+  "description": "The symbol of Tyr strikes fear into evil-doers everywhere.",
+  "effects": [
+   {
+    "effect_string": "buff_ultimate,25"
+   }
+  ],
+  "graphic_id": 382,
+  "hero_id": 3,
+  "id": 65,
+  "name": "Simple Holy Symbol",
+  "rarity": 1,
+  "slot_id": 5
+ },
+ {
+  "description": "This symbol has been meticulously cared for over the years. A great sign of respect.",
+  "effects": [
+   {
+    "effect_string": "buff_ultimate,87.5"
+   }
+  ],
+  "graphic_id": 382,
+  "hero_id": 3,
+  "id": 66,
+  "name": "Polished Holy Symbol",
+  "rarity": 2,
+  "slot_id": 5
+ },
+ {
+  "description": "The Lord of Justice himself blessed this necklace.",
+  "effects": [
+   {
+    "effect_string": "buff_ultimate,150"
+   }
+  ],
+  "graphic_id": 383,
+  "hero_id": 3,
+  "id": 67,
+  "name": "Devoted Holy Symbol",
+  "rarity": 3,
+  "slot_id": 5
+ },
+ {
+  "description": "I've devoted my life to justice for all in Tyr's name.",
+  "effects": [
+   {
+    "effect_string": "buff_ultimate,275"
+   }
+  ],
+  "graphic_id": 384,
+  "hero_id": 3,
+  "id": 68,
+  "name": "Extravagant Symbol of Tyr",
+  "rarity": 4,
+  "slot_id": 5
+ },
+ {
+  "description": "A trainee's sword, but in the right hands, it can still do damage.",
+  "effects": [
+   {
+    "effect_string": "reduce_ultimate_cooldown,3"
+   }
+  ],
+  "graphic_id": 385,
+  "hero_id": 3,
+  "id": 69,
+  "name": "Dull Iron Greatsword",
+  "rarity": 1,
+  "slot_id": 6
+ },
+ {
+  "description": "Crafted by the finest smithy in Daggerford.",
+  "effects": [
+   {
+    "effect_string": "reduce_ultimate_cooldown,6"
+   }
+  ],
+  "graphic_id": 385,
+  "hero_id": 3,
+  "id": 70,
+  "name": "Sharp Steel Greatsword",
+  "rarity": 2,
+  "slot_id": 6
+ },
+ {
+  "description": "This sword vanquishes all foes, whether or not they come from this plane.",
+  "effects": [
+   {
+    "effect_string": "reduce_ultimate_cooldown,12"
+   }
+  ],
+  "graphic_id": 386,
+  "hero_id": 3,
+  "id": 71,
+  "name": "Strong Magical Greatsword",
+  "rarity": 3,
+  "slot_id": 6
+ },
+ {
+  "description": "The Lord of Justice blessed this sword and my mission on his behalf.",
+  "effects": [
+   {
+    "effect_string": "reduce_ultimate_cooldown,30"
+   }
+  ],
+  "graphic_id": 387,
+  "hero_id": 3,
+  "id": 72,
+  "name": "Blessed Sword of Tyr",
+  "rarity": 4,
+  "slot_id": 6
+ },
+ {
+  "description": "Good enough for the common folk, but I'll soon be upgrading, I assure you.",
+  "effects": [
+   {
+    "effect_string": "hero_dps_multiplier_mult,50"
+   }
+  ],
+  "graphic_id": 328,
+  "hero_id": 4,
+  "id": 73,
+  "name": "Common Rapier",
+  "rarity": 1,
+  "slot_id": 1
+ },
+ {
+  "description": "You can't be very effective with an unbalanced sword, you know!",
+  "effects": [
+   {
+    "effect_string": "hero_dps_multiplier_mult,125"
+   }
+  ],
+  "graphic_id": 328,
+  "hero_id": 4,
+  "id": 74,
+  "name": "Well Balanced Rapier",
+  "rarity": 2,
+  "slot_id": 1
+ },
+ {
+  "description": "There's nothing quite so elegant or majestic as a finely crafted rapier.",
+  "effects": [
+   {
+    "effect_string": "hero_dps_multiplier_mult,200"
+   }
+  ],
+  "graphic_id": 329,
+  "hero_id": 4,
+  "id": 75,
+  "name": "Majestic Rapier",
+  "rarity": 3,
+  "slot_id": 1
+ },
+ {
+  "description": "When you need to put on a show, a rapier will often do the trick.",
+  "effects": [
+   {
+    "effect_string": "hero_dps_multiplier_mult,350"
+   }
+  ],
+  "graphic_id": 330,
+  "hero_id": 4,
+  "id": 76,
+  "name": "Swashbuckling Rapier of Last Resort",
+  "rarity": 4,
+  "slot_id": 1
+ },
+ {
+  "description": "It does the job, but not much more.",
+  "effects": [
+   {
+    "effect_string": "hero_dps_multiplier_mult,50"
+   }
+  ],
+  "graphic_id": 322,
+  "hero_id": 4,
+  "id": 77,
+  "name": "Effective Eye Patch",
+  "rarity": 1,
+  "slot_id": 2
+ },
+ {
+  "description": "Now that's a swashbuckling look!",
+  "effects": [
+   {
+    "effect_string": "hero_dps_multiplier_mult,125"
+   }
+  ],
+  "graphic_id": 322,
+  "hero_id": 4,
+  "id": 78,
+  "name": "Stylish Eye Patch",
+  "rarity": 2,
+  "slot_id": 2
+ },
+ {
+  "description": "I've got a few more tricks up my sleeve. Or over my eye, rather.",
+  "effects": [
+   {
+    "effect_string": "hero_dps_multiplier_mult,200"
+   }
+  ],
+  "graphic_id": 323,
+  "hero_id": 4,
+  "id": 79,
+  "name": "Enhanced Eye Patch",
+  "rarity": 3,
+  "slot_id": 2
+ },
+ {
+  "description": "You can't hide from my magical eye... patch.",
+  "effects": [
+   {
+    "effect_string": "hero_dps_multiplier_mult,350"
+   }
+  ],
+  "graphic_id": 324,
+  "hero_id": 4,
+  "id": 80,
+  "name": "Knave's Eye Patch",
+  "rarity": 4,
+  "slot_id": 2
+ },
+ {
+  "description": "It's not a real feather at all! Why would someone do this?",
+  "effects": [
+   {
+    "effect_string": "buff_upgrade,25,52"
+   }
+  ],
+  "graphic_id": 325,
+  "hero_id": 4,
+  "id": 81,
+  "name": "Faux Feathered Hat",
+  "rarity": 1,
+  "slot_id": 3
+ },
+ {
+  "description": "A decent enough feather, I suppose. In a pinch.",
+  "effects": [
+   {
+    "effect_string": "buff_upgrade,87.5,52"
+   }
+  ],
+  "graphic_id": 325,
+  "hero_id": 4,
+  "id": 82,
+  "name": "Gull Feathered Hat",
+  "rarity": 2,
+  "slot_id": 3
+ },
+ {
+  "description": "It's a pleasure to wear, though not for my enemies.",
+  "effects": [
+   {
+    "effect_string": "buff_upgrade,150,52"
+   }
+  ],
+  "graphic_id": 326,
+  "hero_id": 4,
+  "id": 83,
+  "name": "Velvet Feathered Hat",
+  "rarity": 3,
+  "slot_id": 3
+ },
+ {
+  "description": "You don't want to mess with this feather.",
+  "effects": [
+   {
+    "effect_string": "buff_upgrade,275,52"
+   }
+  ],
+  "graphic_id": 327,
+  "hero_id": 4,
+  "id": 84,
+  "name": "Magical Diatryma Feathered Hat",
+  "rarity": 4,
+  "slot_id": 3
+ },
+ {
+  "description": "A quick dip in an enchanted underdark pool aught to brighten this right up.",
+  "effects": [
+   {
+    "effect_string": "buff_upgrade,25,55"
+   }
+  ],
+  "graphic_id": 319,
+  "hero_id": 4,
+  "id": 85,
+  "name": "Faded Cloak",
+  "rarity": 1,
+  "slot_id": 4
+ },
+ {
+  "description": "A useful distraction if you want your foes to see your cloak and not yourself.",
+  "effects": [
+   {
+    "effect_string": "buff_upgrade,87.5,55"
+   }
+  ],
+  "graphic_id": 319,
+  "hero_id": 4,
+  "id": 86,
+  "name": "Brightly Colored Cloak",
+  "rarity": 2,
+  "slot_id": 4
+ },
+ {
+  "description": "It has some use, but it could be so much more.",
+  "effects": [
+   {
+    "effect_string": "buff_upgrade,150,55"
+   }
+  ],
+  "graphic_id": 320,
+  "hero_id": 4,
+  "id": 87,
+  "name": "Lesser Piwafwi Cloak",
+  "rarity": 3,
+  "slot_id": 4
+ },
+ {
+  "description": "With this cloak, I am all but invisible.",
+  "effects": [
+   {
+    "effect_string": "buff_upgrade,275,55"
+   }
+  ],
+  "graphic_id": 321,
+  "hero_id": 4,
+  "id": 88,
+  "name": "Many-hued Piwafwi Cloak",
+  "rarity": 4,
+  "slot_id": 4
+ },
+ {
+  "description": "It once had magical powers, but now it's just an old piece of metal.",
+  "effects": [
+   {
+    "effect_string": "buff_ultimate,25"
+   }
+  ],
+  "graphic_id": 331,
+  "hero_id": 4,
+  "id": 89,
+  "name": "Dented Iron Ring",
+  "rarity": 1,
+  "slot_id": 5
+ },
+ {
+  "description": "Rub it three times and a genie pops out. Aha! Gotcha! So gullible.",
+  "effects": [
+   {
+    "effect_string": "buff_ultimate,87.5"
+   }
+  ],
+  "graphic_id": 331,
+  "hero_id": 4,
+  "id": 90,
+  "name": "Scuffed Steel Ring",
+  "rarity": 2,
+  "slot_id": 5
+ },
+ {
+  "description": "But what power, you ask? I'll never tell.",
+  "effects": [
+   {
+    "effect_string": "buff_ultimate,150"
+   }
+  ],
+  "graphic_id": 332,
+  "hero_id": 4,
+  "id": 91,
+  "name": "Ring of Power",
+  "rarity": 3,
+  "slot_id": 5
+ },
+ {
+  "description": "If I know where my enemies will be, they're that much easier to hit.",
+  "effects": [
+   {
+    "effect_string": "buff_ultimate,275"
+   }
+  ],
+  "graphic_id": 333,
+  "hero_id": 4,
+  "id": 92,
+  "name": "Ornate Ring of Foresight",
+  "rarity": 4,
+  "slot_id": 5
+ },
+ {
+  "description": "A simple accessory, but quite useful in the right situation.",
+  "effects": [
+   {
+    "effect_string": "reduce_ultimate_cooldown,8"
+   }
+  ],
+  "graphic_id": 316,
+  "hero_id": 4,
+  "id": 93,
+  "name": "Simple Spurs",
+  "rarity": 1,
+  "slot_id": 6
+ },
+ {
+  "description": "Remind me sometime to tell you the story of how I came into possession of these.",
+  "effects": [
+   {
+    "effect_string": "reduce_ultimate_cooldown,15"
+   }
+  ],
+  "graphic_id": 316,
+  "hero_id": 4,
+  "id": 94,
+  "name": "Dull Steel Spurs",
+  "rarity": 2,
+  "slot_id": 6
+ },
+ {
+  "description": "Dirty dwarven metal, sure, but you can't deny the craftsmanship.",
+  "effects": [
+   {
+    "effect_string": "reduce_ultimate_cooldown,30"
+   }
+  ],
+  "graphic_id": 317,
+  "hero_id": 4,
+  "id": 95,
+  "name": "Shiny Mithral Spurs",
+  "rarity": 3,
+  "slot_id": 6
+ },
+ {
+  "description": "A stylish addition to any outfit!",
+  "effects": [
+   {
+    "effect_string": "reduce_ultimate_cooldown,75"
+   }
+  ],
+  "graphic_id": 318,
+  "hero_id": 4,
+  "id": 96,
+  "name": "Masterful Golden Spurs",
+  "rarity": 4,
+  "slot_id": 6
+ },
+ {
+  "description": "It doesn't have to be fancy, but it will be messy.",
+  "effects": [
+   {
+    "effect_string": "global_dps_multiplier_mult,10"
+   }
+  ],
+  "graphic_id": 271,
+  "hero_id": 5,
+  "id": 97,
+  "name": "Simple Crossbow Bolt",
+  "rarity": 1,
+  "slot_id": 1
+ },
+ {
+  "description": "You don't want to be on the receiving end of this.",
+  "effects": [
+   {
+    "effect_string": "global_dps_multiplier_mult,65"
+   }
+  ],
+  "graphic_id": 271,
+  "hero_id": 5,
+  "id": 98,
+  "name": "Sharpened Crossbow Bolt",
+  "rarity": 2,
+  "slot_id": 1
+ },
+ {
+  "description": "It nearly doesn't fit in my lute!",
+  "effects": [
+   {
+    "effect_string": "global_dps_multiplier_mult,120"
+   }
+  ],
+  "graphic_id": 272,
+  "hero_id": 5,
+  "id": 99,
+  "name": "Broadhead Crossbow Bolt",
+  "rarity": 3,
+  "slot_id": 1
+ },
+ {
+  "description": "You really have to jam it in there, but it hurts when it comes out.",
+  "effects": [
+   {
+    "effect_string": "global_dps_multiplier_mult,230"
+   }
+  ],
+  "graphic_id": 273,
+  "hero_id": 5,
+  "id": 100,
+  "name": "Expertly Fletched Crossbow Bolt",
+  "rarity": 4,
+  "slot_id": 1
+ },
+ {
+  "description": "It sounds terrible, so what'll you give me to stop playing?",
+  "effects": [
+   {
+    "effect_string": "global_dps_multiplier_mult,10"
+   }
+  ],
+  "graphic_id": 277,
+  "hero_id": 5,
+  "id": 101,
+  "name": "Untuned Lute",
+  "rarity": 1,
+  "slot_id": 2
+ },
+ {
+  "description": "I've heard better, but it's a good focus for my songs and spells.",
+  "effects": [
+   {
+    "effect_string": "global_dps_multiplier_mult,65"
+   }
+  ],
+  "graphic_id": 277,
+  "hero_id": 5,
+  "id": 102,
+  "name": "Partially Tuned Lute",
+  "rarity": 2,
+  "slot_id": 2
+ },
+ {
+  "description": "Sturdy instruments are key to constant paydays.",
+  "effects": [
+   {
+    "effect_string": "global_dps_multiplier_mult,120"
+   }
+  ],
+  "graphic_id": 278,
+  "hero_id": 5,
+  "id": 103,
+  "name": "Whitewood Lute",
+  "rarity": 3,
+  "slot_id": 2
+ },
+ {
+  "description": "Hey, are you even listening to me? Argh! That's it...!",
+  "effects": [
+   {
+    "effect_string": "global_dps_multiplier_mult,230"
+   }
+  ],
+  "graphic_id": 279,
+  "hero_id": 5,
+  "id": 104,
+  "name": "Ornate Lute of Ballads",
+  "rarity": 4,
+  "slot_id": 2
+ },
+ {
+  "description": "It's a little scratchy, but it keeps me warm.",
+  "effects": [
+   {
+    "effect_string": "buff_upgrade,25,71"
+   }
+  ],
+  "graphic_id": 268,
+  "hero_id": 5,
+  "id": 105,
+  "name": "Rough Cloak",
+  "rarity": 1,
+  "slot_id": 3
+ },
+ {
+  "description": "Your average bard's cloak. Good for blending into crowds... of bards.",
+  "effects": [
+   {
+    "effect_string": "buff_upgrade,87.5,71"
+   }
+  ],
+  "graphic_id": 268,
+  "hero_id": 5,
+  "id": 106,
+  "name": "Bard's Cloak",
+  "rarity": 2,
+  "slot_id": 3
+ },
+ {
+  "description": "The only way this thing comes flying off in combat is if I'm feeling especially fabulous.",
+  "effects": [
+   {
+    "effect_string": "buff_upgrade,150,71"
+   }
+  ],
+  "graphic_id": 269,
+  "hero_id": 5,
+  "id": 107,
+  "name": "Triple-Clasped Cloak",
+  "rarity": 3,
+  "slot_id": 3
+ },
+ {
+  "description": "You wouldn't think a bright red cloak could be stealthy, but here we are.",
+  "effects": [
+   {
+    "effect_string": "buff_upgrade,275,71"
+   }
+  ],
+  "graphic_id": 270,
+  "hero_id": 5,
+  "id": 108,
+  "name": "Stealthy Performer's Cloak",
+  "rarity": 4,
+  "slot_id": 3
+ },
+ {
+  "description": "Comfortable, but not much help in combat.",
+  "effects": [
+   {
+    "effect_string": "buff_upgrade,25,72"
+   }
+  ],
+  "graphic_id": 265,
+  "hero_id": 5,
+  "id": 109,
+  "name": "Soft Leather Bracers",
+  "rarity": 1,
+  "slot_id": 4
+ },
+ {
+  "description": "You could deflect a dull sword with these, if you're quick enough, which I am.",
+  "effects": [
+   {
+    "effect_string": "buff_upgrade,87.5,72"
+   }
+  ],
+  "graphic_id": 265,
+  "hero_id": 5,
+  "id": 110,
+  "name": "Stiff Hide Bracers",
+  "rarity": 2,
+  "slot_id": 4
+ },
+ {
+  "description": "Some of the best wrist-based protection a girl can ask for.",
+  "effects": [
+   {
+    "effect_string": "buff_upgrade,150,72"
+   }
+  ],
+  "graphic_id": 266,
+  "hero_id": 5,
+  "id": 111,
+  "name": "Studded Leather Bracers",
+  "rarity": 3,
+  "slot_id": 4
+ },
+ {
+  "description": "I know what you're thinking: aren't all bracers fingerless? Yeah, well... Shut up.",
+  "effects": [
+   {
+    "effect_string": "buff_upgrade,275,72"
+   }
+  ],
+  "graphic_id": 267,
+  "hero_id": 5,
+  "id": 112,
+  "name": "Fingerless Bracers of the Foul Mouth",
+  "rarity": 4,
+  "slot_id": 4
+ },
+ {
+  "description": "You can't see it, but this thing is barely holding together.",
+  "effects": [
+   {
+    "effect_string": "buff_upgrade,25,72"
+   }
+  ],
+  "graphic_id": 262,
+  "hero_id": 5,
+  "id": 113,
+  "name": "Patched Bag",
+  "rarity": 1,
+  "slot_id": 5
+ },
+ {
+  "description": "It's holding knick-knacks from dozens of passed out pirates. They won't miss 'em.",
+  "effects": [
+   {
+    "effect_string": "buff_upgrade,87.5,72"
+   }
+  ],
+  "graphic_id": 262,
+  "hero_id": 5,
+  "id": 114,
+  "name": "Sturdy Leather Bag",
+  "rarity": 2,
+  "slot_id": 5
+ },
+ {
+  "description": "Touch the gem in the wrong way and boom! Hope you weren't too attached to that hand.",
+  "effects": [
+   {
+    "effect_string": "buff_upgrade,150,72"
+   }
+  ],
+  "graphic_id": 263,
+  "hero_id": 5,
+  "id": 115,
+  "name": "Magically Enhanced Satchel",
+  "rarity": 3,
+  "slot_id": 5
+ },
+ {
+  "description": "I've seen plenty of the world, but I'm more than happy to see more of it.",
+  "effects": [
+   {
+    "effect_string": "buff_upgrade,275,72"
+   }
+  ],
+  "graphic_id": 264,
+  "hero_id": 5,
+  "id": 116,
+  "name": "Leather Satchel of the Wanderer",
+  "rarity": 4,
+  "slot_id": 5
+ },
+ {
+  "description": "It's a little irritating, but it's stylish.",
+  "effects": [
+   {
+    "effect_string": "reduce_ultimate_cooldown,5"
+   }
+  ],
+  "graphic_id": 274,
+  "hero_id": 5,
+  "id": 117,
+  "name": "Dusty Eyepatch",
+  "rarity": 1,
+  "slot_id": 6
+ },
+ {
+  "description": "A pleasure to wear - it's like a blanket for my eye!",
+  "effects": [
+   {
+    "effect_string": "reduce_ultimate_cooldown,9"
+   }
+  ],
+  "graphic_id": 274,
+  "hero_id": 5,
+  "id": 118,
+  "name": "Soft Cloth Eyepatch",
+  "rarity": 2,
+  "slot_id": 6
+ },
+ {
+  "description": "A sturdy accessory that aids in my night time adventures.",
+  "effects": [
+   {
+    "effect_string": "reduce_ultimate_cooldown,18"
+   }
+  ],
+  "graphic_id": 275,
+  "hero_id": 5,
+  "id": 119,
+  "name": "Sturdy Leather Eyepatch",
+  "rarity": 3,
+  "slot_id": 6
+ },
+ {
+  "description": "Oh, you want to know what my magical eyepatch does? Get in line, sailor.",
+  "effects": [
+   {
+    "effect_string": "reduce_ultimate_cooldown,45"
+   }
+  ],
+  "graphic_id": 276,
+  "hero_id": 5,
+  "id": 120,
+  "name": "Magical Eyepatch of the Bard",
+  "rarity": 4,
+  "slot_id": 6
+ },
+ {
+  "description": "The tip isn't as fragile as it looks.",
+  "effects": [
+   {
+    "effect_string": "hero_dps_multiplier_mult,50"
+   }
+  ],
+  "graphic_id": 238,
+  "hero_id": 6,
+  "id": 121,
+  "name": "Simple Jade Spear",
+  "rarity": 1,
+  "slot_id": 1
+ },
+ {
+  "description": "Crafted by the finest Aarakocra smiths in Kir Sabal.",
+  "effects": [
+   {
+    "effect_string": "hero_dps_multiplier_mult,125"
+   }
+  ],
+  "graphic_id": 238,
+  "hero_id": 6,
+  "id": 122,
+  "name": "Sharp Jade Spear",
+  "rarity": 2,
+  "slot_id": 1
+ },
+ {
+  "description": "Imbued with magical power by the wizards of Kir Sabal.",
+  "effects": [
+   {
+    "effect_string": "hero_dps_multiplier_mult,200"
+   }
+  ],
+  "graphic_id": 239,
+  "hero_id": 6,
+  "id": 123,
+  "name": "Magical Jade Spear",
+  "rarity": 3,
+  "slot_id": 1
+ },
+ {
+  "description": "The finest spear I've seen in all my years protecting the skies of Chult.",
+  "effects": [
+   {
+    "effect_string": "hero_dps_multiplier_mult,350"
+   }
+  ],
+  "graphic_id": 240,
+  "hero_id": 6,
+  "id": 124,
+  "name": "Ornate Jade Spear of the Mind",
+  "rarity": 4,
+  "slot_id": 1
+ },
+ {
+  "description": "This orb causes the air around you to shift and swirl.",
+  "effects": [
+   {
+    "effect_string": "hero_dps_multiplier_mult,50"
+   }
+  ],
+  "graphic_id": 241,
+  "hero_id": 6,
+  "id": 125,
+  "name": "Orb of Breezes",
+  "rarity": 1,
+  "slot_id": 2
+ },
+ {
+  "description": "This orb causes the air around you to gust and blow your robes.",
+  "effects": [
+   {
+    "effect_string": "hero_dps_multiplier_mult,125"
+   }
+  ],
+  "graphic_id": 241,
+  "hero_id": 6,
+  "id": 126,
+  "name": "Orb of Gusts",
+  "rarity": 2,
+  "slot_id": 2
+ },
+ {
+  "description": "This orb causes a strong wind to swirl past you, making footing difficult.",
+  "effects": [
+   {
+    "effect_string": "hero_dps_multiplier_mult,200"
+   }
+  ],
+  "graphic_id": 242,
+  "hero_id": 6,
+  "id": 127,
+  "name": "Orb of Squalls",
+  "rarity": 3,
+  "slot_id": 2
+ },
+ {
+  "description": "Without proper discipline, this orb could cause you to be swept off your feet.",
+  "effects": [
+   {
+    "effect_string": "hero_dps_multiplier_mult,350"
+   }
+  ],
+  "graphic_id": 243,
+  "hero_id": 6,
+  "id": 128,
+  "name": "Hurricane Orb of Storms",
+  "rarity": 4,
+  "slot_id": 2
+ },
+ {
+  "description": "This robe has clearly seen better days.",
+  "effects": [
+   {
+    "effect_string": "global_dps_multiplier_mult,10"
+   }
+  ],
+  "graphic_id": 235,
+  "hero_id": 6,
+  "id": 129,
+  "name": "Pilling Robe",
+  "rarity": 1,
+  "slot_id": 3
+ },
+ {
+  "description": "This robe fits perfectly, and flutters about pleasingly as you fly.",
+  "effects": [
+   {
+    "effect_string": "global_dps_multiplier_mult,65"
+   }
+  ],
+  "graphic_id": 235,
+  "hero_id": 6,
+  "id": 130,
+  "name": "Long Robe",
+  "rarity": 2,
+  "slot_id": 3
+ },
+ {
+  "description": "A golden robe with light colors and brilliant golden cloud motifs.",
+  "effects": [
+   {
+    "effect_string": "global_dps_multiplier_mult,120"
+   }
+  ],
+  "graphic_id": 236,
+  "hero_id": 6,
+  "id": 131,
+  "name": "Golden Robe",
+  "rarity": 3,
+  "slot_id": 3
+ },
+ {
+  "description": "This robe seems to have a mind of its own, swirling about you even when the wind is calm.",
+  "effects": [
+   {
+    "effect_string": "global_dps_multiplier_mult,230"
+   }
+  ],
+  "graphic_id": 237,
+  "hero_id": 6,
+  "id": 132,
+  "name": "Swirling Robe of Gusting Wind",
+  "rarity": 4,
+  "slot_id": 3
+ },
+ {
+  "description": "A simple pouch for storing spell components and trinkets.",
+  "effects": [
+   {
+    "description": "Increases the effect of Asharra's Bond abilities by $(amount)%.",
+    "effect_string": "buff_upgrades,25,90,91,92,975,976,977"
+   }
+  ],
+  "graphic_id": 232,
+  "hero_id": 6,
+  "id": 133,
+  "name": "Simple Pouch",
+  "rarity": 1,
+  "slot_id": 4
+ },
+ {
+  "description": "Twice the storage potential compared to single pouches!",
+  "effects": [
+   {
+    "description": "Increases the effect of Asharra's Bond abilities by $(amount)%.",
+    "effect_string": "buff_upgrades,87.5,90,91,92,975,976,977"
+   }
+  ],
+  "graphic_id": 232,
+  "hero_id": 6,
+  "id": 134,
+  "name": "Dual Cloth Pouches",
+  "rarity": 2,
+  "slot_id": 4
+ },
+ {
+  "description": "A well loved pouch that I'd guess belonged to a lesser Aarakocra priest or cleric.",
+  "effects": [
+   {
+    "description": "Increases the effect of Asharra's Bond abilities by $(amount)%.",
+    "effect_string": "buff_upgrades,150,90,91,92,975,976,977"
+   }
+  ],
+  "graphic_id": 233,
+  "hero_id": 6,
+  "id": 135,
+  "name": "Hardened Leather Pouch",
+  "rarity": 3,
+  "slot_id": 4
+ },
+ {
+  "description": "The components for nearly any spell you could imagine can be found in these pouches.",
+  "effects": [
+   {
+    "description": "Increases the effect of Asharra's Bond abilities by $(amount)%.",
+    "effect_string": "buff_upgrades,275,90,91,92,975,976,977"
+   }
+  ],
+  "graphic_id": 234,
+  "hero_id": 6,
+  "id": 136,
+  "name": "Bottomless Pouch of Components",
+  "rarity": 4,
+  "slot_id": 4
+ },
+ {
+  "description": "A common necklace worn by the Aarakocra residents of Kir Sabal.",
+  "effects": [
+   {
+    "effect_string": "buff_ultimate,25"
+   }
+  ],
+  "graphic_id": 229,
+  "hero_id": 6,
+  "id": 137,
+  "name": "Common Aarakocra Necklace",
+  "rarity": 1,
+  "slot_id": 5
+ },
+ {
+  "description": "This necklace has seen combat, but is still holding together well. It must be lucky!",
+  "effects": [
+   {
+    "effect_string": "buff_ultimate,87.5"
+   }
+  ],
+  "graphic_id": 229,
+  "hero_id": 6,
+  "id": 138,
+  "name": "Scuffed Aarakocra Necklace",
+  "rarity": 2,
+  "slot_id": 5
+ },
+ {
+  "description": "This fine necklace obviously belonged to a powerful Aarakocra at some point in the past.",
+  "effects": [
+   {
+    "effect_string": "buff_ultimate,150"
+   }
+  ],
+  "graphic_id": 230,
+  "hero_id": 6,
+  "id": 139,
+  "name": "Jeweled Aarakocra Necklace",
+  "rarity": 3,
+  "slot_id": 5
+ },
+ {
+  "description": "The craftsmanship on this necklace puts all others to shame.",
+  "effects": [
+   {
+    "effect_string": "buff_ultimate,275"
+   }
+  ],
+  "graphic_id": 231,
+  "hero_id": 6,
+  "id": 140,
+  "name": "Masterfully Crafted Aarakocra Necklace",
+  "rarity": 4,
+  "slot_id": 5
+ },
+ {
+  "description": "A simple armlet, but good enough for the time being.",
+  "effects": [
+   {
+    "effect_string": "reduce_ultimate_cooldown,11"
+   }
+  ],
+  "graphic_id": 226,
+  "hero_id": 6,
+  "id": 141,
+  "name": "Brass Armlet",
+  "rarity": 1,
+  "slot_id": 6
+ },
+ {
+  "description": "A well loved armlet that its previous owner obviously adored.",
+  "effects": [
+   {
+    "effect_string": "reduce_ultimate_cooldown,21"
+   }
+  ],
+  "graphic_id": 226,
+  "hero_id": 6,
+  "id": 142,
+  "name": "Polished Armlet",
+  "rarity": 2,
+  "slot_id": 6
+ },
+ {
+  "description": "A shiny armlet with what looks like a small citrine or amber set in it.",
+  "effects": [
+   {
+    "effect_string": "reduce_ultimate_cooldown,42"
+   }
+  ],
+  "graphic_id": 227,
+  "hero_id": 6,
+  "id": 143,
+  "name": "Jeweled Copper Armlet",
+  "rarity": 3,
+  "slot_id": 6
+ },
+ {
+  "description": "A beautiful golden armlet set with a shining fire opal.",
+  "effects": [
+   {
+    "effect_string": "reduce_ultimate_cooldown,105"
+   }
+  ],
+  "graphic_id": 228,
+  "hero_id": 6,
+  "id": 144,
+  "name": "Magnificent Golden Armlet of Focus",
+  "rarity": 4,
+  "slot_id": 6
+ },
+ {
+  "description": "Here's a tip for any adventurer: swords don't do so well against enemies made entirely of diamond.",
+  "effects": [
+   {
+    "effect_string": "hero_dps_multiplier_mult,50"
+   }
+  ],
+  "graphic_id": 367,
+  "hero_id": 7,
+  "id": 145,
+  "name": "Chipped Greatsword",
+  "rarity": 1,
+  "slot_id": 1
+ },
+ {
+  "description": "Minsc has had this old blade nearly as long as he's been adventuring with Boo.",
+  "effects": [
+   {
+    "effect_string": "hero_dps_multiplier_mult,125"
+   }
+  ],
+  "graphic_id": 367,
+  "hero_id": 7,
+  "id": 146,
+  "name": "Well Used Greatsword",
+  "rarity": 2,
+  "slot_id": 1
+ },
+ {
+  "description": "Minsc just got this sharpened by a smithy in Baldur's Gate. Good fellow. Cheap.",
+  "effects": [
+   {
+    "effect_string": "hero_dps_multiplier_mult,200"
+   }
+  ],
+  "graphic_id": 368,
+  "hero_id": 7,
+  "id": 147,
+  "name": "Sharp Greatsword",
+  "rarity": 3,
+  "slot_id": 1
+ },
+ {
+  "description": "Evil, meet my sword! Sword, meet evil!",
+  "effects": [
+   {
+    "effect_string": "hero_dps_multiplier_mult,350"
+   }
+  ],
+  "graphic_id": 369,
+  "hero_id": 7,
+  "id": 148,
+  "name": "Grand Greatsword of Furious Blows",
+  "rarity": 4,
+  "slot_id": 1
+ },
+ {
+  "description": "Less vest, more buttkicking!",
+  "effects": [
+   {
+    "effect_string": "hero_dps_multiplier_mult,50"
+   }
+  ],
+  "graphic_id": 364,
+  "hero_id": 7,
+  "id": 149,
+  "name": "Basic Leather Vest",
+  "rarity": 1,
+  "slot_id": 2
+ },
+ {
+  "description": "Smooth like a miniature giant space hamster's bottom! Smells like one, too!",
+  "effects": [
+   {
+    "effect_string": "hero_dps_multiplier_mult,125"
+   }
+  ],
+  "graphic_id": 364,
+  "hero_id": 7,
+  "id": 150,
+  "name": "Smooth Leather Vest",
+  "rarity": 2,
+  "slot_id": 2
+ },
+ {
+  "description": "It's got holes for Minsc's extremely large biceps, so Minsc is a fan!",
+  "effects": [
+   {
+    "effect_string": "hero_dps_multiplier_mult,200"
+   }
+  ],
+  "graphic_id": 365,
+  "hero_id": 7,
+  "id": 151,
+  "name": "Reinforced Leather Vest",
+  "rarity": 3,
+  "slot_id": 2
+ },
+ {
+  "description": "Boo! Are you comfortable up there?",
+  "effects": [
+   {
+    "effect_string": "hero_dps_multiplier_mult,350"
+   }
+  ],
+  "graphic_id": 366,
+  "hero_id": 7,
+  "id": 152,
+  "name": "Padded Leather Vest of Hamster Perches",
+  "rarity": 4,
+  "slot_id": 2
+ },
+ {
+  "description": "They may be cheap, but they do keep Minsc from lopping his own hands off.",
+  "effects": [
+   {
+    "effect_string": "global_dps_multiplier_mult,10"
+   }
+  ],
+  "graphic_id": 358,
+  "hero_id": 7,
+  "id": 153,
+  "name": "Cheap Iron Bracers",
+  "rarity": 1,
+  "slot_id": 3
+ },
+ {
+  "description": "Hey, who are you calling dull?! Oh, the bracers. Yeah, they're pretty dull.",
+  "effects": [
+   {
+    "effect_string": "global_dps_multiplier_mult,65"
+   }
+  ],
+  "graphic_id": 358,
+  "hero_id": 7,
+  "id": 154,
+  "name": "Dull Iron Bracers",
+  "rarity": 2,
+  "slot_id": 3
+ },
+ {
+  "description": "This reminds Minsc of a time... never mind.",
+  "effects": [
+   {
+    "effect_string": "global_dps_multiplier_mult,120"
+   }
+  ],
+  "graphic_id": 359,
+  "hero_id": 7,
+  "id": 155,
+  "name": "Full Iron Bracers",
+  "rarity": 3,
+  "slot_id": 3
+ },
+ {
+  "description": "Adventuring is quite exciting - at least until it's not. Then you need to be comfortable.",
+  "effects": [
+   {
+    "effect_string": "global_dps_multiplier_mult,230"
+   }
+  ],
+  "graphic_id": 360,
+  "hero_id": 7,
+  "id": 156,
+  "name": "Padded Iron Bracers of Comfort",
+  "rarity": 4,
+  "slot_id": 3
+ },
+ {
+  "description": "It could use a little more color. Minsc knows a fellow in Waterdeep...",
+  "effects": [
+   {
+    "description": "Increases the effect of Minsc's Favored Enemy abilities by $(amount)%.",
+    "effect_string": "buff_upgrades,25,108,109,110,111,112"
+   }
+  ],
+  "graphic_id": 361,
+  "hero_id": 7,
+  "id": 157,
+  "name": "Faded Purple Cloak",
+  "rarity": 1,
+  "slot_id": 4
+ },
+ {
+  "description": "A decent enough cloak. If you're into normal things like that.",
+  "effects": [
+   {
+    "description": "Increases the effect of Minsc's Favored Enemy abilities by $(amount)%.",
+    "effect_string": "buff_upgrades,87.5,108,109,110,111,112"
+   }
+  ],
+  "graphic_id": 361,
+  "hero_id": 7,
+  "id": 158,
+  "name": "Smooth Purple Cloak",
+  "rarity": 2,
+  "slot_id": 4
+ },
+ {
+  "description": "Oh! It's so soft! Don't even think about stealing it to nest in, Boo!",
+  "effects": [
+   {
+    "description": "Increases the effect of Minsc's Favored Enemy abilities by $(amount)%.",
+    "effect_string": "buff_upgrades,150,108,109,110,111,112"
+   }
+  ],
+  "graphic_id": 362,
+  "hero_id": 7,
+  "id": 159,
+  "name": "Purple Velvet Cloak",
+  "rarity": 3,
+  "slot_id": 4
+ },
+ {
+  "description": "Minsc saves some king's daughter, and this is all he gets? Barely worth it!",
+  "effects": [
+   {
+    "description": "Increases the effect of Minsc's Favored Enemy abilities by $(amount)%.",
+    "effect_string": "buff_upgrades,275,108,109,110,111,112"
+   }
+  ],
+  "graphic_id": 363,
+  "hero_id": 7,
+  "id": 160,
+  "name": "Silken Cloak of the Beloved Ranger",
+  "rarity": 4,
+  "slot_id": 4
+ },
+ {
+  "description": "Perhaps you will upgrade this belt the next time you are in town, yes?",
+  "effects": [
+   {
+    "effect_string": "buff_ultimate,25"
+   }
+  ],
+  "graphic_id": 352,
+  "hero_id": 7,
+  "id": 161,
+  "name": "Fraying Belt",
+  "rarity": 1,
+  "slot_id": 5
+ },
+ {
+  "description": "A good belt for long nights at the all-you-can-eat tavern!",
+  "effects": [
+   {
+    "effect_string": "buff_ultimate,87.5"
+   }
+  ],
+  "graphic_id": 352,
+  "hero_id": 7,
+  "id": 162,
+  "name": "Loose Belt",
+  "rarity": 2,
+  "slot_id": 5
+ },
+ {
+  "description": "It's important to keep your pants up, lest boo bite you in hard to reach places.",
+  "effects": [
+   {
+    "effect_string": "buff_ultimate,150"
+   }
+  ],
+  "graphic_id": 353,
+  "hero_id": 7,
+  "id": 163,
+  "name": "Tight Leather Belt",
+  "rarity": 3,
+  "slot_id": 5
+ },
+ {
+  "description": "Go for the belt, Boo! Go for the belt!",
+  "effects": [
+   {
+    "effect_string": "buff_ultimate,275"
+   }
+  ],
+  "graphic_id": 354,
+  "hero_id": 7,
+  "id": 164,
+  "name": "Comfortable Belt of Destruction",
+  "rarity": 4,
+  "slot_id": 5
+ },
+ {
+  "description": "You don't need fancy boots to kick some bad guy butt!",
+  "effects": [
+   {
+    "effect_string": "reduce_ultimate_cooldown,5"
+   }
+  ],
+  "graphic_id": 355,
+  "hero_id": 7,
+  "id": 165,
+  "name": "Simple Ranger Boots",
+  "rarity": 1,
+  "slot_id": 6
+ },
+ {
+  "description": "They've got good traction if we ever head up north to Icewind Dale.",
+  "effects": [
+   {
+    "effect_string": "reduce_ultimate_cooldown,9"
+   }
+  ],
+  "graphic_id": 355,
+  "hero_id": 7,
+  "id": 166,
+  "name": "Smooth Studded Boots",
+  "rarity": 2,
+  "slot_id": 6
+ },
+ {
+  "description": "Solid buttkicking soles! Good find, Boo!",
+  "effects": [
+   {
+    "effect_string": "reduce_ultimate_cooldown,18"
+   }
+  ],
+  "graphic_id": 356,
+  "hero_id": 7,
+  "id": 167,
+  "name": "Solid Plate Boots",
+  "rarity": 3,
+  "slot_id": 6
+ },
+ {
+  "description": "Some of these enemies need a swift kick in the morals!",
+  "effects": [
+   {
+    "effect_string": "reduce_ultimate_cooldown,45"
+   }
+  ],
+  "graphic_id": 357,
+  "hero_id": 7,
+  "id": 168,
+  "name": "Buttkicking Boots of Wrath",
+  "rarity": 4,
+  "slot_id": 6
+ },
+ {
+  "description": "I prefer to stick to my magic, but in a pinch, I can use this.",
+  "effects": [
+   {
+    "effect_string": "hero_dps_multiplier_mult,50"
+   }
+  ],
+  "graphic_id": 310,
+  "hero_id": 8,
+  "id": 169,
+  "name": "Dull Iron Dagger",
+  "rarity": 1,
+  "slot_id": 1
+ },
+ {
+  "description": "I borrowed this from a cutpurse in Baldur's Gate who thought he could steal from me.",
+  "effects": [
+   {
+    "effect_string": "hero_dps_multiplier_mult,125"
+   }
+  ],
+  "graphic_id": 310,
+  "hero_id": 8,
+  "id": 170,
+  "name": "Cutpurse's Dagger",
+  "rarity": 2,
+  "slot_id": 1
+ },
+ {
+  "description": "I don't like to resort to violence, but if I have to, this'll do.",
+  "effects": [
+   {
+    "effect_string": "hero_dps_multiplier_mult,200"
+   }
+  ],
+  "graphic_id": 311,
+  "hero_id": 8,
+  "id": 171,
+  "name": "Sharp Steel Dagger",
+  "rarity": 3,
+  "slot_id": 1
+ },
+ {
+  "description": "In a pinch, I can channel my spells through the ruby on this dagger.",
+  "effects": [
+   {
+    "effect_string": "hero_dps_multiplier_mult,350"
+   }
+  ],
+  "graphic_id": 312,
+  "hero_id": 8,
+  "id": 172,
+  "name": "Ruby Focused Dagger of Danger",
+  "rarity": 4,
+  "slot_id": 1
+ },
+ {
+  "description": "Some trinket? It doesn't interest me, but it has some power within.",
+  "effects": [
+   {
+    "effect_string": "hero_dps_multiplier_mult,50"
+   }
+  ],
+  "graphic_id": 298,
+  "hero_id": 8,
+  "id": 173,
+  "name": "Pilfered Memento",
+  "rarity": 1,
+  "slot_id": 2
+ },
+ {
+  "description": "This belonged to an acolyte of the Cult of the Dragon.",
+  "effects": [
+   {
+    "effect_string": "hero_dps_multiplier_mult,125"
+   }
+  ],
+  "graphic_id": 298,
+  "hero_id": 8,
+  "id": 174,
+  "name": "Follower's Necklace",
+  "rarity": 2,
+  "slot_id": 2
+ },
+ {
+  "description": "Someone of great power wore this necklace. But they're gone, and I'm still here.",
+  "effects": [
+   {
+    "effect_string": "hero_dps_multiplier_mult,200"
+   }
+  ],
+  "graphic_id": 299,
+  "hero_id": 8,
+  "id": 175,
+  "name": "Master's Necklace",
+  "rarity": 3,
+  "slot_id": 2
+ },
+ {
+  "description": "My twin brother's necklace. It's a long story, and I'd rather not get into it.",
+  "effects": [
+   {
+    "effect_string": "hero_dps_multiplier_mult,350"
+   }
+  ],
+  "graphic_id": 300,
+  "hero_id": 8,
+  "id": 176,
+  "name": "Dragon Cult Leader's Necklace",
+  "rarity": 4,
+  "slot_id": 2
+ },
+ {
+  "description": "Very similar to the first focus given to me by my teacher.",
+  "effects": [
+   {
+    "effect_string": "global_dps_multiplier_mult,10"
+   }
+  ],
+  "graphic_id": 301,
+  "hero_id": 8,
+  "id": 177,
+  "name": "Basic Orb",
+  "rarity": 1,
+  "slot_id": 3
+ },
+ {
+  "description": "Getting your focus to hover in your hand is the first task assigned to novice sorcerers.",
+  "effects": [
+   {
+    "effect_string": "global_dps_multiplier_mult,65"
+   }
+  ],
+  "graphic_id": 301,
+  "hero_id": 8,
+  "id": 178,
+  "name": "Hovering Orb",
+  "rarity": 2,
+  "slot_id": 3
+ },
+ {
+  "description": "Channeling the Weave into your focus allows you to charge your spells.",
+  "effects": [
+   {
+    "effect_string": "global_dps_multiplier_mult,120"
+   }
+  ],
+  "graphic_id": 302,
+  "hero_id": 8,
+  "id": 179,
+  "name": "Charged Orb",
+  "rarity": 3,
+  "slot_id": 3
+ },
+ {
+  "description": "This magical artifact has been passed down through generations of elves.",
+  "effects": [
+   {
+    "effect_string": "global_dps_multiplier_mult,230"
+   }
+  ],
+  "graphic_id": 303,
+  "hero_id": 8,
+  "id": 180,
+  "name": "Magical Orb of Elvenkind",
+  "rarity": 4,
+  "slot_id": 3
+ },
+ {
+  "description": "More of a style piece than actually functional.",
+  "effects": [
+   {
+    "effect_string": "buff_upgrade,25,125"
+   }
+  ],
+  "graphic_id": 304,
+  "hero_id": 8,
+  "id": 181,
+  "name": "Loose Belt",
+  "rarity": 1,
+  "slot_id": 4
+ },
+ {
+  "description": "A simple enough belt. The sheath has a few holes in it.",
+  "effects": [
+   {
+    "effect_string": "buff_upgrade,87.5,125"
+   }
+  ],
+  "graphic_id": 304,
+  "hero_id": 8,
+  "id": 182,
+  "name": "Simple Leather Belt",
+  "rarity": 2,
+  "slot_id": 4
+ },
+ {
+  "description": "A fine gift from a young human who once fancied me.",
+  "effects": [
+   {
+    "effect_string": "buff_upgrade,150,125"
+   }
+  ],
+  "graphic_id": 305,
+  "hero_id": 8,
+  "id": 183,
+  "name": "Fine Belt and Sheath",
+  "rarity": 3,
+  "slot_id": 4
+ },
+ {
+  "description": "I'm always up for an adventure! The more dangerous the better!",
+  "effects": [
+   {
+    "effect_string": "buff_upgrade,275,125"
+   }
+  ],
+  "graphic_id": 306,
+  "hero_id": 8,
+  "id": 184,
+  "name": "Golden Wayfarer's Belt of Adventure",
+  "rarity": 4,
+  "slot_id": 4
+ },
+ {
+  "description": "A simple sorcerer's cape with more than a few holes.",
+  "effects": [
+   {
+    "effect_string": "buff_upgrade,25,128"
+   }
+  ],
+  "graphic_id": 307,
+  "hero_id": 8,
+  "id": 185,
+  "name": "Ratty Cape",
+  "rarity": 1,
+  "slot_id": 5
+ },
+ {
+  "description": "Someone has recently cleaned the cape. It wasn't me!",
+  "effects": [
+   {
+    "effect_string": "buff_upgrade,87.5,128"
+   }
+  ],
+  "graphic_id": 307,
+  "hero_id": 8,
+  "id": 186,
+  "name": "Smooth Cape",
+  "rarity": 2,
+  "slot_id": 5
+ },
+ {
+  "description": "I look like quite the mature and knowledgeable elf wearing this. Little do they know.",
+  "effects": [
+   {
+    "effect_string": "buff_upgrade,150,128"
+   }
+  ],
+  "graphic_id": 308,
+  "hero_id": 8,
+  "id": 187,
+  "name": "High Collared Cape",
+  "rarity": 3,
+  "slot_id": 5
+ },
+ {
+  "description": "It may look flimsy, but I can shrug off most attacks wearing this.",
+  "effects": [
+   {
+    "effect_string": "buff_upgrade,275,128"
+   }
+  ],
+  "graphic_id": 309,
+  "hero_id": 8,
+  "id": 188,
+  "name": "Empowered Cape of Protection",
+  "rarity": 4,
+  "slot_id": 5
+ },
+ {
+  "description": "I can't believe anyone would wear these! Better than nothing, I guess.",
+  "effects": [
+   {
+    "effect_string": "reduce_ultimate_cooldown,6"
+   }
+  ],
+  "graphic_id": 313,
+  "hero_id": 8,
+  "id": 189,
+  "name": "Scratchy Robes",
+  "rarity": 1,
+  "slot_id": 6
+ },
+ {
+  "description": "Hey, these are actually pretty comfy! Good find!",
+  "effects": [
+   {
+    "effect_string": "reduce_ultimate_cooldown,12"
+   }
+  ],
+  "graphic_id": 313,
+  "hero_id": 8,
+  "id": 190,
+  "name": "Comfortable Robes",
+  "rarity": 2,
+  "slot_id": 6
+ },
+ {
+  "description": "I've been searching for the master who crafted this for years. It's wondrous!",
+  "effects": [
+   {
+    "effect_string": "reduce_ultimate_cooldown,24"
+   }
+  ],
+  "graphic_id": 314,
+  "hero_id": 8,
+  "id": 191,
+  "name": "Masterful Silken Robe",
+  "rarity": 3,
+  "slot_id": 6
+ },
+ {
+  "description": "My spells are empowered when I wear this cape. Not that they need to be.",
+  "effects": [
+   {
+    "effect_string": "reduce_ultimate_cooldown,60"
+   }
+  ],
+  "graphic_id": 315,
+  "hero_id": 8,
+  "id": 192,
+  "name": "Swirling Patterned Robe of Sorcery",
+  "rarity": 4,
+  "slot_id": 6
+ },
+ {
+  "description": "A few sparks are a beginning, but they're certainly not an end.",
+  "effects": [
+   {
+    "effect_string": "hero_dps_multiplier_mult,50"
+   }
+  ],
+  "graphic_id": 346,
+  "hero_id": 9,
+  "id": 193,
+  "name": "Necklace of Sparks",
+  "rarity": 1,
+  "slot_id": 1
+ },
+ {
+  "description": "We're going to need to do better than this.",
+  "effects": [
+   {
+    "effect_string": "hero_dps_multiplier_mult,125"
+   }
+  ],
+  "graphic_id": 346,
+  "hero_id": 9,
+  "id": 194,
+  "name": "Necklace of Flickers",
+  "rarity": 2,
+  "slot_id": 1
+ },
+ {
+  "description": "Where there's smoke...",
+  "effects": [
+   {
+    "effect_string": "hero_dps_multiplier_mult,200"
+   }
+  ],
+  "graphic_id": 347,
+  "hero_id": 9,
+  "id": 195,
+  "name": "Necklace of Flame",
+  "rarity": 3,
+  "slot_id": 1
+ },
+ {
+  "description": "This ought to draw their attention.",
+  "effects": [
+   {
+    "effect_string": "hero_dps_multiplier_mult,350"
+   }
+  ],
+  "graphic_id": 348,
+  "hero_id": 9,
+  "id": 196,
+  "name": "Golden Necklace of Fireballs",
+  "rarity": 4,
+  "slot_id": 1
+ },
+ {
+  "description": "There's something a little off about this dagger.",
+  "effects": [
+   {
+    "effect_string": "hero_dps_multiplier_mult,50"
+   }
+  ],
+  "graphic_id": 343,
+  "hero_id": 9,
+  "id": 197,
+  "name": "Suspicious Dagger",
+  "rarity": 1,
+  "slot_id": 2
+ },
+ {
+  "description": "Yeah, this dagger is clearly evil. But it does my bidding, so it's not all bad.",
+  "effects": [
+   {
+    "effect_string": "hero_dps_multiplier_mult,125"
+   }
+  ],
+  "graphic_id": 343,
+  "hero_id": 9,
+  "id": 198,
+  "name": "Evil Dagger",
+  "rarity": 2,
+  "slot_id": 2
+ },
+ {
+  "description": "Allows me to focus my fiendish magic.",
+  "effects": [
+   {
+    "effect_string": "hero_dps_multiplier_mult,200"
+   }
+  ],
+  "graphic_id": 344,
+  "hero_id": 9,
+  "id": 199,
+  "name": "Twisted Dagger Focus",
+  "rarity": 3,
+  "slot_id": 2
+ },
+ {
+  "description": "I'll do whatever it takes to achieve my goals.",
+  "effects": [
+   {
+    "effect_string": "hero_dps_multiplier_mult,350"
+   }
+  ],
+  "graphic_id": 345,
+  "hero_id": 9,
+  "id": 200,
+  "name": "Demonic Focus of Infernal Power",
+  "rarity": 4,
+  "slot_id": 2
+ },
+ {
+  "description": "Holds enough components for a few hours of intense spellcasting.",
+  "effects": [
+   {
+    "effect_string": "global_dps_multiplier_mult,10"
+   }
+  ],
+  "graphic_id": 340,
+  "hero_id": 9,
+  "id": 201,
+  "name": "Small Cloth Pouch",
+  "rarity": 1,
+  "slot_id": 3
+ },
+ {
+  "description": "There's a hidden compartment in the back for even more components.",
+  "effects": [
+   {
+    "effect_string": "global_dps_multiplier_mult,65"
+   }
+  ],
+  "graphic_id": 340,
+  "hero_id": 9,
+  "id": 202,
+  "name": "Stitched Leather Pouch",
+  "rarity": 2,
+  "slot_id": 3
+ },
+ {
+  "description": "Finding black leather dye is extremely difficult. Luckily, I know a Fiend or two.",
+  "effects": [
+   {
+    "effect_string": "global_dps_multiplier_mult,120"
+   }
+  ],
+  "graphic_id": 341,
+  "hero_id": 9,
+  "id": 203,
+  "name": "Dyed Leather Pouch",
+  "rarity": 3,
+  "slot_id": 3
+ },
+ {
+  "description": "Demon hide is especially rare. They generally don't like to give it up.",
+  "effects": [
+   {
+    "effect_string": "global_dps_multiplier_mult,230"
+   }
+  ],
+  "graphic_id": 342,
+  "hero_id": 9,
+  "id": 204,
+  "name": "Gilded Demon Hide Pouch",
+  "rarity": 4,
+  "slot_id": 3
+ },
+ {
+  "description": "They... they tore my cape! The nerve!",
+  "effects": [
+   {
+    "effect_string": "buff_upgrades,25,139,140"
+   }
+  ],
+  "graphic_id": 337,
+  "hero_id": 9,
+  "id": 205,
+  "name": "Torn Cape",
+  "rarity": 1,
+  "slot_id": 4
+ },
+ {
+  "description": "I'm really still quite evil, once you get to know me.",
+  "effects": [
+   {
+    "effect_string": "buff_upgrades,87.5,139,140"
+   }
+  ],
+  "graphic_id": 337,
+  "hero_id": 9,
+  "id": 206,
+  "name": "Dark Cape",
+  "rarity": 2,
+  "slot_id": 4
+ },
+ {
+  "description": "Magnificent, much like myself!",
+  "effects": [
+   {
+    "effect_string": "buff_upgrades,150,139,140"
+   }
+  ],
+  "graphic_id": 338,
+  "hero_id": 9,
+  "id": 207,
+  "name": "Magnificent Cape",
+  "rarity": 3,
+  "slot_id": 4
+ },
+ {
+  "description": "Don't worry, they weren't very nice souls to begin with.",
+  "effects": [
+   {
+    "effect_string": "buff_upgrades,275,139,140"
+   }
+  ],
+  "graphic_id": 339,
+  "hero_id": 9,
+  "id": 208,
+  "name": "Exquisite Cape of Souls",
+  "rarity": 4,
+  "slot_id": 4
+ },
+ {
+  "description": "This has no real value to me. I've grown so far beyond its meager power.",
+  "effects": [
+   {
+    "effect_string": "buff_ultimate,25"
+   }
+  ],
+  "graphic_id": 349,
+  "hero_id": 9,
+  "id": 209,
+  "name": "Basic Warlock's Robe",
+  "rarity": 1,
+  "slot_id": 5
+ },
+ {
+  "description": "A simple robe for a simple warlock. I've already outgrown it.",
+  "effects": [
+   {
+    "effect_string": "buff_ultimate,87.5"
+   }
+  ],
+  "graphic_id": 349,
+  "hero_id": 9,
+  "id": 210,
+  "name": "Apprentice's Robe",
+  "rarity": 2,
+  "slot_id": 5
+ },
+ {
+  "description": "Finally, a robe worthy of my great power.",
+  "effects": [
+   {
+    "effect_string": "buff_ultimate,150"
+   }
+  ],
+  "graphic_id": 350,
+  "hero_id": 9,
+  "id": 211,
+  "name": "Gold Stitched Robe",
+  "rarity": 3,
+  "slot_id": 5
+ },
+ {
+  "description": "The ends justify the means. I'll do whatever it takes.",
+  "effects": [
+   {
+    "effect_string": "buff_ultimate,275"
+   }
+  ],
+  "graphic_id": 351,
+  "hero_id": 9,
+  "id": 212,
+  "name": "Tasselled Robes of Justification",
+  "rarity": 4,
+  "slot_id": 5
+ },
+ {
+  "description": "You can't make an omelette without burning a few belts.",
+  "effects": [
+   {
+    "effect_string": "reduce_ultimate_cooldown,8"
+   }
+  ],
+  "graphic_id": 334,
+  "hero_id": 9,
+  "id": 213,
+  "name": "Charred Belt",
+  "rarity": 1,
+  "slot_id": 6
+ },
+ {
+  "description": "For some reason, my patron seems to like it when I wear black.",
+  "effects": [
+   {
+    "effect_string": "reduce_ultimate_cooldown,15"
+   }
+  ],
+  "graphic_id": 334,
+  "hero_id": 9,
+  "id": 214,
+  "name": "Blackened Belt",
+  "rarity": 2,
+  "slot_id": 6
+ },
+ {
+  "description": "A rare gift from my patron, Arikas. It serves me well.",
+  "effects": [
+   {
+    "effect_string": "reduce_ultimate_cooldown,30"
+   }
+  ],
+  "graphic_id": 335,
+  "hero_id": 9,
+  "id": 215,
+  "name": "Fine Acolyte's Belt",
+  "rarity": 3,
+  "slot_id": 6
+ },
+ {
+  "description": "An exquisite belt for those of us with fiendish tastes.",
+  "effects": [
+   {
+    "effect_string": "reduce_ultimate_cooldown,75"
+   }
+  ],
+  "graphic_id": 336,
+  "hero_id": 9,
+  "id": 216,
+  "name": "Skirted Belt of Demons",
+  "rarity": 4,
+  "slot_id": 6
+ },
+ {
+  "description": "Even a splintered branch can do damage in the right hands.",
+  "effects": [
+   {
+    "effect_string": "hero_dps_multiplier_mult,50"
+   }
+  ],
+  "graphic_id": 403,
+  "hero_id": 10,
+  "id": 217,
+  "name": "Splintered Branch",
+  "rarity": 1,
+  "slot_id": 1
+ },
+ {
+  "description": "It's a splinted splintered branch. Get it? Aww, you're no fun.",
+  "effects": [
+   {
+    "effect_string": "hero_dps_multiplier_mult,125"
+   }
+  ],
+  "graphic_id": 403,
+  "hero_id": 10,
+  "id": 218,
+  "name": "Patched Tree Branch",
+  "rarity": 2,
+  "slot_id": 1
+ },
+ {
+  "description": "The twisting only serves to make it stronger.",
+  "effects": [
+   {
+    "effect_string": "hero_dps_multiplier_mult,200"
+   }
+  ],
+  "graphic_id": 404,
+  "hero_id": 10,
+  "id": 219,
+  "name": "Twisted Wooden Staff",
+  "rarity": 3,
+  "slot_id": 1
+ },
+ {
+  "description": "The tree this staff came from is older than time itself.",
+  "effects": [
+   {
+    "effect_string": "hero_dps_multiplier_mult,350"
+   }
+  ],
+  "graphic_id": 405,
+  "hero_id": 10,
+  "id": 220,
+  "name": "Gnarled Staff of the Warden",
+  "rarity": 4,
+  "slot_id": 1
+ },
+ {
+  "description": "A simple necklace for simple adventurers.",
+  "effects": [
+   {
+    "effect_string": "hero_dps_multiplier_mult,50"
+   }
+  ],
+  "graphic_id": 391,
+  "hero_id": 10,
+  "id": 221,
+  "name": "Dull Jade Necklace",
+  "rarity": 1,
+  "slot_id": 2
+ },
+ {
+  "description": "There's something about jade that always tickles my fancy.",
+  "effects": [
+   {
+    "effect_string": "hero_dps_multiplier_mult,125"
+   }
+  ],
+  "graphic_id": 391,
+  "hero_id": 10,
+  "id": 222,
+  "name": "Shiny Jade Necklace",
+  "rarity": 2,
+  "slot_id": 2
+ },
+ {
+  "description": "A fine necklace purchased from a merchant in Triboar.",
+  "effects": [
+   {
+    "effect_string": "hero_dps_multiplier_mult,200"
+   }
+  ],
+  "graphic_id": 392,
+  "hero_id": 10,
+  "id": 223,
+  "name": "Fine Jade Necklace",
+  "rarity": 3,
+  "slot_id": 2
+ },
+ {
+  "description": "An ancient necklace found deep in the Neverwinter wood.",
+  "effects": [
+   {
+    "effect_string": "hero_dps_multiplier_mult,350"
+   }
+  ],
+  "graphic_id": 393,
+  "hero_id": 10,
+  "id": 224,
+  "name": "Woven Jade Necklace of the Forest",
+  "rarity": 4,
+  "slot_id": 2
+ },
+ {
+  "description": "Fifty feet of strong hempen rope. Durable and versatile.",
+  "effects": [
+   {
+    "effect_string": "global_dps_multiplier_mult,10"
+   }
+  ],
+  "graphic_id": 397,
+  "hero_id": 10,
+  "id": 225,
+  "name": "Plain Rope",
+  "rarity": 1,
+  "slot_id": 3
+ },
+ {
+  "description": "It seems to want something... What do you want, little rope?",
+  "effects": [
+   {
+    "effect_string": "global_dps_multiplier_mult,65"
+   }
+  ],
+  "graphic_id": 397,
+  "hero_id": 10,
+  "id": 226,
+  "name": "Twitching Rope",
+  "rarity": 2,
+  "slot_id": 3
+ },
+ {
+  "description": "Good for getting to high places when there's nothing to tie rope to.",
+  "effects": [
+   {
+    "effect_string": "global_dps_multiplier_mult,120"
+   }
+  ],
+  "graphic_id": 398,
+  "hero_id": 10,
+  "id": 227,
+  "name": "Magical Rope",
+  "rarity": 3,
+  "slot_id": 3
+ },
+ {
+  "description": "It's easier for you if you don't fight it. It feeds on your struggles.",
+  "effects": [
+   {
+    "effect_string": "global_dps_multiplier_mult,230"
+   }
+  ],
+  "graphic_id": 399,
+  "hero_id": 10,
+  "id": 228,
+  "name": "Empowered Rope of Entanglement",
+  "rarity": 4,
+  "slot_id": 3
+ },
+ {
+  "description": "It's taken a few too many trips through the brambles, if you know what I mean.",
+  "effects": [
+   {
+    "effect_string": "buff_upgrades,25,145,146"
+   }
+  ],
+  "graphic_id": 400,
+  "hero_id": 10,
+  "id": 229,
+  "name": "Ripped Cloth Vest",
+  "rarity": 1,
+  "slot_id": 4
+ },
+ {
+  "description": "A workable vest. Relatively new and uninitiated to nature.",
+  "effects": [
+   {
+    "effect_string": "buff_upgrades,87.5,145,146"
+   }
+  ],
+  "graphic_id": 400,
+  "hero_id": 10,
+  "id": 230,
+  "name": "Plain Cloth Vest",
+  "rarity": 2,
+  "slot_id": 4
+ },
+ {
+  "description": "A fine shirt. I almost feel bad taking it out into the wild. Almost.",
+  "effects": [
+   {
+    "effect_string": "buff_upgrades,150,145,146"
+   }
+  ],
+  "graphic_id": 401,
+  "hero_id": 10,
+  "id": 231,
+  "name": "Fine Cloth Shirt",
+  "rarity": 3,
+  "slot_id": 4
+ },
+ {
+  "description": "One of the few items I kept from my home village after... Nevermind.",
+  "effects": [
+   {
+    "effect_string": "buff_upgrades,275,145,146"
+   }
+  ],
+  "graphic_id": 402,
+  "hero_id": 10,
+  "id": 232,
+  "name": "Earthwarden's Shirt of Nature",
+  "rarity": 4,
+  "slot_id": 4
+ },
+ {
+  "description": "It's may be out of tricks, but I've still got some up my sleeve.",
+  "effects": [
+   {
+    "effect_string": "buff_ultimate,25"
+   }
+  ],
+  "graphic_id": 388,
+  "hero_id": 10,
+  "id": 233,
+  "name": "Empty Bag of Tricks",
+  "rarity": 1,
+  "slot_id": 5
+ },
+ {
+  "description": "Filled with powders to distract, to itch, to blind.",
+  "effects": [
+   {
+    "effect_string": "buff_ultimate,87.5"
+   }
+  ],
+  "graphic_id": 388,
+  "hero_id": 10,
+  "id": 234,
+  "name": "Basic Bag of Tricks",
+  "rarity": 2,
+  "slot_id": 5
+ },
+ {
+  "description": "It's almost too heavy to carry. Perhaps that's a trick for its owner.",
+  "effects": [
+   {
+    "effect_string": "buff_ultimate,150"
+   }
+  ],
+  "graphic_id": 389,
+  "hero_id": 10,
+  "id": 235,
+  "name": "Hefty Bag of Tricks",
+  "rarity": 3,
+  "slot_id": 5
+ },
+ {
+  "description": "There's a hint of magic in all of these tricks.",
+  "effects": [
+   {
+    "effect_string": "buff_ultimate,275"
+   }
+  ],
+  "graphic_id": 390,
+  "hero_id": 10,
+  "id": 236,
+  "name": "Mystical Tan Bag of Tricks",
+  "rarity": 4,
+  "slot_id": 5
+ },
+ {
+  "description": "Crafted from a fallen branch donated by a very old and wise tree.",
+  "effects": [
+   {
+    "effect_string": "reduce_ultimate_cooldown,6"
+   }
+  ],
+  "graphic_id": 394,
+  "hero_id": 10,
+  "id": 237,
+  "name": "Wooden Ring",
+  "rarity": 1,
+  "slot_id": 6
+ },
+ {
+  "description": "Moles have one of the keenest noses in the world, you know.",
+  "effects": [
+   {
+    "effect_string": "reduce_ultimate_cooldown,12"
+   }
+  ],
+  "graphic_id": 394,
+  "hero_id": 10,
+  "id": 238,
+  "name": "Basic Ring of the Mole",
+  "rarity": 2,
+  "slot_id": 6
+ },
+ {
+  "description": "Frogs have many fine attributes that are quite useful when adventuring.",
+  "effects": [
+   {
+    "effect_string": "reduce_ultimate_cooldown,24"
+   }
+  ],
+  "graphic_id": 395,
+  "hero_id": 10,
+  "id": 239,
+  "name": "Fine Ring of the Frog",
+  "rarity": 3,
+  "slot_id": 6
+ },
+ {
+  "description": "Much like the Porcupine, if you poke me, you'll regret it.",
+  "effects": [
+   {
+    "effect_string": "reduce_ultimate_cooldown,60"
+   }
+  ],
+  "graphic_id": 396,
+  "hero_id": 10,
+  "id": 240,
+  "name": "Exquisite Ring of the Porcupine",
+  "rarity": 4,
+  "slot_id": 6
+ },
+ {
+  "description": "A bangle or two from my days as a youth.",
+  "effects": [
+   {
+    "effect_string": "hero_dps_multiplier_mult,50"
+   }
+  ],
+  "graphic_id": 627,
+  "hero_id": 11,
+  "id": 241,
+  "name": "Primitive Bangles",
+  "rarity": 1,
+  "slot_id": 1
+ },
+ {
+  "description": "Carved from the most wondrous trees that grow only in Chult.",
+  "effects": [
+   {
+    "effect_string": "hero_dps_multiplier_mult,125"
+   }
+  ],
+  "graphic_id": 627,
+  "hero_id": 11,
+  "id": 242,
+  "name": "Wooden Bangles",
+  "rarity": 2,
+  "slot_id": 1
+ },
+ {
+  "description": "More elegant arm wear for a more successful adventurer.",
+  "effects": [
+   {
+    "effect_string": "hero_dps_multiplier_mult,200"
+   }
+  ],
+  "graphic_id": 628,
+  "hero_id": 11,
+  "id": 243,
+  "name": "Metal Bangles",
+  "rarity": 3,
+  "slot_id": 1
+ },
+ {
+  "description": "Beautiful bangles bought from an adventurous merchant.",
+  "effects": [
+   {
+    "effect_string": "hero_dps_multiplier_mult,350"
+   }
+  ],
+  "graphic_id": 629,
+  "hero_id": 11,
+  "id": 244,
+  "name": "Precious Inscribed Bangles of Chult",
+  "rarity": 4,
+  "slot_id": 1
+ },
+ {
+  "description": "Someone hasn't been taking good care of their boots.",
+  "effects": [
+   {
+    "effect_string": "hero_dps_multiplier_mult,50"
+   }
+  ],
+  "graphic_id": 630,
+  "hero_id": 11,
+  "id": 245,
+  "name": "Scuffed Boots",
+  "rarity": 1,
+  "slot_id": 2
+ },
+ {
+  "description": "Uncommonly soft and comfortable, they allow me to be light on my feet.",
+  "effects": [
+   {
+    "effect_string": "hero_dps_multiplier_mult,125"
+   }
+  ],
+  "graphic_id": 630,
+  "hero_id": 11,
+  "id": 246,
+  "name": "Soft Boots",
+  "rarity": 2,
+  "slot_id": 2
+ },
+ {
+  "description": "A fine pair of boots with a padded sole.",
+  "effects": [
+   {
+    "effect_string": "hero_dps_multiplier_mult,200"
+   }
+  ],
+  "graphic_id": 631,
+  "hero_id": 11,
+  "id": 247,
+  "name": "Stealthy Boots",
+  "rarity": 3,
+  "slot_id": 2
+ },
+ {
+  "description": "They'll never hear me coming.",
+  "effects": [
+   {
+    "effect_string": "hero_dps_multiplier_mult,350"
+   }
+  ],
+  "graphic_id": 632,
+  "hero_id": 11,
+  "id": 248,
+  "name": "Masterful Boots of Elvenkind",
+  "rarity": 4,
+  "slot_id": 2
+ },
+ {
+  "description": "I had a similar sword in my youth. I outgrew it quickly.",
+  "effects": [
+   {
+    "effect_string": "global_dps_multiplier_mult,10"
+   }
+  ],
+  "graphic_id": 633,
+  "hero_id": 11,
+  "id": 249,
+  "name": "Trainee's Greatsword",
+  "rarity": 1,
+  "slot_id": 3
+ },
+ {
+  "description": "A sharp blade, but not too sharp that you'll slip up and grievously injure yourself.",
+  "effects": [
+   {
+    "effect_string": "global_dps_multiplier_mult,65"
+   }
+  ],
+  "graphic_id": 633,
+  "hero_id": 11,
+  "id": 250,
+  "name": "Apprentice's Greatsword",
+  "rarity": 2,
+  "slot_id": 3
+ },
+ {
+  "description": "A fine sword fit for a Chultan sword master.",
+  "effects": [
+   {
+    "effect_string": "global_dps_multiplier_mult,120"
+   }
+  ],
+  "graphic_id": 634,
+  "hero_id": 11,
+  "id": 251,
+  "name": "Master's Greatsword",
+  "rarity": 3,
+  "slot_id": 3
+ },
+ {
+  "description": "They'll never see me coming.",
+  "effects": [
+   {
+    "effect_string": "global_dps_multiplier_mult,230"
+   }
+  ],
+  "graphic_id": 635,
+  "hero_id": 11,
+  "id": 252,
+  "name": "Deathbringer Greatsword",
+  "rarity": 4,
+  "slot_id": 3
+ },
+ {
+  "description": "A simple periapt that grants some small magic.",
+  "effects": [
+   {
+    "effect_string": "buff_upgrade,25,237"
+   }
+  ],
+  "graphic_id": 636,
+  "hero_id": 11,
+  "id": 253,
+  "name": "Simple Periapt",
+  "rarity": 1,
+  "slot_id": 4
+ },
+ {
+  "description": "A fine trinket passed down for generations.",
+  "effects": [
+   {
+    "effect_string": "buff_upgrade,87.5,237"
+   }
+  ],
+  "graphic_id": 636,
+  "hero_id": 11,
+  "id": 254,
+  "name": "Fine Periapt",
+  "rarity": 2,
+  "slot_id": 4
+ },
+ {
+  "description": "A heroic amulet granted to me by a village leader after I saved some villagers.",
+  "effects": [
+   {
+    "effect_string": "buff_upgrade,150,237"
+   }
+  ],
+  "graphic_id": 637,
+  "hero_id": 11,
+  "id": 255,
+  "name": "Heroic Periapt",
+  "rarity": 3,
+  "slot_id": 4
+ },
+ {
+  "description": "I pray that death will never find me, but if it does I'll be ready.",
+  "effects": [
+   {
+    "effect_string": "buff_upgrade,275,237"
+   }
+  ],
+  "graphic_id": 638,
+  "hero_id": 11,
+  "id": 256,
+  "name": "Periapt of Wound Closure",
+  "rarity": 4,
+  "slot_id": 4
+ },
+ {
+  "description": "There's not much power left in this ring.",
+  "effects": [
+   {
+    "effect_string": "buff_ultimate,25"
+   }
+  ],
+  "graphic_id": 639,
+  "hero_id": 11,
+  "id": 257,
+  "name": "Cold Ring",
+  "rarity": 1,
+  "slot_id": 5
+ },
+ {
+  "description": "Something lurks within. This ring holds a small amount of power.",
+  "effects": [
+   {
+    "effect_string": "buff_ultimate,87.5"
+   }
+  ],
+  "graphic_id": 639,
+  "hero_id": 11,
+  "id": 258,
+  "name": "Warm Ring",
+  "rarity": 2,
+  "slot_id": 5
+ },
+ {
+  "description": "The beauty of this ring is eclipsed only by its power.",
+  "effects": [
+   {
+    "effect_string": "buff_ultimate,150"
+   }
+  ],
+  "graphic_id": 640,
+  "hero_id": 11,
+  "id": 259,
+  "name": "Emerald Ring",
+  "rarity": 3,
+  "slot_id": 5
+ },
+ {
+  "description": "The power of this ring allows me to charge into battle carefree.",
+  "effects": [
+   {
+    "effect_string": "buff_ultimate,275"
+   }
+  ],
+  "graphic_id": 641,
+  "hero_id": 11,
+  "id": 260,
+  "name": "Ring of Protection",
+  "rarity": 4,
+  "slot_id": 5
+ },
+ {
+  "description": "Nothing's worse than a cold neck. Not even this scarf.",
+  "effects": [
+   {
+    "effect_string": "reduce_ultimate_cooldown,3"
+   }
+  ],
+  "graphic_id": 642,
+  "hero_id": 11,
+  "id": 261,
+  "name": "Torn Scarf",
+  "rarity": 1,
+  "slot_id": 6
+ },
+ {
+  "description": "A simple scarf to ward off the bitter wind.",
+  "effects": [
+   {
+    "effect_string": "reduce_ultimate_cooldown,6"
+   }
+  ],
+  "graphic_id": 642,
+  "hero_id": 11,
+  "id": 262,
+  "name": "Plain Scarf",
+  "rarity": 2,
+  "slot_id": 6
+ },
+ {
+  "description": "A fine scarf purchased from a merchant in Port Nyanzaru.",
+  "effects": [
+   {
+    "effect_string": "reduce_ultimate_cooldown,12"
+   }
+  ],
+  "graphic_id": 643,
+  "hero_id": 11,
+  "id": 263,
+  "name": "Patterned Scarf",
+  "rarity": 3,
+  "slot_id": 6
+ },
+ {
+  "description": "A masterfully crafted scarf found in the wreckage of the boat that brought me to Chult.",
+  "effects": [
+   {
+    "effect_string": "reduce_ultimate_cooldown,30"
+   }
+  ],
+  "graphic_id": 644,
+  "hero_id": 11,
+  "id": 264,
+  "name": "Tasselled Scarf of the Island",
+  "rarity": 4,
+  "slot_id": 6
+ },
+ {
+  "description": "Even a blunt blade can bash in a skull.",
+  "effects": [
+   {
+    "effect_string": "hero_dps_multiplier_mult,50"
+   }
+  ],
+  "graphic_id": 645,
+  "hero_id": 12,
+  "id": 265,
+  "name": "Dull Battle Axe",
+  "rarity": 1,
+  "slot_id": 1
+ },
+ {
+  "description": "Ah, a freshly sharpened axe. What more does a guy need?",
+  "effects": [
+   {
+    "effect_string": "hero_dps_multiplier_mult,125"
+   }
+  ],
+  "graphic_id": 645,
+  "hero_id": 12,
+  "id": 266,
+  "name": "Sharp Battle Axe",
+  "rarity": 2,
+  "slot_id": 1
+ },
+ {
+  "description": "The craftsmanship is exquisite.",
+  "effects": [
+   {
+    "effect_string": "hero_dps_multiplier_mult,200"
+   }
+  ],
+  "graphic_id": 646,
+  "hero_id": 12,
+  "id": 267,
+  "name": "Cruel Battle Axe",
+  "rarity": 3,
+  "slot_id": 1
+ },
+ {
+  "description": "A magical axe of extreme power. My enemies flee in fear when they see it.",
+  "effects": [
+   {
+    "effect_string": "hero_dps_multiplier_mult,350"
+   }
+  ],
+  "graphic_id": 647,
+  "hero_id": 12,
+  "id": 268,
+  "name": "Bonecleaver",
+  "rarity": 4,
+  "slot_id": 1
+ },
+ {
+  "description": "A crude symbol, but any reverence to Tiamat is a good thing.",
+  "effects": [
+   {
+    "effect_string": "global_dps_multiplier_mult,10"
+   }
+  ],
+  "graphic_id": 648,
+  "hero_id": 12,
+  "id": 269,
+  "name": "Crude Symbol",
+  "rarity": 1,
+  "slot_id": 2
+ },
+ {
+  "description": "A well crafted symbol, though it lacks a certain finesse.",
+  "effects": [
+   {
+    "effect_string": "global_dps_multiplier_mult,65"
+   }
+  ],
+  "graphic_id": 648,
+  "hero_id": 12,
+  "id": 270,
+  "name": "Steel Symbol",
+  "rarity": 2,
+  "slot_id": 2
+ },
+ {
+  "description": "Forged in the dragonflame for only the most devout followers.",
+  "effects": [
+   {
+    "effect_string": "global_dps_multiplier_mult,120"
+   }
+  ],
+  "graphic_id": 649,
+  "hero_id": 12,
+  "id": 271,
+  "name": "Flame Forged Symbol",
+  "rarity": 3,
+  "slot_id": 2
+ },
+ {
+  "description": "I've foresworn my paladin oaths and dedicated my life to serving Tiamat.",
+  "effects": [
+   {
+    "effect_string": "global_dps_multiplier_mult,230"
+   }
+  ],
+  "graphic_id": 650,
+  "hero_id": 12,
+  "id": 272,
+  "name": "Holy Symbol of Tiamat",
+  "rarity": 4,
+  "slot_id": 2
+ },
+ {
+  "description": "Should probably get this tightened up. The noise is very distracting.",
+  "effects": [
+   {
+    "effect_string": "buff_upgrade,25,241"
+   }
+  ],
+  "graphic_id": 651,
+  "hero_id": 12,
+  "id": 273,
+  "name": "Clanking Pauldron",
+  "rarity": 1,
+  "slot_id": 3
+ },
+ {
+  "description": "Good for bashing down doors and breaking through walls.",
+  "effects": [
+   {
+    "effect_string": "buff_upgrade,87.5,241"
+   }
+  ],
+  "graphic_id": 651,
+  "hero_id": 12,
+  "id": 274,
+  "name": "Solid Pauldron",
+  "rarity": 2,
+  "slot_id": 3
+ },
+ {
+  "description": "I'll impale the heads of my enemies on these spikes! Hah hah hah!",
+  "effects": [
+   {
+    "effect_string": "buff_upgrade,150,241"
+   }
+  ],
+  "graphic_id": 652,
+  "hero_id": 12,
+  "id": 275,
+  "name": "Spiked Pauldron",
+  "rarity": 3,
+  "slot_id": 3
+ },
+ {
+  "description": "Forged from obsidian and granted to me by the Dragon Queen herself.",
+  "effects": [
+   {
+    "effect_string": "buff_upgrade,275,241"
+   }
+  ],
+  "graphic_id": 653,
+  "hero_id": 12,
+  "id": 276,
+  "name": "Pauldron of the Dragonmother",
+  "rarity": 4,
+  "slot_id": 3
+ },
+ {
+  "description": "It may be flimsy, but you still wouldn't want to get bashed by it.",
+  "effects": [
+   {
+    "effect_string": "buff_upgrade,25,242"
+   }
+  ],
+  "graphic_id": 654,
+  "hero_id": 12,
+  "id": 277,
+  "name": "Flimsy Shield",
+  "rarity": 1,
+  "slot_id": 4
+ },
+ {
+  "description": "Don't let appearances deceive you. This is a sturdy, well-crafted shield.",
+  "effects": [
+   {
+    "effect_string": "buff_upgrade,87.5,242"
+   }
+  ],
+  "graphic_id": 654,
+  "hero_id": 12,
+  "id": 278,
+  "name": "Strong Shield",
+  "rarity": 2,
+  "slot_id": 4
+ },
+ {
+  "description": "Blessed by the Cult of the Dragon and carried into battle against their enemies.",
+  "effects": [
+   {
+    "effect_string": "buff_upgrade,150,242"
+   }
+  ],
+  "graphic_id": 655,
+  "hero_id": 12,
+  "id": 279,
+  "name": "Dragon-Blessed Shield",
+  "rarity": 3,
+  "slot_id": 4
+ },
+ {
+  "description": "Crafted from the scales of Tiamat's enemies and worn by her unholy Paladin followers.",
+  "effects": [
+   {
+    "effect_string": "buff_upgrade,275,242"
+   }
+  ],
+  "graphic_id": 656,
+  "hero_id": 12,
+  "id": 280,
+  "name": "Dragonscale Shield of the Unholy",
+  "rarity": 4,
+  "slot_id": 4
+ },
+ {
+  "description": "Whatever is in it won't be in it for long!",
+  "effects": [
+   {
+    "effect_string": "buff_ultimate,25"
+   }
+  ],
+  "graphic_id": 657,
+  "hero_id": 12,
+  "id": 281,
+  "name": "Cracked Vial",
+  "rarity": 1,
+  "slot_id": 5
+ },
+ {
+  "description": "A sturdy vial containing a murky, greyish liquid.",
+  "effects": [
+   {
+    "effect_string": "buff_ultimate,87.5"
+   }
+  ],
+  "graphic_id": 657,
+  "hero_id": 12,
+  "id": 282,
+  "name": "Sturdy Vial",
+  "rarity": 2,
+  "slot_id": 5
+ },
+ {
+  "description": "A crystal vial with a finely crafted silver stopper.",
+  "effects": [
+   {
+    "effect_string": "buff_ultimate,150"
+   }
+  ],
+  "graphic_id": 658,
+  "hero_id": 12,
+  "id": 283,
+  "name": "Crystal Vial",
+  "rarity": 3,
+  "slot_id": 5
+ },
+ {
+  "description": "Filled to the brim with unholy power.",
+  "effects": [
+   {
+    "effect_string": "buff_ultimate,275"
+   }
+  ],
+  "graphic_id": 659,
+  "hero_id": 12,
+  "id": 284,
+  "name": "Vial of Unholy Water",
+  "rarity": 4,
+  "slot_id": 5
+ },
+ {
+  "description": "Reserved for only the most bad-ass warriors.",
+  "effects": [
+   {
+    "effect_string": "reduce_ultimate_cooldown,5"
+   }
+  ],
+  "graphic_id": 660,
+  "hero_id": 12,
+  "id": 285,
+  "name": "Rusty Choker",
+  "rarity": 1,
+  "slot_id": 6
+ },
+ {
+  "description": "Mere child's play. Bring me a real choker.",
+  "effects": [
+   {
+    "effect_string": "reduce_ultimate_cooldown,9"
+   }
+  ],
+  "graphic_id": 660,
+  "hero_id": 12,
+  "id": 286,
+  "name": "Spiked Choker",
+  "rarity": 2,
+  "slot_id": 6
+ },
+ {
+  "description": "A golden wreath of thorns worn about ones neck.",
+  "effects": [
+   {
+    "effect_string": "reduce_ultimate_cooldown,18"
+   }
+  ],
+  "graphic_id": 661,
+  "hero_id": 12,
+  "id": 287,
+  "name": "Golden Wreath",
+  "rarity": 3,
+  "slot_id": 6
+ },
+ {
+  "description": "Grants me control over a beast of my choosing. I chose Chango.",
+  "effects": [
+   {
+    "effect_string": "reduce_ultimate_cooldown,45"
+   }
+  ],
+  "graphic_id": 662,
+  "hero_id": 12,
+  "id": 288,
+  "name": "Wreath of the Prism",
+  "rarity": 4,
+  "slot_id": 6
+ },
+ {
+  "description": "Fits a moderate amount of gold pieces.",
+  "effects": [
+   {
+    "effect_string": "hero_dps_multiplier_mult,50"
+   }
+  ],
+  "graphic_id": 1039,
+  "hero_id": 13,
+  "id": 289,
+  "name": "Basic Pouch",
+  "rarity": 1,
+  "slot_id": 1
+ },
+ {
+  "description": "It doesn't look like much, but it can store quite a bit of loot.",
+  "effects": [
+   {
+    "effect_string": "hero_dps_multiplier_mult,125"
+   }
+  ],
+  "graphic_id": 1039,
+  "hero_id": 13,
+  "id": 290,
+  "name": "Deep Pouch",
+  "rarity": 2,
+  "slot_id": 1
+ },
+ {
+  "description": "Why have one pouch when you could have five?",
+  "effects": [
+   {
+    "effect_string": "hero_dps_multiplier_mult,200"
+   }
+  ],
+  "graphic_id": 1040,
+  "hero_id": 13,
+  "id": 291,
+  "name": "Multi-Pouch",
+  "rarity": 3,
+  "slot_id": 1
+ },
+ {
+  "description": "It's got everything you need to pillage and pilfer.",
+  "effects": [
+   {
+    "effect_string": "hero_dps_multiplier_mult,350"
+   }
+  ],
+  "graphic_id": 1041,
+  "hero_id": 13,
+  "id": 292,
+  "name": "Burglar's Pack of the Sneaky Thief",
+  "rarity": 4,
+  "slot_id": 1
+ },
+ {
+  "description": "Hey! My mother knit these for me.",
+  "effects": [
+   {
+    "effect_string": "global_dps_multiplier_mult,10"
+   }
+  ],
+  "graphic_id": 1042,
+  "hero_id": 13,
+  "id": 293,
+  "name": "Ugly Slippers",
+  "rarity": 1,
+  "slot_id": 3
+ },
+ {
+  "description": "I think a spider crawled inside these and webbed them up.",
+  "effects": [
+   {
+    "effect_string": "global_dps_multiplier_mult,65"
+   }
+  ],
+  "graphic_id": 1042,
+  "hero_id": 13,
+  "id": 294,
+  "name": "Sticky Slippers",
+  "rarity": 2,
+  "slot_id": 3
+ },
+ {
+  "description": "I can scale all but the slipperiest surfaces.",
+  "effects": [
+   {
+    "effect_string": "global_dps_multiplier_mult,120"
+   }
+  ],
+  "graphic_id": 1043,
+  "hero_id": 13,
+  "id": 295,
+  "name": "Sticky Boots",
+  "rarity": 3,
+  "slot_id": 3
+ },
+ {
+  "description": "Useful for climbing giants and other extra tall creatures.",
+  "effects": [
+   {
+    "effect_string": "global_dps_multiplier_mult,230"
+   }
+  ],
+  "graphic_id": 1044,
+  "hero_id": 13,
+  "id": 296,
+  "name": "Boots of Spider Climbing",
+  "rarity": 4,
+  "slot_id": 3
+ },
+ {
+  "description": "It was just hanging in the cloakroom of this Inn...",
+  "effects": [
+   {
+    "effect_string": "buff_upgrade,25,390"
+   }
+  ],
+  "graphic_id": 1045,
+  "hero_id": 13,
+  "id": 297,
+  "name": "Pilfered Cape",
+  "rarity": 1,
+  "slot_id": 4
+ },
+ {
+  "description": "I'll give it back when I'm done with it, I swear.",
+  "effects": [
+   {
+    "effect_string": "buff_upgrade,87.5,390"
+   }
+  ],
+  "graphic_id": 1045,
+  "hero_id": 13,
+  "id": 298,
+  "name": "Borrowed Cape",
+  "rarity": 2,
+  "slot_id": 4
+ },
+ {
+  "description": "It's impressive, much like myself!",
+  "effects": [
+   {
+    "effect_string": "buff_upgrade,150,390"
+   }
+  ],
+  "graphic_id": 1046,
+  "hero_id": 13,
+  "id": 299,
+  "name": "Impressive Cape",
+  "rarity": 3,
+  "slot_id": 4
+ },
+ {
+  "description": "It never gets tangled in my legs.",
+  "effects": [
+   {
+    "effect_string": "buff_upgrade,275,390"
+   }
+  ],
+  "graphic_id": 1047,
+  "hero_id": 13,
+  "id": 300,
+  "name": "Magnificent Cape of Free Flowing",
+  "rarity": 4,
+  "slot_id": 4
+ },
+ {
+  "description": "I really ought to sharpen this one.",
+  "effects": [
+   {
+    "effect_string": "hero_dps_multiplier_mult,50"
+   }
+  ],
+  "graphic_id": 1048,
+  "hero_id": 13,
+  "id": 301,
+  "name": "Dull Dagger",
+  "rarity": 1,
+  "slot_id": 2
+ },
+ {
+  "description": "I really ought to clean this one.",
+  "effects": [
+   {
+    "effect_string": "hero_dps_multiplier_mult,125"
+   }
+  ],
+  "graphic_id": 1048,
+  "hero_id": 13,
+  "id": 302,
+  "name": "Bloody Dagger",
+  "rarity": 2,
+  "slot_id": 2
+ },
+ {
+  "description": "Everything's better with a little gold added in.",
+  "effects": [
+   {
+    "effect_string": "hero_dps_multiplier_mult,200"
+   }
+  ],
+  "graphic_id": 1049,
+  "hero_id": 13,
+  "id": 303,
+  "name": "Golden Dagger",
+  "rarity": 3,
+  "slot_id": 2
+ },
+ {
+  "description": "Stolen from a foolish Prince from the east.",
+  "effects": [
+   {
+    "effect_string": "hero_dps_multiplier_mult,350"
+   }
+  ],
+  "graphic_id": 1050,
+  "hero_id": 13,
+  "id": 304,
+  "name": "Ornate Dagger of Princes",
+  "rarity": 4,
+  "slot_id": 2
+ },
+ {
+  "description": "The peddler swore it was real!",
+  "effects": [
+   {
+    "effect_string": "buff_ultimate,25"
+   }
+  ],
+  "graphic_id": 1051,
+  "hero_id": 13,
+  "id": 305,
+  "name": "Fake Ring",
+  "rarity": 1,
+  "slot_id": 5
+ },
+ {
+  "description": "There's a story behind this ring that I'll tell you some time.",
+  "effects": [
+   {
+    "effect_string": "buff_ultimate,87.5"
+   }
+  ],
+  "graphic_id": 1051,
+  "hero_id": 13,
+  "id": 306,
+  "name": "Pearl Ring",
+  "rarity": 2,
+  "slot_id": 5
+ },
+ {
+  "description": "That's 100% legitimate Icewind Crystal.",
+  "effects": [
+   {
+    "effect_string": "buff_ultimate,150"
+   }
+  ],
+  "graphic_id": 1052,
+  "hero_id": 13,
+  "id": 307,
+  "name": "Crystal Ring",
+  "rarity": 3,
+  "slot_id": 5
+ },
+ {
+  "description": "You can't hide your true form from me.",
+  "effects": [
+   {
+    "effect_string": "buff_ultimate,275"
+   }
+  ],
+  "graphic_id": 1053,
+  "hero_id": 13,
+  "id": 308,
+  "name": "Zhentarim Ring of True Sight",
+  "rarity": 4,
+  "slot_id": 5
+ },
+ {
+  "description": "A simple rod of copper. Useful for jimmying doors and windows.",
+  "effects": [
+   {
+    "effect_string": "reduce_ultimate_cooldown,5"
+   }
+  ],
+  "graphic_id": 1054,
+  "hero_id": 13,
+  "id": 309,
+  "name": "Copper Rod",
+  "rarity": 1,
+  "slot_id": 6
+ },
+ {
+  "description": "It's the fanciest thing I've ever jimmied a window with.",
+  "effects": [
+   {
+    "effect_string": "reduce_ultimate_cooldown,10"
+   }
+  ],
+  "graphic_id": 1054,
+  "hero_id": 13,
+  "id": 310,
+  "name": "Fancy Rod",
+  "rarity": 2,
+  "slot_id": 6
+ },
+ {
+  "description": "It has some small magical properties that makes it quite useful.",
+  "effects": [
+   {
+    "effect_string": "reduce_ultimate_cooldown,20"
+   }
+  ],
+  "graphic_id": 1055,
+  "hero_id": 13,
+  "id": 311,
+  "name": "Static Rod",
+  "rarity": 3,
+  "slot_id": 6
+ },
+ {
+  "description": "Magically enhanced to ignore the laws of physics.",
+  "effects": [
+   {
+    "effect_string": "reduce_ultimate_cooldown,49"
+   }
+  ],
+  "graphic_id": 1056,
+  "hero_id": 13,
+  "id": 312,
+  "name": "Ancient Immovable Rod",
+  "rarity": 4,
+  "slot_id": 6
+ },
+ {
+  "description": "I like cake too much to really be comfortable in this belt.",
+  "effects": [
+   {
+    "effect_string": "hero_dps_multiplier_mult,50"
+   }
+  ],
+  "graphic_id": 1061,
+  "hero_id": 14,
+  "id": 313,
+  "name": "Tight Belt",
+  "rarity": 1,
+  "slot_id": 1
+ },
+ {
+  "description": "The monks didn't let me bring much with me, except this.",
+  "effects": [
+   {
+    "effect_string": "hero_dps_multiplier_mult,125"
+   }
+  ],
+  "graphic_id": 1061,
+  "hero_id": 14,
+  "id": 314,
+  "name": "Solemn Belt",
+  "rarity": 2,
+  "slot_id": 1
+ },
+ {
+  "description": "There's more to this belt than meets the eye.",
+  "effects": [
+   {
+    "effect_string": "hero_dps_multiplier_mult,200"
+   }
+  ],
+  "graphic_id": 1062,
+  "hero_id": 14,
+  "id": 315,
+  "name": "Tinkerer's Belt",
+  "rarity": 3,
+  "slot_id": 1
+ },
+ {
+  "description": "I'll never talk about the day I got this belt.",
+  "effects": [
+   {
+    "effect_string": "hero_dps_multiplier_mult,350"
+   }
+  ],
+  "graphic_id": 1063,
+  "hero_id": 14,
+  "id": 316,
+  "name": "Gnomish Belt of Solemn Secrets",
+  "rarity": 4,
+  "slot_id": 1
+ },
+ {
+  "description": "Kind of defeats the purpose, don't it?",
+  "effects": [
+   {
+    "effect_string": "global_dps_multiplier_mult,10"
+   }
+  ],
+  "graphic_id": 1064,
+  "hero_id": 14,
+  "id": 317,
+  "name": "See-Through Blindfold",
+  "rarity": 1,
+  "slot_id": 2
+ },
+ {
+  "description": "I can't see! Wait, no, that's the point.",
+  "effects": [
+   {
+    "effect_string": "global_dps_multiplier_mult,65"
+   }
+  ],
+  "graphic_id": 1064,
+  "hero_id": 14,
+  "id": 318,
+  "name": "Blinding Blindfold",
+  "rarity": 2,
+  "slot_id": 2
+ },
+ {
+  "description": "The monks made me wear this during my training.",
+  "effects": [
+   {
+    "effect_string": "global_dps_multiplier_mult,120"
+   }
+  ],
+  "graphic_id": 1065,
+  "hero_id": 14,
+  "id": 319,
+  "name": "Supremely Effective Blindfold",
+  "rarity": 3,
+  "slot_id": 2
+ },
+ {
+  "description": "A trophy from my time at the monastary.",
+  "effects": [
+   {
+    "effect_string": "global_dps_multiplier_mult,230"
+   }
+  ],
+  "graphic_id": 1066,
+  "hero_id": 14,
+  "id": 320,
+  "name": "Pure Blindfold of the Even Hand",
+  "rarity": 4,
+  "slot_id": 2
+ },
+ {
+  "description": "I'd rather not stand out, to be honest.",
+  "effects": [
+   {
+    "effect_string": "buff_upgrade,25,410"
+   }
+  ],
+  "graphic_id": 1067,
+  "hero_id": 14,
+  "id": 321,
+  "name": "Plain Ring",
+  "rarity": 1,
+  "slot_id": 3
+ },
+ {
+  "description": "A little worse for wear from years of unarmed combat.",
+  "effects": [
+   {
+    "effect_string": "buff_upgrade,87.5,410"
+   }
+  ],
+  "graphic_id": 1067,
+  "hero_id": 14,
+  "id": 322,
+  "name": "Scuffed Steel Ring",
+  "rarity": 2,
+  "slot_id": 3
+ },
+ {
+  "description": "Forged near a Chultan volcano.",
+  "effects": [
+   {
+    "effect_string": "buff_upgrade,150,410"
+   }
+  ],
+  "graphic_id": 1068,
+  "hero_id": 14,
+  "id": 323,
+  "name": "Obsidian Ring",
+  "rarity": 3,
+  "slot_id": 3
+ },
+ {
+  "description": "I can really take my time to think things over.",
+  "effects": [
+   {
+    "effect_string": "buff_upgrade,275,410"
+   }
+  ],
+  "graphic_id": 1069,
+  "hero_id": 14,
+  "id": 324,
+  "name": "Innoculous Ring of Time Slowing",
+  "rarity": 4,
+  "slot_id": 3
+ },
+ {
+  "description": "A hand-sown hand-me-down.",
+  "effects": [
+   {
+    "effect_string": "buff_upgrade,25,411"
+   }
+  ],
+  "graphic_id": 1070,
+  "hero_id": 14,
+  "id": 325,
+  "name": "Patched Robe",
+  "rarity": 1,
+  "slot_id": 4
+ },
+ {
+  "description": "Granted to all new diciples of the Even Hand.",
+  "effects": [
+   {
+    "effect_string": "buff_upgrade,87.5,411"
+   }
+  ],
+  "graphic_id": 1070,
+  "hero_id": 14,
+  "id": 326,
+  "name": "Initiate's Robe",
+  "rarity": 2,
+  "slot_id": 4
+ },
+ {
+  "description": "Robes bearing the colors of the Order of the Even Hand.",
+  "effects": [
+   {
+    "effect_string": "buff_upgrade,150,411"
+   }
+  ],
+  "graphic_id": 1071,
+  "hero_id": 14,
+  "id": 327,
+  "name": "Even Hand Robes",
+  "rarity": 3,
+  "slot_id": 4
+ },
+ {
+  "description": "I remember the day I earned the right to wear these robes...",
+  "effects": [
+   {
+    "effect_string": "buff_upgrade,275,411"
+   }
+  ],
+  "graphic_id": 1072,
+  "hero_id": 14,
+  "id": 328,
+  "name": "Monastic Robe of the Even Hand",
+  "rarity": 4,
+  "slot_id": 4
+ },
+ {
+  "description": "The soles are a bit tough, but otherwise they're functional.",
+  "effects": [
+   {
+    "effect_string": "buff_ultimate,25"
+   }
+  ],
+  "graphic_id": 1073,
+  "hero_id": 14,
+  "id": 329,
+  "name": "Plain Sandals",
+  "rarity": 1,
+  "slot_id": 5
+ },
+ {
+  "description": "As comfortable for walking as they are for standing or sitting.",
+  "effects": [
+   {
+    "effect_string": "buff_ultimate,87.5"
+   }
+  ],
+  "graphic_id": 1073,
+  "hero_id": 14,
+  "id": 330,
+  "name": "Comfortable Sandals",
+  "rarity": 2,
+  "slot_id": 5
+ },
+ {
+  "description": "Flashy, for a monk, but I'm still a gnome, you know.",
+  "effects": [
+   {
+    "effect_string": "buff_ultimate,150"
+   }
+  ],
+  "graphic_id": 1074,
+  "hero_id": 14,
+  "id": 331,
+  "name": "Intricate Sandals",
+  "rarity": 3,
+  "slot_id": 5
+ },
+ {
+  "description": "All but my most perceptive foes are ignorant to my approach.",
+  "effects": [
+   {
+    "effect_string": "buff_ultimate,275"
+   }
+  ],
+  "graphic_id": 1075,
+  "hero_id": 14,
+  "id": 332,
+  "name": "Ornate Sandals of the Silent Foot",
+  "rarity": 4,
+  "slot_id": 5
+ },
+ {
+  "description": "I've tried binding it back together, but it's not very sturdy.",
+  "effects": [
+   {
+    "effect_string": "reduce_ultimate_cooldown,4"
+   }
+  ],
+  "graphic_id": 1076,
+  "hero_id": 14,
+  "id": 333,
+  "name": "Snapped Staff",
+  "rarity": 1,
+  "slot_id": 6
+ },
+ {
+  "description": "I've walked a long way with this staff.",
+  "effects": [
+   {
+    "effect_string": "reduce_ultimate_cooldown,8"
+   }
+  ],
+  "graphic_id": 1076,
+  "hero_id": 14,
+  "id": 334,
+  "name": "Sturdy Staff",
+  "rarity": 2,
+  "slot_id": 6
+ },
+ {
+  "description": "No matter how far you walk, you'll always end up back where you started.",
+  "effects": [
+   {
+    "effect_string": "reduce_ultimate_cooldown,16"
+   }
+  ],
+  "graphic_id": 1077,
+  "hero_id": 14,
+  "id": 335,
+  "name": "Wanderer's Staff",
+  "rarity": 3,
+  "slot_id": 6
+ },
+ {
+  "description": "It is much easier to focus on ki with this ancient staff.",
+  "effects": [
+   {
+    "effect_string": "reduce_ultimate_cooldown,40"
+   }
+  ],
+  "graphic_id": 1078,
+  "hero_id": 14,
+  "id": 336,
+  "name": "Ki Staff of Long Walks",
+  "rarity": 4,
+  "slot_id": 6
+ },
+ {
+  "description": "A basic amulet given to all orc children.",
+  "effects": [
+   {
+    "effect_string": "hero_dps_multiplier_mult,50"
+   }
+  ],
+  "graphic_id": 1298,
+  "hero_id": 15,
+  "id": 337,
+  "name": "Stone Amulet",
+  "rarity": 1,
+  "slot_id": 1
+ },
+ {
+  "description": "Obviously magical - it radiates heat.",
+  "effects": [
+   {
+    "effect_string": "hero_dps_multiplier_mult,125"
+   }
+  ],
+  "graphic_id": 1298,
+  "hero_id": 15,
+  "id": 338,
+  "name": "Warm Amulet",
+  "rarity": 2,
+  "slot_id": 1
+ },
+ {
+  "description": "An amulet of warding constructed by our tribal sage; doesn't really do anything.",
+  "effects": [
+   {
+    "effect_string": "hero_dps_multiplier_mult,200"
+   }
+  ],
+  "graphic_id": 1299,
+  "hero_id": 15,
+  "id": 339,
+  "name": "Tribal Amulet",
+  "rarity": 3,
+  "slot_id": 1
+ },
+ {
+  "description": "My father's amulet; worn in battle dozens, perhaps hundreds of time.",
+  "effects": [
+   {
+    "effect_string": "hero_dps_multiplier_mult,350"
+   }
+  ],
+  "graphic_id": 1300,
+  "hero_id": 15,
+  "id": 340,
+  "name": "Bone Breaker Amulet of the Tribe",
+  "rarity": 4,
+  "slot_id": 1
+ },
+ {
+  "description": "A simple belt; better to wear this than to have your pants fall down.",
+  "effects": [
+   {
+    "effect_string": "buff_attack_damage,25,51"
+   }
+  ],
+  "graphic_id": 1301,
+  "hero_id": 15,
+  "id": 341,
+  "name": "Cloth Belt",
+  "rarity": 1,
+  "slot_id": 2
+ },
+ {
+  "description": "Softness isn't often a quality I admire, but I make an exception for this belt.",
+  "effects": [
+   {
+    "effect_string": "buff_attack_damage,87.5,51"
+   }
+  ],
+  "graphic_id": 1301,
+  "hero_id": 15,
+  "id": 342,
+  "name": "Soft Belt",
+  "rarity": 2,
+  "slot_id": 2
+ },
+ {
+  "description": "A wizard's belt, but still useful to a warrior such as myself.",
+  "effects": [
+   {
+    "effect_string": "buff_attack_damage,150,51"
+   }
+  ],
+  "graphic_id": 1302,
+  "hero_id": 15,
+  "id": 343,
+  "name": "Ornate Belt",
+  "rarity": 3,
+  "slot_id": 2
+ },
+ {
+  "description": "This belt belonged to my mother; it saw her safely through countless dangers.",
+  "effects": [
+   {
+    "effect_string": "buff_attack_damage,275,51"
+   }
+  ],
+  "graphic_id": 1303,
+  "hero_id": 15,
+  "id": 344,
+  "name": "Artisan Belt of the Way Finder",
+  "rarity": 4,
+  "slot_id": 2
+ },
+ {
+  "description": "So much is missing; someone who learns history from this book is bound to repeat it.",
+  "effects": [
+   {
+    "effect_string": "buff_attack_damage,25,52"
+   }
+  ],
+  "graphic_id": 1304,
+  "hero_id": 15,
+  "id": 345,
+  "name": "Torn History Book",
+  "rarity": 1,
+  "slot_id": 3
+ },
+ {
+  "description": "There are important lessons in all of our pasts.",
+  "effects": [
+   {
+    "effect_string": "buff_attack_damage,87.5,52"
+   }
+  ],
+  "graphic_id": 1304,
+  "hero_id": 15,
+  "id": 346,
+  "name": "Faded History Book",
+  "rarity": 2,
+  "slot_id": 3
+ },
+ {
+  "description": "A detailed history of half-orc culture, written by myself.",
+  "effects": [
+   {
+    "effect_string": "buff_attack_damage,150,52"
+   }
+  ],
+  "graphic_id": 1305,
+  "hero_id": 15,
+  "id": 347,
+  "name": "Detailed History Book",
+  "rarity": 3,
+  "slot_id": 3
+ },
+ {
+  "description": "A detailed encyclopedia of orc tribes and customs - my mother's life work.",
+  "effects": [
+   {
+    "effect_string": "buff_attack_damage,275,52"
+   }
+  ],
+  "graphic_id": 1306,
+  "hero_id": 15,
+  "id": 348,
+  "name": "Archaeologist's Book of Tribal History",
+  "rarity": 4,
+  "slot_id": 3
+ },
+ {
+  "description": "It cracked when I hit a Stone Golem so hard that it shattered.",
+  "effects": [
+   {
+    "effect_string": "buff_attack_damage,25,53"
+   }
+  ],
+  "graphic_id": 1307,
+  "hero_id": 15,
+  "id": 349,
+  "name": "Cracked Warhammer",
+  "rarity": 1,
+  "slot_id": 4
+ },
+ {
+  "description": "Heavy to carry around, but worth it in battle.",
+  "effects": [
+   {
+    "effect_string": "buff_attack_damage,87.5,53"
+   }
+  ],
+  "graphic_id": 1307,
+  "hero_id": 15,
+  "id": 350,
+  "name": "Solid Warhammer",
+  "rarity": 2,
+  "slot_id": 4
+ },
+ {
+  "description": "A warrior needs every advantage to catch his enemy off guard.",
+  "effects": [
+   {
+    "effect_string": "buff_attack_damage,150,53"
+   }
+  ],
+  "graphic_id": 1308,
+  "hero_id": 15,
+  "id": 351,
+  "name": "Spiked Warhammer",
+  "rarity": 3,
+  "slot_id": 4
+ },
+ {
+  "description": "My bonded warhammer has served me well throughout the years.",
+  "effects": [
+   {
+    "effect_string": "buff_attack_damage,275,53"
+   }
+  ],
+  "graphic_id": 1309,
+  "hero_id": 15,
+  "id": 352,
+  "name": "Vicious Warhammer of Orcish Bloodlust",
+  "rarity": 4,
+  "slot_id": 4
+ },
+ {
+  "description": "I should probably get this replaced.",
+  "effects": [
+   {
+    "effect_string": "buff_ultimate,25"
+   }
+  ],
+  "graphic_id": 1310,
+  "hero_id": 15,
+  "id": 353,
+  "name": "Pilling Scarf",
+  "rarity": 1,
+  "slot_id": 5
+ },
+ {
+  "description": "Yes, I knit. What's your problem with that?",
+  "effects": [
+   {
+    "effect_string": "buff_ultimate,87.5"
+   }
+  ],
+  "graphic_id": 1310,
+  "hero_id": 15,
+  "id": 354,
+  "name": "Hand-knit Scarf",
+  "rarity": 2,
+  "slot_id": 5
+ },
+ {
+  "description": "A fine scarf, though not very warrior-ly.",
+  "effects": [
+   {
+    "effect_string": "buff_ultimate,150"
+   }
+  ],
+  "graphic_id": 1312,
+  "hero_id": 15,
+  "id": 355,
+  "name": "Wizard's Scarf",
+  "rarity": 3,
+  "slot_id": 5
+ },
+ {
+  "description": "A momento from my time training as an Eldritch Knight.",
+  "effects": [
+   {
+    "effect_string": "buff_ultimate,275"
+   }
+  ],
+  "graphic_id": 1311,
+  "hero_id": 15,
+  "id": 356,
+  "name": "Flowing Scarf of the Eldritch Knight",
+  "rarity": 4,
+  "slot_id": 5
+ },
+ {
+  "description": "Adaquete for a child perhaps, but I hope to find a new pair soon enough.",
+  "effects": [
+   {
+    "effect_string": "reduce_ultimate_cooldown,6"
+   }
+  ],
+  "graphic_id": 1313,
+  "hero_id": 15,
+  "id": 357,
+  "name": "Weak Pauldron",
+  "rarity": 1,
+  "slot_id": 6
+ },
+ {
+  "description": "Hardened leather can surprisingly deflect even strong and sharp attacks.",
+  "effects": [
+   {
+    "effect_string": "reduce_ultimate_cooldown,11"
+   }
+  ],
+  "graphic_id": 1313,
+  "hero_id": 15,
+  "id": 358,
+  "name": "Tough Pauldron",
+  "rarity": 2,
+  "slot_id": 6
+ },
+ {
+  "description": "A good shoulder charge never hurt anyone; perhaps just my enemies.",
+  "effects": [
+   {
+    "effect_string": "reduce_ultimate_cooldown,21"
+   }
+  ],
+  "graphic_id": 1314,
+  "hero_id": 15,
+  "id": 359,
+  "name": "Spiked Pauldron",
+  "rarity": 3,
+  "slot_id": 6
+ },
+ {
+  "description": "If magic fails me, these pauldrons will see me through.",
+  "effects": [
+   {
+    "effect_string": "reduce_ultimate_cooldown,53"
+   }
+  ],
+  "graphic_id": 1315,
+  "hero_id": 15,
+  "id": 360,
+  "name": "Strong Iron Pauldron of the Charging Orc",
+  "rarity": 4,
+  "slot_id": 6
+ },
+ {
+  "description": "An assortment of random pebbles from my journies.",
+  "effects": [
+   {
+    "effect_string": "hero_dps_multiplier_mult,50"
+   }
+  ],
+  "graphic_id": 1406,
+  "hero_id": 16,
+  "id": 361,
+  "name": "Random Pebbles",
+  "rarity": 1,
+  "slot_id": 1
+ },
+ {
+  "description": "Some polished stones that caught my eye.",
+  "effects": [
+   {
+    "effect_string": "hero_dps_multiplier_mult,125"
+   }
+  ],
+  "graphic_id": 1406,
+  "hero_id": 16,
+  "id": 362,
+  "name": "Polished Pebbles",
+  "rarity": 2,
+  "slot_id": 1
+ },
+ {
+  "description": "A considerable collection of colorful calcite.",
+  "effects": [
+   {
+    "effect_string": "hero_dps_multiplier_mult,200"
+   }
+  ],
+  "graphic_id": 1405,
+  "hero_id": 16,
+  "id": 363,
+  "name": "Colorful Stones",
+  "rarity": 3,
+  "slot_id": 1
+ },
+ {
+  "description": "I've collected a single pebble from each beach I've visited in my travels.",
+  "effects": [
+   {
+    "effect_string": "hero_dps_multiplier_mult,350"
+   }
+  ],
+  "graphic_id": 1404,
+  "hero_id": 16,
+  "id": 364,
+  "name": "Carefully Collected Pristine Pebbles",
+  "rarity": 4,
+  "slot_id": 1
+ },
+ {
+  "description": "It's more for show. These old bones don't fight as well as they used to.",
+  "effects": [
+   {
+    "effect_string": "global_dps_multiplier_mult,10"
+   }
+  ],
+  "graphic_id": 1409,
+  "hero_id": 16,
+  "id": 365,
+  "name": "Dull Spear",
+  "rarity": 1,
+  "slot_id": 2
+ },
+ {
+  "description": "Held together with wax and sap and a short length of leather.",
+  "effects": [
+   {
+    "effect_string": "global_dps_multiplier_mult,65"
+   }
+  ],
+  "graphic_id": 1409,
+  "hero_id": 16,
+  "id": 366,
+  "name": "Damaged Spear",
+  "rarity": 2,
+  "slot_id": 2
+ },
+ {
+  "description": "Danger lies around every corner these days.",
+  "effects": [
+   {
+    "effect_string": "global_dps_multiplier_mult,120"
+   }
+  ],
+  "graphic_id": 1408,
+  "hero_id": 16,
+  "id": 367,
+  "name": "Sharpened Spear",
+  "rarity": 3,
+  "slot_id": 2
+ },
+ {
+  "description": "It doubles as a walking staff when the danger is past.",
+  "effects": [
+   {
+    "effect_string": "global_dps_multiplier_mult,230"
+   }
+  ],
+  "graphic_id": 1407,
+  "hero_id": 16,
+  "id": 368,
+  "name": "Masterful Spear of Long Journies",
+  "rarity": 4,
+  "slot_id": 2
+ },
+ {
+  "description": "Full of knick-knacks from another time.",
+  "effects": [
+   {
+    "effect_string": "buff_upgrade,25,549"
+   }
+  ],
+  "graphic_id": 1412,
+  "hero_id": 16,
+  "id": 369,
+  "name": "Old Pouch",
+  "rarity": 1,
+  "slot_id": 3
+ },
+ {
+  "description": "The leather has been softened by years of use.",
+  "effects": [
+   {
+    "effect_string": "buff_upgrade,87.5,549"
+   }
+  ],
+  "graphic_id": 1412,
+  "hero_id": 16,
+  "id": 370,
+  "name": "Soft Leather Pouch",
+  "rarity": 2,
+  "slot_id": 3
+ },
+ {
+  "description": "This pouch has seen me through countless adventures.",
+  "effects": [
+   {
+    "effect_string": "buff_upgrade,150,549"
+   }
+  ],
+  "graphic_id": 1411,
+  "hero_id": 16,
+  "id": 371,
+  "name": "Well Traveled Leather Pouch",
+  "rarity": 3,
+  "slot_id": 3
+ },
+ {
+  "description": "There always seems to be something in this pouch to point me in the right direction.",
+  "effects": [
+   {
+    "effect_string": "buff_upgrade,275,549"
+   }
+  ],
+  "graphic_id": 1410,
+  "hero_id": 16,
+  "id": 372,
+  "name": "Sacred Pouch of the Wayfinder",
+  "rarity": 4,
+  "slot_id": 3
+ },
+ {
+  "description": "If I move too quickly, it could shatter. I'd better more slowly, then.",
+  "effects": [
+   {
+    "description": "Increases the effect of Gromma's Spiked Shell, Freezing Breeze and Acid Splash abilities by $(amount)%.",
+    "effect_string": "buff_upgrades,25,554,555,556"
+   }
+  ],
+  "graphic_id": 1415,
+  "hero_id": 16,
+  "id": 373,
+  "name": "Delicate Headdress",
+  "rarity": 1,
+  "slot_id": 4
+ },
+ {
+  "description": "The warm waters off the coast of Ahoyhoy are perfect for collecting discarded coral.",
+  "effects": [
+   {
+    "description": "Increases the effect of Gromma's Spiked Shell, Freezing Breeze and Acid Splash abilities by $(amount)%.",
+    "effect_string": "buff_upgrades,87.5,554,555,556"
+   }
+  ],
+  "graphic_id": 1415,
+  "hero_id": 16,
+  "id": 374,
+  "name": "Coral Headdress",
+  "rarity": 2,
+  "slot_id": 4
+ },
+ {
+  "description": "A special headdress crafted by one of my many offspring.",
+  "effects": [
+   {
+    "description": "Increases the effect of Gromma's Spiked Shell, Freezing Breeze and Acid Splash abilities by $(amount)%.",
+    "effect_string": "buff_upgrades,150,554,555,556"
+   }
+  ],
+  "graphic_id": 1414,
+  "hero_id": 16,
+  "id": 375,
+  "name": "Braided Headdress",
+  "rarity": 3,
+  "slot_id": 4
+ },
+ {
+  "description": "A gift from the first of my grandchildren to leave the compound and explore the lands.",
+  "effects": [
+   {
+    "description": "Increases the effect of Gromma's Spiked Shell, Freezing Breeze and Acid Splash abilities by $(amount)%.",
+    "effect_string": "buff_upgrades,275,554,555,556"
+   }
+  ],
+  "graphic_id": 1413,
+  "hero_id": 16,
+  "id": 376,
+  "name": "Intricate Headdress of the Grandmother",
+  "rarity": 4,
+  "slot_id": 4
+ },
+ {
+  "description": "Its days are numbered.",
+  "effects": [
+   {
+    "effect_string": "buff_ultimate,25"
+   }
+  ],
+  "graphic_id": 1418,
+  "hero_id": 16,
+  "id": 377,
+  "name": "Fragile Conch",
+  "rarity": 1,
+  "slot_id": 5
+ },
+ {
+  "description": "You can hear the ocean if you put it up to your ear.",
+  "effects": [
+   {
+    "effect_string": "buff_ultimate,87.5"
+   }
+  ],
+  "graphic_id": 1418,
+  "hero_id": 16,
+  "id": 378,
+  "name": "Hearty Conch",
+  "rarity": 2,
+  "slot_id": 5
+ },
+ {
+  "description": "This large conch is older than I am, and I'm practically ancient.",
+  "effects": [
+   {
+    "effect_string": "buff_ultimate,150"
+   }
+  ],
+  "graphic_id": 1417,
+  "hero_id": 16,
+  "id": 379,
+  "name": "Ancient Conch",
+  "rarity": 3,
+  "slot_id": 5
+ },
+ {
+  "description": "Recovered from the slimy tentacles of a slain Marine Decapus.",
+  "effects": [
+   {
+    "effect_string": "buff_ultimate,275"
+   }
+  ],
+  "graphic_id": 1416,
+  "hero_id": 16,
+  "id": 380,
+  "name": "Spiked Conch of the Deep Ocean",
+  "rarity": 4,
+  "slot_id": 5
+ },
+ {
+  "description": "Covered in itchy, scratching sand.",
+  "effects": [
+   {
+    "effect_string": "reduce_ultimate_cooldown,3"
+   }
+  ],
+  "graphic_id": 1421,
+  "hero_id": 16,
+  "id": 381,
+  "name": "Sandy Bracelet",
+  "rarity": 1,
+  "slot_id": 6
+ },
+ {
+  "description": "A single, brilliant pearl makes this bracelet worth wearing.",
+  "effects": [
+   {
+    "effect_string": "reduce_ultimate_cooldown,6"
+   }
+  ],
+  "graphic_id": 1421,
+  "hero_id": 16,
+  "id": 382,
+  "name": "Single Pearl Bracelet",
+  "rarity": 2,
+  "slot_id": 6
+ },
+ {
+  "description": "Crafted for me by a young human during a recent visit to Port Nyanzaru.",
+  "effects": [
+   {
+    "effect_string": "reduce_ultimate_cooldown,12"
+   }
+  ],
+  "graphic_id": 1420,
+  "hero_id": 16,
+  "id": 383,
+  "name": "Dual-Banded Bracelet",
+  "rarity": 3,
+  "slot_id": 6
+ },
+ {
+  "description": "If you put your ear up to the pearl, you can hear the approach of strong storms.",
+  "effects": [
+   {
+    "effect_string": "reduce_ultimate_cooldown,30"
+   }
+  ],
+  "graphic_id": 1419,
+  "hero_id": 16,
+  "id": 384,
+  "name": "Solemn Bone Bracelet of the Wind",
+  "rarity": 4,
+  "slot_id": 6
+ },
+ {
+  "description": "An embaressment to belts everywhere.",
+  "effects": [
+   {
+    "effect_string": "hero_dps_multiplier_mult,50"
+   }
+  ],
+  "graphic_id": 1597,
+  "hero_id": 17,
+  "id": 385,
+  "name": "Tattered Belt",
+  "rarity": 1,
+  "slot_id": 1
+ },
+ {
+  "description": "A belt for someone who spends too much time reading and not enough time being amazing.",
+  "effects": [
+   {
+    "effect_string": "hero_dps_multiplier_mult,125"
+   }
+  ],
+  "graphic_id": 1597,
+  "hero_id": 17,
+  "id": 386,
+  "name": "Scholar's Belt",
+  "rarity": 2,
+  "slot_id": 1
+ },
+ {
+  "description": "Adaquete for a wizard from the coast, perhaps, but someone as great as Dhadius!",
+  "effects": [
+   {
+    "effect_string": "hero_dps_multiplier_mult,200"
+   }
+  ],
+  "graphic_id": 1598,
+  "hero_id": 17,
+  "id": 387,
+  "name": "Wizard's Belt",
+  "rarity": 3,
+  "slot_id": 1
+ },
+ {
+  "description": "I certainly am that.",
+  "effects": [
+   {
+    "effect_string": "hero_dps_multiplier_mult,350"
+   }
+  ],
+  "graphic_id": 1599,
+  "hero_id": 17,
+  "id": 388,
+  "name": "Glorious Belt of the Impressive Wizard",
+  "rarity": 4,
+  "slot_id": 1
+ },
+ {
+  "description": "A bracer for a lesser mage. I object to wearing it, honestly.",
+  "effects": [
+   {
+    "effect_string": "global_dps_multiplier_mult,10"
+   }
+  ],
+  "graphic_id": 1600,
+  "hero_id": 17,
+  "id": 389,
+  "name": "Clumsy Bracer",
+  "rarity": 1,
+  "slot_id": 2
+ },
+ {
+  "description": "Provides some deflection, I suppose. Not that I need it.",
+  "effects": [
+   {
+    "effect_string": "global_dps_multiplier_mult,65"
+   }
+  ],
+  "graphic_id": 1600,
+  "hero_id": 17,
+  "id": 390,
+  "name": "Leather Bracer",
+  "rarity": 2,
+  "slot_id": 2
+ },
+ {
+  "description": "Empowers my already formidable magical abilities.",
+  "effects": [
+   {
+    "effect_string": "global_dps_multiplier_mult,120"
+   }
+  ],
+  "graphic_id": 1601,
+  "hero_id": 17,
+  "id": 391,
+  "name": "Arcane Bracer",
+  "rarity": 3,
+  "slot_id": 2
+ },
+ {
+  "description": "Well, if you say so.",
+  "effects": [
+   {
+    "effect_string": "global_dps_multiplier_mult,230"
+   }
+  ],
+  "graphic_id": 1602,
+  "hero_id": 17,
+  "id": 392,
+  "name": "Wonderous Bracer of the Greatest Wizard",
+  "rarity": 4,
+  "slot_id": 2
+ },
+ {
+  "description": "It'll do until I can get back into my usual wardrobe.",
+  "effects": [
+   {
+    "effect_string": "buff_upgrade,25,596"
+   }
+  ],
+  "graphic_id": 1604,
+  "hero_id": 17,
+  "id": 393,
+  "name": "Ratty Cloak",
+  "rarity": 1,
+  "slot_id": 3
+ },
+ {
+  "description": "It's not mine, I'm just borrowing it.",
+  "effects": [
+   {
+    "effect_string": "buff_upgrade,87.5,596"
+   }
+  ],
+  "graphic_id": 1604,
+  "hero_id": 17,
+  "id": 394,
+  "name": "Apprentice's Cloak",
+  "rarity": 2,
+  "slot_id": 3
+ },
+ {
+  "description": "Velvet is the hallmark of impressive wizards, you know.",
+  "effects": [
+   {
+    "effect_string": "buff_upgrade,150,596"
+   }
+  ],
+  "graphic_id": 1605,
+  "hero_id": 17,
+  "id": 395,
+  "name": "Velvet Cloak",
+  "rarity": 3,
+  "slot_id": 3
+ },
+ {
+  "description": "I am respected, aren't I?",
+  "effects": [
+   {
+    "effect_string": "buff_upgrade,275,596"
+   }
+  ],
+  "graphic_id": 1603,
+  "hero_id": 17,
+  "id": 396,
+  "name": "Flowing Cloak of the Respected Wizard",
+  "rarity": 4,
+  "slot_id": 3
+ },
+ {
+  "description": "In the hands of an amazing wizard such as myself, even a simple ring can be powerful.",
+  "effects": [
+   {
+    "effect_string": "buff_upgrade,25,597"
+   }
+  ],
+  "graphic_id": 1606,
+  "hero_id": 17,
+  "id": 397,
+  "name": "Tin Ring",
+  "rarity": 1,
+  "slot_id": 4
+ },
+ {
+  "description": "It may not look like much - or be much, for that matter - but it's mine, so it's impressive.",
+  "effects": [
+   {
+    "effect_string": "buff_upgrade,87.5,597"
+   }
+  ],
+  "graphic_id": 1606,
+  "hero_id": 17,
+  "id": 398,
+  "name": "Shiny Iron Ring",
+  "rarity": 2,
+  "slot_id": 4
+ },
+ {
+  "description": "Just a single touch can turn a man to ice. Or make them somewhat chilly, at least.",
+  "effects": [
+   {
+    "effect_string": "buff_upgrade,150,597"
+   }
+  ],
+  "graphic_id": 1607,
+  "hero_id": 17,
+  "id": 399,
+  "name": "Frosted Ring",
+  "rarity": 3,
+  "slot_id": 4
+ },
+ {
+  "description": "Not that I have to prove myself to anyone.",
+  "effects": [
+   {
+    "effect_string": "buff_upgrade,275,597"
+   }
+  ],
+  "graphic_id": 1608,
+  "hero_id": 17,
+  "id": 400,
+  "name": "Frozen Ring of the Proven Wizard",
+  "rarity": 4,
+  "slot_id": 4
+ },
+ {
+  "description": "Nothing a little ingenuity can't fix.",
+  "effects": [
+   {
+    "effect_string": "buff_ultimate,25"
+   }
+  ],
+  "graphic_id": 1609,
+  "hero_id": 17,
+  "id": 401,
+  "name": "Cracked Staff",
+  "rarity": 1,
+  "slot_id": 5
+ },
+ {
+  "description": "If your staff isn't glowing, you're not wizarding right.",
+  "effects": [
+   {
+    "effect_string": "buff_ultimate,87.5"
+   }
+  ],
+  "graphic_id": 1609,
+  "hero_id": 17,
+  "id": 402,
+  "name": "Glowing Staff",
+  "rarity": 2,
+  "slot_id": 5
+ },
+ {
+  "description": "Shining like the statue of me in the Luskan harbour will be. Once I get my due.",
+  "effects": [
+   {
+    "effect_string": "buff_ultimate,150"
+   }
+  ],
+  "graphic_id": 1610,
+  "hero_id": 17,
+  "id": 403,
+  "name": "Shining Staff",
+  "rarity": 3,
+  "slot_id": 5
+ },
+ {
+  "description": "Are you sure 'legendary' is the right word? It seems too simple to me.",
+  "effects": [
+   {
+    "effect_string": "buff_ultimate,275"
+   }
+  ],
+  "graphic_id": 1611,
+  "hero_id": 17,
+  "id": 404,
+  "name": "Brilliant Staff of the Legendary Wizard",
+  "rarity": 4,
+  "slot_id": 5
+ },
+ {
+  "description": "The Arcane Brotherhood's symbol should never be displayed so dimly.",
+  "effects": [
+   {
+    "effect_string": "reduce_ultimate_cooldown,7"
+   }
+  ],
+  "graphic_id": 1612,
+  "hero_id": 17,
+  "id": 405,
+  "name": "Dull Amulet",
+  "rarity": 1,
+  "slot_id": 6
+ },
+ {
+  "description": "It's a little difficult to handle. Shocks you when you touch it.",
+  "effects": [
+   {
+    "effect_string": "reduce_ultimate_cooldown,13"
+   }
+  ],
+  "graphic_id": 1612,
+  "hero_id": 17,
+  "id": 406,
+  "name": "Sparking Amulet",
+  "rarity": 2,
+  "slot_id": 6
+ },
+ {
+  "description": "A wonderful symbol of the Brotherhood.",
+  "effects": [
+   {
+    "effect_string": "reduce_ultimate_cooldown,25"
+   }
+  ],
+  "graphic_id": 1613,
+  "hero_id": 17,
+  "id": 407,
+  "name": "Onyx Arcane Brotherhood Amulet",
+  "rarity": 3,
+  "slot_id": 6
+ },
+ {
+  "description": "I certainly wouldn't want to assume a rank, but that sounds about right.",
+  "effects": [
+   {
+    "effect_string": "reduce_ultimate_cooldown,63"
+   }
+  ],
+  "graphic_id": 1614,
+  "hero_id": 17,
+  "id": 408,
+  "name": "Master's Amulet of the Arcane Brotherhood",
+  "rarity": 4,
+  "slot_id": 6
+ },
+ {
+  "description": "The first scimitar I used in my training with Zaknafein.",
+  "effects": [
+   {
+    "effect_string": "hero_dps_multiplier_mult,50"
+   }
+  ],
+  "graphic_id": 1715,
+  "hero_id": 18,
+  "id": 409,
+  "name": "Cracked Scimitar",
+  "rarity": 1,
+  "slot_id": 1
+ },
+ {
+  "description": "An instrument of death in the hands of an experienced drow warrior.",
+  "effects": [
+   {
+    "effect_string": "hero_dps_multiplier_mult,125"
+   }
+  ],
+  "graphic_id": 1715,
+  "hero_id": 18,
+  "id": 410,
+  "name": "Sharp Scimitar",
+  "rarity": 2,
+  "slot_id": 1
+ },
+ {
+  "description": "It pulses with a soft icy glow.",
+  "effects": [
+   {
+    "effect_string": "hero_dps_multiplier_mult,200"
+   }
+  ],
+  "graphic_id": 1716,
+  "hero_id": 18,
+  "id": 411,
+  "name": "Frostbrand Scimitar",
+  "rarity": 3,
+  "slot_id": 1
+ },
+ {
+  "description": "Found in the treasure hoard of the white dragon Ingeloakastimizilian, better known as Icingdeath.",
+  "effects": [
+   {
+    "effect_string": "hero_dps_multiplier_mult,350"
+   }
+  ],
+  "graphic_id": 1717,
+  "hero_id": 18,
+  "id": 412,
+  "name": "Icingdeath",
+  "rarity": 4,
+  "slot_id": 1
+ },
+ {
+  "description": "A dull weapon suitable for training young Drow in the ways of battle.",
+  "effects": [
+   {
+    "effect_string": "hero_dps_multiplier_mult,50"
+   }
+  ],
+  "graphic_id": 1721,
+  "hero_id": 18,
+  "id": 413,
+  "name": "Dull Scimitar",
+  "rarity": 1,
+  "slot_id": 2
+ },
+ {
+  "description": "A slender weapon; far more deadly than a bulky greatsword.",
+  "effects": [
+   {
+    "effect_string": "hero_dps_multiplier_mult,125"
+   }
+  ],
+  "graphic_id": 1721,
+  "hero_id": 18,
+  "id": 414,
+  "name": "Lithe Scimitar",
+  "rarity": 2,
+  "slot_id": 2
+ },
+ {
+  "description": "An experienced warrior can use a sword for defense as well as offense.",
+  "effects": [
+   {
+    "effect_string": "hero_dps_multiplier_mult,200"
+   }
+  ],
+  "graphic_id": 1722,
+  "hero_id": 18,
+  "id": 415,
+  "name": "Defender Scimitar",
+  "rarity": 3,
+  "slot_id": 2
+ },
+ {
+  "description": "Gifted to me by a Harpell of all people. One of the few sane ones.",
+  "effects": [
+   {
+    "effect_string": "hero_dps_multiplier_mult,350"
+   }
+  ],
+  "graphic_id": 1723,
+  "hero_id": 18,
+  "id": 416,
+  "name": "Twinkle",
+  "rarity": 4,
+  "slot_id": 2
+ },
+ {
+  "description": "An apt metaphor for myself, if I'm being introspective.",
+  "effects": [
+   {
+    "effect_string": "global_dps_multiplier_mult,10"
+   }
+  ],
+  "graphic_id": 1709,
+  "hero_id": 18,
+  "id": 417,
+  "name": "Tattered Cloak",
+  "rarity": 1,
+  "slot_id": 3
+ },
+ {
+  "description": "Allows you to blend in with the stony crags and otherworldly fungi of the Underdark.",
+  "effects": [
+   {
+    "effect_string": "global_dps_multiplier_mult,65"
+   }
+  ],
+  "graphic_id": 1709,
+  "hero_id": 18,
+  "id": 418,
+  "name": "Underdark Cloak",
+  "rarity": 2,
+  "slot_id": 3
+ },
+ {
+  "description": "There was a time I would have been thrilled to receive this cloak. Now I use it because I must.",
+  "effects": [
+   {
+    "effect_string": "global_dps_multiplier_mult,120"
+   }
+  ],
+  "graphic_id": 1710,
+  "hero_id": 18,
+  "id": 419,
+  "name": "Drow Ranger's Cloak",
+  "rarity": 3,
+  "slot_id": 3
+ },
+ {
+  "description": "Gifted to me by the Weeping Friars. Strange folk.",
+  "effects": [
+   {
+    "effect_string": "global_dps_multiplier_mult,230"
+   }
+  ],
+  "graphic_id": 1711,
+  "hero_id": 18,
+  "id": 420,
+  "name": "Hooded Cloak of the Faer\u00fbn Hero",
+  "rarity": 4,
+  "slot_id": 3
+ },
+ {
+  "description": "It would be better if you simply didn't get hit while wearing this.",
+  "effects": [
+   {
+    "effect_string": "buff_upgrade,25,634"
+   }
+  ],
+  "graphic_id": 1712,
+  "hero_id": 18,
+  "id": 421,
+  "name": "Flimsy Chest Piece",
+  "rarity": 1,
+  "slot_id": 4
+ },
+ {
+  "description": "A generic leather chest piece. Not much to note.",
+  "effects": [
+   {
+    "effect_string": "buff_upgrade,87.5,634"
+   }
+  ],
+  "graphic_id": 1712,
+  "hero_id": 18,
+  "id": 422,
+  "name": "Leather Chest Piece",
+  "rarity": 2,
+  "slot_id": 4
+ },
+ {
+  "description": "Aids me in moving quickly and silently through most terrain.",
+  "effects": [
+   {
+    "effect_string": "buff_upgrade,150,634"
+   }
+  ],
+  "graphic_id": 1713,
+  "hero_id": 18,
+  "id": 423,
+  "name": "Drow Ranger's Chest Piece",
+  "rarity": 3,
+  "slot_id": 4
+ },
+ {
+  "description": "I miss my homeland some days, but I don't miss the pain and strife that consumes that place.",
+  "effects": [
+   {
+    "effect_string": "buff_upgrade,275,634"
+   }
+  ],
+  "graphic_id": 1714,
+  "hero_id": 18,
+  "id": 424,
+  "name": "Chest Piece of the Lost Homeland",
+  "rarity": 4,
+  "slot_id": 4
+ },
+ {
+  "description": "A children's play-thing.",
+  "effects": [
+   {
+    "effect_string": "buff_ultimate,25"
+   }
+  ],
+  "graphic_id": 1718,
+  "hero_id": 18,
+  "id": 425,
+  "name": "Panther Toy",
+  "rarity": 1,
+  "slot_id": 5
+ },
+ {
+  "description": "It has been painted black to resemble a more powerful artifact.",
+  "effects": [
+   {
+    "effect_string": "buff_ultimate,87.5"
+   }
+  ],
+  "graphic_id": 1718,
+  "hero_id": 18,
+  "id": 426,
+  "name": "Tin Statue",
+  "rarity": 2,
+  "slot_id": 5
+ },
+ {
+  "description": "Transforms into a black panther upon command. Not Guenhwyvar, though.",
+  "effects": [
+   {
+    "effect_string": "buff_ultimate,150"
+   }
+  ],
+  "graphic_id": 1719,
+  "hero_id": 18,
+  "id": 427,
+  "name": "Onyx Figurine",
+  "rarity": 3,
+  "slot_id": 5
+ },
+ {
+  "description": "A unique figurine that summons my faithful companion, Guenhwyvar.",
+  "effects": [
+   {
+    "effect_string": "buff_ultimate,275"
+   }
+  ],
+  "graphic_id": 1720,
+  "hero_id": 18,
+  "id": 428,
+  "name": "Figurine of Guenhwyvar",
+  "rarity": 4,
+  "slot_id": 5
+ },
+ {
+  "description": "An apprentice's replica of a far more powerful artifact.",
+  "effects": [
+   {
+    "effect_string": "reduce_ultimate_cooldown,7"
+   }
+  ],
+  "graphic_id": 1724,
+  "hero_id": 18,
+  "id": 429,
+  "name": "Steel Charm",
+  "rarity": 1,
+  "slot_id": 6
+ },
+ {
+  "description": "A simple charm engraved with a unicorn motif.",
+  "effects": [
+   {
+    "effect_string": "reduce_ultimate_cooldown,14"
+   }
+  ],
+  "graphic_id": 1724,
+  "hero_id": 18,
+  "id": 430,
+  "name": "Engraved Charm",
+  "rarity": 2,
+  "slot_id": 6
+ },
+ {
+  "description": "Can be used to summon a faithful unicorn mount, if you are worthy.",
+  "effects": [
+   {
+    "effect_string": "reduce_ultimate_cooldown,28"
+   }
+  ],
+  "graphic_id": 1725,
+  "hero_id": 18,
+  "id": 431,
+  "name": "Unicorn Necklace",
+  "rarity": 3,
+  "slot_id": 6
+ },
+ {
+  "description": "The ruling council of Silverymoon granted me Andarhar as gratitude for my service.",
+  "effects": [
+   {
+    "effect_string": "reduce_ultimate_cooldown,70"
+   }
+  ],
+  "graphic_id": 1726,
+  "hero_id": 18,
+  "id": 432,
+  "name": "Horn Charm of Mielikki",
+  "rarity": 4,
+  "slot_id": 6
+ },
+ {
+  "description": "Still sturdy enough to cause damage, if ye know what yer doin'.",
+  "effects": [
+   {
+    "effect_string": "hero_dps_multiplier_mult,50"
+   }
+  ],
+  "graphic_id": 1907,
+  "hero_id": 19,
+  "id": 433,
+  "name": "Cracked Hammer",
+  "rarity": 1,
+  "slot_id": 1
+ },
+ {
+  "description": "A hammer's just a chunk o' iron 'til it's in the hands of a proper warrior.",
+  "effects": [
+   {
+    "effect_string": "hero_dps_multiplier_mult,125"
+   }
+  ],
+  "graphic_id": 1907,
+  "hero_id": 19,
+  "id": 434,
+  "name": "Stout Hammer",
+  "rarity": 2,
+  "slot_id": 1
+ },
+ {
+  "description": "The last thing me enemies see before Gorm takes 'em.",
+  "effects": [
+   {
+    "effect_string": "hero_dps_multiplier_mult,200"
+   }
+  ],
+  "graphic_id": 1908,
+  "hero_id": 19,
+  "id": 435,
+  "name": "Shining Hammer",
+  "rarity": 3,
+  "slot_id": 1
+ },
+ {
+  "description": "A beacon of hope for all who see its mighty swing. Enemies not included, of course.",
+  "effects": [
+   {
+    "effect_string": "hero_dps_multiplier_mult,350"
+   }
+  ],
+  "graphic_id": 1909,
+  "hero_id": 19,
+  "id": 436,
+  "name": "Golden Hammer of Clan Undurr",
+  "rarity": 4,
+  "slot_id": 1
+ },
+ {
+  "description": "A sad thing, but it's nice to have somethin' to follow.",
+  "effects": [
+   {
+    "effect_string": "global_dps_multiplier_mult,10"
+   }
+  ],
+  "graphic_id": 1898,
+  "hero_id": 19,
+  "id": 437,
+  "name": "Ratty Banner",
+  "rarity": 1,
+  "slot_id": 2
+ },
+ {
+  "description": "As durable as the Order of the Gauntlet itself.",
+  "effects": [
+   {
+    "effect_string": "global_dps_multiplier_mult,65"
+   }
+  ],
+  "graphic_id": 1898,
+  "hero_id": 19,
+  "id": 438,
+  "name": "Durable Banner",
+  "rarity": 2,
+  "slot_id": 2
+ },
+ {
+  "description": "Brings a tear to me eye seein' it flap in the wind.",
+  "effects": [
+   {
+    "effect_string": "global_dps_multiplier_mult,120"
+   }
+  ],
+  "graphic_id": 1899,
+  "hero_id": 19,
+  "id": 439,
+  "name": "Waving Banner",
+  "rarity": 3,
+  "slot_id": 2
+ },
+ {
+  "description": "The Order is my home now. I shall follow them to the end o' time.",
+  "effects": [
+   {
+    "effect_string": "global_dps_multiplier_mult,230"
+   }
+  ],
+  "graphic_id": 1900,
+  "hero_id": 19,
+  "id": 440,
+  "name": "Order of the Gauntlet Banner",
+  "rarity": 4,
+  "slot_id": 2
+ },
+ {
+  "description": "Even the craggiest chunk of brass can have great meaning.",
+  "effects": [
+   {
+    "effect_string": "buff_upgrade,25,640"
+   }
+  ],
+  "graphic_id": 1913,
+  "hero_id": 19,
+  "id": 441,
+  "name": "Dull Brass Symbol",
+  "rarity": 1,
+  "slot_id": 3
+ },
+ {
+  "description": "There was a time that I dinnae know what this symbol meant.",
+  "effects": [
+   {
+    "effect_string": "buff_upgrade,87.5,640"
+   }
+  ],
+  "graphic_id": 1913,
+  "hero_id": 19,
+  "id": 442,
+  "name": "Dwarf-Forged Symbol",
+  "rarity": 2,
+  "slot_id": 3
+ },
+ {
+  "description": "In me time of need, Gorm has been a shining beacon of hope.",
+  "effects": [
+   {
+    "effect_string": "buff_upgrade,150,640"
+   }
+  ],
+  "graphic_id": 1914,
+  "hero_id": 19,
+  "id": 443,
+  "name": "Symbol of Gorm",
+  "rarity": 3,
+  "slot_id": 3
+ },
+ {
+  "description": "Gorm Gulthyn himself has chosen me as his emissary, of this I am sure.",
+  "effects": [
+   {
+    "effect_string": "buff_upgrade,275,640"
+   }
+  ],
+  "graphic_id": 1915,
+  "hero_id": 19,
+  "id": 444,
+  "name": "Faithful Golden Amulet of Gorm",
+  "rarity": 4,
+  "slot_id": 3
+ },
+ {
+  "description": "Protects me waist and me legs! A little on the heavy side, though.",
+  "effects": [
+   {
+    "effect_string": "buff_upgrade,25,641"
+   }
+  ],
+  "graphic_id": 1901,
+  "hero_id": 19,
+  "id": 445,
+  "name": "Heavy Belt",
+  "rarity": 1,
+  "slot_id": 4
+ },
+ {
+  "description": "Yer gonna need a strong blow to get through this.",
+  "effects": [
+   {
+    "effect_string": "buff_upgrade,87.5,641"
+   }
+  ],
+  "graphic_id": 1901,
+  "hero_id": 19,
+  "id": 446,
+  "name": "Iron Plated Belt",
+  "rarity": 2,
+  "slot_id": 4
+ },
+ {
+  "description": "I was thinkin' one day, what haven't I plated in gold yet? Then I looked down.",
+  "effects": [
+   {
+    "effect_string": "buff_upgrade,150,641"
+   }
+  ],
+  "graphic_id": 1902,
+  "hero_id": 19,
+  "id": 447,
+  "name": "Gold Plated Belt",
+  "rarity": 3,
+  "slot_id": 4
+ },
+ {
+  "description": "It is my solemn duty to aid those in need and defend those who cannae defend themselves.",
+  "effects": [
+   {
+    "effect_string": "buff_upgrade,275,641"
+   }
+  ],
+  "graphic_id": 1903,
+  "hero_id": 19,
+  "id": 448,
+  "name": "Shining Belt of the Devout Cleric",
+  "rarity": 4,
+  "slot_id": 4
+ },
+ {
+  "description": "I'm one tough dwarf to crack.",
+  "effects": [
+   {
+    "effect_string": "buff_ultimate,25"
+   }
+  ],
+  "graphic_id": 1904,
+  "hero_id": 19,
+  "id": 449,
+  "name": "Steel Breastplate",
+  "rarity": 1,
+  "slot_id": 5
+ },
+ {
+  "description": "Ye can never have enough gold on yer armor, ye know.",
+  "effects": [
+   {
+    "effect_string": "buff_ultimate,87.5"
+   }
+  ],
+  "graphic_id": 1904,
+  "hero_id": 19,
+  "id": 450,
+  "name": "Ornate Breastplate",
+  "rarity": 2,
+  "slot_id": 5
+ },
+ {
+  "description": "A masterfully crafted breastplate, if I ever saw one.",
+  "effects": [
+   {
+    "effect_string": "buff_ultimate,150"
+   }
+  ],
+  "graphic_id": 1905,
+  "hero_id": 19,
+  "id": 451,
+  "name": "Gemmed Breastplate",
+  "rarity": 3,
+  "slot_id": 5
+ },
+ {
+  "description": "Perhaps a little over the top, yea, but if it causes just one enemy to pause, it's done its job.",
+  "effects": [
+   {
+    "effect_string": "buff_ultimate,275"
+   }
+  ],
+  "graphic_id": 1906,
+  "hero_id": 19,
+  "id": 452,
+  "name": "Bejewelled Breastplate of Dwarves",
+  "rarity": 4,
+  "slot_id": 5
+ },
+ {
+  "description": "The old helm of my beloved, Storn Skulldark.",
+  "effects": [
+   {
+    "effect_string": "reduce_ultimate_cooldown,9"
+   }
+  ],
+  "graphic_id": 1910,
+  "hero_id": 19,
+  "id": 453,
+  "name": "Used Helmet",
+  "rarity": 1,
+  "slot_id": 6
+ },
+ {
+  "description": "Granted to me by the Order of the Gauntlet when I joined their ranks.",
+  "effects": [
+   {
+    "effect_string": "reduce_ultimate_cooldown,18"
+   }
+  ],
+  "graphic_id": 1910,
+  "hero_id": 19,
+  "id": 454,
+  "name": "New Helmet",
+  "rarity": 2,
+  "slot_id": 6
+ },
+ {
+  "description": "Dinnae worry about me, it's reinforced with good dwarven steel.",
+  "effects": [
+   {
+    "effect_string": "reduce_ultimate_cooldown,36"
+   }
+  ],
+  "graphic_id": 1911,
+  "hero_id": 19,
+  "id": 455,
+  "name": "Jewelled Helmet",
+  "rarity": 3,
+  "slot_id": 6
+ },
+ {
+  "description": "Granted only to the Order's most devout and effective followers.",
+  "effects": [
+   {
+    "effect_string": "reduce_ultimate_cooldown,90"
+   }
+  ],
+  "graphic_id": 1912,
+  "hero_id": 19,
+  "id": 456,
+  "name": "Brilliant Helmet of the Order",
+  "rarity": 4,
+  "slot_id": 6
+ },
+ {
+  "description": "I prefer sneaking to stabbing, to be honest.",
+  "effects": [
+   {
+    "effect_string": "hero_dps_multiplier_mult,50"
+   }
+  ],
+  "graphic_id": 2041,
+  "hero_id": 20,
+  "id": 457,
+  "name": "Dull Dagger",
+  "rarity": 1,
+  "slot_id": 1
+ },
+ {
+  "description": "This is what happens when you try to fight. Your nice things get chipped.",
+  "effects": [
+   {
+    "effect_string": "hero_dps_multiplier_mult,125"
+   }
+  ],
+  "graphic_id": 2041,
+  "hero_id": 20,
+  "id": 458,
+  "name": "Chipped Dagger",
+  "rarity": 2,
+  "slot_id": 1
+ },
+ {
+  "description": "A solid dagger for a solid fellow, if I do say so myself.",
+  "effects": [
+   {
+    "effect_string": "hero_dps_multiplier_mult,200"
+   }
+  ],
+  "graphic_id": 2042,
+  "hero_id": 20,
+  "id": 459,
+  "name": "Halfling's Dagger",
+  "rarity": 3,
+  "slot_id": 1
+ },
+ {
+  "description": "I'd rather not use this. It's quite nice and pristine.",
+  "effects": [
+   {
+    "effect_string": "hero_dps_multiplier_mult,350"
+   }
+  ],
+  "graphic_id": 2043,
+  "hero_id": 20,
+  "id": 460,
+  "name": "Inscribed Dagger of the Hesitant Rogue",
+  "rarity": 4,
+  "slot_id": 1
+ },
+ {
+  "description": "It kind of... bends... when you swing it.",
+  "effects": [
+   {
+    "effect_string": "global_dps_multiplier_mult,10"
+   }
+  ],
+  "graphic_id": 2044,
+  "hero_id": 20,
+  "id": 461,
+  "name": "Light Mace",
+  "rarity": 1,
+  "slot_id": 2
+ },
+ {
+  "description": "Orcs don't take too kindly to being bopped by this mace. Take it from me.",
+  "effects": [
+   {
+    "effect_string": "global_dps_multiplier_mult,65"
+   }
+  ],
+  "graphic_id": 2044,
+  "hero_id": 20,
+  "id": 462,
+  "name": "Dented Mace",
+  "rarity": 2,
+  "slot_id": 2
+ },
+ {
+  "description": "This mace and I have travelled many roads together.",
+  "effects": [
+   {
+    "effect_string": "global_dps_multiplier_mult,120"
+   }
+  ],
+  "graphic_id": 2045,
+  "hero_id": 20,
+  "id": 463,
+  "name": "Traveller's Mace",
+  "rarity": 3,
+  "slot_id": 2
+ },
+ {
+  "description": "Did I ever tell you about the time I ruled the Mithral Hall?",
+  "effects": [
+   {
+    "effect_string": "global_dps_multiplier_mult,230"
+   }
+  ],
+  "graphic_id": 2046,
+  "hero_id": 20,
+  "id": 464,
+  "name": "Short Mace of Dwarven Rule",
+  "rarity": 4,
+  "slot_id": 2
+ },
+ {
+  "description": "This ruby ought to fetch a good price in Baldur's Gate.",
+  "effects": [
+   {
+    "description": "Increases the effect of Regis' Ruby Encouragement ability by $(amount)%.",
+    "effect_string": "buff_upgrades,25,695,696"
+   }
+  ],
+  "graphic_id": 2032,
+  "hero_id": 20,
+  "id": 465,
+  "name": "Dull Ruby Amulet",
+  "rarity": 1,
+  "slot_id": 3
+ },
+ {
+  "description": "It certainly is alluring.",
+  "effects": [
+   {
+    "description": "Increases the effect of Regis' Ruby Encouragement ability by $(amount)%.",
+    "effect_string": "buff_upgrades,87.5,695,696"
+   }
+  ],
+  "graphic_id": 2032,
+  "hero_id": 20,
+  "id": 466,
+  "name": "Shiny Ruby Amulet",
+  "rarity": 2,
+  "slot_id": 3
+ },
+ {
+  "description": "I suspect it holds some magical power.",
+  "effects": [
+   {
+    "description": "Increases the effect of Regis' Ruby Encouragement ability by $(amount)%.",
+    "effect_string": "buff_upgrades,150,695,696"
+   }
+  ],
+  "graphic_id": 2033,
+  "hero_id": 20,
+  "id": 467,
+  "name": "Pulsing Ruby Amulet",
+  "rarity": 3,
+  "slot_id": 3
+ },
+ {
+  "description": "Oh, don't worry. He won't miss it. He's got eleven others.",
+  "effects": [
+   {
+    "description": "Increases the effect of Regis' Ruby Encouragement ability by $(amount)%.",
+    "effect_string": "buff_upgrades,275,695,696"
+   }
+  ],
+  "graphic_id": 2034,
+  "hero_id": 20,
+  "id": 468,
+  "name": "Pasha Pook's Ruby Amulet",
+  "rarity": 4,
+  "slot_id": 3
+ },
+ {
+  "description": "Spoiled?! I fished it up just a few days ago.",
+  "effects": [
+   {
+    "description": "Increases the effect of Regis' Ruby Weakness ability by $(amount)%.",
+    "effect_string": "buff_upgrades,25,697,698,699"
+   }
+  ],
+  "graphic_id": 2062,
+  "hero_id": 20,
+  "id": 469,
+  "name": "Spoiled Trout",
+  "rarity": 1,
+  "slot_id": 4
+ },
+ {
+  "description": "A trout worthy of an adventurer's lunch sack, if I ever saw one.",
+  "effects": [
+   {
+    "description": "Increases the effect of Regis' Ruby Weakness ability by $(amount)%.",
+    "effect_string": "buff_upgrades,87.5,697,698,699"
+   }
+  ],
+  "graphic_id": 2062,
+  "hero_id": 20,
+  "id": 470,
+  "name": "Dry Trout",
+  "rarity": 2,
+  "slot_id": 4
+ },
+ {
+  "description": "Who doesn't like a nice snack mid-adventure?",
+  "effects": [
+   {
+    "description": "Increases the effect of Regis' Ruby Weakness ability by $(amount)%.",
+    "effect_string": "buff_upgrades,150,697,698,699"
+   }
+  ],
+  "graphic_id": 2063,
+  "hero_id": 20,
+  "id": 471,
+  "name": "Filet o' Knuckhead",
+  "rarity": 3,
+  "slot_id": 4
+ },
+ {
+  "description": "The perfect snack for a journey to Icewind Dale.",
+  "effects": [
+   {
+    "description": "Increases the effect of Regis' Ruby Weakness ability by $(amount)%.",
+    "effect_string": "buff_upgrades,275,697,698,699"
+   }
+  ],
+  "graphic_id": 2064,
+  "hero_id": 20,
+  "id": 472,
+  "name": "Freshly Salted Knucklehead Trout",
+  "rarity": 4,
+  "slot_id": 4
+ },
+ {
+  "description": "You put things in and they almost immediately fall out.",
+  "effects": [
+   {
+    "effect_string": "buff_ultimate,25"
+   }
+  ],
+  "graphic_id": 2035,
+  "hero_id": 20,
+  "id": 473,
+  "name": "Holey Bag",
+  "rarity": 1,
+  "slot_id": 5
+ },
+ {
+  "description": "Certainly won't fall apart on you, no matter how long your travels.",
+  "effects": [
+   {
+    "effect_string": "buff_ultimate,87.5"
+   }
+  ],
+  "graphic_id": 2035,
+  "hero_id": 20,
+  "id": 474,
+  "name": "Sturdy Bag",
+  "rarity": 2,
+  "slot_id": 5
+ },
+ {
+  "description": "For when your journey may be longer than your foresight.",
+  "effects": [
+   {
+    "effect_string": "buff_ultimate,150"
+   }
+  ],
+  "graphic_id": 2036,
+  "hero_id": 20,
+  "id": 475,
+  "name": "Traveller's Bag",
+  "rarity": 3,
+  "slot_id": 5
+ },
+ {
+  "description": "It's like a Bag of Holding, except completely plain and non-magical.",
+  "effects": [
+   {
+    "effect_string": "buff_ultimate,275"
+   }
+  ],
+  "graphic_id": 2037,
+  "hero_id": 20,
+  "id": 476,
+  "name": "Halfling's Bag of Stashing",
+  "rarity": 4,
+  "slot_id": 5
+ },
+ {
+  "description": "If you're going to fight, you may as well be wearing a hat.",
+  "effects": [
+   {
+    "effect_string": "reduce_ultimate_cooldown,8"
+   }
+  ],
+  "graphic_id": 2038,
+  "hero_id": 20,
+  "id": 477,
+  "name": "Faded Beret",
+  "rarity": 1,
+  "slot_id": 6
+ },
+ {
+  "description": "If you're going to fight, you may as well be comfortable.",
+  "effects": [
+   {
+    "effect_string": "reduce_ultimate_cooldown,15"
+   }
+  ],
+  "graphic_id": 2038,
+  "hero_id": 20,
+  "id": 478,
+  "name": "Comfortable Beret",
+  "rarity": 2,
+  "slot_id": 6
+ },
+ {
+  "description": "If you're going to fight, you may as well be fashionable.",
+  "effects": [
+   {
+    "effect_string": "reduce_ultimate_cooldown,30"
+   }
+  ],
+  "graphic_id": 2039,
+  "hero_id": 20,
+  "id": 479,
+  "name": "Fashionable Beret",
+  "rarity": 3,
+  "slot_id": 6
+ },
+ {
+  "description": "Rather than fight, why not simply blend in with the enemy?",
+  "effects": [
+   {
+    "effect_string": "reduce_ultimate_cooldown,75"
+   }
+  ],
+  "graphic_id": 2040,
+  "hero_id": 20,
+  "id": 480,
+  "name": "Protective Beret of Disguise",
+  "rarity": 4,
+  "slot_id": 6
+ },
+ {
+  "description": "Sharper and lighter than an iron sword.",
+  "effects": [
+   {
+    "effect_string": "hero_dps_multiplier_mult,125"
+   }
+  ],
+  "graphic_id": 2140,
+  "hero_id": 21,
+  "id": 482,
+  "name": "Steel Shortsword",
+  "rarity": 2,
+  "slot_id": 1
+ },
+ {
+  "description": "Sturdy but heavy, enough to inflict damage with some moderate effort.",
+  "effects": [
+   {
+    "effect_string": "hero_dps_multiplier_mult,50"
+   }
+  ],
+  "graphic_id": 2140,
+  "hero_id": 21,
+  "id": 481,
+  "name": "Iron Shortsword",
+  "rarity": 1,
+  "slot_id": 1
+ },
+ {
+  "description": "This blade sings the songs of battle.",
+  "effects": [
+   {
+    "effect_string": "hero_dps_multiplier_mult,200"
+   }
+  ],
+  "graphic_id": 2141,
+  "hero_id": 21,
+  "id": 483,
+  "name": "Singing Sword",
+  "rarity": 3,
+  "slot_id": 1
+ },
+ {
+  "description": "It never needs to be sharpened, much like my wit!",
+  "effects": [
+   {
+    "effect_string": "hero_dps_multiplier_mult,350"
+   }
+  ],
+  "graphic_id": 2142,
+  "hero_id": 21,
+  "id": 484,
+  "name": "Hardy Sword of Sharpness",
+  "rarity": 4,
+  "slot_id": 1
+ },
+ {
+  "description": "Simple bracers fashioned from discarded cloth.",
+  "effects": [
+   {
+    "effect_string": "hero_dps_multiplier_mult,50"
+   }
+  ],
+  "graphic_id": 2134,
+  "hero_id": 21,
+  "id": 485,
+  "name": "Cloth Bracers",
+  "rarity": 1,
+  "slot_id": 2
+ },
+ {
+  "description": "These wraps provide moderate defense, but primarily help brace my arm in battle.",
+  "effects": [
+   {
+    "effect_string": "hero_dps_multiplier_mult,125"
+   }
+  ],
+  "graphic_id": 2134,
+  "hero_id": 21,
+  "id": 486,
+  "name": "Wrapped Bracers",
+  "rarity": 2,
+  "slot_id": 2
+ },
+ {
+  "description": "A stable bracer that aids in both attack and defense.",
+  "effects": [
+   {
+    "effect_string": "hero_dps_multiplier_mult,200"
+   }
+  ],
+  "graphic_id": 2135,
+  "hero_id": 21,
+  "id": 487,
+  "name": "Hardened Leather Bracers",
+  "rarity": 3,
+  "slot_id": 2
+ },
+ {
+  "description": "If you look hard enough, you can find music in everything.",
+  "effects": [
+   {
+    "effect_string": "hero_dps_multiplier_mult,350"
+   }
+  ],
+  "graphic_id": 2136,
+  "hero_id": 21,
+  "id": 488,
+  "name": "Reinforced Bracers of Song",
+  "rarity": 4,
+  "slot_id": 2
+ },
+ {
+  "description": "Produces a rusty, clanging sound. Good enough to keep tempo in battle.",
+  "effects": [
+   {
+    "effect_string": "global_dps_multiplier_mult,10"
+   }
+  ],
+  "graphic_id": 2128,
+  "hero_id": 21,
+  "id": 489,
+  "name": "Brass Anklet",
+  "rarity": 1,
+  "slot_id": 3
+ },
+ {
+  "description": "They may not aid in stealth, but my songs are much more potent.",
+  "effects": [
+   {
+    "effect_string": "global_dps_multiplier_mult,65"
+   }
+  ],
+  "graphic_id": 2128,
+  "hero_id": 21,
+  "id": 490,
+  "name": "Ringing Anklet",
+  "rarity": 2,
+  "slot_id": 3
+ },
+ {
+  "description": "Empowers my allies against the darkness and the dead.",
+  "effects": [
+   {
+    "effect_string": "global_dps_multiplier_mult,120"
+   }
+  ],
+  "graphic_id": 2129,
+  "hero_id": 21,
+  "id": 491,
+  "name": "Jingling Anklet",
+  "rarity": 3,
+  "slot_id": 3
+ },
+ {
+  "description": "Rings true and proud as I wade though battle.",
+  "effects": [
+   {
+    "effect_string": "global_dps_multiplier_mult,230"
+   }
+  ],
+  "graphic_id": 2130,
+  "hero_id": 21,
+  "id": 492,
+  "name": "Perfect Anklet of Pure Pitch",
+  "rarity": 4,
+  "slot_id": 3
+ },
+ {
+  "description": "A bit out a tune, but it's cheap.",
+  "effects": [
+   {
+    "effect_string": "buff_upgrade,25,741"
+   }
+  ],
+  "graphic_id": 2137,
+  "hero_id": 21,
+  "id": 493,
+  "name": "Simple Lute",
+  "rarity": 1,
+  "slot_id": 4
+ },
+ {
+  "description": "This magical instrument creates a unique and empowering sound.",
+  "effects": [
+   {
+    "effect_string": "buff_upgrade,87.5,741"
+   }
+  ],
+  "graphic_id": 2137,
+  "hero_id": 21,
+  "id": 494,
+  "name": "Doss Lute",
+  "rarity": 2,
+  "slot_id": 4
+ },
+ {
+  "description": "The golden frets create a sound which can be heard over great distances.",
+  "effects": [
+   {
+    "effect_string": "buff_upgrade,150,741"
+   }
+  ],
+  "graphic_id": 2138,
+  "hero_id": 21,
+  "id": 495,
+  "name": "Gold-inlaid Lute",
+  "rarity": 3,
+  "slot_id": 4
+ },
+ {
+  "description": "An instrument as finely crafted as one could ever hope to own.",
+  "effects": [
+   {
+    "effect_string": "buff_upgrade,275,741"
+   }
+  ],
+  "graphic_id": 2139,
+  "hero_id": 21,
+  "id": 496,
+  "name": "Masterwork Lute of Rest",
+  "rarity": 4,
+  "slot_id": 4
+ },
+ {
+  "description": "It would not help if my pants fell down during battle.",
+  "effects": [
+   {
+    "effect_string": "buff_ultimate,25"
+   }
+  ],
+  "graphic_id": 2131,
+  "hero_id": 21,
+  "id": 497,
+  "name": "Simple Belt",
+  "rarity": 1,
+  "slot_id": 5
+ },
+ {
+  "description": "An alligator thought it could best me in combat. Obviously it did not.",
+  "effects": [
+   {
+    "effect_string": "buff_ultimate,87.5"
+   }
+  ],
+  "graphic_id": 2131,
+  "hero_id": 21,
+  "id": 498,
+  "name": "Alligator Leather Belt",
+  "rarity": 2,
+  "slot_id": 5
+ },
+ {
+  "description": "A raptor's hide -- if you can take one down -- is extremely durable.",
+  "effects": [
+   {
+    "effect_string": "buff_ultimate,150"
+   }
+  ],
+  "graphic_id": 2132,
+  "hero_id": 21,
+  "id": 499,
+  "name": "Dinosaur Hide Belt",
+  "rarity": 3,
+  "slot_id": 5
+ },
+ {
+  "description": "Who says you can't be fashionable in battle?",
+  "effects": [
+   {
+    "effect_string": "buff_ultimate,275"
+   }
+  ],
+  "graphic_id": 2133,
+  "hero_id": 21,
+  "id": 500,
+  "name": "Gold-inlaid Belt of Tempo",
+  "rarity": 4,
+  "slot_id": 5
+ },
+ {
+  "description": "A little worse for wear, but it's better than nothing.",
+  "effects": [
+   {
+    "effect_string": "reduce_ultimate_cooldown,5"
+   }
+  ],
+  "graphic_id": 2143,
+  "hero_id": 21,
+  "id": 501,
+  "name": "Padded Cloth Pauldron",
+  "rarity": 1,
+  "slot_id": 6
+ },
+ {
+  "description": "Made in native Chultan fashion, with a few extra Chult-specific dangers in mind.",
+  "effects": [
+   {
+    "effect_string": "reduce_ultimate_cooldown,9"
+   }
+  ],
+  "graphic_id": 2143,
+  "hero_id": 21,
+  "id": 502,
+  "name": "Chultan Pauldron",
+  "rarity": 2,
+  "slot_id": 6
+ },
+ {
+  "description": "With raptor-like scales fashioned from silver, this tunic provides excellent defense and mobility.",
+  "effects": [
+   {
+    "effect_string": "reduce_ultimate_cooldown,18"
+   }
+  ],
+  "graphic_id": 2144,
+  "hero_id": 21,
+  "id": 503,
+  "name": "Silver Scale Tunic",
+  "rarity": 3,
+  "slot_id": 6
+ },
+ {
+  "description": "Lighter than it appears, this armor both looks good and provides unparallelled defense.",
+  "effects": [
+   {
+    "effect_string": "reduce_ultimate_cooldown,45"
+   }
+  ],
+  "graphic_id": 2145,
+  "hero_id": 21,
+  "id": 504,
+  "name": "Sapphire-inlaid Linked Armor",
+  "rarity": 4,
+  "slot_id": 6
+ },
+ {
+  "description": "A little tougher to reload than your average crossbow.",
+  "effects": [
+   {
+    "effect_string": "hero_dps_multiplier_mult,50"
+   }
+  ],
+  "graphic_id": 2377,
+  "hero_id": 22,
+  "id": 505,
+  "name": "Rusty Crossbow",
+  "rarity": 1,
+  "slot_id": 1
+ },
+ {
+  "description": "A sturdy crossbow, though its destructive potential is lackluster.",
+  "effects": [
+   {
+    "effect_string": "hero_dps_multiplier_mult,125"
+   }
+  ],
+  "graphic_id": 2377,
+  "hero_id": 22,
+  "id": 506,
+  "name": "Oak Crossbow",
+  "rarity": 2,
+  "slot_id": 1
+ },
+ {
+  "description": "Reinforced with an alloy of my own invention.",
+  "effects": [
+   {
+    "effect_string": "hero_dps_multiplier_mult,200"
+   }
+  ],
+  "graphic_id": 2378,
+  "hero_id": 22,
+  "id": 507,
+  "name": "Reinforced Crossbow",
+  "rarity": 3,
+  "slot_id": 1
+ },
+ {
+  "description": "The draw strength is several times higher than any gnome could manage unaided.",
+  "effects": [
+   {
+    "effect_string": "hero_dps_multiplier_mult,350"
+   }
+  ],
+  "graphic_id": 2379,
+  "hero_id": 22,
+  "id": 508,
+  "name": "Thunderbolt",
+  "rarity": 4,
+  "slot_id": 1
+ },
+ {
+  "description": "Well worn and still warm, but not ideal for tracking prey through the forest.",
+  "effects": [
+   {
+    "effect_string": "global_dps_multiplier_mult,10"
+   }
+  ],
+  "graphic_id": 2371,
+  "hero_id": 22,
+  "id": 509,
+  "name": "Worn Cloak",
+  "rarity": 1,
+  "slot_id": 2
+ },
+ {
+  "description": "A simple cloak made for someone of a shorter stature, like myself.",
+  "effects": [
+   {
+    "effect_string": "global_dps_multiplier_mult,65"
+   }
+  ],
+  "graphic_id": 2371,
+  "hero_id": 22,
+  "id": 510,
+  "name": "Gnome's Cloak",
+  "rarity": 2,
+  "slot_id": 2
+ },
+ {
+  "description": "Blends in with the forest, allowing me to pass unseen.",
+  "effects": [
+   {
+    "effect_string": "global_dps_multiplier_mult,120"
+   }
+  ],
+  "graphic_id": 2372,
+  "hero_id": 22,
+  "id": 511,
+  "name": "Blending Cloak",
+  "rarity": 3,
+  "slot_id": 2
+ },
+ {
+  "description": "Even all these years later, my heart still beats faster when I see a dark elf.",
+  "effects": [
+   {
+    "effect_string": "global_dps_multiplier_mult,230"
+   }
+  ],
+  "graphic_id": 2373,
+  "hero_id": 22,
+  "id": 512,
+  "name": "Long Ranger's Cloak of Vengeance",
+  "rarity": 4,
+  "slot_id": 2
+ },
+ {
+  "description": "It's still got a few bolts left; they'll have to do.",
+  "effects": [
+   {
+    "description": "Increases the effect of Zorbu's Favored Enemy abilities by $(amount)%.",
+    "effect_string": "buff_upgrades,25,843,844,845,846,847"
+   }
+  ],
+  "graphic_id": 2383,
+  "hero_id": 22,
+  "id": 513,
+  "name": "Nearly Empty Quiver",
+  "rarity": 1,
+  "slot_id": 3
+ },
+ {
+  "description": "It won't tear or rip when I grab a bolt.",
+  "effects": [
+   {
+    "description": "Increases the effect of Zorbu's Favored Enemy abilities by $(amount)%.",
+    "effect_string": "buff_upgrades,87.5,843,844,845,846,847"
+   }
+  ],
+  "graphic_id": 2383,
+  "hero_id": 22,
+  "id": 514,
+  "name": "Tough Hide Quiver",
+  "rarity": 2,
+  "slot_id": 3
+ },
+ {
+  "description": "As finely crafted a quiver as a ranger could hope for.",
+  "effects": [
+   {
+    "description": "Increases the effect of Zorbu's Favored Enemy abilities by $(amount)%.",
+    "effect_string": "buff_upgrades,150,843,844,845,846,847"
+   }
+  ],
+  "graphic_id": 2384,
+  "hero_id": 22,
+  "id": 515,
+  "name": "Finely Crafted Quiver",
+  "rarity": 3,
+  "slot_id": 3
+ },
+ {
+  "description": "The capacity of this quiver never seems to expire.",
+  "effects": [
+   {
+    "description": "Increases the effect of Zorbu's Favored Enemy abilities by $(amount)%.",
+    "effect_string": "buff_upgrades,275,843,844,845,846,847"
+   }
+  ],
+  "graphic_id": 2385,
+  "hero_id": 22,
+  "id": 516,
+  "name": "Bursting Quiver of the Endless Barrage",
+  "rarity": 4,
+  "slot_id": 3
+ },
+ {
+  "description": "Scrapped together from a few failed experiments.",
+  "effects": [
+   {
+    "effect_string": "buff_upgrade,25,848"
+   }
+  ],
+  "graphic_id": 2380,
+  "hero_id": 22,
+  "id": 517,
+  "name": "Patchwork Glasses",
+  "rarity": 1,
+  "slot_id": 4
+ },
+ {
+  "description": "They're heavy, but it's better than being blind!",
+  "effects": [
+   {
+    "effect_string": "buff_upgrade,87.5,848"
+   }
+  ],
+  "graphic_id": 2380,
+  "hero_id": 22,
+  "id": 518,
+  "name": "Heavy Metal Glasses",
+  "rarity": 2,
+  "slot_id": 4
+ },
+ {
+  "description": "Have you read the latest symposium on clockwork animals? Fascinating!",
+  "effects": [
+   {
+    "effect_string": "buff_upgrade,150,848"
+   }
+  ],
+  "graphic_id": 2381,
+  "hero_id": 22,
+  "id": 519,
+  "name": "Gnomish Reading Glasses",
+  "rarity": 3,
+  "slot_id": 4
+ },
+ {
+  "description": "When you're as old as I am, a good set of glasses is a lifesaver.",
+  "effects": [
+   {
+    "effect_string": "buff_upgrade,275,848"
+   }
+  ],
+  "graphic_id": 2382,
+  "hero_id": 22,
+  "id": 520,
+  "name": "Bifocal Glasses of the Aged Gnome",
+  "rarity": 4,
+  "slot_id": 4
+ },
+ {
+  "description": "Go on, skibbers! You can make it!",
+  "effects": [
+   {
+    "effect_string": "buff_ultimate,25"
+   }
+  ],
+  "graphic_id": 2374,
+  "hero_id": 22,
+  "id": 521,
+  "name": "Rusty Mechanical Squirrel",
+  "rarity": 1,
+  "slot_id": 5
+ },
+ {
+  "description": "That... can't be good.",
+  "effects": [
+   {
+    "effect_string": "buff_ultimate,87.5"
+   }
+  ],
+  "graphic_id": 2374,
+  "hero_id": 22,
+  "id": 522,
+  "name": "Sparking Mechanical Squirrel",
+  "rarity": 2,
+  "slot_id": 5
+ },
+ {
+  "description": "Come on, buddy! You can make it!",
+  "effects": [
+   {
+    "effect_string": "buff_ultimate,150"
+   }
+  ],
+  "graphic_id": 2375,
+  "hero_id": 22,
+  "id": 523,
+  "name": "Skittering Mechanical Squirrel",
+  "rarity": 3,
+  "slot_id": 5
+ },
+ {
+  "description": "I call him skibbers! He goes boom!",
+  "effects": [
+   {
+    "effect_string": "buff_ultimate,275"
+   }
+  ],
+  "graphic_id": 2376,
+  "hero_id": 22,
+  "id": 524,
+  "name": "Clockwork Squirrel of Alchemist's Fire",
+  "rarity": 4,
+  "slot_id": 5
+ },
+ {
+  "description": "It's missing a few important tools, but I can make do.",
+  "effects": [
+   {
+    "effect_string": "reduce_ultimate_cooldown,6"
+   }
+  ],
+  "graphic_id": 2386,
+  "hero_id": 22,
+  "id": 525,
+  "name": "Sparse Toolset",
+  "rarity": 1,
+  "slot_id": 6
+ },
+ {
+  "description": "This ol' set has gotten me out of more than a couple close scrapes.",
+  "effects": [
+   {
+    "effect_string": "reduce_ultimate_cooldown,12"
+   }
+  ],
+  "graphic_id": 2386,
+  "hero_id": 22,
+  "id": 526,
+  "name": "Worn Toolset",
+  "rarity": 2,
+  "slot_id": 6
+ },
+ {
+  "description": "Every tool you could ever want. No nozzle, nail, or nut can withstand me.",
+  "effects": [
+   {
+    "effect_string": "reduce_ultimate_cooldown,24"
+   }
+  ],
+  "graphic_id": 2387,
+  "hero_id": 22,
+  "id": 527,
+  "name": "Complete Toolset",
+  "rarity": 3,
+  "slot_id": 6
+ },
+ {
+  "description": "If skibbers does his job right, I'll need this set to fix him up.",
+  "effects": [
+   {
+    "effect_string": "reduce_ultimate_cooldown,60"
+   }
+  ],
+  "graphic_id": 2388,
+  "hero_id": 22,
+  "id": 528,
+  "name": "Tinker's Toolset of Total Annihilation",
+  "rarity": 4,
+  "slot_id": 6
+ },
+ {
+  "description": "It's a *good* mold.",
+  "effects": [
+   {
+    "effect_string": "hero_dps_multiplier_mult,50"
+   }
+  ],
+  "graphic_id": 2500,
+  "hero_id": 23,
+  "id": 529,
+  "name": "Moldy Snacks",
+  "rarity": 1,
+  "slot_id": 1
+ },
+ {
+  "description": "I made them just for you.",
+  "effects": [
+   {
+    "effect_string": "hero_dps_multiplier_mult,125"
+   }
+  ],
+  "graphic_id": 2500,
+  "hero_id": 23,
+  "id": 530,
+  "name": "Sad Snacks",
+  "rarity": 2,
+  "slot_id": 1
+ },
+ {
+  "description": "No promises that the flavors are tasty.",
+  "effects": [
+   {
+    "effect_string": "hero_dps_multiplier_mult,200"
+   }
+  ],
+  "graphic_id": 2501,
+  "hero_id": 23,
+  "id": 531,
+  "name": "Flavorful Snacks",
+  "rarity": 3,
+  "slot_id": 1
+ },
+ {
+  "description": "There's barely anything that will kill you!",
+  "effects": [
+   {
+    "effect_string": "hero_dps_multiplier_mult,350"
+   }
+  ],
+  "graphic_id": 2502,
+  "hero_id": 23,
+  "id": 532,
+  "name": "Tasty Snicketty Snooks",
+  "rarity": 4,
+  "slot_id": 1
+ },
+ {
+  "description": "'Get a new hat,' they say. No, I like this one! It's comfy!",
+  "effects": [
+   {
+    "effect_string": "hero_dps_multiplier_mult,50"
+   }
+  ],
+  "graphic_id": 2491,
+  "hero_id": 23,
+  "id": 533,
+  "name": "Tattered Witch Hat",
+  "rarity": 1,
+  "slot_id": 2
+ },
+ {
+  "description": "It got caught on a bramble in Barovia.",
+  "effects": [
+   {
+    "effect_string": "hero_dps_multiplier_mult,125"
+   }
+  ],
+  "graphic_id": 2491,
+  "hero_id": 23,
+  "id": 534,
+  "name": "Torn Witch Hat",
+  "rarity": 2,
+  "slot_id": 2
+ },
+ {
+  "description": "Holey, not holy! Very much not holy.",
+  "effects": [
+   {
+    "effect_string": "hero_dps_multiplier_mult,200"
+   }
+  ],
+  "graphic_id": 2492,
+  "hero_id": 23,
+  "id": 535,
+  "name": "Holey Witch Hat",
+  "rarity": 3,
+  "slot_id": 2
+ },
+ {
+  "description": "What?! There's all that wasted space!",
+  "effects": [
+   {
+    "effect_string": "hero_dps_multiplier_mult,350"
+   }
+  ],
+  "graphic_id": 2493,
+  "hero_id": 23,
+  "id": 536,
+  "name": "Snack-Filled Witch Hat",
+  "rarity": 4,
+  "slot_id": 2
+ },
+ {
+  "description": "That's not dirt, that's Stinky!",
+  "effects": [
+   {
+    "effect_string": "global_dps_multiplier_mult,10"
+   }
+  ],
+  "graphic_id": 2494,
+  "hero_id": 23,
+  "id": 537,
+  "name": "Dirty Pot",
+  "rarity": 1,
+  "slot_id": 3
+ },
+ {
+  "description": "I really should patch that up someday.",
+  "effects": [
+   {
+    "effect_string": "global_dps_multiplier_mult,65"
+   }
+  ],
+  "graphic_id": 2494,
+  "hero_id": 23,
+  "id": 538,
+  "name": "Leaking Pot",
+  "rarity": 2,
+  "slot_id": 3
+ },
+ {
+  "description": "Dang rat's heavier now than he was when he was alive.",
+  "effects": [
+   {
+    "effect_string": "global_dps_multiplier_mult,120"
+   }
+  ],
+  "graphic_id": 2495,
+  "hero_id": 23,
+  "id": 539,
+  "name": "Large Heavy Pot",
+  "rarity": 3,
+  "slot_id": 3
+ },
+ {
+  "description": "I miss my old cranium rat. RIP, buddy.",
+  "effects": [
+   {
+    "effect_string": "global_dps_multiplier_mult,230"
+   }
+  ],
+  "graphic_id": 2496,
+  "hero_id": 23,
+  "id": 540,
+  "name": "Polished Pot of Stinky's Ashes",
+  "rarity": 4,
+  "slot_id": 3
+ },
+ {
+  "description": "Hey, there's some good stuff in there!",
+  "effects": [
+   {
+    "effect_string": "buff_upgrade,25,871"
+   }
+  ],
+  "graphic_id": 2497,
+  "hero_id": 23,
+  "id": 541,
+  "name": "Assorted Garbage",
+  "rarity": 1,
+  "slot_id": 4
+ },
+ {
+  "description": "Garbage? I'll show you garbage!",
+  "effects": [
+   {
+    "effect_string": "buff_upgrade,87.5,871"
+   }
+  ],
+  "graphic_id": 2497,
+  "hero_id": 23,
+  "id": 542,
+  "name": "Pile of Garbage",
+  "rarity": 2,
+  "slot_id": 4
+ },
+ {
+  "description": "They're irreplacable!",
+  "effects": [
+   {
+    "effect_string": "buff_upgrade,150,871"
+   }
+  ],
+  "graphic_id": 2498,
+  "hero_id": 23,
+  "id": 543,
+  "name": "Collected Knick-Knacks",
+  "rarity": 3,
+  "slot_id": 4
+ },
+ {
+  "description": "I can't believe nobody else wants this stuff! It's priceless!",
+  "effects": [
+   {
+    "effect_string": "buff_upgrade,275,871"
+   }
+  ],
+  "graphic_id": 2499,
+  "hero_id": 23,
+  "id": 544,
+  "name": "Super High Quality Garbage",
+  "rarity": 4,
+  "slot_id": 4
+ },
+ {
+  "description": "I can't quite make out the runes. They look kinda magic.",
+  "effects": [
+   {
+    "description": "Increases the damage of Strix while one of her Ultimates is active by $(amount)%.",
+    "effect_string": "hero_dps_multiplier_if_attack,25,92,93,95"
+   }
+  ],
+  "graphic_id": 2503,
+  "hero_id": 23,
+  "id": 545,
+  "name": "Dim Staff",
+  "rarity": 1,
+  "slot_id": 5
+ },
+ {
+  "description": "A solid staff for someone who knows magic.",
+  "effects": [
+   {
+    "description": "Increases the damage of Strix while one of her Ultimates is active by $(amount)%.",
+    "effect_string": "hero_dps_multiplier_if_attack,87.5,92,93,95"
+   }
+  ],
+  "graphic_id": 2503,
+  "hero_id": 23,
+  "id": 546,
+  "name": "Black Wooden Staff",
+  "rarity": 2,
+  "slot_id": 5
+ },
+ {
+  "description": "Do you think maybe it knows magic?",
+  "effects": [
+   {
+    "description": "Increases the damage of Strix while one of her Ultimates is active by $(amount)%.",
+    "effect_string": "hero_dps_multiplier_if_attack,150,92,93,95"
+   }
+  ],
+  "graphic_id": 2504,
+  "hero_id": 23,
+  "id": 547,
+  "name": "Mystical Runed Staff",
+  "rarity": 3,
+  "slot_id": 5
+ },
+ {
+  "description": "I know magic!",
+  "effects": [
+   {
+    "description": "Increases the damage of Strix while one of her Ultimates is active by $(amount)%.",
+    "effect_string": "hero_dps_multiplier_if_attack,275,92,93,95"
+   }
+  ],
+  "graphic_id": 2505,
+  "hero_id": 23,
+  "id": 548,
+  "name": "Polymorphing Staff of the Trash Witch",
+  "rarity": 4,
+  "slot_id": 5
+ },
+ {
+  "description": "Stinky? I don't smell anything.",
+  "effects": [
+   {
+    "effect_string": "reduce_ultimate_cooldown,7"
+   }
+  ],
+  "graphic_id": 2488,
+  "hero_id": 23,
+  "id": 549,
+  "name": "Stinky Owlbear Cloak",
+  "rarity": 1,
+  "slot_id": 6
+ },
+ {
+  "description": "The hem doesn't drag along the ground. I'd rather it did.",
+  "effects": [
+   {
+    "effect_string": "reduce_ultimate_cooldown,14"
+   }
+  ],
+  "graphic_id": 2488,
+  "hero_id": 23,
+  "id": 550,
+  "name": "Short Owlbear Cloak ",
+  "rarity": 2,
+  "slot_id": 6
+ },
+ {
+  "description": "Keeps me cozy in cold places.",
+  "effects": [
+   {
+    "effect_string": "reduce_ultimate_cooldown,27"
+   }
+  ],
+  "graphic_id": 2489,
+  "hero_id": 23,
+  "id": 551,
+  "name": "Warm Owlbear Cloak",
+  "rarity": 3,
+  "slot_id": 6
+ },
+ {
+  "description": "I can hide within its folds if I need to.",
+  "effects": [
+   {
+    "effect_string": "reduce_ultimate_cooldown,68"
+   }
+  ],
+  "graphic_id": 2490,
+  "hero_id": 23,
+  "id": 552,
+  "name": "Dark Owlbear Cloak of the Sad Sorcerer",
+  "rarity": 4,
+  "slot_id": 6
+ },
+ {
+  "description": "Still functions as a passable stave. I will need to get this sharpened.",
+  "effects": [
+   {
+    "effect_string": "hero_dps_multiplier_mult,50"
+   }
+  ],
+  "graphic_id": 2709,
+  "hero_id": 24,
+  "id": 553,
+  "name": "Dull Naginata",
+  "rarity": 1,
+  "slot_id": 1
+ },
+ {
+  "description": "A decent enough material, for your type at least.",
+  "effects": [
+   {
+    "effect_string": "hero_dps_multiplier_mult,125"
+   }
+  ],
+  "graphic_id": 2709,
+  "hero_id": 24,
+  "id": 554,
+  "name": "Steel Naginata",
+  "rarity": 2,
+  "slot_id": 1
+ },
+ {
+  "description": "Aha! Gith silver is unparallelled in battle. For Zaerith!",
+  "effects": [
+   {
+    "effect_string": "hero_dps_multiplier_mult,200"
+   }
+  ],
+  "graphic_id": 2710,
+  "hero_id": 24,
+  "id": 555,
+  "name": "Silver Naginata",
+  "rarity": 3,
+  "slot_id": 1
+ },
+ {
+  "description": "The force of this Naginata disrupts the Illithid's psionic field.",
+  "effects": [
+   {
+    "effect_string": "hero_dps_multiplier_mult,350"
+   }
+  ],
+  "graphic_id": 2711,
+  "hero_id": 24,
+  "id": 556,
+  "name": "Kensei Naginata of Illithid Slaying",
+  "rarity": 4,
+  "slot_id": 1
+ },
+ {
+  "description": "They are quite comfortable, unlike your Material Plane.",
+  "effects": [
+   {
+    "effect_string": "hero_dps_multiplier_mult,50"
+   }
+  ],
+  "graphic_id": 2703,
+  "hero_id": 24,
+  "id": 557,
+  "name": "Woven Bracers",
+  "rarity": 1,
+  "slot_id": 2
+ },
+ {
+  "description": "Your world is cold and unpleasant, but I will adapt.",
+  "effects": [
+   {
+    "effect_string": "hero_dps_multiplier_mult,125"
+   }
+  ],
+  "graphic_id": 2703,
+  "hero_id": 24,
+  "id": 558,
+  "name": "Dyed Wool Bracers",
+  "rarity": 2,
+  "slot_id": 2
+ },
+ {
+  "description": "I would prefer a Limbo-crafted pair, but these will do.",
+  "effects": [
+   {
+    "effect_string": "hero_dps_multiplier_mult,200"
+   }
+  ],
+  "graphic_id": 2704,
+  "hero_id": 24,
+  "id": 559,
+  "name": "Fine Bracers",
+  "rarity": 3,
+  "slot_id": 2
+ },
+ {
+  "description": "Crafted by Githzerai artificers out of Limbo chaos-stuff.",
+  "effects": [
+   {
+    "effect_string": "hero_dps_multiplier_mult,350"
+   }
+  ],
+  "graphic_id": 2705,
+  "hero_id": 24,
+  "id": 560,
+  "name": "Chaotic Bracers of the Githzerai",
+  "rarity": 4,
+  "slot_id": 2
+ },
+ {
+  "description": "Well that's not much use to me now, is it?",
+  "effects": [
+   {
+    "effect_string": "global_dps_multiplier_mult,10"
+   }
+  ],
+  "graphic_id": 2697,
+  "hero_id": 24,
+  "id": 561,
+  "name": "Sealed Jug",
+  "rarity": 1,
+  "slot_id": 3
+ },
+ {
+  "description": "Almost as useless as a sealed jug, but at least I can fill it.",
+  "effects": [
+   {
+    "effect_string": "global_dps_multiplier_mult,65"
+   }
+  ],
+  "graphic_id": 2697,
+  "hero_id": 24,
+  "id": 562,
+  "name": "Empty Jug",
+  "rarity": 2,
+  "slot_id": 3
+ },
+ {
+  "description": "A wonderous device. Would you like 2 gallons of mayonnaise?",
+  "effects": [
+   {
+    "effect_string": "global_dps_multiplier_mult,120"
+   }
+  ],
+  "graphic_id": 2698,
+  "hero_id": 24,
+  "id": 563,
+  "name": "Alchemy Jug",
+  "rarity": 3,
+  "slot_id": 3
+ },
+ {
+  "description": "Useful for long journeys through the Material Plane, such as the one I'm on.",
+  "effects": [
+   {
+    "effect_string": "global_dps_multiplier_mult,230"
+   }
+  ],
+  "graphic_id": 2699,
+  "hero_id": 24,
+  "id": 564,
+  "name": "Overflowing Alchemy Jug",
+  "rarity": 4,
+  "slot_id": 3
+ },
+ {
+  "description": "A trinket. A toy. Not of much use, to be honest.",
+  "effects": [
+   {
+    "effect_string": "buff_upgrade,25,896"
+   }
+  ],
+  "graphic_id": 2700,
+  "hero_id": 24,
+  "id": 565,
+  "name": "Ruby Amulet",
+  "rarity": 1,
+  "slot_id": 4
+ },
+ {
+  "description": "A precious gem for you, perhaps, but easily come by in Limbo.",
+  "effects": [
+   {
+    "effect_string": "buff_upgrade,87.5,896"
+   }
+  ],
+  "graphic_id": 2700,
+  "hero_id": 24,
+  "id": 566,
+  "name": "Bloodstone Amulet",
+  "rarity": 2,
+  "slot_id": 4
+ },
+ {
+  "description": "Only when one is calm can one access Ki.",
+  "effects": [
+   {
+    "effect_string": "buff_upgrade,150,896"
+   }
+  ],
+  "graphic_id": 2701,
+  "hero_id": 24,
+  "id": 567,
+  "name": "Calming Amulet",
+  "rarity": 3,
+  "slot_id": 4
+ },
+ {
+  "description": "The swirling reminds me of Limbo.",
+  "effects": [
+   {
+    "effect_string": "buff_upgrade,275,896"
+   }
+  ],
+  "graphic_id": 2702,
+  "hero_id": 24,
+  "id": 568,
+  "name": "Planar Amulet of Homecoming",
+  "rarity": 4,
+  "slot_id": 4
+ },
+ {
+  "description": "A simple accessory, but comforting in this strange place.",
+  "effects": [
+   {
+    "effect_string": "buff_nrakk_ultimate,25"
+   }
+  ],
+  "graphic_id": 2712,
+  "hero_id": 24,
+  "id": 569,
+  "name": "Short Scarf",
+  "rarity": 1,
+  "slot_id": 5
+ },
+ {
+  "description": "Keeps me warm during cold Material Plane nights.",
+  "effects": [
+   {
+    "effect_string": "buff_nrakk_ultimate,87.5"
+   }
+  ],
+  "graphic_id": 2712,
+  "hero_id": 24,
+  "id": 570,
+  "name": "Heavy Scarf",
+  "rarity": 2,
+  "slot_id": 5
+ },
+ {
+  "description": "Flits and flutters behind me in battle.",
+  "effects": [
+   {
+    "effect_string": "buff_nrakk_ultimate,150"
+   }
+  ],
+  "graphic_id": 2713,
+  "hero_id": 24,
+  "id": 571,
+  "name": "Embroidered Scarf",
+  "rarity": 3,
+  "slot_id": 5
+ },
+ {
+  "description": "When my Ki is centered, the scarf barely flutters at all.",
+  "effects": [
+   {
+    "effect_string": "buff_nrakk_ultimate,275"
+   }
+  ],
+  "graphic_id": 2714,
+  "hero_id": 24,
+  "id": 572,
+  "name": "Scarf of Fluid Motion",
+  "rarity": 4,
+  "slot_id": 5
+ },
+ {
+  "description": "Perhaps it once held some small magic.",
+  "effects": [
+   {
+    "effect_string": "reduce_ultimate_cooldown,7"
+   }
+  ],
+  "graphic_id": 2706,
+  "hero_id": 24,
+  "id": 573,
+  "name": "Depleted Ioun Stone",
+  "rarity": 1,
+  "slot_id": 6
+ },
+ {
+  "description": "Its magic barely strong enough to detect, let alone make use of.",
+  "effects": [
+   {
+    "effect_string": "reduce_ultimate_cooldown,13"
+   }
+  ],
+  "graphic_id": 2706,
+  "hero_id": 24,
+  "id": 574,
+  "name": "Dim Ioun Stone",
+  "rarity": 2,
+  "slot_id": 6
+ },
+ {
+  "description": "I can't be surprised when this stone's magic is active.",
+  "effects": [
+   {
+    "effect_string": "reduce_ultimate_cooldown,26"
+   }
+  ],
+  "graphic_id": 2707,
+  "hero_id": 24,
+  "id": 575,
+  "name": "Ioun Stone of Awareness",
+  "rarity": 3,
+  "slot_id": 6
+ },
+ {
+  "description": "Wisdom isn't something the Githzerai lack, but this takes it to a new level.",
+  "effects": [
+   {
+    "effect_string": "reduce_ultimate_cooldown,65"
+   }
+  ],
+  "graphic_id": 2708,
+  "hero_id": 24,
+  "id": 576,
+  "name": "Pulsing Ioun Stone of Wisdom",
+  "rarity": 4,
+  "slot_id": 6
+ },
+ {
+  "description": "It has seen battle more than once, and it'll see battle again.",
+  "effects": [
+   {
+    "effect_string": "hero_dps_multiplier_mult,50"
+   }
+  ],
+  "graphic_id": 2797,
+  "hero_id": 25,
+  "id": 577,
+  "name": "Well Worn Longbow",
+  "rarity": 1,
+  "slot_id": 1
+ },
+ {
+  "description": "If I had a copper for every knock-off elven bow I've seen...",
+  "effects": [
+   {
+    "effect_string": "hero_dps_multiplier_mult,125"
+   }
+  ],
+  "graphic_id": 2797,
+  "hero_id": 25,
+  "id": 578,
+  "name": "Fine Elven Longbow",
+  "rarity": 2,
+  "slot_id": 1
+ },
+ {
+  "description": "As finely crafted a bow as you will ever see!",
+  "effects": [
+   {
+    "effect_string": "hero_dps_multiplier_mult,200"
+   }
+  ],
+  "graphic_id": 2798,
+  "hero_id": 25,
+  "id": 579,
+  "name": "Polished Wood Longbow",
+  "rarity": 3,
+  "slot_id": 1
+ },
+ {
+  "description": "Also known as Heartseeker. My shots never miss.",
+  "effects": [
+   {
+    "effect_string": "hero_dps_multiplier_mult,350"
+   }
+  ],
+  "graphic_id": 2799,
+  "hero_id": 25,
+  "id": 580,
+  "name": "Taulmaril",
+  "rarity": 4,
+  "slot_id": 1
+ },
+ {
+  "description": "Simple yet effective.",
+  "effects": [
+   {
+    "effect_string": "global_dps_multiplier_mult,10"
+   }
+  ],
+  "graphic_id": 2800,
+  "hero_id": 25,
+  "id": 581,
+  "name": "Leather Bracers",
+  "rarity": 1,
+  "slot_id": 2
+ },
+ {
+  "description": "Bracers fit for any warrior, but these are mine.",
+  "effects": [
+   {
+    "effect_string": "global_dps_multiplier_mult,65"
+   }
+  ],
+  "graphic_id": 2800,
+  "hero_id": 25,
+  "id": 582,
+  "name": "Warrior's Bracers",
+  "rarity": 2,
+  "slot_id": 2
+ },
+ {
+  "description": "Fine northern craftsmanship. You won't find it's like to the south.",
+  "effects": [
+   {
+    "effect_string": "global_dps_multiplier_mult,120"
+   }
+  ],
+  "graphic_id": 2801,
+  "hero_id": 25,
+  "id": 583,
+  "name": "Fine Studded Bracers",
+  "rarity": 3,
+  "slot_id": 2
+ },
+ {
+  "description": "A gift from Bruenor Battlehammer. Perhaps you know him?",
+  "effects": [
+   {
+    "effect_string": "global_dps_multiplier_mult,230"
+   }
+  ],
+  "graphic_id": 2802,
+  "hero_id": 25,
+  "id": 584,
+  "name": "Mithral Embedded Bracers",
+  "rarity": 4,
+  "slot_id": 2
+ },
+ {
+  "description": "Has anyone got a spare whetstone?",
+  "effects": [
+   {
+    "effect_string": "buff_crit_chance,25,1034"
+   }
+  ],
+  "graphic_id": 2806,
+  "hero_id": 25,
+  "id": 585,
+  "name": "Dull Dagger",
+  "rarity": 1,
+  "slot_id": 3
+ },
+ {
+  "description": "Blood and dirt will ruin a good dagger.",
+  "effects": [
+   {
+    "effect_string": "buff_crit_chance,87.5,1034"
+   }
+  ],
+  "graphic_id": 2806,
+  "hero_id": 25,
+  "id": 586,
+  "name": "Polished Dagger",
+  "rarity": 2,
+  "slot_id": 3
+ },
+ {
+  "description": "A little flashy perhaps, but it still cuts true.",
+  "effects": [
+   {
+    "effect_string": "buff_crit_chance,150,1034"
+   }
+  ],
+  "graphic_id": 2807,
+  "hero_id": 25,
+  "id": 587,
+  "name": "Embellished Dagger",
+  "rarity": 3,
+  "slot_id": 3
+ },
+ {
+  "description": "Never let them see you coming.",
+  "effects": [
+   {
+    "effect_string": "buff_crit_chance,275,1034"
+   }
+  ],
+  "graphic_id": 2808,
+  "hero_id": 25,
+  "id": 588,
+  "name": "Elven Dagger of the Ambush",
+  "rarity": 4,
+  "slot_id": 3
+ },
+ {
+  "description": "Hair in the face is never good in battle.",
+  "effects": [
+   {
+    "effect_string": "buff_upgrade,25,1034"
+   }
+  ],
+  "graphic_id": 2809,
+  "hero_id": 25,
+  "id": 589,
+  "name": "Iron Hairclip",
+  "rarity": 1,
+  "slot_id": 4
+ },
+ {
+  "description": "Lighter and more durable than other hairclips I've tried.",
+  "effects": [
+   {
+    "effect_string": "buff_upgrade,87.5,1034"
+   }
+  ],
+  "graphic_id": 2809,
+  "hero_id": 25,
+  "id": 590,
+  "name": "Steel Hairclip",
+  "rarity": 2,
+  "slot_id": 4
+ },
+ {
+  "description": "It seemed like a lot of coin to spend on a hairclip, but it's worth it.",
+  "effects": [
+   {
+    "effect_string": "buff_upgrade,150,1034"
+   }
+  ],
+  "graphic_id": 2810,
+  "hero_id": 25,
+  "id": 591,
+  "name": "Mastercraft Hairclip",
+  "rarity": 3,
+  "slot_id": 4
+ },
+ {
+  "description": "Forged in Mithral Hall by the best smithies in Faer\u00fbn.",
+  "effects": [
+   {
+    "effect_string": "buff_upgrade,275,1034"
+   }
+  ],
+  "graphic_id": 2811,
+  "hero_id": 25,
+  "id": 592,
+  "name": "Mithral Hairclip of the Companion",
+  "rarity": 4,
+  "slot_id": 4
+ },
+ {
+  "description": "Substance over style -- at least until I can get better style.",
+  "effects": [
+   {
+    "effect_string": "buff_upgrade,25,1035"
+   }
+  ],
+  "graphic_id": 2803,
+  "hero_id": 25,
+  "id": 593,
+  "name": "Dull Breastplate",
+  "rarity": 1,
+  "slot_id": 5
+ },
+ {
+  "description": "A bow does no good if a dagger kills you first.",
+  "effects": [
+   {
+    "effect_string": "buff_upgrade,87.5,1035"
+   }
+  ],
+  "graphic_id": 2803,
+  "hero_id": 25,
+  "id": 594,
+  "name": "Solid Breastplate",
+  "rarity": 2,
+  "slot_id": 5
+ },
+ {
+  "description": "The craftsmanship is incredible.",
+  "effects": [
+   {
+    "effect_string": "buff_upgrade,150,1035"
+   }
+  ],
+  "graphic_id": 2804,
+  "hero_id": 25,
+  "id": 595,
+  "name": "Inscribed Copper Breastplate",
+  "rarity": 3,
+  "slot_id": 5
+ },
+ {
+  "description": "Champion? I've heard it said, though others deserve the title more than I.",
+  "effects": [
+   {
+    "effect_string": "buff_upgrade,275,1035"
+   }
+  ],
+  "graphic_id": 2805,
+  "hero_id": 25,
+  "id": 596,
+  "name": "Shining Breastplate of the Champion",
+  "rarity": 4,
+  "slot_id": 5
+ },
+ {
+  "description": "Not much use right now, but I can always fletch more arrows.",
+  "effects": [
+   {
+    "effect_string": "reduce_ultimate_cooldown,9"
+   }
+  ],
+  "graphic_id": 2812,
+  "hero_id": 25,
+  "id": 597,
+  "name": "Empty Quiver",
+  "rarity": 1,
+  "slot_id": 6
+ },
+ {
+  "description": "Nothing's worse than a floppy quiver.",
+  "effects": [
+   {
+    "effect_string": "reduce_ultimate_cooldown,17"
+   }
+  ],
+  "graphic_id": 2812,
+  "hero_id": 25,
+  "id": 598,
+  "name": "Sturdy Quiver",
+  "rarity": 2,
+  "slot_id": 6
+ },
+ {
+  "description": "Arrows from this quiver always strike true.",
+  "effects": [
+   {
+    "effect_string": "reduce_ultimate_cooldown,34"
+   }
+  ],
+  "graphic_id": 2813,
+  "hero_id": 25,
+  "id": 599,
+  "name": "Heartseeking Quiver",
+  "rarity": 3,
+  "slot_id": 6
+ },
+ {
+  "description": "Alongside its companion, Taulmaril, this quiver is priceless.",
+  "effects": [
+   {
+    "effect_string": "reduce_ultimate_cooldown,85"
+   }
+  ],
+  "graphic_id": 2814,
+  "hero_id": 25,
+  "id": 600,
+  "name": "Quiver of Anariel",
+  "rarity": 4,
+  "slot_id": 6
+ }
+]
