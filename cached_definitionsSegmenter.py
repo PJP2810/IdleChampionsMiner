@@ -16,19 +16,22 @@ def writeSeg(fullData, segment):
     os.chdir("cached_definitions")
     
     try:
-        if isinstance(data[i], int) or isinstance(data[i], bool):
-            with open(i+".txt", "w") as outfile:
-                outfile.write(i + ":" + str(data[i]))
+        # Skip empty segments
+        if data[segment] == []:
+            os.chdir("..")  # Return to workingDirectory
+            return
+        elif isinstance(data[i], int) or isinstance(data[segment], bool):   # Handle non-iterable int and bool segments
+            with open(segment+".txt", "w") as outfile:
+                outfile.write(segment + ":" + str(data[segment]))
         else:
             segData = [x for x in fullData[str(segment)]]
             with open(str(segment)+'.json', 'w') as outfile:
                 json.dump(segData, outfile, indent=True,sort_keys=True)
     except:
-        print("---Exception--- " + str(data[i]) +"\n")
+        print("---Exception--- " + str(data[segment]) +"\n")
     
     # Return to workingDirectory
     os.chdir("..")
-    
     return
 
 '''
@@ -47,16 +50,3 @@ for i in data:
     #print(i)
     writeSeg(data, i)
 
-
-'''
-TODO:
-
-- Create array of desired segments
-    hero_defines
-    upgrade_defines
-    loot_defines
-    effect_defines
-    upgrade_defines
-        etc
-- Loop through segmentArray calling segJSON
-'''
