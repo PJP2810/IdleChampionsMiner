@@ -1,34 +1,45 @@
 '''
-Created on 4 May 2018
+Created on 5 May 2018
 
 @author: PJP2810
 '''
-# Imports
-import os, datetime, json, csv
-
-# Move to workingDirectory
-os.chdir("workingDir")
-
-now = datetime.datetime.now()
-data = {}
-hero_defines = []
+import json
+import os
 
 
-# Read JSON file
-with open('cached_definitions.json') as json_file:  
-    data = json.load(json_file)
 
-# Separate JSON segments
-hero_defines = [x for x in data['hero_defines']]
-with open('hero_defines.json', 'w') as outfile:
-    json.dump(hero_defines, outfile, indent=True,sort_keys=True)
+# Load .json and .txt files from workingDir\cached_definitions\
+def jsonRead(fileName, dirName):
+    os.chdir(dirName)
+    with open(fileName + '.json') as json_file:  
+        data = json.load(json_file)
+    os.chdir("..")
+    return data
 
-# Parse segment
-
-
-# Format parsed segment
+# Parse loaded .json file
 
 
-# Output formatted segment (as CSV?)
-with open("champData.txt", mode="w", encoding="utf-8") as myFile:
-    myFile.write("Some random text\nMore random\nFinal random text")
+'''
+main_
+'''
+
+workingDirectory = "workingDir"
+segmentDirectory = "workingDir\cached_definitions"
+
+file = "cached_definitions"
+
+test = jsonRead(file, workingDirectory)
+
+os.chdir(segmentDirectory)
+with open("test.json", "w") as outfile:
+    json.dump(test, outfile, sort_keys=True)
+os.chdir("..")
+
+
+
+
+
+
+
+
+

@@ -3,14 +3,12 @@ Created on 5 May 2018
 
 @author: PJP2810
 '''
-import json
 import os
+import json
 
-# Move to workingDirectory
-os.chdir("workingDir")
 
-# Separate JSON segments
-def writeSeg(fullData, segment):
+
+def writeSeg(data, segment):
     
     # Move to output directory
     os.chdir("cached_definitions")
@@ -24,7 +22,7 @@ def writeSeg(fullData, segment):
             with open(segment+".txt", "w") as outfile:
                 outfile.write(segment + ":" + str(data[segment]))
         else:
-            segData = [x for x in fullData[str(segment)]]
+            segData = [x for x in data[str(segment)]]
             with open(str(segment)+'.json', 'w') as outfile:
                 json.dump(segData, outfile, indent=True,sort_keys=True)
     except:
@@ -34,26 +32,55 @@ def writeSeg(fullData, segment):
     os.chdir("..")
     return
 
+def readJSON(fileName, dirName = None):
+    if dirName is not None:
+        os.chdir(dirName)
+        
+    with open(fileName + '.json') as json_file:  
+        data = json.load(json_file)
+        
+    if dirName is not None:
+        os.chdir("..")
+    return data
+
+def listSegments(data):
+    
+    segments = [x for x in data]    
+    
+    return segments
+
+
 '''
 main_
 '''
 
-# Load previous version of outputs for later comparison
+
+os.chdir("workingDir")
+
+file = "cached_definitions"
+
+fullData = readJSON(file)
+
+segNames = listSegments(fullData)
+
+for x in segNames:
+    writeSeg(fullData, x)
 
 
-# Delete previous versions of outputs
 
 
-# Read JSON file
-with open('cached_definitions.json') as json_file:  
-    data = json.load(json_file)
 
-# Iterate through segments
-for i in data:
-    #print(i)
-    writeSeg(data, i)
 
-# Compare new version with previous version of output files
+
+
+
+
+
+
+
+
+
+
 
 
 
