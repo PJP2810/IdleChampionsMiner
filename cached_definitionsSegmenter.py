@@ -44,7 +44,7 @@ segments = ['hero_defines', 'upgrade_defines', 'loot_defines']
 
 # Iterate through segments
 for i in data:
-    print(i)
+    #print(i)
     writeSeg(data, i)
 
 
