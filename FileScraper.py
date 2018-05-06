@@ -3,11 +3,8 @@ Created on 5 May 2018
 
 @author: PJP2810
 '''
-from textwrap import indent
-from PIL.Image import effect_mandelbrot
 
 # Function definitions
-
 def writeSegments(data, segment):
     
     # Move to output directory
@@ -49,13 +46,12 @@ def listSegments(data):
     
     return segments
 
-
 def sortUpgrades(fullUpgrades):
-    
+
     # Loop through fullUpgrades
     for x in fullUpgrades:
         
-        # store {effect, hero_id, id, required_level, required_upgrade_id} to variables
+        # Store {effect, hero_id, id, required_level, required_upgrade_id} to variables
         upgradeID = x['id']
         upgradeEffect = x['effect']
         upgradeHeroID = x['hero_id']
@@ -63,10 +59,20 @@ def sortUpgrades(fullUpgrades):
         upgradeLevel = x['required_level']
         upgradeType = x['upgrade_type']
         
-        # save variables to dict based on hero_id
+        
+        # Save variables to dict based on hero_id
+        #tempDict = []
+        #tempDict.append({upgradeID, upgradeLevel, upgradeRequiredID, upgradeEffect, upgradeType})
+        
+        #print("\n\n" + str(tempDict))        
         
         
-        # add dictName to list
+        #print("Hero: " + str(upgradeHeroID))
+        
+        
+    #print("\n\n" + str(fullUpgrades))        
+        
+        # Add dictName to list
         
         
         # clear duplicates from list
@@ -86,6 +92,7 @@ main_
 
 import os
 import json
+import pandas as pd
 
 os.chdir("workingDir")
 
@@ -105,8 +112,9 @@ upgrades = readJSON("upgrade_defines", "cached_definitions")
 
 #print(upgrades[0]['hero_id'])
 
-sortUpgrades(upgrades)
+#sortUpgrades(upgrades)
 
+pd.DataFrame(upgrades).to_csv('out.csv', index=False)
 
 
 
