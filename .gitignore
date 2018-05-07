@@ -1,6 +1,2 @@
 
 *.7z
-.project
-.pydevproject
-.gitattributes
-/__pycache__
