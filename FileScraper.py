@@ -109,9 +109,6 @@ def parseUpgrades():
         # Replace Effect with Human Friendly names
         upgradeEffectName = effectDict.get(upgradeEffectName, upgradeEffectName)
         
-        # Replace Upgrade Type with Human Friendly names
-        
-        
         parsedUpgrades.append({ "Hero" : upgradeHero, "Level" : x['required_level'],
                                "Name" : upgradeName,
                                "Effect" : upgradeEffectName,
@@ -120,6 +117,7 @@ def parseUpgrades():
                                "Upgrade ID" : x['id'],
                                "Required Spec" : upgradeRequiredID})
         
+    # Output parsed Upgrades to CSV
     pd.DataFrame(parsedUpgrades).to_csv('ParsedUpgrades.csv', index=False, columns=["Hero",
                                                                                     "Level",
                                                                                     "Name",
@@ -150,11 +148,6 @@ for x in segNames:
 
 
 parseUpgrades()
-
-#upgrades = readJSON("upgrade_defines", "cached_definitions")
-
-
-#pd.DataFrame(upgrades).to_csv('out.csv', index=False)
 
 
 
