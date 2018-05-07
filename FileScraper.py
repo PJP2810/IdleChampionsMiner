@@ -91,10 +91,8 @@ def parseUpgrades(fullUpgrades = None):
         upgradeEffectName = tempList[0]
         #print(tempList[1])
         
-        if isinstance(tempList[1], int):
-            print(tempList[1])
-        
         upgradeEffectValue = tempList[1]
+        
         if len(tempList) == 3:
             upgradeBuffedID = eval(tempList[2])
         else:
