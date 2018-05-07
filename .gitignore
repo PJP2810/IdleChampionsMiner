@@ -1,2 +1,6 @@
 
-FileScraper.7z
+*.7z
+.project
+.pydevproject
+.gitattributes
+/__pycache__
