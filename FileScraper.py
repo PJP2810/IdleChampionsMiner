@@ -46,11 +46,13 @@ def listSegments(data):
     
     return segments
 
-def parseUpgrades():
+def parseUpgrades(fullUpgrades = None):
 
     parsedUpgrades = []
+    upgradeNameDict = {0 : ""}
     
-    fullUpgrades = readJSON("upgrade_defines", "cached_definitions")
+    if fullUpgrades is None:
+        fullUpgrades = readJSON("upgrade_defines", "cached_definitions")
     
     effectDict = {"hero_dps_multiplier_mult" : "Self Damage Boost",
                   "global_dps_multiplier_mult" : "All Damage Boost",
@@ -87,9 +89,14 @@ def parseUpgrades():
         tempList = upgradeEffect.split(",")
         
         upgradeEffectName = tempList[0]
+        #print(tempList[1])
+        
+        if isinstance(tempList[1], int):
+            print(tempList[1])
+        
         upgradeEffectValue = tempList[1]
         if len(tempList) == 3:
-            upgradeBuffedID = tempList[2]
+            upgradeBuffedID = eval(tempList[2])
         else:
             upgradeBuffedID = ""
         
@@ -103,19 +110,22 @@ def parseUpgrades():
         # Replace Hero ID with Hero Name using Dictionary of Hero ID:Names
         
         
+        # Create dictionary of upgradeID:Name
+        upgradeNameDict[x['id']]= upgradeName
+        
         # Replace Required Spec ID with Spec Name using Disctionary of Spec ID:Names | 0 = ""
         
         
         # Replace Effect with Human Friendly names
         upgradeEffectName = effectDict.get(upgradeEffectName, upgradeEffectName)
         
-        parsedUpgrades.append({ "Hero" : upgradeHero, "Level" : x['required_level'],
+        parsedUpgrades.append({"Hero" : upgradeHero, "Level" : x['required_level'],
                                "Name" : upgradeName,
                                "Effect" : upgradeEffectName,
                                "Value": upgradeEffectValue,
-                               "Buffed Ability" : upgradeBuffedID,
-                               "Upgrade ID" : x['id'],
-                               "Required Spec" : upgradeRequiredID})
+                               "Buffed Ability" : upgradeNameDict.get(upgradeBuffedID, upgradeBuffedID),
+                               #"Upgrade ID" : x['id'],
+                               "Required Spec" : upgradeNameDict.get(upgradeRequiredID, upgradeRequiredID)})
         
     # Output parsed Upgrades to CSV
     pd.DataFrame(parsedUpgrades).to_csv('ParsedUpgrades.csv', index=False, columns=["Hero",
@@ -124,7 +134,7 @@ def parseUpgrades():
                                                                                     "Effect",
                                                                                     "Value",
                                                                                     "Buffed Ability",
-                                                                                    "Upgrade ID",
+                                                                                    #"Upgrade ID",
                                                                                     "Required Spec"])
     
     return
@@ -147,7 +157,7 @@ for x in segNames:
     writeSegmentsJSON(fullData, x)
 
 
-parseUpgrades()
+parseUpgrades(readJSON("upgrade_defines", "cached_definitions"))
 
 
 
