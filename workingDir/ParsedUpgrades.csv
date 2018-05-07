@@ -1,0 +1,1049 @@
+Hero,Level,Name,Effect,Value,Buffed Ability,Upgrade ID,Required Spec
+1,5,,Self Damage Boost,100,,1,0
+1,10,Inspired,Ability Unlock,1,,2,0
+1,25,,Ultimate Unlock,2,,3,0
+1,50,Rally,Ability Unlock,2,,4,0
+1,100,,Self Damage Boost,100,,5,0
+1,150,Champion,Specialisation Choice,200,2,6,0
+1,150,Battle Master,Specialisation Choice,100,4,7,0
+1,200,,Self Damage Boost,100,,8,0
+1,250,,Self Damage Boost,200,,9,6
+1,250,,All Damage Boost,100,,10,7
+1,300,,Self Damage Boost,200,,11,6
+1,300,,Ability Upgrade,300,4,12,7
+1,400,,All Damage Boost,200,,13,0
+1,500,,Ability Upgrade,300,2,14,6
+1,500,,Ability Upgrade,200,4,15,7
+1,600,,Self Damage Boost,100,,16,0
+1,690,,Ultimate Boost,100,,17,0
+1,800,,Self Damage Boost,200,,18,6
+1,800,,All Damage Boost,100,,19,7
+1,900,,Self Damage Boost,100,,20,6
+2,10,,All Damage Boost,100,,23,0
+2,20,Crusader's Mantle,Ability Unlock,3,,24,0
+2,35,,All Damage Boost,100,,25,0
+2,40,Mass Cure Wounds,Ability Unlock,4,,26,0
+2,50,,Ultimate Unlock,4,,27,0
+2,90,,All Damage Boost,100,,28,0
+2,100,War Domain,Specialisation Choice,100,24,29,0
+2,100,Life Domain,Specialisation Choice,100,26,30,0
+2,75,,Ability Upgrade,400,26,31,0
+2,150,,Ability Upgrade,100,24,32,29
+2,130,,Ability Upgrade,400,26,33,0
+2,280,,All Damage Boost,100,,34,0
+2,220,,Ability Upgrade,100,24,35,29
+2,205,,Ability Upgrade,600,26,36,0
+3,10,,All Damage Boost,100,,37,0
+3,20,Aura of Courage,Ability Unlock,5,,38,0
+3,30,,Self Damage Boost,200,,39,0
+3,40,Aura of Protection,Ability Unlock,6,,40,0
+3,50,,Ultimate Unlock,6,,41,0
+3,55,,All Damage Boost,200,,42,0
+3,100,Oath of Vengeance,Specialisation Choice,200,38,43,0
+3,100,Oath of Devotion,Specialisation Choice,300000,,44,0
+3,145,,All Damage Boost,100,,45,0
+3,150,,Ability Upgrade,200,38,46,43
+3,155,,Health Boost,80000000,,47,44
+3,190,,All Damage Boost,100,,48,0
+3,215,,Ability Upgrade,100,38,49,43
+3,180,,Health Boost,850000000,,50,44
+4,10,,Self Damage Boost,100,,51,0
+4,35,Room To Work,Ability Unlock,7,,52,0
+4,50,,Ultimate Unlock,8,,53,0
+4,75,,Self Damage Boost,100,,54,0
+4,100,Equal Opportunity,Ability Unlock,29,,55,0
+4,110,,Self Damage Boost,100,,56,0
+4,125,,Gold Find Boost,10,,57,0
+4,150,Loner,Specialisation Choice,300,52,58,0
+4,150,Socialite,Specialisation Choice,200,55,59,0
+4,175,,Gold Find Boost,10,,60,0
+4,200,,Self Damage Boost,100,,61,0
+4,250,,Ability Upgrade,200,52,62,58
+4,250,,Ability Upgrade,200,55,63,59
+4,275,,Gold Find Boost,10,,64,0
+4,300,,Self Damage Boost,300,,65,0
+4,350,,Self Damage Boost,300,,66,0
+4,400,,Ability Upgrade,200,52,67,58
+4,400,,Ability Upgrade,300,55,68,59
+4,425,,Gold Find Boost,10,,69,0
+5,12,,All Damage Boost,100,,70,0
+5,24,Bardic Inspiration,Ability Unlock,9,,71,0
+5,36,Song of Protection,Ability Unlock,10,,72,0
+5,48,,Ultimate Unlock,10,,73,0
+5,60,,All Damage Boost,100,,74,0
+5,80,College of Valor,Specialisation Choice,200,71,75,0
+5,80,College of Lore,Specialisation Choice,100,72,76,0
+5,100,,All Damage Boost,200,,77,0
+5,120,,Ability Upgrade,400,72,78,0
+5,140,,Ability Upgrade,100,71,79,75
+5,150,,Ability Upgrade,400,72,80,0
+1,475,,All Damage Boost,100,,374,7
+5,200,,Ability Upgrade,100,71,82,75
+5,205,,Ability Upgrade,300,72,83,0
+5,240,,All Damage Boost,100,,84,0
+5,310,,All Damage Boost,100,,85,0
+5,345,,Ability Upgrade,100,71,86,75
+5,320,,Ability Upgrade,300,72,87,0
+6,55,,Self Damage Boost,100,,88,0
+6,65,,Self Damage Boost,200,,89,0
+6,10,Bond: Humans,Specialisation Choice,11,,90,0
+6,10,Bond: Elves and Dwarves,Specialisation Choice,12,,91,0
+6,10,"Bond: Tiefling, Firbolg, and Dragonborn",Specialisation Choice,13,,92,0
+6,20,,Ultimate Unlock,12,,93,0
+6,30,,Self Damage Boost,100,,94,0
+6,45,,Self Damage Boost,100,,95,0
+6,75,,Self Damage Boost,200,,96,0
+6,100,,Increase Number of Enemies Targeted,1,,97,0
+6,120,,Self Damage Boost,200,,98,0
+6,130,,Self Damage Boost,100,,99,0
+6,140,,Ability Upgrade,200,90,100,90
+6,140,,Ability Upgrade,200,91,101,91
+6,140,,Ability Upgrade,200,92,102,92
+6,150,,Self Damage Boost,200,,103,0
+6,160,,Self Damage Boost,100,,104,0
+6,200,,Self Damage Boost,300,,105,0
+7,20,,Self Damage Boost,100,,106,0
+7,40,,All Damage Boost,100,,107,0
+7,50,Favored Enemy: Humanoids,Specialisation Choice,14,,108,0
+7,50,Favored Enemy: Beasts,Specialisation Choice,15,,109,0
+7,50,Favored Enemy: Undead,Specialisation Choice,16,,110,0
+7,50,Favored Enemy: Fey,Specialisation Choice,17,,111,0
+7,50,Favored Enemy: Monstrosities,Specialisation Choice,18,,112,0
+7,75,,Self Damage Boost,400,,113,0
+7,100,,Self Damage Boost,500,,114,0
+7,125,,Ultimate Unlock,14,,115,0
+7,150,,Self Damage Boost,300,,116,0
+7,175,,Ability Upgrade,100,108,117,108
+7,175,,Ability Upgrade,100,109,118,109
+7,175,,Ability Upgrade,100,110,119,110
+7,175,,Ability Upgrade,100,111,120,111
+7,175,,Ability Upgrade,100,112,121,112
+7,200,,Self Damage Boost,300,,122,0
+8,650,,Self Damage Boost,100,,123,0
+8,725,,Self Damage Boost,200,,124,0
+8,25,Twinned Spell,Grants Ricochet to Attack,50,1,125,0
+8,75,,Self Damage Boost,100,,126,0
+8,100,,Ultimate Unlock,16,,127,0
+8,150,Empowered Spell,Grants Damage Over Time to Attack,50,,128,0
+8,200,Font of Magic,Specialisation Choice,100,125,129,0
+8,200,Endless Empowerment,Specialisation Choice,100,128,130,0
+8,500,,Ability Upgrade,100,125,131,129
+8,400,,Self Damage Boost,100,,132,0
+8,800,,Ability Upgrade,100,125,133,129
+8,575,,Self Damage Boost,200,,134,0
+9,40,,Self Damage Boost,300,,135,0
+9,50,,Self Damage Boost,400,,136,0
+9,10,,Self Damage Boost,100,,137,0
+9,15,Dark Luck,Specialisation Choice,100,,139,0
+9,15,Dark Blessing,Specialisation Choice,23,,140,0
+9,20,,Self Damage Boost,200,,141,0
+9,25,,Ultimate Unlock,18,,142,0
+9,30,,Self Damage Boost,300,,143,0
+10,20,,All Damage Boost,100,,144,0
+10,45,Moonbeam,Specialisation Choice,24,,145,0
+10,45,Wild Shape,Specialisation Choice,25,,146,0
+10,60,,Ultimate Unlock,20,,147,145
+10,75,,All Damage Boost,100,,148,0
+10,90,,Health Boost,490000000000,,149,146
+10,125,Druidic Healing,Ability Unlock,26,,150,145
+10,125,Wild Resilience,Ability Unlock,27,,151,146
+10,150,,All Damage Boost,100,,152,145
+10,140,,Health Boost,3800000000000,,153,146
+10,350,,All Damage Boost,100,,313,145
+1,80,,Self Damage Boost,200,,157,0
+1,125,,Self Damage Boost,300,,158,0
+1,180,,Self Damage Boost,300,,159,0
+1,350,,Self Damage Boost,200,,160,0
+1,375,,Self Damage Boost,400,,161,7
+1,425,,Self Damage Boost,300,,162,0
+1,450,,Self Damage Boost,200,,163,6
+1,450,,Self Damage Boost,400,,164,7
+1,525,,Self Damage Boost,100,,165,6
+1,525,,Self Damage Boost,200,,166,7
+1,575,,Self Damage Boost,300,,167,0
+1,550,,Self Damage Boost,100,,168,6
+1,275,,Self Damage Boost,100,,169,7
+1,375,,Self Damage Boost,200,,170,6
+2,60,,Self Damage Boost,400,,171,0
+2,80,,Self Damage Boost,300,,172,0
+2,110,,Self Damage Boost,400,,173,0
+2,145,,Self Damage Boost,400,,174,0
+2,165,,Self Damage Boost,100,,175,0
+2,190,,Self Damage Boost,300,,176,0
+2,215,,Self Damage Boost,300,,177,0
+2,235,,Self Damage Boost,200,,178,0
+2,260,,Self Damage Boost,300,,179,0
+2,275,,Self Damage Boost,100,,180,0
+3,60,,Self Damage Boost,400,,181,0
+3,80,,Self Damage Boost,400,,182,0
+3,105,,Self Damage Boost,400,,183,0
+3,115,,Self Damage Boost,100,,184,0
+3,135,,Self Damage Boost,300,,185,0
+3,160,,Self Damage Boost,400,,186,0
+3,185,,Self Damage Boost,900,,187,0
+3,205,,Self Damage Boost,400,,188,0
+3,220,,Self Damage Boost,300,,189,0
+4,140,,Self Damage Boost,100,,190,0
+4,185,,Self Damage Boost,300,,191,0
+4,230,,Self Damage Boost,300,,192,0
+4,270,,Self Damage Boost,100,,193,0
+4,325,,Self Damage Boost,200,,194,0
+5,105,,Self Damage Boost,200,,195,0
+5,135,,Self Damage Boost,300,,196,0
+5,175,,Self Damage Boost,400,,197,0
+5,220,,Self Damage Boost,300,,198,0
+5,250,,Self Damage Boost,400,,199,0
+5,275,,Self Damage Boost,100,,200,0
+6,90,,Self Damage Boost,300,,201,0
+6,110,,Self Damage Boost,200,,202,0
+7,120,,Self Damage Boost,200,,203,0
+7,170,,Self Damage Boost,200,,204,0
+8,350,,Self Damage Boost,100,,205,0
+8,275,,Self Damage Boost,100,,206,0
+8,450,,Self Damage Boost,100,,207,0
+2,295,,Self Damage Boost,300,,208,0
+2,310,,Ability Upgrade,100,24,209,29
+2,305,,Ability Upgrade,300,26,210,0
+2,365,,All Damage Boost,100,,211,29
+2,330,,Self Damage Boost,300,,212,0
+2,360,,Self Damage Boost,500,,213,0
+2,380,,Self Damage Boost,200,,214,0
+2,400,,Ability Upgrade,200,24,215,29
+2,405,,Ability Upgrade,300,26,216,0
+2,425,,Self Damage Boost,300,,217,0
+2,455,,All Damage Boost,100,,218,0
+2,445,,Self Damage Boost,200,,219,0
+2,500,,Ability Upgrade,100,24,220,0
+2,480,,Self Damage Boost,300,,221,0
+2,550,,Ability Upgrade,100,24,222,29
+2,520,,Ability Upgrade,300,26,223,0
+2,510,,Self Damage Boost,300,,224,0
+2,540,,Self Damage Boost,200,,225,0
+1,900,,Ability Upgrade,100,4,236,7
+1,625,,Self Damage Boost,100,,226,0
+1,660,,Self Damage Boost,300,,227,6
+1,700,,Ability Upgrade,100,2,228,6
+1,700,,Ability Upgrade,200,4,229,7
+1,735,,Self Damage Boost,200,,230,0
+1,770,,Self Damage Boost,300,,231,0
+1,840,,Self Damage Boost,200,,232,0
+1,880,,Self Damage Boost,100,,233,0
+1,660,,Self Damage Boost,200,,235,7
+11,35,Reckless Attack,Ability Unlock,33,,237,0
+11,40,Frenzy,Grants Secondary Attack to Nearby Target,1,50,238,0
+11,50,Brute Strength,Specialisation Choice,200,,239,0
+11,50,Uncanny Speed,Specialisation Choice,2,,240,0
+12,3,First In Line,Ability Unlock,30,,241,0
+12,9,Loyalty,Ability Unlock,31,,242,0
+12,18,Chango Unchained,Specialisation Choice,28,,243,0
+12,18,Chango Restrained,Specialisation Choice,32,,244,0
+3,225,,Grants Enemy Taunt,2,,245,44
+3,210,,Health Boost,28000000000,,246,44
+3,275,,Health Boost,40000000000000,,247,44
+3,130,,Health Boost,5500000,,248,44
+3,240,,Health Boost,760000000000,,249,44
+3,305,,Health Boost,2400000000000000,,250,44
+3,330,,Health Boost,64000000000000000,,251,44
+3,250,,Self Damage Boost,400,,252,0
+3,265,,Self Damage Boost,200,,253,0
+3,295,,Self Damage Boost,300,,254,0
+3,310,,Self Damage Boost,300,,255,0
+3,325,,Self Damage Boost,200,,256,0
+3,350,,Self Damage Boost,300,,257,0
+3,225,,All Damage Boost,100,,258,43
+3,275,,Ability Upgrade,100,38,259,43
+3,300,,Ability Upgrade,100,38,260,43
+3,345,,All Damage Boost,100,,261,43
+4,430,,Self Damage Boost,300,,262,0
+4,450,,Self Damage Boost,200,,263,0
+4,480,,Self Damage Boost,200,,264,0
+4,490,,Gold Find Boost,10,,265,0
+4,500,,Ability Upgrade,200,52,266,58
+4,500,,Ability Upgrade,100,55,267,59
+4,520,,Self Damage Boost,100,,268,0
+5,300,,Self Damage Boost,200,,269,0
+5,340,,Self Damage Boost,300,,270,0
+5,350,,All Damage Boost,100,,271,76
+5,370,,Self Damage Boost,200,,272,0
+5,400,,Ability Upgrade,100,71,273,75
+5,395,,Ability Upgrade,300,72,274,0
+5,410,,Self Damage Boost,300,,275,0
+5,440,,Self Damage Boost,200,,276,0
+5,480,,Self Damage Boost,300,,277,0
+5,475,,All Damage Boost,100,,278,0
+5,515,,Self Damage Boost,200,,279,0
+6,170,,Self Damage Boost,200,,280,0
+6,185,,Self Damage Boost,200,,281,0
+6,225,,Self Damage Boost,300,,282,0
+6,235,,Self Damage Boost,100,,283,0
+7,230,,Self Damage Boost,400,,284,0
+7,260,,Self Damage Boost,400,,285,0
+7,300,,Self Damage Boost,400,,286,0
+8,500,,Ability Upgrade,100,128,287,130
+8,800,,Ability Upgrade,100,128,288,130
+8,850,,Self Damage Boost,100,,289,0
+8,925,,Self Damage Boost,200,,290,0
+8,975,,Self Damage Boost,100,,291,0
+9,60,,Self Damage Boost,500,,292,0
+9,55,,Self Damage Boost,100,,293,0
+9,45,,Ability Upgrade,100,139,294,139
+9,65,,Self Damage Boost,100,,295,0
+9,70,,Self Damage Boost,200,,296,0
+9,75,,Self Damage Boost,100,,297,0
+10,110,,Self Damage Boost,100,,298,0
+10,175,,Self Damage Boost,200,,299,0
+10,210,,Self Damage Boost,200,,300,0
+10,295,,Self Damage Boost,200,,301,0
+10,325,,Self Damage Boost,100,,302,0
+10,390,,Self Damage Boost,200,,303,0
+10,215,,Health Boost,100000000000000,,364,146
+10,250,,Health Boost,460000000000000,,305,146
+10,320,,Health Boost,9500000000000000,,306,146
+10,350,,Health Boost,50000000000000000,,307,146
+11,60,,Ultimate Unlock,24,,308,0
+11,70,,Self Damage Boost,200,,309,0
+11,75,,Self Damage Boost,200,,310,0
+10,250,,All Damage Boost,100,,312,145
+12,12,,Ultimate Unlock,26,,314,0
+12,25,,Self Damage Boost,200,,315,0
+2,170,,Ability Upgrade,500,26,316,0
+2,230,,Ability Upgrade,600,26,317,0
+2,370,,Ability Upgrade,400,26,321,0
+2,250,,Ability Upgrade,400,26,318,0
+2,285,,Ability Upgrade,200,26,319,0
+12,15,,Self Damage Boost,100,,441,0
+5,230,,Ability Upgrade,400,72,326,0
+2,450,,Ability Upgrade,400,26,322,0
+2,485,,Ability Upgrade,400,26,323,0
+2,535,,Ability Upgrade,400,26,324,0
+5,180,,Ability Upgrade,500,72,325,0
+5,245,,Ability Upgrade,100,72,327,0
+5,295,,Ability Upgrade,400,72,328,0
+5,375,,Ability Upgrade,200,72,329,0
+5,415,,Ability Upgrade,300,72,330,0
+5,525,,Ability Upgrade,100,71,331,75
+5,435,,Ability Upgrade,300,72,333,0
+5,530,,Ability Upgrade,500,72,334,0
+10,190,,Ability Upgrade,600,151,335,146
+10,220,,Ability Upgrade,200,151,336,146
+10,260,,Ability Upgrade,600,151,337,146
+10,330,,Ability Upgrade,300,151,338,146
+10,360,,Ability Upgrade,200,151,339,146
+10,155,,Ability Upgrade,200,150,340,145
+10,180,,Ability Upgrade,200,150,341,145
+10,200,,Ability Upgrade,200,145,342,145
+10,205,,Ability Upgrade,200,150,343,145
+10,265,,Ability Upgrade,300,150,344,145
+10,290,,Ability Upgrade,100,145,345,145
+10,300,,Ability Upgrade,500,150,346,145
+10,330,,Ability Upgrade,100,145,347,145
+10,375,,Ability Upgrade,200,150,348,145
+10,60,,Ultimate Unlock,27,,349,146
+2,25,,Self Damage Boost,400,,350,0
+5,70,,Self Damage Boost,400,,351,0
+2,270,,Ability Upgrade,300,26,352,0
+2,325,,Ability Upgrade,300,26,353,0
+2,345,,Ability Upgrade,400,26,354,0
+2,390,,Ability Upgrade,400,26,355,0
+2,420,,Ability Upgrade,100,26,356,0
+2,430,,Ability Upgrade,300,26,357,0
+2,465,,Ability Upgrade,300,26,358,0
+2,505,,Ability Upgrade,700,26,360,0
+2,385,,Ability Upgrade,100,26,361,30
+10,155,,Ability Upgrade,200,151,362,146
+10,180,,Health Boost,21000000000000,,363,146
+10,290,,Health Boost,3000000000000000,,365,146
+10,300,,Ability Upgrade,500,151,366,146
+10,395,,Health Boost,530000000000000000,,367,146
+10,400,,Ability Upgrade,900,151,368,146
+10,235,,Ability Upgrade,200,150,369,145
+10,320,,Ability Upgrade,100,150,370,145
+10,345,,Ability Upgrade,500,150,371,145
+10,410,,Ability Upgrade,500,150,372,145
+12,21,,Self Damage Boost,400,,373,0
+5,270,,Ability Upgrade,400,72,377,0
+5,335,,Ability Upgrade,200,72,378,0
+5,460,,Ability Upgrade,500,72,380,0
+5,485,,Ability Upgrade,500,72,381,0
+9,45,,Ability Upgrade,200,140,375,140
+5,90,,Ability Upgrade,500,72,376,0
+5,355,,Ability Upgrade,300,72,379,0
+5,505,,Ability Upgrade,500,72,382,0
+5,315,,Ability Upgrade,100,71,383,76
+12,6,,Self Damage Boost,200,,440,0
+13,40,Spare Dagger,Ability Unlock,38,,384,0
+13,60,,Ultimate Unlock,41,,385,0
+13,120,More Daggers,Specialisation Choice,1,39,386,0
+13,10,,Self Damage Boost,100,,387,0
+13,35,,All Damage Boost,100,,388,0
+13,90,,Self Damage Boost,100,,389,0
+13,80,Friendly,Ability Unlock,35,,390,0
+13,120,Charismatic,Specialisation Choice,100,390,391,0
+13,135,,Self Damage Boost,100,,392,0
+13,165,,Self Damage Boost,200,,393,0
+13,190,,Increase Number of Enemies Targeted,1,39,394,386
+13,215,,Self Damage Boost,200,,395,0
+13,250,,Self Damage Boost,200,,396,0
+13,290,,Self Damage Boost,300,,397,0
+13,310,,Increase Number of Enemies Targeted,1,39,398,386
+13,345,,Self Damage Boost,200,,399,0
+13,360,,All Damage Boost,100,,400,0
+13,390,,Self Damage Boost,300,,401,0
+13,425,,Self Damage Boost,100,,402,386
+13,440,,Increase Number of Enemies Targeted,1,39,403,386
+13,465,,Self Damage Boost,100,,404,0
+13,425,,Self Damage Boost,300,,405,391
+13,190,,Ability Upgrade,200,390,406,391
+13,310,,Ability Upgrade,200,390,407,391
+13,440,,Ability Upgrade,100,390,408,391
+14,50,,Increase Number of Enemies Targeted,1,,409,0
+14,30,Golden Palm,Ability Unlock,36,,410,0
+14,100,Ki Strike,Specialisation Choice,37,,411,0
+14,100,Extra Attacks,Specialisation Choice,1,,412,0
+14,15,,Self Damage Boost,200,,413,0
+14,75,,Self Damage Boost,300,,414,0
+14,110,,Self Damage Boost,200,,415,0
+14,130,,Self Damage Boost,200,,416,0
+14,150,,Self Damage Boost,300,,417,0
+14,170,,Self Damage Boost,300,,418,0
+14,185,,Increase Number of Enemies Targeted,1,,419,412
+14,200,,Self Damage Boost,200,,420,0
+14,210,,All Damage Boost,100,,421,0
+14,225,,Self Damage Boost,300,,422,0
+14,245,,Self Damage Boost,200,,423,0
+14,270,,Self Damage Boost,300,,424,0
+14,280,,Increase Number of Enemies Targeted,1,,425,412
+14,300,,Self Damage Boost,300,,426,0
+14,325,,Self Damage Boost,200,,427,0
+14,345,,Self Damage Boost,200,,428,0
+14,365,,Self Damage Boost,100,,429,0
+14,390,,Self Damage Boost,200,,430,0
+14,400,,Increase Number of Enemies Targeted,1,,431,412
+14,425,,Self Damage Boost,300,,432,0
+14,470,,Self Damage Boost,300,,531,0
+14,380,,Increase Number of Enemies Targeted,1,,434,411
+14,185,,Ability Upgrade,50,411,435,411
+14,400,,Ability Upgrade,50,411,436,411
+14,120,,Self Damage Boost,100,,437,412
+14,65,,Ultimate Unlock,43,,438,0
+11,25,,Self Damage Boost,200,,442,0
+15,35,,Self Damage Boost,100,,443,0
+15,135,Eldritch Strike,Ability Unlock,42,,444,0
+15,60,Cantrip: Thunderclap,Specialisation Choice,39,,445,0
+15,60,Cantrip: Shocking Grasp,Specialisation Choice,40,,446,0
+15,60,Cantrip: Fire Bolt,Specialisation Choice,41,,447,0
+15,80,,Self Damage Boost,100,,448,0
+15,100,,Self Damage Boost,100,,449,0
+15,120,,Self Damage Boost,200,,450,0
+15,150,,Self Damage Boost,200,,451,0
+15,165,,Self Damage Boost,200,,452,0
+15,190,,Self Damage Boost,100,,453,0
+15,210,,Self Damage Boost,200,,454,0
+15,220,,Ultimate Boost,100,,455,0
+15,235,,Self Damage Boost,200,,456,0
+15,265,,Self Damage Boost,100,,457,0
+15,275,,Self Damage Boost,100,,458,0
+15,300,,Self Damage Boost,300,,459,0
+15,330,,Self Damage Boost,100,,460,0
+15,355,,Self Damage Boost,200,,461,0
+15,385,,Self Damage Boost,200,,462,0
+15,420,,Self Damage Boost,300,,463,0
+15,175,,Ultimate Unlock,50,,464,0
+1,940,,Self Damage Boost,100,,465,6
+1,980,,Self Damage Boost,100,,466,0
+1,940,,Self Damage Boost,200,,469,7
+1,1030,,Ability Upgrade,200,2,468,6
+1,1030,,Ability Upgrade,200,4,470,7
+2,570,,Self Damage Boost,200,,471,0
+2,610,,Self Damage Boost,300,,472,0
+2,590,,Ability Upgrade,100,24,473,29
+2,590,,All Damage Boost,100,,474,30
+3,365,,Self Damage Boost,300,,475,0
+3,380,,Self Damage Boost,100,,476,0
+3,400,,Self Damage Boost,200,,477,0
+3,405,,Ability Upgrade,100,38,478,43
+3,360,,Health Boost,5800000000000000000,,479,44
+4,550,,Self Damage Boost,200,,480,0
+4,575,,Ability Upgrade,100,52,481,58
+4,575,,Ability Upgrade,200,55,482,59
+4,605,,Self Damage Boost,100,,483,0
+5,540,,Self Damage Boost,200,,484,0
+5,560,,Self Damage Boost,300,,485,0
+5,600,,Self Damage Boost,200,,486,0
+5,575,,Ability Upgrade,100,71,487,75
+5,645,,All Damage Boost,100,,488,0
+6,250,,Self Damage Boost,200,,489,0
+6,265,,Ability Upgrade,100,90,490,90
+6,265,,Ability Upgrade,100,91,491,91
+6,265,,Ability Upgrade,100,92,492,92
+6,270,,Self Damage Boost,400,,493,0
+7,320,,Self Damage Boost,300,,494,0
+7,360,,Self Damage Boost,200,,495,0
+7,350,,Ability Upgrade,50,108,496,108
+7,350,,Ability Upgrade,50,109,497,109
+7,350,,Ability Upgrade,50,110,498,110
+7,350,,Ability Upgrade,50,111,499,111
+7,350,,Ability Upgrade,50,112,500,112
+8,1020,,Self Damage Boost,200,,501,0
+8,1060,,Self Damage Boost,200,,502,0
+8,1150,,Ability Upgrade,100,125,503,129
+8,1150,,Ability Upgrade,100,128,504,130
+9,80,,Ability Upgrade,100,139,506,139
+9,80,,Ability Upgrade,200,140,508,140
+9,85,,Self Damage Boost,100,,507,0
+9,90,,Self Damage Boost,100,,509,0
+10,430,,Self Damage Boost,200,,510,0
+10,500,,Self Damage Boost,300,,511,0
+10,550,,Self Damage Boost,100,,512,0
+10,445,,Health Boost,6100000000000000000,,513,146
+10,440,,Ability Upgrade,900,151,514,146
+10,480,,Health Boost,48000000000000000000,,515,146
+10,485,,Ability Upgrade,1100,151,516,146
+10,530,,Health Boost,530000000000000000000,,517,146
+10,525,,Ability Upgrade,900,151,518,146
+11,90,,Self Damage Boost,100,,519,0
+11,115,,Self Damage Boost,200,,520,0
+11,105,,Self Damage Boost,100,,521,240
+12,30,,Self Damage Boost,100,,522,243
+12,35,,Self Damage Boost,100,,523,243
+12,30,,Health Boost,110000000000000000000,,524,244
+12,35,,Self Damage Boost,200,,525,244
+13,485,,Self Damage Boost,200,,526,0
+13,535,,Self Damage Boost,200,,527,0
+13,510,,All Damage Boost,200,,528,391
+13,510,,All Damage Boost,300,,529,386
+14,450,,Self Damage Boost,100,,530,0
+14,475,,Ability Upgrade,50,411,532,411
+14,490,,Self Damage Boost,100,,533,0
+15,440,,Ability Upgrade,50,444,534,0
+15,460,,Self Damage Boost,200,,535,0
+15,480,,Self Damage Boost,100,,536,0
+2,545,,Ability Upgrade,400,26,537,0
+2,575,,Ability Upgrade,700,26,538,0
+2,600,,Ability Upgrade,800,26,539,0
+5,545,,Ability Upgrade,500,72,540,0
+5,570,,Ability Upgrade,500,72,541,0
+5,595,,Ability Upgrade,500,72,542,0
+5,615,,Ability Upgrade,500,72,543,0
+10,440,,Ability Upgrade,400,150,544,145
+10,465,,Ability Upgrade,300,150,545,145
+10,495,,Ability Upgrade,200,150,546,145
+10,525,,Ability Upgrade,600,150,547,145
+16,25,Hardened Shell,Grants Damage Reduction,25,,548,0
+16,90,Grandmotherly Love,Ability Unlock,47,,549,0
+16,255,,Ultimate Unlock,59,,550,0
+16,130,Circle of the Mountain,Specialisation Choice,48,,551,0
+16,130,Circle of the Arctic,Specialisation Choice,49,,552,0
+16,130,Circle of the Swamp,Specialisation Choice,50,,553,0
+16,200,Spiked Shell,Grants Thorns,25,,554,551
+16,200,Freezing Breeze,Ability Unlock,52,,555,552
+16,200,Acid Splash,Ability Unlock,53,,556,553
+16,15,,Self Damage Boost,200,,557,0
+16,45,,Self Damage Boost,300,,558,0
+16,70,,Self Damage Boost,200,,559,0
+16,100,,Self Damage Boost,300,,560,0
+16,115,,Self Damage Boost,400,,561,0
+16,145,,Self Damage Boost,400,,562,551
+16,145,,Self Damage Boost,400,,563,552
+16,145,,Self Damage Boost,600,,564,553
+16,165,,Self Damage Boost,300,,565,0
+16,175,,Ability Upgrade,100,549,566,551
+16,175,,Ability Upgrade,200,549,567,552
+16,175,,Ability Upgrade,100,549,568,553
+16,190,,Self Damage Boost,400,,569,0
+16,210,,Self Damage Boost,300,,570,0
+16,235,,Self Damage Boost,200,,571,0
+16,270,,Self Damage Boost,200,,572,551
+16,270,,Self Damage Boost,200,,573,552
+16,270,,Self Damage Boost,300,,574,553
+16,250,,Self Damage Boost,200,,575,0
+16,285,,Ability Upgrade,100,554,576,551
+16,285,,Ability Upgrade,100,555,577,552
+16,285,,Ability Upgrade,100,556,578,553
+16,385,,Self Damage Boost,200,,589,0
+16,295,,Self Damage Boost,300,,579,0
+16,320,,Self Damage Boost,300,,580,0
+16,330,,Ability Upgrade,100,549,581,0
+16,340,,Self Damage Boost,100,,582,0
+16,355,,All Damage Boost,100,,583,551
+16,355,,All Damage Boost,200,,584,552
+16,355,,All Damage Boost,100,,585,553
+16,365,,Self Damage Boost,400,,586,551
+16,365,,Self Damage Boost,400,,587,552
+16,365,,Self Damage Boost,500,,588,553
+16,400,,Ability Upgrade,100,554,590,551
+16,400,,Ability Upgrade,100,555,591,552
+16,400,,Ability Upgrade,100,556,592,553
+16,410,,Self Damage Boost,200,,593,0
+16,440,,Self Damage Boost,300,,594,0
+17,280,,Ultimate Unlock,61,,595,0
+17,70,Skill Empowerment,Ability Unlock,60,,596,0
+17,140,Practice Makes Perfect,Ability Unlock,61,,597,0
+17,210,Empowered Orbs,Specialisation Choice,62,,598,0
+17,210,Empowered Empowerment,Specialisation Choice,200,596,599,0
+17,105,,Ability Upgrade,100,596,600,0
+17,30,,All Damage Boost,100,,602,0
+17,20,,Self Damage Boost,200,,603,0
+17,55,,Self Damage Boost,100,,604,0
+17,90,,All Damage Boost,100,,605,0
+17,110,,Self Damage Boost,200,,606,0
+17,130,,Self Damage Boost,100,,607,0
+17,150,,Ability Upgrade,100,596,608,0
+17,160,,Self Damage Boost,300,,609,0
+17,180,,Self Damage Boost,200,,610,0
+17,200,,All Damage Boost,200,,611,0
+17,75,,Self Damage Boost,100,,612,0
+17,220,,Self Damage Boost,300,,613,0
+17,235,,Self Damage Boost,200,,614,0
+17,250,,Ability Upgrade,100,596,615,0
+17,260,,Self Damage Boost,200,,616,0
+17,290,,Self Damage Boost,300,,617,0
+17,315,,Self Damage Boost,200,,618,0
+17,335,,Self Damage Boost,100,,619,598
+17,360,,Self Damage Boost,200,,620,0
+17,390,,Self Damage Boost,300,,621,0
+17,425,,Self Damage Boost,300,,622,0
+17,445,,Self Damage Boost,100,,623,0
+17,480,,Self Damage Boost,200,,624,0
+17,505,,Self Damage Boost,200,,625,0
+17,300,,All Damage Boost,200,,626,0
+17,405,,All Damage Boost,200,,627,0
+17,350,,Ability Upgrade,100,596,628,0
+17,435,,Ability Upgrade,200,596,629,0
+17,500,,Ability Upgrade,100,596,630,0
+17,135,,All Damage Boost,100,,631,0
+18,25,Icingdeath,Ability Unlock,64,,632,0
+18,50,Twinkle,Ability Unlock,65,,633,0
+18,75,Companions of the Hall,Ability Unlock,66,,634,0
+18,100,Whirl of Steel,Specialisation Choice,67,,635,0
+18,100,Drow Stalker,Specialisation Choice,68,,636,0
+18,80,,Ability Upgrade,100,632,637,0
+18,110,,Ability Upgrade,100,634,638,0
+18,60,,Ultimate Unlock,66,,639,0
+19,40,Blessed Hammer,Ability Unlock,69,,640,0
+19,20,Healing Word,Ability Unlock,70,,641,0
+19,50,Shield of Faith,Ability Unlock,71,,642,0
+19,80,Greater Blessing,Specialisation Choice,200,640,643,0
+19,80,Booming Voice,Specialisation Choice,100,641,644,0
+19,110,,Ability Upgrade,100,640,645,0
+19,70,,Ability Upgrade,600,641,646,0
+19,120,,Ultimate Unlock,68,,647,0
+18,15,,Self Damage Boost,200,,648,0
+18,40,,Self Damage Boost,100,,649,0
+18,55,,Self Damage Boost,200,,650,0
+18,70,,Self Damage Boost,100,,651,0
+18,85,,Self Damage Boost,100,,652,0
+18,105,,Self Damage Boost,100,,653,0
+18,115,,Ability Upgrade,100,632,655,0
+18,125,,Self Damage Boost,100,,656,0
+18,135,,Ability Upgrade,100,634,657,0
+18,145,,Self Damage Boost,100,,658,0
+18,150,,All Damage Boost,100,,659,0
+18,165,,Self Damage Boost,200,,660,0
+18,175,,Ability Upgrade,100,632,661,0
+18,190,,Self Damage Boost,200,,662,0
+18,200,,Ability Upgrade,100,634,663,0
+19,55,,Self Damage Boost,100,,665,0
+19,95,,Self Damage Boost,100,,666,0
+19,125,,Self Damage Boost,200,,667,0
+19,160,,Self Damage Boost,200,,668,0
+19,195,,Self Damage Boost,200,,669,0
+19,235,,Self Damage Boost,200,,670,0
+19,250,,Self Damage Boost,100,,671,0
+19,285,,Self Damage Boost,100,,672,0
+19,310,,Self Damage Boost,200,,673,0
+19,45,,Ability Upgrade,400,641,674,0
+19,90,,Ability Upgrade,300,641,675,0
+19,115,,Ability Upgrade,500,641,676,0
+19,140,,Ability Upgrade,500,641,677,0
+19,165,,Ability Upgrade,600,641,678,0
+19,190,,Ability Upgrade,700,641,679,0
+19,210,,Ability Upgrade,400,641,680,0
+19,230,,Ability Upgrade,400,641,681,0
+19,255,,Ability Upgrade,700,641,682,0
+19,275,,Ability Upgrade,600,641,683,0
+19,300,,Ability Upgrade,600,641,684,0
+19,320,,Ability Upgrade,400,641,685,0
+19,65,,All Damage Boost,100,,686,0
+19,135,,All Damage Boost,100,,687,0
+19,225,,All Damage Boost,100,,688,0
+19,305,,All Damage Boost,100,,689,0
+18,210,,Self Damage Boost,200,,690,0
+19,155,,Ability Upgrade,100,640,691,0
+19,200,,Ability Upgrade,100,640,692,0
+19,260,,Ability Upgrade,100,640,693,0
+19,325,,Ability Upgrade,100,640,694,0
+20,50,Ruby Encouragement (Ahead),Specialisation Choice,75,,695,0
+20,50,Ruby Encouragement (Behind),Specialisation Choice,76,,696,0
+20,250,Ruby Weakness (Ranged),Specialisation Choice,77,,697,0
+20,250,Ruby Weakness (Melee),Specialisation Choice,78,,698,0
+20,250,Ruby Weakness (Magic),Specialisation Choice,79,,699,0
+20,100,,Ultimate Unlock,72,,700,0
+20,10,,Self Damage Boost,200,,701,0
+20,25,,All Damage Boost,100,,702,0
+20,90,,Ability Upgrade,100,,703,0
+20,30,,Self Damage Boost,200,,705,0
+20,55,,Self Damage Boost,200,,706,0
+20,75,,Self Damage Boost,200,,707,0
+20,105,,Self Damage Boost,200,,708,0
+20,125,,Self Damage Boost,200,,709,0
+20,160,,Self Damage Boost,200,,710,0
+20,190,,Self Damage Boost,200,,711,0
+20,230,,Self Damage Boost,200,,712,0
+20,245,,Self Damage Boost,200,,713,0
+20,275,,Self Damage Boost,200,,714,0
+20,300,,Self Damage Boost,200,,715,0
+20,320,,Self Damage Boost,200,,716,0
+20,355,,Self Damage Boost,300,,717,0
+20,385,,Self Damage Boost,300,,718,0
+20,425,,Self Damage Boost,300,,719,0
+20,460,,Self Damage Boost,300,,720,0
+20,505,,Self Damage Boost,300,,721,0
+20,530,,Self Damage Boost,300,,722,0
+20,575,,Self Damage Boost,300,,723,0
+20,615,,Self Damage Boost,300,,724,0
+20,670,,Self Damage Boost,400,,725,0
+20,715,,Self Damage Boost,400,,726,0
+20,735,,Self Damage Boost,100,,727,0
+20,65,,All Damage Boost,100,,728,0
+20,175,,All Damage Boost,100,,729,0
+20,340,,All Damage Boost,100,,730,0
+20,485,,All Damage Boost,100,,731,0
+20,590,,All Damage Boost,100,,732,0
+20,200,,Ability Upgrade,100,,733,0
+20,430,,Ability Upgrade,100,,734,0
+20,290,,Ability Upgrade,100,,735,0
+20,550,,Ability Upgrade,100,,736,0
+20,515,,Ability Upgrade,50,,737,0
+20,700,,Ability Upgrade,50,,738,0
+20,650,,Ability Upgrade,200,,739,0
+20,725,,Ability Upgrade,100,,740,0
+21,25,Song of Battle,Ability Unlock,83,,741,0
+21,80,Tempo of Battle,Ability Unlock,84,,742,0
+21,125,Tempo of Victory,Ability Unlock,86,,743,0
+21,40,Impressive Bladework,Increase Number of Enemies Targeted,1,74,744,0
+21,100,Theme of Valor,Specialisation Choice,88,,745,0
+21,100,Theme of Consideration,Specialisation Choice,89,,746,0
+21,100,Theme of Deception,Specialisation Choice,90,,747,0
+21,145,,Ultimate Unlock,75,,748,0
+21,70,,Ability Upgrade,100,741,749,0
+21,15,,Self Damage Boost,100,,750,0
+21,60,,Self Damage Boost,200,,751,0
+21,95,,Self Damage Boost,300,,752,0
+21,110,,Self Damage Boost,200,,753,0
+21,135,,Self Damage Boost,200,,754,0
+21,150,,Self Damage Boost,200,,755,0
+21,160,,Ability Upgrade,100,741,756,0
+21,185,,Self Damage Boost,300,,757,0
+21,195,,Increase Number of Enemies Targeted,1,74,758,0
+21,200,,Self Damage Boost,200,,759,0
+21,230,,Self Damage Boost,200,,760,0
+21,250,,Self Damage Boost,300,,761,0
+21,265,,Self Damage Boost,300,,762,0
+21,240,,Ability Upgrade,100,741,763,0
+1,1050,,Self Damage Boost,200,,764,0
+1,1095,,Self Damage Boost,100,,765,0
+1,1140,,Self Damage Boost,100,,766,0
+1,1150,,All Damage Boost,100,,767,0
+2,635,,Self Damage Boost,200,,768,0
+2,670,,Self Damage Boost,300,,769,0
+2,650,,Ability Upgrade,100,24,770,29
+2,650,,All Damage Boost,100,,771,30
+16,490,,Ability Upgrade,100,554,785,551
+16,500,,Self Damage Boost,100,,784,0
+16,475,,Self Damage Boost,200,,783,0
+20,765,,Self Damage Boost,100,,775,0
+20,795,,Self Damage Boost,100,,776,0
+20,835,,Self Damage Boost,200,,777,0
+20,820,,Ability Upgrade,100,,778,0
+3,430,,Self Damage Boost,200,,779,0
+3,445,,Self Damage Boost,100,,780,0
+3,450,,Ability Upgrade,100,38,781,43
+3,410,,All Damage Boost,100,,782,44
+16,490,,Ability Upgrade,100,555,786,552
+16,490,,Ability Upgrade,100,556,787,553
+16,460,,All Damage Boost,100,,788,0
+4,630,,Self Damage Boost,100,,789,0
+4,655,,Ability Upgrade,200,52,790,58
+4,655,,Ability Upgrade,200,55,791,59
+4,685,,Self Damage Boost,100,,792,0
+4,670,,Gold Find Boost,10,,793,0
+14,525,,Self Damage Boost,100,,794,0
+14,555,,Self Damage Boost,200,,795,0
+14,540,,Ability Upgrade,50,411,796,411
+14,540,,Self Damage Boost,100,,797,412
+5,665,,Self Damage Boost,100,,798,0
+5,700,,Self Damage Boost,200,,799,0
+5,715,,Ability Upgrade,100,71,800,75
+17,530,,Self Damage Boost,200,,801,0
+17,560,,Self Damage Boost,100,,802,0
+17,575,,Self Damage Boost,200,,803,0
+6,290,,Self Damage Boost,100,,804,0
+6,305,,Self Damage Boost,100,,805,0
+6,315,,Self Damage Boost,100,,806,0
+15,510,,Self Damage Boost,100,,807,0
+15,530,,Self Damage Boost,100,,808,0
+15,560,,Self Damage Boost,200,,809,0
+15,545,,Ability Upgrade,50,444,810,0
+7,385,,Self Damage Boost,300,,811,0
+7,420,,Self Damage Boost,300,,812,0
+8,1210,,Self Damage Boost,100,,813,0
+8,1290,,Self Damage Boost,100,,814,0
+8,1380,,Self Damage Boost,100,,815,0
+8,1440,,Self Damage Boost,100,,816,0
+13,575,,Self Damage Boost,100,,817,0
+13,610,,Self Damage Boost,100,,818,0
+13,645,,Self Damage Boost,100,,819,0
+13,555,,Increase Number of Enemies Targeted,1,39,820,386
+9,100,,Self Damage Boost,200,,821,0
+9,110,,Self Damage Boost,300,,822,0
+9,105,,Ability Upgrade,100,139,823,139
+9,105,,Ability Upgrade,100,140,824,140
+18,240,,Self Damage Boost,100,,825,0
+18,250,,Ability Upgrade,100,634,826,0
+21,290,,Self Damage Boost,100,,827,0
+21,325,,Self Damage Boost,300,,828,0
+10,585,,Self Damage Boost,100,,829,0
+10,645,,Self Damage Boost,100,,830,0
+10,695,,Self Damage Boost,100,,831,0
+10,675,,Ability Upgrade,100,145,832,145
+10,675,,Self Damage Boost,100,,833,146
+19,350,,Self Damage Boost,100,,834,0
+19,380,,Self Damage Boost,100,,835,0
+19,410,,Self Damage Boost,100,,836,0
+19,420,,All Damage Boost,100,,837,0
+11,130,,Self Damage Boost,200,,838,0
+11,150,,Self Damage Boost,100,,839,0
+11,140,,Self Damage Boost,100,,840,240
+12,50,,Self Damage Boost,200,,841,0
+12,40,,Self Damage Boost,200,,842,0
+22,10,Favored Enemy: Drow,Specialisation Choice,98,,843,0
+22,10,Favored Enemy: Fiend,Specialisation Choice,99,,844,0
+22,10,Favored Enemy: Aberration,Specialisation Choice,100,,845,0
+22,10,Favored Enemy: Giant,Specialisation Choice,101,,846,0
+22,10,Favored Enemy: Elemental,Specialisation Choice,102,,847,0
+22,30,Hunter's Pack,Ability Unlock,103,,848,0
+22,55,,Ultimate Unlock,83,,849,0
+22,90,Colossus Slayer,Specialisation Choice,104,,850,0
+22,90,Horde Breaker,Specialisation Choice,105,,851,0
+22,110,,Self Damage Boost,200,,859,0
+22,75,,Self Damage Boost,100,,857,0
+22,50,,Self Damage Boost,200,,855,0
+22,65,,All Damage Boost,200,,856,0
+22,20,,Self Damage Boost,200,,854,0
+22,100,,Ability Upgrade,200,848,858,0
+22,175,,Self Damage Boost,300,,860,0
+22,125,,Self Damage Boost,300,,861,0
+22,140,,Ability Upgrade,100,843,862,843
+22,140,,Ability Upgrade,100,844,863,844
+22,140,,Ability Upgrade,100,845,864,845
+22,140,,Ability Upgrade,100,846,865,846
+22,140,,Ability Upgrade,100,847,866,847
+22,160,,Self Damage Boost,200,,867,0
+22,170,,Ability Upgrade,200,848,868,0
+23,50,Death Ward,Ability Unlock,111,,869,0
+23,125,Haunted,Ability Unlock,112,,870,0
+23,25,Poor Hygiene,Ability Unlock,113,,871,0
+23,75,Panic!,Specialisation Choice,114,,872,0
+23,75,Hide!,Specialisation Choice,115,,873,0
+23,55,,All Damage Boost,200,,876,0
+23,100,,Ultimate Unlock,88,,874,0
+23,10,,Self Damage Boost,100,,875,0
+23,40,,Self Damage Boost,100,,877,0
+23,70,,Self Damage Boost,100,,878,0
+23,90,,Self Damage Boost,100,,879,0
+23,115,,Self Damage Boost,100,,880,0
+23,145,,Self Damage Boost,100,,881,0
+23,190,,Self Damage Boost,100,,882,0
+23,210,,Self Damage Boost,200,,883,0
+23,245,,Self Damage Boost,100,,884,0
+23,270,,Self Damage Boost,100,,885,0
+23,295,,Self Damage Boost,200,,886,0
+23,330,,Self Damage Boost,100,,887,0
+23,365,,Self Damage Boost,100,,888,0
+23,130,,Ability Upgrade,200,871,889,0
+23,250,,Ability Upgrade,100,871,890,0
+23,360,,Ability Upgrade,200,871,891,0
+23,170,,All Damage Boost,100,,892,0
+23,310,,All Damage Boost,100,,893,0
+23,285,,Ability Upgrade,100,870,894,0
+24,25,Kensei Cleave,Ability Unlock,122,,895,0
+24,75,Deft Strike,Ability Unlock,123,,896,0
+24,125,Stunning Strike,Ability Unlock,124,,897,0
+24,175,Kensei Advantage,Specialisation Choice,125,,898,0
+24,175,Unerring Accuracy,Specialisation Choice,126,,899,0
+24,150,,Ultimate Unlock,98,,900,0
+24,10,,Self Damage Boost,200,,901,0
+24,40,,Self Damage Boost,200,,902,0
+24,65,,All Damage Boost,100,,903,0
+24,85,,Self Damage Boost,200,,904,0
+24,100,,All Damage Boost,100,,905,0
+24,110,,Self Damage Boost,200,,906,0
+24,135,,Self Damage Boost,300,,907,0
+24,160,,Ability Upgrade,100,896,908,0
+24,165,,Self Damage Boost,300,,909,0
+24,190,,All Damage Boost,100,,910,0
+24,210,,Ability Upgrade,100,896,911,0
+24,345,,Self Damage Boost,200,,921,0
+24,200,,Self Damage Boost,300,,912,0
+24,225,,Self Damage Boost,300,,913,0
+24,240,,All Damage Boost,100,,914,0
+24,250,,Increases Area of Effect Radius,50,,915,0
+24,265,,Self Damage Boost,200,,916,0
+24,275,,Increases Stun Time,0.5,,917,0
+24,295,,Self Damage Boost,200,,918,0
+24,310,,All Damage Boost,100,,919,0
+24,325,,Ability Upgrade,100,896,920,0
+24,360,,Self Damage Boost,200,,922,0
+24,425,,All Damage Boost,200,,923,0
+24,400,,Self Damage Boost,300,,924,0
+1,1165,,Self Damage Boost,100,,925,0
+1,1190,,Self Damage Boost,200,,926,0
+1,1245,,Self Damage Boost,100,,927,0
+1,1310,,Self Damage Boost,100,,928,0
+1,1225,,Ability Upgrade,100,2,929,6
+1,1225,,Ability Upgrade,100,4,930,7
+1,1275,,Ultimate Boost,100,,931,0
+2,700,,Self Damage Boost,100,,932,0
+2,735,,Self Damage Boost,200,,933,0
+2,775,,Self Damage Boost,200,,934,0
+2,785,,All Damage Boost,100,,935,0
+20,965,,Self Damage Boost,200,,936,0
+20,865,,Self Damage Boost,200,,937,0
+20,920,,Self Damage Boost,200,,938,0
+20,935,,Ability Upgrade,100,,939,0
+20,895,,All Damage Boost,100,,940,0
+3,515,,Self Damage Boost,100,,941,0
+3,460,,Self Damage Boost,200,,942,0
+3,485,,Self Damage Boost,200,,943,0
+3,500,,Ability Upgrade,100,38,944,43
+3,500,,All Damage Boost,200,,945,44
+16,575,,Self Damage Boost,100,,946,0
+16,515,,Self Damage Boost,100,,947,0
+16,540,,Self Damage Boost,200,,948,0
+16,510,,Ability Upgrade,100,549,949,0
+16,560,,All Damage Boost,100,,950,0
+16,580,,Ability Upgrade,100,554,951,551
+16,580,,Ability Upgrade,100,555,952,552
+16,580,,Ability Upgrade,100,556,953,553
+4,800,,Ability Upgrade,100,52,954,58
+4,700,,Self Damage Boost,100,,955,0
+4,740,,Self Damage Boost,100,,956,0
+4,775,,Self Damage Boost,200,,957,0
+4,760,,Gold Find Boost,10,,958,0
+14,650,,Self Damage Boost,300,,960,0
+4,800,,Ability Upgrade,100,55,959,59
+14,605,,Self Damage Boost,200,,961,0
+14,630,,Ability Upgrade,50,410,962,0
+5,835,,Self Damage Boost,200,,963,0
+5,730,,Self Damage Boost,100,,964,0
+5,765,,Self Damage Boost,100,,965,0
+5,810,,Self Damage Boost,100,,966,0
+5,780,,Ultimate Boost,100,,967,0
+17,675,,Self Damage Boost,200,,968,0
+17,620,,Self Damage Boost,200,,969,0
+17,650,,Self Damage Boost,200,,970,0
+17,610,,Ability Upgrade,100,596,971,0
+6,375,,Self Damage Boost,300,,972,0
+6,330,,Self Damage Boost,100,,973,0
+6,355,,Self Damage Boost,200,,974,0
+6,350,Bond: Half-bloods,Specialisation Choice,137,,975,0
+6,350,Bond: Exotic Races,Specialisation Choice,138,,976,0
+6,350,Bond: Short-folk,Specialisation Choice,139,,977,0
+15,665,,Self Damage Boost,200,,978,0
+15,585,,Self Damage Boost,100,,979,0
+15,630,,Self Damage Boost,200,,980,0
+15,610,,Ability Upgrade,50,444,981,0
+7,500,,Self Damage Boost,300,,982,0
+7,460,,Self Damage Boost,300,,983,0
+7,510,,Ability Upgrade,50,108,984,108
+7,510,,Ability Upgrade,50,109,985,109
+7,510,,Ability Upgrade,50,110,986,110
+7,510,,Ability Upgrade,50,111,987,111
+7,510,,Ability Upgrade,50,112,988,112
+8,1775,,Self Damage Boost,200,,989,0
+8,1550,,Self Damage Boost,200,,990,0
+8,1665,,Self Damage Boost,200,,991,0
+13,780,,Self Damage Boost,100,,992,0
+13,680,,Self Damage Boost,100,,993,0
+13,720,,Self Damage Boost,200,,994,0
+13,750,,All Damage Boost,100,,995,0
+24,515,,Self Damage Boost,200,,996,0
+24,455,,Self Damage Boost,100,,997,0
+24,475,,Self Damage Boost,100,,998,0
+24,490,,Ability Upgrade,100,896,999,0
+9,135,,Self Damage Boost,300,,1000,0
+9,120,,Self Damage Boost,300,,1001,0
+9,130,,Ultimate Boost,100,,1002,0
+18,320,,Self Damage Boost,200,,1003,0
+18,270,,Self Damage Boost,200,,1004,0
+18,300,,Self Damage Boost,200,,1005,0
+21,400,,Self Damage Boost,200,,1006,0
+21,345,,Self Damage Boost,100,,1007,0
+21,370,,Self Damage Boost,100,,1008,0
+21,390,,Ultimate Boost,100,,1009,0
+10,890,,Self Damage Boost,100,,1010,0
+10,730,,Self Damage Boost,100,,1011,0
+10,790,,Self Damage Boost,100,,1012,0
+10,850,,Self Damage Boost,100,,1013,0
+10,870,,Ability Upgrade,200,145,1014,145
+19,535,,Self Damage Boost,100,,1015,0
+19,440,,Self Damage Boost,100,,1016,0
+19,470,,Self Damage Boost,100,,1017,0
+19,505,,Self Damage Boost,100,,1018,0
+19,515,,All Damage Boost,100,,1019,0
+11,200,,Self Damage Boost,100,,1020,0
+11,165,,Self Damage Boost,100,,1021,0
+11,180,,Self Damage Boost,200,,1022,0
+23,470,,Self Damage Boost,100,,1023,0
+23,395,,Self Damage Boost,100,,1024,0
+23,445,,Self Damage Boost,200,,1025,0
+12,70,,Self Damage Boost,300,,1026,0
+12,60,,Self Damage Boost,200,,1027,0
+12,65,,Gold Find Boost,20,,1028,0
+22,240,,Self Damage Boost,300,,1029,0
+22,195,,Self Damage Boost,100,,1030,0
+22,225,,Self Damage Boost,200,,1031,0
+22,230,,Ability Upgrade,200,848,1032,0
+25,10,Powerful Draw,Ability Unlock,140,,1033,0
+25,100,Critical Hit,Grants Critical Strike Chance to Attacks,100,,1034,0
+25,200,Mark for Death,Ability Unlock,141,,1035,0
+25,150,,Ultimate Unlock,100,,1036,0
+25,275,Follow-Up,Specialisation Choice,142,,1037,0
+25,275,In The Zone,Specialisation Choice,200,1034,1038,0
+25,285,,Increases Critical Strike Chance,25,1034,1039,0
+25,350,,Ability Upgrade,100,1034,1040,0
+25,400,,Ability Upgrade,100,1035,1041,0
+25,500,,Ability Upgrade,50,1037,1042,1037
+25,800,,Self Damage Boost,100,,1055,0
+25,300,,Self Damage Boost,100,,1051,0
+25,500,,Increases Critical Strike Chance,25,1034,1054,1038
+25,35,,Self Damage Boost,100,,1043,0
+25,75,,Self Damage Boost,100,,1044,0
+25,120,,Self Damage Boost,100,,1045,0
+25,140,,All Damage Boost,100,,1046,0
+25,165,,Self Damage Boost,200,,1047,0
+25,185,,Self Damage Boost,100,,1048,0
+25,225,,Self Damage Boost,200,,1049,0
+25,255,,Self Damage Boost,200,,1050,0
+25,330,,Self Damage Boost,100,,1052,0
+25,375,,Self Damage Boost,100,,1053,0
+25,405,,Self Damage Boost,100,,1056,0
+25,445,,Self Damage Boost,100,,1057,0
+25,470,,Self Damage Boost,100,,1058,0
+25,490,,All Damage Boost,100,,1059,0
+25,600,,Ability Upgrade,50,1035,1060,0
+25,775,,Ability Upgrade,50,1037,1061,1037
+25,775,,Increases Critical Strike Chance,25,1034,1062,1038
+25,520,,Self Damage Boost,100,,1063,0
+25,545,,Self Damage Boost,200,,1064,0
+25,585,,Self Damage Boost,200,,1065,0
+25,630,,Self Damage Boost,200,,1066,0
+25,685,,Self Damage Boost,200,,1067,0
+25,720,,Self Damage Boost,100,,1068,0
+25,755,,Self Damage Boost,100,,1069,0
+25,945,,Self Damage Boost,100,,1070,0
+25,840,,Self Damage Boost,100,,1071,0
+25,890,,Self Damage Boost,100,,1072,0
+25,920,,Ability Upgrade,100,1035,1073,0
+25,870,,Ultimate Boost,100,,1074,0

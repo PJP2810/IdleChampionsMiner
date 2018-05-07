@@ -5,7 +5,7 @@ Created on 5 May 2018
 '''
 
 # Function definitions
-def writeSegments(data, segment):
+def writeSegmentsJSON(data, segment):
     
     # Move to output directory
     os.chdir("cached_definitions")
@@ -46,45 +46,90 @@ def listSegments(data):
     
     return segments
 
-def sortUpgrades(fullUpgrades):
+def parseUpgrades():
 
+    parsedUpgrades = []
+    
+    fullUpgrades = readJSON("upgrade_defines", "cached_definitions")
+    
+    effectDict = {"hero_dps_multiplier_mult" : "Self Damage Boost",
+                  "global_dps_multiplier_mult" : "All Damage Boost",
+                  "buff_ultimate" : "Ultimate Boost",
+                  "buff_upgrade" : "Ability Upgrade",
+                  "buff_upgrades" : "Ability Upgrade",
+                  "effect_def" : "Ability Unlock",
+                  "health_add" : "Health Boost",
+                  "gold_multiplier_mult" : "Gold Find Boost",
+                  "add_attack_targets" : "Increase Number of Enemies Targeted",
+                  "set_ultimate_attack" : "Ultimate Unlock",
+                  "owner_killing_blow_gold_bonus" : "Gold Boost on Kill",
+                  "add_attack_nearby_targets" : "Grants Secondary Attack to Nearby Target",
+                  "reduce_attack_cooldown" : "Lowers Attack Timer",
+                  "attacks_ricochet" : "Grants Ricochet to Attack",
+                  "add_damage_over_time" : "Grants Damage Over Time to Attack",
+                  "buff_crit_chance" : "Increases Critical Strike Chance",
+                  "attack_crit_chance" : "Grants Critical Strike Chance to Attacks",
+                  "increase_aoe_radius" : "Increases Area of Effect Radius",
+                  "increase_stun_time" : "Increases Stun Time",
+                  "increase_monster_attack_priority" : "Grants Enemy Taunt",
+                  "damage_reduction" : "Grants Damage Reduction",
+                  "return_damage_when_hit" : "Grants Thorns"}
+    
     # Loop through fullUpgrades
     for x in fullUpgrades:
         
         # Store {effect, hero_id, id, required_level, required_upgrade_id} to variables
-        upgradeID = x['id']
         upgradeEffect = x['effect']
-        upgradeHeroID = x['hero_id']
         upgradeRequiredID = x['required_upgrade_id']
-        upgradeLevel = x['required_level']
-        upgradeType = x['upgrade_type']
+        upgradeHero = x['hero_id']
+        
+        # Split Effect into Type and Value
+        tempList = upgradeEffect.split(",")
+        
+        upgradeEffectName = tempList[0]
+        upgradeEffectValue = tempList[1]
+        if len(tempList) == 3:
+            upgradeBuffedID = tempList[2]
+        else:
+            upgradeBuffedID = ""
+        
+        # Use Specialisation name instead of Ability Name when Specialisation Name is present
+        if 'specialization_name' in x:
+            upgradeName = x['specialization_name']
+            upgradeEffectName = "Specialisation Choice"
+        else:
+            upgradeName = x['name']
+        
+        # Replace Hero ID with Hero Name using Dictionary of Hero ID:Names
         
         
-        # Save variables to dict based on hero_id
-        #tempDict = []
-        #tempDict.append({upgradeID, upgradeLevel, upgradeRequiredID, upgradeEffect, upgradeType})
-        
-        #print("\n\n" + str(tempDict))        
+        # Replace Required Spec ID with Spec Name using Disctionary of Spec ID:Names | 0 = ""
         
         
-        #print("Hero: " + str(upgradeHeroID))
+        # Replace Effect with Human Friendly names
+        upgradeEffectName = effectDict.get(upgradeEffectName, upgradeEffectName)
+        
+        # Replace Upgrade Type with Human Friendly names
         
         
-    #print("\n\n" + str(fullUpgrades))        
+        parsedUpgrades.append({ "Hero" : upgradeHero, "Level" : x['required_level'],
+                               "Name" : upgradeName,
+                               "Effect" : upgradeEffectName,
+                               "Value": upgradeEffectValue,
+                               "Buffed Ability" : upgradeBuffedID,
+                               "Upgrade ID" : x['id'],
+                               "Required Spec" : upgradeRequiredID})
         
-        # Add dictName to list
-        
-        
-        # clear duplicates from list
-        
-        
-        # iterate through list of names
-        
-            # output name dict to file 
-        
+    pd.DataFrame(parsedUpgrades).to_csv('ParsedUpgrades.csv', index=False, columns=["Hero",
+                                                                                    "Level",
+                                                                                    "Name",
+                                                                                    "Effect",
+                                                                                    "Value",
+                                                                                    "Buffed Ability",
+                                                                                    "Upgrade ID",
+                                                                                    "Required Spec"])
+    
     return
-
-
 
 '''
 main_
@@ -101,20 +146,15 @@ fullData = readJSON("cached_definitions")
 segNames = listSegments(fullData)
 
 for x in segNames:
-    writeSegments(fullData, x)
-    
-# Parse segment.json, write to file in usable format
+    writeSegmentsJSON(fullData, x)
 
-upgrades = readJSON("upgrade_defines", "cached_definitions")
 
-#print(json.dumps(upgrades, sort_keys=True, indent = True))
-#print(len(upgrades))
+parseUpgrades()
 
-#print(upgrades[0]['hero_id'])
+#upgrades = readJSON("upgrade_defines", "cached_definitions")
 
-#sortUpgrades(upgrades)
 
-pd.DataFrame(upgrades).to_csv('out.csv', index=False)
+#pd.DataFrame(upgrades).to_csv('out.csv', index=False)
 
 
 
