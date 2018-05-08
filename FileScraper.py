@@ -46,6 +46,53 @@ def listSegments(data):
     
     return segments
 
+def parseHeroes(fullHeroes = None):
+    
+    parsedHeroes = []
+    heroesDict = {}
+    
+    if fullHeroes is None:
+        fullHeroes = readJSON("hero_defines", "cached_definitions")
+    
+    
+    for x in fullHeroes:
+        
+        # Store {ability_scores {str, dex, con, int, wis, cha}, age, alignment, backstory, class, race, portrait_graphic_id, id, name, seat_id} to variables
+        heroCharSheet = x['character_sheet_details']
+        heroSTR = heroCharSheet['ability_scores']['str']
+        heroDEX = heroCharSheet['ability_scores']['dex']
+        heroCON = heroCharSheet['ability_scores']['con']
+        heroINT = heroCharSheet['ability_scores']['int']
+        heroWIS = heroCharSheet['ability_scores']['wis']
+        heroCHA = heroCharSheet['ability_scores']['cha']
+        
+        if heroCharSheet['alignment'] == "Neutral": # Converting alignment of Neutral to True Neutral
+            heroAlignment = "True Neutral"
+        else:
+            heroAlignment = heroCharSheet['alignment']
+        
+        parsedHeroes.append({"Name" : x['name'], "ID" : x['id'],
+                             "Class" : heroCharSheet['class'], "Race" : heroCharSheet['race'],
+                             "STR" : heroSTR, "DEX" : heroDEX, "CON" : heroCON,
+                             "INT" : heroINT, "WIS" : heroWIS, "CHA" : heroCHA,
+                             "Age" : heroCharSheet['age'], "Alignment" : heroAlignment,
+                             "Seat" : x['seat_id'], "Backstory" : heroCharSheet['backstory']})
+        
+        heroesDict[x['id']] = {"Name" : x['name'], "Class" : heroCharSheet['class'], "Race" : heroCharSheet['race'],
+                                   "STR" : heroSTR, "DEX" : heroDEX, "CON" : heroCON,
+                                   "INT" : heroINT, "WIS" : heroWIS, "CHA" : heroCHA,
+                                   "Age" : heroCharSheet['age'], "Alignment" : heroCharSheet['alignment'],
+                                   "Seat" : x['seat_id'], "Backstory" : heroCharSheet['backstory']}
+                
+    # Output parsed Upgrades to CSV
+    pd.DataFrame(parsedHeroes).to_csv('ParsedHeroes.csv', index=False, columns=["Name", "ID", "Class", "Race", 
+                                                                                "STR", "DEX", "CON",
+                                                                                "INT", "WIS", "CHA",
+                                                                                "Age", "Alignment",
+                                                                                "Seat", "Backstory"])
+    
+    return parsedHeroes, heroesDict
+
 def parseUpgrades(heroesDict, fullUpgrades = None):
 
     parsedUpgrades = []
@@ -105,7 +152,7 @@ def parseUpgrades(heroesDict, fullUpgrades = None):
             upgradeName = x['name']
         
         # Replace Hero ID with Hero Name using Dictionary of Hero ID:Names
-        upgradeHero = heroesDict[x['hero_id']]
+        upgradeHero = heroesDict.get(x['hero_id'])['Name']
         
         # Create dictionary of upgradeID:Name
         upgradeNameDict[x['id']]= upgradeName
@@ -131,48 +178,10 @@ def parseUpgrades(heroesDict, fullUpgrades = None):
     
     return parsedUpgrades
 
-def parseHeroes(fullHeroes = None):
-    
-    parsedHeroes = []
-    heroesDict = {}
-    
-    if fullHeroes is None:
-        fullHeroes = readJSON("hero_defines", "cached_definitions")
-    
-    
-    for x in fullHeroes:
-        
-        # Store {ability_scores {str, dex, con, int, wis, cha}, age, alignment, backstory, class, race, portrait_graphic_id, id, name, seat_id} to variables
-        heroCharSheet = x['character_sheet_details']
-        heroSTR = heroCharSheet['ability_scores']['str']
-        heroDEX = heroCharSheet['ability_scores']['dex']
-        heroCON = heroCharSheet['ability_scores']['con']
-        heroINT = heroCharSheet['ability_scores']['int']
-        heroWIS = heroCharSheet['ability_scores']['wis']
-        heroCHA = heroCharSheet['ability_scores']['cha']
-        
-        
-        parsedHeroes.append({"Name" : x['name'], "ID" : x['id'],
-                             "Class" : heroCharSheet['class'], "Race" : heroCharSheet['race'],
-                             "STR" : heroSTR, "DEX" : heroDEX, "CON" : heroCON,
-                             "INT" : heroINT, "WIS" : heroWIS, "CHA" : heroCHA,
-                             "Age" : heroCharSheet['age'], "Alignment" : heroCharSheet['alignment'],
-                             "Seat" : x['seat_id'], "Backstory" : heroCharSheet['backstory']})
-        
-        heroesDict[x['id']] = x['name']
-        
-    # Output parsed Upgrades to CSV
-    pd.DataFrame(parsedHeroes).to_csv('ParsedHeroes.csv', index=False, columns=["Name", "ID", "Class", "Race", 
-                                                                                "STR", "DEX", "CON",
-                                                                                "INT", "WIS", "CHA",
-                                                                                "Age", "Alignment",
-                                                                                "Seat", "Backstory"])
-    
-    return heroesDict
-
-
 '''
 main_
+    Everything past this point is completely unoptimised and purely in place for testing of functions whilst they continue to be built
+    Also plenty of what is before this point is probably unoptimised, but is planned to be improved
 '''
 
 import os
@@ -188,14 +197,9 @@ segNames = listSegments(fullData)
 for x in segNames:
     writeSegmentsJSON(fullData, x)
 
+parsedHeroes, heroesDict = parseHeroes()
 
-heroesDict = parseHeroes()
-
-parseUpgrades(heroesDict, readJSON("upgrade_defines", "cached_definitions"))
-
-
-
-
+parseUpgrades(heroesDict, fullData['upgrade_defines'])
 
 
 
