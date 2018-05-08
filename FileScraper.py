@@ -46,7 +46,7 @@ def listSegments(data):
     
     return segments
 
-def parseUpgrades(fullUpgrades = None):
+def parseUpgrades(heroesDict, fullUpgrades = None):
 
     parsedUpgrades = []
     upgradeNameDict = {0 : ""}
@@ -82,7 +82,6 @@ def parseUpgrades(fullUpgrades = None):
         
         # Store {effect, hero_id, id, required_level, required_upgrade_id} to variables
         upgradeEffect = x['effect']
-        upgradeRequiredID = x['required_upgrade_id']
         upgradeHero = x['hero_id']
         
         # Split Effect into Type and Value
@@ -106,13 +105,10 @@ def parseUpgrades(fullUpgrades = None):
             upgradeName = x['name']
         
         # Replace Hero ID with Hero Name using Dictionary of Hero ID:Names
-        
+        upgradeHero = heroesDict[x['hero_id']]
         
         # Create dictionary of upgradeID:Name
         upgradeNameDict[x['id']]= upgradeName
-        
-        # Replace Required Spec ID with Spec Name using Disctionary of Spec ID:Names | 0 = ""
-        
         
         # Replace Effect with Human Friendly names
         upgradeEffectName = effectDict.get(upgradeEffectName, upgradeEffectName)
@@ -121,9 +117,8 @@ def parseUpgrades(fullUpgrades = None):
                                "Name" : upgradeName,
                                "Effect" : upgradeEffectName,
                                "Value": upgradeEffectValue,
-                               "Buffed Ability" : upgradeNameDict.get(upgradeBuffedID, upgradeBuffedID),
-                               #"Upgrade ID" : x['id'],
-                               "Required Spec" : upgradeNameDict.get(upgradeRequiredID, upgradeRequiredID)})
+                               "Buffed Ability" : upgradeNameDict.get(upgradeBuffedID, upgradeBuffedID), # Replace Buffed Ability ID with Ability Name using Dictionary of Ability ID:Names
+                               "Required Spec" : upgradeNameDict.get(x['required_upgrade_id'], x['required_upgrade_id'])}) # Replace Required Spec ID with Spec Name using Dictionary of Ability ID:Names
         
     # Output parsed Upgrades to CSV
     pd.DataFrame(parsedUpgrades).to_csv('ParsedUpgrades.csv', index=False, columns=["Hero",
@@ -132,10 +127,49 @@ def parseUpgrades(fullUpgrades = None):
                                                                                     "Effect",
                                                                                     "Value",
                                                                                     "Buffed Ability",
-                                                                                    #"Upgrade ID",
                                                                                     "Required Spec"])
     
-    return
+    return parsedUpgrades
+
+def parseHeroes(fullHeroes = None):
+    
+    parsedHeroes = []
+    heroesDict = {}
+    
+    if fullHeroes is None:
+        fullHeroes = readJSON("hero_defines", "cached_definitions")
+    
+    
+    for x in fullHeroes:
+        
+        # Store {ability_scores {str, dex, con, int, wis, cha}, age, alignment, backstory, class, race, portrait_graphic_id, id, name, seat_id} to variables
+        heroCharSheet = x['character_sheet_details']
+        heroSTR = heroCharSheet['ability_scores']['str']
+        heroDEX = heroCharSheet['ability_scores']['dex']
+        heroCON = heroCharSheet['ability_scores']['con']
+        heroINT = heroCharSheet['ability_scores']['int']
+        heroWIS = heroCharSheet['ability_scores']['wis']
+        heroCHA = heroCharSheet['ability_scores']['cha']
+        heroAge = heroCharSheet['age']
+        heroAlignment = heroCharSheet['alignment']
+        heroClass = heroCharSheet['class']
+        heroRace = heroCharSheet['race']
+        heroBackstory = heroCharSheet['backstory']
+        heroPortraitID = x['portrait_graphic_id']
+        heroSeat = x['seat_id']
+        
+        #print(heroCharSheet['ability_scores'])
+        
+        parsedHeroes.append({"Name" : x['name'], "ID" : x['id']})
+        
+        heroesDict[x['id']] = x['name']
+        
+    # Output parsed Upgrades to CSV
+    pd.DataFrame(parsedHeroes).to_csv('ParsedHeroes.csv', index=False, columns=["Name",
+                                                                                    "ID"])
+        
+    return heroesDict
+
 
 '''
 main_
@@ -155,7 +189,9 @@ for x in segNames:
     writeSegmentsJSON(fullData, x)
 
 
-parseUpgrades(readJSON("upgrade_defines", "cached_definitions"))
+heroesDict = parseHeroes()
+
+parseUpgrades(heroesDict, readJSON("upgrade_defines", "cached_definitions"))
 
 
 

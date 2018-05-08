@@ -1,1049 +1,1049 @@
 Hero,Level,Name,Effect,Value,Buffed Ability,Required Spec
-1,5,,Self Damage Boost,100,,
-1,10,Inspired,Ability Unlock,1,,
-1,25,,Ultimate Unlock,2,,
-1,50,Rally,Ability Unlock,2,,
-1,100,,Self Damage Boost,100,,
-1,150,Champion,Specialisation Choice,200,Inspired,
-1,150,Battle Master,Specialisation Choice,100,Rally,
-1,200,,Self Damage Boost,100,,
-1,250,,Self Damage Boost,200,,Champion
-1,250,,All Damage Boost,100,,Battle Master
-1,300,,Self Damage Boost,200,,Champion
-1,300,,Ability Upgrade,300,Rally,Battle Master
-1,400,,All Damage Boost,200,,
-1,500,,Ability Upgrade,300,Inspired,Champion
-1,500,,Ability Upgrade,200,Rally,Battle Master
-1,600,,Self Damage Boost,100,,
-1,690,,Ultimate Boost,100,,
-1,800,,Self Damage Boost,200,,Champion
-1,800,,All Damage Boost,100,,Battle Master
-1,900,,Self Damage Boost,100,,Champion
-2,10,,All Damage Boost,100,,
-2,20,Crusader's Mantle,Ability Unlock,3,,
-2,35,,All Damage Boost,100,,
-2,40,Mass Cure Wounds,Ability Unlock,4,,
-2,50,,Ultimate Unlock,4,,
-2,90,,All Damage Boost,100,,
-2,100,War Domain,Specialisation Choice,100,Crusader's Mantle,
-2,100,Life Domain,Specialisation Choice,100,Mass Cure Wounds,
-2,75,,Ability Upgrade,400,Mass Cure Wounds,
-2,150,,Ability Upgrade,100,Crusader's Mantle,War Domain
-2,130,,Ability Upgrade,400,Mass Cure Wounds,
-2,280,,All Damage Boost,100,,
-2,220,,Ability Upgrade,100,Crusader's Mantle,War Domain
-2,205,,Ability Upgrade,600,Mass Cure Wounds,
-3,10,,All Damage Boost,100,,
-3,20,Aura of Courage,Ability Unlock,5,,
-3,30,,Self Damage Boost,200,,
-3,40,Aura of Protection,Ability Unlock,6,,
-3,50,,Ultimate Unlock,6,,
-3,55,,All Damage Boost,200,,
-3,100,Oath of Vengeance,Specialisation Choice,200,Aura of Courage,
-3,100,Oath of Devotion,Specialisation Choice,300000,,
-3,145,,All Damage Boost,100,,
-3,150,,Ability Upgrade,200,Aura of Courage,Oath of Vengeance
-3,155,,Health Boost,80000000,,Oath of Devotion
-3,190,,All Damage Boost,100,,
-3,215,,Ability Upgrade,100,Aura of Courage,Oath of Vengeance
-3,180,,Health Boost,850000000,,Oath of Devotion
-4,10,,Self Damage Boost,100,,
-4,35,Room To Work,Ability Unlock,7,,
-4,50,,Ultimate Unlock,8,,
-4,75,,Self Damage Boost,100,,
-4,100,Equal Opportunity,Ability Unlock,29,,
-4,110,,Self Damage Boost,100,,
-4,125,,Gold Find Boost,10,,
-4,150,Loner,Specialisation Choice,300,Room To Work,
-4,150,Socialite,Specialisation Choice,200,Equal Opportunity,
-4,175,,Gold Find Boost,10,,
-4,200,,Self Damage Boost,100,,
-4,250,,Ability Upgrade,200,Room To Work,Loner
-4,250,,Ability Upgrade,200,Equal Opportunity,Socialite
-4,275,,Gold Find Boost,10,,
-4,300,,Self Damage Boost,300,,
-4,350,,Self Damage Boost,300,,
-4,400,,Ability Upgrade,200,Room To Work,Loner
-4,400,,Ability Upgrade,300,Equal Opportunity,Socialite
-4,425,,Gold Find Boost,10,,
-5,12,,All Damage Boost,100,,
-5,24,Bardic Inspiration,Ability Unlock,9,,
-5,36,Song of Protection,Ability Unlock,10,,
-5,48,,Ultimate Unlock,10,,
-5,60,,All Damage Boost,100,,
-5,80,College of Valor,Specialisation Choice,200,Bardic Inspiration,
-5,80,College of Lore,Specialisation Choice,100,Song of Protection,
-5,100,,All Damage Boost,200,,
-5,120,,Ability Upgrade,400,Song of Protection,
-5,140,,Ability Upgrade,100,Bardic Inspiration,College of Valor
-5,150,,Ability Upgrade,400,Song of Protection,
-1,475,,All Damage Boost,100,,Battle Master
-5,200,,Ability Upgrade,100,Bardic Inspiration,College of Valor
-5,205,,Ability Upgrade,300,Song of Protection,
-5,240,,All Damage Boost,100,,
-5,310,,All Damage Boost,100,,
-5,345,,Ability Upgrade,100,Bardic Inspiration,College of Valor
-5,320,,Ability Upgrade,300,Song of Protection,
-6,55,,Self Damage Boost,100,,
-6,65,,Self Damage Boost,200,,
-6,10,Bond: Humans,Specialisation Choice,11,,
-6,10,Bond: Elves and Dwarves,Specialisation Choice,12,,
-6,10,"Bond: Tiefling, Firbolg, and Dragonborn",Specialisation Choice,13,,
-6,20,,Ultimate Unlock,12,,
-6,30,,Self Damage Boost,100,,
-6,45,,Self Damage Boost,100,,
-6,75,,Self Damage Boost,200,,
-6,100,,Increase Number of Enemies Targeted,1,,
-6,120,,Self Damage Boost,200,,
-6,130,,Self Damage Boost,100,,
-6,140,,Ability Upgrade,200,Bond: Humans,Bond: Humans
-6,140,,Ability Upgrade,200,Bond: Elves and Dwarves,Bond: Elves and Dwarves
-6,140,,Ability Upgrade,200,"Bond: Tiefling, Firbolg, and Dragonborn","Bond: Tiefling, Firbolg, and Dragonborn"
-6,150,,Self Damage Boost,200,,
-6,160,,Self Damage Boost,100,,
-6,200,,Self Damage Boost,300,,
-7,20,,Self Damage Boost,100,,
-7,40,,All Damage Boost,100,,
-7,50,Favored Enemy: Humanoids,Specialisation Choice,14,,
-7,50,Favored Enemy: Beasts,Specialisation Choice,15,,
-7,50,Favored Enemy: Undead,Specialisation Choice,16,,
-7,50,Favored Enemy: Fey,Specialisation Choice,17,,
-7,50,Favored Enemy: Monstrosities,Specialisation Choice,18,,
-7,75,,Self Damage Boost,400,,
-7,100,,Self Damage Boost,500,,
-7,125,,Ultimate Unlock,14,,
-7,150,,Self Damage Boost,300,,
-7,175,,Ability Upgrade,100,Favored Enemy: Humanoids,Favored Enemy: Humanoids
-7,175,,Ability Upgrade,100,Favored Enemy: Beasts,Favored Enemy: Beasts
-7,175,,Ability Upgrade,100,Favored Enemy: Undead,Favored Enemy: Undead
-7,175,,Ability Upgrade,100,Favored Enemy: Fey,Favored Enemy: Fey
-7,175,,Ability Upgrade,100,Favored Enemy: Monstrosities,Favored Enemy: Monstrosities
-7,200,,Self Damage Boost,300,,
-8,650,,Self Damage Boost,100,,
-8,725,,Self Damage Boost,200,,
-8,25,Twinned Spell,Grants Ricochet to Attack,50,,
-8,75,,Self Damage Boost,100,,
-8,100,,Ultimate Unlock,16,,
-8,150,Empowered Spell,Grants Damage Over Time to Attack,50,,
-8,200,Font of Magic,Specialisation Choice,100,Twinned Spell,
-8,200,Endless Empowerment,Specialisation Choice,100,Empowered Spell,
-8,500,,Ability Upgrade,100,Twinned Spell,Font of Magic
-8,400,,Self Damage Boost,100,,
-8,800,,Ability Upgrade,100,Twinned Spell,Font of Magic
-8,575,,Self Damage Boost,200,,
-9,40,,Self Damage Boost,300,,
-9,50,,Self Damage Boost,400,,
-9,10,,Self Damage Boost,100,,
-9,15,Dark Luck,Specialisation Choice,100,,
-9,15,Dark Blessing,Specialisation Choice,23,,
-9,20,,Self Damage Boost,200,,
-9,25,,Ultimate Unlock,18,,
-9,30,,Self Damage Boost,300,,
-10,20,,All Damage Boost,100,,
-10,45,Moonbeam,Specialisation Choice,24,,
-10,45,Wild Shape,Specialisation Choice,25,,
-10,60,,Ultimate Unlock,20,,Moonbeam
-10,75,,All Damage Boost,100,,
-10,90,,Health Boost,490000000000,,Wild Shape
-10,125,Druidic Healing,Ability Unlock,26,,Moonbeam
-10,125,Wild Resilience,Ability Unlock,27,,Wild Shape
-10,150,,All Damage Boost,100,,Moonbeam
-10,140,,Health Boost,3800000000000,,Wild Shape
-10,350,,All Damage Boost,100,,Moonbeam
-1,80,,Self Damage Boost,200,,
-1,125,,Self Damage Boost,300,,
-1,180,,Self Damage Boost,300,,
-1,350,,Self Damage Boost,200,,
-1,375,,Self Damage Boost,400,,Battle Master
-1,425,,Self Damage Boost,300,,
-1,450,,Self Damage Boost,200,,Champion
-1,450,,Self Damage Boost,400,,Battle Master
-1,525,,Self Damage Boost,100,,Champion
-1,525,,Self Damage Boost,200,,Battle Master
-1,575,,Self Damage Boost,300,,
-1,550,,Self Damage Boost,100,,Champion
-1,275,,Self Damage Boost,100,,Battle Master
-1,375,,Self Damage Boost,200,,Champion
-2,60,,Self Damage Boost,400,,
-2,80,,Self Damage Boost,300,,
-2,110,,Self Damage Boost,400,,
-2,145,,Self Damage Boost,400,,
-2,165,,Self Damage Boost,100,,
-2,190,,Self Damage Boost,300,,
-2,215,,Self Damage Boost,300,,
-2,235,,Self Damage Boost,200,,
-2,260,,Self Damage Boost,300,,
-2,275,,Self Damage Boost,100,,
-3,60,,Self Damage Boost,400,,
-3,80,,Self Damage Boost,400,,
-3,105,,Self Damage Boost,400,,
-3,115,,Self Damage Boost,100,,
-3,135,,Self Damage Boost,300,,
-3,160,,Self Damage Boost,400,,
-3,185,,Self Damage Boost,900,,
-3,205,,Self Damage Boost,400,,
-3,220,,Self Damage Boost,300,,
-4,140,,Self Damage Boost,100,,
-4,185,,Self Damage Boost,300,,
-4,230,,Self Damage Boost,300,,
-4,270,,Self Damage Boost,100,,
-4,325,,Self Damage Boost,200,,
-5,105,,Self Damage Boost,200,,
-5,135,,Self Damage Boost,300,,
-5,175,,Self Damage Boost,400,,
-5,220,,Self Damage Boost,300,,
-5,250,,Self Damage Boost,400,,
-5,275,,Self Damage Boost,100,,
-6,90,,Self Damage Boost,300,,
-6,110,,Self Damage Boost,200,,
-7,120,,Self Damage Boost,200,,
-7,170,,Self Damage Boost,200,,
-8,350,,Self Damage Boost,100,,
-8,275,,Self Damage Boost,100,,
-8,450,,Self Damage Boost,100,,
-2,295,,Self Damage Boost,300,,
-2,310,,Ability Upgrade,100,Crusader's Mantle,War Domain
-2,305,,Ability Upgrade,300,Mass Cure Wounds,
-2,365,,All Damage Boost,100,,War Domain
-2,330,,Self Damage Boost,300,,
-2,360,,Self Damage Boost,500,,
-2,380,,Self Damage Boost,200,,
-2,400,,Ability Upgrade,200,Crusader's Mantle,War Domain
-2,405,,Ability Upgrade,300,Mass Cure Wounds,
-2,425,,Self Damage Boost,300,,
-2,455,,All Damage Boost,100,,
-2,445,,Self Damage Boost,200,,
-2,500,,Ability Upgrade,100,Crusader's Mantle,
-2,480,,Self Damage Boost,300,,
-2,550,,Ability Upgrade,100,Crusader's Mantle,War Domain
-2,520,,Ability Upgrade,300,Mass Cure Wounds,
-2,510,,Self Damage Boost,300,,
-2,540,,Self Damage Boost,200,,
-1,900,,Ability Upgrade,100,Rally,Battle Master
-1,625,,Self Damage Boost,100,,
-1,660,,Self Damage Boost,300,,Champion
-1,700,,Ability Upgrade,100,Inspired,Champion
-1,700,,Ability Upgrade,200,Rally,Battle Master
-1,735,,Self Damage Boost,200,,
-1,770,,Self Damage Boost,300,,
-1,840,,Self Damage Boost,200,,
-1,880,,Self Damage Boost,100,,
-1,660,,Self Damage Boost,200,,Battle Master
-11,35,Reckless Attack,Ability Unlock,33,,
-11,40,Frenzy,Grants Secondary Attack to Nearby Target,1,,
-11,50,Brute Strength,Specialisation Choice,200,,
-11,50,Uncanny Speed,Specialisation Choice,2,,
-12,3,First In Line,Ability Unlock,30,,
-12,9,Loyalty,Ability Unlock,31,,
-12,18,Chango Unchained,Specialisation Choice,28,,
-12,18,Chango Restrained,Specialisation Choice,32,,
-3,225,,Grants Enemy Taunt,2,,Oath of Devotion
-3,210,,Health Boost,28000000000,,Oath of Devotion
-3,275,,Health Boost,40000000000000,,Oath of Devotion
-3,130,,Health Boost,5500000,,Oath of Devotion
-3,240,,Health Boost,760000000000,,Oath of Devotion
-3,305,,Health Boost,2400000000000000,,Oath of Devotion
-3,330,,Health Boost,64000000000000000,,Oath of Devotion
-3,250,,Self Damage Boost,400,,
-3,265,,Self Damage Boost,200,,
-3,295,,Self Damage Boost,300,,
-3,310,,Self Damage Boost,300,,
-3,325,,Self Damage Boost,200,,
-3,350,,Self Damage Boost,300,,
-3,225,,All Damage Boost,100,,Oath of Vengeance
-3,275,,Ability Upgrade,100,Aura of Courage,Oath of Vengeance
-3,300,,Ability Upgrade,100,Aura of Courage,Oath of Vengeance
-3,345,,All Damage Boost,100,,Oath of Vengeance
-4,430,,Self Damage Boost,300,,
-4,450,,Self Damage Boost,200,,
-4,480,,Self Damage Boost,200,,
-4,490,,Gold Find Boost,10,,
-4,500,,Ability Upgrade,200,Room To Work,Loner
-4,500,,Ability Upgrade,100,Equal Opportunity,Socialite
-4,520,,Self Damage Boost,100,,
-5,300,,Self Damage Boost,200,,
-5,340,,Self Damage Boost,300,,
-5,350,,All Damage Boost,100,,College of Lore
-5,370,,Self Damage Boost,200,,
-5,400,,Ability Upgrade,100,Bardic Inspiration,College of Valor
-5,395,,Ability Upgrade,300,Song of Protection,
-5,410,,Self Damage Boost,300,,
-5,440,,Self Damage Boost,200,,
-5,480,,Self Damage Boost,300,,
-5,475,,All Damage Boost,100,,
-5,515,,Self Damage Boost,200,,
-6,170,,Self Damage Boost,200,,
-6,185,,Self Damage Boost,200,,
-6,225,,Self Damage Boost,300,,
-6,235,,Self Damage Boost,100,,
-7,230,,Self Damage Boost,400,,
-7,260,,Self Damage Boost,400,,
-7,300,,Self Damage Boost,400,,
-8,500,,Ability Upgrade,100,Empowered Spell,Endless Empowerment
-8,800,,Ability Upgrade,100,Empowered Spell,Endless Empowerment
-8,850,,Self Damage Boost,100,,
-8,925,,Self Damage Boost,200,,
-8,975,,Self Damage Boost,100,,
-9,60,,Self Damage Boost,500,,
-9,55,,Self Damage Boost,100,,
-9,45,,Ability Upgrade,100,Dark Luck,Dark Luck
-9,65,,Self Damage Boost,100,,
-9,70,,Self Damage Boost,200,,
-9,75,,Self Damage Boost,100,,
-10,110,,Self Damage Boost,100,,
-10,175,,Self Damage Boost,200,,
-10,210,,Self Damage Boost,200,,
-10,295,,Self Damage Boost,200,,
-10,325,,Self Damage Boost,100,,
-10,390,,Self Damage Boost,200,,
-10,215,,Health Boost,100000000000000,,Wild Shape
-10,250,,Health Boost,460000000000000,,Wild Shape
-10,320,,Health Boost,9500000000000000,,Wild Shape
-10,350,,Health Boost,50000000000000000,,Wild Shape
-11,60,,Ultimate Unlock,24,,
-11,70,,Self Damage Boost,200,,
-11,75,,Self Damage Boost,200,,
-10,250,,All Damage Boost,100,,Moonbeam
-12,12,,Ultimate Unlock,26,,
-12,25,,Self Damage Boost,200,,
-2,170,,Ability Upgrade,500,Mass Cure Wounds,
-2,230,,Ability Upgrade,600,Mass Cure Wounds,
-2,370,,Ability Upgrade,400,Mass Cure Wounds,
-2,250,,Ability Upgrade,400,Mass Cure Wounds,
-2,285,,Ability Upgrade,200,Mass Cure Wounds,
-12,15,,Self Damage Boost,100,,
-5,230,,Ability Upgrade,400,Song of Protection,
-2,450,,Ability Upgrade,400,Mass Cure Wounds,
-2,485,,Ability Upgrade,400,Mass Cure Wounds,
-2,535,,Ability Upgrade,400,Mass Cure Wounds,
-5,180,,Ability Upgrade,500,Song of Protection,
-5,245,,Ability Upgrade,100,Song of Protection,
-5,295,,Ability Upgrade,400,Song of Protection,
-5,375,,Ability Upgrade,200,Song of Protection,
-5,415,,Ability Upgrade,300,Song of Protection,
-5,525,,Ability Upgrade,100,Bardic Inspiration,College of Valor
-5,435,,Ability Upgrade,300,Song of Protection,
-5,530,,Ability Upgrade,500,Song of Protection,
-10,190,,Ability Upgrade,600,Wild Resilience,Wild Shape
-10,220,,Ability Upgrade,200,Wild Resilience,Wild Shape
-10,260,,Ability Upgrade,600,Wild Resilience,Wild Shape
-10,330,,Ability Upgrade,300,Wild Resilience,Wild Shape
-10,360,,Ability Upgrade,200,Wild Resilience,Wild Shape
-10,155,,Ability Upgrade,200,Druidic Healing,Moonbeam
-10,180,,Ability Upgrade,200,Druidic Healing,Moonbeam
-10,200,,Ability Upgrade,200,Moonbeam,Moonbeam
-10,205,,Ability Upgrade,200,Druidic Healing,Moonbeam
-10,265,,Ability Upgrade,300,Druidic Healing,Moonbeam
-10,290,,Ability Upgrade,100,Moonbeam,Moonbeam
-10,300,,Ability Upgrade,500,Druidic Healing,Moonbeam
-10,330,,Ability Upgrade,100,Moonbeam,Moonbeam
-10,375,,Ability Upgrade,200,Druidic Healing,Moonbeam
-10,60,,Ultimate Unlock,27,,Wild Shape
-2,25,,Self Damage Boost,400,,
-5,70,,Self Damage Boost,400,,
-2,270,,Ability Upgrade,300,Mass Cure Wounds,
-2,325,,Ability Upgrade,300,Mass Cure Wounds,
-2,345,,Ability Upgrade,400,Mass Cure Wounds,
-2,390,,Ability Upgrade,400,Mass Cure Wounds,
-2,420,,Ability Upgrade,100,Mass Cure Wounds,
-2,430,,Ability Upgrade,300,Mass Cure Wounds,
-2,465,,Ability Upgrade,300,Mass Cure Wounds,
-2,505,,Ability Upgrade,700,Mass Cure Wounds,
-2,385,,Ability Upgrade,100,Mass Cure Wounds,Life Domain
-10,155,,Ability Upgrade,200,Wild Resilience,Wild Shape
-10,180,,Health Boost,21000000000000,,Wild Shape
-10,290,,Health Boost,3000000000000000,,Wild Shape
-10,300,,Ability Upgrade,500,Wild Resilience,Wild Shape
-10,395,,Health Boost,530000000000000000,,Wild Shape
-10,400,,Ability Upgrade,900,Wild Resilience,Wild Shape
-10,235,,Ability Upgrade,200,Druidic Healing,Moonbeam
-10,320,,Ability Upgrade,100,Druidic Healing,Moonbeam
-10,345,,Ability Upgrade,500,Druidic Healing,Moonbeam
-10,410,,Ability Upgrade,500,Druidic Healing,Moonbeam
-12,21,,Self Damage Boost,400,,
-5,270,,Ability Upgrade,400,Song of Protection,
-5,335,,Ability Upgrade,200,Song of Protection,
-5,460,,Ability Upgrade,500,Song of Protection,
-5,485,,Ability Upgrade,500,Song of Protection,
-9,45,,Ability Upgrade,200,Dark Blessing,Dark Blessing
-5,90,,Ability Upgrade,500,Song of Protection,
-5,355,,Ability Upgrade,300,Song of Protection,
-5,505,,Ability Upgrade,500,Song of Protection,
-5,315,,Ability Upgrade,100,Bardic Inspiration,College of Lore
-12,6,,Self Damage Boost,200,,
-13,40,Spare Dagger,Ability Unlock,38,,
-13,60,,Ultimate Unlock,41,,
-13,120,More Daggers,Specialisation Choice,1,,
-13,10,,Self Damage Boost,100,,
-13,35,,All Damage Boost,100,,
-13,90,,Self Damage Boost,100,,
-13,80,Friendly,Ability Unlock,35,,
-13,120,Charismatic,Specialisation Choice,100,Friendly,
-13,135,,Self Damage Boost,100,,
-13,165,,Self Damage Boost,200,,
-13,190,,Increase Number of Enemies Targeted,1,,More Daggers
-13,215,,Self Damage Boost,200,,
-13,250,,Self Damage Boost,200,,
-13,290,,Self Damage Boost,300,,
-13,310,,Increase Number of Enemies Targeted,1,,More Daggers
-13,345,,Self Damage Boost,200,,
-13,360,,All Damage Boost,100,,
-13,390,,Self Damage Boost,300,,
-13,425,,Self Damage Boost,100,,More Daggers
-13,440,,Increase Number of Enemies Targeted,1,,More Daggers
-13,465,,Self Damage Boost,100,,
-13,425,,Self Damage Boost,300,,Charismatic
-13,190,,Ability Upgrade,200,Friendly,Charismatic
-13,310,,Ability Upgrade,200,Friendly,Charismatic
-13,440,,Ability Upgrade,100,Friendly,Charismatic
-14,50,,Increase Number of Enemies Targeted,1,,
-14,30,Golden Palm,Ability Unlock,36,,
-14,100,Ki Strike,Specialisation Choice,37,,
-14,100,Extra Attacks,Specialisation Choice,1,,
-14,15,,Self Damage Boost,200,,
-14,75,,Self Damage Boost,300,,
-14,110,,Self Damage Boost,200,,
-14,130,,Self Damage Boost,200,,
-14,150,,Self Damage Boost,300,,
-14,170,,Self Damage Boost,300,,
-14,185,,Increase Number of Enemies Targeted,1,,Extra Attacks
-14,200,,Self Damage Boost,200,,
-14,210,,All Damage Boost,100,,
-14,225,,Self Damage Boost,300,,
-14,245,,Self Damage Boost,200,,
-14,270,,Self Damage Boost,300,,
-14,280,,Increase Number of Enemies Targeted,1,,Extra Attacks
-14,300,,Self Damage Boost,300,,
-14,325,,Self Damage Boost,200,,
-14,345,,Self Damage Boost,200,,
-14,365,,Self Damage Boost,100,,
-14,390,,Self Damage Boost,200,,
-14,400,,Increase Number of Enemies Targeted,1,,Extra Attacks
-14,425,,Self Damage Boost,300,,
-14,470,,Self Damage Boost,300,,
-14,380,,Increase Number of Enemies Targeted,1,,Ki Strike
-14,185,,Ability Upgrade,50,Ki Strike,Ki Strike
-14,400,,Ability Upgrade,50,Ki Strike,Ki Strike
-14,120,,Self Damage Boost,100,,Extra Attacks
-14,65,,Ultimate Unlock,43,,
-11,25,,Self Damage Boost,200,,
-15,35,,Self Damage Boost,100,,
-15,135,Eldritch Strike,Ability Unlock,42,,
-15,60,Cantrip: Thunderclap,Specialisation Choice,39,,
-15,60,Cantrip: Shocking Grasp,Specialisation Choice,40,,
-15,60,Cantrip: Fire Bolt,Specialisation Choice,41,,
-15,80,,Self Damage Boost,100,,
-15,100,,Self Damage Boost,100,,
-15,120,,Self Damage Boost,200,,
-15,150,,Self Damage Boost,200,,
-15,165,,Self Damage Boost,200,,
-15,190,,Self Damage Boost,100,,
-15,210,,Self Damage Boost,200,,
-15,220,,Ultimate Boost,100,,
-15,235,,Self Damage Boost,200,,
-15,265,,Self Damage Boost,100,,
-15,275,,Self Damage Boost,100,,
-15,300,,Self Damage Boost,300,,
-15,330,,Self Damage Boost,100,,
-15,355,,Self Damage Boost,200,,
-15,385,,Self Damage Boost,200,,
-15,420,,Self Damage Boost,300,,
-15,175,,Ultimate Unlock,50,,
-1,940,,Self Damage Boost,100,,Champion
-1,980,,Self Damage Boost,100,,
-1,940,,Self Damage Boost,200,,Battle Master
-1,1030,,Ability Upgrade,200,Inspired,Champion
-1,1030,,Ability Upgrade,200,Rally,Battle Master
-2,570,,Self Damage Boost,200,,
-2,610,,Self Damage Boost,300,,
-2,590,,Ability Upgrade,100,Crusader's Mantle,War Domain
-2,590,,All Damage Boost,100,,Life Domain
-3,365,,Self Damage Boost,300,,
-3,380,,Self Damage Boost,100,,
-3,400,,Self Damage Boost,200,,
-3,405,,Ability Upgrade,100,Aura of Courage,Oath of Vengeance
-3,360,,Health Boost,5800000000000000000,,Oath of Devotion
-4,550,,Self Damage Boost,200,,
-4,575,,Ability Upgrade,100,Room To Work,Loner
-4,575,,Ability Upgrade,200,Equal Opportunity,Socialite
-4,605,,Self Damage Boost,100,,
-5,540,,Self Damage Boost,200,,
-5,560,,Self Damage Boost,300,,
-5,600,,Self Damage Boost,200,,
-5,575,,Ability Upgrade,100,Bardic Inspiration,College of Valor
-5,645,,All Damage Boost,100,,
-6,250,,Self Damage Boost,200,,
-6,265,,Ability Upgrade,100,Bond: Humans,Bond: Humans
-6,265,,Ability Upgrade,100,Bond: Elves and Dwarves,Bond: Elves and Dwarves
-6,265,,Ability Upgrade,100,"Bond: Tiefling, Firbolg, and Dragonborn","Bond: Tiefling, Firbolg, and Dragonborn"
-6,270,,Self Damage Boost,400,,
-7,320,,Self Damage Boost,300,,
-7,360,,Self Damage Boost,200,,
-7,350,,Ability Upgrade,50,Favored Enemy: Humanoids,Favored Enemy: Humanoids
-7,350,,Ability Upgrade,50,Favored Enemy: Beasts,Favored Enemy: Beasts
-7,350,,Ability Upgrade,50,Favored Enemy: Undead,Favored Enemy: Undead
-7,350,,Ability Upgrade,50,Favored Enemy: Fey,Favored Enemy: Fey
-7,350,,Ability Upgrade,50,Favored Enemy: Monstrosities,Favored Enemy: Monstrosities
-8,1020,,Self Damage Boost,200,,
-8,1060,,Self Damage Boost,200,,
-8,1150,,Ability Upgrade,100,Twinned Spell,Font of Magic
-8,1150,,Ability Upgrade,100,Empowered Spell,Endless Empowerment
-9,80,,Ability Upgrade,100,Dark Luck,Dark Luck
-9,80,,Ability Upgrade,200,Dark Blessing,Dark Blessing
-9,85,,Self Damage Boost,100,,
-9,90,,Self Damage Boost,100,,
-10,430,,Self Damage Boost,200,,
-10,500,,Self Damage Boost,300,,
-10,550,,Self Damage Boost,100,,
-10,445,,Health Boost,6100000000000000000,,Wild Shape
-10,440,,Ability Upgrade,900,Wild Resilience,Wild Shape
-10,480,,Health Boost,48000000000000000000,,Wild Shape
-10,485,,Ability Upgrade,1100,Wild Resilience,Wild Shape
-10,530,,Health Boost,530000000000000000000,,Wild Shape
-10,525,,Ability Upgrade,900,Wild Resilience,Wild Shape
-11,90,,Self Damage Boost,100,,
-11,115,,Self Damage Boost,200,,
-11,105,,Self Damage Boost,100,,Uncanny Speed
-12,30,,Self Damage Boost,100,,Chango Unchained
-12,35,,Self Damage Boost,100,,Chango Unchained
-12,30,,Health Boost,110000000000000000000,,Chango Restrained
-12,35,,Self Damage Boost,200,,Chango Restrained
-13,485,,Self Damage Boost,200,,
-13,535,,Self Damage Boost,200,,
-13,510,,All Damage Boost,200,,Charismatic
-13,510,,All Damage Boost,300,,More Daggers
-14,450,,Self Damage Boost,100,,
-14,475,,Ability Upgrade,50,Ki Strike,Ki Strike
-14,490,,Self Damage Boost,100,,
-15,440,,Ability Upgrade,50,Eldritch Strike,
-15,460,,Self Damage Boost,200,,
-15,480,,Self Damage Boost,100,,
-2,545,,Ability Upgrade,400,Mass Cure Wounds,
-2,575,,Ability Upgrade,700,Mass Cure Wounds,
-2,600,,Ability Upgrade,800,Mass Cure Wounds,
-5,545,,Ability Upgrade,500,Song of Protection,
-5,570,,Ability Upgrade,500,Song of Protection,
-5,595,,Ability Upgrade,500,Song of Protection,
-5,615,,Ability Upgrade,500,Song of Protection,
-10,440,,Ability Upgrade,400,Druidic Healing,Moonbeam
-10,465,,Ability Upgrade,300,Druidic Healing,Moonbeam
-10,495,,Ability Upgrade,200,Druidic Healing,Moonbeam
-10,525,,Ability Upgrade,600,Druidic Healing,Moonbeam
-16,25,Hardened Shell,Grants Damage Reduction,25,,
-16,90,Grandmotherly Love,Ability Unlock,47,,
-16,255,,Ultimate Unlock,59,,
-16,130,Circle of the Mountain,Specialisation Choice,48,,
-16,130,Circle of the Arctic,Specialisation Choice,49,,
-16,130,Circle of the Swamp,Specialisation Choice,50,,
-16,200,Spiked Shell,Grants Thorns,25,,Circle of the Mountain
-16,200,Freezing Breeze,Ability Unlock,52,,Circle of the Arctic
-16,200,Acid Splash,Ability Unlock,53,,Circle of the Swamp
-16,15,,Self Damage Boost,200,,
-16,45,,Self Damage Boost,300,,
-16,70,,Self Damage Boost,200,,
-16,100,,Self Damage Boost,300,,
-16,115,,Self Damage Boost,400,,
-16,145,,Self Damage Boost,400,,Circle of the Mountain
-16,145,,Self Damage Boost,400,,Circle of the Arctic
-16,145,,Self Damage Boost,600,,Circle of the Swamp
-16,165,,Self Damage Boost,300,,
-16,175,,Ability Upgrade,100,Grandmotherly Love,Circle of the Mountain
-16,175,,Ability Upgrade,200,Grandmotherly Love,Circle of the Arctic
-16,175,,Ability Upgrade,100,Grandmotherly Love,Circle of the Swamp
-16,190,,Self Damage Boost,400,,
-16,210,,Self Damage Boost,300,,
-16,235,,Self Damage Boost,200,,
-16,270,,Self Damage Boost,200,,Circle of the Mountain
-16,270,,Self Damage Boost,200,,Circle of the Arctic
-16,270,,Self Damage Boost,300,,Circle of the Swamp
-16,250,,Self Damage Boost,200,,
-16,285,,Ability Upgrade,100,Spiked Shell,Circle of the Mountain
-16,285,,Ability Upgrade,100,Freezing Breeze,Circle of the Arctic
-16,285,,Ability Upgrade,100,Acid Splash,Circle of the Swamp
-16,385,,Self Damage Boost,200,,
-16,295,,Self Damage Boost,300,,
-16,320,,Self Damage Boost,300,,
-16,330,,Ability Upgrade,100,Grandmotherly Love,
-16,340,,Self Damage Boost,100,,
-16,355,,All Damage Boost,100,,Circle of the Mountain
-16,355,,All Damage Boost,200,,Circle of the Arctic
-16,355,,All Damage Boost,100,,Circle of the Swamp
-16,365,,Self Damage Boost,400,,Circle of the Mountain
-16,365,,Self Damage Boost,400,,Circle of the Arctic
-16,365,,Self Damage Boost,500,,Circle of the Swamp
-16,400,,Ability Upgrade,100,Spiked Shell,Circle of the Mountain
-16,400,,Ability Upgrade,100,Freezing Breeze,Circle of the Arctic
-16,400,,Ability Upgrade,100,Acid Splash,Circle of the Swamp
-16,410,,Self Damage Boost,200,,
-16,440,,Self Damage Boost,300,,
-17,280,,Ultimate Unlock,61,,
-17,70,Skill Empowerment,Ability Unlock,60,,
-17,140,Practice Makes Perfect,Ability Unlock,61,,
-17,210,Empowered Orbs,Specialisation Choice,62,,
-17,210,Empowered Empowerment,Specialisation Choice,200,Skill Empowerment,
-17,105,,Ability Upgrade,100,Skill Empowerment,
-17,30,,All Damage Boost,100,,
-17,20,,Self Damage Boost,200,,
-17,55,,Self Damage Boost,100,,
-17,90,,All Damage Boost,100,,
-17,110,,Self Damage Boost,200,,
-17,130,,Self Damage Boost,100,,
-17,150,,Ability Upgrade,100,Skill Empowerment,
-17,160,,Self Damage Boost,300,,
-17,180,,Self Damage Boost,200,,
-17,200,,All Damage Boost,200,,
-17,75,,Self Damage Boost,100,,
-17,220,,Self Damage Boost,300,,
-17,235,,Self Damage Boost,200,,
-17,250,,Ability Upgrade,100,Skill Empowerment,
-17,260,,Self Damage Boost,200,,
-17,290,,Self Damage Boost,300,,
-17,315,,Self Damage Boost,200,,
-17,335,,Self Damage Boost,100,,Empowered Orbs
-17,360,,Self Damage Boost,200,,
-17,390,,Self Damage Boost,300,,
-17,425,,Self Damage Boost,300,,
-17,445,,Self Damage Boost,100,,
-17,480,,Self Damage Boost,200,,
-17,505,,Self Damage Boost,200,,
-17,300,,All Damage Boost,200,,
-17,405,,All Damage Boost,200,,
-17,350,,Ability Upgrade,100,Skill Empowerment,
-17,435,,Ability Upgrade,200,Skill Empowerment,
-17,500,,Ability Upgrade,100,Skill Empowerment,
-17,135,,All Damage Boost,100,,
-18,25,Icingdeath,Ability Unlock,64,,
-18,50,Twinkle,Ability Unlock,65,,
-18,75,Companions of the Hall,Ability Unlock,66,,
-18,100,Whirl of Steel,Specialisation Choice,67,,
-18,100,Drow Stalker,Specialisation Choice,68,,
-18,80,,Ability Upgrade,100,Icingdeath,
-18,110,,Ability Upgrade,100,Companions of the Hall,
-18,60,,Ultimate Unlock,66,,
-19,40,Blessed Hammer,Ability Unlock,69,,
-19,20,Healing Word,Ability Unlock,70,,
-19,50,Shield of Faith,Ability Unlock,71,,
-19,80,Greater Blessing,Specialisation Choice,200,Blessed Hammer,
-19,80,Booming Voice,Specialisation Choice,100,Healing Word,
-19,110,,Ability Upgrade,100,Blessed Hammer,
-19,70,,Ability Upgrade,600,Healing Word,
-19,120,,Ultimate Unlock,68,,
-18,15,,Self Damage Boost,200,,
-18,40,,Self Damage Boost,100,,
-18,55,,Self Damage Boost,200,,
-18,70,,Self Damage Boost,100,,
-18,85,,Self Damage Boost,100,,
-18,105,,Self Damage Boost,100,,
-18,115,,Ability Upgrade,100,Icingdeath,
-18,125,,Self Damage Boost,100,,
-18,135,,Ability Upgrade,100,Companions of the Hall,
-18,145,,Self Damage Boost,100,,
-18,150,,All Damage Boost,100,,
-18,165,,Self Damage Boost,200,,
-18,175,,Ability Upgrade,100,Icingdeath,
-18,190,,Self Damage Boost,200,,
-18,200,,Ability Upgrade,100,Companions of the Hall,
-19,55,,Self Damage Boost,100,,
-19,95,,Self Damage Boost,100,,
-19,125,,Self Damage Boost,200,,
-19,160,,Self Damage Boost,200,,
-19,195,,Self Damage Boost,200,,
-19,235,,Self Damage Boost,200,,
-19,250,,Self Damage Boost,100,,
-19,285,,Self Damage Boost,100,,
-19,310,,Self Damage Boost,200,,
-19,45,,Ability Upgrade,400,Healing Word,
-19,90,,Ability Upgrade,300,Healing Word,
-19,115,,Ability Upgrade,500,Healing Word,
-19,140,,Ability Upgrade,500,Healing Word,
-19,165,,Ability Upgrade,600,Healing Word,
-19,190,,Ability Upgrade,700,Healing Word,
-19,210,,Ability Upgrade,400,Healing Word,
-19,230,,Ability Upgrade,400,Healing Word,
-19,255,,Ability Upgrade,700,Healing Word,
-19,275,,Ability Upgrade,600,Healing Word,
-19,300,,Ability Upgrade,600,Healing Word,
-19,320,,Ability Upgrade,400,Healing Word,
-19,65,,All Damage Boost,100,,
-19,135,,All Damage Boost,100,,
-19,225,,All Damage Boost,100,,
-19,305,,All Damage Boost,100,,
-18,210,,Self Damage Boost,200,,
-19,155,,Ability Upgrade,100,Blessed Hammer,
-19,200,,Ability Upgrade,100,Blessed Hammer,
-19,260,,Ability Upgrade,100,Blessed Hammer,
-19,325,,Ability Upgrade,100,Blessed Hammer,
-20,50,Ruby Encouragement (Ahead),Specialisation Choice,75,,
-20,50,Ruby Encouragement (Behind),Specialisation Choice,76,,
-20,250,Ruby Weakness (Ranged),Specialisation Choice,77,,
-20,250,Ruby Weakness (Melee),Specialisation Choice,78,,
-20,250,Ruby Weakness (Magic),Specialisation Choice,79,,
-20,100,,Ultimate Unlock,72,,
-20,10,,Self Damage Boost,200,,
-20,25,,All Damage Boost,100,,
-20,90,,Ability Upgrade,100,,
-20,30,,Self Damage Boost,200,,
-20,55,,Self Damage Boost,200,,
-20,75,,Self Damage Boost,200,,
-20,105,,Self Damage Boost,200,,
-20,125,,Self Damage Boost,200,,
-20,160,,Self Damage Boost,200,,
-20,190,,Self Damage Boost,200,,
-20,230,,Self Damage Boost,200,,
-20,245,,Self Damage Boost,200,,
-20,275,,Self Damage Boost,200,,
-20,300,,Self Damage Boost,200,,
-20,320,,Self Damage Boost,200,,
-20,355,,Self Damage Boost,300,,
-20,385,,Self Damage Boost,300,,
-20,425,,Self Damage Boost,300,,
-20,460,,Self Damage Boost,300,,
-20,505,,Self Damage Boost,300,,
-20,530,,Self Damage Boost,300,,
-20,575,,Self Damage Boost,300,,
-20,615,,Self Damage Boost,300,,
-20,670,,Self Damage Boost,400,,
-20,715,,Self Damage Boost,400,,
-20,735,,Self Damage Boost,100,,
-20,65,,All Damage Boost,100,,
-20,175,,All Damage Boost,100,,
-20,340,,All Damage Boost,100,,
-20,485,,All Damage Boost,100,,
-20,590,,All Damage Boost,100,,
-20,200,,Ability Upgrade,100,,
-20,430,,Ability Upgrade,100,,
-20,290,,Ability Upgrade,100,,
-20,550,,Ability Upgrade,100,,
-20,515,,Ability Upgrade,50,,
-20,700,,Ability Upgrade,50,,
-20,650,,Ability Upgrade,200,,
-20,725,,Ability Upgrade,100,,
-21,25,Song of Battle,Ability Unlock,83,,
-21,80,Tempo of Battle,Ability Unlock,84,,
-21,125,Tempo of Victory,Ability Unlock,86,,
-21,40,Impressive Bladework,Increase Number of Enemies Targeted,1,,
-21,100,Theme of Valor,Specialisation Choice,88,,
-21,100,Theme of Consideration,Specialisation Choice,89,,
-21,100,Theme of Deception,Specialisation Choice,90,,
-21,145,,Ultimate Unlock,75,,
-21,70,,Ability Upgrade,100,Song of Battle,
-21,15,,Self Damage Boost,100,,
-21,60,,Self Damage Boost,200,,
-21,95,,Self Damage Boost,300,,
-21,110,,Self Damage Boost,200,,
-21,135,,Self Damage Boost,200,,
-21,150,,Self Damage Boost,200,,
-21,160,,Ability Upgrade,100,Song of Battle,
-21,185,,Self Damage Boost,300,,
-21,195,,Increase Number of Enemies Targeted,1,,
-21,200,,Self Damage Boost,200,,
-21,230,,Self Damage Boost,200,,
-21,250,,Self Damage Boost,300,,
-21,265,,Self Damage Boost,300,,
-21,240,,Ability Upgrade,100,Song of Battle,
-1,1050,,Self Damage Boost,200,,
-1,1095,,Self Damage Boost,100,,
-1,1140,,Self Damage Boost,100,,
-1,1150,,All Damage Boost,100,,
-2,635,,Self Damage Boost,200,,
-2,670,,Self Damage Boost,300,,
-2,650,,Ability Upgrade,100,Crusader's Mantle,War Domain
-2,650,,All Damage Boost,100,,Life Domain
-16,490,,Ability Upgrade,100,Spiked Shell,Circle of the Mountain
-16,500,,Self Damage Boost,100,,
-16,475,,Self Damage Boost,200,,
-20,765,,Self Damage Boost,100,,
-20,795,,Self Damage Boost,100,,
-20,835,,Self Damage Boost,200,,
-20,820,,Ability Upgrade,100,,
-3,430,,Self Damage Boost,200,,
-3,445,,Self Damage Boost,100,,
-3,450,,Ability Upgrade,100,Aura of Courage,Oath of Vengeance
-3,410,,All Damage Boost,100,,Oath of Devotion
-16,490,,Ability Upgrade,100,Freezing Breeze,Circle of the Arctic
-16,490,,Ability Upgrade,100,Acid Splash,Circle of the Swamp
-16,460,,All Damage Boost,100,,
-4,630,,Self Damage Boost,100,,
-4,655,,Ability Upgrade,200,Room To Work,Loner
-4,655,,Ability Upgrade,200,Equal Opportunity,Socialite
-4,685,,Self Damage Boost,100,,
-4,670,,Gold Find Boost,10,,
-14,525,,Self Damage Boost,100,,
-14,555,,Self Damage Boost,200,,
-14,540,,Ability Upgrade,50,Ki Strike,Ki Strike
-14,540,,Self Damage Boost,100,,Extra Attacks
-5,665,,Self Damage Boost,100,,
-5,700,,Self Damage Boost,200,,
-5,715,,Ability Upgrade,100,Bardic Inspiration,College of Valor
-17,530,,Self Damage Boost,200,,
-17,560,,Self Damage Boost,100,,
-17,575,,Self Damage Boost,200,,
-6,290,,Self Damage Boost,100,,
-6,305,,Self Damage Boost,100,,
-6,315,,Self Damage Boost,100,,
-15,510,,Self Damage Boost,100,,
-15,530,,Self Damage Boost,100,,
-15,560,,Self Damage Boost,200,,
-15,545,,Ability Upgrade,50,Eldritch Strike,
-7,385,,Self Damage Boost,300,,
-7,420,,Self Damage Boost,300,,
-8,1210,,Self Damage Boost,100,,
-8,1290,,Self Damage Boost,100,,
-8,1380,,Self Damage Boost,100,,
-8,1440,,Self Damage Boost,100,,
-13,575,,Self Damage Boost,100,,
-13,610,,Self Damage Boost,100,,
-13,645,,Self Damage Boost,100,,
-13,555,,Increase Number of Enemies Targeted,1,,More Daggers
-9,100,,Self Damage Boost,200,,
-9,110,,Self Damage Boost,300,,
-9,105,,Ability Upgrade,100,Dark Luck,Dark Luck
-9,105,,Ability Upgrade,100,Dark Blessing,Dark Blessing
-18,240,,Self Damage Boost,100,,
-18,250,,Ability Upgrade,100,Companions of the Hall,
-21,290,,Self Damage Boost,100,,
-21,325,,Self Damage Boost,300,,
-10,585,,Self Damage Boost,100,,
-10,645,,Self Damage Boost,100,,
-10,695,,Self Damage Boost,100,,
-10,675,,Ability Upgrade,100,Moonbeam,Moonbeam
-10,675,,Self Damage Boost,100,,Wild Shape
-19,350,,Self Damage Boost,100,,
-19,380,,Self Damage Boost,100,,
-19,410,,Self Damage Boost,100,,
-19,420,,All Damage Boost,100,,
-11,130,,Self Damage Boost,200,,
-11,150,,Self Damage Boost,100,,
-11,140,,Self Damage Boost,100,,Uncanny Speed
-12,50,,Self Damage Boost,200,,
-12,40,,Self Damage Boost,200,,
-22,10,Favored Enemy: Drow,Specialisation Choice,98,,
-22,10,Favored Enemy: Fiend,Specialisation Choice,99,,
-22,10,Favored Enemy: Aberration,Specialisation Choice,100,,
-22,10,Favored Enemy: Giant,Specialisation Choice,101,,
-22,10,Favored Enemy: Elemental,Specialisation Choice,102,,
-22,30,Hunter's Pack,Ability Unlock,103,,
-22,55,,Ultimate Unlock,83,,
-22,90,Colossus Slayer,Specialisation Choice,104,,
-22,90,Horde Breaker,Specialisation Choice,105,,
-22,110,,Self Damage Boost,200,,
-22,75,,Self Damage Boost,100,,
-22,50,,Self Damage Boost,200,,
-22,65,,All Damage Boost,200,,
-22,20,,Self Damage Boost,200,,
-22,100,,Ability Upgrade,200,Hunter's Pack,
-22,175,,Self Damage Boost,300,,
-22,125,,Self Damage Boost,300,,
-22,140,,Ability Upgrade,100,Favored Enemy: Drow,Favored Enemy: Drow
-22,140,,Ability Upgrade,100,Favored Enemy: Fiend,Favored Enemy: Fiend
-22,140,,Ability Upgrade,100,Favored Enemy: Aberration,Favored Enemy: Aberration
-22,140,,Ability Upgrade,100,Favored Enemy: Giant,Favored Enemy: Giant
-22,140,,Ability Upgrade,100,Favored Enemy: Elemental,Favored Enemy: Elemental
-22,160,,Self Damage Boost,200,,
-22,170,,Ability Upgrade,200,Hunter's Pack,
-23,50,Death Ward,Ability Unlock,111,,
-23,125,Haunted,Ability Unlock,112,,
-23,25,Poor Hygiene,Ability Unlock,113,,
-23,75,Panic!,Specialisation Choice,114,,
-23,75,Hide!,Specialisation Choice,115,,
-23,55,,All Damage Boost,200,,
-23,100,,Ultimate Unlock,88,,
-23,10,,Self Damage Boost,100,,
-23,40,,Self Damage Boost,100,,
-23,70,,Self Damage Boost,100,,
-23,90,,Self Damage Boost,100,,
-23,115,,Self Damage Boost,100,,
-23,145,,Self Damage Boost,100,,
-23,190,,Self Damage Boost,100,,
-23,210,,Self Damage Boost,200,,
-23,245,,Self Damage Boost,100,,
-23,270,,Self Damage Boost,100,,
-23,295,,Self Damage Boost,200,,
-23,330,,Self Damage Boost,100,,
-23,365,,Self Damage Boost,100,,
-23,130,,Ability Upgrade,200,Poor Hygiene,
-23,250,,Ability Upgrade,100,Poor Hygiene,
-23,360,,Ability Upgrade,200,Poor Hygiene,
-23,170,,All Damage Boost,100,,
-23,310,,All Damage Boost,100,,
-23,285,,Ability Upgrade,100,Haunted,
-24,25,Kensei Cleave,Ability Unlock,122,,
-24,75,Deft Strike,Ability Unlock,123,,
-24,125,Stunning Strike,Ability Unlock,124,,
-24,175,Kensei Advantage,Specialisation Choice,125,,
-24,175,Unerring Accuracy,Specialisation Choice,126,,
-24,150,,Ultimate Unlock,98,,
-24,10,,Self Damage Boost,200,,
-24,40,,Self Damage Boost,200,,
-24,65,,All Damage Boost,100,,
-24,85,,Self Damage Boost,200,,
-24,100,,All Damage Boost,100,,
-24,110,,Self Damage Boost,200,,
-24,135,,Self Damage Boost,300,,
-24,160,,Ability Upgrade,100,Deft Strike,
-24,165,,Self Damage Boost,300,,
-24,190,,All Damage Boost,100,,
-24,210,,Ability Upgrade,100,Deft Strike,
-24,345,,Self Damage Boost,200,,
-24,200,,Self Damage Boost,300,,
-24,225,,Self Damage Boost,300,,
-24,240,,All Damage Boost,100,,
-24,250,,Increases Area of Effect Radius,50,,
-24,265,,Self Damage Boost,200,,
-24,275,,Increases Stun Time,0.5,,
-24,295,,Self Damage Boost,200,,
-24,310,,All Damage Boost,100,,
-24,325,,Ability Upgrade,100,Deft Strike,
-24,360,,Self Damage Boost,200,,
-24,425,,All Damage Boost,200,,
-24,400,,Self Damage Boost,300,,
-1,1165,,Self Damage Boost,100,,
-1,1190,,Self Damage Boost,200,,
-1,1245,,Self Damage Boost,100,,
-1,1310,,Self Damage Boost,100,,
-1,1225,,Ability Upgrade,100,Inspired,Champion
-1,1225,,Ability Upgrade,100,Rally,Battle Master
-1,1275,,Ultimate Boost,100,,
-2,700,,Self Damage Boost,100,,
-2,735,,Self Damage Boost,200,,
-2,775,,Self Damage Boost,200,,
-2,785,,All Damage Boost,100,,
-20,965,,Self Damage Boost,200,,
-20,865,,Self Damage Boost,200,,
-20,920,,Self Damage Boost,200,,
-20,935,,Ability Upgrade,100,,
-20,895,,All Damage Boost,100,,
-3,515,,Self Damage Boost,100,,
-3,460,,Self Damage Boost,200,,
-3,485,,Self Damage Boost,200,,
-3,500,,Ability Upgrade,100,Aura of Courage,Oath of Vengeance
-3,500,,All Damage Boost,200,,Oath of Devotion
-16,575,,Self Damage Boost,100,,
-16,515,,Self Damage Boost,100,,
-16,540,,Self Damage Boost,200,,
-16,510,,Ability Upgrade,100,Grandmotherly Love,
-16,560,,All Damage Boost,100,,
-16,580,,Ability Upgrade,100,Spiked Shell,Circle of the Mountain
-16,580,,Ability Upgrade,100,Freezing Breeze,Circle of the Arctic
-16,580,,Ability Upgrade,100,Acid Splash,Circle of the Swamp
-4,800,,Ability Upgrade,100,Room To Work,Loner
-4,700,,Self Damage Boost,100,,
-4,740,,Self Damage Boost,100,,
-4,775,,Self Damage Boost,200,,
-4,760,,Gold Find Boost,10,,
-14,650,,Self Damage Boost,300,,
-4,800,,Ability Upgrade,100,Equal Opportunity,Socialite
-14,605,,Self Damage Boost,200,,
-14,630,,Ability Upgrade,50,Golden Palm,
-5,835,,Self Damage Boost,200,,
-5,730,,Self Damage Boost,100,,
-5,765,,Self Damage Boost,100,,
-5,810,,Self Damage Boost,100,,
-5,780,,Ultimate Boost,100,,
-17,675,,Self Damage Boost,200,,
-17,620,,Self Damage Boost,200,,
-17,650,,Self Damage Boost,200,,
-17,610,,Ability Upgrade,100,Skill Empowerment,
-6,375,,Self Damage Boost,300,,
-6,330,,Self Damage Boost,100,,
-6,355,,Self Damage Boost,200,,
-6,350,Bond: Half-bloods,Specialisation Choice,137,,
-6,350,Bond: Exotic Races,Specialisation Choice,138,,
-6,350,Bond: Short-folk,Specialisation Choice,139,,
-15,665,,Self Damage Boost,200,,
-15,585,,Self Damage Boost,100,,
-15,630,,Self Damage Boost,200,,
-15,610,,Ability Upgrade,50,Eldritch Strike,
-7,500,,Self Damage Boost,300,,
-7,460,,Self Damage Boost,300,,
-7,510,,Ability Upgrade,50,Favored Enemy: Humanoids,Favored Enemy: Humanoids
-7,510,,Ability Upgrade,50,Favored Enemy: Beasts,Favored Enemy: Beasts
-7,510,,Ability Upgrade,50,Favored Enemy: Undead,Favored Enemy: Undead
-7,510,,Ability Upgrade,50,Favored Enemy: Fey,Favored Enemy: Fey
-7,510,,Ability Upgrade,50,Favored Enemy: Monstrosities,Favored Enemy: Monstrosities
-8,1775,,Self Damage Boost,200,,
-8,1550,,Self Damage Boost,200,,
-8,1665,,Self Damage Boost,200,,
-13,780,,Self Damage Boost,100,,
-13,680,,Self Damage Boost,100,,
-13,720,,Self Damage Boost,200,,
-13,750,,All Damage Boost,100,,
-24,515,,Self Damage Boost,200,,
-24,455,,Self Damage Boost,100,,
-24,475,,Self Damage Boost,100,,
-24,490,,Ability Upgrade,100,Deft Strike,
-9,135,,Self Damage Boost,300,,
-9,120,,Self Damage Boost,300,,
-9,130,,Ultimate Boost,100,,
-18,320,,Self Damage Boost,200,,
-18,270,,Self Damage Boost,200,,
-18,300,,Self Damage Boost,200,,
-21,400,,Self Damage Boost,200,,
-21,345,,Self Damage Boost,100,,
-21,370,,Self Damage Boost,100,,
-21,390,,Ultimate Boost,100,,
-10,890,,Self Damage Boost,100,,
-10,730,,Self Damage Boost,100,,
-10,790,,Self Damage Boost,100,,
-10,850,,Self Damage Boost,100,,
-10,870,,Ability Upgrade,200,Moonbeam,Moonbeam
-19,535,,Self Damage Boost,100,,
-19,440,,Self Damage Boost,100,,
-19,470,,Self Damage Boost,100,,
-19,505,,Self Damage Boost,100,,
-19,515,,All Damage Boost,100,,
-11,200,,Self Damage Boost,100,,
-11,165,,Self Damage Boost,100,,
-11,180,,Self Damage Boost,200,,
-23,470,,Self Damage Boost,100,,
-23,395,,Self Damage Boost,100,,
-23,445,,Self Damage Boost,200,,
-12,70,,Self Damage Boost,300,,
-12,60,,Self Damage Boost,200,,
-12,65,,Gold Find Boost,20,,
-22,240,,Self Damage Boost,300,,
-22,195,,Self Damage Boost,100,,
-22,225,,Self Damage Boost,200,,
-22,230,,Ability Upgrade,200,Hunter's Pack,
-25,10,Powerful Draw,Ability Unlock,140,,
-25,100,Critical Hit,Grants Critical Strike Chance to Attacks,100,,
-25,200,Mark for Death,Ability Unlock,141,,
-25,150,,Ultimate Unlock,100,,
-25,275,Follow-Up,Specialisation Choice,142,,
-25,275,In The Zone,Specialisation Choice,200,Critical Hit,
-25,285,,Increases Critical Strike Chance,25,Critical Hit,
-25,350,,Ability Upgrade,100,Critical Hit,
-25,400,,Ability Upgrade,100,Mark for Death,
-25,500,,Ability Upgrade,50,Follow-Up,Follow-Up
-25,800,,Self Damage Boost,100,,
-25,300,,Self Damage Boost,100,,
-25,500,,Increases Critical Strike Chance,25,Critical Hit,In The Zone
-25,35,,Self Damage Boost,100,,
-25,75,,Self Damage Boost,100,,
-25,120,,Self Damage Boost,100,,
-25,140,,All Damage Boost,100,,
-25,165,,Self Damage Boost,200,,
-25,185,,Self Damage Boost,100,,
-25,225,,Self Damage Boost,200,,
-25,255,,Self Damage Boost,200,,
-25,330,,Self Damage Boost,100,,
-25,375,,Self Damage Boost,100,,
-25,405,,Self Damage Boost,100,,
-25,445,,Self Damage Boost,100,,
-25,470,,Self Damage Boost,100,,
-25,490,,All Damage Boost,100,,
-25,600,,Ability Upgrade,50,Mark for Death,
-25,775,,Ability Upgrade,50,Follow-Up,Follow-Up
-25,775,,Increases Critical Strike Chance,25,Critical Hit,In The Zone
-25,520,,Self Damage Boost,100,,
-25,545,,Self Damage Boost,200,,
-25,585,,Self Damage Boost,200,,
-25,630,,Self Damage Boost,200,,
-25,685,,Self Damage Boost,200,,
-25,720,,Self Damage Boost,100,,
-25,755,,Self Damage Boost,100,,
-25,945,,Self Damage Boost,100,,
-25,840,,Self Damage Boost,100,,
-25,890,,Self Damage Boost,100,,
-25,920,,Ability Upgrade,100,Mark for Death,
-25,870,,Ultimate Boost,100,,
+Bruenor,5,,Self Damage Boost,100,,
+Bruenor,10,Inspired,Ability Unlock,1,,
+Bruenor,25,,Ultimate Unlock,2,,
+Bruenor,50,Rally,Ability Unlock,2,,
+Bruenor,100,,Self Damage Boost,100,,
+Bruenor,150,Champion,Specialisation Choice,200,Inspired,
+Bruenor,150,Battle Master,Specialisation Choice,100,Rally,
+Bruenor,200,,Self Damage Boost,100,,
+Bruenor,250,,Self Damage Boost,200,,Champion
+Bruenor,250,,All Damage Boost,100,,Battle Master
+Bruenor,300,,Self Damage Boost,200,,Champion
+Bruenor,300,,Ability Upgrade,300,Rally,Battle Master
+Bruenor,400,,All Damage Boost,200,,
+Bruenor,500,,Ability Upgrade,300,Inspired,Champion
+Bruenor,500,,Ability Upgrade,200,Rally,Battle Master
+Bruenor,600,,Self Damage Boost,100,,
+Bruenor,690,,Ultimate Boost,100,,
+Bruenor,800,,Self Damage Boost,200,,Champion
+Bruenor,800,,All Damage Boost,100,,Battle Master
+Bruenor,900,,Self Damage Boost,100,,Champion
+Celeste,10,,All Damage Boost,100,,
+Celeste,20,Crusader's Mantle,Ability Unlock,3,,
+Celeste,35,,All Damage Boost,100,,
+Celeste,40,Mass Cure Wounds,Ability Unlock,4,,
+Celeste,50,,Ultimate Unlock,4,,
+Celeste,90,,All Damage Boost,100,,
+Celeste,100,War Domain,Specialisation Choice,100,Crusader's Mantle,
+Celeste,100,Life Domain,Specialisation Choice,100,Mass Cure Wounds,
+Celeste,75,,Ability Upgrade,400,Mass Cure Wounds,
+Celeste,150,,Ability Upgrade,100,Crusader's Mantle,War Domain
+Celeste,130,,Ability Upgrade,400,Mass Cure Wounds,
+Celeste,280,,All Damage Boost,100,,
+Celeste,220,,Ability Upgrade,100,Crusader's Mantle,War Domain
+Celeste,205,,Ability Upgrade,600,Mass Cure Wounds,
+Nayeli,10,,All Damage Boost,100,,
+Nayeli,20,Aura of Courage,Ability Unlock,5,,
+Nayeli,30,,Self Damage Boost,200,,
+Nayeli,40,Aura of Protection,Ability Unlock,6,,
+Nayeli,50,,Ultimate Unlock,6,,
+Nayeli,55,,All Damage Boost,200,,
+Nayeli,100,Oath of Vengeance,Specialisation Choice,200,Aura of Courage,
+Nayeli,100,Oath of Devotion,Specialisation Choice,300000,,
+Nayeli,145,,All Damage Boost,100,,
+Nayeli,150,,Ability Upgrade,200,Aura of Courage,Oath of Vengeance
+Nayeli,155,,Health Boost,80000000,,Oath of Devotion
+Nayeli,190,,All Damage Boost,100,,
+Nayeli,215,,Ability Upgrade,100,Aura of Courage,Oath of Vengeance
+Nayeli,180,,Health Boost,850000000,,Oath of Devotion
+Jarlaxle,10,,Self Damage Boost,100,,
+Jarlaxle,35,Room To Work,Ability Unlock,7,,
+Jarlaxle,50,,Ultimate Unlock,8,,
+Jarlaxle,75,,Self Damage Boost,100,,
+Jarlaxle,100,Equal Opportunity,Ability Unlock,29,,
+Jarlaxle,110,,Self Damage Boost,100,,
+Jarlaxle,125,,Gold Find Boost,10,,
+Jarlaxle,150,Loner,Specialisation Choice,300,Room To Work,
+Jarlaxle,150,Socialite,Specialisation Choice,200,Equal Opportunity,
+Jarlaxle,175,,Gold Find Boost,10,,
+Jarlaxle,200,,Self Damage Boost,100,,
+Jarlaxle,250,,Ability Upgrade,200,Room To Work,Loner
+Jarlaxle,250,,Ability Upgrade,200,Equal Opportunity,Socialite
+Jarlaxle,275,,Gold Find Boost,10,,
+Jarlaxle,300,,Self Damage Boost,300,,
+Jarlaxle,350,,Self Damage Boost,300,,
+Jarlaxle,400,,Ability Upgrade,200,Room To Work,Loner
+Jarlaxle,400,,Ability Upgrade,300,Equal Opportunity,Socialite
+Jarlaxle,425,,Gold Find Boost,10,,
+Calliope,12,,All Damage Boost,100,,
+Calliope,24,Bardic Inspiration,Ability Unlock,9,,
+Calliope,36,Song of Protection,Ability Unlock,10,,
+Calliope,48,,Ultimate Unlock,10,,
+Calliope,60,,All Damage Boost,100,,
+Calliope,80,College of Valor,Specialisation Choice,200,Bardic Inspiration,
+Calliope,80,College of Lore,Specialisation Choice,100,Song of Protection,
+Calliope,100,,All Damage Boost,200,,
+Calliope,120,,Ability Upgrade,400,Song of Protection,
+Calliope,140,,Ability Upgrade,100,Bardic Inspiration,College of Valor
+Calliope,150,,Ability Upgrade,400,Song of Protection,
+Bruenor,475,,All Damage Boost,100,,Battle Master
+Calliope,200,,Ability Upgrade,100,Bardic Inspiration,College of Valor
+Calliope,205,,Ability Upgrade,300,Song of Protection,
+Calliope,240,,All Damage Boost,100,,
+Calliope,310,,All Damage Boost,100,,
+Calliope,345,,Ability Upgrade,100,Bardic Inspiration,College of Valor
+Calliope,320,,Ability Upgrade,300,Song of Protection,
+Asharra,55,,Self Damage Boost,100,,
+Asharra,65,,Self Damage Boost,200,,
+Asharra,10,Bond: Humans,Specialisation Choice,11,,
+Asharra,10,Bond: Elves and Dwarves,Specialisation Choice,12,,
+Asharra,10,"Bond: Tiefling, Firbolg, and Dragonborn",Specialisation Choice,13,,
+Asharra,20,,Ultimate Unlock,12,,
+Asharra,30,,Self Damage Boost,100,,
+Asharra,45,,Self Damage Boost,100,,
+Asharra,75,,Self Damage Boost,200,,
+Asharra,100,,Increase Number of Enemies Targeted,1,,
+Asharra,120,,Self Damage Boost,200,,
+Asharra,130,,Self Damage Boost,100,,
+Asharra,140,,Ability Upgrade,200,Bond: Humans,Bond: Humans
+Asharra,140,,Ability Upgrade,200,Bond: Elves and Dwarves,Bond: Elves and Dwarves
+Asharra,140,,Ability Upgrade,200,"Bond: Tiefling, Firbolg, and Dragonborn","Bond: Tiefling, Firbolg, and Dragonborn"
+Asharra,150,,Self Damage Boost,200,,
+Asharra,160,,Self Damage Boost,100,,
+Asharra,200,,Self Damage Boost,300,,
+Minsc,20,,Self Damage Boost,100,,
+Minsc,40,,All Damage Boost,100,,
+Minsc,50,Favored Enemy: Humanoids,Specialisation Choice,14,,
+Minsc,50,Favored Enemy: Beasts,Specialisation Choice,15,,
+Minsc,50,Favored Enemy: Undead,Specialisation Choice,16,,
+Minsc,50,Favored Enemy: Fey,Specialisation Choice,17,,
+Minsc,50,Favored Enemy: Monstrosities,Specialisation Choice,18,,
+Minsc,75,,Self Damage Boost,400,,
+Minsc,100,,Self Damage Boost,500,,
+Minsc,125,,Ultimate Unlock,14,,
+Minsc,150,,Self Damage Boost,300,,
+Minsc,175,,Ability Upgrade,100,Favored Enemy: Humanoids,Favored Enemy: Humanoids
+Minsc,175,,Ability Upgrade,100,Favored Enemy: Beasts,Favored Enemy: Beasts
+Minsc,175,,Ability Upgrade,100,Favored Enemy: Undead,Favored Enemy: Undead
+Minsc,175,,Ability Upgrade,100,Favored Enemy: Fey,Favored Enemy: Fey
+Minsc,175,,Ability Upgrade,100,Favored Enemy: Monstrosities,Favored Enemy: Monstrosities
+Minsc,200,,Self Damage Boost,300,,
+Delina,650,,Self Damage Boost,100,,
+Delina,725,,Self Damage Boost,200,,
+Delina,25,Twinned Spell,Grants Ricochet to Attack,50,,
+Delina,75,,Self Damage Boost,100,,
+Delina,100,,Ultimate Unlock,16,,
+Delina,150,Empowered Spell,Grants Damage Over Time to Attack,50,,
+Delina,200,Font of Magic,Specialisation Choice,100,Twinned Spell,
+Delina,200,Endless Empowerment,Specialisation Choice,100,Empowered Spell,
+Delina,500,,Ability Upgrade,100,Twinned Spell,Font of Magic
+Delina,400,,Self Damage Boost,100,,
+Delina,800,,Ability Upgrade,100,Twinned Spell,Font of Magic
+Delina,575,,Self Damage Boost,200,,
+Makos,40,,Self Damage Boost,300,,
+Makos,50,,Self Damage Boost,400,,
+Makos,10,,Self Damage Boost,100,,
+Makos,15,Dark Luck,Specialisation Choice,100,,
+Makos,15,Dark Blessing,Specialisation Choice,23,,
+Makos,20,,Self Damage Boost,200,,
+Makos,25,,Ultimate Unlock,18,,
+Makos,30,,Self Damage Boost,300,,
+Tyril,20,,All Damage Boost,100,,
+Tyril,45,Moonbeam,Specialisation Choice,24,,
+Tyril,45,Wild Shape,Specialisation Choice,25,,
+Tyril,60,,Ultimate Unlock,20,,Moonbeam
+Tyril,75,,All Damage Boost,100,,
+Tyril,90,,Health Boost,490000000000,,Wild Shape
+Tyril,125,Druidic Healing,Ability Unlock,26,,Moonbeam
+Tyril,125,Wild Resilience,Ability Unlock,27,,Wild Shape
+Tyril,150,,All Damage Boost,100,,Moonbeam
+Tyril,140,,Health Boost,3800000000000,,Wild Shape
+Tyril,350,,All Damage Boost,100,,Moonbeam
+Bruenor,80,,Self Damage Boost,200,,
+Bruenor,125,,Self Damage Boost,300,,
+Bruenor,180,,Self Damage Boost,300,,
+Bruenor,350,,Self Damage Boost,200,,
+Bruenor,375,,Self Damage Boost,400,,Battle Master
+Bruenor,425,,Self Damage Boost,300,,
+Bruenor,450,,Self Damage Boost,200,,Champion
+Bruenor,450,,Self Damage Boost,400,,Battle Master
+Bruenor,525,,Self Damage Boost,100,,Champion
+Bruenor,525,,Self Damage Boost,200,,Battle Master
+Bruenor,575,,Self Damage Boost,300,,
+Bruenor,550,,Self Damage Boost,100,,Champion
+Bruenor,275,,Self Damage Boost,100,,Battle Master
+Bruenor,375,,Self Damage Boost,200,,Champion
+Celeste,60,,Self Damage Boost,400,,
+Celeste,80,,Self Damage Boost,300,,
+Celeste,110,,Self Damage Boost,400,,
+Celeste,145,,Self Damage Boost,400,,
+Celeste,165,,Self Damage Boost,100,,
+Celeste,190,,Self Damage Boost,300,,
+Celeste,215,,Self Damage Boost,300,,
+Celeste,235,,Self Damage Boost,200,,
+Celeste,260,,Self Damage Boost,300,,
+Celeste,275,,Self Damage Boost,100,,
+Nayeli,60,,Self Damage Boost,400,,
+Nayeli,80,,Self Damage Boost,400,,
+Nayeli,105,,Self Damage Boost,400,,
+Nayeli,115,,Self Damage Boost,100,,
+Nayeli,135,,Self Damage Boost,300,,
+Nayeli,160,,Self Damage Boost,400,,
+Nayeli,185,,Self Damage Boost,900,,
+Nayeli,205,,Self Damage Boost,400,,
+Nayeli,220,,Self Damage Boost,300,,
+Jarlaxle,140,,Self Damage Boost,100,,
+Jarlaxle,185,,Self Damage Boost,300,,
+Jarlaxle,230,,Self Damage Boost,300,,
+Jarlaxle,270,,Self Damage Boost,100,,
+Jarlaxle,325,,Self Damage Boost,200,,
+Calliope,105,,Self Damage Boost,200,,
+Calliope,135,,Self Damage Boost,300,,
+Calliope,175,,Self Damage Boost,400,,
+Calliope,220,,Self Damage Boost,300,,
+Calliope,250,,Self Damage Boost,400,,
+Calliope,275,,Self Damage Boost,100,,
+Asharra,90,,Self Damage Boost,300,,
+Asharra,110,,Self Damage Boost,200,,
+Minsc,120,,Self Damage Boost,200,,
+Minsc,170,,Self Damage Boost,200,,
+Delina,350,,Self Damage Boost,100,,
+Delina,275,,Self Damage Boost,100,,
+Delina,450,,Self Damage Boost,100,,
+Celeste,295,,Self Damage Boost,300,,
+Celeste,310,,Ability Upgrade,100,Crusader's Mantle,War Domain
+Celeste,305,,Ability Upgrade,300,Mass Cure Wounds,
+Celeste,365,,All Damage Boost,100,,War Domain
+Celeste,330,,Self Damage Boost,300,,
+Celeste,360,,Self Damage Boost,500,,
+Celeste,380,,Self Damage Boost,200,,
+Celeste,400,,Ability Upgrade,200,Crusader's Mantle,War Domain
+Celeste,405,,Ability Upgrade,300,Mass Cure Wounds,
+Celeste,425,,Self Damage Boost,300,,
+Celeste,455,,All Damage Boost,100,,
+Celeste,445,,Self Damage Boost,200,,
+Celeste,500,,Ability Upgrade,100,Crusader's Mantle,
+Celeste,480,,Self Damage Boost,300,,
+Celeste,550,,Ability Upgrade,100,Crusader's Mantle,War Domain
+Celeste,520,,Ability Upgrade,300,Mass Cure Wounds,
+Celeste,510,,Self Damage Boost,300,,
+Celeste,540,,Self Damage Boost,200,,
+Bruenor,900,,Ability Upgrade,100,Rally,Battle Master
+Bruenor,625,,Self Damage Boost,100,,
+Bruenor,660,,Self Damage Boost,300,,Champion
+Bruenor,700,,Ability Upgrade,100,Inspired,Champion
+Bruenor,700,,Ability Upgrade,200,Rally,Battle Master
+Bruenor,735,,Self Damage Boost,200,,
+Bruenor,770,,Self Damage Boost,300,,
+Bruenor,840,,Self Damage Boost,200,,
+Bruenor,880,,Self Damage Boost,100,,
+Bruenor,660,,Self Damage Boost,200,,Battle Master
+Jamilah,35,Reckless Attack,Ability Unlock,33,,
+Jamilah,40,Frenzy,Grants Secondary Attack to Nearby Target,1,,
+Jamilah,50,Brute Strength,Specialisation Choice,200,,
+Jamilah,50,Uncanny Speed,Specialisation Choice,2,,
+Arkhan,3,First In Line,Ability Unlock,30,,
+Arkhan,9,Loyalty,Ability Unlock,31,,
+Arkhan,18,Chango Unchained,Specialisation Choice,28,,
+Arkhan,18,Chango Restrained,Specialisation Choice,32,,
+Nayeli,225,,Grants Enemy Taunt,2,,Oath of Devotion
+Nayeli,210,,Health Boost,28000000000,,Oath of Devotion
+Nayeli,275,,Health Boost,40000000000000,,Oath of Devotion
+Nayeli,130,,Health Boost,5500000,,Oath of Devotion
+Nayeli,240,,Health Boost,760000000000,,Oath of Devotion
+Nayeli,305,,Health Boost,2400000000000000,,Oath of Devotion
+Nayeli,330,,Health Boost,64000000000000000,,Oath of Devotion
+Nayeli,250,,Self Damage Boost,400,,
+Nayeli,265,,Self Damage Boost,200,,
+Nayeli,295,,Self Damage Boost,300,,
+Nayeli,310,,Self Damage Boost,300,,
+Nayeli,325,,Self Damage Boost,200,,
+Nayeli,350,,Self Damage Boost,300,,
+Nayeli,225,,All Damage Boost,100,,Oath of Vengeance
+Nayeli,275,,Ability Upgrade,100,Aura of Courage,Oath of Vengeance
+Nayeli,300,,Ability Upgrade,100,Aura of Courage,Oath of Vengeance
+Nayeli,345,,All Damage Boost,100,,Oath of Vengeance
+Jarlaxle,430,,Self Damage Boost,300,,
+Jarlaxle,450,,Self Damage Boost,200,,
+Jarlaxle,480,,Self Damage Boost,200,,
+Jarlaxle,490,,Gold Find Boost,10,,
+Jarlaxle,500,,Ability Upgrade,200,Room To Work,Loner
+Jarlaxle,500,,Ability Upgrade,100,Equal Opportunity,Socialite
+Jarlaxle,520,,Self Damage Boost,100,,
+Calliope,300,,Self Damage Boost,200,,
+Calliope,340,,Self Damage Boost,300,,
+Calliope,350,,All Damage Boost,100,,College of Lore
+Calliope,370,,Self Damage Boost,200,,
+Calliope,400,,Ability Upgrade,100,Bardic Inspiration,College of Valor
+Calliope,395,,Ability Upgrade,300,Song of Protection,
+Calliope,410,,Self Damage Boost,300,,
+Calliope,440,,Self Damage Boost,200,,
+Calliope,480,,Self Damage Boost,300,,
+Calliope,475,,All Damage Boost,100,,
+Calliope,515,,Self Damage Boost,200,,
+Asharra,170,,Self Damage Boost,200,,
+Asharra,185,,Self Damage Boost,200,,
+Asharra,225,,Self Damage Boost,300,,
+Asharra,235,,Self Damage Boost,100,,
+Minsc,230,,Self Damage Boost,400,,
+Minsc,260,,Self Damage Boost,400,,
+Minsc,300,,Self Damage Boost,400,,
+Delina,500,,Ability Upgrade,100,Empowered Spell,Endless Empowerment
+Delina,800,,Ability Upgrade,100,Empowered Spell,Endless Empowerment
+Delina,850,,Self Damage Boost,100,,
+Delina,925,,Self Damage Boost,200,,
+Delina,975,,Self Damage Boost,100,,
+Makos,60,,Self Damage Boost,500,,
+Makos,55,,Self Damage Boost,100,,
+Makos,45,,Ability Upgrade,100,Dark Luck,Dark Luck
+Makos,65,,Self Damage Boost,100,,
+Makos,70,,Self Damage Boost,200,,
+Makos,75,,Self Damage Boost,100,,
+Tyril,110,,Self Damage Boost,100,,
+Tyril,175,,Self Damage Boost,200,,
+Tyril,210,,Self Damage Boost,200,,
+Tyril,295,,Self Damage Boost,200,,
+Tyril,325,,Self Damage Boost,100,,
+Tyril,390,,Self Damage Boost,200,,
+Tyril,215,,Health Boost,100000000000000,,Wild Shape
+Tyril,250,,Health Boost,460000000000000,,Wild Shape
+Tyril,320,,Health Boost,9500000000000000,,Wild Shape
+Tyril,350,,Health Boost,50000000000000000,,Wild Shape
+Jamilah,60,,Ultimate Unlock,24,,
+Jamilah,70,,Self Damage Boost,200,,
+Jamilah,75,,Self Damage Boost,200,,
+Tyril,250,,All Damage Boost,100,,Moonbeam
+Arkhan,12,,Ultimate Unlock,26,,
+Arkhan,25,,Self Damage Boost,200,,
+Celeste,170,,Ability Upgrade,500,Mass Cure Wounds,
+Celeste,230,,Ability Upgrade,600,Mass Cure Wounds,
+Celeste,370,,Ability Upgrade,400,Mass Cure Wounds,
+Celeste,250,,Ability Upgrade,400,Mass Cure Wounds,
+Celeste,285,,Ability Upgrade,200,Mass Cure Wounds,
+Arkhan,15,,Self Damage Boost,100,,
+Calliope,230,,Ability Upgrade,400,Song of Protection,
+Celeste,450,,Ability Upgrade,400,Mass Cure Wounds,
+Celeste,485,,Ability Upgrade,400,Mass Cure Wounds,
+Celeste,535,,Ability Upgrade,400,Mass Cure Wounds,
+Calliope,180,,Ability Upgrade,500,Song of Protection,
+Calliope,245,,Ability Upgrade,100,Song of Protection,
+Calliope,295,,Ability Upgrade,400,Song of Protection,
+Calliope,375,,Ability Upgrade,200,Song of Protection,
+Calliope,415,,Ability Upgrade,300,Song of Protection,
+Calliope,525,,Ability Upgrade,100,Bardic Inspiration,College of Valor
+Calliope,435,,Ability Upgrade,300,Song of Protection,
+Calliope,530,,Ability Upgrade,500,Song of Protection,
+Tyril,190,,Ability Upgrade,600,Wild Resilience,Wild Shape
+Tyril,220,,Ability Upgrade,200,Wild Resilience,Wild Shape
+Tyril,260,,Ability Upgrade,600,Wild Resilience,Wild Shape
+Tyril,330,,Ability Upgrade,300,Wild Resilience,Wild Shape
+Tyril,360,,Ability Upgrade,200,Wild Resilience,Wild Shape
+Tyril,155,,Ability Upgrade,200,Druidic Healing,Moonbeam
+Tyril,180,,Ability Upgrade,200,Druidic Healing,Moonbeam
+Tyril,200,,Ability Upgrade,200,Moonbeam,Moonbeam
+Tyril,205,,Ability Upgrade,200,Druidic Healing,Moonbeam
+Tyril,265,,Ability Upgrade,300,Druidic Healing,Moonbeam
+Tyril,290,,Ability Upgrade,100,Moonbeam,Moonbeam
+Tyril,300,,Ability Upgrade,500,Druidic Healing,Moonbeam
+Tyril,330,,Ability Upgrade,100,Moonbeam,Moonbeam
+Tyril,375,,Ability Upgrade,200,Druidic Healing,Moonbeam
+Tyril,60,,Ultimate Unlock,27,,Wild Shape
+Celeste,25,,Self Damage Boost,400,,
+Calliope,70,,Self Damage Boost,400,,
+Celeste,270,,Ability Upgrade,300,Mass Cure Wounds,
+Celeste,325,,Ability Upgrade,300,Mass Cure Wounds,
+Celeste,345,,Ability Upgrade,400,Mass Cure Wounds,
+Celeste,390,,Ability Upgrade,400,Mass Cure Wounds,
+Celeste,420,,Ability Upgrade,100,Mass Cure Wounds,
+Celeste,430,,Ability Upgrade,300,Mass Cure Wounds,
+Celeste,465,,Ability Upgrade,300,Mass Cure Wounds,
+Celeste,505,,Ability Upgrade,700,Mass Cure Wounds,
+Celeste,385,,Ability Upgrade,100,Mass Cure Wounds,Life Domain
+Tyril,155,,Ability Upgrade,200,Wild Resilience,Wild Shape
+Tyril,180,,Health Boost,21000000000000,,Wild Shape
+Tyril,290,,Health Boost,3000000000000000,,Wild Shape
+Tyril,300,,Ability Upgrade,500,Wild Resilience,Wild Shape
+Tyril,395,,Health Boost,530000000000000000,,Wild Shape
+Tyril,400,,Ability Upgrade,900,Wild Resilience,Wild Shape
+Tyril,235,,Ability Upgrade,200,Druidic Healing,Moonbeam
+Tyril,320,,Ability Upgrade,100,Druidic Healing,Moonbeam
+Tyril,345,,Ability Upgrade,500,Druidic Healing,Moonbeam
+Tyril,410,,Ability Upgrade,500,Druidic Healing,Moonbeam
+Arkhan,21,,Self Damage Boost,400,,
+Calliope,270,,Ability Upgrade,400,Song of Protection,
+Calliope,335,,Ability Upgrade,200,Song of Protection,
+Calliope,460,,Ability Upgrade,500,Song of Protection,
+Calliope,485,,Ability Upgrade,500,Song of Protection,
+Makos,45,,Ability Upgrade,200,Dark Blessing,Dark Blessing
+Calliope,90,,Ability Upgrade,500,Song of Protection,
+Calliope,355,,Ability Upgrade,300,Song of Protection,
+Calliope,505,,Ability Upgrade,500,Song of Protection,
+Calliope,315,,Ability Upgrade,100,Bardic Inspiration,College of Lore
+Arkhan,6,,Self Damage Boost,200,,
+Hitch,40,Spare Dagger,Ability Unlock,38,,
+Hitch,60,,Ultimate Unlock,41,,
+Hitch,120,More Daggers,Specialisation Choice,1,,
+Hitch,10,,Self Damage Boost,100,,
+Hitch,35,,All Damage Boost,100,,
+Hitch,90,,Self Damage Boost,100,,
+Hitch,80,Friendly,Ability Unlock,35,,
+Hitch,120,Charismatic,Specialisation Choice,100,Friendly,
+Hitch,135,,Self Damage Boost,100,,
+Hitch,165,,Self Damage Boost,200,,
+Hitch,190,,Increase Number of Enemies Targeted,1,,More Daggers
+Hitch,215,,Self Damage Boost,200,,
+Hitch,250,,Self Damage Boost,200,,
+Hitch,290,,Self Damage Boost,300,,
+Hitch,310,,Increase Number of Enemies Targeted,1,,More Daggers
+Hitch,345,,Self Damage Boost,200,,
+Hitch,360,,All Damage Boost,100,,
+Hitch,390,,Self Damage Boost,300,,
+Hitch,425,,Self Damage Boost,100,,More Daggers
+Hitch,440,,Increase Number of Enemies Targeted,1,,More Daggers
+Hitch,465,,Self Damage Boost,100,,
+Hitch,425,,Self Damage Boost,300,,Charismatic
+Hitch,190,,Ability Upgrade,200,Friendly,Charismatic
+Hitch,310,,Ability Upgrade,200,Friendly,Charismatic
+Hitch,440,,Ability Upgrade,100,Friendly,Charismatic
+Stoki,50,,Increase Number of Enemies Targeted,1,,
+Stoki,30,Golden Palm,Ability Unlock,36,,
+Stoki,100,Ki Strike,Specialisation Choice,37,,
+Stoki,100,Extra Attacks,Specialisation Choice,1,,
+Stoki,15,,Self Damage Boost,200,,
+Stoki,75,,Self Damage Boost,300,,
+Stoki,110,,Self Damage Boost,200,,
+Stoki,130,,Self Damage Boost,200,,
+Stoki,150,,Self Damage Boost,300,,
+Stoki,170,,Self Damage Boost,300,,
+Stoki,185,,Increase Number of Enemies Targeted,1,,Extra Attacks
+Stoki,200,,Self Damage Boost,200,,
+Stoki,210,,All Damage Boost,100,,
+Stoki,225,,Self Damage Boost,300,,
+Stoki,245,,Self Damage Boost,200,,
+Stoki,270,,Self Damage Boost,300,,
+Stoki,280,,Increase Number of Enemies Targeted,1,,Extra Attacks
+Stoki,300,,Self Damage Boost,300,,
+Stoki,325,,Self Damage Boost,200,,
+Stoki,345,,Self Damage Boost,200,,
+Stoki,365,,Self Damage Boost,100,,
+Stoki,390,,Self Damage Boost,200,,
+Stoki,400,,Increase Number of Enemies Targeted,1,,Extra Attacks
+Stoki,425,,Self Damage Boost,300,,
+Stoki,470,,Self Damage Boost,300,,
+Stoki,380,,Increase Number of Enemies Targeted,1,,Ki Strike
+Stoki,185,,Ability Upgrade,50,Ki Strike,Ki Strike
+Stoki,400,,Ability Upgrade,50,Ki Strike,Ki Strike
+Stoki,120,,Self Damage Boost,100,,Extra Attacks
+Stoki,65,,Ultimate Unlock,43,,
+Jamilah,25,,Self Damage Boost,200,,
+Krond,35,,Self Damage Boost,100,,
+Krond,135,Eldritch Strike,Ability Unlock,42,,
+Krond,60,Cantrip: Thunderclap,Specialisation Choice,39,,
+Krond,60,Cantrip: Shocking Grasp,Specialisation Choice,40,,
+Krond,60,Cantrip: Fire Bolt,Specialisation Choice,41,,
+Krond,80,,Self Damage Boost,100,,
+Krond,100,,Self Damage Boost,100,,
+Krond,120,,Self Damage Boost,200,,
+Krond,150,,Self Damage Boost,200,,
+Krond,165,,Self Damage Boost,200,,
+Krond,190,,Self Damage Boost,100,,
+Krond,210,,Self Damage Boost,200,,
+Krond,220,,Ultimate Boost,100,,
+Krond,235,,Self Damage Boost,200,,
+Krond,265,,Self Damage Boost,100,,
+Krond,275,,Self Damage Boost,100,,
+Krond,300,,Self Damage Boost,300,,
+Krond,330,,Self Damage Boost,100,,
+Krond,355,,Self Damage Boost,200,,
+Krond,385,,Self Damage Boost,200,,
+Krond,420,,Self Damage Boost,300,,
+Krond,175,,Ultimate Unlock,50,,
+Bruenor,940,,Self Damage Boost,100,,Champion
+Bruenor,980,,Self Damage Boost,100,,
+Bruenor,940,,Self Damage Boost,200,,Battle Master
+Bruenor,1030,,Ability Upgrade,200,Inspired,Champion
+Bruenor,1030,,Ability Upgrade,200,Rally,Battle Master
+Celeste,570,,Self Damage Boost,200,,
+Celeste,610,,Self Damage Boost,300,,
+Celeste,590,,Ability Upgrade,100,Crusader's Mantle,War Domain
+Celeste,590,,All Damage Boost,100,,Life Domain
+Nayeli,365,,Self Damage Boost,300,,
+Nayeli,380,,Self Damage Boost,100,,
+Nayeli,400,,Self Damage Boost,200,,
+Nayeli,405,,Ability Upgrade,100,Aura of Courage,Oath of Vengeance
+Nayeli,360,,Health Boost,5800000000000000000,,Oath of Devotion
+Jarlaxle,550,,Self Damage Boost,200,,
+Jarlaxle,575,,Ability Upgrade,100,Room To Work,Loner
+Jarlaxle,575,,Ability Upgrade,200,Equal Opportunity,Socialite
+Jarlaxle,605,,Self Damage Boost,100,,
+Calliope,540,,Self Damage Boost,200,,
+Calliope,560,,Self Damage Boost,300,,
+Calliope,600,,Self Damage Boost,200,,
+Calliope,575,,Ability Upgrade,100,Bardic Inspiration,College of Valor
+Calliope,645,,All Damage Boost,100,,
+Asharra,250,,Self Damage Boost,200,,
+Asharra,265,,Ability Upgrade,100,Bond: Humans,Bond: Humans
+Asharra,265,,Ability Upgrade,100,Bond: Elves and Dwarves,Bond: Elves and Dwarves
+Asharra,265,,Ability Upgrade,100,"Bond: Tiefling, Firbolg, and Dragonborn","Bond: Tiefling, Firbolg, and Dragonborn"
+Asharra,270,,Self Damage Boost,400,,
+Minsc,320,,Self Damage Boost,300,,
+Minsc,360,,Self Damage Boost,200,,
+Minsc,350,,Ability Upgrade,50,Favored Enemy: Humanoids,Favored Enemy: Humanoids
+Minsc,350,,Ability Upgrade,50,Favored Enemy: Beasts,Favored Enemy: Beasts
+Minsc,350,,Ability Upgrade,50,Favored Enemy: Undead,Favored Enemy: Undead
+Minsc,350,,Ability Upgrade,50,Favored Enemy: Fey,Favored Enemy: Fey
+Minsc,350,,Ability Upgrade,50,Favored Enemy: Monstrosities,Favored Enemy: Monstrosities
+Delina,1020,,Self Damage Boost,200,,
+Delina,1060,,Self Damage Boost,200,,
+Delina,1150,,Ability Upgrade,100,Twinned Spell,Font of Magic
+Delina,1150,,Ability Upgrade,100,Empowered Spell,Endless Empowerment
+Makos,80,,Ability Upgrade,100,Dark Luck,Dark Luck
+Makos,80,,Ability Upgrade,200,Dark Blessing,Dark Blessing
+Makos,85,,Self Damage Boost,100,,
+Makos,90,,Self Damage Boost,100,,
+Tyril,430,,Self Damage Boost,200,,
+Tyril,500,,Self Damage Boost,300,,
+Tyril,550,,Self Damage Boost,100,,
+Tyril,445,,Health Boost,6100000000000000000,,Wild Shape
+Tyril,440,,Ability Upgrade,900,Wild Resilience,Wild Shape
+Tyril,480,,Health Boost,48000000000000000000,,Wild Shape
+Tyril,485,,Ability Upgrade,1100,Wild Resilience,Wild Shape
+Tyril,530,,Health Boost,530000000000000000000,,Wild Shape
+Tyril,525,,Ability Upgrade,900,Wild Resilience,Wild Shape
+Jamilah,90,,Self Damage Boost,100,,
+Jamilah,115,,Self Damage Boost,200,,
+Jamilah,105,,Self Damage Boost,100,,Uncanny Speed
+Arkhan,30,,Self Damage Boost,100,,Chango Unchained
+Arkhan,35,,Self Damage Boost,100,,Chango Unchained
+Arkhan,30,,Health Boost,110000000000000000000,,Chango Restrained
+Arkhan,35,,Self Damage Boost,200,,Chango Restrained
+Hitch,485,,Self Damage Boost,200,,
+Hitch,535,,Self Damage Boost,200,,
+Hitch,510,,All Damage Boost,200,,Charismatic
+Hitch,510,,All Damage Boost,300,,More Daggers
+Stoki,450,,Self Damage Boost,100,,
+Stoki,475,,Ability Upgrade,50,Ki Strike,Ki Strike
+Stoki,490,,Self Damage Boost,100,,
+Krond,440,,Ability Upgrade,50,Eldritch Strike,
+Krond,460,,Self Damage Boost,200,,
+Krond,480,,Self Damage Boost,100,,
+Celeste,545,,Ability Upgrade,400,Mass Cure Wounds,
+Celeste,575,,Ability Upgrade,700,Mass Cure Wounds,
+Celeste,600,,Ability Upgrade,800,Mass Cure Wounds,
+Calliope,545,,Ability Upgrade,500,Song of Protection,
+Calliope,570,,Ability Upgrade,500,Song of Protection,
+Calliope,595,,Ability Upgrade,500,Song of Protection,
+Calliope,615,,Ability Upgrade,500,Song of Protection,
+Tyril,440,,Ability Upgrade,400,Druidic Healing,Moonbeam
+Tyril,465,,Ability Upgrade,300,Druidic Healing,Moonbeam
+Tyril,495,,Ability Upgrade,200,Druidic Healing,Moonbeam
+Tyril,525,,Ability Upgrade,600,Druidic Healing,Moonbeam
+Gromma,25,Hardened Shell,Grants Damage Reduction,25,,
+Gromma,90,Grandmotherly Love,Ability Unlock,47,,
+Gromma,255,,Ultimate Unlock,59,,
+Gromma,130,Circle of the Mountain,Specialisation Choice,48,,
+Gromma,130,Circle of the Arctic,Specialisation Choice,49,,
+Gromma,130,Circle of the Swamp,Specialisation Choice,50,,
+Gromma,200,Spiked Shell,Grants Thorns,25,,Circle of the Mountain
+Gromma,200,Freezing Breeze,Ability Unlock,52,,Circle of the Arctic
+Gromma,200,Acid Splash,Ability Unlock,53,,Circle of the Swamp
+Gromma,15,,Self Damage Boost,200,,
+Gromma,45,,Self Damage Boost,300,,
+Gromma,70,,Self Damage Boost,200,,
+Gromma,100,,Self Damage Boost,300,,
+Gromma,115,,Self Damage Boost,400,,
+Gromma,145,,Self Damage Boost,400,,Circle of the Mountain
+Gromma,145,,Self Damage Boost,400,,Circle of the Arctic
+Gromma,145,,Self Damage Boost,600,,Circle of the Swamp
+Gromma,165,,Self Damage Boost,300,,
+Gromma,175,,Ability Upgrade,100,Grandmotherly Love,Circle of the Mountain
+Gromma,175,,Ability Upgrade,200,Grandmotherly Love,Circle of the Arctic
+Gromma,175,,Ability Upgrade,100,Grandmotherly Love,Circle of the Swamp
+Gromma,190,,Self Damage Boost,400,,
+Gromma,210,,Self Damage Boost,300,,
+Gromma,235,,Self Damage Boost,200,,
+Gromma,270,,Self Damage Boost,200,,Circle of the Mountain
+Gromma,270,,Self Damage Boost,200,,Circle of the Arctic
+Gromma,270,,Self Damage Boost,300,,Circle of the Swamp
+Gromma,250,,Self Damage Boost,200,,
+Gromma,285,,Ability Upgrade,100,Spiked Shell,Circle of the Mountain
+Gromma,285,,Ability Upgrade,100,Freezing Breeze,Circle of the Arctic
+Gromma,285,,Ability Upgrade,100,Acid Splash,Circle of the Swamp
+Gromma,385,,Self Damage Boost,200,,
+Gromma,295,,Self Damage Boost,300,,
+Gromma,320,,Self Damage Boost,300,,
+Gromma,330,,Ability Upgrade,100,Grandmotherly Love,
+Gromma,340,,Self Damage Boost,100,,
+Gromma,355,,All Damage Boost,100,,Circle of the Mountain
+Gromma,355,,All Damage Boost,200,,Circle of the Arctic
+Gromma,355,,All Damage Boost,100,,Circle of the Swamp
+Gromma,365,,Self Damage Boost,400,,Circle of the Mountain
+Gromma,365,,Self Damage Boost,400,,Circle of the Arctic
+Gromma,365,,Self Damage Boost,500,,Circle of the Swamp
+Gromma,400,,Ability Upgrade,100,Spiked Shell,Circle of the Mountain
+Gromma,400,,Ability Upgrade,100,Freezing Breeze,Circle of the Arctic
+Gromma,400,,Ability Upgrade,100,Acid Splash,Circle of the Swamp
+Gromma,410,,Self Damage Boost,200,,
+Gromma,440,,Self Damage Boost,300,,
+Dhadius,280,,Ultimate Unlock,61,,
+Dhadius,70,Skill Empowerment,Ability Unlock,60,,
+Dhadius,140,Practice Makes Perfect,Ability Unlock,61,,
+Dhadius,210,Empowered Orbs,Specialisation Choice,62,,
+Dhadius,210,Empowered Empowerment,Specialisation Choice,200,Skill Empowerment,
+Dhadius,105,,Ability Upgrade,100,Skill Empowerment,
+Dhadius,30,,All Damage Boost,100,,
+Dhadius,20,,Self Damage Boost,200,,
+Dhadius,55,,Self Damage Boost,100,,
+Dhadius,90,,All Damage Boost,100,,
+Dhadius,110,,Self Damage Boost,200,,
+Dhadius,130,,Self Damage Boost,100,,
+Dhadius,150,,Ability Upgrade,100,Skill Empowerment,
+Dhadius,160,,Self Damage Boost,300,,
+Dhadius,180,,Self Damage Boost,200,,
+Dhadius,200,,All Damage Boost,200,,
+Dhadius,75,,Self Damage Boost,100,,
+Dhadius,220,,Self Damage Boost,300,,
+Dhadius,235,,Self Damage Boost,200,,
+Dhadius,250,,Ability Upgrade,100,Skill Empowerment,
+Dhadius,260,,Self Damage Boost,200,,
+Dhadius,290,,Self Damage Boost,300,,
+Dhadius,315,,Self Damage Boost,200,,
+Dhadius,335,,Self Damage Boost,100,,Empowered Orbs
+Dhadius,360,,Self Damage Boost,200,,
+Dhadius,390,,Self Damage Boost,300,,
+Dhadius,425,,Self Damage Boost,300,,
+Dhadius,445,,Self Damage Boost,100,,
+Dhadius,480,,Self Damage Boost,200,,
+Dhadius,505,,Self Damage Boost,200,,
+Dhadius,300,,All Damage Boost,200,,
+Dhadius,405,,All Damage Boost,200,,
+Dhadius,350,,Ability Upgrade,100,Skill Empowerment,
+Dhadius,435,,Ability Upgrade,200,Skill Empowerment,
+Dhadius,500,,Ability Upgrade,100,Skill Empowerment,
+Dhadius,135,,All Damage Boost,100,,
+Drizzt,25,Icingdeath,Ability Unlock,64,,
+Drizzt,50,Twinkle,Ability Unlock,65,,
+Drizzt,75,Companions of the Hall,Ability Unlock,66,,
+Drizzt,100,Whirl of Steel,Specialisation Choice,67,,
+Drizzt,100,Drow Stalker,Specialisation Choice,68,,
+Drizzt,80,,Ability Upgrade,100,Icingdeath,
+Drizzt,110,,Ability Upgrade,100,Companions of the Hall,
+Drizzt,60,,Ultimate Unlock,66,,
+Barrowin,40,Blessed Hammer,Ability Unlock,69,,
+Barrowin,20,Healing Word,Ability Unlock,70,,
+Barrowin,50,Shield of Faith,Ability Unlock,71,,
+Barrowin,80,Greater Blessing,Specialisation Choice,200,Blessed Hammer,
+Barrowin,80,Booming Voice,Specialisation Choice,100,Healing Word,
+Barrowin,110,,Ability Upgrade,100,Blessed Hammer,
+Barrowin,70,,Ability Upgrade,600,Healing Word,
+Barrowin,120,,Ultimate Unlock,68,,
+Drizzt,15,,Self Damage Boost,200,,
+Drizzt,40,,Self Damage Boost,100,,
+Drizzt,55,,Self Damage Boost,200,,
+Drizzt,70,,Self Damage Boost,100,,
+Drizzt,85,,Self Damage Boost,100,,
+Drizzt,105,,Self Damage Boost,100,,
+Drizzt,115,,Ability Upgrade,100,Icingdeath,
+Drizzt,125,,Self Damage Boost,100,,
+Drizzt,135,,Ability Upgrade,100,Companions of the Hall,
+Drizzt,145,,Self Damage Boost,100,,
+Drizzt,150,,All Damage Boost,100,,
+Drizzt,165,,Self Damage Boost,200,,
+Drizzt,175,,Ability Upgrade,100,Icingdeath,
+Drizzt,190,,Self Damage Boost,200,,
+Drizzt,200,,Ability Upgrade,100,Companions of the Hall,
+Barrowin,55,,Self Damage Boost,100,,
+Barrowin,95,,Self Damage Boost,100,,
+Barrowin,125,,Self Damage Boost,200,,
+Barrowin,160,,Self Damage Boost,200,,
+Barrowin,195,,Self Damage Boost,200,,
+Barrowin,235,,Self Damage Boost,200,,
+Barrowin,250,,Self Damage Boost,100,,
+Barrowin,285,,Self Damage Boost,100,,
+Barrowin,310,,Self Damage Boost,200,,
+Barrowin,45,,Ability Upgrade,400,Healing Word,
+Barrowin,90,,Ability Upgrade,300,Healing Word,
+Barrowin,115,,Ability Upgrade,500,Healing Word,
+Barrowin,140,,Ability Upgrade,500,Healing Word,
+Barrowin,165,,Ability Upgrade,600,Healing Word,
+Barrowin,190,,Ability Upgrade,700,Healing Word,
+Barrowin,210,,Ability Upgrade,400,Healing Word,
+Barrowin,230,,Ability Upgrade,400,Healing Word,
+Barrowin,255,,Ability Upgrade,700,Healing Word,
+Barrowin,275,,Ability Upgrade,600,Healing Word,
+Barrowin,300,,Ability Upgrade,600,Healing Word,
+Barrowin,320,,Ability Upgrade,400,Healing Word,
+Barrowin,65,,All Damage Boost,100,,
+Barrowin,135,,All Damage Boost,100,,
+Barrowin,225,,All Damage Boost,100,,
+Barrowin,305,,All Damage Boost,100,,
+Drizzt,210,,Self Damage Boost,200,,
+Barrowin,155,,Ability Upgrade,100,Blessed Hammer,
+Barrowin,200,,Ability Upgrade,100,Blessed Hammer,
+Barrowin,260,,Ability Upgrade,100,Blessed Hammer,
+Barrowin,325,,Ability Upgrade,100,Blessed Hammer,
+Regis,50,Ruby Encouragement (Ahead),Specialisation Choice,75,,
+Regis,50,Ruby Encouragement (Behind),Specialisation Choice,76,,
+Regis,250,Ruby Weakness (Ranged),Specialisation Choice,77,,
+Regis,250,Ruby Weakness (Melee),Specialisation Choice,78,,
+Regis,250,Ruby Weakness (Magic),Specialisation Choice,79,,
+Regis,100,,Ultimate Unlock,72,,
+Regis,10,,Self Damage Boost,200,,
+Regis,25,,All Damage Boost,100,,
+Regis,90,,Ability Upgrade,100,,
+Regis,30,,Self Damage Boost,200,,
+Regis,55,,Self Damage Boost,200,,
+Regis,75,,Self Damage Boost,200,,
+Regis,105,,Self Damage Boost,200,,
+Regis,125,,Self Damage Boost,200,,
+Regis,160,,Self Damage Boost,200,,
+Regis,190,,Self Damage Boost,200,,
+Regis,230,,Self Damage Boost,200,,
+Regis,245,,Self Damage Boost,200,,
+Regis,275,,Self Damage Boost,200,,
+Regis,300,,Self Damage Boost,200,,
+Regis,320,,Self Damage Boost,200,,
+Regis,355,,Self Damage Boost,300,,
+Regis,385,,Self Damage Boost,300,,
+Regis,425,,Self Damage Boost,300,,
+Regis,460,,Self Damage Boost,300,,
+Regis,505,,Self Damage Boost,300,,
+Regis,530,,Self Damage Boost,300,,
+Regis,575,,Self Damage Boost,300,,
+Regis,615,,Self Damage Boost,300,,
+Regis,670,,Self Damage Boost,400,,
+Regis,715,,Self Damage Boost,400,,
+Regis,735,,Self Damage Boost,100,,
+Regis,65,,All Damage Boost,100,,
+Regis,175,,All Damage Boost,100,,
+Regis,340,,All Damage Boost,100,,
+Regis,485,,All Damage Boost,100,,
+Regis,590,,All Damage Boost,100,,
+Regis,200,,Ability Upgrade,100,,
+Regis,430,,Ability Upgrade,100,,
+Regis,290,,Ability Upgrade,100,,
+Regis,550,,Ability Upgrade,100,,
+Regis,515,,Ability Upgrade,50,,
+Regis,700,,Ability Upgrade,50,,
+Regis,650,,Ability Upgrade,200,,
+Regis,725,,Ability Upgrade,100,,
+Birdsong,25,Song of Battle,Ability Unlock,83,,
+Birdsong,80,Tempo of Battle,Ability Unlock,84,,
+Birdsong,125,Tempo of Victory,Ability Unlock,86,,
+Birdsong,40,Impressive Bladework,Increase Number of Enemies Targeted,1,,
+Birdsong,100,Theme of Valor,Specialisation Choice,88,,
+Birdsong,100,Theme of Consideration,Specialisation Choice,89,,
+Birdsong,100,Theme of Deception,Specialisation Choice,90,,
+Birdsong,145,,Ultimate Unlock,75,,
+Birdsong,70,,Ability Upgrade,100,Song of Battle,
+Birdsong,15,,Self Damage Boost,100,,
+Birdsong,60,,Self Damage Boost,200,,
+Birdsong,95,,Self Damage Boost,300,,
+Birdsong,110,,Self Damage Boost,200,,
+Birdsong,135,,Self Damage Boost,200,,
+Birdsong,150,,Self Damage Boost,200,,
+Birdsong,160,,Ability Upgrade,100,Song of Battle,
+Birdsong,185,,Self Damage Boost,300,,
+Birdsong,195,,Increase Number of Enemies Targeted,1,,
+Birdsong,200,,Self Damage Boost,200,,
+Birdsong,230,,Self Damage Boost,200,,
+Birdsong,250,,Self Damage Boost,300,,
+Birdsong,265,,Self Damage Boost,300,,
+Birdsong,240,,Ability Upgrade,100,Song of Battle,
+Bruenor,1050,,Self Damage Boost,200,,
+Bruenor,1095,,Self Damage Boost,100,,
+Bruenor,1140,,Self Damage Boost,100,,
+Bruenor,1150,,All Damage Boost,100,,
+Celeste,635,,Self Damage Boost,200,,
+Celeste,670,,Self Damage Boost,300,,
+Celeste,650,,Ability Upgrade,100,Crusader's Mantle,War Domain
+Celeste,650,,All Damage Boost,100,,Life Domain
+Gromma,490,,Ability Upgrade,100,Spiked Shell,Circle of the Mountain
+Gromma,500,,Self Damage Boost,100,,
+Gromma,475,,Self Damage Boost,200,,
+Regis,765,,Self Damage Boost,100,,
+Regis,795,,Self Damage Boost,100,,
+Regis,835,,Self Damage Boost,200,,
+Regis,820,,Ability Upgrade,100,,
+Nayeli,430,,Self Damage Boost,200,,
+Nayeli,445,,Self Damage Boost,100,,
+Nayeli,450,,Ability Upgrade,100,Aura of Courage,Oath of Vengeance
+Nayeli,410,,All Damage Boost,100,,Oath of Devotion
+Gromma,490,,Ability Upgrade,100,Freezing Breeze,Circle of the Arctic
+Gromma,490,,Ability Upgrade,100,Acid Splash,Circle of the Swamp
+Gromma,460,,All Damage Boost,100,,
+Jarlaxle,630,,Self Damage Boost,100,,
+Jarlaxle,655,,Ability Upgrade,200,Room To Work,Loner
+Jarlaxle,655,,Ability Upgrade,200,Equal Opportunity,Socialite
+Jarlaxle,685,,Self Damage Boost,100,,
+Jarlaxle,670,,Gold Find Boost,10,,
+Stoki,525,,Self Damage Boost,100,,
+Stoki,555,,Self Damage Boost,200,,
+Stoki,540,,Ability Upgrade,50,Ki Strike,Ki Strike
+Stoki,540,,Self Damage Boost,100,,Extra Attacks
+Calliope,665,,Self Damage Boost,100,,
+Calliope,700,,Self Damage Boost,200,,
+Calliope,715,,Ability Upgrade,100,Bardic Inspiration,College of Valor
+Dhadius,530,,Self Damage Boost,200,,
+Dhadius,560,,Self Damage Boost,100,,
+Dhadius,575,,Self Damage Boost,200,,
+Asharra,290,,Self Damage Boost,100,,
+Asharra,305,,Self Damage Boost,100,,
+Asharra,315,,Self Damage Boost,100,,
+Krond,510,,Self Damage Boost,100,,
+Krond,530,,Self Damage Boost,100,,
+Krond,560,,Self Damage Boost,200,,
+Krond,545,,Ability Upgrade,50,Eldritch Strike,
+Minsc,385,,Self Damage Boost,300,,
+Minsc,420,,Self Damage Boost,300,,
+Delina,1210,,Self Damage Boost,100,,
+Delina,1290,,Self Damage Boost,100,,
+Delina,1380,,Self Damage Boost,100,,
+Delina,1440,,Self Damage Boost,100,,
+Hitch,575,,Self Damage Boost,100,,
+Hitch,610,,Self Damage Boost,100,,
+Hitch,645,,Self Damage Boost,100,,
+Hitch,555,,Increase Number of Enemies Targeted,1,,More Daggers
+Makos,100,,Self Damage Boost,200,,
+Makos,110,,Self Damage Boost,300,,
+Makos,105,,Ability Upgrade,100,Dark Luck,Dark Luck
+Makos,105,,Ability Upgrade,100,Dark Blessing,Dark Blessing
+Drizzt,240,,Self Damage Boost,100,,
+Drizzt,250,,Ability Upgrade,100,Companions of the Hall,
+Birdsong,290,,Self Damage Boost,100,,
+Birdsong,325,,Self Damage Boost,300,,
+Tyril,585,,Self Damage Boost,100,,
+Tyril,645,,Self Damage Boost,100,,
+Tyril,695,,Self Damage Boost,100,,
+Tyril,675,,Ability Upgrade,100,Moonbeam,Moonbeam
+Tyril,675,,Self Damage Boost,100,,Wild Shape
+Barrowin,350,,Self Damage Boost,100,,
+Barrowin,380,,Self Damage Boost,100,,
+Barrowin,410,,Self Damage Boost,100,,
+Barrowin,420,,All Damage Boost,100,,
+Jamilah,130,,Self Damage Boost,200,,
+Jamilah,150,,Self Damage Boost,100,,
+Jamilah,140,,Self Damage Boost,100,,Uncanny Speed
+Arkhan,50,,Self Damage Boost,200,,
+Arkhan,40,,Self Damage Boost,200,,
+Zorbu,10,Favored Enemy: Drow,Specialisation Choice,98,,
+Zorbu,10,Favored Enemy: Fiend,Specialisation Choice,99,,
+Zorbu,10,Favored Enemy: Aberration,Specialisation Choice,100,,
+Zorbu,10,Favored Enemy: Giant,Specialisation Choice,101,,
+Zorbu,10,Favored Enemy: Elemental,Specialisation Choice,102,,
+Zorbu,30,Hunter's Pack,Ability Unlock,103,,
+Zorbu,55,,Ultimate Unlock,83,,
+Zorbu,90,Colossus Slayer,Specialisation Choice,104,,
+Zorbu,90,Horde Breaker,Specialisation Choice,105,,
+Zorbu,110,,Self Damage Boost,200,,
+Zorbu,75,,Self Damage Boost,100,,
+Zorbu,50,,Self Damage Boost,200,,
+Zorbu,65,,All Damage Boost,200,,
+Zorbu,20,,Self Damage Boost,200,,
+Zorbu,100,,Ability Upgrade,200,Hunter's Pack,
+Zorbu,175,,Self Damage Boost,300,,
+Zorbu,125,,Self Damage Boost,300,,
+Zorbu,140,,Ability Upgrade,100,Favored Enemy: Drow,Favored Enemy: Drow
+Zorbu,140,,Ability Upgrade,100,Favored Enemy: Fiend,Favored Enemy: Fiend
+Zorbu,140,,Ability Upgrade,100,Favored Enemy: Aberration,Favored Enemy: Aberration
+Zorbu,140,,Ability Upgrade,100,Favored Enemy: Giant,Favored Enemy: Giant
+Zorbu,140,,Ability Upgrade,100,Favored Enemy: Elemental,Favored Enemy: Elemental
+Zorbu,160,,Self Damage Boost,200,,
+Zorbu,170,,Ability Upgrade,200,Hunter's Pack,
+Strix,50,Death Ward,Ability Unlock,111,,
+Strix,125,Haunted,Ability Unlock,112,,
+Strix,25,Poor Hygiene,Ability Unlock,113,,
+Strix,75,Panic!,Specialisation Choice,114,,
+Strix,75,Hide!,Specialisation Choice,115,,
+Strix,55,,All Damage Boost,200,,
+Strix,100,,Ultimate Unlock,88,,
+Strix,10,,Self Damage Boost,100,,
+Strix,40,,Self Damage Boost,100,,
+Strix,70,,Self Damage Boost,100,,
+Strix,90,,Self Damage Boost,100,,
+Strix,115,,Self Damage Boost,100,,
+Strix,145,,Self Damage Boost,100,,
+Strix,190,,Self Damage Boost,100,,
+Strix,210,,Self Damage Boost,200,,
+Strix,245,,Self Damage Boost,100,,
+Strix,270,,Self Damage Boost,100,,
+Strix,295,,Self Damage Boost,200,,
+Strix,330,,Self Damage Boost,100,,
+Strix,365,,Self Damage Boost,100,,
+Strix,130,,Ability Upgrade,200,Poor Hygiene,
+Strix,250,,Ability Upgrade,100,Poor Hygiene,
+Strix,360,,Ability Upgrade,200,Poor Hygiene,
+Strix,170,,All Damage Boost,100,,
+Strix,310,,All Damage Boost,100,,
+Strix,285,,Ability Upgrade,100,Haunted,
+Nrakk,25,Kensei Cleave,Ability Unlock,122,,
+Nrakk,75,Deft Strike,Ability Unlock,123,,
+Nrakk,125,Stunning Strike,Ability Unlock,124,,
+Nrakk,175,Kensei Advantage,Specialisation Choice,125,,
+Nrakk,175,Unerring Accuracy,Specialisation Choice,126,,
+Nrakk,150,,Ultimate Unlock,98,,
+Nrakk,10,,Self Damage Boost,200,,
+Nrakk,40,,Self Damage Boost,200,,
+Nrakk,65,,All Damage Boost,100,,
+Nrakk,85,,Self Damage Boost,200,,
+Nrakk,100,,All Damage Boost,100,,
+Nrakk,110,,Self Damage Boost,200,,
+Nrakk,135,,Self Damage Boost,300,,
+Nrakk,160,,Ability Upgrade,100,Deft Strike,
+Nrakk,165,,Self Damage Boost,300,,
+Nrakk,190,,All Damage Boost,100,,
+Nrakk,210,,Ability Upgrade,100,Deft Strike,
+Nrakk,345,,Self Damage Boost,200,,
+Nrakk,200,,Self Damage Boost,300,,
+Nrakk,225,,Self Damage Boost,300,,
+Nrakk,240,,All Damage Boost,100,,
+Nrakk,250,,Increases Area of Effect Radius,50,,
+Nrakk,265,,Self Damage Boost,200,,
+Nrakk,275,,Increases Stun Time,0.5,,
+Nrakk,295,,Self Damage Boost,200,,
+Nrakk,310,,All Damage Boost,100,,
+Nrakk,325,,Ability Upgrade,100,Deft Strike,
+Nrakk,360,,Self Damage Boost,200,,
+Nrakk,425,,All Damage Boost,200,,
+Nrakk,400,,Self Damage Boost,300,,
+Bruenor,1165,,Self Damage Boost,100,,
+Bruenor,1190,,Self Damage Boost,200,,
+Bruenor,1245,,Self Damage Boost,100,,
+Bruenor,1310,,Self Damage Boost,100,,
+Bruenor,1225,,Ability Upgrade,100,Inspired,Champion
+Bruenor,1225,,Ability Upgrade,100,Rally,Battle Master
+Bruenor,1275,,Ultimate Boost,100,,
+Celeste,700,,Self Damage Boost,100,,
+Celeste,735,,Self Damage Boost,200,,
+Celeste,775,,Self Damage Boost,200,,
+Celeste,785,,All Damage Boost,100,,
+Regis,965,,Self Damage Boost,200,,
+Regis,865,,Self Damage Boost,200,,
+Regis,920,,Self Damage Boost,200,,
+Regis,935,,Ability Upgrade,100,,
+Regis,895,,All Damage Boost,100,,
+Nayeli,515,,Self Damage Boost,100,,
+Nayeli,460,,Self Damage Boost,200,,
+Nayeli,485,,Self Damage Boost,200,,
+Nayeli,500,,Ability Upgrade,100,Aura of Courage,Oath of Vengeance
+Nayeli,500,,All Damage Boost,200,,Oath of Devotion
+Gromma,575,,Self Damage Boost,100,,
+Gromma,515,,Self Damage Boost,100,,
+Gromma,540,,Self Damage Boost,200,,
+Gromma,510,,Ability Upgrade,100,Grandmotherly Love,
+Gromma,560,,All Damage Boost,100,,
+Gromma,580,,Ability Upgrade,100,Spiked Shell,Circle of the Mountain
+Gromma,580,,Ability Upgrade,100,Freezing Breeze,Circle of the Arctic
+Gromma,580,,Ability Upgrade,100,Acid Splash,Circle of the Swamp
+Jarlaxle,800,,Ability Upgrade,100,Room To Work,Loner
+Jarlaxle,700,,Self Damage Boost,100,,
+Jarlaxle,740,,Self Damage Boost,100,,
+Jarlaxle,775,,Self Damage Boost,200,,
+Jarlaxle,760,,Gold Find Boost,10,,
+Stoki,650,,Self Damage Boost,300,,
+Jarlaxle,800,,Ability Upgrade,100,Equal Opportunity,Socialite
+Stoki,605,,Self Damage Boost,200,,
+Stoki,630,,Ability Upgrade,50,Golden Palm,
+Calliope,835,,Self Damage Boost,200,,
+Calliope,730,,Self Damage Boost,100,,
+Calliope,765,,Self Damage Boost,100,,
+Calliope,810,,Self Damage Boost,100,,
+Calliope,780,,Ultimate Boost,100,,
+Dhadius,675,,Self Damage Boost,200,,
+Dhadius,620,,Self Damage Boost,200,,
+Dhadius,650,,Self Damage Boost,200,,
+Dhadius,610,,Ability Upgrade,100,Skill Empowerment,
+Asharra,375,,Self Damage Boost,300,,
+Asharra,330,,Self Damage Boost,100,,
+Asharra,355,,Self Damage Boost,200,,
+Asharra,350,Bond: Half-bloods,Specialisation Choice,137,,
+Asharra,350,Bond: Exotic Races,Specialisation Choice,138,,
+Asharra,350,Bond: Short-folk,Specialisation Choice,139,,
+Krond,665,,Self Damage Boost,200,,
+Krond,585,,Self Damage Boost,100,,
+Krond,630,,Self Damage Boost,200,,
+Krond,610,,Ability Upgrade,50,Eldritch Strike,
+Minsc,500,,Self Damage Boost,300,,
+Minsc,460,,Self Damage Boost,300,,
+Minsc,510,,Ability Upgrade,50,Favored Enemy: Humanoids,Favored Enemy: Humanoids
+Minsc,510,,Ability Upgrade,50,Favored Enemy: Beasts,Favored Enemy: Beasts
+Minsc,510,,Ability Upgrade,50,Favored Enemy: Undead,Favored Enemy: Undead
+Minsc,510,,Ability Upgrade,50,Favored Enemy: Fey,Favored Enemy: Fey
+Minsc,510,,Ability Upgrade,50,Favored Enemy: Monstrosities,Favored Enemy: Monstrosities
+Delina,1775,,Self Damage Boost,200,,
+Delina,1550,,Self Damage Boost,200,,
+Delina,1665,,Self Damage Boost,200,,
+Hitch,780,,Self Damage Boost,100,,
+Hitch,680,,Self Damage Boost,100,,
+Hitch,720,,Self Damage Boost,200,,
+Hitch,750,,All Damage Boost,100,,
+Nrakk,515,,Self Damage Boost,200,,
+Nrakk,455,,Self Damage Boost,100,,
+Nrakk,475,,Self Damage Boost,100,,
+Nrakk,490,,Ability Upgrade,100,Deft Strike,
+Makos,135,,Self Damage Boost,300,,
+Makos,120,,Self Damage Boost,300,,
+Makos,130,,Ultimate Boost,100,,
+Drizzt,320,,Self Damage Boost,200,,
+Drizzt,270,,Self Damage Boost,200,,
+Drizzt,300,,Self Damage Boost,200,,
+Birdsong,400,,Self Damage Boost,200,,
+Birdsong,345,,Self Damage Boost,100,,
+Birdsong,370,,Self Damage Boost,100,,
+Birdsong,390,,Ultimate Boost,100,,
+Tyril,890,,Self Damage Boost,100,,
+Tyril,730,,Self Damage Boost,100,,
+Tyril,790,,Self Damage Boost,100,,
+Tyril,850,,Self Damage Boost,100,,
+Tyril,870,,Ability Upgrade,200,Moonbeam,Moonbeam
+Barrowin,535,,Self Damage Boost,100,,
+Barrowin,440,,Self Damage Boost,100,,
+Barrowin,470,,Self Damage Boost,100,,
+Barrowin,505,,Self Damage Boost,100,,
+Barrowin,515,,All Damage Boost,100,,
+Jamilah,200,,Self Damage Boost,100,,
+Jamilah,165,,Self Damage Boost,100,,
+Jamilah,180,,Self Damage Boost,200,,
+Strix,470,,Self Damage Boost,100,,
+Strix,395,,Self Damage Boost,100,,
+Strix,445,,Self Damage Boost,200,,
+Arkhan,70,,Self Damage Boost,300,,
+Arkhan,60,,Self Damage Boost,200,,
+Arkhan,65,,Gold Find Boost,20,,
+Zorbu,240,,Self Damage Boost,300,,
+Zorbu,195,,Self Damage Boost,100,,
+Zorbu,225,,Self Damage Boost,200,,
+Zorbu,230,,Ability Upgrade,200,Hunter's Pack,
+Catti-Brie,10,Powerful Draw,Ability Unlock,140,,
+Catti-Brie,100,Critical Hit,Grants Critical Strike Chance to Attacks,100,,
+Catti-Brie,200,Mark for Death,Ability Unlock,141,,
+Catti-Brie,150,,Ultimate Unlock,100,,
+Catti-Brie,275,Follow-Up,Specialisation Choice,142,,
+Catti-Brie,275,In The Zone,Specialisation Choice,200,Critical Hit,
+Catti-Brie,285,,Increases Critical Strike Chance,25,Critical Hit,
+Catti-Brie,350,,Ability Upgrade,100,Critical Hit,
+Catti-Brie,400,,Ability Upgrade,100,Mark for Death,
+Catti-Brie,500,,Ability Upgrade,50,Follow-Up,Follow-Up
+Catti-Brie,800,,Self Damage Boost,100,,
+Catti-Brie,300,,Self Damage Boost,100,,
+Catti-Brie,500,,Increases Critical Strike Chance,25,Critical Hit,In The Zone
+Catti-Brie,35,,Self Damage Boost,100,,
+Catti-Brie,75,,Self Damage Boost,100,,
+Catti-Brie,120,,Self Damage Boost,100,,
+Catti-Brie,140,,All Damage Boost,100,,
+Catti-Brie,165,,Self Damage Boost,200,,
+Catti-Brie,185,,Self Damage Boost,100,,
+Catti-Brie,225,,Self Damage Boost,200,,
+Catti-Brie,255,,Self Damage Boost,200,,
+Catti-Brie,330,,Self Damage Boost,100,,
+Catti-Brie,375,,Self Damage Boost,100,,
+Catti-Brie,405,,Self Damage Boost,100,,
+Catti-Brie,445,,Self Damage Boost,100,,
+Catti-Brie,470,,Self Damage Boost,100,,
+Catti-Brie,490,,All Damage Boost,100,,
+Catti-Brie,600,,Ability Upgrade,50,Mark for Death,
+Catti-Brie,775,,Ability Upgrade,50,Follow-Up,Follow-Up
+Catti-Brie,775,,Increases Critical Strike Chance,25,Critical Hit,In The Zone
+Catti-Brie,520,,Self Damage Boost,100,,
+Catti-Brie,545,,Self Damage Boost,200,,
+Catti-Brie,585,,Self Damage Boost,200,,
+Catti-Brie,630,,Self Damage Boost,200,,
+Catti-Brie,685,,Self Damage Boost,200,,
+Catti-Brie,720,,Self Damage Boost,100,,
+Catti-Brie,755,,Self Damage Boost,100,,
+Catti-Brie,945,,Self Damage Boost,100,,
+Catti-Brie,840,,Self Damage Boost,100,,
+Catti-Brie,890,,Self Damage Boost,100,,
+Catti-Brie,920,,Ability Upgrade,100,Mark for Death,
+Catti-Brie,870,,Ultimate Boost,100,,
