@@ -12,4 +12,4 @@ Soon to be growing compilation of python scripting to scrape the `cached_definit
         * Loot drop rates
         * other things I can't think of at 2:20am
 	* Reformat above data into human readable (PDF?) file
-		* Current rough layout plan: ![PDF Layout V1](PJP2810.github.com/IdleChampionsMiner/img/PDFLayoutV1.jpg)
+		* Current rough layout plan: ![PDF Layout V1](/img/PDFLayoutV1.jpg)
