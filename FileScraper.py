@@ -150,24 +150,24 @@ def parseHeroes(fullHeroes = None):
         heroINT = heroCharSheet['ability_scores']['int']
         heroWIS = heroCharSheet['ability_scores']['wis']
         heroCHA = heroCharSheet['ability_scores']['cha']
-        heroAge = heroCharSheet['age']
-        heroAlignment = heroCharSheet['alignment']
-        heroClass = heroCharSheet['class']
-        heroRace = heroCharSheet['race']
-        heroBackstory = heroCharSheet['backstory']
-        heroPortraitID = x['portrait_graphic_id']
-        heroSeat = x['seat_id']
         
-        #print(heroCharSheet['ability_scores'])
         
-        parsedHeroes.append({"Name" : x['name'], "ID" : x['id']})
+        parsedHeroes.append({"Name" : x['name'], "ID" : x['id'],
+                             "Class" : heroCharSheet['class'], "Race" : heroCharSheet['race'],
+                             "STR" : heroSTR, "DEX" : heroDEX, "CON" : heroCON,
+                             "INT" : heroINT, "WIS" : heroWIS, "CHA" : heroCHA,
+                             "Age" : heroCharSheet['age'], "Alignment" : heroCharSheet['alignment'],
+                             "Seat" : x['seat_id'], "Backstory" : heroCharSheet['backstory']})
         
         heroesDict[x['id']] = x['name']
         
     # Output parsed Upgrades to CSV
-    pd.DataFrame(parsedHeroes).to_csv('ParsedHeroes.csv', index=False, columns=["Name",
-                                                                                    "ID"])
-        
+    pd.DataFrame(parsedHeroes).to_csv('ParsedHeroes.csv', index=False, columns=["Name", "ID", "Class", "Race", 
+                                                                                "STR", "DEX", "CON",
+                                                                                "INT", "WIS", "CHA",
+                                                                                "Age", "Alignment",
+                                                                                "Seat", "Backstory"])
+    
     return heroesDict
 
 
