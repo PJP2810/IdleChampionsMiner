@@ -1,0 +1,48 @@
+details,graphic_id,id,name
+"{'short_name': 'Silver', 'inventory_graphic_id': 746, 'num_items': 3, 'cost': {'soft_currency': 50}}",759,1,Silver Chest
+"{'inventory_graphic_id': 747, 'short_name': 'Gold', 'num_items': 5, 'gold_is_quantum': True, 'cost': {'soft_currency': 500}}",758,2,Gold Chest
+"{'short_name': 'Silver Stoki', 'inventory_graphic_id': 1168, 'num_items': 3}",1160,3,Silver Stoki Chest
+"{'inventory_graphic_id': 1167, 'short_name': 'Gold Stoki', 'num_items': 5, 'gold_is_quantum': True, 'cost': {'event_id': 1, 'event_currency': 10000}}",1159,4,Gold Stoki Chest
+"{'short_name': 'Silver Krond', 'inventory_graphic_id': 1398, 'num_items': 3}",1395,5,Silver Krond Chest
+"{'inventory_graphic_id': 1397, 'short_name': 'Gold Krond', 'num_items': 5, 'gold_is_quantum': True, 'cost': {'event_id': 2, 'event_currency': 10000}}",1394,6,Gold Krond Chest
+"{'short_name': 'Silver Gromma', 'inventory_graphic_id': 1466, 'num_items': 3}",1497,7,Silver Gromma Chest
+"{'inventory_graphic_id': 1465, 'short_name': 'Gold Gromma', 'num_items': 5, 'gold_is_quantum': True, 'cost': {'event_id': 3, 'event_currency': 10000}}",1496,8,Gold Gromma Chest
+"{'short_name': 'Silver Dhadius', 'inventory_graphic_id': 1660, 'num_items': 3}",1680,9,Silver Dhadius Chest
+"{'inventory_graphic_id': 1659, 'short_name': 'Gold Dhadius', 'num_items': 5, 'gold_is_quantum': True, 'cost': {'event_id': 4, 'event_currency': 10000}}",1679,10,Gold Dhadius Chest
+"{'short_name': 'Silver Barrowin', 'inventory_graphic_id': 1930, 'num_items': 3}",1933,11,Silver Barrowin Chest
+"{'inventory_graphic_id': 1929, 'short_name': 'Gold Barrowin', 'num_items': 5, 'gold_is_quantum': True, 'cost': {'event_id': 5, 'event_currency': 10000}}",1932,12,Gold Barrowin Chest
+"{'short_name': 'Gold Snowy', 'inventory_graphic_id': 1983, 'gold_is_quantum': True, 'num_items': 5}",1982,13,Gold Snowy Chest
+"{'short_name': 'Gold Chultan', 'inventory_graphic_id': 2065, 'gold_is_quantum': True, 'num_items': 5}",2066,14,Gold Chultan Chest
+"{'short_name': 'Gold Wayside', 'inventory_graphic_id': 2072, 'gold_is_quantum': True, 'num_items': 5}",2073,15,Gold Wayside Chest
+"{'short_name': 'Silver Regis', 'inventory_graphic_id': 2014, 'num_items': 3}",2061,16,Silver Regis Chest
+"{'inventory_graphic_id': 2013, 'short_name': 'Gold Regis', 'num_items': 5, 'gold_is_quantum': True, 'cost': {'event_id': 9, 'event_currency': 10000}}",2060,17,Gold Regis Chest
+"{'short_name': 'Silver Birdsong', 'inventory_graphic_id': 2103, 'num_items': 3}",2083,18,Silver Birdsong Chest
+"{'inventory_graphic_id': 2102, 'short_name': 'Gold Birdsong', 'num_items': 5, 'gold_is_quantum': True, 'cost': {'event_id': 10, 'event_currency': 10000}}",2082,19,Gold Birdsong Chest
+"{'short_name': 'Gold Neutral', 'inventory_graphic_id': 2389, 'gold_is_quantum': True, 'num_items': 5}",2392,20,Gold Neutral Chest
+"{'short_name': 'Silver Zorbu', 'inventory_graphic_id': 2412, 'num_items': 3}",2437,21,Silver Zorbu Chest
+"{'inventory_graphic_id': 2411, 'short_name': 'Gold Zorbu', 'num_items': 5, 'gold_is_quantum': True, 'cost': {'event_id': 12, 'event_currency': 10000}}",2436,22,Gold Zorbu Chest
+"{'short_name': 'Gold Evil', 'inventory_graphic_id': 2476, 'gold_is_quantum': True, 'num_items': 5}",2477,23,Gold Evil Chest
+"{'short_name': 'Gold Chaos', 'inventory_graphic_id': 2486, 'gold_is_quantum': True, 'num_items': 5}",2483,24,Gold Chaos Chest
+"{'short_name': 'Gold Good', 'inventory_graphic_id': 2630, 'gold_is_quantum': True, 'num_items': 5}",2627,25,Gold Good Chest
+"{'short_name': 'Silver Strix', 'inventory_graphic_id': 2591, 'num_items': 3}",2636,26,Silver Strix Chest
+"{'inventory_graphic_id': 2590, 'short_name': 'Gold Strix', 'num_items': 5, 'gold_is_quantum': True, 'cost': {'event_id': 16, 'event_currency': 10000}}",2635,27,Gold Strix Chest
+"{'short_name': 'Gold Spring', 'inventory_graphic_id': 2727, 'gold_is_quantum': True, 'num_items': 5}",2724,28,Gold Spring Chest
+"{'short_name': 'Silver Nrakk', 'inventory_graphic_id': 2675, 'num_items': 3}",2716,29,Silver Nrakk Chest
+"{'inventory_graphic_id': 2674, 'short_name': 'Gold Nrakk', 'num_items': 5, 'gold_is_quantum': True, 'cost': {'event_id': 18, 'event_currency': 10000}}",2715,30,Gold Nrakk Chest
+"{'short_name': 'Gold Lawful', 'inventory_graphic_id': 2746, 'gold_is_quantum': True, 'num_items': 5}",2749,31,Gold Lawful Chest
+"{'short_name': ""Gold Companions'"", 'inventory_graphic_id': 2795, 'gold_is_quantum': True, 'num_items': 5}",2796,32,Gold Companions' Chest
+"{'short_name': 'Gold Force Grey', 'inventory_graphic_id': 2817, 'gold_is_quantum': True, 'num_items': 5}",2818,33,Gold Force Grey Chest
+"{'short_name': 'Gold Bird-Loving', 'inventory_graphic_id': 2834, 'gold_is_quantum': True, 'num_items': 5}",2831,34,Gold Bird-Loving Chest
+"{'short_name': 'Silver Catti-brie', 'inventory_graphic_id': 2860, 'num_items': 3}",2915,35,Silver Catti-brie Chest
+"{'inventory_graphic_id': 2859, 'short_name': 'Gold Catti-brie', 'num_items': 5, 'gold_is_quantum': True, 'cost': {'event_id': 23, 'event_currency': 10000}}",2914,36,Gold Catti-brie Chest
+"{'card_description': 'Each chest contains 6 random potions or contracts of rare or better quality', 'short_name': 'Gold Supply', 'inventory_graphic_id': 2931, 'gold_is_quantum': True, 'num_items': 6}",2930,37,Gold Supply Chest
+"{'short_name': 'Gold Tough', 'inventory_graphic_id': 2927, 'gold_is_quantum': True, 'num_items': 5}",2926,38,Gold Tough Chest
+"{'short_name': 'Gold Magic', 'inventory_graphic_id': 3016, 'gold_is_quantum': True, 'num_items': 5}",3015,39,Gold Magic Chest
+"{'short_name': 'Silver Evelyn', 'inventory_graphic_id': 3058, 'num_items': 3}",3084,40,Silver Evelyn Chest
+"{'inventory_graphic_id': 3057, 'short_name': 'Gold Evelyn', 'num_items': 5, 'gold_is_quantum': True, 'cost': {'event_id': 26, 'event_currency': 10000}}",3083,41,Gold Evelyn Chest
+"{'short_name': 'Gold Warrior', 'inventory_graphic_id': 3088, 'gold_is_quantum': True, 'num_items': 5}",3091,42,Gold Warrior Chest
+"{'short_name': 'Gold Stuffed', 'inventory_graphic_id': 3097, 'gold_is_quantum': True, 'num_items': 5}",3098,43,Gold Stuffed Chest
+"{'short_name': 'Gold Googly-Eyed', 'inventory_graphic_id': 3153, 'gold_is_quantum': True, 'num_items': 5}",3154,44,Gold Googly-Eyed Chest
+"{'short_name': 'Silver Binwin', 'inventory_graphic_id': 3219, 'num_items': 3}",3193,45,Silver Binwin Chest
+"{'inventory_graphic_id': 3218, 'short_name': 'Gold Binwin', 'num_items': 5, 'gold_is_quantum': True, 'cost': {'event_id': 30, 'event_currency': 10000}}",3192,46,Gold Binwin Chest
+"{'short_name': 'Gold Gentlemen', 'inventory_graphic_id': 3248, 'gold_is_quantum': True, 'num_items': 5}",3249,47,Gold Gentlemen Chest

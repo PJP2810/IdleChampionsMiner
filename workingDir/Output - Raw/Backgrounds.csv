@@ -1,0 +1,240 @@
+distractions,far_graphic_id,fore_graphic_id,id,mid_graphic_id,near_graphic_id,properties
+"[{'x': 924, 'y': 247, 'distraction_id': 2}, {'x': 189, 'y': 232, 'distraction_id': 2}, {'distraction_id': 5}, {'distraction_id': 6}]",23,0,1,24,617,"{'far_night_graphic_id': 6882, 'area_tags': ['outdoors']}"
+"[{'x': 924, 'y': 247, 'distraction_id': 2}, {'distraction_id': 5}, {'distraction_id': 6}]",23,0,2,24,25,{'area_tags': ['outdoors']}
+"[{'distraction_id': 5}, {'distraction_id': 6}, {'x': 1581, 'y': 277, 'distraction_id': 2}, {'x': 580, 'y': 301, 'distraction_id': 2}, {'x': 76, 'y': 257, 'distraction_id': 2}]",209,0,3,210,619,{'area_tags': ['outdoors']}
+"[{'x': 1208, 'y': 279, 'distraction_id': 8}, {'x': 1672, 'y': 331, 'distraction_id': 8}, {'x': 241, 'y': 315, 'distraction_id': 8}, {'x': 597, 'y': 265, 'distraction_id': 2}, {'x': 1555, 'y': 249, 'distraction_id': 2}, {'distraction_id': 5}, {'distraction_id': 6}]",458,904,4,207,899,{'area_tags': ['outdoors']}
+"[{'distraction_id': 5}, {'distraction_id': 6}, {'x': 603, 'y': 307, 'distraction_id': 8}, {'x': 1104, 'y': 277, 'distraction_id': 8}, {'x': 1867, 'y': 300, 'distraction_id': 2}, {'x': 1172, 'y': 289, 'distraction_id': 2}, {'x': 300, 'y': 304, 'distraction_id': 2}]",440,903,5,442,899,{'area_tags': ['outdoors']}
+"[{'distraction_id': 5}, {'distraction_id': 6}, {'x': 496, 'y': 296, 'distraction_id': 8}, {'x': 1348, 'y': 299, 'distraction_id': 8}, {'x': 177, 'y': 308, 'distraction_id': 8}, {'x': 1764, 'y': 265, 'distraction_id': 8}]",902,0,6,442,899,{'area_tags': ['outdoors']}
+"[{'distraction_id': 5}, {'distraction_id': 6}, {'x': 201, 'y': 316, 'distraction_id': 2}, {'x': 576, 'y': 344, 'distraction_id': 2}, {'x': 1637, 'y': 336, 'distraction_id': 2}, {'x': 1020, 'y': 263, 'distraction_id': 2}]",49,0,7,50,51,{'area_tags': ['outdoors']}
+"[{'x': 983, 'y': 301, 'distraction_id': 2}, {'x': 1709, 'y': 337, 'distraction_id': 8}, {'x': 589, 'y': 319, 'distraction_id': 2}, {'distraction_id': 5}, {'distraction_id': 6}]",902,0,8,621,620,"{'no_graphic_yet': 'sadface', 'area_tags': ['outdoors']}"
+"[{'distraction_id': 5}, {'distraction_id': 6}]",778,0,9,777,776,"{'is_fixed': True, 'spawn_area_end': 0.9, 'spawn_area_start': 0.4, 'area_tags': ['outdoors']}"
+"[{'distraction_id': 5}, {'distraction_id': 6}]",205,206,10,207,775,"{'is_fixed': True, 'area_tags': ['outdoors']}"
+[],0,0,11,0,900,{'is_fixed': True}
+"[{'distraction_id': 5}, {'distraction_id': 6}]",765,0,12,764,763,"{'is_fixed': True, 'spawn_area_end': 0.9, 'spawn_area_start': 0.4, 'area_tags': ['outdoors']}"
+[],0,0,13,0,761,{'is_fixed': True}
+[],0,0,14,0,760,{'is_fixed': True}
+[],44,0,15,45,47,{'area_tags': ['outdoors']}
+[],44,0,16,45,48,{'area_tags': ['outdoors']}
+"[{'distraction_id': 5}, {'distraction_id': 6}, {'x': 1861, 'y': 283, 'distraction_id': 8}, {'x': 276, 'y': 313, 'distraction_id': 8}, {'x': 776, 'y': 285, 'distraction_id': 2}, {'x': 1257, 'y': 355, 'distraction_id': 2}]",205,206,17,207,779,{'area_tags': ['outdoors']}
+[],39,0,18,42,43,{'area_tags': ['outdoors']}
+[],26,0,19,27,28,{'area_tags': ['outdoors']}
+[],26,0,20,52,53,{'area_tags': ['outdoors']}
+[],26,0,21,54,55,{'area_tags': ['outdoors']}
+[],44,0,22,45,31,{'area_tags': ['outdoors']}
+"[{'x': 737, 'y': 329, 'distraction_id': 8}, {'x': 1189, 'y': 284, 'distraction_id': 8}, {'distraction_id': 5}, {'distraction_id': 6}, {'x': 445, 'y': 297, 'distraction_id': 2}, {'x': 1601, 'y': 220, 'distraction_id': 2}]",205,903,23,207,208,{'area_tags': ['outdoors']}
+"[{'distraction_id': 5}, {'distraction_id': 6}]",209,459,24,210,211,"{'is_fixed': True, 'area_tags': ['outdoors']}"
+"[{'distraction_id': 5}, {'distraction_id': 6}]",440,441,25,442,443,"{'is_fixed': True, 'spawn_area_end': 0.7, 'ground_type': 'dirt', 'area_tags': ['outdoors'], 'spawn_area_start': 0.3}"
+[],440,0,29,442,452,[]
+[],44,441,30,210,443,{'area_tags': ['outdoors']}
+[],0,0,31,0,453,{'is_fixed': True}
+[],0,0,32,0,454,{'is_fixed': True}
+[],0,0,33,0,455,{'is_fixed': False}
+[],205,457,34,207,456,{'is_fixed': True}
+"[{'x': 196, 'y': 347, 'distraction_id': 8}, {'x': 1620, 'y': 272, 'distraction_id': 8}, {'x': 909, 'y': 267, 'distraction_id': 2}, {'x': 1091, 'y': 292, 'distraction_id': 2}, {'distraction_id': 5}, {'distraction_id': 6}]",458,904,35,207,208,{'area_tags': ['outdoors']}
+"[{'distraction_id': 5}, {'distraction_id': 6}]",902,0,36,207,552,"{'is_fixed': True, 'area_tags': ['outdoors']}"
+"[{'x': 515, 'y': 339, 'distraction_id': 8}, {'x': 1456, 'y': 312, 'distraction_id': 8}, {'x': 1109, 'y': 268, 'distraction_id': 8}, {'x': 257, 'y': 311, 'distraction_id': 8}, {'distraction_id': 5}, {'distraction_id': 6}]",205,903,37,207,905,{'area_tags': ['outdoors']}
+[],0,0,38,0,554,{'is_fixed': True}
+[],0,0,39,0,555,{'is_fixed': True}
+[],205,0,40,207,556,[]
+"[{'distraction_id': 5}, {'distraction_id': 6}, {'x': 1653, 'y': 296, 'distraction_id': 2}, {'x': 226, 'y': 313, 'distraction_id': 2}, {'x': 1126, 'y': 262, 'distraction_id': 2}, {'x': 627, 'y': 325, 'distraction_id': 8}]",561,0,41,560,559,{'area_tags': ['outdoors']}
+"[{'distraction_id': 5}, {'distraction_id': 6}]",23,881,42,24,883,"{'is_fixed': True, 'area_tags': ['outdoors']}"
+"[{'distraction_id': 5}, {'distraction_id': 6}]",765,0,43,764,762,"{'is_fixed': True, 'spawn_area_end': 0.9, 'spawn_area_start': 0.4, 'area_tags': ['outdoors']}"
+[],0,0,44,0,28,[]
+"[{'distraction_id': 5}, {'distraction_id': 6}, {'x': 1504, 'y': 256, 'distraction_id': 2}, {'x': 409, 'y': 257, 'distraction_id': 2}, {'x': 913, 'y': 245, 'distraction_id': 2}, {'x': 1725, 'y': 320, 'distraction_id': 8}]",205,0,45,207,208,{'area_tags': ['outdoors']}
+"[{'distraction_id': 6}, {'x': 1205, 'y': 261, 'distraction_id': 2}, {'x': 344, 'y': 293, 'distraction_id': 2}, {'x': 1557, 'y': 204, 'distraction_id': 8}, {'x': 875, 'y': 311, 'distraction_id': 8}, {'x': 721, 'y': 324, 'distraction_id': 8}, {'distraction_id': 5}]",440,0,46,442,899,{'area_tags': ['outdoors']}
+"[{'distraction_id': 5}, {'distraction_id': 6}]",205,903,47,207,950,"{'is_fixed': True, 'area_tags': ['outdoors']}"
+[],0,0,48,0,977,{'is_fixed': True}
+"[{'distraction_id': 5}, {'distraction_id': 6}]",205,903,49,207,779,"{'is_fixed': True, 'area_tags': ['outdoors']}"
+"[{'distraction_id': 5}, {'distraction_id': 6}]",205,903,50,207,979,"{'is_fixed': True, 'area_tags': ['outdoors']}"
+[],0,0,51,0,980,[]
+[],0,0,52,0,981,{'is_fixed': True}
+[],0,0,53,0,982,{'is_fixed': True}
+[],0,0,54,0,983,{'is_fixed': True}
+[],986,0,55,985,984,{'area_tags': ['outdoors']}
+[],0,0,56,0,987,{'is_fixed': True}
+[],0,0,57,0,988,{'is_fixed': True}
+[],0,0,58,0,989,{'is_fixed': True}
+[],0,0,59,0,990,[]
+[],0,0,60,0,1014,[]
+[],0,1016,61,0,1015,"{'is_fixed': True, 'spawn_area_end': 0.7, 'spawn_area_start': 0.3}"
+[],0,0,62,0,991,{'is_fixed': True}
+"[{'distraction_id': 5}, {'distraction_id': 6}]",778,459,63,777,992,"{'is_fixed': True, 'spawn_area_end': 1, 'spawn_area_start': 0.2, 'area_tags': ['outdoors']}"
+"[{'distraction_id': 5}, {'distraction_id': 6}, {'x': 1560, 'y': 357, 'distraction_id': 8}, {'x': 840, 'y': 361, 'distraction_id': 8}, {'x': 1741, 'y': 335, 'distraction_id': 2}, {'x': 384, 'y': 320, 'distraction_id': 2}, {'x': 1165, 'y': 328, 'distraction_id': 2}]",778,459,64,777,993,"{'spawn_area_end': 1, 'spawn_area_start': 0.2, 'area_tags': ['outdoors']}"
+[],0,0,65,0,996,[]
+[],0,0,66,0,996,[]
+[],0,0,67,0,995,[]
+[],0,0,68,0,998,{'is_fixed': True}
+[],0,0,69,0,999,{'is_fixed': True}
+[],0,0,70,0,997,{'is_fixed': True}
+[],0,0,71,0,994,{'is_fixed': True}
+"[{'distraction_id': 5}, {'distraction_id': 6}, {'x': 1097, 'y': 284, 'distraction_id': 8}, {'x': 1531, 'y': 268, 'distraction_id': 8}, {'x': 915, 'y': 247, 'distraction_id': 2}, {'x': 1595, 'y': 217, 'distraction_id': 2}, {'x': 412, 'y': 276, 'distraction_id': 8}, {'x': 228, 'y': 219, 'distraction_id': 2}]",902,0,72,207,208,{'area_tags': ['outdoors']}
+"[{'distraction_id': 5}, {'distraction_id': 6}]",209,459,73,210,1011,"{'is_fixed': True, 'area_tags': ['outdoors']}"
+"[{'x': 797, 'y': 260, 'distraction_id': 2}, {'x': 292, 'y': 285, 'distraction_id': 2}, {'x': 1551, 'y': 277, 'distraction_id': 2}, {'x': 449, 'y': 243, 'distraction_id': 8}, {'x': 1092, 'y': 320, 'distraction_id': 8}, {'distraction_id': 5}, {'distraction_id': 6}]",205,903,74,442,1017,{'area_tags': ['outdoors']}
+"[{'distraction_id': 6}, {'distraction_id': 5}]",205,903,75,207,1125,"{'is_fixed': True, 'area_tags': ['outdoors']}"
+"[{'distraction_id': 5}, {'distraction_id': 6}]",205,903,76,207,1124,"{'is_fixed': True, 'area_tags': ['outdoors']}"
+"[{'x': 1051, 'y': 289, 'distraction_id': 2}, {'x': 395, 'y': 285, 'distraction_id': 2}, {'x': 1699, 'y': 292, 'distraction_id': 2}, {'x': 641, 'y': 311, 'distraction_id': 8}, {'x': 1353, 'y': 312, 'distraction_id': 8}, {'distraction_id': 5}, {'distraction_id': 6}]",622,459,77,777,1123,{'area_tags': ['outdoors']}
+[],0,0,78,0,1122,{'is_fixed': True}
+"[{'x': 1175, 'y': 285, 'distraction_id': 2}, {'x': 1437, 'y': 297, 'distraction_id': 2}, {'x': 1697, 'y': 285, 'distraction_id': 2}, {'x': 600, 'y': 296, 'distraction_id': 2}, {'x': 1044, 'y': 289, 'distraction_id': 2}, {'x': 379, 'y': 279, 'distraction_id': 2}, {'distraction_id': 5}, {'distraction_id': 6}]",622,0,79,621,620,{'area_tags': ['outdoors']}
+"[{'distraction_id': 5}, {'distraction_id': 6}, {'x': 141, 'y': 245, 'distraction_id': 2}, {'x': 1621, 'y': 249, 'distraction_id': 2}, {'x': 1109, 'y': 243, 'distraction_id': 2}, {'x': 631, 'y': 236, 'distraction_id': 8}]",0,459,80,0,1176,{'area_tags': ['outdoors']}
+[],0,0,81,0,0,{'area_tags': ['outdoors']}
+[],0,0,82,0,0,"{'is_fixed': True, 'area_tags': ['outdoors']}"
+"[{'distraction_id': 5}, {'distraction_id': 6}]",205,903,83,442,1179,"{'is_fixed': True, 'area_tags': ['outdoors']}"
+"[{'distraction_id': 5}, {'distraction_id': 6}, {'x': 1517, 'y': 251, 'distraction_id': 2}, {'x': 915, 'y': 251, 'distraction_id': 2}, {'x': 257, 'y': 301, 'distraction_id': 2}, {'x': 869, 'y': 324, 'distraction_id': 8}, {'x': 1723, 'y': 316, 'distraction_id': 8}, {'x': 685, 'y': 305, 'distraction_id': 8}]",205,903,84,442,1177,{'area_tags': ['outdoors']}
+"[{'distraction_id': 5}, {'distraction_id': 6}]",205,903,85,442,1178,"{'is_fixed': True, 'area_tags': ['outdoors']}"
+"[{'distraction_id': 5}, {'distraction_id': 6}]",205,903,86,442,1180,"{'is_fixed': True, 'area_tags': ['outdoors']}"
+[],0,0,87,0,0,"{'is_fixed': True, 'area_tags': ['outdoors']}"
+"[{'distraction_id': 5}, {'distraction_id': 6}]",23,459,88,24,1173,"{'is_fixed': True, 'area_tags': ['outdoors']}"
+"[{'distraction_id': 5}, {'distraction_id': 6}]",23,1175,89,24,1174,"{'is_fixed': True, 'spawn_area_end': 0.8, 'spawn_area_start': 0.3, 'area_tags': ['outdoors']}"
+[],0,0,90,0,1170,[]
+[],0,0,91,0,0,{'is_fixed': True}
+[],0,1172,92,0,1171,{'is_fixed': True}
+[],0,0,93,0,0,{'is_fixed': True}
+[],440,1224,94,207,1223,"{'is_fixed': True, 'spawn_area_end': 0.8, 'spawn_area_start': 0.4, 'area_tags': ['outdoors']}"
+[],0,0,95,0,1227,[]
+[],205,903,96,207,1225,[]
+[],0,0,97,0,1226,[]
+[],1230,0,98,1229,1228,"{'is_fixed': True, 'area_tags': ['outdoors']}"
+[],0,0,99,0,1231,[]
+[],1233,0,100,1234,1232,"{'is_fixed': True, 'area_tags': ['outdoors']}"
+[],0,0,101,0,1369,{'is_fixed': True}
+[],1364,1365,102,1366,1367,"{'foreground_fixed': True, 'area_tags': ['outdoors']}"
+[],1364,1365,103,1366,1362,"{'foreground_fixed': True, 'area_tags': ['outdoors']}"
+[],1364,1360,104,1366,1361,"{'is_fixed': True, 'area_tags': ['outdoors']}"
+[],0,1359,105,0,996,{'is_fixed': True}
+[],205,903,106,442,1363,"{'is_fixed': True, 'area_tags': ['outdoors']}"
+[],0,0,107,0,1368,{'is_fixed': True}
+[],205,1372,108,442,1373,"{'is_fixed': True, 'area_tags': ['outdoors']}"
+[],765,0,109,764,1374,"{'is_fixed': True, 'spawn_area_end': 0.9, 'spawn_area_start': 0.4, 'area_tags': ['outdoors']}"
+[],23,0,110,24,899,{'area_tags': ['outdoors']}
+[],23,0,111,24,208,{'area_tags': ['outdoors']}
+[],23,1372,112,24,1373,"{'is_fixed': True, 'area_tags': ['outdoors']}"
+"[{'distraction_id': 5}, {'distraction_id': 6}]",458,1494,113,207,1495,"{'is_fixed': True, 'spawn_area_end': 0.9, 'spawn_area_start': 0.4, 'area_tags': ['outdoors']}"
+[],0,0,114,0,1490,[]
+[],0,0,115,0,1488,[]
+[],0,1492,116,0,1493,"{'is_fixed': True, 'regions': [{'width': 486, 'height': 580, 'x': 1430, 'y': 295, 'type': 'stairs', 'value': -0.3}], 'spawn_area_start': 0.4, 'spawn_area_end': 1}"
+[],0,0,117,0,1489,[]
+[],0,0,118,0,1491,{'is_fixed': True}
+[],0,0,119,0,1489,{'is_fixed': True}
+[],1564,0,120,1565,1566,{'area_tags': ['outdoors']}
+[],0,0,121,0,1560,{'area_tags': ['outdoors']}
+[],0,0,122,0,1561,{'area_tags': ['outdoors']}
+[],0,0,123,0,1557,{'area_tags': ['outdoors']}
+[],0,0,124,0,1558,[]
+[],0,0,125,0,1562,{'area_tags': ['outdoors']}
+[],0,0,126,0,1556,[]
+[],0,0,127,0,1563,{'area_tags': ['outdoors']}
+[],0,0,128,0,1559,{'area_tags': ['outdoors']}
+[],23,0,129,24,1621,"{'spawn_area_end': 1, 'spawn_area_start': 0.2, 'area_tags': ['outdoors']}"
+[],23,0,130,24,1620,"{'spawn_area_end': 1, 'spawn_area_start': 0.2, 'area_tags': ['outdoors']}"
+[],0,0,131,0,1683,[]
+[],23,0,132,24,1619,"{'spawn_area_end': 1, 'spawn_area_start': 0.2, 'area_tags': ['outdoors']}"
+[],0,0,133,0,1563,"{'is_fixed': True, 'spawn_area_end': 1, 'spawn_area_start': 0.5, 'area_tags': ['outdoors']}"
+[],209,0,134,210,1791,{'area_tags': ['outdoors']}
+[],1794,1795,135,1796,1797,"{'foreground_fixed': True, 'area_tags': ['outdoors']}"
+[],1794,1795,136,1792,1793,"{'is_fixed': True, 'foreground_fixed': True, 'area_tags': ['outdoors']}"
+[],23,0,137,24,1799,{'area_tags': ['outdoors']}
+[],23,0,138,24,1798,"{'is_fixed': True, 'area_tags': ['outdoors']}"
+[],23,0,139,24,1800,"{'is_fixed': True, 'area_tags': ['outdoors']}"
+[],0,0,140,0,1801,{'area_tags': ['outdoors']}
+[],0,0,141,0,1811,{'area_tags': ['outdoors']}
+[],0,0,142,0,1814,{'is_fixed': True}
+[],0,0,143,0,1815,{'is_fixed': True}
+[],0,0,144,0,1806,[]
+[],0,0,145,0,1804,{'is_fixed': True}
+[],0,0,146,0,1810,{'area_tags': ['outdoors']}
+[],209,0,147,1807,1808,{'area_tags': ['outdoors']}
+[],209,1802,148,1807,1803,"{'is_fixed': True, 'spawn_area_end': 1, 'spawn_area_start': 0.2, 'area_tags': ['outdoors']}"
+[],0,0,149,0,1813,{'area_tags': ['outdoors']}
+[],0,0,150,0,1812,"{'is_fixed': True, 'area_tags': ['outdoors']}"
+[],0,0,151,0,1897,"{'is_fixed': True, 'area_tags': ['outdoors']}"
+[],1233,0,152,1234,1816,{'area_tags': ['outdoors']}
+[],0,0,153,0,1809,"{'is_fixed': True, 'area_tags': ['outdoors']}"
+[],0,0,154,0,1817,{'is_fixed': True}
+[],0,0,155,0,1820,[]
+[],0,0,156,0,1819,"{'is_fixed': True, 'foreground_fixed': True}"
+[],0,0,157,0,1823,[]
+[],0,1821,158,0,1822,"{'is_fixed': True, 'foreground_fixed': True}"
+[],0,0,159,0,1825,[]
+[],0,0,160,0,1824,[]
+[],0,0,161,0,1826,{'is_fixed': True}
+[],0,0,162,0,1918,"{'is_fixed': True, 'area_tags': ['outdoors']}"
+[],0,0,163,0,1917,{'is_fixed': True}
+[],0,0,164,0,1919,"{'is_fixed': True, 'area_tags': ['outdoors']}"
+[],0,0,165,0,1916,[]
+[],23,0,166,24,617,"{'is_fixed': True, 'area_tags': ['outdoors']}"
+[],0,0,167,0,996,{'is_fixed': True}
+[],0,0,168,0,990,{'is_fixed': True}
+[],209,0,169,210,1988,{'area_tags': ['outdoors']}
+[],209,0,170,210,1988,"{'is_fixed': True, 'area_tags': ['outdoors']}"
+[],0,0,171,0,2162,"{'is_fixed': True, 'area_tags': ['outdoors']}"
+[],2170,0,172,2171,2172,{'area_tags': ['outdoors']}
+[],2170,0,173,2174,2175,{'area_tags': ['outdoors']}
+[],2170,0,174,2173,2175,"{'is_fixed': True, 'area_tags': ['outdoors']}"
+[],2166,0,175,2167,2168,{'area_tags': ['outdoors']}
+[],2170,0,176,2174,2169,{'area_tags': ['outdoors']}
+[],2166,0,177,2167,2165,{'area_tags': ['outdoors']}
+[],2166,0,178,2171,2176,{'area_tags': ['outdoors']}
+[],2166,0,179,2167,2178,"{'is_fixed': True, 'area_tags': ['outdoors']}"
+[],2166,0,180,2167,2177,{'area_tags': ['outdoors']}
+[],2166,0,181,2167,2179,{'area_tags': ['outdoors']}
+[],2166,0,182,2167,2180,{'area_tags': ['outdoors']}
+[],2166,0,183,2167,2179,"{'is_fixed': True, 'area_tags': ['outdoors']}"
+[],2166,0,184,2167,2243,"{'is_fixed': True, 'area_tags': ['outdoors']}"
+[],0,0,185,0,2244,{'area_tags': ['outdoors']}
+[],0,0,186,0,2245,"{'is_fixed': True, 'regions': [{'width': 1120, 'height': 800, 'x': 800, 'y': 0, 'type': 'stairs', 'value': 0.1}], 'area_tags': ['outdoors'], 'spawn_area_start': 0, 'spawn_area_end': 0.6}"
+[],1230,0,187,1229,2246,{'area_tags': ['outdoors']}
+[],1230,0,188,1229,2247,{'area_tags': ['outdoors']}
+[],0,0,189,0,1227,{'is_fixed': True}
+[],1230,0,190,1229,2247,"{'is_fixed': True, 'area_tags': ['outdoors']}"
+[],1794,1795,191,1796,2322,"{'foreground_fixed': True, 'area_tags': ['outdoors']}"
+[],1794,1795,192,1796,2323,"{'is_fixed': True, 'foreground_fixed': True, 'area_tags': ['outdoors']}"
+[],1794,1795,193,1796,2324,"{'foreground_fixed': True, 'area_tags': ['outdoors']}"
+[],1794,1795,194,2445,2321,"{'is_fixed': True, 'foreground_fixed': True, 'area_tags': ['outdoors']}"
+[],0,0,195,0,2325,[]
+[],0,0,196,0,2332,"{'is_fixed': True, 'area_tags': ['outdoors']}"
+[],0,0,197,0,2331,{'area_tags': ['outdoors']}
+[],0,0,198,0,2326,[]
+[],0,0,199,0,2328,[]
+[],0,0,200,0,2327,[]
+[],0,2329,201,0,2330,"{'is_fixed': True, 'foreground_fixed': True, 'regions': [{'width': 486, 'height': 580, 'x': 1430, 'y': 295, 'type': 'stairs', 'value': -0.3}], 'spawn_area_start': 0.4, 'spawn_area_end': 1}"
+[],0,0,202,0,2334,[]
+[],0,0,203,0,2333,{'is_fixed': True}
+[],0,0,204,0,2335,[]
+[],0,0,205,0,2337,[]
+[],0,0,206,0,2336,{'is_fixed': True}
+[],0,0,207,0,2339,[]
+[],0,0,208,0,2338,{'is_fixed': True}
+[],0,0,209,0,2341,"{'is_fixed': True, 'area_tags': ['outdoors']}"
+[],0,0,210,0,2340,[]
+[],205,0,211,207,552,"{'is_fixed': True, 'area_tags': ['outdoors']}"
+[],0,0,212,0,2446,{'is_fixed': True}
+[],0,0,213,0,2462,{'area_tags': ['outdoors']}
+[],0,0,214,2443,2444,"{'is_fixed': True, 'area_tags': ['outdoors']}"
+[],0,0,215,0,2439,{'is_fixed': True}
+[],1233,0,216,2440,2441,"{'is_fixed': True, 'area_tags': ['outdoors']}"
+[],0,0,217,0,2442,"{'is_fixed': True, 'area_tags': ['outdoors']}"
+[],2170,2536,218,2171,2537,[]
+[],2538,0,219,2539,2540,[]
+[],2538,0,220,2541,2542,[]
+[],2166,0,221,2167,2548,[]
+[],0,0,222,0,2550,[]
+[],0,0,223,0,2551,[]
+[],0,0,224,0,2543,{'is_fixed': True}
+[],2166,0,225,2167,2549,{'is_fixed': True}
+[],1564,0,226,2534,2535,[]
+[],1564,2546,227,2534,2547,[]
+[],1564,2546,228,2544,2545,"{'is_fixed': True, 'foreground_fixed': True}"
+[],778,0,229,777,2617,{'is_fixed': True}
+[],0,0,230,0,2619,[]
+[],0,0,231,0,2618,{'is_fixed': True}
+[],0,0,232,0,2754,[]
+[],0,0,233,0,2753,[]
+[],0,2752,234,0,2754,"{'is_fixed': True, 'foreground_fixed': True, 'spawn_area_start': 0.3, 'spawn_area_end': 1}"
+[],765,0,235,764,2751,[]
+[],0,0,236,0,2750,{'is_fixed': True}
+[],0,0,237,0,2756,[]
+[],0,0,238,0,2755,{'is_fixed': True}
+[],209,2879,239,210,2880,"{'is_fixed': True, 'foreground_fixed': True}"
+[],2882,2883,240,2884,2885,{'foreground_fixed': True}
+[],2882,2883,241,2884,2881,"{'is_fixed': True, 'foreground_fixed': True}"
+[],0,0,242,0,2886,{'is_fixed': True}

@@ -742,6 +742,22 @@
   "rarity": 4
  },
  {
+  "description": "Who's short? Dwarves, halflings and gnomes. Who's tough? See previous answer.",
+  "duration": 1,
+  "effect": "event_buff,24",
+  "graphic_id": 1,
+  "id": 57,
+  "name": "Short 'n Tough Weekend",
+  "odds": 0,
+  "properties": {
+   "apply_offline": true,
+   "for_event_id": 24,
+   "keep_on_reset": true,
+   "show_on_active_buff_display": false
+  },
+  "rarity": 4
+ },
+ {
   "description": "Stop! In the name of the law!",
   "duration": 1,
   "effect": "event_buff,19",
@@ -800,6 +816,38 @@
   "properties": {
    "apply_offline": true,
    "for_event_id": 22,
+   "keep_on_reset": true,
+   "show_on_active_buff_display": false
+  },
+  "rarity": 4
+ },
+ {
+  "description": "It's a magical time to be alive!",
+  "duration": 1,
+  "effect": "event_buff,25",
+  "graphic_id": 1,
+  "id": 58,
+  "name": "Marvelous Magic Weekend",
+  "odds": 0,
+  "properties": {
+   "apply_offline": true,
+   "for_event_id": 25,
+   "keep_on_reset": true,
+   "show_on_active_buff_display": false
+  },
+  "rarity": 4
+ },
+ {
+  "description": "Warrior women, unite!",
+  "duration": 1,
+  "effect": "event_buff,27",
+  "graphic_id": 1,
+  "id": 59,
+  "name": "Women Warriors Weekend",
+  "odds": 0,
+  "properties": {
+   "apply_offline": true,
+   "for_event_id": 27,
    "keep_on_reset": true,
    "show_on_active_buff_display": false
   },

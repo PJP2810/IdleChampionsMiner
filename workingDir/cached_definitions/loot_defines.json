@@ -8176,7 +8176,7 @@
   "slot_id": 2
  },
  {
-  "description": "Fine northern craftsmanship. You won't find it's like to the south.",
+  "description": "Fine northern craftsmanship. You won't find its like to the south.",
   "effects": [
    {
     "effect_string": "global_dps_multiplier_mult,120"
@@ -8424,6 +8424,342 @@
   "hero_id": 25,
   "id": 600,
   "name": "Quiver of Anariel",
+  "rarity": 4,
+  "slot_id": 6
+ },
+ {
+  "description": "I dented it flying into battle against Strahd. It's fine, though!",
+  "effects": [
+   {
+    "effect_string": "hero_dps_multiplier_mult,50"
+   }
+  ],
+  "graphic_id": 2941,
+  "hero_id": 26,
+  "id": 601,
+  "name": "Chipped Battleaxe",
+  "rarity": 1,
+  "slot_id": 1
+ },
+ {
+  "description": "I'm sure it'll sharpen itself! Let's keep fighting!",
+  "effects": [
+   {
+    "effect_string": "hero_dps_multiplier_mult,125"
+   }
+  ],
+  "graphic_id": 2941,
+  "hero_id": 26,
+  "id": 602,
+  "name": "Dulled Battleaxe",
+  "rarity": 2,
+  "slot_id": 1
+ },
+ {
+  "description": "The light itself loves this axe!",
+  "effects": [
+   {
+    "effect_string": "hero_dps_multiplier_mult,200"
+   }
+  ],
+  "graphic_id": 2942,
+  "hero_id": 26,
+  "id": 603,
+  "name": "Shining Battleaxe",
+  "rarity": 3,
+  "slot_id": 1
+ },
+ {
+  "description": "My beloved battleaxe, reforged!",
+  "effects": [
+   {
+    "effect_string": "hero_dps_multiplier_mult,350"
+   }
+  ],
+  "graphic_id": 2943,
+  "hero_id": 26,
+  "id": 604,
+  "name": "Lightfall",
+  "rarity": 4,
+  "slot_id": 1
+ },
+ {
+  "description": "C'mon little guy! Let's go for a run!",
+  "effects": [
+   {
+    "effect_string": "global_dps_multiplier_mult,10"
+   }
+  ],
+  "graphic_id": 2938,
+  "hero_id": 26,
+  "id": 605,
+  "name": "Chubby Mouse",
+  "rarity": 1,
+  "slot_id": 2
+ },
+ {
+  "description": "Wake up little buddy!",
+  "effects": [
+   {
+    "effect_string": "global_dps_multiplier_mult,65"
+   }
+  ],
+  "graphic_id": 2938,
+  "hero_id": 26,
+  "id": 606,
+  "name": "Sleepy Mouse",
+  "rarity": 2,
+  "slot_id": 2
+ },
+ {
+  "description": "What's that? What do you smell?",
+  "effects": [
+   {
+    "effect_string": "global_dps_multiplier_mult,120"
+   }
+  ],
+  "graphic_id": 2939,
+  "hero_id": 26,
+  "id": 607,
+  "name": "Alert Mouse",
+  "rarity": 3,
+  "slot_id": 2
+ },
+ {
+  "description": "Careful, Juniper. I don't trust that Boo.",
+  "effects": [
+   {
+    "effect_string": "global_dps_multiplier_mult,230"
+   }
+  ],
+  "graphic_id": 2940,
+  "hero_id": 26,
+  "id": 608,
+  "name": "Armored Juniper",
+  "rarity": 4,
+  "slot_id": 2
+ },
+ {
+  "description": "I've had this amulet since I was a young noble.",
+  "effects": [
+   {
+    "effect_string": "buff_upgrade,25,1034"
+   }
+  ],
+  "graphic_id": 2935,
+  "hero_id": 26,
+  "id": 609,
+  "name": "Child's Amulet",
+  "rarity": 1,
+  "slot_id": 3
+ },
+ {
+  "description": "Does anyone have a cloth? I need to polish this thing!",
+  "effects": [
+   {
+    "effect_string": "buff_upgrade,87.5,1034"
+   }
+  ],
+  "graphic_id": 2935,
+  "hero_id": 26,
+  "id": 610,
+  "name": "Scuffed Amulet",
+  "rarity": 2,
+  "slot_id": 3
+ },
+ {
+  "description": "The light protects me while I wear this amulet.",
+  "effects": [
+   {
+    "effect_string": "buff_upgrade,150,1034"
+   }
+  ],
+  "graphic_id": 2936,
+  "hero_id": 26,
+  "id": 611,
+  "name": "Shining Symbol",
+  "rarity": 3,
+  "slot_id": 3
+ },
+ {
+  "description": "Strahd will never see us coming. Right guys?!",
+  "effects": [
+   {
+    "effect_string": "buff_upgrade,275,1034"
+   }
+  ],
+  "graphic_id": 2937,
+  "hero_id": 26,
+  "id": 612,
+  "name": "Holy Symbol of Ravenkind",
+  "rarity": 4,
+  "slot_id": 3
+ },
+ {
+  "description": "This just won't do. I'll never protect the party with this!",
+  "effects": [
+   {
+    "effect_string": "buff_upgrade,25,1034"
+   }
+  ],
+  "graphic_id": 2932,
+  "hero_id": 26,
+  "id": 613,
+  "name": "Flimsy Breastplate",
+  "rarity": 1,
+  "slot_id": 4
+ },
+ {
+  "description": "Sometimes you've got to take the hit, but I'm still standing.",
+  "effects": [
+   {
+    "effect_string": "buff_upgrade,87.5,1034"
+   }
+  ],
+  "graphic_id": 2932,
+  "hero_id": 26,
+  "id": 614,
+  "name": "Dented Breastplate",
+  "rarity": 2,
+  "slot_id": 4
+ },
+ {
+  "description": "Lathander appreciates well polished armor.",
+  "effects": [
+   {
+    "effect_string": "buff_upgrade,150,1034"
+   }
+  ],
+  "graphic_id": 2933,
+  "hero_id": 26,
+  "id": 615,
+  "name": "Polished Breastplate",
+  "rarity": 3,
+  "slot_id": 4
+ },
+ {
+  "description": "The light will protect me!",
+  "effects": [
+   {
+    "effect_string": "buff_upgrade,275,1034"
+   }
+  ],
+  "graphic_id": 2934,
+  "hero_id": 26,
+  "id": 616,
+  "name": "Shining Breastplate of Lathander",
+  "rarity": 4,
+  "slot_id": 4
+ },
+ {
+  "description": "I think it's time to go shopping!",
+  "effects": [
+   {
+    "effect_string": "buff_ultimate,25"
+   }
+  ],
+  "graphic_id": 2947,
+  "hero_id": 26,
+  "id": 617,
+  "name": "Moldy Boots",
+  "rarity": 1,
+  "slot_id": 5
+ },
+ {
+  "description": "I feel almost weightless.",
+  "effects": [
+   {
+    "effect_string": "buff_ultimate,87.5"
+   }
+  ],
+  "graphic_id": 2947,
+  "hero_id": 26,
+  "id": 618,
+  "name": "Light Boots",
+  "rarity": 2,
+  "slot_id": 5
+ },
+ {
+  "description": "Once you get used to it, flying isn't half bad.",
+  "effects": [
+   {
+    "effect_string": "buff_ultimate,150"
+   }
+  ],
+  "graphic_id": 2948,
+  "hero_id": 26,
+  "id": 619,
+  "name": "Flying Boots",
+  "rarity": 3,
+  "slot_id": 5
+ },
+ {
+  "description": "Charging into battle for the light!",
+  "effects": [
+   {
+    "effect_string": "buff_ultimate,275"
+   }
+  ],
+  "graphic_id": 2949,
+  "hero_id": 26,
+  "id": 620,
+  "name": "Winged Boots of the Dawn",
+  "rarity": 4,
+  "slot_id": 5
+ },
+ {
+  "description": "Some pretty things that Strix didn't want.",
+  "effects": [
+   {
+    "effect_string": "reduce_ultimate_cooldown,10"
+   }
+  ],
+  "graphic_id": 2944,
+  "hero_id": 26,
+  "id": 621,
+  "name": "Few Pretty Things",
+  "rarity": 1,
+  "slot_id": 6
+ },
+ {
+  "description": "Aren't they pretty?!",
+  "effects": [
+   {
+    "effect_string": "reduce_ultimate_cooldown,19"
+   }
+  ],
+  "graphic_id": 2944,
+  "hero_id": 26,
+  "id": 622,
+  "name": "Several Pretty Things",
+  "rarity": 2,
+  "slot_id": 6
+ },
+ {
+  "description": "I'm not really sure what's in here, but they're pretty!",
+  "effects": [
+   {
+    "effect_string": "reduce_ultimate_cooldown,38"
+   }
+  ],
+  "graphic_id": 2945,
+  "hero_id": 26,
+  "id": 623,
+  "name": "Sack of Pretty Things",
+  "rarity": 3,
+  "slot_id": 6
+ },
+ {
+  "description": "Don't tell Strix. She'll judge me.",
+  "effects": [
+   {
+    "effect_string": "reduce_ultimate_cooldown,95"
+   }
+  ],
+  "graphic_id": 2946,
+  "hero_id": 26,
+  "id": 624,
+  "name": "Hoard of Pretty Things",
   "rarity": 4,
   "slot_id": 6
  }

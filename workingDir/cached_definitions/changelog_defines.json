@@ -1,40 +1,11 @@
 [
  {
-  "content": "Fixes:\r\n- Fixed an issue where the familiar dialog would not stay up\r\n- Fixed an issue where the DLC prices were not showing up on the familiar DLC dialogs\r\n- Fixed an issue where the familiar button would not show up at all\r\n- Fixed an issue where boss areas did not advance with 3 or 4 clicker familiars active",
-  "date": "Tuesday March 27th, 2018 11:15:00AM",
-  "id": 84,
-  "timestamp": 1522174500,
-  "title": "Early Access Update #27.1",
-  "version": "0.2.27.1 (v0.100)"
- },
- {
-  "content": "Fixes:\r\n- Fixed an issue where the new familiar DLC was not awarding the correct number of potions (we have also re-credited all prior purchases so you now have the proper number of potions).",
-  "date": "Tuesday March 27th, 2018 1:15:00PM",
-  "id": 85,
-  "timestamp": 1522181700,
-  "title": "Early Access Update #27.2",
-  "version": "0.2.27.2 (v0.101)"
- },
- {
-  "content": "Features:\r\n- Added the Festival of Fools event, our ninth limited-time campaign event! See the in-game FAQ for more information. The event will run until Tuesday, April 10th at noon PDT\r\n\r\nChanges:\r\n- Added weird apple-style rubber banding to the Champion bar for some reason\r\n- Familiars will no longer cease buying upgrades when the specialization dialog is up\r\n- Familiars will no longer click things that can't be damaged by clicking\r\n\r\nFixes:\r\n- Fixed an issue with Familiars skipping upgrades in certain situations",
-  "date": "Thursday March 29th, 2018 12:30:00PM",
-  "id": 86,
-  "timestamp": 1522351800,
-  "title": "Early Access Update #28",
-  "version": "0.2.28 (v0.102)"
- },
- {
-  "content": "Fixes:\r\n- Fixed an issue where Strix would get stuck after transforming back from her Ultimate.\r\n- Fixed an issue where monsters with segmented heath bars would cause progressive lag.",
-  "date": "Saturday March 31st, 2018 2:00:00PM",
-  "id": 87,
-  "timestamp": 1522530000,
-  "title": "Early Access Update #28.1",
-  "version": "0.2.28.1 (v0.104)"
- },
- {
   "content": "Fixes:\r\n- Minor text fixes\r\n- Ultimates that do a lot of hits (like Celeste's) should now do the correct number of hits to armor-based health monsters, like the Frost Giants\r\n- Made several fixes to Strix's ultimate that should improve stability and remove some animation bugs",
   "date": "Tuesday April 3rd, 2018 3:30:00PM",
   "id": 88,
+  "networks": [
+   11
+  ],
   "timestamp": 1522794600,
   "title": "Early Access Update #28.2",
   "version": "0.2.28.2 (v0.105)"
@@ -43,6 +14,9 @@
   "content": "Features:\r\n- Added a new weekend buff promotion\r\n\r\nFixes:\r\n- Added several races to Jarlaxle's check for unique races (tortles, half-orcs, halflings, and gnomes)\r\n-  Scrolling panels are less broken",
   "date": "Friday April 6th, 2018 4:00:00PM",
   "id": 89,
+  "networks": [
+   11
+  ],
   "timestamp": 1523055600,
   "title": "Early Access Update #28.3",
   "version": "0.2.28.3 (v0.106)"
@@ -51,6 +25,9 @@
   "content": "Fixes:\r\n- Armored hit-based enemies (like the Frost Giant) are no longer clicked by familiars\r\n- Fixed some typos. Left in some others so reporters don't get complacent\r\n- Fixed an issue where Strix's ultimate could sometimes cause Strix to stop attacking",
   "date": "Tuesday April 10th, 2018 3:00:00PM",
   "id": 90,
+  "networks": [
+   11
+  ],
   "timestamp": 1523397600,
   "title": "Early Access Update #28.4",
   "version": "0.2.28.4 (v0.107)"
@@ -59,6 +36,9 @@
   "content": "Features:\r\n- Added the Greengrass event, our tenth limited-time campaign event! See the in-game FAQ for more information. The event will run until Tuesday, April 24th at noon PDT\r\n\r\nChanges:\r\n- Many tweaks and optimizations related to builds for other platforms; please report anything odd that you see\r\n\r\nFixes:\r\n- The Ability popup for Champions will now update changing properties (like Time Remaining) properly\r\n- Fixed a bug where a hero with disabled Abilities (e.g. from a stun attack) would say it had disabled Damage instead\r\n- Fixed a bug where the health bar for hits-based monsters might not update correctly when they received healing\r\n- Fixed a bug where if you did multiple hits to a single monster in quick succession the damage popup could animate improperly",
   "date": "Thursday April 12th, 2018 1:00:00PM",
   "id": 91,
+  "networks": [
+   11
+  ],
   "timestamp": 1523563200,
   "title": "Early Access Update #29",
   "version": "0.2.29 (v0.108)"
@@ -67,6 +47,9 @@
   "content": "Features:\r\n- Added Companion's Weekend promo\r\n\r\nFixes:\r\n- Purchase buffs will no longer say that they expire when you reset your Adventure (since they don't)\r\n- Fixed the Champion level up button not updating when you get enough gold to level them up (if you have UI Caching on)\r\n- Fixed a tutorial issue when you get the Swapping tutorial and your available swap is off the Champion bar\r\n- Fixed an issue with spacing in the name of the Silver Nrakk chest",
   "date": "Friday April 13th, 2018 12:00:00PM",
   "id": 92,
+  "networks": [
+   11
+  ],
   "timestamp": 1523646000,
   "title": "Early Access Update #29.1",
   "version": "0.2.29.1 (v0.110)"
@@ -75,6 +58,9 @@
   "content": "Fixes:\r\n- Weekend Promo buffs will no longer say they expire when you reset your Adventure\r\n- Fixed some description errors on abilities that cause enemies to take extra damage (e.g. Ruby Weakness, Poor Hygiene)\r\n- Fixed a bug where the Running of the Saurs area 50 boss spawning animation could prevent you from changing to different areas\r\n- Fixed an issue where Familiar slots could get stuck after a reset",
   "date": "Friday April 13th, 2018 5:00:00PM",
   "id": 93,
+  "networks": [
+   11
+  ],
   "timestamp": 1523664000,
   "title": "Early Access Update #29.2",
   "version": "0.2.29.2 (v0.111)"
@@ -83,6 +69,9 @@
   "content": "Features:\r\n- Added five new variant adventures:\r\n    - Escort to Waterdeep: Constant Banditry\r\n    - Waterdeep Detours: Easily Distracted\r\n    - Underdeep Cartography: Durable Deep\r\n    - The Templar's Camp: Poor Guidance\r\n- Rescue in the Jungle: Upholding the Law\r\n- Added a panel to the reset screen that shows statistics about the completed adventure\r\n- Monster types are now displayed when hovering over a monster, and hovering also brings their name and health bar to the front\r\n- Added a new hotkey that toggles scientific notation (Y)\r\n- Free Play adventures now show the original adventure name in the quest display\r\n- Selected level-up multiplier is now remembered through reloads\r\n- Autoprogress is now turned on by default when starting a new adventure\r\n- Added a Community Champion achievement for players that \"showcase outstanding community leadership\" (Does not appear or count towards achievement total if not earned)\r\n- If you get a golden item and already have a shiny item in that slot, you will now receive a bonus potion of polish which you can use to make a different item shiny\r\n- Added a power-up bar that displays when bosses or monsters begin to power up\r\n\r\nClarification (no actual change):\r\n- Barrowin's Blessed Hammer skill description changed to specify that it only buffs base attacks\r\n\r\nBalance Changes:\r\n- Added additional upgrades to all Champions, including a new \"Bond\" specialization choice for Asharra at level 350\r\n- Zorbu's Favored Enemy upgrades now start with a 300% bonus damage instead of 100%\r\n\r\nChanges:\r\n- Hero boxes in the bottom bar have additional signifiers to show that they are in the formation\r\n- Nrakk and Strix's ultimate attack tooltips/hovers will no longer show a damage value, as they don't do damage directly\r\n- Updated the \"Welcome Back\" screen\r\n- Upgrades that affect ultimate attacks now use the same icon as upgrades that unlock ultimate attacks \r\n- Spending divine favour warning changed to be more descriptive\r\n- Adjusted the behavior of scroll panes\r\n\r\nFixes:\r\n- Pressing 'Esc' while opening chests no longer closes the chest screen.\r\n- Fixed several typos. You've almost found them all, but several more remain. Keep searching!\r\n- Nrakk's ultimate description should now contain the correct buff amount based on all his ultimate bonuses (from gear, etc.)\r\n- The description for Nrakk's Deft Strike should now show the proper buffed value\r\n- Fixed a case where the shiny effect on cards in the Blacksmith Contract dialog could animate incorrectly\r\n\r\nComing Soon:\r\n- Fixes for offline gold and party DPS calculations with certain Champions",
   "date": "Wednesday April 25th, 2018 12:50:00PM",
   "id": 94,
+  "networks": [
+   11
+  ],
   "timestamp": 1524685800,
   "title": "Early Access Update #30",
   "version": "0.2.30 (v0.112)"
@@ -91,8 +80,55 @@
   "content": "Features:\r\n- Added the Running event, our eleventh limited-time campaign event! See the in-game FAQ for more information. The event will run until Tuesday, May 15th at noon PDT\r\n\r\nBalance Changes:\r\n- Updated the ages of all the Companions of the Hall (Bruenor, Regis, and Drizzt)\r\n\r\nFixes:\r\n- Fixed a bug where Champions could occasionally get revived from Strix with incorrect health\r\n- Fixed a bug where formation saves could load unavailable Champions into the formation\r\n- Fixed some more typos",
   "date": "Thursday May 3rd, 2018 1:30:00PM",
   "id": 96,
+  "networks": [
+   11
+  ],
   "timestamp": 1525379400,
   "title": "Early Access Update #31",
   "version": "0.2.31 (v0.113)"
+ },
+ {
+  "content": "Features:\r\n- Added the Short 'n Tough weekend buff promo. Instead of a Golden Epic loot card, the bonus item for purchases during this promo is 3x Gold Supply Chests. Each Gold Supply Chest drops 6 rare+ potions or contracts.\r\n\r\nFixes:\r\n- Fixed a case where the 2nd health bar of the boss in The Running area 50 wouldn't clear correctly\r\n- Fixed Catti-brie's achievement not saving correctly\r\n- Fixed chunked health sometimes missing the lines between some chunks",
+  "date": "Friday May 4th, 2018 4:00:00PM",
+  "id": 97,
+  "networks": [
+   11
+  ],
+  "timestamp": 1525474800,
+  "title": "Early Access Update #31.1",
+  "version": "0.2.31.1 (v0.114)"
+ },
+ {
+  "content": "Features:\r\n- Added the Marvelous Magic Weekend buff\r\n\r\nChanges:\r\n- Nayeli's Banishing Smite will no longer stun enemies that are transitioning from offscreen (since they can't be targeted for attacks or killed until they reach the play area, it doesn't make sense for them to be stunned as it grants no advantage)\r\n- Changed all occurrences of \"Catti-Brie\" to \"Catti-brie.\" Let us know if you spot any we missed.\r\n\r\nFixes:\r\n- It should no longer be able to bench Catti-brie on the Catti-alone objective and not be able to drag her back from the bench\r\n- Fixed the Satyr Leader getting stuck if she killed your front-most Champion",
+  "date": "Friday May 11th, 2018 1:00:00PM",
+  "id": 98,
+  "networks": [
+   11
+  ],
+  "timestamp": 1526068800,
+  "title": "Early Access Update #31.2",
+  "version": "0.2.31.2 (v0.115)"
+ },
+ {
+  "content": "Features:\r\n- Added two new adventures to the Tomb of Annihilation campaign, each with 1 variant",
+  "date": "Wednesday May 16th, 2018 10:30:00AM",
+  "id": 100,
+  "networks": [
+   11
+  ],
+  "timestamp": 1526491800,
+  "title": "Early Access Update #32",
+  "version": "0.2.32 (v0.116)"
+ },
+ {
+  "content": "Features:\r\n- Added the Warrior Women Weekend promo\r\n\r\nFixes:\r\n- Fixed a case where killing Ras Nsi would not immediately show a chest goober or go to the next area\r\n",
+  "date": "Friday May 18th, 2018 12:00:00PM",
+  "id": 101,
+  "networks": [
+   11
+  ],
+  "timestamp": 1526670000,
+  "title": "Early Access Update #32.1",
+  "version": "0.2.32.1 (v0.117)"
  }
 ]

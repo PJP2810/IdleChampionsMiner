@@ -426,7 +426,7 @@
   ],
   "id": 13,
   "ios_mobile_sku": "com.codename.idlechampions.ios.sp3",
-  "mobile_sku": "com.codename.idlechampions.sp3",
+  "mobile_sku": "com.codename.idlechampions.spc3",
   "name": "Nayeli's Starter Pack",
   "package_deal": 1,
   "properties": {
@@ -553,7 +553,7 @@
   ],
   "id": 15,
   "ios_mobile_sku": "com.codename.idlechampions.ios.fgsp1",
-  "mobile_sku": "com.codename.idlechampions.fgsp1",
+  "mobile_sku": "com.codename.idlechampions.fgspc1",
   "name": "Force Grey - Calliope Pack",
   "package_deal": 1,
   "properties": {
@@ -634,7 +634,7 @@
   ],
   "id": 16,
   "ios_mobile_sku": "com.codename.idlechampions.ios.fgsp2",
-  "mobile_sku": "com.codename.idlechampions.fgsp2",
+  "mobile_sku": "com.codename.idlechampions.fgspc2",
   "name": "Force Grey - Hitch Pack",
   "package_deal": 1,
   "properties": {
@@ -715,7 +715,7 @@
   ],
   "id": 17,
   "ios_mobile_sku": "com.codename.idlechampions.ios.fgsp3",
-  "mobile_sku": "com.codename.idlechampions.fgsp3",
+  "mobile_sku": "com.codename.idlechampions.fgspc3",
   "name": "Force Grey - Tyril Pack",
   "package_deal": 1,
   "properties": {
@@ -796,7 +796,7 @@
   ],
   "id": 18,
   "ios_mobile_sku": "com.codename.idlechampions.ios.fgsp4",
-  "mobile_sku": "com.codename.idlechampions.fgsp4",
+  "mobile_sku": "com.codename.idlechampions.fgspc4",
   "name": "Force Grey - Jamilah Pack",
   "package_deal": 1,
   "properties": {
@@ -877,7 +877,7 @@
   ],
   "id": 19,
   "ios_mobile_sku": "com.codename.idlechampions.ios.fgsp5",
-  "mobile_sku": "com.codename.idlechampions.fgsp5",
+  "mobile_sku": "com.codename.idlechampions.fgspc5",
   "name": "Force Grey - Arkhan Pack",
   "package_deal": 1,
   "properties": {
@@ -1058,7 +1058,7 @@
   ],
   "id": 20,
   "ios_mobile_sku": "com.codename.idlechampions.ios.fgspb",
-  "mobile_sku": "com.codename.idlechampions.fgspb",
+  "mobile_sku": "com.codename.idlechampions.fgspbc",
   "name": "Force Grey Bundle Pack",
   "package_deal": 1,
   "properties": {
@@ -1172,7 +1172,7 @@
   ],
   "id": 22,
   "ios_mobile_sku": "com.codename.idlechampions.ios.sp4",
-  "mobile_sku": "com.codename.idlechampions.sp4",
+  "mobile_sku": "com.codename.idlechampions.spc4",
   "name": "Minsc's Starter Pack",
   "package_deal": 1,
   "properties": {
@@ -1246,7 +1246,7 @@
   ],
   "id": 23,
   "ios_mobile_sku": "com.codename.idlechampions.ios.fp1",
-  "mobile_sku": "com.codename.idlechampions.fp1",
+  "mobile_sku": "com.codename.idlechampions.fpc1",
   "name": "Chwinga Familiar Pack",
   "package_deal": 1,
   "properties": {
@@ -1305,7 +1305,7 @@
   ],
   "id": 24,
   "ios_mobile_sku": "com.codename.idlechampions.ios.fp2",
-  "mobile_sku": "com.codename.idlechampions.fp2",
+  "mobile_sku": "com.codename.idlechampions.fpc2",
   "name": "Gazer Familiar Pack",
   "package_deal": 1,
   "properties": {
@@ -1369,7 +1369,7 @@
   ],
   "id": 25,
   "ios_mobile_sku": "com.codename.idlechampions.ios.fp3",
-  "mobile_sku": "com.codename.idlechampions.fp3",
+  "mobile_sku": "com.codename.idlechampions.fpc3",
   "name": "Pseudodragon Familiar Pack",
   "package_deal": 1,
   "properties": {

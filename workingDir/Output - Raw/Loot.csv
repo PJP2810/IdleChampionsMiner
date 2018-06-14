@@ -1,0 +1,649 @@
+description,effects,graphic_id,hero_id,id,name,rarity,slot_id
+"It isn't much, but it'll get the job done.","[{'effect_string': 'hero_dps_multiplier_mult,50'}]",244,1,1,Chipped Axe,1,1
+So sharp I can skin dinner with it.,"[{'effect_string': 'hero_dps_multiplier_mult,125'}]",244,1,2,Sharpened Axe,2,1
+I've lost count of the number of goblins slaughtered by its razor edge.,"[{'effect_string': 'hero_dps_multiplier_mult,200'}]",245,1,3,Well Used Axe,3,1
+"This axe has seen a thousand battles, and been victorious in every one.","[{'effect_string': 'hero_dps_multiplier_mult,350'}]",246,1,4,Many-notched Axe,4,1
+"They're a bit heavy, but they keep my beard in check.","[{'effect_string': 'global_dps_multiplier_mult,10'}]",247,1,5,Iron Beard Clips,1,2
+"Lighter than your average clips, they let my beard swing furiously when I attack.","[{'effect_string': 'global_dps_multiplier_mult,65'}]",247,1,6,Steel Beard Clips,2,2
+Crafted from a meteorite that fell near Icewind Dale.,"[{'effect_string': 'global_dps_multiplier_mult,120'}]",248,1,7,Dark Iron Beard Clips,3,2
+Ancient family clips found in the depths of the Mithral Hall.,"[{'effect_string': 'global_dps_multiplier_mult,230'}]",249,1,8,Gold Beard Clips of the Clan,4,2
+"It'll hold up your pants, if you don't move around too quickly.","[{'effect_string': 'buff_upgrade,25,2'}]",250,1,9,Frayed Belt,1,3
+"It's seen better days, but it still does the trick.","[{'effect_string': 'buff_upgrade,87.5,2'}]",250,1,10,Faded Leather Belt,2,3
+It's quite slimming!,"[{'effect_string': 'buff_upgrade,150,2'}]",251,1,11,Thick Sturdy Belt,3,3
+An ancient family belt recovered from a Battlehammer heirloom cache.,"[{'effect_string': 'buff_upgrade,275,2'}]",252,1,12,Golden Hide Belt of the Ancestors,4,3
+A simple ring with little magical power.,"[{'effect_string': 'buff_upgrade,25,4'}]",256,1,13,Plain Iron Ring,1,4
+A shiny ring that seems to radiate mild heat on its own.,"[{'effect_string': 'buff_upgrade,87.5,4'}]",256,1,14,Shiny Steel Ring,2,4
+A magical ring crafted from a fallen meteorite.,"[{'effect_string': 'buff_upgrade,150,4'}]",257,1,15,Dark Iron Ring,3,4
+Specially crafted by the craftsmen in Mirabar as a peace offering to Clan Battlehammer.,"[{'effect_string': 'buff_upgrade,275,4'}]",258,1,16,Golden Sigil Ring of Dwarves,4,4
+Looks like someone took a warhammer to this.,"[{'effect_string': 'buff_ultimate,25'}]",259,1,17,Dented Shield,1,5
+"If you can get it up in time, it'll do the job.","[{'effect_string': 'buff_ultimate,87.5'}]",259,1,18,Heavy Shield,2,5
+It's strong enough to stop a blow from a raging giant.,"[{'effect_string': 'buff_ultimate,150'}]",260,1,19,Strong Shield,3,5
+A magical shield with secret and mysterious powers.,"[{'effect_string': 'buff_ultimate,275'}]",261,1,20,Shield of Foaming Ale,4,5
+"To be fair, I think it's supposed to be broken.","[{'effect_string': 'reduce_ultimate_cooldown,2'}]",254,1,21,Broken Helm,1,6
+Someone needs to get some spit and polish on this thing.,"[{'effect_string': 'reduce_ultimate_cooldown,3'}]",254,1,22,Scuffed Helm,2,6
+"Stronger than steel, and far lighter.","[{'effect_string': 'reduce_ultimate_cooldown,6'}]",255,1,23,Mithral Helm,3,6
+This helm has seen Bruenor through a hundred sticky situations.,"[{'effect_string': 'reduce_ultimate_cooldown,15'}]",253,1,24,Gilded Helm of Clan Battlehammer,4,6
+An understated headband with a small blue gem.,"[{'effect_string': 'global_dps_multiplier_mult,10'}]",292,2,25,Iron Headband,1,1
+A scuffed headband with brilliant potential.,"[{'effect_string': 'global_dps_multiplier_mult,65'}]",292,2,26,Silver Headband,2,1
+A complex headband composed of dozens of golden leaves.,"[{'effect_string': 'global_dps_multiplier_mult,120'}]",293,2,27,Gold Headband,3,1
+A golden headband inlaid with a brilliant blue sapphire.,"[{'effect_string': 'global_dps_multiplier_mult,230'}]",294,2,28,Ornate Headband of Faith,4,1
+"They'll keep the dust off my hands, at least.","[{'effect_string': 'global_dps_multiplier_mult,10'}]",289,2,29,Cloth Gauntlets,1,2
+The inside is padded to protect against bumps and bruises.,"[{'effect_string': 'global_dps_multiplier_mult,65'}]",289,2,30,Leather Gauntlets,2,2
+Masterfully crafted to fit my hands precisely.,"[{'effect_string': 'global_dps_multiplier_mult,120'}]",290,2,31,Golden Gauntlets,3,2
+The small inlaid sapphires - tears of Selûne herself - empower myself and my allies.,"[{'effect_string': 'global_dps_multiplier_mult,230'}]",291,2,32,Scale Gauntlets of Selûne,4,2
+A basic belt from a simpler time in my life.,"[{'effect_string': 'buff_upgrade,25,24'}]",283,2,33,Cloth Belt,1,3
+Given to me by a sister cleric on my first day of worship at the temple.,"[{'effect_string': 'buff_upgrade,87.5,24'}]",283,2,34,Soft Belt,2,3
+This belt has saved my life in battle many times.,"[{'effect_string': 'buff_upgrade,150,24'}]",284,2,35,Thick Scalemail Belt,3,3
+The texture of this belt matches exactly the face of the goddess above.,"[{'effect_string': 'buff_upgrade,275,24'}]",285,2,36,Obsidian Scale Belt of the Moon,4,3
+Commonly carried by many of Selûne's acolytes.,"[{'effect_string': 'buff_upgrade,25,26'}]",280,2,37,Iron Amulet,1,4
+A more durable form of a commonly carried amulet.,"[{'effect_string': 'buff_upgrade,87.5,26'}]",280,2,38,Steel Amulet,2,4
+"Often mistaken for gold, this amulet shines nearly as bright.","[{'effect_string': 'buff_upgrade,150,26'}]",281,2,39,Copper Amulet,3,4
+One of the few relics recovered from Shadowmantle's undead horde.,"[{'effect_string': 'buff_upgrade,275,26'}]",282,2,40,Golden Amulet of the Goddess,4,4
+"Comfortable, but not ideal for long journeys such as this one.","[{'effect_string': 'buff_ultimate,25'}]",286,2,41,Cloth Boots,1,5
+"Durable and soft, these boots can last a lifetime if properly cared for.","[{'effect_string': 'buff_ultimate,87.5'}]",286,2,42,Smooth Leather Boots,2,5
+"Not the stealthiest boot, but then stealth was never my style.","[{'effect_string': 'buff_ultimate,150'}]",287,2,43,Chainmail Boots,3,5
+One of Selûne's skilled followers crafted these for me after I saved them.,"[{'effect_string': 'buff_ultimate,275'}]",288,2,44,Well Fitted Boots of Fellowship,4,5
+"Though old, this item still holds a dear place in my heart.","[{'effect_string': 'reduce_ultimate_cooldown,5'}]",295,2,45,Faded Holy Symbol,1,6
+Never underestimate the wrath of an angry goddess.,"[{'effect_string': 'reduce_ultimate_cooldown,9'}]",295,2,46,Understated Holy Symbol,2,6
+A fine tribute to the true goddess of the night sky.,"[{'effect_string': 'reduce_ultimate_cooldown,18'}]",296,2,47,Ornate Holy Symbol,3,6
+Bestowed upon me by the goddess herself in my greatest time of need.,"[{'effect_string': 'reduce_ultimate_cooldown,45'}]",297,2,48,Holy Symbol of Selûne's Grace,4,6
+A faded owl motif. Someday I'll tell you the story of it.,"[{'effect_string': 'global_dps_multiplier_mult,10'}]",376,3,49,Faded Figurine,1,1
+A magical item used to hunt down those who have done wrong.,"[{'effect_string': 'global_dps_multiplier_mult,65'}]",376,3,50,Hunting Figurine,2,1
+A brilliant serpentine owl figurine imbued with magical power.,"[{'effect_string': 'global_dps_multiplier_mult,120'}]",377,3,51,Detailed Owl Figurine,3,1
+A wondrous item that grants me the power to track down those I've sworn vengeance against.,"[{'effect_string': 'global_dps_multiplier_mult,230'}]",378,3,52,Figurine Of Wondrous Power,4,1
+"It's starting to rust, but it can still take a few good blows.","[{'effect_string': 'health_mult,25'}]",370,3,53,Tarnished Breastplate,1,2
+"A sturdy breastplate. Well enough to deliver evenhanded justice in, at least.","[{'effect_string': 'health_mult,87.5'}]",370,3,54,Iron Breastplate,2,2
+"A fine breastplate, crafted using a special steel alloy known only to a few.","[{'effect_string': 'health_mult,150'}]",371,3,55,Ornate Breastplate,3,2
+"It borders on gaudy, but you can't deny its raw power.","[{'effect_string': 'health_mult,275'}]",372,3,56,Breastplate of the Devoted Champion,4,2
+"It restricts my movement, but not enough to hinder the Maimed God's justice.","[{'effect_string': 'buff_upgrade,25,38'}]",373,3,57,Heavy Chainmail Shirt,1,3
+"As fine a shirt as you could expect to find, from a common merchant.","[{'effect_string': 'buff_upgrade,87.5,38'}]",373,3,58,Fine Chainmail Shirt,2,3
+Even dwarven folk can appreciate the need for Tyr's justice.,"[{'effect_string': 'buff_upgrade,150,38'}]",374,3,59,Dwarven Mithral Shirt,3,3
+"Gifted to me by Lord Maldwyn, shortly before... I'd rather not talk about it.","[{'effect_string': 'buff_upgrade,275,38'}]",375,3,60,Finely Crafted Scalemail of Justice,4,3
+Your run of the mill plate gauntlets.,"[{'effect_string': 'buff_upgrade,25,40'}]",379,3,61,Basic Gauntlets,1,4
+"They won't budge in battle, and with a sturdy wrist will deflect all but the strongest attack.","[{'effect_string': 'buff_upgrade,87.5,40'}]",379,3,62,Sturdy Gauntlets,2,4
+A finely crafted gauntlet worn by many Paladins throughout the land.,"[{'effect_string': 'buff_upgrade,150,40'}]",380,3,63,Paladin's Gauntlets,3,4
+Pristine scalemail gauntlets that give my blows a little extra oomph.,"[{'effect_string': 'buff_upgrade,275,40'}]",381,3,64,Gauntlets of Sworn Vengeance,4,4
+The symbol of Tyr strikes fear into evil-doers everywhere.,"[{'effect_string': 'buff_ultimate,25'}]",382,3,65,Simple Holy Symbol,1,5
+This symbol has been meticulously cared for over the years. A great sign of respect.,"[{'effect_string': 'buff_ultimate,87.5'}]",382,3,66,Polished Holy Symbol,2,5
+The Lord of Justice himself blessed this necklace.,"[{'effect_string': 'buff_ultimate,150'}]",383,3,67,Devoted Holy Symbol,3,5
+I've devoted my life to justice for all in Tyr's name.,"[{'effect_string': 'buff_ultimate,275'}]",384,3,68,Extravagant Symbol of Tyr,4,5
+"A trainee's sword, but in the right hands, it can still do damage.","[{'effect_string': 'reduce_ultimate_cooldown,3'}]",385,3,69,Dull Iron Greatsword,1,6
+Crafted by the finest smithy in Daggerford.,"[{'effect_string': 'reduce_ultimate_cooldown,6'}]",385,3,70,Sharp Steel Greatsword,2,6
+"This sword vanquishes all foes, whether or not they come from this plane.","[{'effect_string': 'reduce_ultimate_cooldown,12'}]",386,3,71,Strong Magical Greatsword,3,6
+The Lord of Justice blessed this sword and my mission on his behalf.,"[{'effect_string': 'reduce_ultimate_cooldown,30'}]",387,3,72,Blessed Sword of Tyr,4,6
+"Good enough for the common folk, but I'll soon be upgrading, I assure you.","[{'effect_string': 'hero_dps_multiplier_mult,50'}]",328,4,73,Common Rapier,1,1
+"You can't be very effective with an unbalanced sword, you know!","[{'effect_string': 'hero_dps_multiplier_mult,125'}]",328,4,74,Well Balanced Rapier,2,1
+There's nothing quite so elegant or majestic as a finely crafted rapier.,"[{'effect_string': 'hero_dps_multiplier_mult,200'}]",329,4,75,Majestic Rapier,3,1
+"When you need to put on a show, a rapier will often do the trick.","[{'effect_string': 'hero_dps_multiplier_mult,350'}]",330,4,76,Swashbuckling Rapier of Last Resort,4,1
+"It does the job, but not much more.","[{'effect_string': 'hero_dps_multiplier_mult,50'}]",322,4,77,Effective Eye Patch,1,2
+Now that's a swashbuckling look!,"[{'effect_string': 'hero_dps_multiplier_mult,125'}]",322,4,78,Stylish Eye Patch,2,2
+"I've got a few more tricks up my sleeve. Or over my eye, rather.","[{'effect_string': 'hero_dps_multiplier_mult,200'}]",323,4,79,Enhanced Eye Patch,3,2
+You can't hide from my magical eye... patch.,"[{'effect_string': 'hero_dps_multiplier_mult,350'}]",324,4,80,Knave's Eye Patch,4,2
+It's not a real feather at all! Why would someone do this?,"[{'effect_string': 'buff_upgrade,25,52'}]",325,4,81,Faux Feathered Hat,1,3
+"A decent enough feather, I suppose. In a pinch.","[{'effect_string': 'buff_upgrade,87.5,52'}]",325,4,82,Gull Feathered Hat,2,3
+"It's a pleasure to wear, though not for my enemies.","[{'effect_string': 'buff_upgrade,150,52'}]",326,4,83,Velvet Feathered Hat,3,3
+You don't want to mess with this feather.,"[{'effect_string': 'buff_upgrade,275,52'}]",327,4,84,Magical Diatryma Feathered Hat,4,3
+A quick dip in an enchanted underdark pool aught to brighten this right up.,"[{'effect_string': 'buff_upgrade,25,55'}]",319,4,85,Faded Cloak,1,4
+A useful distraction if you want your foes to see your cloak and not yourself.,"[{'effect_string': 'buff_upgrade,87.5,55'}]",319,4,86,Brightly Colored Cloak,2,4
+"It has some use, but it could be so much more.","[{'effect_string': 'buff_upgrade,150,55'}]",320,4,87,Lesser Piwafwi Cloak,3,4
+"With this cloak, I am all but invisible.","[{'effect_string': 'buff_upgrade,275,55'}]",321,4,88,Many-hued Piwafwi Cloak,4,4
+"It once had magical powers, but now it's just an old piece of metal.","[{'effect_string': 'buff_ultimate,25'}]",331,4,89,Dented Iron Ring,1,5
+Rub it three times and a genie pops out. Aha! Gotcha! So gullible.,"[{'effect_string': 'buff_ultimate,87.5'}]",331,4,90,Scuffed Steel Ring,2,5
+"But what power, you ask? I'll never tell.","[{'effect_string': 'buff_ultimate,150'}]",332,4,91,Ring of Power,3,5
+"If I know where my enemies will be, they're that much easier to hit.","[{'effect_string': 'buff_ultimate,275'}]",333,4,92,Ornate Ring of Foresight,4,5
+"A simple accessory, but quite useful in the right situation.","[{'effect_string': 'reduce_ultimate_cooldown,8'}]",316,4,93,Simple Spurs,1,6
+Remind me sometime to tell you the story of how I came into possession of these.,"[{'effect_string': 'reduce_ultimate_cooldown,15'}]",316,4,94,Dull Steel Spurs,2,6
+"Dirty dwarven metal, sure, but you can't deny the craftsmanship.","[{'effect_string': 'reduce_ultimate_cooldown,30'}]",317,4,95,Shiny Mithral Spurs,3,6
+A stylish addition to any outfit!,"[{'effect_string': 'reduce_ultimate_cooldown,75'}]",318,4,96,Masterful Golden Spurs,4,6
+"It doesn't have to be fancy, but it will be messy.","[{'effect_string': 'global_dps_multiplier_mult,10'}]",271,5,97,Simple Crossbow Bolt,1,1
+You don't want to be on the receiving end of this.,"[{'effect_string': 'global_dps_multiplier_mult,65'}]",271,5,98,Sharpened Crossbow Bolt,2,1
+It nearly doesn't fit in my lute!,"[{'effect_string': 'global_dps_multiplier_mult,120'}]",272,5,99,Broadhead Crossbow Bolt,3,1
+"You really have to jam it in there, but it hurts when it comes out.","[{'effect_string': 'global_dps_multiplier_mult,230'}]",273,5,100,Expertly Fletched Crossbow Bolt,4,1
+"It sounds terrible, so what'll you give me to stop playing?","[{'effect_string': 'global_dps_multiplier_mult,10'}]",277,5,101,Untuned Lute,1,2
+"I've heard better, but it's a good focus for my songs and spells.","[{'effect_string': 'global_dps_multiplier_mult,65'}]",277,5,102,Partially Tuned Lute,2,2
+Sturdy instruments are key to constant paydays.,"[{'effect_string': 'global_dps_multiplier_mult,120'}]",278,5,103,Whitewood Lute,3,2
+"Hey, are you even listening to me? Argh! That's it...!","[{'effect_string': 'global_dps_multiplier_mult,230'}]",279,5,104,Ornate Lute of Ballads,4,2
+"It's a little scratchy, but it keeps me warm.","[{'effect_string': 'buff_upgrade,25,71'}]",268,5,105,Rough Cloak,1,3
+Your average bard's cloak. Good for blending into crowds... of bards.,"[{'effect_string': 'buff_upgrade,87.5,71'}]",268,5,106,Bard's Cloak,2,3
+The only way this thing comes flying off in combat is if I'm feeling especially fabulous.,"[{'effect_string': 'buff_upgrade,150,71'}]",269,5,107,Triple-Clasped Cloak,3,3
+"You wouldn't think a bright red cloak could be stealthy, but here we are.","[{'effect_string': 'buff_upgrade,275,71'}]",270,5,108,Stealthy Performer's Cloak,4,3
+"Comfortable, but not much help in combat.","[{'effect_string': 'buff_upgrade,25,72'}]",265,5,109,Soft Leather Bracers,1,4
+"You could deflect a dull sword with these, if you're quick enough, which I am.","[{'effect_string': 'buff_upgrade,87.5,72'}]",265,5,110,Stiff Hide Bracers,2,4
+Some of the best wrist-based protection a girl can ask for.,"[{'effect_string': 'buff_upgrade,150,72'}]",266,5,111,Studded Leather Bracers,3,4
+"I know what you're thinking: aren't all bracers fingerless? Yeah, well... Shut up.","[{'effect_string': 'buff_upgrade,275,72'}]",267,5,112,Fingerless Bracers of the Foul Mouth,4,4
+"You can't see it, but this thing is barely holding together.","[{'effect_string': 'buff_upgrade,25,72'}]",262,5,113,Patched Bag,1,5
+It's holding knick-knacks from dozens of passed out pirates. They won't miss 'em.,"[{'effect_string': 'buff_upgrade,87.5,72'}]",262,5,114,Sturdy Leather Bag,2,5
+Touch the gem in the wrong way and boom! Hope you weren't too attached to that hand.,"[{'effect_string': 'buff_upgrade,150,72'}]",263,5,115,Magically Enhanced Satchel,3,5
+"I've seen plenty of the world, but I'm more than happy to see more of it.","[{'effect_string': 'buff_upgrade,275,72'}]",264,5,116,Leather Satchel of the Wanderer,4,5
+"It's a little irritating, but it's stylish.","[{'effect_string': 'reduce_ultimate_cooldown,5'}]",274,5,117,Dusty Eyepatch,1,6
+A pleasure to wear - it's like a blanket for my eye!,"[{'effect_string': 'reduce_ultimate_cooldown,9'}]",274,5,118,Soft Cloth Eyepatch,2,6
+A sturdy accessory that aids in my night time adventures.,"[{'effect_string': 'reduce_ultimate_cooldown,18'}]",275,5,119,Sturdy Leather Eyepatch,3,6
+"Oh, you want to know what my magical eyepatch does? Get in line, sailor.","[{'effect_string': 'reduce_ultimate_cooldown,45'}]",276,5,120,Magical Eyepatch of the Bard,4,6
+The tip isn't as fragile as it looks.,"[{'effect_string': 'hero_dps_multiplier_mult,50'}]",238,6,121,Simple Jade Spear,1,1
+Crafted by the finest Aarakocra smiths in Kir Sabal.,"[{'effect_string': 'hero_dps_multiplier_mult,125'}]",238,6,122,Sharp Jade Spear,2,1
+Imbued with magical power by the wizards of Kir Sabal.,"[{'effect_string': 'hero_dps_multiplier_mult,200'}]",239,6,123,Magical Jade Spear,3,1
+The finest spear I've seen in all my years protecting the skies of Chult.,"[{'effect_string': 'hero_dps_multiplier_mult,350'}]",240,6,124,Ornate Jade Spear of the Mind,4,1
+This orb causes the air around you to shift and swirl.,"[{'effect_string': 'hero_dps_multiplier_mult,50'}]",241,6,125,Orb of Breezes,1,2
+This orb causes the air around you to gust and blow your robes.,"[{'effect_string': 'hero_dps_multiplier_mult,125'}]",241,6,126,Orb of Gusts,2,2
+"This orb causes a strong wind to swirl past you, making footing difficult.","[{'effect_string': 'hero_dps_multiplier_mult,200'}]",242,6,127,Orb of Squalls,3,2
+"Without proper discipline, this orb could cause you to be swept off your feet.","[{'effect_string': 'hero_dps_multiplier_mult,350'}]",243,6,128,Hurricane Orb of Storms,4,2
+This robe has clearly seen better days.,"[{'effect_string': 'global_dps_multiplier_mult,10'}]",235,6,129,Pilling Robe,1,3
+"This robe fits perfectly, and flutters about pleasingly as you fly.","[{'effect_string': 'global_dps_multiplier_mult,65'}]",235,6,130,Long Robe,2,3
+A golden robe with light colors and brilliant golden cloud motifs.,"[{'effect_string': 'global_dps_multiplier_mult,120'}]",236,6,131,Golden Robe,3,3
+"This robe seems to have a mind of its own, swirling about you even when the wind is calm.","[{'effect_string': 'global_dps_multiplier_mult,230'}]",237,6,132,Swirling Robe of Gusting Wind,4,3
+A simple pouch for storing spell components and trinkets.,"[{'effect_string': 'buff_upgrades,25,90,91,92,975,976,977', 'description': ""Increases the effect of Asharra's Bond abilities by $(amount)%.""}]",232,6,133,Simple Pouch,1,4
+Twice the storage potential compared to single pouches!,"[{'effect_string': 'buff_upgrades,87.5,90,91,92,975,976,977', 'description': ""Increases the effect of Asharra's Bond abilities by $(amount)%.""}]",232,6,134,Dual Cloth Pouches,2,4
+A well loved pouch that I'd guess belonged to a lesser Aarakocra priest or cleric.,"[{'effect_string': 'buff_upgrades,150,90,91,92,975,976,977', 'description': ""Increases the effect of Asharra's Bond abilities by $(amount)%.""}]",233,6,135,Hardened Leather Pouch,3,4
+The components for nearly any spell you could imagine can be found in these pouches.,"[{'effect_string': 'buff_upgrades,275,90,91,92,975,976,977', 'description': ""Increases the effect of Asharra's Bond abilities by $(amount)%.""}]",234,6,136,Bottomless Pouch of Components,4,4
+A common necklace worn by the Aarakocra residents of Kir Sabal.,"[{'effect_string': 'buff_ultimate,25'}]",229,6,137,Common Aarakocra Necklace,1,5
+"This necklace has seen combat, but is still holding together well. It must be lucky!","[{'effect_string': 'buff_ultimate,87.5'}]",229,6,138,Scuffed Aarakocra Necklace,2,5
+This fine necklace obviously belonged to a powerful Aarakocra at some point in the past.,"[{'effect_string': 'buff_ultimate,150'}]",230,6,139,Jeweled Aarakocra Necklace,3,5
+The craftsmanship on this necklace puts all others to shame.,"[{'effect_string': 'buff_ultimate,275'}]",231,6,140,Masterfully Crafted Aarakocra Necklace,4,5
+"A simple armlet, but good enough for the time being.","[{'effect_string': 'reduce_ultimate_cooldown,11'}]",226,6,141,Brass Armlet,1,6
+A well loved armlet that its previous owner obviously adored.,"[{'effect_string': 'reduce_ultimate_cooldown,21'}]",226,6,142,Polished Armlet,2,6
+A shiny armlet with what looks like a small citrine or amber set in it.,"[{'effect_string': 'reduce_ultimate_cooldown,42'}]",227,6,143,Jeweled Copper Armlet,3,6
+A beautiful golden armlet set with a shining fire opal.,"[{'effect_string': 'reduce_ultimate_cooldown,105'}]",228,6,144,Magnificent Golden Armlet of Focus,4,6
+Here's a tip for any adventurer: swords don't do so well against enemies made entirely of diamond.,"[{'effect_string': 'hero_dps_multiplier_mult,50'}]",367,7,145,Chipped Greatsword,1,1
+Minsc has had this old blade nearly as long as he's been adventuring with Boo.,"[{'effect_string': 'hero_dps_multiplier_mult,125'}]",367,7,146,Well Used Greatsword,2,1
+Minsc just got this sharpened by a smithy in Baldur's Gate. Good fellow. Cheap.,"[{'effect_string': 'hero_dps_multiplier_mult,200'}]",368,7,147,Sharp Greatsword,3,1
+"Evil, meet my sword! Sword, meet evil!","[{'effect_string': 'hero_dps_multiplier_mult,350'}]",369,7,148,Grand Greatsword of Furious Blows,4,1
+"Less vest, more buttkicking!","[{'effect_string': 'hero_dps_multiplier_mult,50'}]",364,7,149,Basic Leather Vest,1,2
+"Smooth like a miniature giant space hamster's bottom! Smells like one, too!","[{'effect_string': 'hero_dps_multiplier_mult,125'}]",364,7,150,Smooth Leather Vest,2,2
+"It's got holes for Minsc's extremely large biceps, so Minsc is a fan!","[{'effect_string': 'hero_dps_multiplier_mult,200'}]",365,7,151,Reinforced Leather Vest,3,2
+Boo! Are you comfortable up there?,"[{'effect_string': 'hero_dps_multiplier_mult,350'}]",366,7,152,Padded Leather Vest of Hamster Perches,4,2
+"They may be cheap, but they do keep Minsc from lopping his own hands off.","[{'effect_string': 'global_dps_multiplier_mult,10'}]",358,7,153,Cheap Iron Bracers,1,3
+"Hey, who are you calling dull?! Oh, the bracers. Yeah, they're pretty dull.","[{'effect_string': 'global_dps_multiplier_mult,65'}]",358,7,154,Dull Iron Bracers,2,3
+This reminds Minsc of a time... never mind.,"[{'effect_string': 'global_dps_multiplier_mult,120'}]",359,7,155,Full Iron Bracers,3,3
+Adventuring is quite exciting - at least until it's not. Then you need to be comfortable.,"[{'effect_string': 'global_dps_multiplier_mult,230'}]",360,7,156,Padded Iron Bracers of Comfort,4,3
+It could use a little more color. Minsc knows a fellow in Waterdeep...,"[{'effect_string': 'buff_upgrades,25,108,109,110,111,112', 'description': ""Increases the effect of Minsc's Favored Enemy abilities by $(amount)%.""}]",361,7,157,Faded Purple Cloak,1,4
+A decent enough cloak. If you're into normal things like that.,"[{'effect_string': 'buff_upgrades,87.5,108,109,110,111,112', 'description': ""Increases the effect of Minsc's Favored Enemy abilities by $(amount)%.""}]",361,7,158,Smooth Purple Cloak,2,4
+"Oh! It's so soft! Don't even think about stealing it to nest in, Boo!","[{'effect_string': 'buff_upgrades,150,108,109,110,111,112', 'description': ""Increases the effect of Minsc's Favored Enemy abilities by $(amount)%.""}]",362,7,159,Purple Velvet Cloak,3,4
+"Minsc saves some king's daughter, and this is all he gets? Barely worth it!","[{'effect_string': 'buff_upgrades,275,108,109,110,111,112', 'description': ""Increases the effect of Minsc's Favored Enemy abilities by $(amount)%.""}]",363,7,160,Silken Cloak of the Beloved Ranger,4,4
+"Perhaps you will upgrade this belt the next time you are in town, yes?","[{'effect_string': 'buff_ultimate,25'}]",352,7,161,Fraying Belt,1,5
+A good belt for long nights at the all-you-can-eat tavern!,"[{'effect_string': 'buff_ultimate,87.5'}]",352,7,162,Loose Belt,2,5
+"It's important to keep your pants up, lest boo bite you in hard to reach places.","[{'effect_string': 'buff_ultimate,150'}]",353,7,163,Tight Leather Belt,3,5
+"Go for the belt, Boo! Go for the belt!","[{'effect_string': 'buff_ultimate,275'}]",354,7,164,Comfortable Belt of Destruction,4,5
+You don't need fancy boots to kick some bad guy butt!,"[{'effect_string': 'reduce_ultimate_cooldown,5'}]",355,7,165,Simple Ranger Boots,1,6
+They've got good traction if we ever head up north to Icewind Dale.,"[{'effect_string': 'reduce_ultimate_cooldown,9'}]",355,7,166,Smooth Studded Boots,2,6
+"Solid buttkicking soles! Good find, Boo!","[{'effect_string': 'reduce_ultimate_cooldown,18'}]",356,7,167,Solid Plate Boots,3,6
+Some of these enemies need a swift kick in the morals!,"[{'effect_string': 'reduce_ultimate_cooldown,45'}]",357,7,168,Buttkicking Boots of Wrath,4,6
+"I prefer to stick to my magic, but in a pinch, I can use this.","[{'effect_string': 'hero_dps_multiplier_mult,50'}]",310,8,169,Dull Iron Dagger,1,1
+I borrowed this from a cutpurse in Baldur's Gate who thought he could steal from me.,"[{'effect_string': 'hero_dps_multiplier_mult,125'}]",310,8,170,Cutpurse's Dagger,2,1
+"I don't like to resort to violence, but if I have to, this'll do.","[{'effect_string': 'hero_dps_multiplier_mult,200'}]",311,8,171,Sharp Steel Dagger,3,1
+"In a pinch, I can channel my spells through the ruby on this dagger.","[{'effect_string': 'hero_dps_multiplier_mult,350'}]",312,8,172,Ruby Focused Dagger of Danger,4,1
+"Some trinket? It doesn't interest me, but it has some power within.","[{'effect_string': 'hero_dps_multiplier_mult,50'}]",298,8,173,Pilfered Memento,1,2
+This belonged to an acolyte of the Cult of the Dragon.,"[{'effect_string': 'hero_dps_multiplier_mult,125'}]",298,8,174,Follower's Necklace,2,2
+"Someone of great power wore this necklace. But they're gone, and I'm still here.","[{'effect_string': 'hero_dps_multiplier_mult,200'}]",299,8,175,Master's Necklace,3,2
+"My twin brother's necklace. It's a long story, and I'd rather not get into it.","[{'effect_string': 'hero_dps_multiplier_mult,350'}]",300,8,176,Dragon Cult Leader's Necklace,4,2
+Very similar to the first focus given to me by my teacher.,"[{'effect_string': 'global_dps_multiplier_mult,10'}]",301,8,177,Basic Orb,1,3
+Getting your focus to hover in your hand is the first task assigned to novice sorcerers.,"[{'effect_string': 'global_dps_multiplier_mult,65'}]",301,8,178,Hovering Orb,2,3
+Channeling the Weave into your focus allows you to charge your spells.,"[{'effect_string': 'global_dps_multiplier_mult,120'}]",302,8,179,Charged Orb,3,3
+This magical artifact has been passed down through generations of elves.,"[{'effect_string': 'global_dps_multiplier_mult,230'}]",303,8,180,Magical Orb of Elvenkind,4,3
+More of a style piece than actually functional.,"[{'effect_string': 'buff_upgrade,25,125'}]",304,8,181,Loose Belt,1,4
+A simple enough belt. The sheath has a few holes in it.,"[{'effect_string': 'buff_upgrade,87.5,125'}]",304,8,182,Simple Leather Belt,2,4
+A fine gift from a young human who once fancied me.,"[{'effect_string': 'buff_upgrade,150,125'}]",305,8,183,Fine Belt and Sheath,3,4
+I'm always up for an adventure! The more dangerous the better!,"[{'effect_string': 'buff_upgrade,275,125'}]",306,8,184,Golden Wayfarer's Belt of Adventure,4,4
+A simple sorcerer's cape with more than a few holes.,"[{'effect_string': 'buff_upgrade,25,128'}]",307,8,185,Ratty Cape,1,5
+Someone has recently cleaned the cape. It wasn't me!,"[{'effect_string': 'buff_upgrade,87.5,128'}]",307,8,186,Smooth Cape,2,5
+I look like quite the mature and knowledgeable elf wearing this. Little do they know.,"[{'effect_string': 'buff_upgrade,150,128'}]",308,8,187,High Collared Cape,3,5
+"It may look flimsy, but I can shrug off most attacks wearing this.","[{'effect_string': 'buff_upgrade,275,128'}]",309,8,188,Empowered Cape of Protection,4,5
+"I can't believe anyone would wear these! Better than nothing, I guess.","[{'effect_string': 'reduce_ultimate_cooldown,6'}]",313,8,189,Scratchy Robes,1,6
+"Hey, these are actually pretty comfy! Good find!","[{'effect_string': 'reduce_ultimate_cooldown,12'}]",313,8,190,Comfortable Robes,2,6
+I've been searching for the master who crafted this for years. It's wondrous!,"[{'effect_string': 'reduce_ultimate_cooldown,24'}]",314,8,191,Masterful Silken Robe,3,6
+My spells are empowered when I wear this cape. Not that they need to be.,"[{'effect_string': 'reduce_ultimate_cooldown,60'}]",315,8,192,Swirling Patterned Robe of Sorcery,4,6
+"A few sparks are a beginning, but they're certainly not an end.","[{'effect_string': 'hero_dps_multiplier_mult,50'}]",346,9,193,Necklace of Sparks,1,1
+We're going to need to do better than this.,"[{'effect_string': 'hero_dps_multiplier_mult,125'}]",346,9,194,Necklace of Flickers,2,1
+Where there's smoke...,"[{'effect_string': 'hero_dps_multiplier_mult,200'}]",347,9,195,Necklace of Flame,3,1
+This ought to draw their attention.,"[{'effect_string': 'hero_dps_multiplier_mult,350'}]",348,9,196,Golden Necklace of Fireballs,4,1
+There's something a little off about this dagger.,"[{'effect_string': 'hero_dps_multiplier_mult,50'}]",343,9,197,Suspicious Dagger,1,2
+"Yeah, this dagger is clearly evil. But it does my bidding, so it's not all bad.","[{'effect_string': 'hero_dps_multiplier_mult,125'}]",343,9,198,Evil Dagger,2,2
+Allows me to focus my fiendish magic.,"[{'effect_string': 'hero_dps_multiplier_mult,200'}]",344,9,199,Twisted Dagger Focus,3,2
+I'll do whatever it takes to achieve my goals.,"[{'effect_string': 'hero_dps_multiplier_mult,350'}]",345,9,200,Demonic Focus of Infernal Power,4,2
+Holds enough components for a few hours of intense spellcasting.,"[{'effect_string': 'global_dps_multiplier_mult,10'}]",340,9,201,Small Cloth Pouch,1,3
+There's a hidden compartment in the back for even more components.,"[{'effect_string': 'global_dps_multiplier_mult,65'}]",340,9,202,Stitched Leather Pouch,2,3
+"Finding black leather dye is extremely difficult. Luckily, I know a Fiend or two.","[{'effect_string': 'global_dps_multiplier_mult,120'}]",341,9,203,Dyed Leather Pouch,3,3
+Demon hide is especially rare. They generally don't like to give it up.,"[{'effect_string': 'global_dps_multiplier_mult,230'}]",342,9,204,Gilded Demon Hide Pouch,4,3
+They... they tore my cape! The nerve!,"[{'effect_string': 'buff_upgrades,25,139,140'}]",337,9,205,Torn Cape,1,4
+"I'm really still quite evil, once you get to know me.","[{'effect_string': 'buff_upgrades,87.5,139,140'}]",337,9,206,Dark Cape,2,4
+"Magnificent, much like myself!","[{'effect_string': 'buff_upgrades,150,139,140'}]",338,9,207,Magnificent Cape,3,4
+"Don't worry, they weren't very nice souls to begin with.","[{'effect_string': 'buff_upgrades,275,139,140'}]",339,9,208,Exquisite Cape of Souls,4,4
+This has no real value to me. I've grown so far beyond its meager power.,"[{'effect_string': 'buff_ultimate,25'}]",349,9,209,Basic Warlock's Robe,1,5
+A simple robe for a simple warlock. I've already outgrown it.,"[{'effect_string': 'buff_ultimate,87.5'}]",349,9,210,Apprentice's Robe,2,5
+"Finally, a robe worthy of my great power.","[{'effect_string': 'buff_ultimate,150'}]",350,9,211,Gold Stitched Robe,3,5
+The ends justify the means. I'll do whatever it takes.,"[{'effect_string': 'buff_ultimate,275'}]",351,9,212,Tasselled Robes of Justification,4,5
+You can't make an omelette without burning a few belts.,"[{'effect_string': 'reduce_ultimate_cooldown,8'}]",334,9,213,Charred Belt,1,6
+"For some reason, my patron seems to like it when I wear black.","[{'effect_string': 'reduce_ultimate_cooldown,15'}]",334,9,214,Blackened Belt,2,6
+"A rare gift from my patron, Arikas. It serves me well.","[{'effect_string': 'reduce_ultimate_cooldown,30'}]",335,9,215,Fine Acolyte's Belt,3,6
+An exquisite belt for those of us with fiendish tastes.,"[{'effect_string': 'reduce_ultimate_cooldown,75'}]",336,9,216,Skirted Belt of Demons,4,6
+Even a splintered branch can do damage in the right hands.,"[{'effect_string': 'hero_dps_multiplier_mult,50'}]",403,10,217,Splintered Branch,1,1
+"It's a splinted splintered branch. Get it? Aww, you're no fun.","[{'effect_string': 'hero_dps_multiplier_mult,125'}]",403,10,218,Patched Tree Branch,2,1
+The twisting only serves to make it stronger.,"[{'effect_string': 'hero_dps_multiplier_mult,200'}]",404,10,219,Twisted Wooden Staff,3,1
+The tree this staff came from is older than time itself.,"[{'effect_string': 'hero_dps_multiplier_mult,350'}]",405,10,220,Gnarled Staff of the Warden,4,1
+A simple necklace for simple adventurers.,"[{'effect_string': 'hero_dps_multiplier_mult,50'}]",391,10,221,Dull Jade Necklace,1,2
+There's something about jade that always tickles my fancy.,"[{'effect_string': 'hero_dps_multiplier_mult,125'}]",391,10,222,Shiny Jade Necklace,2,2
+A fine necklace purchased from a merchant in Triboar.,"[{'effect_string': 'hero_dps_multiplier_mult,200'}]",392,10,223,Fine Jade Necklace,3,2
+An ancient necklace found deep in the Neverwinter wood.,"[{'effect_string': 'hero_dps_multiplier_mult,350'}]",393,10,224,Woven Jade Necklace of the Forest,4,2
+Fifty feet of strong hempen rope. Durable and versatile.,"[{'effect_string': 'global_dps_multiplier_mult,10'}]",397,10,225,Plain Rope,1,3
+"It seems to want something... What do you want, little rope?","[{'effect_string': 'global_dps_multiplier_mult,65'}]",397,10,226,Twitching Rope,2,3
+Good for getting to high places when there's nothing to tie rope to.,"[{'effect_string': 'global_dps_multiplier_mult,120'}]",398,10,227,Magical Rope,3,3
+It's easier for you if you don't fight it. It feeds on your struggles.,"[{'effect_string': 'global_dps_multiplier_mult,230'}]",399,10,228,Empowered Rope of Entanglement,4,3
+"It's taken a few too many trips through the brambles, if you know what I mean.","[{'effect_string': 'buff_upgrades,25,145,146'}]",400,10,229,Ripped Cloth Vest,1,4
+A workable vest. Relatively new and uninitiated to nature.,"[{'effect_string': 'buff_upgrades,87.5,145,146'}]",400,10,230,Plain Cloth Vest,2,4
+A fine shirt. I almost feel bad taking it out into the wild. Almost.,"[{'effect_string': 'buff_upgrades,150,145,146'}]",401,10,231,Fine Cloth Shirt,3,4
+One of the few items I kept from my home village after... Nevermind.,"[{'effect_string': 'buff_upgrades,275,145,146'}]",402,10,232,Earthwarden's Shirt of Nature,4,4
+"It's may be out of tricks, but I've still got some up my sleeve.","[{'effect_string': 'buff_ultimate,25'}]",388,10,233,Empty Bag of Tricks,1,5
+"Filled with powders to distract, to itch, to blind.","[{'effect_string': 'buff_ultimate,87.5'}]",388,10,234,Basic Bag of Tricks,2,5
+It's almost too heavy to carry. Perhaps that's a trick for its owner.,"[{'effect_string': 'buff_ultimate,150'}]",389,10,235,Hefty Bag of Tricks,3,5
+There's a hint of magic in all of these tricks.,"[{'effect_string': 'buff_ultimate,275'}]",390,10,236,Mystical Tan Bag of Tricks,4,5
+Crafted from a fallen branch donated by a very old and wise tree.,"[{'effect_string': 'reduce_ultimate_cooldown,6'}]",394,10,237,Wooden Ring,1,6
+"Moles have one of the keenest noses in the world, you know.","[{'effect_string': 'reduce_ultimate_cooldown,12'}]",394,10,238,Basic Ring of the Mole,2,6
+Frogs have many fine attributes that are quite useful when adventuring.,"[{'effect_string': 'reduce_ultimate_cooldown,24'}]",395,10,239,Fine Ring of the Frog,3,6
+"Much like the Porcupine, if you poke me, you'll regret it.","[{'effect_string': 'reduce_ultimate_cooldown,60'}]",396,10,240,Exquisite Ring of the Porcupine,4,6
+A bangle or two from my days as a youth.,"[{'effect_string': 'hero_dps_multiplier_mult,50'}]",627,11,241,Primitive Bangles,1,1
+Carved from the most wondrous trees that grow only in Chult.,"[{'effect_string': 'hero_dps_multiplier_mult,125'}]",627,11,242,Wooden Bangles,2,1
+More elegant arm wear for a more successful adventurer.,"[{'effect_string': 'hero_dps_multiplier_mult,200'}]",628,11,243,Metal Bangles,3,1
+Beautiful bangles bought from an adventurous merchant.,"[{'effect_string': 'hero_dps_multiplier_mult,350'}]",629,11,244,Precious Inscribed Bangles of Chult,4,1
+Someone hasn't been taking good care of their boots.,"[{'effect_string': 'hero_dps_multiplier_mult,50'}]",630,11,245,Scuffed Boots,1,2
+"Uncommonly soft and comfortable, they allow me to be light on my feet.","[{'effect_string': 'hero_dps_multiplier_mult,125'}]",630,11,246,Soft Boots,2,2
+A fine pair of boots with a padded sole.,"[{'effect_string': 'hero_dps_multiplier_mult,200'}]",631,11,247,Stealthy Boots,3,2
+They'll never hear me coming.,"[{'effect_string': 'hero_dps_multiplier_mult,350'}]",632,11,248,Masterful Boots of Elvenkind,4,2
+I had a similar sword in my youth. I outgrew it quickly.,"[{'effect_string': 'global_dps_multiplier_mult,10'}]",633,11,249,Trainee's Greatsword,1,3
+"A sharp blade, but not too sharp that you'll slip up and grievously injure yourself.","[{'effect_string': 'global_dps_multiplier_mult,65'}]",633,11,250,Apprentice's Greatsword,2,3
+A fine sword fit for a Chultan sword master.,"[{'effect_string': 'global_dps_multiplier_mult,120'}]",634,11,251,Master's Greatsword,3,3
+They'll never see me coming.,"[{'effect_string': 'global_dps_multiplier_mult,230'}]",635,11,252,Deathbringer Greatsword,4,3
+A simple periapt that grants some small magic.,"[{'effect_string': 'buff_upgrade,25,237'}]",636,11,253,Simple Periapt,1,4
+A fine trinket passed down for generations.,"[{'effect_string': 'buff_upgrade,87.5,237'}]",636,11,254,Fine Periapt,2,4
+A heroic amulet granted to me by a village leader after I saved some villagers.,"[{'effect_string': 'buff_upgrade,150,237'}]",637,11,255,Heroic Periapt,3,4
+"I pray that death will never find me, but if it does I'll be ready.","[{'effect_string': 'buff_upgrade,275,237'}]",638,11,256,Periapt of Wound Closure,4,4
+There's not much power left in this ring.,"[{'effect_string': 'buff_ultimate,25'}]",639,11,257,Cold Ring,1,5
+Something lurks within. This ring holds a small amount of power.,"[{'effect_string': 'buff_ultimate,87.5'}]",639,11,258,Warm Ring,2,5
+The beauty of this ring is eclipsed only by its power.,"[{'effect_string': 'buff_ultimate,150'}]",640,11,259,Emerald Ring,3,5
+The power of this ring allows me to charge into battle carefree.,"[{'effect_string': 'buff_ultimate,275'}]",641,11,260,Ring of Protection,4,5
+Nothing's worse than a cold neck. Not even this scarf.,"[{'effect_string': 'reduce_ultimate_cooldown,3'}]",642,11,261,Torn Scarf,1,6
+A simple scarf to ward off the bitter wind.,"[{'effect_string': 'reduce_ultimate_cooldown,6'}]",642,11,262,Plain Scarf,2,6
+A fine scarf purchased from a merchant in Port Nyanzaru.,"[{'effect_string': 'reduce_ultimate_cooldown,12'}]",643,11,263,Patterned Scarf,3,6
+A masterfully crafted scarf found in the wreckage of the boat that brought me to Chult.,"[{'effect_string': 'reduce_ultimate_cooldown,30'}]",644,11,264,Tasselled Scarf of the Island,4,6
+Even a blunt blade can bash in a skull.,"[{'effect_string': 'hero_dps_multiplier_mult,50'}]",645,12,265,Dull Battle Axe,1,1
+"Ah, a freshly sharpened axe. What more does a guy need?","[{'effect_string': 'hero_dps_multiplier_mult,125'}]",645,12,266,Sharp Battle Axe,2,1
+The craftsmanship is exquisite.,"[{'effect_string': 'hero_dps_multiplier_mult,200'}]",646,12,267,Cruel Battle Axe,3,1
+A magical axe of extreme power. My enemies flee in fear when they see it.,"[{'effect_string': 'hero_dps_multiplier_mult,350'}]",647,12,268,Bonecleaver,4,1
+"A crude symbol, but any reverence to Tiamat is a good thing.","[{'effect_string': 'global_dps_multiplier_mult,10'}]",648,12,269,Crude Symbol,1,2
+"A well crafted symbol, though it lacks a certain finesse.","[{'effect_string': 'global_dps_multiplier_mult,65'}]",648,12,270,Steel Symbol,2,2
+Forged in the dragonflame for only the most devout followers.,"[{'effect_string': 'global_dps_multiplier_mult,120'}]",649,12,271,Flame Forged Symbol,3,2
+I've foresworn my paladin oaths and dedicated my life to serving Tiamat.,"[{'effect_string': 'global_dps_multiplier_mult,230'}]",650,12,272,Holy Symbol of Tiamat,4,2
+Should probably get this tightened up. The noise is very distracting.,"[{'effect_string': 'buff_upgrade,25,241'}]",651,12,273,Clanking Pauldron,1,3
+Good for bashing down doors and breaking through walls.,"[{'effect_string': 'buff_upgrade,87.5,241'}]",651,12,274,Solid Pauldron,2,3
+I'll impale the heads of my enemies on these spikes! Hah hah hah!,"[{'effect_string': 'buff_upgrade,150,241'}]",652,12,275,Spiked Pauldron,3,3
+Forged from obsidian and granted to me by the Dragon Queen herself.,"[{'effect_string': 'buff_upgrade,275,241'}]",653,12,276,Pauldron of the Dragonmother,4,3
+"It may be flimsy, but you still wouldn't want to get bashed by it.","[{'effect_string': 'buff_upgrade,25,242'}]",654,12,277,Flimsy Shield,1,4
+"Don't let appearances deceive you. This is a sturdy, well-crafted shield.","[{'effect_string': 'buff_upgrade,87.5,242'}]",654,12,278,Strong Shield,2,4
+Blessed by the Cult of the Dragon and carried into battle against their enemies.,"[{'effect_string': 'buff_upgrade,150,242'}]",655,12,279,Dragon-Blessed Shield,3,4
+Crafted from the scales of Tiamat's enemies and worn by her unholy Paladin followers.,"[{'effect_string': 'buff_upgrade,275,242'}]",656,12,280,Dragonscale Shield of the Unholy,4,4
+Whatever is in it won't be in it for long!,"[{'effect_string': 'buff_ultimate,25'}]",657,12,281,Cracked Vial,1,5
+"A sturdy vial containing a murky, greyish liquid.","[{'effect_string': 'buff_ultimate,87.5'}]",657,12,282,Sturdy Vial,2,5
+A crystal vial with a finely crafted silver stopper.,"[{'effect_string': 'buff_ultimate,150'}]",658,12,283,Crystal Vial,3,5
+Filled to the brim with unholy power.,"[{'effect_string': 'buff_ultimate,275'}]",659,12,284,Vial of Unholy Water,4,5
+Reserved for only the most bad-ass warriors.,"[{'effect_string': 'reduce_ultimate_cooldown,5'}]",660,12,285,Rusty Choker,1,6
+Mere child's play. Bring me a real choker.,"[{'effect_string': 'reduce_ultimate_cooldown,9'}]",660,12,286,Spiked Choker,2,6
+A golden wreath of thorns worn about ones neck.,"[{'effect_string': 'reduce_ultimate_cooldown,18'}]",661,12,287,Golden Wreath,3,6
+Grants me control over a beast of my choosing. I chose Chango.,"[{'effect_string': 'reduce_ultimate_cooldown,45'}]",662,12,288,Wreath of the Prism,4,6
+Fits a moderate amount of gold pieces.,"[{'effect_string': 'hero_dps_multiplier_mult,50'}]",1039,13,289,Basic Pouch,1,1
+"It doesn't look like much, but it can store quite a bit of loot.","[{'effect_string': 'hero_dps_multiplier_mult,125'}]",1039,13,290,Deep Pouch,2,1
+Why have one pouch when you could have five?,"[{'effect_string': 'hero_dps_multiplier_mult,200'}]",1040,13,291,Multi-Pouch,3,1
+It's got everything you need to pillage and pilfer.,"[{'effect_string': 'hero_dps_multiplier_mult,350'}]",1041,13,292,Burglar's Pack of the Sneaky Thief,4,1
+Hey! My mother knit these for me.,"[{'effect_string': 'global_dps_multiplier_mult,10'}]",1042,13,293,Ugly Slippers,1,3
+I think a spider crawled inside these and webbed them up.,"[{'effect_string': 'global_dps_multiplier_mult,65'}]",1042,13,294,Sticky Slippers,2,3
+I can scale all but the slipperiest surfaces.,"[{'effect_string': 'global_dps_multiplier_mult,120'}]",1043,13,295,Sticky Boots,3,3
+Useful for climbing giants and other extra tall creatures.,"[{'effect_string': 'global_dps_multiplier_mult,230'}]",1044,13,296,Boots of Spider Climbing,4,3
+It was just hanging in the cloakroom of this Inn...,"[{'effect_string': 'buff_upgrade,25,390'}]",1045,13,297,Pilfered Cape,1,4
+"I'll give it back when I'm done with it, I swear.","[{'effect_string': 'buff_upgrade,87.5,390'}]",1045,13,298,Borrowed Cape,2,4
+"It's impressive, much like myself!","[{'effect_string': 'buff_upgrade,150,390'}]",1046,13,299,Impressive Cape,3,4
+It never gets tangled in my legs.,"[{'effect_string': 'buff_upgrade,275,390'}]",1047,13,300,Magnificent Cape of Free Flowing,4,4
+I really ought to sharpen this one.,"[{'effect_string': 'hero_dps_multiplier_mult,50'}]",1048,13,301,Dull Dagger,1,2
+I really ought to clean this one.,"[{'effect_string': 'hero_dps_multiplier_mult,125'}]",1048,13,302,Bloody Dagger,2,2
+Everything's better with a little gold added in.,"[{'effect_string': 'hero_dps_multiplier_mult,200'}]",1049,13,303,Golden Dagger,3,2
+Stolen from a foolish Prince from the east.,"[{'effect_string': 'hero_dps_multiplier_mult,350'}]",1050,13,304,Ornate Dagger of Princes,4,2
+The peddler swore it was real!,"[{'effect_string': 'buff_ultimate,25'}]",1051,13,305,Fake Ring,1,5
+There's a story behind this ring that I'll tell you some time.,"[{'effect_string': 'buff_ultimate,87.5'}]",1051,13,306,Pearl Ring,2,5
+That's 100% legitimate Icewind Crystal.,"[{'effect_string': 'buff_ultimate,150'}]",1052,13,307,Crystal Ring,3,5
+You can't hide your true form from me.,"[{'effect_string': 'buff_ultimate,275'}]",1053,13,308,Zhentarim Ring of True Sight,4,5
+A simple rod of copper. Useful for jimmying doors and windows.,"[{'effect_string': 'reduce_ultimate_cooldown,5'}]",1054,13,309,Copper Rod,1,6
+It's the fanciest thing I've ever jimmied a window with.,"[{'effect_string': 'reduce_ultimate_cooldown,10'}]",1054,13,310,Fancy Rod,2,6
+It has some small magical properties that makes it quite useful.,"[{'effect_string': 'reduce_ultimate_cooldown,20'}]",1055,13,311,Static Rod,3,6
+Magically enhanced to ignore the laws of physics.,"[{'effect_string': 'reduce_ultimate_cooldown,49'}]",1056,13,312,Ancient Immovable Rod,4,6
+I like cake too much to really be comfortable in this belt.,"[{'effect_string': 'hero_dps_multiplier_mult,50'}]",1061,14,313,Tight Belt,1,1
+"The monks didn't let me bring much with me, except this.","[{'effect_string': 'hero_dps_multiplier_mult,125'}]",1061,14,314,Solemn Belt,2,1
+There's more to this belt than meets the eye.,"[{'effect_string': 'hero_dps_multiplier_mult,200'}]",1062,14,315,Tinkerer's Belt,3,1
+I'll never talk about the day I got this belt.,"[{'effect_string': 'hero_dps_multiplier_mult,350'}]",1063,14,316,Gnomish Belt of Solemn Secrets,4,1
+"Kind of defeats the purpose, don't it?","[{'effect_string': 'global_dps_multiplier_mult,10'}]",1064,14,317,See-Through Blindfold,1,2
+"I can't see! Wait, no, that's the point.","[{'effect_string': 'global_dps_multiplier_mult,65'}]",1064,14,318,Blinding Blindfold,2,2
+The monks made me wear this during my training.,"[{'effect_string': 'global_dps_multiplier_mult,120'}]",1065,14,319,Supremely Effective Blindfold,3,2
+A trophy from my time at the monastary.,"[{'effect_string': 'global_dps_multiplier_mult,230'}]",1066,14,320,Pure Blindfold of the Even Hand,4,2
+"I'd rather not stand out, to be honest.","[{'effect_string': 'buff_upgrade,25,410'}]",1067,14,321,Plain Ring,1,3
+A little worse for wear from years of unarmed combat.,"[{'effect_string': 'buff_upgrade,87.5,410'}]",1067,14,322,Scuffed Steel Ring,2,3
+Forged near a Chultan volcano.,"[{'effect_string': 'buff_upgrade,150,410'}]",1068,14,323,Obsidian Ring,3,3
+I can really take my time to think things over.,"[{'effect_string': 'buff_upgrade,275,410'}]",1069,14,324,Innoculous Ring of Time Slowing,4,3
+A hand-sown hand-me-down.,"[{'effect_string': 'buff_upgrade,25,411'}]",1070,14,325,Patched Robe,1,4
+Granted to all new diciples of the Even Hand.,"[{'effect_string': 'buff_upgrade,87.5,411'}]",1070,14,326,Initiate's Robe,2,4
+Robes bearing the colors of the Order of the Even Hand.,"[{'effect_string': 'buff_upgrade,150,411'}]",1071,14,327,Even Hand Robes,3,4
+I remember the day I earned the right to wear these robes...,"[{'effect_string': 'buff_upgrade,275,411'}]",1072,14,328,Monastic Robe of the Even Hand,4,4
+"The soles are a bit tough, but otherwise they're functional.","[{'effect_string': 'buff_ultimate,25'}]",1073,14,329,Plain Sandals,1,5
+As comfortable for walking as they are for standing or sitting.,"[{'effect_string': 'buff_ultimate,87.5'}]",1073,14,330,Comfortable Sandals,2,5
+"Flashy, for a monk, but I'm still a gnome, you know.","[{'effect_string': 'buff_ultimate,150'}]",1074,14,331,Intricate Sandals,3,5
+All but my most perceptive foes are ignorant to my approach.,"[{'effect_string': 'buff_ultimate,275'}]",1075,14,332,Ornate Sandals of the Silent Foot,4,5
+"I've tried binding it back together, but it's not very sturdy.","[{'effect_string': 'reduce_ultimate_cooldown,4'}]",1076,14,333,Snapped Staff,1,6
+I've walked a long way with this staff.,"[{'effect_string': 'reduce_ultimate_cooldown,8'}]",1076,14,334,Sturdy Staff,2,6
+"No matter how far you walk, you'll always end up back where you started.","[{'effect_string': 'reduce_ultimate_cooldown,16'}]",1077,14,335,Wanderer's Staff,3,6
+It is much easier to focus on ki with this ancient staff.,"[{'effect_string': 'reduce_ultimate_cooldown,40'}]",1078,14,336,Ki Staff of Long Walks,4,6
+A basic amulet given to all orc children.,"[{'effect_string': 'hero_dps_multiplier_mult,50'}]",1298,15,337,Stone Amulet,1,1
+Obviously magical - it radiates heat.,"[{'effect_string': 'hero_dps_multiplier_mult,125'}]",1298,15,338,Warm Amulet,2,1
+An amulet of warding constructed by our tribal sage; doesn't really do anything.,"[{'effect_string': 'hero_dps_multiplier_mult,200'}]",1299,15,339,Tribal Amulet,3,1
+"My father's amulet; worn in battle dozens, perhaps hundreds of time.","[{'effect_string': 'hero_dps_multiplier_mult,350'}]",1300,15,340,Bone Breaker Amulet of the Tribe,4,1
+A simple belt; better to wear this than to have your pants fall down.,"[{'effect_string': 'buff_attack_damage,25,51'}]",1301,15,341,Cloth Belt,1,2
+"Softness isn't often a quality I admire, but I make an exception for this belt.","[{'effect_string': 'buff_attack_damage,87.5,51'}]",1301,15,342,Soft Belt,2,2
+"A wizard's belt, but still useful to a warrior such as myself.","[{'effect_string': 'buff_attack_damage,150,51'}]",1302,15,343,Ornate Belt,3,2
+This belt belonged to my mother; it saw her safely through countless dangers.,"[{'effect_string': 'buff_attack_damage,275,51'}]",1303,15,344,Artisan Belt of the Way Finder,4,2
+So much is missing; someone who learns history from this book is bound to repeat it.,"[{'effect_string': 'buff_attack_damage,25,52'}]",1304,15,345,Torn History Book,1,3
+There are important lessons in all of our pasts.,"[{'effect_string': 'buff_attack_damage,87.5,52'}]",1304,15,346,Faded History Book,2,3
+"A detailed history of half-orc culture, written by myself.","[{'effect_string': 'buff_attack_damage,150,52'}]",1305,15,347,Detailed History Book,3,3
+A detailed encyclopedia of orc tribes and customs - my mother's life work.,"[{'effect_string': 'buff_attack_damage,275,52'}]",1306,15,348,Archaeologist's Book of Tribal History,4,3
+It cracked when I hit a Stone Golem so hard that it shattered.,"[{'effect_string': 'buff_attack_damage,25,53'}]",1307,15,349,Cracked Warhammer,1,4
+"Heavy to carry around, but worth it in battle.","[{'effect_string': 'buff_attack_damage,87.5,53'}]",1307,15,350,Solid Warhammer,2,4
+A warrior needs every advantage to catch his enemy off guard.,"[{'effect_string': 'buff_attack_damage,150,53'}]",1308,15,351,Spiked Warhammer,3,4
+My bonded warhammer has served me well throughout the years.,"[{'effect_string': 'buff_attack_damage,275,53'}]",1309,15,352,Vicious Warhammer of Orcish Bloodlust,4,4
+I should probably get this replaced.,"[{'effect_string': 'buff_ultimate,25'}]",1310,15,353,Pilling Scarf,1,5
+"Yes, I knit. What's your problem with that?","[{'effect_string': 'buff_ultimate,87.5'}]",1310,15,354,Hand-knit Scarf,2,5
+"A fine scarf, though not very warrior-ly.","[{'effect_string': 'buff_ultimate,150'}]",1312,15,355,Wizard's Scarf,3,5
+A momento from my time training as an Eldritch Knight.,"[{'effect_string': 'buff_ultimate,275'}]",1311,15,356,Flowing Scarf of the Eldritch Knight,4,5
+"Adaquete for a child perhaps, but I hope to find a new pair soon enough.","[{'effect_string': 'reduce_ultimate_cooldown,6'}]",1313,15,357,Weak Pauldron,1,6
+Hardened leather can surprisingly deflect even strong and sharp attacks.,"[{'effect_string': 'reduce_ultimate_cooldown,11'}]",1313,15,358,Tough Pauldron,2,6
+A good shoulder charge never hurt anyone; perhaps just my enemies.,"[{'effect_string': 'reduce_ultimate_cooldown,21'}]",1314,15,359,Spiked Pauldron,3,6
+"If magic fails me, these pauldrons will see me through.","[{'effect_string': 'reduce_ultimate_cooldown,53'}]",1315,15,360,Strong Iron Pauldron of the Charging Orc,4,6
+An assortment of random pebbles from my journies.,"[{'effect_string': 'hero_dps_multiplier_mult,50'}]",1406,16,361,Random Pebbles,1,1
+Some polished stones that caught my eye.,"[{'effect_string': 'hero_dps_multiplier_mult,125'}]",1406,16,362,Polished Pebbles,2,1
+A considerable collection of colorful calcite.,"[{'effect_string': 'hero_dps_multiplier_mult,200'}]",1405,16,363,Colorful Stones,3,1
+I've collected a single pebble from each beach I've visited in my travels.,"[{'effect_string': 'hero_dps_multiplier_mult,350'}]",1404,16,364,Carefully Collected Pristine Pebbles,4,1
+It's more for show. These old bones don't fight as well as they used to.,"[{'effect_string': 'global_dps_multiplier_mult,10'}]",1409,16,365,Dull Spear,1,2
+Held together with wax and sap and a short length of leather.,"[{'effect_string': 'global_dps_multiplier_mult,65'}]",1409,16,366,Damaged Spear,2,2
+Danger lies around every corner these days.,"[{'effect_string': 'global_dps_multiplier_mult,120'}]",1408,16,367,Sharpened Spear,3,2
+It doubles as a walking staff when the danger is past.,"[{'effect_string': 'global_dps_multiplier_mult,230'}]",1407,16,368,Masterful Spear of Long Journies,4,2
+Full of knick-knacks from another time.,"[{'effect_string': 'buff_upgrade,25,549'}]",1412,16,369,Old Pouch,1,3
+The leather has been softened by years of use.,"[{'effect_string': 'buff_upgrade,87.5,549'}]",1412,16,370,Soft Leather Pouch,2,3
+This pouch has seen me through countless adventures.,"[{'effect_string': 'buff_upgrade,150,549'}]",1411,16,371,Well Traveled Leather Pouch,3,3
+There always seems to be something in this pouch to point me in the right direction.,"[{'effect_string': 'buff_upgrade,275,549'}]",1410,16,372,Sacred Pouch of the Wayfinder,4,3
+"If I move too quickly, it could shatter. I'd better more slowly, then.","[{'effect_string': 'buff_upgrades,25,554,555,556', 'description': ""Increases the effect of Gromma's Spiked Shell, Freezing Breeze and Acid Splash abilities by $(amount)%.""}]",1415,16,373,Delicate Headdress,1,4
+The warm waters off the coast of Ahoyhoy are perfect for collecting discarded coral.,"[{'effect_string': 'buff_upgrades,87.5,554,555,556', 'description': ""Increases the effect of Gromma's Spiked Shell, Freezing Breeze and Acid Splash abilities by $(amount)%.""}]",1415,16,374,Coral Headdress,2,4
+A special headdress crafted by one of my many offspring.,"[{'effect_string': 'buff_upgrades,150,554,555,556', 'description': ""Increases the effect of Gromma's Spiked Shell, Freezing Breeze and Acid Splash abilities by $(amount)%.""}]",1414,16,375,Braided Headdress,3,4
+A gift from the first of my grandchildren to leave the compound and explore the lands.,"[{'effect_string': 'buff_upgrades,275,554,555,556', 'description': ""Increases the effect of Gromma's Spiked Shell, Freezing Breeze and Acid Splash abilities by $(amount)%.""}]",1413,16,376,Intricate Headdress of the Grandmother,4,4
+Its days are numbered.,"[{'effect_string': 'buff_ultimate,25'}]",1418,16,377,Fragile Conch,1,5
+You can hear the ocean if you put it up to your ear.,"[{'effect_string': 'buff_ultimate,87.5'}]",1418,16,378,Hearty Conch,2,5
+"This large conch is older than I am, and I'm practically ancient.","[{'effect_string': 'buff_ultimate,150'}]",1417,16,379,Ancient Conch,3,5
+Recovered from the slimy tentacles of a slain Marine Decapus.,"[{'effect_string': 'buff_ultimate,275'}]",1416,16,380,Spiked Conch of the Deep Ocean,4,5
+"Covered in itchy, scratching sand.","[{'effect_string': 'reduce_ultimate_cooldown,3'}]",1421,16,381,Sandy Bracelet,1,6
+"A single, brilliant pearl makes this bracelet worth wearing.","[{'effect_string': 'reduce_ultimate_cooldown,6'}]",1421,16,382,Single Pearl Bracelet,2,6
+Crafted for me by a young human during a recent visit to Port Nyanzaru.,"[{'effect_string': 'reduce_ultimate_cooldown,12'}]",1420,16,383,Dual-Banded Bracelet,3,6
+"If you put your ear up to the pearl, you can hear the approach of strong storms.","[{'effect_string': 'reduce_ultimate_cooldown,30'}]",1419,16,384,Solemn Bone Bracelet of the Wind,4,6
+An embaressment to belts everywhere.,"[{'effect_string': 'hero_dps_multiplier_mult,50'}]",1597,17,385,Tattered Belt,1,1
+A belt for someone who spends too much time reading and not enough time being amazing.,"[{'effect_string': 'hero_dps_multiplier_mult,125'}]",1597,17,386,Scholar's Belt,2,1
+"Adaquete for a wizard from the coast, perhaps, but someone as great as Dhadius!","[{'effect_string': 'hero_dps_multiplier_mult,200'}]",1598,17,387,Wizard's Belt,3,1
+I certainly am that.,"[{'effect_string': 'hero_dps_multiplier_mult,350'}]",1599,17,388,Glorious Belt of the Impressive Wizard,4,1
+"A bracer for a lesser mage. I object to wearing it, honestly.","[{'effect_string': 'global_dps_multiplier_mult,10'}]",1600,17,389,Clumsy Bracer,1,2
+"Provides some deflection, I suppose. Not that I need it.","[{'effect_string': 'global_dps_multiplier_mult,65'}]",1600,17,390,Leather Bracer,2,2
+Empowers my already formidable magical abilities.,"[{'effect_string': 'global_dps_multiplier_mult,120'}]",1601,17,391,Arcane Bracer,3,2
+"Well, if you say so.","[{'effect_string': 'global_dps_multiplier_mult,230'}]",1602,17,392,Wonderous Bracer of the Greatest Wizard,4,2
+It'll do until I can get back into my usual wardrobe.,"[{'effect_string': 'buff_upgrade,25,596'}]",1604,17,393,Ratty Cloak,1,3
+"It's not mine, I'm just borrowing it.","[{'effect_string': 'buff_upgrade,87.5,596'}]",1604,17,394,Apprentice's Cloak,2,3
+"Velvet is the hallmark of impressive wizards, you know.","[{'effect_string': 'buff_upgrade,150,596'}]",1605,17,395,Velvet Cloak,3,3
+"I am respected, aren't I?","[{'effect_string': 'buff_upgrade,275,596'}]",1603,17,396,Flowing Cloak of the Respected Wizard,4,3
+"In the hands of an amazing wizard such as myself, even a simple ring can be powerful.","[{'effect_string': 'buff_upgrade,25,597'}]",1606,17,397,Tin Ring,1,4
+"It may not look like much - or be much, for that matter - but it's mine, so it's impressive.","[{'effect_string': 'buff_upgrade,87.5,597'}]",1606,17,398,Shiny Iron Ring,2,4
+"Just a single touch can turn a man to ice. Or make them somewhat chilly, at least.","[{'effect_string': 'buff_upgrade,150,597'}]",1607,17,399,Frosted Ring,3,4
+Not that I have to prove myself to anyone.,"[{'effect_string': 'buff_upgrade,275,597'}]",1608,17,400,Frozen Ring of the Proven Wizard,4,4
+Nothing a little ingenuity can't fix.,"[{'effect_string': 'buff_ultimate,25'}]",1609,17,401,Cracked Staff,1,5
+"If your staff isn't glowing, you're not wizarding right.","[{'effect_string': 'buff_ultimate,87.5'}]",1609,17,402,Glowing Staff,2,5
+Shining like the statue of me in the Luskan harbour will be. Once I get my due.,"[{'effect_string': 'buff_ultimate,150'}]",1610,17,403,Shining Staff,3,5
+Are you sure 'legendary' is the right word? It seems too simple to me.,"[{'effect_string': 'buff_ultimate,275'}]",1611,17,404,Brilliant Staff of the Legendary Wizard,4,5
+The Arcane Brotherhood's symbol should never be displayed so dimly.,"[{'effect_string': 'reduce_ultimate_cooldown,7'}]",1612,17,405,Dull Amulet,1,6
+It's a little difficult to handle. Shocks you when you touch it.,"[{'effect_string': 'reduce_ultimate_cooldown,13'}]",1612,17,406,Sparking Amulet,2,6
+A wonderful symbol of the Brotherhood.,"[{'effect_string': 'reduce_ultimate_cooldown,25'}]",1613,17,407,Onyx Arcane Brotherhood Amulet,3,6
+"I certainly wouldn't want to assume a rank, but that sounds about right.","[{'effect_string': 'reduce_ultimate_cooldown,63'}]",1614,17,408,Master's Amulet of the Arcane Brotherhood,4,6
+The first scimitar I used in my training with Zaknafein.,"[{'effect_string': 'hero_dps_multiplier_mult,50'}]",1715,18,409,Cracked Scimitar,1,1
+An instrument of death in the hands of an experienced drow warrior.,"[{'effect_string': 'hero_dps_multiplier_mult,125'}]",1715,18,410,Sharp Scimitar,2,1
+It pulses with a soft icy glow.,"[{'effect_string': 'hero_dps_multiplier_mult,200'}]",1716,18,411,Frostbrand Scimitar,3,1
+"Found in the treasure hoard of the white dragon Ingeloakastimizilian, better known as Icingdeath.","[{'effect_string': 'hero_dps_multiplier_mult,350'}]",1717,18,412,Icingdeath,4,1
+A dull weapon suitable for training young Drow in the ways of battle.,"[{'effect_string': 'hero_dps_multiplier_mult,50'}]",1721,18,413,Dull Scimitar,1,2
+A slender weapon; far more deadly than a bulky greatsword.,"[{'effect_string': 'hero_dps_multiplier_mult,125'}]",1721,18,414,Lithe Scimitar,2,2
+An experienced warrior can use a sword for defense as well as offense.,"[{'effect_string': 'hero_dps_multiplier_mult,200'}]",1722,18,415,Defender Scimitar,3,2
+Gifted to me by a Harpell of all people. One of the few sane ones.,"[{'effect_string': 'hero_dps_multiplier_mult,350'}]",1723,18,416,Twinkle,4,2
+"An apt metaphor for myself, if I'm being introspective.","[{'effect_string': 'global_dps_multiplier_mult,10'}]",1709,18,417,Tattered Cloak,1,3
+Allows you to blend in with the stony crags and otherworldly fungi of the Underdark.,"[{'effect_string': 'global_dps_multiplier_mult,65'}]",1709,18,418,Underdark Cloak,2,3
+There was a time I would have been thrilled to receive this cloak. Now I use it because I must.,"[{'effect_string': 'global_dps_multiplier_mult,120'}]",1710,18,419,Drow Ranger's Cloak,3,3
+Gifted to me by the Weeping Friars. Strange folk.,"[{'effect_string': 'global_dps_multiplier_mult,230'}]",1711,18,420,Hooded Cloak of the Faerûn Hero,4,3
+It would be better if you simply didn't get hit while wearing this.,"[{'effect_string': 'buff_upgrade,25,634'}]",1712,18,421,Flimsy Chest Piece,1,4
+A generic leather chest piece. Not much to note.,"[{'effect_string': 'buff_upgrade,87.5,634'}]",1712,18,422,Leather Chest Piece,2,4
+Aids me in moving quickly and silently through most terrain.,"[{'effect_string': 'buff_upgrade,150,634'}]",1713,18,423,Drow Ranger's Chest Piece,3,4
+"I miss my homeland some days, but I don't miss the pain and strife that consumes that place.","[{'effect_string': 'buff_upgrade,275,634'}]",1714,18,424,Chest Piece of the Lost Homeland,4,4
+A children's play-thing.,"[{'effect_string': 'buff_ultimate,25'}]",1718,18,425,Panther Toy,1,5
+It has been painted black to resemble a more powerful artifact.,"[{'effect_string': 'buff_ultimate,87.5'}]",1718,18,426,Tin Statue,2,5
+"Transforms into a black panther upon command. Not Guenhwyvar, though.","[{'effect_string': 'buff_ultimate,150'}]",1719,18,427,Onyx Figurine,3,5
+"A unique figurine that summons my faithful companion, Guenhwyvar.","[{'effect_string': 'buff_ultimate,275'}]",1720,18,428,Figurine of Guenhwyvar,4,5
+An apprentice's replica of a far more powerful artifact.,"[{'effect_string': 'reduce_ultimate_cooldown,7'}]",1724,18,429,Steel Charm,1,6
+A simple charm engraved with a unicorn motif.,"[{'effect_string': 'reduce_ultimate_cooldown,14'}]",1724,18,430,Engraved Charm,2,6
+"Can be used to summon a faithful unicorn mount, if you are worthy.","[{'effect_string': 'reduce_ultimate_cooldown,28'}]",1725,18,431,Unicorn Necklace,3,6
+The ruling council of Silverymoon granted me Andarhar as gratitude for my service.,"[{'effect_string': 'reduce_ultimate_cooldown,70'}]",1726,18,432,Horn Charm of Mielikki,4,6
+"Still sturdy enough to cause damage, if ye know what yer doin'.","[{'effect_string': 'hero_dps_multiplier_mult,50'}]",1907,19,433,Cracked Hammer,1,1
+A hammer's just a chunk o' iron 'til it's in the hands of a proper warrior.,"[{'effect_string': 'hero_dps_multiplier_mult,125'}]",1907,19,434,Stout Hammer,2,1
+The last thing me enemies see before Gorm takes 'em.,"[{'effect_string': 'hero_dps_multiplier_mult,200'}]",1908,19,435,Shining Hammer,3,1
+"A beacon of hope for all who see its mighty swing. Enemies not included, of course.","[{'effect_string': 'hero_dps_multiplier_mult,350'}]",1909,19,436,Golden Hammer of Clan Undurr,4,1
+"A sad thing, but it's nice to have somethin' to follow.","[{'effect_string': 'global_dps_multiplier_mult,10'}]",1898,19,437,Ratty Banner,1,2
+As durable as the Order of the Gauntlet itself.,"[{'effect_string': 'global_dps_multiplier_mult,65'}]",1898,19,438,Durable Banner,2,2
+Brings a tear to me eye seein' it flap in the wind.,"[{'effect_string': 'global_dps_multiplier_mult,120'}]",1899,19,439,Waving Banner,3,2
+The Order is my home now. I shall follow them to the end o' time.,"[{'effect_string': 'global_dps_multiplier_mult,230'}]",1900,19,440,Order of the Gauntlet Banner,4,2
+Even the craggiest chunk of brass can have great meaning.,"[{'effect_string': 'buff_upgrade,25,640'}]",1913,19,441,Dull Brass Symbol,1,3
+There was a time that I dinnae know what this symbol meant.,"[{'effect_string': 'buff_upgrade,87.5,640'}]",1913,19,442,Dwarf-Forged Symbol,2,3
+"In me time of need, Gorm has been a shining beacon of hope.","[{'effect_string': 'buff_upgrade,150,640'}]",1914,19,443,Symbol of Gorm,3,3
+"Gorm Gulthyn himself has chosen me as his emissary, of this I am sure.","[{'effect_string': 'buff_upgrade,275,640'}]",1915,19,444,Faithful Golden Amulet of Gorm,4,3
+"Protects me waist and me legs! A little on the heavy side, though.","[{'effect_string': 'buff_upgrade,25,641'}]",1901,19,445,Heavy Belt,1,4
+Yer gonna need a strong blow to get through this.,"[{'effect_string': 'buff_upgrade,87.5,641'}]",1901,19,446,Iron Plated Belt,2,4
+"I was thinkin' one day, what haven't I plated in gold yet? Then I looked down.","[{'effect_string': 'buff_upgrade,150,641'}]",1902,19,447,Gold Plated Belt,3,4
+It is my solemn duty to aid those in need and defend those who cannae defend themselves.,"[{'effect_string': 'buff_upgrade,275,641'}]",1903,19,448,Shining Belt of the Devout Cleric,4,4
+I'm one tough dwarf to crack.,"[{'effect_string': 'buff_ultimate,25'}]",1904,19,449,Steel Breastplate,1,5
+"Ye can never have enough gold on yer armor, ye know.","[{'effect_string': 'buff_ultimate,87.5'}]",1904,19,450,Ornate Breastplate,2,5
+"A masterfully crafted breastplate, if I ever saw one.","[{'effect_string': 'buff_ultimate,150'}]",1905,19,451,Gemmed Breastplate,3,5
+"Perhaps a little over the top, yea, but if it causes just one enemy to pause, it's done its job.","[{'effect_string': 'buff_ultimate,275'}]",1906,19,452,Bejewelled Breastplate of Dwarves,4,5
+"The old helm of my beloved, Storn Skulldark.","[{'effect_string': 'reduce_ultimate_cooldown,9'}]",1910,19,453,Used Helmet,1,6
+Granted to me by the Order of the Gauntlet when I joined their ranks.,"[{'effect_string': 'reduce_ultimate_cooldown,18'}]",1910,19,454,New Helmet,2,6
+"Dinnae worry about me, it's reinforced with good dwarven steel.","[{'effect_string': 'reduce_ultimate_cooldown,36'}]",1911,19,455,Jewelled Helmet,3,6
+Granted only to the Order's most devout and effective followers.,"[{'effect_string': 'reduce_ultimate_cooldown,90'}]",1912,19,456,Brilliant Helmet of the Order,4,6
+"I prefer sneaking to stabbing, to be honest.","[{'effect_string': 'hero_dps_multiplier_mult,50'}]",2041,20,457,Dull Dagger,1,1
+This is what happens when you try to fight. Your nice things get chipped.,"[{'effect_string': 'hero_dps_multiplier_mult,125'}]",2041,20,458,Chipped Dagger,2,1
+"A solid dagger for a solid fellow, if I do say so myself.","[{'effect_string': 'hero_dps_multiplier_mult,200'}]",2042,20,459,Halfling's Dagger,3,1
+I'd rather not use this. It's quite nice and pristine.,"[{'effect_string': 'hero_dps_multiplier_mult,350'}]",2043,20,460,Inscribed Dagger of the Hesitant Rogue,4,1
+It kind of... bends... when you swing it.,"[{'effect_string': 'global_dps_multiplier_mult,10'}]",2044,20,461,Light Mace,1,2
+Orcs don't take too kindly to being bopped by this mace. Take it from me.,"[{'effect_string': 'global_dps_multiplier_mult,65'}]",2044,20,462,Dented Mace,2,2
+This mace and I have travelled many roads together.,"[{'effect_string': 'global_dps_multiplier_mult,120'}]",2045,20,463,Traveller's Mace,3,2
+Did I ever tell you about the time I ruled the Mithral Hall?,"[{'effect_string': 'global_dps_multiplier_mult,230'}]",2046,20,464,Short Mace of Dwarven Rule,4,2
+This ruby ought to fetch a good price in Baldur's Gate.,"[{'effect_string': 'buff_upgrades,25,695,696', 'description': ""Increases the effect of Regis' Ruby Encouragement ability by $(amount)%.""}]",2032,20,465,Dull Ruby Amulet,1,3
+It certainly is alluring.,"[{'effect_string': 'buff_upgrades,87.5,695,696', 'description': ""Increases the effect of Regis' Ruby Encouragement ability by $(amount)%.""}]",2032,20,466,Shiny Ruby Amulet,2,3
+I suspect it holds some magical power.,"[{'effect_string': 'buff_upgrades,150,695,696', 'description': ""Increases the effect of Regis' Ruby Encouragement ability by $(amount)%.""}]",2033,20,467,Pulsing Ruby Amulet,3,3
+"Oh, don't worry. He won't miss it. He's got eleven others.","[{'effect_string': 'buff_upgrades,275,695,696', 'description': ""Increases the effect of Regis' Ruby Encouragement ability by $(amount)%.""}]",2034,20,468,Pasha Pook's Ruby Amulet,4,3
+Spoiled?! I fished it up just a few days ago.,"[{'effect_string': 'buff_upgrades,25,697,698,699', 'description': ""Increases the effect of Regis' Ruby Weakness ability by $(amount)%.""}]",2062,20,469,Spoiled Trout,1,4
+"A trout worthy of an adventurer's lunch sack, if I ever saw one.","[{'effect_string': 'buff_upgrades,87.5,697,698,699', 'description': ""Increases the effect of Regis' Ruby Weakness ability by $(amount)%.""}]",2062,20,470,Dry Trout,2,4
+Who doesn't like a nice snack mid-adventure?,"[{'effect_string': 'buff_upgrades,150,697,698,699', 'description': ""Increases the effect of Regis' Ruby Weakness ability by $(amount)%.""}]",2063,20,471,Filet o' Knuckhead,3,4
+The perfect snack for a journey to Icewind Dale.,"[{'effect_string': 'buff_upgrades,275,697,698,699', 'description': ""Increases the effect of Regis' Ruby Weakness ability by $(amount)%.""}]",2064,20,472,Freshly Salted Knucklehead Trout,4,4
+You put things in and they almost immediately fall out.,"[{'effect_string': 'buff_ultimate,25'}]",2035,20,473,Holey Bag,1,5
+"Certainly won't fall apart on you, no matter how long your travels.","[{'effect_string': 'buff_ultimate,87.5'}]",2035,20,474,Sturdy Bag,2,5
+For when your journey may be longer than your foresight.,"[{'effect_string': 'buff_ultimate,150'}]",2036,20,475,Traveller's Bag,3,5
+"It's like a Bag of Holding, except completely plain and non-magical.","[{'effect_string': 'buff_ultimate,275'}]",2037,20,476,Halfling's Bag of Stashing,4,5
+"If you're going to fight, you may as well be wearing a hat.","[{'effect_string': 'reduce_ultimate_cooldown,8'}]",2038,20,477,Faded Beret,1,6
+"If you're going to fight, you may as well be comfortable.","[{'effect_string': 'reduce_ultimate_cooldown,15'}]",2038,20,478,Comfortable Beret,2,6
+"If you're going to fight, you may as well be fashionable.","[{'effect_string': 'reduce_ultimate_cooldown,30'}]",2039,20,479,Fashionable Beret,3,6
+"Rather than fight, why not simply blend in with the enemy?","[{'effect_string': 'reduce_ultimate_cooldown,75'}]",2040,20,480,Protective Beret of Disguise,4,6
+Sharper and lighter than an iron sword.,"[{'effect_string': 'hero_dps_multiplier_mult,125'}]",2140,21,482,Steel Shortsword,2,1
+"Sturdy but heavy, enough to inflict damage with some moderate effort.","[{'effect_string': 'hero_dps_multiplier_mult,50'}]",2140,21,481,Iron Shortsword,1,1
+This blade sings the songs of battle.,"[{'effect_string': 'hero_dps_multiplier_mult,200'}]",2141,21,483,Singing Sword,3,1
+"It never needs to be sharpened, much like my wit!","[{'effect_string': 'hero_dps_multiplier_mult,350'}]",2142,21,484,Hardy Sword of Sharpness,4,1
+Simple bracers fashioned from discarded cloth.,"[{'effect_string': 'hero_dps_multiplier_mult,50'}]",2134,21,485,Cloth Bracers,1,2
+"These wraps provide moderate defense, but primarily help brace my arm in battle.","[{'effect_string': 'hero_dps_multiplier_mult,125'}]",2134,21,486,Wrapped Bracers,2,2
+A stable bracer that aids in both attack and defense.,"[{'effect_string': 'hero_dps_multiplier_mult,200'}]",2135,21,487,Hardened Leather Bracers,3,2
+"If you look hard enough, you can find music in everything.","[{'effect_string': 'hero_dps_multiplier_mult,350'}]",2136,21,488,Reinforced Bracers of Song,4,2
+"Produces a rusty, clanging sound. Good enough to keep tempo in battle.","[{'effect_string': 'global_dps_multiplier_mult,10'}]",2128,21,489,Brass Anklet,1,3
+"They may not aid in stealth, but my songs are much more potent.","[{'effect_string': 'global_dps_multiplier_mult,65'}]",2128,21,490,Ringing Anklet,2,3
+Empowers my allies against the darkness and the dead.,"[{'effect_string': 'global_dps_multiplier_mult,120'}]",2129,21,491,Jingling Anklet,3,3
+Rings true and proud as I wade though battle.,"[{'effect_string': 'global_dps_multiplier_mult,230'}]",2130,21,492,Perfect Anklet of Pure Pitch,4,3
+"A bit out a tune, but it's cheap.","[{'effect_string': 'buff_upgrade,25,741'}]",2137,21,493,Simple Lute,1,4
+This magical instrument creates a unique and empowering sound.,"[{'effect_string': 'buff_upgrade,87.5,741'}]",2137,21,494,Doss Lute,2,4
+The golden frets create a sound which can be heard over great distances.,"[{'effect_string': 'buff_upgrade,150,741'}]",2138,21,495,Gold-inlaid Lute,3,4
+An instrument as finely crafted as one could ever hope to own.,"[{'effect_string': 'buff_upgrade,275,741'}]",2139,21,496,Masterwork Lute of Rest,4,4
+It would not help if my pants fell down during battle.,"[{'effect_string': 'buff_ultimate,25'}]",2131,21,497,Simple Belt,1,5
+An alligator thought it could best me in combat. Obviously it did not.,"[{'effect_string': 'buff_ultimate,87.5'}]",2131,21,498,Alligator Leather Belt,2,5
+A raptor's hide -- if you can take one down -- is extremely durable.,"[{'effect_string': 'buff_ultimate,150'}]",2132,21,499,Dinosaur Hide Belt,3,5
+Who says you can't be fashionable in battle?,"[{'effect_string': 'buff_ultimate,275'}]",2133,21,500,Gold-inlaid Belt of Tempo,4,5
+"A little worse for wear, but it's better than nothing.","[{'effect_string': 'reduce_ultimate_cooldown,5'}]",2143,21,501,Padded Cloth Pauldron,1,6
+"Made in native Chultan fashion, with a few extra Chult-specific dangers in mind.","[{'effect_string': 'reduce_ultimate_cooldown,9'}]",2143,21,502,Chultan Pauldron,2,6
+"With raptor-like scales fashioned from silver, this tunic provides excellent defense and mobility.","[{'effect_string': 'reduce_ultimate_cooldown,18'}]",2144,21,503,Silver Scale Tunic,3,6
+"Lighter than it appears, this armor both looks good and provides unparallelled defense.","[{'effect_string': 'reduce_ultimate_cooldown,45'}]",2145,21,504,Sapphire-inlaid Linked Armor,4,6
+A little tougher to reload than your average crossbow.,"[{'effect_string': 'hero_dps_multiplier_mult,50'}]",2377,22,505,Rusty Crossbow,1,1
+"A sturdy crossbow, though its destructive potential is lackluster.","[{'effect_string': 'hero_dps_multiplier_mult,125'}]",2377,22,506,Oak Crossbow,2,1
+Reinforced with an alloy of my own invention.,"[{'effect_string': 'hero_dps_multiplier_mult,200'}]",2378,22,507,Reinforced Crossbow,3,1
+The draw strength is several times higher than any gnome could manage unaided.,"[{'effect_string': 'hero_dps_multiplier_mult,350'}]",2379,22,508,Thunderbolt,4,1
+"Well worn and still warm, but not ideal for tracking prey through the forest.","[{'effect_string': 'global_dps_multiplier_mult,10'}]",2371,22,509,Worn Cloak,1,2
+"A simple cloak made for someone of a shorter stature, like myself.","[{'effect_string': 'global_dps_multiplier_mult,65'}]",2371,22,510,Gnome's Cloak,2,2
+"Blends in with the forest, allowing me to pass unseen.","[{'effect_string': 'global_dps_multiplier_mult,120'}]",2372,22,511,Blending Cloak,3,2
+"Even all these years later, my heart still beats faster when I see a dark elf.","[{'effect_string': 'global_dps_multiplier_mult,230'}]",2373,22,512,Long Ranger's Cloak of Vengeance,4,2
+It's still got a few bolts left; they'll have to do.,"[{'effect_string': 'buff_upgrades,25,843,844,845,846,847', 'description': ""Increases the effect of Zorbu's Favored Enemy abilities by $(amount)%.""}]",2383,22,513,Nearly Empty Quiver,1,3
+It won't tear or rip when I grab a bolt.,"[{'effect_string': 'buff_upgrades,87.5,843,844,845,846,847', 'description': ""Increases the effect of Zorbu's Favored Enemy abilities by $(amount)%.""}]",2383,22,514,Tough Hide Quiver,2,3
+As finely crafted a quiver as a ranger could hope for.,"[{'effect_string': 'buff_upgrades,150,843,844,845,846,847', 'description': ""Increases the effect of Zorbu's Favored Enemy abilities by $(amount)%.""}]",2384,22,515,Finely Crafted Quiver,3,3
+The capacity of this quiver never seems to expire.,"[{'effect_string': 'buff_upgrades,275,843,844,845,846,847', 'description': ""Increases the effect of Zorbu's Favored Enemy abilities by $(amount)%.""}]",2385,22,516,Bursting Quiver of the Endless Barrage,4,3
+Scrapped together from a few failed experiments.,"[{'effect_string': 'buff_upgrade,25,848'}]",2380,22,517,Patchwork Glasses,1,4
+"They're heavy, but it's better than being blind!","[{'effect_string': 'buff_upgrade,87.5,848'}]",2380,22,518,Heavy Metal Glasses,2,4
+Have you read the latest symposium on clockwork animals? Fascinating!,"[{'effect_string': 'buff_upgrade,150,848'}]",2381,22,519,Gnomish Reading Glasses,3,4
+"When you're as old as I am, a good set of glasses is a lifesaver.","[{'effect_string': 'buff_upgrade,275,848'}]",2382,22,520,Bifocal Glasses of the Aged Gnome,4,4
+"Go on, skibbers! You can make it!","[{'effect_string': 'buff_ultimate,25'}]",2374,22,521,Rusty Mechanical Squirrel,1,5
+That... can't be good.,"[{'effect_string': 'buff_ultimate,87.5'}]",2374,22,522,Sparking Mechanical Squirrel,2,5
+"Come on, buddy! You can make it!","[{'effect_string': 'buff_ultimate,150'}]",2375,22,523,Skittering Mechanical Squirrel,3,5
+I call him skibbers! He goes boom!,"[{'effect_string': 'buff_ultimate,275'}]",2376,22,524,Clockwork Squirrel of Alchemist's Fire,4,5
+"It's missing a few important tools, but I can make do.","[{'effect_string': 'reduce_ultimate_cooldown,6'}]",2386,22,525,Sparse Toolset,1,6
+This ol' set has gotten me out of more than a couple close scrapes.,"[{'effect_string': 'reduce_ultimate_cooldown,12'}]",2386,22,526,Worn Toolset,2,6
+"Every tool you could ever want. No nozzle, nail, or nut can withstand me.","[{'effect_string': 'reduce_ultimate_cooldown,24'}]",2387,22,527,Complete Toolset,3,6
+"If skibbers does his job right, I'll need this set to fix him up.","[{'effect_string': 'reduce_ultimate_cooldown,60'}]",2388,22,528,Tinker's Toolset of Total Annihilation,4,6
+It's a *good* mold.,"[{'effect_string': 'hero_dps_multiplier_mult,50'}]",2500,23,529,Moldy Snacks,1,1
+I made them just for you.,"[{'effect_string': 'hero_dps_multiplier_mult,125'}]",2500,23,530,Sad Snacks,2,1
+No promises that the flavors are tasty.,"[{'effect_string': 'hero_dps_multiplier_mult,200'}]",2501,23,531,Flavorful Snacks,3,1
+There's barely anything that will kill you!,"[{'effect_string': 'hero_dps_multiplier_mult,350'}]",2502,23,532,Tasty Snicketty Snooks,4,1
+"'Get a new hat,' they say. No, I like this one! It's comfy!","[{'effect_string': 'hero_dps_multiplier_mult,50'}]",2491,23,533,Tattered Witch Hat,1,2
+It got caught on a bramble in Barovia.,"[{'effect_string': 'hero_dps_multiplier_mult,125'}]",2491,23,534,Torn Witch Hat,2,2
+"Holey, not holy! Very much not holy.","[{'effect_string': 'hero_dps_multiplier_mult,200'}]",2492,23,535,Holey Witch Hat,3,2
+What?! There's all that wasted space!,"[{'effect_string': 'hero_dps_multiplier_mult,350'}]",2493,23,536,Snack-Filled Witch Hat,4,2
+"That's not dirt, that's Stinky!","[{'effect_string': 'global_dps_multiplier_mult,10'}]",2494,23,537,Dirty Pot,1,3
+I really should patch that up someday.,"[{'effect_string': 'global_dps_multiplier_mult,65'}]",2494,23,538,Leaking Pot,2,3
+Dang rat's heavier now than he was when he was alive.,"[{'effect_string': 'global_dps_multiplier_mult,120'}]",2495,23,539,Large Heavy Pot,3,3
+"I miss my old cranium rat. RIP, buddy.","[{'effect_string': 'global_dps_multiplier_mult,230'}]",2496,23,540,Polished Pot of Stinky's Ashes,4,3
+"Hey, there's some good stuff in there!","[{'effect_string': 'buff_upgrade,25,871'}]",2497,23,541,Assorted Garbage,1,4
+Garbage? I'll show you garbage!,"[{'effect_string': 'buff_upgrade,87.5,871'}]",2497,23,542,Pile of Garbage,2,4
+They're irreplacable!,"[{'effect_string': 'buff_upgrade,150,871'}]",2498,23,543,Collected Knick-Knacks,3,4
+I can't believe nobody else wants this stuff! It's priceless!,"[{'effect_string': 'buff_upgrade,275,871'}]",2499,23,544,Super High Quality Garbage,4,4
+I can't quite make out the runes. They look kinda magic.,"[{'effect_string': 'hero_dps_multiplier_if_attack,25,92,93,95', 'description': 'Increases the damage of Strix while one of her Ultimates is active by $(amount)%.'}]",2503,23,545,Dim Staff,1,5
+A solid staff for someone who knows magic.,"[{'effect_string': 'hero_dps_multiplier_if_attack,87.5,92,93,95', 'description': 'Increases the damage of Strix while one of her Ultimates is active by $(amount)%.'}]",2503,23,546,Black Wooden Staff,2,5
+Do you think maybe it knows magic?,"[{'effect_string': 'hero_dps_multiplier_if_attack,150,92,93,95', 'description': 'Increases the damage of Strix while one of her Ultimates is active by $(amount)%.'}]",2504,23,547,Mystical Runed Staff,3,5
+I know magic!,"[{'effect_string': 'hero_dps_multiplier_if_attack,275,92,93,95', 'description': 'Increases the damage of Strix while one of her Ultimates is active by $(amount)%.'}]",2505,23,548,Polymorphing Staff of the Trash Witch,4,5
+Stinky? I don't smell anything.,"[{'effect_string': 'reduce_ultimate_cooldown,7'}]",2488,23,549,Stinky Owlbear Cloak,1,6
+The hem doesn't drag along the ground. I'd rather it did.,"[{'effect_string': 'reduce_ultimate_cooldown,14'}]",2488,23,550,Short Owlbear Cloak ,2,6
+Keeps me cozy in cold places.,"[{'effect_string': 'reduce_ultimate_cooldown,27'}]",2489,23,551,Warm Owlbear Cloak,3,6
+I can hide within its folds if I need to.,"[{'effect_string': 'reduce_ultimate_cooldown,68'}]",2490,23,552,Dark Owlbear Cloak of the Sad Sorcerer,4,6
+Still functions as a passable stave. I will need to get this sharpened.,"[{'effect_string': 'hero_dps_multiplier_mult,50'}]",2709,24,553,Dull Naginata,1,1
+"A decent enough material, for your type at least.","[{'effect_string': 'hero_dps_multiplier_mult,125'}]",2709,24,554,Steel Naginata,2,1
+Aha! Gith silver is unparallelled in battle. For Zaerith!,"[{'effect_string': 'hero_dps_multiplier_mult,200'}]",2710,24,555,Silver Naginata,3,1
+The force of this Naginata disrupts the Illithid's psionic field.,"[{'effect_string': 'hero_dps_multiplier_mult,350'}]",2711,24,556,Kensei Naginata of Illithid Slaying,4,1
+"They are quite comfortable, unlike your Material Plane.","[{'effect_string': 'hero_dps_multiplier_mult,50'}]",2703,24,557,Woven Bracers,1,2
+"Your world is cold and unpleasant, but I will adapt.","[{'effect_string': 'hero_dps_multiplier_mult,125'}]",2703,24,558,Dyed Wool Bracers,2,2
+"I would prefer a Limbo-crafted pair, but these will do.","[{'effect_string': 'hero_dps_multiplier_mult,200'}]",2704,24,559,Fine Bracers,3,2
+Crafted by Githzerai artificers out of Limbo chaos-stuff.,"[{'effect_string': 'hero_dps_multiplier_mult,350'}]",2705,24,560,Chaotic Bracers of the Githzerai,4,2
+"Well that's not much use to me now, is it?","[{'effect_string': 'global_dps_multiplier_mult,10'}]",2697,24,561,Sealed Jug,1,3
+"Almost as useless as a sealed jug, but at least I can fill it.","[{'effect_string': 'global_dps_multiplier_mult,65'}]",2697,24,562,Empty Jug,2,3
+A wonderous device. Would you like 2 gallons of mayonnaise?,"[{'effect_string': 'global_dps_multiplier_mult,120'}]",2698,24,563,Alchemy Jug,3,3
+"Useful for long journeys through the Material Plane, such as the one I'm on.","[{'effect_string': 'global_dps_multiplier_mult,230'}]",2699,24,564,Overflowing Alchemy Jug,4,3
+"A trinket. A toy. Not of much use, to be honest.","[{'effect_string': 'buff_upgrade,25,896'}]",2700,24,565,Ruby Amulet,1,4
+"A precious gem for you, perhaps, but easily come by in Limbo.","[{'effect_string': 'buff_upgrade,87.5,896'}]",2700,24,566,Bloodstone Amulet,2,4
+Only when one is calm can one access Ki.,"[{'effect_string': 'buff_upgrade,150,896'}]",2701,24,567,Calming Amulet,3,4
+The swirling reminds me of Limbo.,"[{'effect_string': 'buff_upgrade,275,896'}]",2702,24,568,Planar Amulet of Homecoming,4,4
+"A simple accessory, but comforting in this strange place.","[{'effect_string': 'buff_nrakk_ultimate,25'}]",2712,24,569,Short Scarf,1,5
+Keeps me warm during cold Material Plane nights.,"[{'effect_string': 'buff_nrakk_ultimate,87.5'}]",2712,24,570,Heavy Scarf,2,5
+Flits and flutters behind me in battle.,"[{'effect_string': 'buff_nrakk_ultimate,150'}]",2713,24,571,Embroidered Scarf,3,5
+"When my Ki is centered, the scarf barely flutters at all.","[{'effect_string': 'buff_nrakk_ultimate,275'}]",2714,24,572,Scarf of Fluid Motion,4,5
+Perhaps it once held some small magic.,"[{'effect_string': 'reduce_ultimate_cooldown,7'}]",2706,24,573,Depleted Ioun Stone,1,6
+"Its magic barely strong enough to detect, let alone make use of.","[{'effect_string': 'reduce_ultimate_cooldown,13'}]",2706,24,574,Dim Ioun Stone,2,6
+I can't be surprised when this stone's magic is active.,"[{'effect_string': 'reduce_ultimate_cooldown,26'}]",2707,24,575,Ioun Stone of Awareness,3,6
+"Wisdom isn't something the Githzerai lack, but this takes it to a new level.","[{'effect_string': 'reduce_ultimate_cooldown,65'}]",2708,24,576,Pulsing Ioun Stone of Wisdom,4,6
+"It has seen battle more than once, and it'll see battle again.","[{'effect_string': 'hero_dps_multiplier_mult,50'}]",2797,25,577,Well Worn Longbow,1,1
+If I had a copper for every knock-off elven bow I've seen...,"[{'effect_string': 'hero_dps_multiplier_mult,125'}]",2797,25,578,Fine Elven Longbow,2,1
+As finely crafted a bow as you will ever see!,"[{'effect_string': 'hero_dps_multiplier_mult,200'}]",2798,25,579,Polished Wood Longbow,3,1
+Also known as Heartseeker. My shots never miss.,"[{'effect_string': 'hero_dps_multiplier_mult,350'}]",2799,25,580,Taulmaril,4,1
+Simple yet effective.,"[{'effect_string': 'global_dps_multiplier_mult,10'}]",2800,25,581,Leather Bracers,1,2
+"Bracers fit for any warrior, but these are mine.","[{'effect_string': 'global_dps_multiplier_mult,65'}]",2800,25,582,Warrior's Bracers,2,2
+Fine northern craftsmanship. You won't find its like to the south.,"[{'effect_string': 'global_dps_multiplier_mult,120'}]",2801,25,583,Fine Studded Bracers,3,2
+A gift from Bruenor Battlehammer. Perhaps you know him?,"[{'effect_string': 'global_dps_multiplier_mult,230'}]",2802,25,584,Mithral Embedded Bracers,4,2
+Has anyone got a spare whetstone?,"[{'effect_string': 'buff_crit_chance,25,1034'}]",2806,25,585,Dull Dagger,1,3
+Blood and dirt will ruin a good dagger.,"[{'effect_string': 'buff_crit_chance,87.5,1034'}]",2806,25,586,Polished Dagger,2,3
+"A little flashy perhaps, but it still cuts true.","[{'effect_string': 'buff_crit_chance,150,1034'}]",2807,25,587,Embellished Dagger,3,3
+Never let them see you coming.,"[{'effect_string': 'buff_crit_chance,275,1034'}]",2808,25,588,Elven Dagger of the Ambush,4,3
+Hair in the face is never good in battle.,"[{'effect_string': 'buff_upgrade,25,1034'}]",2809,25,589,Iron Hairclip,1,4
+Lighter and more durable than other hairclips I've tried.,"[{'effect_string': 'buff_upgrade,87.5,1034'}]",2809,25,590,Steel Hairclip,2,4
+"It seemed like a lot of coin to spend on a hairclip, but it's worth it.","[{'effect_string': 'buff_upgrade,150,1034'}]",2810,25,591,Mastercraft Hairclip,3,4
+Forged in Mithral Hall by the best smithies in Faerûn.,"[{'effect_string': 'buff_upgrade,275,1034'}]",2811,25,592,Mithral Hairclip of the Companion,4,4
+Substance over style -- at least until I can get better style.,"[{'effect_string': 'buff_upgrade,25,1035'}]",2803,25,593,Dull Breastplate,1,5
+A bow does no good if a dagger kills you first.,"[{'effect_string': 'buff_upgrade,87.5,1035'}]",2803,25,594,Solid Breastplate,2,5
+The craftsmanship is incredible.,"[{'effect_string': 'buff_upgrade,150,1035'}]",2804,25,595,Inscribed Copper Breastplate,3,5
+"Champion? I've heard it said, though others deserve the title more than I.","[{'effect_string': 'buff_upgrade,275,1035'}]",2805,25,596,Shining Breastplate of the Champion,4,5
+"Not much use right now, but I can always fletch more arrows.","[{'effect_string': 'reduce_ultimate_cooldown,9'}]",2812,25,597,Empty Quiver,1,6
+Nothing's worse than a floppy quiver.,"[{'effect_string': 'reduce_ultimate_cooldown,17'}]",2812,25,598,Sturdy Quiver,2,6
+Arrows from this quiver always strike true.,"[{'effect_string': 'reduce_ultimate_cooldown,34'}]",2813,25,599,Heartseeking Quiver,3,6
+"Alongside its companion, Taulmaril, this quiver is priceless.","[{'effect_string': 'reduce_ultimate_cooldown,85'}]",2814,25,600,Quiver of Anariel,4,6
+"I dented it flying into battle against Strahd. It's fine, though!","[{'effect_string': 'hero_dps_multiplier_mult,50'}]",2941,26,601,Chipped Battleaxe,1,1
+I'm sure it'll sharpen itself! Let's keep fighting!,"[{'effect_string': 'hero_dps_multiplier_mult,125'}]",2941,26,602,Dulled Battleaxe,2,1
+The light itself loves this axe!,"[{'effect_string': 'hero_dps_multiplier_mult,200'}]",2942,26,603,Shining Battleaxe,3,1
+"My beloved battleaxe, reforged!","[{'effect_string': 'hero_dps_multiplier_mult,350'}]",2943,26,604,Lightfall,4,1
+C'mon little guy! Let's go for a run!,"[{'effect_string': 'global_dps_multiplier_mult,10'}]",2938,26,605,Chubby Mouse,1,2
+Wake up little buddy!,"[{'effect_string': 'global_dps_multiplier_mult,65'}]",2938,26,606,Sleepy Mouse,2,2
+What's that? What do you smell?,"[{'effect_string': 'global_dps_multiplier_mult,120'}]",2939,26,607,Alert Mouse,3,2
+"Careful, Juniper. I don't trust that Boo.","[{'effect_string': 'global_dps_multiplier_mult,230'}]",2940,26,608,Armored Juniper,4,2
+I've had this amulet since I was a young noble.,"[{'effect_string': 'buff_upgrade,25,1076'}]",2935,26,609,Child's Amulet,1,3
+Does anyone have a cloth? I need to polish this thing!,"[{'effect_string': 'buff_upgrade,87.5,1076'}]",2935,26,610,Scuffed Amulet,2,3
+The light protects me while I wear this amulet.,"[{'effect_string': 'buff_upgrade,150,1076'}]",2936,26,611,Shining Symbol,3,3
+Strahd will never see us coming. Right guys?!,"[{'effect_string': 'buff_upgrade,275,1076'}]",2937,26,612,Holy Symbol of Ravenkind,4,3
+This just won't do. I'll never protect the party with this!,"[{'effect_string': 'buff_upgrades,25,1080,1081', 'description': ""Increases the Divine Prayer bonus of Evelyn's specializations by $(amount)%.""}]",2932,26,613,Flimsy Breastplate,1,4
+"Sometimes you've got to take the hit, but I'm still standing.","[{'effect_string': 'buff_upgrades,87.5,1080,1081', 'description': ""Increases the Divine Prayer bonus of Evelyn's specializations by $(amount)%.""}]",2932,26,614,Dented Breastplate,2,4
+Lathander appreciates well polished armor.,"[{'effect_string': 'buff_upgrades,150,1080,1081', 'description': ""Increases the Divine Prayer bonus of Evelyn's specializations by $(amount)%.""}]",2933,26,615,Polished Breastplate,3,4
+The light will protect me!,"[{'effect_string': 'buff_upgrades,275,1080,1081', 'description': ""Increases the Divine Prayer bonus of Evelyn's specializations by $(amount)%.""}]",2934,26,616,Shining Breastplate of Lathander,4,4
+I think it's time to go shopping!,"[{'effect_string': 'buff_ultimate,25'}]",2947,26,617,Moldy Boots,1,5
+I feel almost weightless.,"[{'effect_string': 'buff_ultimate,87.5'}]",2947,26,618,Light Boots,2,5
+"Once you get used to it, flying isn't half bad.","[{'effect_string': 'buff_ultimate,150'}]",2948,26,619,Flying Boots,3,5
+Charging into battle for the light!,"[{'effect_string': 'buff_ultimate,275'}]",2949,26,620,Winged Boots of the Dawn,4,5
+Some pretty things that Strix didn't want.,"[{'effect_string': 'reduce_ultimate_cooldown,10'}]",2944,26,621,Few Pretty Things,1,6
+Aren't they pretty?!,"[{'effect_string': 'reduce_ultimate_cooldown,19'}]",2944,26,622,Several Pretty Things,2,6
+"I'm not really sure what's in here, but they're pretty!","[{'effect_string': 'reduce_ultimate_cooldown,38'}]",2945,26,623,Sack of Pretty Things,3,6
+Don't tell Strix. She'll judge me.,"[{'effect_string': 'reduce_ultimate_cooldown,95'}]",2946,26,624,Hoard of Pretty Things,4,6
+Are they sharp? They'll do.,"[{'effect_string': 'hero_dps_multiplier_mult,50'}]",3177,27,625,Rusty Axes,1,1
+"Don't worry, I've got an intricate two part plan.","[{'effect_string': 'hero_dps_multiplier_mult,125'}]",3177,27,626,Looted Axes,2,1
+Plan A: We fight our way out of here. Plan B? We'll deal with that later.,"[{'effect_string': 'hero_dps_multiplier_mult,200'}]",3178,27,627,Blades of the Dwarf,3,1
+Double axe to the back!,"[{'effect_string': 'hero_dps_multiplier_mult,350'}]",3179,27,628,Rook & Ruin,4,1
+It's... been around.,"[{'effect_string': 'hero_dps_multiplier_mult,50'}]",3162,27,629,Smelly Hide Cloak,1,2
+"Hey, my mom made if for me!","[{'effect_string': 'hero_dps_multiplier_mult,125'}]",3162,27,630,Patchwork Cloak,2,2
+I've seen a few cloaks in my day. But this one makes me look good!,"[{'effect_string': 'hero_dps_multiplier_mult,200'}]",3163,27,631,Dashing Cloak,3,2
+"If I find an acid pit, I can just lay this on top and I'm good, right? ","[{'effect_string': 'hero_dps_multiplier_mult,350'}]",3164,27,632,Bronzebottom's Acid-Washed Cloak,4,2
+It looks like the horn was chewed on by something.,"[{'effect_string': 'global_dps_multiplier_mult,10'}]",3171,27,633,Old Helmet,1,3
+"If the horns fall off, you've got yourself an improvised weapon! ","[{'effect_string': 'global_dps_multiplier_mult,65'}]",3171,27,634,Battered Skull Cap,2,3
+Best way through a door is headfirst. ,"[{'effect_string': 'global_dps_multiplier_mult,120'}]",3172,27,635,Helm of Door-bashing,3,3
+Bin it to win it!,"[{'effect_string': 'global_dps_multiplier_mult,230'}]",3173,27,636,Helm of the Binwin,4,3
+Given to me by my mother. She collects this kinda stuff. ,"[{'effect_string': 'buff_binwin_multi_attack_chance,10'}]",3174,27,637,Broken Quest Stone,1,4
+It started talking... and it won't show up! ,"[{'effect_string': 'buff_binwin_multi_attack_chance,35'}]",3174,27,638,Chatty Quest Stone,2,4
+"Rewards its bearer with riches, but at what cost?","[{'effect_string': 'buff_binwin_multi_attack_chance,60'}]",3175,27,639,Dwarven Quest Stone,3,4
+"I am Lady Phylia Stoutheart, Dwarven Quest Stone of Friendship and Loyalty.","[{'effect_string': 'buff_binwin_multi_attack_chance,110'}]",3176,27,640,Lady Phylia,4,4
+"It wobbles, but it still rolls!","[{'effect_string': 'buff_ultimate,25'}]",3165,27,641,Rusty Barrel,1,5
+Follow my lead!,"[{'effect_string': 'buff_ultimate,87.5'}]",3165,27,642,Market Barrel,2,5
+Pungent and potent.,"[{'effect_string': 'buff_ultimate,150'}]",3166,27,643,Cask of Skunk Ale,3,5
+Catchphrase!,"[{'effect_string': 'buff_ultimate,275'}]",3167,27,644,Battleready Brew,4,5
+I'm not the druid. I don't speak duck.,"[{'effect_string': 'reduce_ultimate_cooldown,5'}]",3168,27,645,Duckling Damsel,1,6
+QUONK!,"[{'effect_string': 'reduce_ultimate_cooldown,10'}]",3168,27,646,Faithful Duck Companion,2,6
+You give a duck ONE magic wand and everybody gets judgy.,"[{'effect_string': 'reduce_ultimate_cooldown,20'}]",3169,27,647,Duck Guard,3,6
+"Wielder of the wand of wonder, protector of the minions, and my gold.","[{'effect_string': 'reduce_ultimate_cooldown,49'}]",3170,27,648,Princess Duckersheim,4,6

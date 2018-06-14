@@ -1,0 +1,11 @@
+base_cooldown,description,duration,effect,graphic_id,hero_ids,id,name
+3600,Bruenor Active Ability - Global DPS x2,30,"effect_def,28",1,[],1,Commander
+1800,Celeste Active Ability - FAs x2,30,"{""effect_string"":""buff_upgrades,100,24,26"",""visual_effect"":""stars""}",1,[],2,Channel Divnity
+7200,Character Name: Nayeli Active Ability - Stun and take damage,0,"damage_and_stun,25,5,fall,198,199",1,[],3,Divine Smite
+900,Jarlaxle Active Ability - Attack twice as often,30,"{""effect_string"":""attack_speed_mult,100"",""visual_effect"":""red_sparks""}",1,[],4,Cunning Action
+1800,Calliope Active Ability - FA applies immediately to all heroes,30,"add_target_to_upgrade,all,72",1,[],5,Bardic Inspiration
+3600,Asharra Active Ability - All enemies are pushed away from the formation,0,"enemies_pushback,200,200",1,[],6,Fierce Gust
+3600,"Minsc Active Ability - Boo attacks enemies, increasing damage taken",30,"boo_attack_increase_damage,100,3",1,[],7,Go for the Eyes!
+3600,Delina Active Ability - Immediately activates Ultimate,30,activate_ultimate,1,[],8,Wild Magic
+3600,Makos Active Ability - Hero DPS x2,30,"{""effect_string"":""hero_dps_multiplier_mult,100"",""active_graphic_id"":201}",1,[],9,Pact Weapon
+3600,Tyril Active Ability - Transform into an Eagle and do sweet DPS,30,"hero_dps_multiplier_mult,1",1,[],10,Wild Shape

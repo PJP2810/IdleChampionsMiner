@@ -1975,7 +1975,7 @@
   "requirements": []
  },
  {
-  "description": "$target's Base Attack cooldown is permentantly increased by $(seconds_plural amount), but their damage is also increased by $(amount___2)%",
+  "description": "$target's Base Attack cooldown is permanently increased by $(seconds_plural amount), but their damage is also increased by $(amount___2)%",
   "effect_keys": [
    {
     "effect_string": "increase_attack_cooldown,1,87,92,95"
@@ -2353,7 +2353,7 @@
    "graphic_as_portrait": true,
    "is_formation_ability": true
   },
-  "requirements": ""
+  "requirements": []
  },
  {
   "description": "Increases the damage of Half-Orc and Half-Elf Champions by $(amount)%.",
@@ -2500,5 +2500,178 @@
    "graphic_as_portrait": true
   },
   "requirements": []
+ },
+ {
+  "description": "Petrifies $target, blocking their attacks and abilities",
+  "effect_keys": [
+   {
+    "effect_string": "disable_hero_properties,1,1,0,1",
+    "for_random": 1,
+    "for_time": 60,
+    "on_timer": 15,
+    "single_effect_per_slot": true,
+    "target_dead": false,
+    "target_empty_slots": false,
+    "targets": [
+     "all"
+    ],
+    "visual_effect": "greyscale"
+   }
+  ],
+  "flavour_text": "",
+  "graphic_id": 2950,
+  "id": 144,
+  "properties": {
+   "effect_name": "Petrification",
+   "graphic_as_portrait": true,
+   "individual_target_timers_desc": true,
+   "is_formation_ability": true,
+   "tracking_name": "petrification"
+  },
+  "requirements": []
+ },
+ {
+  "description": "Increases the Damage of all Champions behind $source in the formation by $amount%",
+  "effect_keys": [
+   {
+    "active_graphic_id": 3034,
+    "active_graphic_owner_only": true,
+    "active_graphic_y": -180,
+    "effect_string": "hero_dps_multiplier_mult,100",
+    "targets": [
+     "behind"
+    ]
+   }
+  ],
+  "flavour_text": "",
+  "graphic_id": 0,
+  "id": 145,
+  "properties": [],
+  "requirements": []
+ },
+ {
+  "description": "Every third attack, Evelyn cleaves nearby enemies as well",
+  "effect_keys": [
+   {
+    "alternate_attack_sequence": "attack_b",
+    "effect_string": "add_attack_aoe_targets_every,100,150,3,102"
+   }
+  ],
+  "flavour_text": "",
+  "graphic_id": 0,
+  "id": 146,
+  "properties": [],
+  "requirements": []
+ },
+ {
+  "description": "After $source hits an Enemy, Divine Prayer is buffed by $amount% for 15 seconds",
+  "effect_keys": [
+   {
+    "active_graphic_frame": 0,
+    "active_graphic_id": 3035,
+    "active_graphic_sort_offset": 1,
+    "active_graphic_y": -180,
+    "effect_string": "add_monster_hit_effects,100,102,103",
+    "monster_effect": {
+     "effect_string": "effect_def,148"
+    },
+    "target_hero": true
+   }
+  ],
+  "flavour_text": "",
+  "graphic_id": 0,
+  "id": 147,
+  "properties": {
+   "is_formation_ability": true,
+   "use_outgoing_description": true
+  },
+  "requirements": []
+ },
+ {
+  "description": "Increases the effect of $(upgrade_name id) by $amount% for 15 seconds",
+  "effect_keys": [
+   {
+    "active_graphic_frame": 1,
+    "active_graphic_id": 3035,
+    "active_graphic_sort_offset": 2,
+    "active_graphic_y": -180,
+    "effect_string": "buff_upgrade,0,1076",
+    "for_time": 15,
+    "stack_across_effects": true,
+    "time_stack_type": "time_reset"
+   }
+  ],
+  "flavour_text": "",
+  "graphic_id": 0,
+  "id": 148,
+  "properties": {
+   "effect_name": "Divinity",
+   "individual_target_timers_desc": true,
+   "is_formation_ability": true
+  },
+  "requirements": []
+ },
+ {
+  "description": "Increases the effect of $(upgrade_name id) by $amount% for each enemy attacking $source",
+  "effect_keys": [
+   {
+    "active_graphic_any_amount_frame": 1,
+    "active_graphic_id": 3036,
+    "active_graphic_sort_offset": 3,
+    "active_graphic_y": -180,
+    "effect_string": "buff_upgrade_per_attacking_monster,25,1076",
+    "targets": [
+     "self_slot"
+    ]
+   }
+  ],
+  "flavour_text": "",
+  "graphic_id": 0,
+  "id": 149,
+  "properties": {
+   "is_formation_ability": true
+  },
+  "requirements": []
+ },
+ {
+  "description": "After an ally effectively heals $source, Divine Prayer is buffed by $amount% for 15 seconds",
+  "effect_keys": [
+   {
+    "active_graphic_frame": 0,
+    "active_graphic_id": 3035,
+    "active_graphic_sort_offset": 1,
+    "active_graphic_y": -180,
+    "effect_string": "add_ally_effective_heal_effects,100",
+    "heal_effect": {
+     "effect_string": "effect_def,148"
+    },
+    "target_hero": true
+   }
+  ],
+  "flavour_text": "",
+  "graphic_id": 0,
+  "id": 150,
+  "properties": [],
+  "requirements": ""
+ },
+ {
+  "description": "Increases the effect of $(upgrade_name id) by $amount% for 15 seconds",
+  "effect_keys": [
+   {
+    "active_graphic_frame": 1,
+    "active_graphic_id": 3035,
+    "active_graphic_sort_offset": 2,
+    "active_graphic_y": -180,
+    "effect_string": "buff_upgrade,0,1076",
+    "for_time": 15,
+    "stack_across_effects": true,
+    "time_stack_type": "time_reset"
+   }
+  ],
+  "flavour_text": "",
+  "graphic_id": 0,
+  "id": 151,
+  "properties": [],
+  "requirements": ""
  }
 ]

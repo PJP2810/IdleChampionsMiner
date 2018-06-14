@@ -1697,7 +1697,7 @@
   "requirements": "Champion24EquipSlotsFull=6"
  },
  {
-  "description": "Complete area 175 in the \"The Endless War\" adventure",
+  "description": "Complete area 175 in the \"The Endless War\" free play",
   "effect": "global_dps_multiplier_mult,1",
   "graphic_id": 2659,
   "id": 158,
@@ -1721,11 +1721,11 @@
   "requirements": "NrakkFinishHim=1"
  },
  {
-  "description": "Recruit Catti-Brie, the Human Fighter",
+  "description": "Recruit Catti-brie, the Human Fighter",
   "effect": "global_dps_multiplier_mult,1",
   "graphic_id": 2835,
   "id": 161,
-  "name": "Recruit Catti-Brie",
+  "name": "Recruit Catti-brie",
   "properties": {
    "category": "The Running",
    "for_event": 23
@@ -1757,7 +1757,7 @@
   "requirements": "Adventure144VariantsCompleted>=3"
  },
  {
-  "description": "Obtain a piece of gear for each of Catti-Brie's six equipment slots",
+  "description": "Obtain a piece of gear for each of Catti-brie's six equipment slots",
   "effect": "global_dps_multiplier_mult,1",
   "graphic_id": 2837,
   "id": 163,
@@ -1769,11 +1769,11 @@
   "requirements": "Champion25EquipSlotsFull=6"
  },
  {
-  "description": "Complete area 175 in the \"The Grandfather Acorn\" adventure",
+  "description": "Complete area 175 in the \"The Grandfather Acorn\" free play",
   "effect": "global_dps_multiplier_mult,1",
   "graphic_id": 2838,
   "id": 164,
-  "name": "Complete 175",
+  "name": "Marathon",
   "properties": {
    "category": "The Running",
    "for_event": 23
@@ -1791,5 +1791,65 @@
    "for_event": 23
   },
   "requirements": "CattiBrieConsecutiveCrits>=5"
+ },
+ {
+  "description": "Recruit Evelyn, the Human Paladin",
+  "effect": "global_dps_multiplier_mult,1",
+  "graphic_id": 3027,
+  "id": 166,
+  "name": "Recruit Evelyn",
+  "properties": {
+   "category": "The Great Modron March",
+   "for_event": 26
+  },
+  "requirements": "Champion26Recruited=1"
+ },
+ {
+  "description": "Complete all three variants of the \"The Mechanical Menace\" adventure",
+  "effect": "global_dps_multiplier_mult,1",
+  "graphic_id": 3028,
+  "id": 167,
+  "name": "System Shut Down",
+  "properties": {
+   "category": "The Great Modron March",
+   "for_event": 26
+  },
+  "requirements": "Adventure159VariantsCompleted>=3"
+ },
+ {
+  "description": "Obtain a piece of gear for each of Evelyn's six equipment slots",
+  "effect": "global_dps_multiplier_mult,1",
+  "graphic_id": 3029,
+  "id": 168,
+  "name": "For The Light!",
+  "properties": {
+   "category": "The Great Modron March",
+   "for_event": 26
+  },
+  "requirements": "Champion26EquipSlotsFull=6"
+ },
+ {
+  "description": "Complete area 175 in the \"The Mechanical Menace\" free play",
+  "effect": "global_dps_multiplier_mult,1",
+  "graphic_id": 3030,
+  "id": 169,
+  "name": "The Endless Menance",
+  "properties": {
+   "category": "The Great Modron March",
+   "for_event": 26
+  },
+  "requirements": "Campaign14FreePlayHighestArea>=175"
+ },
+ {
+  "description": "Have Evelyn trample 1,000 enemies using her Ultimate Attack",
+  "effect": "global_dps_multiplier_mult,1",
+  "graphic_id": 3031,
+  "id": 170,
+  "name": "Pega-crushed",
+  "properties": {
+   "category": "The Great Modron March",
+   "for_event": 26
+  },
+  "requirements": "Clicks>=500N"
  }
 ]

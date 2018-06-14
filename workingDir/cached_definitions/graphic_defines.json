@@ -24016,7 +24016,7 @@
   "id": 1685,
   "p": 0,
   "type": 6,
-  "v": 6
+  "v": 7
  },
  {
   "export_params": {
@@ -39983,6 +39983,7 @@
  },
  {
   "export_params": {
+   "export_animation": true,
    "uses": [
     "effect"
    ]
@@ -39992,7 +39993,7 @@
   "id": 2823,
   "p": 0,
   "type": 1,
-  "v": 2
+  "v": 4
  },
  {
   "export_params": {
@@ -41363,6 +41364,2308 @@
   "id": 2925,
   "p": 0,
   "type": 1,
+  "v": 2
+ },
+ {
+  "export_params": {
+   "uses": [
+    "chest"
+   ]
+  },
+  "fs": 0,
+  "graphic": "SalePacks/ShortnToughWeekendPromoChest",
+  "id": 2926,
+  "p": 0,
+  "type": 3,
+  "v": 2
+ },
+ {
+  "export_params": {
+   "uses": [
+    "icon"
+   ]
+  },
+  "fs": 0,
+  "graphic": "SalePacks/Icon_Chest_ShortnToughWeekend",
+  "id": 2927,
+  "p": 0,
+  "type": 1,
+  "v": 2
+ },
+ {
+  "export_params": {
+   "uses": [
+    "icon"
+   ]
+  },
+  "fs": 0,
+  "graphic": "SalePacks/ShortnToughWeekend_Banner",
+  "id": 2928,
+  "p": 0,
+  "type": 1,
+  "v": 2
+ },
+ {
+  "export_params": {
+   "uses": [
+    "icon"
+   ]
+  },
+  "fs": 0,
+  "graphic": "SalePacks/ShortnToughWeekend_Notification",
+  "id": 2929,
+  "p": 0,
+  "type": 1,
+  "v": 2
+ },
+ {
+  "export_params": {
+   "uses": [
+    "chest"
+   ]
+  },
+  "fs": 0,
+  "graphic": "SalePacks/SupplyPromoChest",
+  "id": 2930,
+  "p": 0,
+  "type": 3,
+  "v": 2
+ },
+ {
+  "export_params": {
+   "uses": [
+    "icon"
+   ]
+  },
+  "fs": 0,
+  "graphic": "SalePacks/Icon_Chest_SupplyPromo",
+  "id": 2931,
+  "p": 0,
+  "type": 1,
+  "v": 2
+ },
+ {
+  "export_params": {
+   "available_sizes": [
+    "default",
+    "128x128"
+   ],
+   "uses": [
+    "equipment"
+   ]
+  },
+  "fs": 0,
+  "graphic": "Icons/Equipment/Evelyn/Icon_Equipment_Evelyn_Breastplate1",
+  "id": 2932,
+  "p": 0,
+  "type": 1,
+  "v": 3
+ },
+ {
+  "export_params": {
+   "available_sizes": [
+    "default",
+    "128x128"
+   ],
+   "uses": [
+    "equipment"
+   ]
+  },
+  "fs": 0,
+  "graphic": "Icons/Equipment/Evelyn/Icon_Equipment_Evelyn_Breastplate2",
+  "id": 2933,
+  "p": 0,
+  "type": 1,
+  "v": 3
+ },
+ {
+  "export_params": {
+   "available_sizes": [
+    "default",
+    "128x128"
+   ],
+   "uses": [
+    "equipment"
+   ]
+  },
+  "fs": 0,
+  "graphic": "Icons/Equipment/Evelyn/Icon_Equipment_Evelyn_Breastplate3",
+  "id": 2934,
+  "p": 0,
+  "type": 1,
+  "v": 3
+ },
+ {
+  "export_params": {
+   "available_sizes": [
+    "default",
+    "128x128"
+   ],
+   "uses": [
+    "equipment"
+   ]
+  },
+  "fs": 0,
+  "graphic": "Icons/Equipment/Evelyn/Icon_Equipment_Evelyn_HolySymbolOfRavenkind1",
+  "id": 2935,
+  "p": 0,
+  "type": 1,
+  "v": 3
+ },
+ {
+  "export_params": {
+   "available_sizes": [
+    "default",
+    "128x128"
+   ],
+   "uses": [
+    "equipment"
+   ]
+  },
+  "fs": 0,
+  "graphic": "Icons/Equipment/Evelyn/Icon_Equipment_Evelyn_HolySymbolOfRavenkind2",
+  "id": 2936,
+  "p": 0,
+  "type": 1,
+  "v": 3
+ },
+ {
+  "export_params": {
+   "available_sizes": [
+    "default",
+    "128x128"
+   ],
+   "uses": [
+    "equipment"
+   ]
+  },
+  "fs": 0,
+  "graphic": "Icons/Equipment/Evelyn/Icon_Equipment_Evelyn_HolySymbolOfRavenkind3",
+  "id": 2937,
+  "p": 0,
+  "type": 1,
+  "v": 3
+ },
+ {
+  "export_params": {
+   "available_sizes": [
+    "default",
+    "128x128"
+   ],
+   "uses": [
+    "equipment"
+   ]
+  },
+  "fs": 0,
+  "graphic": "Icons/Equipment/Evelyn/Icon_Equipment_Evelyn_Juniper1",
+  "id": 2938,
+  "p": 0,
+  "type": 1,
+  "v": 3
+ },
+ {
+  "export_params": {
+   "available_sizes": [
+    "default",
+    "128x128"
+   ],
+   "uses": [
+    "equipment"
+   ]
+  },
+  "fs": 0,
+  "graphic": "Icons/Equipment/Evelyn/Icon_Equipment_Evelyn_Juniper2",
+  "id": 2939,
+  "p": 0,
+  "type": 1,
+  "v": 3
+ },
+ {
+  "export_params": {
+   "available_sizes": [
+    "default",
+    "128x128"
+   ],
+   "uses": [
+    "equipment"
+   ]
+  },
+  "fs": 0,
+  "graphic": "Icons/Equipment/Evelyn/Icon_Equipment_Evelyn_Juniper3",
+  "id": 2940,
+  "p": 0,
+  "type": 1,
+  "v": 3
+ },
+ {
+  "export_params": {
+   "available_sizes": [
+    "default",
+    "128x128"
+   ],
+   "uses": [
+    "equipment"
+   ]
+  },
+  "fs": 0,
+  "graphic": "Icons/Equipment/Evelyn/Icon_Equipment_Evelyn_Lightfall1",
+  "id": 2941,
+  "p": 0,
+  "type": 1,
+  "v": 3
+ },
+ {
+  "export_params": {
+   "available_sizes": [
+    "default",
+    "128x128"
+   ],
+   "uses": [
+    "equipment"
+   ]
+  },
+  "fs": 0,
+  "graphic": "Icons/Equipment/Evelyn/Icon_Equipment_Evelyn_Lightfall2",
+  "id": 2942,
+  "p": 0,
+  "type": 1,
+  "v": 3
+ },
+ {
+  "export_params": {
+   "available_sizes": [
+    "default",
+    "128x128"
+   ],
+   "uses": [
+    "equipment"
+   ]
+  },
+  "fs": 0,
+  "graphic": "Icons/Equipment/Evelyn/Icon_Equipment_Evelyn_Lightfall3",
+  "id": 2943,
+  "p": 0,
+  "type": 1,
+  "v": 3
+ },
+ {
+  "export_params": {
+   "available_sizes": [
+    "default",
+    "128x128"
+   ],
+   "uses": [
+    "equipment"
+   ]
+  },
+  "fs": 0,
+  "graphic": "Icons/Equipment/Evelyn/Icon_Equipment_Evelyn_PileOfPrettyThings1",
+  "id": 2944,
+  "p": 0,
+  "type": 1,
+  "v": 3
+ },
+ {
+  "export_params": {
+   "available_sizes": [
+    "default",
+    "128x128"
+   ],
+   "uses": [
+    "equipment"
+   ]
+  },
+  "fs": 0,
+  "graphic": "Icons/Equipment/Evelyn/Icon_Equipment_Evelyn_PileOfPrettyThings2",
+  "id": 2945,
+  "p": 0,
+  "type": 1,
+  "v": 3
+ },
+ {
+  "export_params": {
+   "available_sizes": [
+    "default",
+    "128x128"
+   ],
+   "uses": [
+    "equipment"
+   ]
+  },
+  "fs": 0,
+  "graphic": "Icons/Equipment/Evelyn/Icon_Equipment_Evelyn_PileOfPrettyThings3",
+  "id": 2946,
+  "p": 0,
+  "type": 1,
+  "v": 3
+ },
+ {
+  "export_params": {
+   "available_sizes": [
+    "default",
+    "128x128"
+   ],
+   "uses": [
+    "equipment"
+   ]
+  },
+  "fs": 0,
+  "graphic": "Icons/Equipment/Evelyn/Icon_Equipment_Evelyn_WingedBoots1",
+  "id": 2947,
+  "p": 0,
+  "type": 1,
+  "v": 3
+ },
+ {
+  "export_params": {
+   "available_sizes": [
+    "default",
+    "128x128"
+   ],
+   "uses": [
+    "equipment"
+   ]
+  },
+  "fs": 0,
+  "graphic": "Icons/Equipment/Evelyn/Icon_Equipment_Evelyn_WingedBoots2",
+  "id": 2948,
+  "p": 0,
+  "type": 1,
+  "v": 3
+ },
+ {
+  "export_params": {
+   "available_sizes": [
+    "default",
+    "128x128"
+   ],
+   "uses": [
+    "equipment"
+   ]
+  },
+  "fs": 0,
+  "graphic": "Icons/Equipment/Evelyn/Icon_Equipment_Evelyn_WingedBoots3",
+  "id": 2949,
+  "p": 0,
+  "type": 1,
+  "v": 3
+ },
+ {
+  "export_params": {
+   "uses": [
+    "icon"
+   ]
+  },
+  "fs": 0,
+  "graphic": "Icons/Champions/Icon_Formation_Petrification",
+  "id": 2950,
+  "p": 0,
+  "type": 1,
+  "v": 2
+ },
+ {
+  "export_params": {
+   "compress": false,
+   "uses": [
+    "background"
+   ]
+  },
+  "fs": 0,
+  "graphic": "Backgrounds/Temple/Jungle(FaneNightSerpent)/FaneNightSerpentChamber_Near",
+  "id": 2951,
+  "p": 0,
+  "type": 6,
+  "v": 2
+ },
+ {
+  "export_params": {
+   "compress": false,
+   "uses": [
+    "background"
+   ]
+  },
+  "fs": 0,
+  "graphic": "Backgrounds/Temple/Jungle(FaneNightSerpent)/FaneNightSerpentHallway_Near",
+  "id": 2952,
+  "p": 0,
+  "type": 6,
+  "v": 2
+ },
+ {
+  "export_params": {
+   "compress": false,
+   "uses": [
+    "background"
+   ]
+  },
+  "fs": 0,
+  "graphic": "Backgrounds/Temple/Jungle(FaneNightSerpent)/FaneNightSerpentPrisonerPits_Near",
+  "id": 2953,
+  "p": 0,
+  "type": 6,
+  "v": 2
+ },
+ {
+  "export_params": {
+   "compress": false,
+   "uses": [
+    "background"
+   ]
+  },
+  "fs": 0,
+  "graphic": "Backgrounds/Temple/Jungle(FaneNightSerpent)/FaneNightSerpentRasNsisLair_Near",
+  "id": 2954,
+  "p": 0,
+  "type": 6,
+  "v": 2
+ },
+ {
+  "export_params": {
+   "compress": false,
+   "uses": [
+    "background"
+   ]
+  },
+  "fs": 0,
+  "graphic": "Backgrounds/Temple/Jungle(FaneNightSerpent)/FaneNightSerpentSacrificialChamber_Near",
+  "id": 2955,
+  "p": 0,
+  "type": 6,
+  "v": 2
+ },
+ {
+  "export_params": {
+   "compress": false,
+   "uses": [
+    "background"
+   ]
+  },
+  "fs": 0,
+  "graphic": "Backgrounds/Temple/Jungle(FaneNightSerpent)/FaneNightSerpentSacrificialPit_Near",
+  "id": 2956,
+  "p": 0,
+  "type": 6,
+  "v": 2
+ },
+ {
+  "export_params": {
+   "compress": false,
+   "uses": [
+    "background"
+   ]
+  },
+  "fs": 0,
+  "graphic": "Backgrounds/Temple/Jungle(FaneNightSerpent)/FaneNightSerpentThroneRoom_Near",
+  "id": 2957,
+  "p": 0,
+  "type": 6,
+  "v": 2
+ },
+ {
+  "export_params": {
+   "compress": false,
+   "uses": [
+    "background"
+   ]
+  },
+  "fs": 0,
+  "graphic": "Backgrounds/Temple/Jungle(FaneNightSerpent)/FaneNightSerpentVenomDistillary_Near",
+  "id": 2958,
+  "p": 0,
+  "type": 6,
+  "v": 2
+ },
+ {
+  "export_params": {
+   "compress": false,
+   "uses": [
+    "background"
+   ]
+  },
+  "fs": 0,
+  "graphic": "Backgrounds/Tunnel/TunnelUndergroundRiver_Near",
+  "id": 2959,
+  "p": 0,
+  "type": 6,
+  "v": 2
+ },
+ {
+  "export_params": {
+   "compress": false,
+   "uses": [
+    "background"
+   ]
+  },
+  "fs": 0,
+  "graphic": "Backgrounds/Town/LostCityofOmu/OmuOverlook_Mid",
+  "id": 2960,
+  "p": 0,
+  "type": 6,
+  "v": 2
+ },
+ {
+  "export_params": {
+   "compress": false,
+   "uses": [
+    "background"
+   ]
+  },
+  "fs": 0,
+  "graphic": "Backgrounds/Town/LostCityofOmu/OmuOverlook_Near",
+  "id": 2961,
+  "p": 0,
+  "type": 6,
+  "v": 2
+ },
+ {
+  "export_params": {
+   "compress": false,
+   "uses": [
+    "background"
+   ]
+  },
+  "fs": 0,
+  "graphic": "Backgrounds/Town/LostCityofOmu/OmuRiverbank_Mid",
+  "id": 2962,
+  "p": 0,
+  "type": 6,
+  "v": 2
+ },
+ {
+  "export_params": {
+   "compress": false,
+   "uses": [
+    "background"
+   ]
+  },
+  "fs": 0,
+  "graphic": "Backgrounds/Town/LostCityofOmu/OmuRiverbank_Near",
+  "id": 2963,
+  "p": 0,
+  "type": 6,
+  "v": 2
+ },
+ {
+  "export_params": {
+   "compress": false,
+   "uses": [
+    "background"
+   ]
+  },
+  "fs": 0,
+  "graphic": "Backgrounds/Town/LostCityofOmu/OmuRiverGrungHuts_Mid",
+  "id": 2964,
+  "p": 0,
+  "type": 6,
+  "v": 2
+ },
+ {
+  "export_params": {
+   "compress": false,
+   "uses": [
+    "background"
+   ]
+  },
+  "fs": 0,
+  "graphic": "Backgrounds/Town/LostCityofOmu/OmuRiverGrungHuts_Near",
+  "id": 2965,
+  "p": 0,
+  "type": 6,
+  "v": 2
+ },
+ {
+  "export_params": {
+   "compress": false,
+   "uses": [
+    "background"
+   ]
+  },
+  "fs": 0,
+  "graphic": "Backgrounds/Town/LostCityofOmu/OmuShrineEntrance_Near",
+  "id": 2966,
+  "p": 0,
+  "type": 6,
+  "v": 2
+ },
+ {
+  "export_params": {
+   "compress": false,
+   "uses": [
+    "background"
+   ]
+  },
+  "fs": 0,
+  "graphic": "Backgrounds/Town/LostCityofOmu/OmuShrineInterior_Near",
+  "id": 2967,
+  "p": 0,
+  "type": 6,
+  "v": 2
+ },
+ {
+  "export_params": {
+   "compress": false,
+   "uses": [
+    "background"
+   ]
+  },
+  "fs": 0,
+  "graphic": "Backgrounds/Town/LostCityofOmu/OmuStreetAmbushSite_Near",
+  "id": 2968,
+  "p": 0,
+  "type": 6,
+  "v": 2
+ },
+ {
+  "export_params": {
+   "compress": false,
+   "uses": [
+    "background"
+   ]
+  },
+  "fs": 0,
+  "graphic": "Backgrounds/Town/LostCityofOmu/OmuStreet_Mid",
+  "id": 2969,
+  "p": 0,
+  "type": 6,
+  "v": 2
+ },
+ {
+  "export_params": {
+   "compress": false,
+   "uses": [
+    "background"
+   ]
+  },
+  "fs": 0,
+  "graphic": "Backgrounds/Town/LostCityofOmu/OmuStreet_Near",
+  "id": 2970,
+  "p": 0,
+  "type": 6,
+  "v": 2
+ },
+ {
+  "export_params": {
+   "uses": [
+    "monster"
+   ]
+  },
+  "fs": 0,
+  "graphic": "Monsters/Beasts/Monster_Beast_GiantWolfSpider_1",
+  "id": 2971,
+  "p": 0,
+  "type": 3,
+  "v": 2
+ },
+ {
+  "export_params": {
+   "uses": [
+    "monster"
+   ]
+  },
+  "fs": 0,
+  "graphic": "Monsters/Beasts/Monster_Beast_GiantWolfSpider_2",
+  "id": 2972,
+  "p": 0,
+  "type": 3,
+  "v": 2
+ },
+ {
+  "export_params": {
+   "uses": [
+    "monster"
+   ]
+  },
+  "fs": 0,
+  "graphic": "Monsters/Beasts/Monster_Beast_GiantWolfSpider_3",
+  "id": 2973,
+  "p": 0,
+  "type": 3,
+  "v": 2
+ },
+ {
+  "export_params": {
+   "uses": [
+    "monster"
+   ]
+  },
+  "fs": 0,
+  "graphic": "Monsters/Elementals/Monster_Elemental_GargoyleGiantFourArmed",
+  "id": 2974,
+  "p": 0,
+  "type": 3,
+  "v": 2
+ },
+ {
+  "export_params": {
+   "uses": [
+    "monster"
+   ]
+  },
+  "fs": 0,
+  "graphic": "Monsters/Humanoids/Monster_Humanoid_GrungPurpleCommander",
+  "id": 2975,
+  "p": 0,
+  "type": 3,
+  "v": 2
+ },
+ {
+  "export_params": {
+   "uses": [
+    "monster"
+   ]
+  },
+  "fs": 0,
+  "graphic": "Monsters/Humanoids/Monster_Humanoid_KoboldInventor",
+  "id": 2976,
+  "p": 0,
+  "type": 3,
+  "v": 2
+ },
+ {
+  "export_params": {
+   "uses": [
+    "monster"
+   ]
+  },
+  "fs": 0,
+  "graphic": "Monsters/Humanoids/Monster_Humanoid_TabaxiBagOfNails",
+  "id": 2977,
+  "p": 0,
+  "type": 3,
+  "v": 2
+ },
+ {
+  "export_params": {
+   "uses": [
+    "monster"
+   ]
+  },
+  "fs": 0,
+  "graphic": "Monsters/Monstrosities/Monster_Monstrosity_Kamadan",
+  "id": 2978,
+  "p": 0,
+  "type": 3,
+  "v": 2
+ },
+ {
+  "export_params": {
+   "uses": [
+    "monster"
+   ]
+  },
+  "fs": 0,
+  "graphic": "Monsters/Monstrosities/Monster_Monstrosity_YuanTiAmbusher",
+  "id": 2979,
+  "p": 0,
+  "type": 3,
+  "v": 2
+ },
+ {
+  "export_params": {
+   "uses": [
+    "monster"
+   ]
+  },
+  "fs": 0,
+  "graphic": "Monsters/Monstrosities/Monster_Monstrosity_YuanTiNightmareSpeaker",
+  "id": 2980,
+  "p": 0,
+  "type": 3,
+  "v": 2
+ },
+ {
+  "export_params": {
+   "uses": [
+    "projectile"
+   ]
+  },
+  "fs": 0,
+  "graphic": "Effects/YuanTiRanged_1_arrow",
+  "id": 2981,
+  "p": 0,
+  "type": 1,
+  "v": 2
+ },
+ {
+  "export_params": {
+   "uses": [
+    "projectile"
+   ]
+  },
+  "fs": 0,
+  "graphic": "Effects/YuanTiRanged_2_arrow",
+  "id": 2982,
+  "p": 0,
+  "type": 1,
+  "v": 2
+ },
+ {
+  "export_params": {
+   "uses": [
+    "projectile"
+   ]
+  },
+  "fs": 0,
+  "graphic": "Effects/YuanTiRanged_3_arrow",
+  "id": 2983,
+  "p": 0,
+  "type": 1,
+  "v": 2
+ },
+ {
+  "export_params": {
+   "uses": [
+    "monster"
+   ]
+  },
+  "fs": 0,
+  "graphic": "Monsters/Beasts/Monster_Beast_Triceratops_Charging",
+  "id": 2984,
+  "p": 0,
+  "type": 3,
+  "v": 2
+ },
+ {
+  "export_params": {
+   "uses": [
+    "monster"
+   ]
+  },
+  "fs": 0,
+  "graphic": "Monsters/Elementals/Monster_Elemental_AirElemental",
+  "id": 2985,
+  "p": 0,
+  "type": 3,
+  "v": 2
+ },
+ {
+  "export_params": {
+   "uses": [
+    "monster"
+   ]
+  },
+  "fs": 0,
+  "graphic": "Monsters/Humanoids/Monster_Humanoid_YuanTiPureblood_Xopal",
+  "id": 2986,
+  "p": 0,
+  "type": 3,
+  "v": 2
+ },
+ {
+  "export_params": {
+   "uses": [
+    "monster"
+   ]
+  },
+  "fs": 0,
+  "graphic": "Monsters/Humanoids/Monster_Humanoid_YuanTiSekelok",
+  "id": 2987,
+  "p": 0,
+  "type": 3,
+  "v": 2
+ },
+ {
+  "export_params": {
+   "uses": [
+    "monster"
+   ]
+  },
+  "fs": 0,
+  "graphic": "Monsters/Monstrosities/Monster_Monstrosity_Basilisk",
+  "id": 2988,
+  "p": 0,
+  "type": 3,
+  "v": 2
+ },
+ {
+  "export_params": {
+   "uses": [
+    "monster"
+   ]
+  },
+  "fs": 0,
+  "graphic": "Monsters/Monstrosities/Monster_Monstrosity_BlessedRasNsi",
+  "id": 2989,
+  "p": 0,
+  "type": 3,
+  "v": 2
+ },
+ {
+  "export_params": {
+   "uses": [
+    "monster"
+   ]
+  },
+  "fs": 0,
+  "graphic": "Monsters/Monstrosities/Monster_Monstrosity_Fanthaza",
+  "id": 2990,
+  "p": 0,
+  "type": 3,
+  "v": 2
+ },
+ {
+  "export_params": {
+   "uses": [
+    "monster"
+   ]
+  },
+  "fs": 0,
+  "graphic": "Monsters/Monstrosities/Monster_Monstrosity_YuanTiRanged1",
+  "id": 2991,
+  "p": 0,
+  "type": 3,
+  "v": 2
+ },
+ {
+  "export_params": {
+   "uses": [
+    "monster"
+   ]
+  },
+  "fs": 0,
+  "graphic": "Monsters/Monstrosities/Monster_Monstrosity_YuanTiRanged2",
+  "id": 2992,
+  "p": 0,
+  "type": 3,
+  "v": 2
+ },
+ {
+  "export_params": {
+   "uses": [
+    "monster"
+   ]
+  },
+  "fs": 0,
+  "graphic": "Monsters/Monstrosities/Monster_Monstrosity_YuanTiRanged_3",
+  "id": 2993,
+  "p": 0,
+  "type": 3,
+  "v": 2
+ },
+ {
+  "export_params": {
+   "uses": [
+    "monster"
+   ]
+  },
+  "fs": 0,
+  "graphic": "Monsters/Monstrosities/Monster_Monstrosity_YuanTiSlavemasterIssar",
+  "id": 2994,
+  "p": 0,
+  "type": 3,
+  "v": 2
+ },
+ {
+  "export_params": {
+   "uses": [
+    "monster"
+   ]
+  },
+  "fs": 0,
+  "graphic": "Monsters/Undead/Monster_Undead_BoneNaga",
+  "id": 2995,
+  "p": 0,
+  "type": 3,
+  "v": 2
+ },
+ {
+  "export_params": {
+   "uses": [
+    "portrait"
+   ]
+  },
+  "fs": 0,
+  "graphic": "Icons/Portraits/TombOfAnnihilation/Icon_Portrait_BagOfNails",
+  "id": 2996,
+  "p": 0,
+  "type": 1,
+  "v": 2
+ },
+ {
+  "export_params": {
+   "uses": [
+    "portrait"
+   ]
+  },
+  "fs": 0,
+  "graphic": "Icons/Portraits/TombOfAnnihilation/Icon_Portrait_BoneNaga",
+  "id": 2997,
+  "p": 0,
+  "type": 1,
+  "v": 2
+ },
+ {
+  "export_params": {
+   "uses": [
+    "portrait"
+   ]
+  },
+  "fs": 0,
+  "graphic": "Icons/Portraits/TombOfAnnihilation/Icon_Portrait_Fenthaza",
+  "id": 2998,
+  "p": 0,
+  "type": 1,
+  "v": 2
+ },
+ {
+  "export_params": {
+   "uses": [
+    "portrait"
+   ]
+  },
+  "fs": 0,
+  "graphic": "Icons/Portraits/TombOfAnnihilation/Icon_Portrait_Ishmakahl",
+  "id": 2999,
+  "p": 0,
+  "type": 1,
+  "v": 2
+ },
+ {
+  "export_params": {
+   "uses": [
+    "portrait"
+   ]
+  },
+  "fs": 0,
+  "graphic": "Icons/Portraits/TombOfAnnihilation/Icon_Portrait_Khoti",
+  "id": 3000,
+  "p": 0,
+  "type": 1,
+  "v": 2
+ },
+ {
+  "export_params": {
+   "uses": [
+    "portrait"
+   ]
+  },
+  "fs": 0,
+  "graphic": "Icons/Portraits/TombOfAnnihilation/Icon_Portrait_KoboldInventor",
+  "id": 3001,
+  "p": 0,
+  "type": 1,
+  "v": 2
+ },
+ {
+  "export_params": {
+   "uses": [
+    "portrait"
+   ]
+  },
+  "fs": 0,
+  "graphic": "Icons/Portraits/TombOfAnnihilation/Icon_Portrait_OrvexOcrammas",
+  "id": 3002,
+  "p": 0,
+  "type": 1,
+  "v": 2
+ },
+ {
+  "export_params": {
+   "uses": [
+    "portrait"
+   ]
+  },
+  "fs": 0,
+  "graphic": "Icons/Portraits/TombOfAnnihilation/Icon_Portrait_RasNsi",
+  "id": 3003,
+  "p": 0,
+  "type": 1,
+  "v": 2
+ },
+ {
+  "export_params": {
+   "uses": [
+    "portrait"
+   ]
+  },
+  "fs": 0,
+  "graphic": "Icons/Portraits/TombOfAnnihilation/Icon_Portrait_Xopal",
+  "id": 3004,
+  "p": 0,
+  "type": 1,
+  "v": 2
+ },
+ {
+  "export_params": {
+   "uses": [
+    "portrait"
+   ]
+  },
+  "fs": 0,
+  "graphic": "Icons/Portraits/TombOfAnnihilation/Icon_Portrait_YuanTiNightmareSpeaker",
+  "id": 3005,
+  "p": 0,
+  "type": 1,
+  "v": 2
+ },
+ {
+  "export_params": {
+   "available_sizes": [
+    "default",
+    "64x64",
+    "128x128"
+   ],
+   "uses": [
+    "quest"
+   ]
+  },
+  "fs": 0,
+  "graphic": "Icons/Quests/TombOfAnnihilation/Icon_Quests_Captured_Bell",
+  "id": 3006,
+  "p": 0,
+  "type": 1,
+  "v": 2
+ },
+ {
+  "export_params": {
+   "available_sizes": [
+    "default",
+    "64x64",
+    "128x128"
+   ],
+   "uses": [
+    "quest"
+   ]
+  },
+  "fs": 0,
+  "graphic": "Icons/Quests/TombOfAnnihilation/Icon_Quests_Captured_PreciousGems",
+  "id": 3007,
+  "p": 0,
+  "type": 1,
+  "v": 2
+ },
+ {
+  "export_params": {
+   "available_sizes": [
+    "default",
+    "64x64",
+    "128x128"
+   ],
+   "uses": [
+    "quest"
+   ]
+  },
+  "fs": 0,
+  "graphic": "Icons/Quests/TombOfAnnihilation/Icon_Quests_Captured_PurebloodClothing",
+  "id": 3008,
+  "p": 0,
+  "type": 1,
+  "v": 2
+ },
+ {
+  "export_params": {
+   "available_sizes": [
+    "default",
+    "64x64",
+    "128x128"
+   ],
+   "uses": [
+    "quest"
+   ]
+  },
+  "fs": 0,
+  "graphic": "Icons/Quests/TombOfAnnihilation/Icon_Quests_Captured_VialOfSnakeVenom",
+  "id": 3009,
+  "p": 0,
+  "type": 1,
+  "v": 2
+ },
+ {
+  "export_params": {
+   "available_sizes": [
+    "default",
+    "64x64",
+    "128x128"
+   ],
+   "uses": [
+    "quest"
+   ]
+  },
+  "fs": 0,
+  "graphic": "Icons/Quests/TombOfAnnihilation/Icon_Quests_TheForbiddenCity_CityLayoutSketches",
+  "id": 3010,
+  "p": 0,
+  "type": 1,
+  "v": 2
+ },
+ {
+  "export_params": {
+   "available_sizes": [
+    "default",
+    "64x64",
+    "128x128"
+   ],
+   "uses": [
+    "quest"
+   ]
+  },
+  "fs": 0,
+  "graphic": "Icons/Quests/TombOfAnnihilation/Icon_Quests_TheForbiddenCity_GrungHutThatch",
+  "id": 3011,
+  "p": 0,
+  "type": 1,
+  "v": 2
+ },
+ {
+  "export_params": {
+   "available_sizes": [
+    "default",
+    "64x64",
+    "128x128"
+   ],
+   "uses": [
+    "quest"
+   ]
+  },
+  "fs": 0,
+  "graphic": "Icons/Quests/TombOfAnnihilation/Icon_Quests_TheForbiddenCity_PurebloodSilks",
+  "id": 3012,
+  "p": 0,
+  "type": 1,
+  "v": 2
+ },
+ {
+  "export_params": {
+   "available_sizes": [
+    "default",
+    "64x64",
+    "128x128"
+   ],
+   "uses": [
+    "quest"
+   ]
+  },
+  "fs": 0,
+  "graphic": "Icons/Quests/TombOfAnnihilation/Icon_Quests_TheForbiddenCity_WolfSpiderLeg",
+  "id": 3013,
+  "p": 0,
+  "type": 1,
+  "v": 2
+ },
+ {
+  "export_params": {
+   "available_sizes": [
+    "default",
+    "64x64",
+    "128x128"
+   ],
+   "uses": [
+    "quest"
+   ]
+  },
+  "fs": 0,
+  "graphic": "Icons/Quests/TombOfAnnihilation/Icon_Quests_TheForbiddenCity_YuanTiScales",
+  "id": 3014,
+  "p": 0,
+  "type": 1,
+  "v": 2
+ },
+ {
+  "export_params": {
+   "uses": [
+    "chest"
+   ]
+  },
+  "fs": 0,
+  "graphic": "Chests/MarvelousMagicWeekendPromoChest",
+  "id": 3015,
+  "p": 0,
+  "type": 3,
+  "v": 2
+ },
+ {
+  "export_params": {
+   "uses": [
+    "promotion"
+   ]
+  },
+  "fs": 0,
+  "graphic": "SalePacks/Icon_Chest_MarvelousMagic",
+  "id": 3016,
+  "p": 0,
+  "type": 1,
+  "v": 2
+ },
+ {
+  "export_params": {
+   "uses": [
+    "promotion"
+   ]
+  },
+  "fs": 0,
+  "graphic": "SalePacks/MarvelousMagicWeekend_Banner",
+  "id": 3017,
+  "p": 0,
+  "type": 1,
+  "v": 2
+ },
+ {
+  "export_params": {
+   "uses": [
+    "promotion"
+   ]
+  },
+  "fs": 0,
+  "graphic": "SalePacks/MarvelousMagicWeekend_Notification",
+  "id": 3018,
+  "p": 0,
+  "type": 1,
+  "v": 2
+ },
+ {
+  "export_params": {
+   "export_animation": true,
+   "uses": [
+    "doodad"
+   ]
+  },
+  "fs": 0,
+  "graphic": "Doodads/Doodad_ShrineBrokenDoor",
+  "id": 3019,
+  "p": 0,
+  "type": 1,
+  "v": 2
+ },
+ {
+  "export_params": {
+   "export_animation": true,
+   "uses": [
+    "doodad"
+   ]
+  },
+  "fs": 0,
+  "graphic": "Doodads/Doodad_VenomTable",
+  "id": 3020,
+  "p": 0,
+  "type": 1,
+  "v": 2
+ },
+ {
+  "export_params": {
+   "uses": [
+    "doodad"
+   ]
+  },
+  "fs": 0,
+  "graphic": "Doodads/Doodad_RasNsiPillar",
+  "id": 3021,
+  "p": 0,
+  "type": 1,
+  "v": 3
+ },
+ {
+  "export_params": {
+   "uses": [
+    "monster"
+   ]
+  },
+  "fs": 0,
+  "graphic": "Monsters/Humanoids/Monster_Humanoid_YuanTiBroodguard_1",
+  "id": 3022,
+  "p": 0,
+  "type": 3,
+  "v": 2
+ },
+ {
+  "export_params": {
+   "uses": [
+    "monster"
+   ]
+  },
+  "fs": 0,
+  "graphic": "Monsters/Humanoids/Monster_Humanoid_YuanTiBroodguard_2",
+  "id": 3023,
+  "p": 0,
+  "type": 3,
+  "v": 2
+ },
+ {
+  "export_params": {
+   "uses": [
+    "monster"
+   ]
+  },
+  "fs": 0,
+  "graphic": "Monsters/Humanoids/Monster_Humanoid_YuanTiBroodguard_3",
+  "id": 3024,
+  "p": 0,
+  "type": 3,
+  "v": 2
+ },
+ {
+  "export_params": {
+   "uses": [
+    "doodad"
+   ]
+  },
+  "fs": 0,
+  "graphic": "Doodads/Doodad_FallingRoofPiece",
+  "id": 3025,
+  "p": 0,
+  "type": 1,
+  "v": 2
+ },
+ {
+  "export_params": {
+   "uses": [
+    "doodad"
+   ]
+  },
+  "fs": 0,
+  "graphic": "Doodads/Doodad_RasNsiPillarBroken",
+  "id": 3026,
+  "p": 0,
+  "type": 1,
+  "v": 2
+ },
+ {
+  "export_params": {
+   "uses": [
+    "icon"
+   ]
+  },
+  "fs": 0,
+  "graphic": "Icons/Events/2018 GreatModronMarch/Achievement_ModronMarch_1",
+  "id": 3027,
+  "p": 0,
+  "type": 1,
+  "v": 2
+ },
+ {
+  "export_params": {
+   "uses": [
+    "icon"
+   ]
+  },
+  "fs": 0,
+  "graphic": "Icons/Events/2018 GreatModronMarch/Achievement_ModronMarch_2",
+  "id": 3028,
+  "p": 0,
+  "type": 1,
+  "v": 2
+ },
+ {
+  "export_params": {
+   "uses": [
+    "icon"
+   ]
+  },
+  "fs": 0,
+  "graphic": "Icons/Events/2018 GreatModronMarch/Achievement_ModronMarch_3",
+  "id": 3029,
+  "p": 0,
+  "type": 1,
+  "v": 2
+ },
+ {
+  "export_params": {
+   "uses": [
+    "icon"
+   ]
+  },
+  "fs": 0,
+  "graphic": "Icons/Events/2018 GreatModronMarch/Achievement_ModronMarch_4",
+  "id": 3030,
+  "p": 0,
+  "type": 1,
+  "v": 2
+ },
+ {
+  "export_params": {
+   "uses": [
+    "icon"
+   ]
+  },
+  "fs": 0,
+  "graphic": "Icons/Events/2018 GreatModronMarch/Achievement_ModronMarch_5",
+  "id": 3031,
+  "p": 0,
+  "type": 1,
+  "v": 2
+ },
+ {
+  "export_params": {
+   "uses": [
+    "icon"
+   ]
+  },
+  "fs": 0,
+  "graphic": "Icons/Events/2018 GreatModronMarch/Doodad_GreatModronMarch_ModronsBlockade",
+  "id": 3032,
+  "p": 0,
+  "type": 1,
+  "v": 3
+ },
+ {
+  "export_params": {
+   "uses": [
+    "icon"
+   ]
+  },
+  "fs": 0,
+  "graphic": "Icons/Events/2018 GreatModronMarch/Doodad_GreatModronMarch_PoopCoveredBlockade",
+  "id": 3033,
+  "p": 0,
+  "type": 1,
+  "v": 3
+ },
+ {
+  "export_params": {
+   "uses": [
+    "icon"
+   ]
+  },
+  "fs": 0,
+  "graphic": "Icons/Events/2018 GreatModronMarch/Effect_EvelynBuffCenter",
+  "id": 3034,
+  "p": 0,
+  "type": 1,
+  "v": 2
+ },
+ {
+  "export_params": {
+   "export_animation": true,
+   "uses": [
+    "icon"
+   ]
+  },
+  "fs": 0,
+  "graphic": "Icons/Events/2018 GreatModronMarch/Effect_EvelynBuffRay1",
+  "id": 3035,
+  "p": 0,
+  "type": 1,
+  "v": 3
+ },
+ {
+  "export_params": {
+   "export_animation": true,
+   "uses": [
+    "icon"
+   ]
+  },
+  "fs": 0,
+  "graphic": "Icons/Events/2018 GreatModronMarch/Effect_EvelynBuffRay2",
+  "id": 3036,
+  "p": 0,
+  "type": 1,
+  "v": 3
+ },
+ {
+  "export_params": {
+   "export_animation": true,
+   "uses": [
+    "icon"
+   ]
+  },
+  "fs": 0,
+  "graphic": "Icons/Events/2018 GreatModronMarch/Effect_EvelynBuffRay3",
+  "id": 3037,
+  "p": 0,
+  "type": 1,
+  "v": 3
+ },
+ {
+  "export_params": {
+   "export_animation": true,
+   "uses": [
+    "icon"
+   ]
+  },
+  "fs": 0,
+  "graphic": "Icons/Events/2018 GreatModronMarch/Effect_EvelynBuffRay4",
+  "id": 3038,
+  "p": 0,
+  "type": 1,
+  "v": 3
+ },
+ {
+  "export_params": {
+   "uses": [
+    "icon"
+   ]
+  },
+  "fs": 0,
+  "graphic": "Icons/Events/2018 GreatModronMarch/Icon_Formation_DivinePrayer",
+  "id": 3039,
+  "p": 0,
+  "type": 1,
+  "v": 2
+ },
+ {
+  "export_params": {
+   "uses": [
+    "icon"
+   ]
+  },
+  "fs": 0,
+  "graphic": "Icons/Events/2018 GreatModronMarch/Icon_Formation_LathandersGrace",
+  "id": 3040,
+  "p": 0,
+  "type": 1,
+  "v": 2
+ },
+ {
+  "export_params": {
+   "uses": [
+    "icon"
+   ]
+  },
+  "fs": 0,
+  "graphic": "Icons/Events/2018 GreatModronMarch/Icon_Specialization_EvelynCompelDuel",
+  "id": 3041,
+  "p": 0,
+  "type": 1,
+  "v": 2
+ },
+ {
+  "export_params": {
+   "uses": [
+    "icon"
+   ]
+  },
+  "fs": 0,
+  "graphic": "Icons/Events/2018 GreatModronMarch/Icon_Specialization_EvelynProtection",
+  "id": 3042,
+  "p": 0,
+  "type": 1,
+  "v": 2
+ },
+ {
+  "export_params": {
+   "uses": [
+    "icon"
+   ]
+  },
+  "fs": 0,
+  "graphic": "Icons/Events/2018 GreatModronMarch/Icon_Ultimate_EvelynFindSteed",
+  "id": 3043,
+  "p": 0,
+  "type": 1,
+  "v": 2
+ },
+ {
+  "export_params": {
+   "uses": [
+    "icon"
+   ]
+  },
+  "fs": 0,
+  "graphic": "Icons/Events/2018 GreatModronMarch/ModronMarch_Icon_Adventure",
+  "id": 3044,
+  "p": 0,
+  "type": 1,
+  "v": 2
+ },
+ {
+  "export_params": {
+   "uses": [
+    "icon"
+   ]
+  },
+  "fs": 0,
+  "graphic": "Icons/Events/2018 GreatModronMarch/ModronMarch_Icon_Banner",
+  "id": 3045,
+  "p": 0,
+  "type": 1,
+  "v": 2
+ },
+ {
+  "export_params": {
+   "uses": [
+    "icon"
+   ]
+  },
+  "fs": 0,
+  "graphic": "Icons/Events/2018 GreatModronMarch/ModronMarch_Icon_Blessings",
+  "id": 3046,
+  "p": 0,
+  "type": 1,
+  "v": 2
+ },
+ {
+  "export_params": {
+   "uses": [
+    "icon"
+   ]
+  },
+  "fs": 0,
+  "graphic": "Icons/Events/2018 GreatModronMarch/ModronMarch_Icon_BlessingsTab",
+  "id": 3047,
+  "p": 0,
+  "type": 1,
+  "v": 2
+ },
+ {
+  "export_params": {
+   "uses": [
+    "icon"
+   ]
+  },
+  "fs": 0,
+  "graphic": "Icons/Events/2018 GreatModronMarch/ModronMarch_Icon_Currency",
+  "id": 3048,
+  "p": 0,
+  "type": 1,
+  "v": 2
+ },
+ {
+  "export_params": {
+   "uses": [
+    "icon"
+   ]
+  },
+  "fs": 0,
+  "graphic": "Icons/Events/2018 GreatModronMarch/ModronMarch_Icon_DivineFavor",
+  "id": 3049,
+  "p": 0,
+  "type": 1,
+  "v": 2
+ },
+ {
+  "export_params": {
+   "uses": [
+    "icon"
+   ]
+  },
+  "fs": 0,
+  "graphic": "Icons/Events/2018 GreatModronMarch/ModronMarch_Icon_MiniCurrency",
+  "id": 3050,
+  "p": 0,
+  "type": 1,
+  "v": 2
+ },
+ {
+  "export_params": {
+   "uses": [
+    "icon"
+   ]
+  },
+  "fs": 0,
+  "graphic": "Icons/Events/2018 GreatModronMarch/ModronMarch_Icon_MiniFavor",
+  "id": 3051,
+  "p": 0,
+  "type": 1,
+  "v": 2
+ },
+ {
+  "export_params": {
+   "uses": [
+    "icon"
+   ]
+  },
+  "fs": 0,
+  "graphic": "Icons/Events/2018 GreatModronMarch/ModronMarch_Icon_TabAdventure",
+  "id": 3052,
+  "p": 0,
+  "type": 1,
+  "v": 2
+ },
+ {
+  "export_params": {
+   "uses": [
+    "icon"
+   ]
+  },
+  "fs": 0,
+  "graphic": "Icons/Events/2018 GreatModronMarch/ModronMarch_Icon_TabChampion",
+  "id": 3053,
+  "p": 0,
+  "type": 1,
+  "v": 2
+ },
+ {
+  "export_params": {
+   "uses": [
+    "icon"
+   ]
+  },
+  "fs": 0,
+  "graphic": "Icons/Events/2018 GreatModronMarch/ModronMarch_Icon_Variant1",
+  "id": 3054,
+  "p": 0,
+  "type": 1,
+  "v": 2
+ },
+ {
+  "export_params": {
+   "uses": [
+    "icon"
+   ]
+  },
+  "fs": 0,
+  "graphic": "Icons/Events/2018 GreatModronMarch/ModronMarch_Icon_Variant2",
+  "id": 3055,
+  "p": 0,
+  "type": 1,
+  "v": 2
+ },
+ {
+  "export_params": {
+   "uses": [
+    "icon"
+   ]
+  },
+  "fs": 0,
+  "graphic": "Icons/Events/2018 GreatModronMarch/ModronMarch_Icon_Variant3",
+  "id": 3056,
+  "p": 0,
+  "type": 1,
+  "v": 2
+ },
+ {
+  "export_params": {
+   "uses": [
+    "icon"
+   ]
+  },
+  "fs": 0,
+  "graphic": "Icons/Events/2018 GreatModronMarch/ModronMarch_Inventory_GoldChest",
+  "id": 3057,
+  "p": 0,
+  "type": 1,
+  "v": 2
+ },
+ {
+  "export_params": {
+   "uses": [
+    "icon"
+   ]
+  },
+  "fs": 0,
+  "graphic": "Icons/Events/2018 GreatModronMarch/ModronMarch_Inventory_SilverChest",
+  "id": 3058,
+  "p": 0,
+  "type": 1,
+  "v": 2
+ },
+ {
+  "export_params": {
+   "uses": [
+    "icon"
+   ]
+  },
+  "fs": 0,
+  "graphic": "Icons/Events/2018 GreatModronMarch/ModronMarch_Notification",
+  "id": 3059,
+  "p": 0,
+  "type": 1,
+  "v": 2
+ },
+ {
+  "export_params": {
+   "uses": [
+    "icon"
+   ]
+  },
+  "fs": 0,
+  "graphic": "Icons/Events/2018 GreatModronMarch/ModronMarch_Quest_ModronDust",
+  "id": 3060,
+  "p": 0,
+  "type": 1,
+  "v": 2
+ },
+ {
+  "export_params": {
+   "uses": [
+    "icon"
+   ]
+  },
+  "fs": 0,
+  "graphic": "Icons/Events/2018 GreatModronMarch/ModronMarch_Quest_MonodroneSword",
+  "id": 3061,
+  "p": 0,
+  "type": 1,
+  "v": 2
+ },
+ {
+  "export_params": {
+   "uses": [
+    "icon"
+   ]
+  },
+  "fs": 0,
+  "graphic": "Icons/Events/2018 GreatModronMarch/ModronMarch_Quest_SmashedCrate",
+  "id": 3062,
+  "p": 0,
+  "type": 1,
+  "v": 2
+ },
+ {
+  "export_params": {
+   "uses": [
+    "icon"
+   ]
+  },
+  "fs": 0,
+  "graphic": "Icons/Events/2018 GreatModronMarch/ModronMarch_RandomChest",
+  "id": 3063,
+  "p": 0,
+  "type": 1,
+  "v": 2
+ },
+ {
+  "export_params": {
+   "uses": [
+    "icon"
+   ]
+  },
+  "fs": 0,
+  "graphic": "Icons/Events/2018 GreatModronMarch/ModronMarch_UpgradeLarge_1",
+  "id": 3064,
+  "p": 0,
+  "type": 1,
+  "v": 2
+ },
+ {
+  "export_params": {
+   "uses": [
+    "icon"
+   ]
+  },
+  "fs": 0,
+  "graphic": "Icons/Events/2018 GreatModronMarch/ModronMarch_UpgradeLarge_2",
+  "id": 3065,
+  "p": 0,
+  "type": 1,
+  "v": 2
+ },
+ {
+  "export_params": {
+   "uses": [
+    "crusader"
+   ]
+  },
+  "fs": 0,
+  "graphic": "Characters/Event/Hero_Evelyn",
+  "id": 3066,
+  "p": 0,
+  "type": 3,
+  "v": 2
+ },
+ {
+  "export_params": {
+   "uses": [
+    "monster"
+   ]
+  },
+  "fs": 0,
+  "graphic": "Monsters/Constructs/Monster_Construct_Decaton",
+  "id": 3067,
+  "p": 0,
+  "type": 3,
+  "v": 2
+ },
+ {
+  "export_params": {
+   "uses": [
+    "monster"
+   ]
+  },
+  "fs": 0,
+  "graphic": "Monsters/Constructs/Monster_Construct_Duodrone_1",
+  "id": 3068,
+  "p": 0,
+  "type": 3,
+  "v": 2
+ },
+ {
+  "export_params": {
+   "uses": [
+    "monster"
+   ]
+  },
+  "fs": 0,
+  "graphic": "Monsters/Constructs/Monster_Construct_Duodrone_2",
+  "id": 3069,
+  "p": 0,
+  "type": 3,
+  "v": 2
+ },
+ {
+  "export_params": {
+   "uses": [
+    "monster"
+   ]
+  },
+  "fs": 0,
+  "graphic": "Monsters/Constructs/Monster_Construct_Duodrone_3",
+  "id": 3070,
+  "p": 0,
+  "type": 3,
+  "v": 2
+ },
+ {
+  "export_params": {
+   "uses": [
+    "monster"
+   ]
+  },
+  "fs": 0,
+  "graphic": "Monsters/Constructs/Monster_Construct_Monodrone_1",
+  "id": 3071,
+  "p": 0,
+  "type": 3,
+  "v": 2
+ },
+ {
+  "export_params": {
+   "uses": [
+    "monster"
+   ]
+  },
+  "fs": 0,
+  "graphic": "Monsters/Constructs/Monster_Construct_Monodrone_2",
+  "id": 3072,
+  "p": 0,
+  "type": 3,
+  "v": 2
+ },
+ {
+  "export_params": {
+   "uses": [
+    "monster"
+   ]
+  },
+  "fs": 0,
+  "graphic": "Monsters/Constructs/Monster_Construct_Monodrone_3",
+  "id": 3073,
+  "p": 0,
+  "type": 3,
+  "v": 2
+ },
+ {
+  "export_params": {
+   "uses": [
+    "monster"
+   ]
+  },
+  "fs": 0,
+  "graphic": "Monsters/Constructs/Monster_Construct_Pentadrone",
+  "id": 3074,
+  "p": 0,
+  "type": 3,
+  "v": 2
+ },
+ {
+  "export_params": {
+   "uses": [
+    "monster"
+   ]
+  },
+  "fs": 0,
+  "graphic": "Monsters/Constructs/Monster_Construct_Quadrone",
+  "id": 3075,
+  "p": 0,
+  "type": 3,
+  "v": 3
+ },
+ {
+  "export_params": {
+   "uses": [
+    "monster"
+   ]
+  },
+  "fs": 0,
+  "graphic": "Monsters/Constructs/Monster_Construct_Tridrone",
+  "id": 3076,
+  "p": 0,
+  "type": 3,
+  "v": 2
+ },
+ {
+  "export_params": {
+   "uses": [
+    "monster"
+   ]
+  },
+  "fs": 0,
+  "graphic": "Monsters/Giants/Monster_Giant_OgreHowdah",
+  "id": 3077,
+  "p": 0,
+  "type": 3,
+  "v": 2
+ },
+ {
+  "export_params": {
+   "uses": [
+    "monster"
+   ]
+  },
+  "fs": 0,
+  "graphic": "Monsters/Humanoids/Monster_Humanoid_VisageOfManshoon",
+  "id": 3078,
+  "p": 0,
+  "type": 3,
+  "v": 2
+ },
+ {
+  "export_params": {
+   "uses": [
+    "portrait"
+   ]
+  },
+  "fs": 0,
+  "graphic": "Icons/Events/2018 GreatModronMarch/GreatModronMarch_Portrait_Decaton",
+  "id": 3079,
+  "p": 0,
+  "type": 1,
+  "v": 2
+ },
+ {
+  "export_params": {
+   "uses": [
+    "portrait"
+   ]
+  },
+  "fs": 0,
+  "graphic": "Icons/Events/2018 GreatModronMarch/GreatModronMarch_Portrait_Quadrone",
+  "id": 3080,
+  "p": 0,
+  "type": 1,
+  "v": 2
+ },
+ {
+  "export_params": {
+   "uses": [
+    "portrait"
+   ]
+  },
+  "fs": 0,
+  "graphic": "Icons/Events/2018 GreatModronMarch/GreatModronMarch_Portrait_QuadroneDamaged",
+  "id": 3081,
+  "p": 0,
+  "type": 1,
+  "v": 2
+ },
+ {
+  "export_params": {
+   "uses": [
+    "portrait"
+   ]
+  },
+  "fs": 0,
+  "graphic": "Icons/Events/2018 GreatModronMarch/GreatModronMarch_Portrait_VisageOfManshoon",
+  "id": 3082,
+  "p": 0,
+  "type": 1,
+  "v": 2
+ },
+ {
+  "export_params": {
+   "uses": [
+    "chest"
+   ]
+  },
+  "fs": 0,
+  "graphic": "Chests/GreatModronMarchGoldChest",
+  "id": 3083,
+  "p": 0,
+  "type": 3,
+  "v": 2
+ },
+ {
+  "export_params": {
+   "uses": [
+    "chest"
+   ]
+  },
+  "fs": 0,
+  "graphic": "Chests/GreatModronMarchSilverChest",
+  "id": 3084,
+  "p": 0,
+  "type": 3,
+  "v": 2
+ },
+ {
+  "export_params": {
+   "export_animation": true,
+   "uses": [
+    "button"
+   ]
+  },
+  "fs": 0,
+  "graphic": "Icons/Adventures/CampaignButton_GreatModronMarch",
+  "id": 3085,
+  "p": 0,
+  "type": 1,
+  "v": 2
+ },
+ {
+  "export_params": {
+   "uses": [
+    "crusader"
+   ]
+  },
+  "fs": 0,
+  "graphic": "Characters/Event/Hero_Evelyn_Large",
+  "id": 3086,
+  "p": 0,
+  "type": 3,
+  "v": 2
+ },
+ {
+  "export_params": {
+   "uses": [
+    "portrait"
+   ]
+  },
+  "fs": 0,
+  "graphic": "Portraits/Portrait_Evelyn",
+  "id": 3087,
+  "p": 0,
+  "type": 1,
+  "v": 2
+ },
+ {
+  "export_params": {
+   "uses": [
+    "icon"
+   ]
+  },
+  "fs": 0,
+  "graphic": "SalePacks/Icon_Chest_WomenWarriors",
+  "id": 3088,
+  "p": 0,
+  "type": 1,
+  "v": 2
+ },
+ {
+  "export_params": {
+   "uses": [
+    "icon"
+   ]
+  },
+  "fs": 0,
+  "graphic": "SalePacks/WomenWarriorsWeekend_Banner",
+  "id": 3089,
+  "p": 0,
+  "type": 1,
+  "v": 2
+ },
+ {
+  "export_params": {
+   "uses": [
+    "icon"
+   ]
+  },
+  "fs": 0,
+  "graphic": "SalePacks/WomenWarriorsWeekend_Notification",
+  "id": 3090,
+  "p": 0,
+  "type": 1,
+  "v": 2
+ },
+ {
+  "export_params": {
+   "uses": [
+    "chest"
+   ]
+  },
+  "fs": 0,
+  "graphic": "SalePacks/WomenWarriorsWeekendPromoChest",
+  "id": 3091,
+  "p": 0,
+  "type": 3,
   "v": 2
  }
 ]

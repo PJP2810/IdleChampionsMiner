@@ -1,0 +1,7 @@
+cost,description,graphic_id,id,name,properties
+{'soft_currency': 1000},A commonly summoned magical poking device.,2638,1,Mage Hand,{'target_offset_x': 20}
+{'soft_currency': 10000},She's taking some time off from the riding races.,2639,2,Pixie,{'target_offset_x': 70}
+{'soft_currency': 50000},Brought to Chult From the distant land of Zakhara.,2637,3,Almiraj,[]
+{'premium_item': 24},An adorable pet for your everyday evil mage.,2466,4,Gazer,{'target_offset_x': 50}
+{'premium_item': 23},"Painfully shy, Chwingas are fascinated by humanoids.",2469,5,Chwinga,[]
+{'premium_item': 25},The playful version of a terrible destructive dragon.,2640,6,Pseudodragon,[]

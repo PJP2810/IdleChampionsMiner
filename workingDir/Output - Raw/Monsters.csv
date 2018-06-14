@@ -1,0 +1,606 @@
+attack_id,damage_modifier,graphic_id,health_modifier,id,name,properties,scale,sounds,speed_modifier,tags,type
+21,,60,,1,Gnoll,,,{'death': 101},,"['gnoll', 'humanoid', 'melee']",1
+21,,61,,2,Gnoll,,,{'death': 101},,"['gnoll', 'humanoid', 'melee']",1
+21,,62,,3,Gnoll,,,{'death': 101},,"['gnoll', 'humanoid', 'melee']",1
+21,,63,,4,Gnoll,,,{'death': 101},,"['gnoll', 'humanoid', 'melee']",1
+22,,218,,6,Gnoll,,,{'death': 101},,"['gnoll', 'humanoid', 'ranged']",1
+22,,126,,5,Gnoll,,,{'death': 101},,"['gnoll', 'humanoid', 'ranged']",1
+21,2.5,125,50.0,7,Gnoll Leader,,1.5,{'death': 31},,"['gnoll', 'humanoid', 'melee', 'boss']",2
+21,,573,,8,Rabbit,,,,,"['beast', 'melee']",1
+21,,574,,9,Rabbit,,,,,"['beast', 'melee']",1
+21,,94,,10,Wolf,,,{'death': 96},,"['beast', 'melee']",1
+21,,578,,11,Wolf,,,{'death': 96},,"['beast', 'melee']",1
+21,,579,,12,Wolf,,,{'death': 96},,"['beast', 'melee']",1
+21,,130,,13,Bandit,,,{'death': 45},,"['half-orc', 'humanoid', 'melee', 'bandit']",1
+21,,219,,14,Bandit,,,{'death': 45},,"['half-orc', 'humanoid', 'melee', 'bandit']",1
+21,,598,,15,Bandit,,,{'death': 45},,"['half-orc', 'humanoid', 'melee', 'bandit']",1
+21,,135,,16,Bandit,,,{'death': 46},,"['human', 'humanoid', 'melee', 'bandit']",1
+21,,594,,17,Bandit,,,{'death': 46},,"['human', 'humanoid', 'melee', 'bandit']",1
+21,,595,,18,Bandit,,,{'death': 46},,"['human', 'humanoid', 'melee', 'bandit']",1
+22,,136,,19,Bandit,"{'shoot_frame': 20, 'projectile_x': -55, 'projectile_y': -116}",,{'death': 46},,"['human', 'humanoid', 'ranged', 'bandit']",1
+22,,599,,20,Bandit,"{'shoot_frame': 20, 'projectile_x': -55, 'projectile_y': -116}",,{'death': 46},,"['human', 'humanoid', 'ranged', 'bandit']",1
+21,2.5,106,50.0,28,Dryad,,1.5,{'death': 43},,"['fey', 'melee', 'boss']",2
+21,2.5,131,50.0,21,Bandit Captain,,1.5,{'death': 31},,"['half-orc', 'humanoid', 'melee', 'bandit', 'boss']",2
+21,1.2,75,,22,Bear,,,{'death': 95},0.8,"['beast', 'melee']",1
+21,1.2,562,,23,Bear,,,{'death': 95},0.8,"['beast', 'melee']",1
+21,1.2,563,,24,Bear,,,{'death': 95},0.8,"['beast', 'melee']",1
+21,,607,,25,Lesser Wood Woad,,,,,"['plant', 'melee']",1
+21,,608,,26,Lesser Wood Woad,,,,,"['plant', 'melee']",1
+21,,609,,27,Lesser Wood Woad,,,,,"['plant', 'melee']",1
+21,,85,,29,Giant Frog,,,{'death': 12},,"['beast', 'melee']",1
+21,,569,,30,Giant Frog,,,{'death': 12},,"['beast', 'melee']",1
+21,,570,,31,Giant Frog,,,{'death': 12},,"['beast', 'melee']",1
+21,,77,,32,Cursed Cow,,,,,"['beast', 'melee']",1
+21,,566,,33,Cursed Cow,,,,,"['beast', 'melee']",1
+21,,567,,34,Cursed Cow,,,,,"['beast', 'melee']",1
+21,2.5,118,50.0,35,Cursed Farmer,,1.5,{'death': 46},,"['human', 'humanoid', 'melee', 'boss']",2
+21,,99,,36,Lesser Imp,,,{'death': 18},,"['fiend', 'melee', 'flying']",1
+21,,581,,37,Lesser Imp,,,{'death': 18},,"['fiend', 'melee', 'flying']",1
+21,,582,,38,Lesser Imp,,,{'death': 18},,"['fiend', 'melee', 'flying']",1
+21,,104,,39,Lesser Fire Elemental,,,{'death': 94},,"['elemental', 'melee']",1
+21,,584,,40,Lesser Fire Elemental,,,{'death': 94},,"['elemental', 'melee']",1
+21,,585,,41,Lesser Fire Elemental,,,{'death': 94},,"['elemental', 'melee']",1
+33,2.5,583,50.0,42,Fire Elemental,"{'shoot_frame': 11, 'projectile_x': -110, 'projectile_y': -90}",1.5,{'death': 94},,"['elemental', 'ranged', 'boss']",2
+21,,121,,43,Drunk Inn Patron,,,{'death': 46},,"['human', 'humanoid', 'melee']",1
+21,,596,,44,Drunk Inn Patron,,,{'death': 46},,"['human', 'humanoid', 'melee']",1
+21,,597,,45,Drunk Inn Patron,,,{'death': 46},,"['human', 'humanoid', 'melee']",1
+21,,86,,46,Giant Rat,,,{'death': 12},1.3,"['beast', 'melee']",1
+21,,571,,47,Giant Rat,,,{'death': 12},1.3,"['beast', 'melee']",1
+21,,572,,48,Giant Rat,,,{'death': 12},1.3,"['beast', 'melee']",1
+34,2.5,122,50.0,49,Drunk Wizard,"{'shoot_frame': 11, 'projectile_x': -130, 'projectile_y': -110}",1.5,{'death': 45},,"['human', 'humanoid', 'ranged', 'boss']",2
+21,2.5,116,50.0,50,Chained Up Ogre,,1.5,{'death': 31},,"['ogre', 'melee', 'boss', 'giant']",2
+21,,95,,51,Wolf Pup,,,{'death': 96},,"['beast', 'melee']",1
+21,,576,,52,Wolf Pup,,,{'death': 96},,"['melee', 'beast']",1
+21,,577,,53,Wolf Pup,,,{'death': 96},,"['beast', 'melee']",1
+21,2.5,89,50.0,54,Grizzly Bear,,1.5,{'death': 97},,"['beast', 'boss', 'melee']",2
+21,2.5,938,50.0,55,Goblin Scout,,1.5,{'death': 13},,"['melee', 'humanoid', 'goblin', 'boss']",2
+21,2.5,129,50.0,56,Goblin Warleader,,1.5,{'death': 13},,"['melee', 'humanoid', 'boss', 'goblin']",2
+21,,1204,,57,Hobgoblin,,,{'death': 13},,"['melee', 'humanoid', 'hobgoblin']",1
+21,,1205,,58,Hobgoblin,,,{'death': 13},,"['humanoid', 'melee', 'hobgoblin']",1
+21,,1206,,59,Hobgoblin,,,{'death': 13},,"['hobgoblin', 'humanoid', 'melee']",1
+45,2.5,1207,50.0,60,Hobgoblin Priest,{'shoot_frame': 10},1.5,{'death': 13},,"['humanoid', 'ranged', 'hobgoblin', 'boss']",2
+21,,1211,,61,Crawling Claw,,,{'death': 98},,"['melee', 'undead']",1
+21,,1212,,62,Crawling Claw,,,{'death': 98},,"['undead', 'melee']",1
+21,,1213,,63,Crawling Claw,,,{'death': 98},,"['undead', 'melee']",1
+21,2.5,1214,50.0,64,Upright Crawling Claw,,1.5,{'death': 99},,"['undead', 'melee', 'boss']",2
+21,,81,,65,Giant Caterpillar,,,{'death': 18},,"['beast', 'melee']",1
+21,,914,,66,Giant Caterpillar,,,{'death': 18},,"['beast', 'melee']",1
+21,,915,,67,Giant Caterpillar,,,{'death': 18},,"['beast', 'melee']",1
+21,2.5,82,50.0,68,Spiked Caterpillar,,1.5,{'death': 26},,"['beast', 'boss', 'melee']",2
+21,,1216,,69,Shadow,{'attack_frame': 10},,{'death': 67},,"['undead', 'melee', 'flying']",1
+21,,1217,,70,Shadow,{'attack_frame': 10},,{'death': 67},,"['undead', 'melee', 'flying']",1
+21,,1218,,71,Shadow,{'attack_frame': 10},,{'death': 67},,"['undead', 'melee', 'flying']",1
+21,2.5,134,50.0,72,Shadowy Hobgoblin,,1.5,{'death': 46},,"['humanoid', 'melee', 'hobgoblin', 'boss']",2
+21,,110,,73,Satyr,,,{'death': 13},,"['fey', 'melee']",1
+21,,587,,74,Satyr,,,{'death': 13},,"['fey', 'melee']",1
+21,,588,,75,Satyr,,,{'death': 13},,"['fey', 'melee']",1
+22,,111,,76,Satyr,"{'shoot_frame': 20, 'projectile_x': -60, 'projectile_y': -103}",,{'death': 13},,"['fey', 'ranged']",1
+22,,589,,77,Satyr,"{'shoot_frame': 20, 'projectile_x': -60, 'projectile_y': -103}",,{'death': 13},,"['fey', 'ranged']",1
+22,,590,,78,Satyr,"{'shoot_frame': 20, 'projectile_x': -60, 'projectile_y': -103}",,{'death': 13},,"['fey', 'ranged']",1
+9,2.5,109,50.0,79,Satyr Leader,"{'shoot_frame': 10, 'projectile_x': -10, 'projectile_y': -100}",1.5,{'death': 13},,"['boss', 'fey', 'ranged']",2
+21,1.25,1219,,80,Zombie Villager,,,{'death': 45},0.66,"['undead', 'melee']",1
+21,1.25,1220,,81,Zombie Villager,,,{'death': 46},0.66,"['undead', 'melee']",1
+21,1.25,1221,,82,Zombie Villager,,,{'death': 45},0.66,"['undead', 'melee']",1
+21,2.5,1215,50.0,83,Orc Zombie,,1.5,{'death': 31},,"['undead', 'melee', 'boss']",2
+21,2.5,1222,50.0,84,Dire Wolf,,1.5,{'death': 96},,"['beast', 'melee', 'boss']",2
+21,,92,,85,Giant Fly,,,{'death': 42},,"['beast', 'melee', 'flying']",1
+21,,575,,86,Giant Fly,,,{'death': 42},,"['beast', 'melee', 'flying']",1
+21,,1198,,87,Giant Bee,,,{'death': 42},,"['beast', 'melee', 'flying']",1
+21,,1197,,88,Giant Bee,,,{'death': 42},,"['beast', 'melee', 'flying']",1
+21,2.5,83,50.0,89,Giant Centipede,,1.5,{'death': 26},,"['beast', 'boss', 'melee']",2
+38,,107,,90,Pixie,"{'shoot_frame': 10, 'projectile_x': -60, 'projectile_y': -115}",,,,"['fey', 'ranged', 'flying']",1
+38,,933,,91,Pixie,"{'shoot_frame': 10, 'projectile_x': -60, 'projectile_y': -115}",,,,"['fey', 'ranged', 'flying']",1
+38,,934,,92,Pixie,"{'shoot_frame': 10, 'projectile_x': -60, 'projectile_y': -115}",,,,"['fey', 'ranged', 'flying']",1
+21,2.5,1203,50.0,93,Pixie Leader,,1.5,,,"['fey', 'melee', 'boss']",2
+21,,84,,94,Giant Crab,,,{'death': 18},,"['beast', 'melee']",1
+21,,1195,,95,Giant Crab,,,{'death': 18},,"['beast', 'melee']",1
+21,,1196,,96,Giant Crab,,,{'death': 18},,"['beast', 'melee']",1
+21,,1208,,97,Harpy,,,,,"['monstrosity', 'melee', 'flying']",1
+21,,1209,,98,Harpy,,,,,"['melee', 'monstrosity', 'flying']",1
+21,,1210,,99,Harpy,,,,,"['melee', 'monstrosity', 'flying']",1
+21,2.5,152,50.0,100,Harpy Queen,,1.5,,,"['melee', 'monstrosity', 'boss', 'flying']",2
+21,2.5,120,50.0,101,Deranged Druid,,1.5,,,"['melee', 'boss', 'humanoid']",2
+21,2.5,143,50.0,102,Rat King,,1.5,{'death': 12},,"['humanoid', 'melee', 'boss']",2
+44,10.0,162,50.0,103,Lich,"{'shoot_frame': 14, 'projectile_x': -145, 'projectile_y': -170}",1.5,{'death': 94},,"['undead', 'boss', 'ranged']",2
+21,,568,,104,Cursed Rat,,,{'death': 12},1.3,"['beast', 'melee']",1
+21,,909,,105,Cursed Rat,,,{'death': 12},1.3,"['beast', 'melee']",1
+21,,910,,106,Cursed Rat,,,{'death': 12},1.3,"['beast', 'melee']",1
+21,,93,,107,Vulture,,,{'death': 12},,"['beast', 'melee']",1
+21,,922,,108,Vulture,,,{'death': 12},,"['beast', 'melee']",1
+21,,923,,109,Vulture,,,{'death': 12},,"['beast', 'melee']",1
+21,2.5,79,50.0,110,Cursed Warhorse,,1.5,,,"['beast', 'melee', 'boss']",2
+21,2.5,119,50.0,111,Cursed Farmhand,,1.5,{'death': 45},,"['human', 'humanoid', 'melee', 'boss']",2
+21,2.5,154,50.0,112,Owlbear,,1.5,{'death': 95},,"['melee', 'monstrosity', 'boss']",2
+21,2.5,124,50.0,113,Gnoll King,,1.5,{'death': 40},,"['gnoll', 'humanoid', 'melee', 'boss']",2
+21,,127,,114,Slime Covered Gnoll,,,{'death': 40},,"['gnoll', 'humanoid', 'melee']",1
+21,,592,,115,Slime Covered Gnoll,,,{'death': 40},,"['gnoll', 'humanoid', 'melee']",1
+21,,593,,116,Slime Covered Gnoll,,,{'death': 40},,"['gnoll', 'humanoid', 'melee']",1
+21,2.5,1079,50.0,117,Gelatinous Cube,,1.5,,,"['ooze', 'boss']",2
+21,,87,,118,Giant Spider,,,{'death': 26},,"['beast', 'melee']",1
+21,,917,,119,Giant Spider,,,{'death': 26},,"['beast', 'melee']",1
+21,,918,,120,Giant Spider,,,{'death': 26},,"['beast', 'melee']",1
+21,2.5,88,50.0,121,Tarantula,,1.5,{'death': 26},,"['beast', 'melee', 'boss']",2
+21,,128,,122,Goblin,,,{'death': 13},,"['goblin', 'humanoid', 'melee']",1
+21,,940,,123,Goblin,,,{'death': 13},,"['goblin', 'humanoid', 'melee']",1
+21,,939,,124,Goblin,,,{'death': 13},,"['goblin', 'humanoid', 'melee']",1
+21,,153,,125,Mimic,,,{'death': 18},,"['monstrosity', 'melee']",1
+21,,941,,126,Mimic,,,{'death': 18},,"['monstrosity', 'melee']",1
+21,,942,,127,Mimic,,,{'death': 18},,"['monstrosity', 'melee']",1
+21,2.5,150,50.0,128,Greater Mimic,,1.5,{'death': 18},,"['monstrosity', 'melee', 'boss']",2
+21,2.5,100,50.0,129,Shadow Imp,,1.5,{'death': 18},,"['fiend', 'melee', 'boss', 'flying']",2
+21,2.5,117,50.0,130,Cursed Cleric,,1.5,{'death': 45},,"['humanoid', 'human', 'melee', 'boss']",2
+21,2.5,114,50.0,131,Quasit,,1.5,{'death': 18},,"['fiend', 'melee', 'boss']",2
+21,2.5,98,50.0,132,Greater Imp,,1.5,{'death': 18},,"['fiend', 'melee', 'boss', 'flying']",2
+21,2.5,591,50.0,133,Dretch,,1.5,{'death': 31},,"['fiend', 'melee', 'boss']",2
+34,2.5,600,50.0,134,Mad Wizard,"{'shoot_frame': 8, 'projectile_x': -100, 'projectile_y': -125}",1.5,{'death': 46},,"['human', 'humanoid', 'ranged', 'boss']",2
+21,,112,,135,Sprite,,,,,"['fey', 'melee', 'flying']",1
+21,,935,,136,Sprite,,,,,"['fey', 'melee', 'flying']",1
+21,,936,,137,Sprite,,,,,"['fey', 'melee', 'flying']",1
+37,2.5,586,50.0,138,Green Hag,"{'shoot_frame': 6, 'projectile_x': -115, 'projectile_y': -70}",1.5,,,"['fey', 'ranged', 'boss']",2
+21,2.5,610,50.0,139,Shambling Mound,,1.5,{'death': 31},,"['plant', 'melee', 'boss']",2
+21,2.5,158,50.0,140,Treant,,1.5,{'death': 31},,"['plant', 'melee', 'boss']",2
+21,,103,,141,Gargoyle,,,{'death': 13},,"['elemental', 'melee']",1
+21,,931,,142,Gargoyle,,,{'death': 13},,"['elemental', 'melee']",1
+21,,932,,143,Gargoyle,,,{'death': 13},,"['elemental', 'melee']",1
+21,,97,,144,Stone Golem,,,{'death': 39},,"['construct', 'melee']",1
+21,,928,,145,Stone Golem,,,{'death': 39},,"['construct', 'melee']",1
+21,,929,,146,Stone Golem,,,{'death': 39},,"['construct', 'melee']",1
+21,2.5,102,50.0,147,Galeb Duhr,,1.5,{'death': 39},,"['elemental', 'melee', 'boss']",2
+21,,924,,148,Awakened Object,,,,,"['construct', 'melee']",1
+21,,925,,149,Awakened Object,,,,,"['construct', 'melee']",1
+21,,926,,150,Awakened Object,,,,,"['construct', 'melee']",1
+21,,73,,151,Nothic,,,,,"['aberration', 'melee']",1
+21,,907,,152,Nothic,,,,,"['aberration', 'melee']",1
+21,,908,,153,Nothic,,,,,"['aberration', 'melee']",1
+21,2.5,115,50.0,154,Succubus,,1.5,{'death': 43},,"['fiend', 'melee', 'boss']",2
+34,2.5,137,50.0,155,Mad Wizard,"{'shoot_frame': 8, 'projectile_x': -100, 'projectile_y': -125}",1.5,{'death': 46},,"['human', 'humanoid', 'ranged', 'boss']",2
+21,2.5,155,50.0,156,Worg,,1.5,{'death': 100},,"['melee', 'monstrosity', 'boss']",2
+21,2.5,74,50.0,157,Angry Boar,,1.5,{'death': 39},,"['beast', 'melee', 'boss']",2
+21,,76,,158,Boar,,,{'death': 39},,"['beast', 'melee']",1
+21,,564,,159,Boar,,,{'death': 39},,"['beast', 'melee']",1
+21,,565,,160,Boar,,,{'death': 39},,"['beast', 'melee']",1
+21,2.5,145,50.0,161,Wererat Sentry,,1.5,{'death': 13},,"['humanoid', 'melee', 'boss', 'lycanthrope']",2
+21,2.5,148,50.0,162,Dashing Werewolf,,1.5,{'death': 13},,"['humanoid', 'melee', 'boss', 'lycanthrope']",2
+21,2.5,146,50.0,163,Weretiger Librarian,,1.5,{'death': 39},,"['humanoid', 'melee', 'boss', 'lycanthrope']",2
+21,,142,,164,Wererat,,,{'death': 13},,"['humanoid', 'melee', 'lycanthrope']",1
+21,,221,,165,Wererat,,,{'death': 13},,"['humanoid', 'melee', 'lycanthrope']",1
+21,,605,,166,Wererat,,,{'death': 13},,"['humanoid', 'melee', 'lycanthrope']",1
+21,2.5,144,50.0,167,Wererat Leader,,1.5,{'death': 13},,"['humanoid', 'melee', 'boss', 'lycanthrope']",2
+21,,140,,168,Wereboar,,,{'death': 39},,"['humanoid', 'melee', 'lycanthrope']",1
+21,,602,,169,Wereboar,,,{'death': 39},,"['humanoid', 'melee', 'lycanthrope']",1
+21,,603,,170,Wereboar,,,{'death': 39},,"['humanoid', 'melee', 'lycanthrope']",1
+21,2.5,141,50.0,171,Wereboar Leader,,1.5,{'death': 39},,"['humanoid', 'melee', 'boss', 'lycanthrope']",2
+21,,138,,172,Werebear,,,{'death': 97},,"['humanoid', 'melee', 'lycanthrope']",1
+21,,220,,173,Werebear,,,{'death': 97},,"['humanoid', 'melee', 'lycanthrope']",1
+21,,601,,174,Werebear,,,{'death': 97},,"['humanoid', 'melee', 'lycanthrope']",1
+21,2.5,139,50.0,175,Werebear Leader,,1.5,{'death': 97},,"['humanoid', 'melee', 'boss', 'lycanthrope']",2
+21,,147,,176,Werewolf,,,{'death': 96},,"['humanoid', 'melee', 'lycanthrope']",1
+21,,222,,177,Werewolf,,,{'death': 96},,"['humanoid', 'melee', 'lycanthrope']",1
+21,,606,,178,Werewolf,,,{'death': 96},,"['humanoid', 'melee', 'lycanthrope']",1
+21,2.5,149,50.0,179,Werewolf Leader,,1.5,{'death': 96},,"['humanoid', 'melee', 'boss', 'lycanthrope']",2
+21,,911,,181,Flying Snake,,,,,"['beast', 'melee', 'flying']",1
+21,,912,,182,Flying Snake,,,,,"['beast', 'melee', 'flying']",1
+21,,913,,183,Flying Snake,,,,,"['beast', 'melee', 'flying']",1
+21,,927,,184,Awakened Object,,,,,"['construct', 'melee']",1
+21,2.5,919,50.0,185,Giant Zombie Flying Snake,,1.5,,,"['melee', 'boss', 'undead', 'flying']",2
+21,2.5,920,50.0,186,Giant Zombie Spider,,1.5,,,"['melee', 'boss', 'undead']",2
+21,2.5,921,50.0,187,Momma Boar,,1.5,,,"['beast', 'melee', 'boss']",2
+21,2.5,930,50.0,188,Tomb Guardian,,1.5,,,"['construct', 'melee', 'boss']",2
+22,2.5,937,50.0,189,Mad Tabaxi Hunter,"{'shoot_frame': 20, 'projectile_x': -60, 'projectile_y': -90}",1.5,,,"['humanoid', 'ranged', 'boss']",2
+34,2.5,943,50.0,190,Zombie Wizard,"{'shoot_frame': 8, 'projectile_x': -100, 'projectile_y': -50}",1.5,,,"['undead', 'ranged', 'boss']",2
+21,,944,,191,Ghoul,,,,,"['undead', 'melee']",1
+21,,947,,192,Ghoul,,,,,"['undead', 'melee']",1
+21,,948,,193,Ghoul,,,,,"['undead', 'melee']",1
+34,2.5,945,50.0,194,Zombie Cleric,"{'shoot_frame': 8, 'projectile_x': -130, 'projectile_y': -75}",1.5,,,"['undead', 'ranged', 'boss']",2
+21,2.5,946,50.0,195,Zombie Adventurer,,1.5,,,"['undead', 'melee', 'boss']",2
+36,,1002,,196,Mad Cow,"{'shoot_frame': 14, 'projectile_x': -108, 'projectile_y': -80}",,,,"['beast', 'ranged']",1
+21,,1009,,197,Pure Energy,,,,0.5,"['elemental', 'flying']",1
+0,,951,25.0,198,Ward Focus,{'hits_based_damage': True},,,,"['static', 'spawner']",1
+0,,1018,25.0,199,Portal,{'hits_based_damage': True},,,,"['static', 'spawner']",1
+0,,1019,25.0,200,Strange Orb,{'hits_based_damage': True},,,,"['static', 'spawner']",1
+0,,1020,25.0,201,Portal,{'hits_based_damage': True},,,,"['static', 'spawner']",1
+21,,1147,,202,Scarecrow,,,,,"['construct', 'melee']",1
+21,,1162,,203,Scarecrow,,,,,"['construct', 'melee']",1
+21,,1163,,204,Scarecrow,,,,,"['construct', 'melee']",1
+34,,1149,,205,Bandit Wizard,"{'shoot_frame': 6, 'projectile_x': -90, 'projectile_y': -130}",,,,"['bandit', 'ranged', 'human', 'humanoid']",1
+34,,1164,,206,Bandit Wizard,"{'shoot_frame': 6, 'projectile_x': -90, 'projectile_y': -130}",,,,"['bandit', 'human', 'humanoid', 'ranged']",1
+34,,1165,,207,Bandit Wizard,"{'shoot_frame': 6, 'projectile_x': -90, 'projectile_y': -130}",,,,"['human', 'humanoid', 'ranged', 'bandit']",1
+21,,1148,,208,Skeletal Horse,,,,,"['undead', 'melee']",1
+21,,1166,,209,Skeletal Horse,,,,,"['undead', 'melee']",1
+21,,1148,,210,Skeletal Horse,,,,,"['melee', 'undead']",1
+22,2.5,1132,50.0,211,Bandit Ranger,"{'shoot_frame': 18, 'projectile_x': -20, 'projectile_y': -108}",1.5,,,"['boss', 'human', 'humanoid', 'ranged', 'bandit']",2
+21,2.5,1130,50.0,212,Bandit Barbarian,,1.5,,,"['bandit', 'boss', 'human', 'humanoid', 'melee']",2
+21,2.5,1127,50.0,213,Giant Vulture,,1.5,,,"['boss', 'beast', 'melee']",2
+33,2.5,1134,50.0,214,Bandit Sorcerer,"{'shoot_frame': 8, 'projectile_x': -110, 'projectile_y': -125}",1.5,,,"['boss', 'bandit', 'human', 'humanoid', 'ranged']",2
+21,2.5,1133,50.0,215,Bandit Rogue,,1.5,,,"['bandit', 'boss', 'melee', 'drow', 'elf', 'humanoid']",2
+21,2.5,1128,50.0,216,Vicious Rabbit,,1.5,,,"['boss', 'beast', 'melee']",2
+21,2.5,1126,50.0,217,Albino Bear,,1.5,,,"['boss', 'beast', 'melee']",2
+21,2.5,1131,50.0,218,Interrogater,,1.5,,,"['boss', 'dwarf', 'humanoid', 'melee']",2
+21,2.5,1135,50.0,219,Necromancer,,1.5,,,"['boss', 'tiefling', 'humanoid', 'melee']",2
+21,2.5,1129,50.0,220,Resurrected Hero of the Vale,,1.5,,,"['boss', 'undead', 'melee']",2
+21,,1199,,221,Mud Mephit,,,,,"['elemental', 'melee', 'flying']",1
+21,,1200,,222,Mud Mephit,,,,,"['elemental', 'melee', 'flying']",1
+21,,1201,,223,Mud Mephit,,,,,"['elemental', 'melee', 'flying']",1
+21,2.5,1202,50.0,224,Magma Mephit,,1.5,,,"['elemental', 'melee', 'boss', 'flying']",2
+21,2.5,1287,50.0,225,Ghoul Lord,,1.5,,,"['undead', 'melee', 'boss']",2
+21,2.5,1276,50.0,226,Flying Snake Swarm,,1.5,,,"['beast', 'boss', 'melee', 'flying']",2
+21,2.5,1282,50.0,227,Girallon Zombie,,1.5,,,"['undead', 'melee', 'boss']",2
+21,2.5,1293,50.0,228,Wight,,1.5,,,"['undead', 'melee', 'boss']",2
+21,2.5,1286,50.0,229,Ghast,,1.5,,,"['undead', 'melee', 'boss']",2
+21,2.5,1292,50.0,230,Specter,,1.5,,,"['undead', 'melee', 'boss', 'flying']",2
+22,,1288,,231,Skeleton Archer,"{'shoot_frame': 20, 'projectile_x': -60, 'projectile_y': -118}",,,,"['undead', 'ranged']",1
+22,,1289,,232,Skeleton Archer,"{'shoot_frame': 20, 'projectile_x': -60, 'projectile_y': -118}",,,,"['undead', 'ranged']",1
+22,,1290,,233,Skeleton Archer,"{'shoot_frame': 20, 'projectile_x': -60, 'projectile_y': -118}",,,,"['undead', 'ranged']",1
+22,2.5,1291,50.0,234,Skeleton Deadeye Archer,"{'shoot_frame': 20, 'projectile_x': -60, 'projectile_y': -118}",1.5,,,"['undead', 'ranged', 'boss']",2
+21,2.5,1294,50.0,235,Wraith,,1.5,,,"['undead', 'melee', 'boss', 'flying']",2
+33,2.5,1278,50.0,236,Red Wizard Agent,"{'shoot_frame': 6, 'projectile_x': -115, 'projectile_y': -105}",1.5,,,"['humanoid', 'human', 'ranged', 'boss']",2
+21,2.5,583,50.0,237,Inferno Elemental,,1.5,,,"['elemental', 'boss', 'melee']",2
+21,2.5,1277,50.0,238,Barbed Devil,,1.5,,,"['boss', 'melee', 'fiend']",2
+21,,1279,,239,Sailor,,,,,"['human', 'humanoid', 'melee']",1
+21,,1280,,240,Sailor,,,,,"['human', 'humanoid', 'melee']",1
+21,,1281,,241,Sailor,,,,,"['human', 'humanoid', 'melee']",1
+21,,1283,,242,Skeleton,,,,,"['undead', 'melee']",1
+21,,1284,,243,Skeleton,,,,,"['undead', 'melee']",1
+21,,1285,,244,Skeleton,,,,,"['undead', 'melee']",1
+21,,114,,245,Quasit,,,,,"['fiend', 'melee']",1
+21,,1380,,246,Costumed Drunk,,,,,"['human', 'humanoid', 'melee']",1
+21,,1381,,247,Costumed Drunk,,,,,"['humanoid', 'human', 'melee']",1
+21,,1382,,248,Costumed Drunk,,,,,"['humanoid', 'human', 'melee']",1
+21,2.5,1383,50.0,249,Masked Man,,1.5,,,"['human', 'humanoid', 'melee', 'boss']",1
+54,2.5,1384,50.0,250,Poison-Spitting Spider,"{'shoot_frame': 15, 'projectile_x': -70, 'projectile_y': -60}",1.5,,,"['beast', 'ranged', 'boss']",2
+21,,1296,,251,Bat,,,,,"['beast', 'melee', 'flying']",1
+21,,1386,,252,Bat,,,,,"['beast', 'melee', 'flying']",1
+21,,1387,,253,Bat,,,,,"['beast', 'melee', 'flying']",1
+21,2.5,1385,50.0,254,Vampire Bat,,1.5,,,"['beast', 'boss', 'melee', 'flying']",2
+21,,1389,,255,Vampire Spawn,,,,,"['human', 'undead', 'melee']",1
+21,,1390,,256,Vampire Spawn,,,,,"['human', 'undead', 'melee']",1
+21,,1391,,257,Vampire Spawn,,,,,"['undead', 'melee', 'human']",1
+21,2.5,1388,50.0,258,Weakened Vampire,,1.5,,,"['boss', 'melee', 'undead', 'human']",2
+21,2.5,1392,50.0,259,Hobgoblin Leader,,1.5,,,"['humanoid', 'hobgoblin', 'boss', 'melee']",2
+21,2.5,1393,50.0,260,Crazed Owlbear,,1.5,,,"['boss', 'melee', 'monstrosity']",2
+21,,1133,,261,Stealthy Pickpocket,"{'start_invisible': 4, 'indestructible': 4, 'effect_on_hit': 'steal_gold_percent,2'}",,,,"['melee', 'dwarf', 'humanoid']",1
+21,,1380,10.0,262,Scary Dragon,{'hits_based_damage': True},1.5,,,"['humanoid', 'human', 'melee']",1
+21,,1381,,263,Devilish Fiend,"{'effect_when_hit': 'effect_def,43'}",1.5,,,"['humanoid', 'human', 'melee']",1
+21,,1382,,264,Deadly Beholder,"{'die_after_damage_hero': True, 'insta_kill': True}",1.5,,3.0,"['melee', 'humanoid', 'human']",1
+21,,1432,20.0,266,Tanking Red Wizard,{'hits_based_damage': True},,,,"['humanoid', 'human', 'melee']",1
+21,,1432,,265,Speedy Red Wizard,,0.9,,3.5,"['humanoid', 'human', 'melee']",1
+21,5.0,1432,,267,Powerful Red Wizard,,1.2,,0.8,"['humanoid', 'human', 'melee']",1
+56,,1432,,268,Blasting Red Wizard,"{'shoot_frame': 6, 'projectile_x': -115, 'projectile_y': -105, 'effect_on_hit': {'effect_string': 'effect_def,45'}}",,,,"['humanoid', 'human', 'ranged']",1
+21,2.5,1450,50.0,269,Bloodthirsty Rat,,1.5,,,"['beast', 'boss', 'melee']",2
+21,2.5,1447,50.0,270,The Brave Baker of Triboar,,1.5,,,"['boss', 'melee', 'human', 'undead']",2
+21,2.5,1449,50.0,271,Skull-Face Spider,,1.5,,,"['beast', 'boss', 'melee']",2
+21,2.5,1443,50.0,272,Armored Skeleton,,1.5,,,"['undead', 'melee', 'boss']",2
+21,2.5,1439,50.0,273,Shadow Ghoul,,1.5,,,"['undead', 'melee', 'boss']",2
+34,2.5,1448,50.0,274,Heroine of Longsaddle,"{'shoot_frame': 7, 'projectile_x': -95, 'projectile_y': -130}",1.5,,,"['human', 'boss', 'ranged', 'undead']",2
+21,2.5,1446,50.0,275,Daring Dwarf of Dessarin,,1.5,,,"['dwarf', 'boss', 'melee', 'undead']",2
+21,,1442,,276,Impaled Ghoul,,,,,"['melee', 'undead']",1
+21,,1441,,277,Impaled Ghoul,,,,,"['melee', 'undead']",1
+21,,1440,,278,Impaled Ghoul,,,,,"['undead', 'melee']",1
+21,2.5,1445,50.0,279,Impaled Menace of Morgur's Mound,,1.5,,,"['undead', 'boss', 'melee']",2
+37,2.5,1444,50.0,280,Mad Cultist of Cyric,"{'shoot_frame': 5, 'projectile_x': -95, 'projectile_y': -70}",1.5,,,"['humanoid', 'human', 'boss', 'ranged']",2
+0,,1506,50.0,281,Shadowy Wall,{'hits_based_damage': True},,,,"['static', 'spawner']",1
+21,,1580,,282,Flying Monkey,,,,,"['beast', 'melee']",1
+21,,1581,,283,Flying Monkey,,,,,"['beast', 'melee']",1
+21,,1582,,284,Flying Monkey,,,,,"['beast', 'melee']",1
+21,2.5,1577,50.0,285,First Mate,,1.5,,,"['human', 'humanoid', 'melee', 'boss']",2
+21,2.5,1589,50.0,286,Su-Monster,,1.5,,,"['monstrosity', 'melee', 'boss']",2
+21,2.5,1567,50.0,287,Assassin,,1.5,,,"['humanoid', 'melee', 'boss']",2
+21,2.5,1568,50.0,288,Cutpurse Prince,,1.5,,,"['humanoid', 'boss', 'melee']",2
+21,2.5,1570,50.0,289,Informant,,1.5,,,"['humanoid', 'boss', 'melee']",2
+21,,1574,,290,Yuan-Ti Pureblood,,,,,"['humanoid', 'melee', 'yuan-ti']",1
+21,,1575,,291,Yuan-Ti Pureblood,,,,,"['humanoid', 'melee', 'yuan-ti']",1
+21,,1576,,292,Yuan-Ti Pureblood,,,,,"['humanoid', 'melee', 'yuan-ti']",1
+21,2.5,1590,50.0,293,Yuan-Ti Abomination,,1.5,,,"['monstrosity', 'melee', 'boss', 'yuan-ti']",2
+21,2.5,1588,50.0,294,Velociraptor,,1.5,,,"['beast', 'boss', 'melee', 'dinosaur']",2
+44,2.5,1569,50.0,295,Father Kenda,"{'shoot_frame': 10, 'projectile_x': -60, 'projectile_y': -95}",1.5,,,"['humanoid', 'human', 'boss', 'ranged']",2
+21,2.5,1594,50.0,296,Zombie Rat,,1.5,,,"['undead', 'melee', 'boss']",2
+21,,1583,,297,Stegosaurus,,,,,"['beast', 'melee', 'dinosaur']",1
+21,,1688,,298,Stegosaurus,,,,,"['melee', 'beast', 'dinosaur']",1
+21,,1689,,299,Stegosaurus,,,,,"['melee', 'beast', 'dinosaur']",1
+21,2.5,1578,50.0,300,Ancient Stegosaurus,,1.5,,,"['boss', 'beast', 'melee', 'dinosaur']",2
+21,2.5,1571,50.0,301,Monkey Tamer,,1.5,,,"['boss', 'melee', 'human', 'humanoid']",2
+21,,1585,,302,Triceratops,,,,,"['beast', 'melee', 'dinosaur']",1
+21,,1586,,303,Triceratops,,,,,"['beast', 'melee', 'dinosaur']",1
+21,,1587,,304,Triceratops,,,,,"['beast', 'dinosaur', 'melee']",1
+21,2.5,1579,50.0,305,Dimetrodon,,1.5,,,"['beast', 'boss', 'melee', 'dinosaur']",2
+21,2.5,1572,50.0,306,Overambitious Bandit,,1.5,,,"['bandit', 'boss', 'melee', 'human', 'humanoid']",2
+21,2.5,1584,50.0,307,Triceratops Rider,,1.5,,,"['beast', 'boss', 'dinosaur', 'melee']",2
+21,2.5,1573,50.0,308,Pirate Captain,,1.5,,,"['bandit', 'boss', 'human', 'humanoid', 'melee']",2
+21,2.5,1591,50.0,309,Skeleton Champion,,1.5,,,"['boss', 'melee', 'undead']",2
+21,2.5,1592,50.0,310,Triceratops Zombie,,1.5,,,"['boss', 'undead', 'dinosaur', 'melee']",2
+21,2.5,1593,100.0,311,Tyrannosaurus Zombie,"{'target_offset_x': -150, 'hits_based_damage': True, 'target_offset_y': -150}",,,,"['boss', 'dinosaur', 'undead']",2
+21,2.5,1637,50.0,312,Rat Catcher,,1.5,,,"['melee', 'human', 'humanoid', 'boss']",2
+21,2.5,1622,50.0,313,Chubby Bear,,1.5,,,"['beast', 'boss', 'melee']",2
+21,,1625,,314,Winter Wolf,,,,,"['melee', 'monstrosity']",1
+21,,1626,,315,Winter Wolf,,,,,"['melee', 'monstrosity']",1
+21,,1627,,316,Winter Wolf,,,,,"['melee', 'monstrosity']",1
+21,2.5,1624,50.0,317,Winter Wolf Alpha,,1.5,,,"['boss', 'melee', 'monstrosity']",2
+21,,1633,,318,Arctic Bandit,,,,,"['human', 'humanoid', 'melee', 'bandit']",1
+21,,1634,,319,Arctic Bandit,,,,,"['human', 'humanoid', 'melee', 'bandit']",1
+21,,1635,,320,Arctic Bandit,,,,,"['human', 'humanoid', 'melee', 'bandit']",1
+21,2.5,1632,50.0,321,Ice Troll,,1.5,,,"['boss', 'giant', 'melee']",2
+21,2.5,1636,50.0,322,Fur-Clad Ranger,,1.5,,,"['human', 'humanoid', 'bandit', 'melee']",2
+21,,1629,,323,Ice Mephit,,,,,"['elemental', 'melee']",1
+21,,1630,,324,Ice Mephit,,,,,"['elemental', 'melee']",1
+21,,1631,,325,Ice Mephit,,,,,"['elemental', 'melee']",1
+21,2.5,1628,50.0,326,Colossal Ice Mephit,,1.5,,,"['elemental', 'boss', 'melee']",2
+21,2.5,1638,50.0,327,Scarred Leader,,1.5,,,"['humanoid', 'human', 'bandit', 'melee', 'boss']",2
+21,2.5,1623,50.0,328,Injured Alpha Boar,,1.5,,,"['beast', 'boss', 'melee']",2
+21,2.5,1639,50.0,329,Abominable Yeti,,1.5,,,"['boss', 'melee', 'monstrosity']",2
+62,,1690,,330,Undead Flying Monkey,{'shoot_frame': 10},,,,"['undead', 'ranged']",1
+21,2.0,131,50.0,331,Raiding Bandit Boss,,1.5,,,"['bandit', 'boss', 'melee', 'half-orc', 'humanoid']",2
+21,2.0,1748,50.0,332,Warty Giant Frog,,1.5,,,"['beast', 'boss', 'melee']",2
+21,,1785,,333,Will-o'-Wisp,,,,,"['undead', 'melee']",1
+21,,1786,,334,Will-o'-Wisp,,,,,"['melee', 'undead']",1
+21,,1787,,335,Will-o'-Wisp,,,,,"['melee', 'undead']",1
+21,,1731,,336,Lesser Gibbering Mouther,,,,,"['aberration', 'melee']",1
+21,,1732,,337,Lesser Gibbering Mouther,,,,,"['aberration', 'melee']",1
+21,,1733,,338,Lesser Gibbering Mouther,,,,,"['aberration', 'melee']",1
+21,2.0,1730,50.0,339,Gibbering Mouther,,1.5,,,"['aberration', 'melee', 'boss']",2
+21,2.0,1746,50.0,340,Large Scarred Bear,,1.5,,,"['beast', 'boss', 'melee']",2
+21,,1752,,341,Zombie Spider,,,,,"['melee', 'undead']",1
+21,,1753,,342,Zombie Spider,,,,,"['melee', 'undead']",1
+21,,1754,,343,Zombie Spider,,,,,"['melee', 'undead']",1
+21,2.5,1734,50.0,344,Alpha Wolf,,1.5,,,"['beast', 'boss', 'melee']",2
+21,,1749,,345,Wild Dog,,,,,"['melee', 'beast']",1
+21,,1750,,346,Wild Dog,,,,,"['beast', 'melee']",1
+21,,1751,,347,Wild Dog,,,,,"['beast', 'melee']",1
+21,2.51,1790,50.0,348,Death Dog,,1.5,,,"['monstrosity', 'melee', 'boss']",2
+21,2.5,1789,50.0,349,Shifty Bandit Thief,,1.5,,,"['bandit', 'boss', 'human', 'humanoid', 'melee']",2
+21,,1770,,350,Thief,,,,,"['melee', 'humanoid', 'bandit', 'human']",1
+21,,1771,,351,Thief,,,,,"['bandit', 'humanoid', 'melee', 'human']",1
+21,,1772,,352,Thief,,,,,"['bandit', 'humanoid', 'melee', 'human']",1
+22,,1773,,353,Thief,,,,,"['humanoid', 'bandit', 'ranged', 'human']",1
+22,,1774,,354,Thief,,,,,"['bandit', 'ranged', 'humanoid', 'human']",1
+22,,1775,,355,Thief,,,,,"['humanoid', 'bandit', 'ranged', 'human']",1
+21,2.5,1768,50.0,356,Roguish Thief,,1.5,,,"['bandit', 'boss', 'humanoid', 'melee', 'human']",2
+21,,1776,,357,Zhentarim Spy,,,,,"['humanoid', 'melee', 'drow', 'elf']",1
+21,,1777,,358,Zhentarim Spy,,,,,"['humanoid', 'melee', 'human']",1
+21,,1779,,359,Zhentarim Spy,,,,,"['humanoid', 'melee', 'human']",1
+22,,1780,,360,Zhentarim Spy,,,,,"['humanoid', 'ranged', 'human']",1
+22,,1781,,361,Zhentarim Spy,,,,,"['humanoid', 'ranged', 'tiefling']",1
+22,,1782,,362,Zhentarim Spy,,,,,"['humanoid', 'ranged', 'human']",1
+22,2.5,1778,50.0,363,Zhentarim Assassin,,1.5,,,"['humanoid', 'boss', 'ranged', 'human']",2
+21,,1759,,364,Kobold,,,,,"['humanoid', 'kobold', 'melee']",1
+21,,1760,,365,Kobold,,,,,"['kobold', 'humanoid', 'melee']",1
+21,,1761,,366,Kobold,,,,,"['humanoid', 'kobold', 'melee']",1
+22,,1762,,367,Kobold,,,,,"['humanoid', 'kobold', 'ranged']",1
+22,,1763,,368,Kobold,,,,,"['humanoid', 'kobold', 'ranged']",1
+22,,1764,,369,Kobold,,,,,"['humanoid', 'kobold', 'ranged']",1
+21,2.5,1756,50.0,370,Kobold King,,1.5,,,"['humanoid', 'kobold', 'melee', 'boss']",2
+21,2.5,1757,50.0,371,Zombie Kobold King,,1.5,,,"['kobold', 'undead', 'melee', 'boss']",2
+21,2.5,1755,50.0,372,Master Thief,,1.5,,,"['humanoid', 'halfling', 'boss', 'melee']",2
+21,,1736,,373,Burning Rat,,,,,"['beast', 'melee']",1
+21,,1737,,374,Burning Rat,,,,,"['melee', 'beast']",1
+21,,1738,,375,Burning Rat,,,,,"['melee', 'beast']",1
+21,2.5,1735,50.0,376,Giant Burning Rat,,1.5,,,"['beast', 'boss', 'melee']",2
+21,,1765,,377,Zombie Kobold,,,,,"['undead', 'melee', 'kobold']",1
+21,,1766,,378,Zombie Kobold,,,,,"['undead', 'melee', 'kobold']",1
+21,,1767,,379,Zombie Kobold,,,,,"['undead', 'kobold', 'melee']",1
+21,2.5,1745,50.0,380,Giant One Eyed Rat,,1.5,,,"['beast', 'boss', 'melee']",2
+21,,1739,,381,Crocodile Hatchling,,,,,"['beast', 'melee']",1
+21,,1740,,382,Crocodile Hatchling,,,,,"['beast', 'melee']",1
+21,,1741,,383,Crocodile Hatchling,,,,,"['beast', 'melee']",1
+21,,1742,,384,Crocodile,,,,,"['beast', 'melee']",1
+21,,1743,,385,Crocodile,,,,,"['beast', 'melee']",1
+21,,1788,,386,Crocodile,,,,,"['beast', 'melee']",1
+21,2.5,1747,50.0,387,Massive Battle Scarred Crocodile,,1.5,,,"['bandit', 'beast', 'melee']",2
+21,2.5,1769,50.0,388,Thief Enforcer,,1.5,,,"['boss', 'bandit', 'human', 'humanoid', 'melee']",2
+21,2.5,1744,50.0,389,Giant Flying Snake,,1.5,,,"['beast', 'boss', 'melee']",2
+22,2.5,1783,50.0,390,Armored Ranged Skeleton,,1.5,,,"['undead', 'boss', 'ranged']",2
+21,2.5,1758,50.0,391,Kobold King,,1.5,,,"['melee', 'kobold', 'boss', 'humanoid']",2
+21,2.5,1784,50.0,392,Minotaur Skeleton,,1.5,,,"['undead', 'boss', 'melee']",2
+21,,1922,,393,Cult of the Dragon Initiate,,,,,"['humanoid', 'human', 'melee', 'cultist']",1
+21,,1923,,394,Cult of the Dragon Initiate,,,,,"['humanoid', 'drow', 'cultist', 'melee']",1
+21,,1924,,395,Cult of the Dragon Initiate,,,,,"['human', 'humanoid', 'melee', 'cultist']",1
+21,2.5,1920,50.0,396,Cult of the Dragon Dragonclaw,,1.5,,,"['boss', 'cultist', 'human', 'humanoid', 'melee']",2
+34,2.5,1921,50.0,397,Cult of the Dragon Dragonwing,"{'shoot_frame': 7, 'projectile_x': -100, 'projectile_y': -80}",1.5,,,"['human', 'humanoid', 'cultist', 'ranged', 'boss']",2
+21,2.5,1926,50.0,398,Overambitious City Guard,,1.5,,,"['humanoid', 'human', 'boss', 'melee']",2
+21,2.5,1927,50.0,399,Doppelganger,,1.5,,,"['monstrosity', 'boss', 'melee']",2
+33,5.0,1925,50.0,400,Wearer of Purple,"{'shoot_frame': 9, 'projectile_x': -100, 'projectile_y': -85}",1.5,,,"['cultist', 'human', 'humanoid', 'boss', 'melee']",2
+0,,1959,25.0,401,Blockade,"{'passable': False, 'footprint': {'width': 80, 'height': 300, 'x': 0, 'y': -150}, 'hits_based_damage': True}",,,,['static'],1
+0,,1960,4.0,402,Sarcophagus,{'hits_based_damage': True},,,,['static'],1
+0,,1961,4.0,403,Torch,{'hits_based_damage': True},,,,['static'],1
+0,,1962,20.0,404,Pillar,{'hits_based_damage': True},,,,['static'],1
+0,,1959,20.0,405,Blockade,"{'passable': False, 'footprint': {'width': 80, 'height': 300, 'x': 0, 'y': -150}, 'hits_based_damage': True}",,,,['static'],1
+0,,1959,15.0,406,Blockade,"{'passable': False, 'footprint': {'width': 80, 'height': 300, 'x': 0, 'y': -150}, 'hits_based_damage': True}",,,,['static'],1
+70,,1922,,407,Dagger Throwing Cultist,"{'shoot_frame': 9, 'projectile_x': -60, 'projectile_y': -75}",,,,"['humanoid', 'human', 'cultist', 'ranged']",1
+70,,1923,,408,Dagger Throwing Cultist,"{'shoot_frame': 9, 'projectile_x': -55, 'projectile_y': -75}",,,,"['humanoid', 'drow', 'cultist', 'ranged']",1
+70,,1924,,409,Dagger Throwing Cultist,"{'shoot_frame': 9, 'projectile_x': -55, 'projectile_y': -75}",,,,"['humanoid', 'human', 'cultist', 'ranged']",1
+21,,2050,,410,Sprite Rider,,,,,"['fey', 'beast', 'melee']",1
+21,,2051,,411,Sprite Rider,,,,,"['beast', 'fey', 'melee']",1
+21,,2052,,412,Sprite Rider,,,,,"['beast', 'fey', 'melee']",1
+21,2.0,2053,50.0,413,Blink Dog,,1.5,,,"['fey', 'boss', 'melee']",2
+21,2.0,2057,50.0,414,Banshee,,1.5,,,"['undead', 'boss', 'melee']",2
+21,2.0,2056,50.0,415,Graverobber,,1.5,,,"['bandit', 'boss', 'humanoid', 'half-elf', 'melee']",2
+21,2.0,2058,50.0,416,Zombie Red Fellowship Commander,,1.5,,,"['undead', 'boss', 'melee']",2
+73,2.0,2054,50.0,417,Devourer,"{'projectile_y': -125, 'shoot_frame': 13, 'become_static_at': {'walk_to_wipe': True, 'attack_before_reaching': False, 'from_right_edge': 280}, 'one_shot_damage': True, 'projectile_x': -200}",1.5,,,"['fiend', 'boss', 'ranged']",2
+21,,1283,4.0,418,Relentless Undead,{'hits_based_damage': True},,,,"['undead', 'melee', 'relentless']",1
+21,,1442,4.0,419,Relentless Undead,{'hits_based_damage': True},,,,"['undead', 'melee', 'relentless']",1
+21,,946,4.0,420,Relentless Undead,{'hits_based_damage': True},,,,"['undead', 'melee', 'relentless']",1
+21,,2217,,421,Panther,,,,,"['beast', 'melee']",1
+21,,2218,,422,Panther,,,,,"['beast', 'melee']",1
+21,,2219,,423,Panther,,,,,"['beast', 'melee']",1
+21,2.0,2216,50.0,424,Jaculi,,1.5,,,"['boss', 'melee', 'beast']",2
+21,,2210,,425,Axe Beak,,,,,"['beast', 'melee']",1
+21,,2211,,426,Axe Beak,,,,,"['beast', 'melee']",1
+21,,2212,,427,Axe Beak,,,,,"['melee', 'beast']",1
+21,,2225,,428,Batiri Goblin,,,,,"['goblin', 'humanoid', 'melee']",1
+21,,2226,,429,Batiri Goblin,,,,,"['goblin', 'humanoid', 'melee']",1
+21,,2227,,430,Batiri Goblin,,,,,"['goblin', 'melee', 'humanoid']",1
+21,2.0,2223,50.0,431,Batiri Goblin Boss,,1.5,,,"['goblin', 'melee', 'humanoid', 'boss']",2
+21,2.0,2209,50.0,432,Axe Beak Alpha,,1.5,,,"['beast', 'boss', 'melee']",2
+21,2.0,2237,50.0,433,Revenant,,1.5,,,"['ranged', 'undead', 'boss']",2
+21,,2238,,434,Yellow Musk Zombie,,,,,"['undead', 'melee']",1
+21,,2239,,435,Yellow Musk Zombie,,,,,"['undead', 'melee']",1
+21,,2240,,436,Yellow Musk Zombie,,,,,"['undead', 'melee']",1
+54,2.0,2241,50.0,437,Yellow Musk Creeper,"{'shoot_frame': 10, 'projectile_x': -50, 'projectile_y': -115}",1.5,,,"['plant', 'boss', 'static', 'ranged']",2
+21,2.0,2214,50.0,438,Bloody Triceratops,,1.5,,,"['beast', 'boss', 'melee']",2
+21,,2230,,439,Green Grung,,,,,"['humanoid', 'grung', 'melee']",1
+21,,2231,,440,Green Grung,,,,,"['humanoid', 'grung', 'melee']",1
+21,,2232,,441,Green Grung,,,,,"['grung', 'humanoid', 'melee']",1
+21,2.0,2236,50.0,442,Orange Elite Grung,,1.5,,,"['grung', 'melee', 'humanoid', 'boss']",2
+21,,2233,,443,Injured Batiri Goblin,,,,,"['goblin', 'humanoid', 'melee']",1
+21,,2234,,444,Injured Batiri Goblin,,,,,"['goblin', 'humanoid', 'melee']",1
+21,,2235,,445,Injured Batiri Goblin,,,,,"['goblin', 'melee', 'humanoid']",1
+21,2.0,2213,50.0,446,Battle Scarred Panther,,1.5,,,"['beast', 'boss', 'melee']",2
+21,,2220,,447,Velociraptor,,,,,"['beast', 'melee']",1
+21,,2221,,448,Velociraptor,,,,,"['beast', 'melee']",1
+21,,2222,,449,Velociraptor,,,,,"['beast', 'melee']",1
+21,2.0,2215,50.0,450,Deinonychus,,1.5,,,"['beast', 'boss', 'melee']",2
+21,2.0,2229,25.0,451,Goblin Battle Stack,{'spawns_monster_on_death': {'monster_id': 452}},1.5,,,"['boss', 'goblin', 'humanoid', 'melee']",2
+21,2.0,2228,25.0,452,Goblin Battle Stack,{'spawns_monster_on_death': {'monster_id': 453}},1.5,,,"['goblin', 'melee', 'boss', 'humanoid']",2
+21,2.0,2226,25.0,453,Goblin Battle Stack,,1.5,,,"['boss', 'humanoid', 'melee', 'goblin']",2
+21,2.0,2224,501.0,454,Batiri Goblin Warchief,,1.5,,,"['boss', 'humanoid', 'melee', 'goblin']",2
+21,2.0,2259,50.0,455,Assassin Vine,,,,,"['plant', 'boss', 'melee']",2
+21,,2254,,456,Zorbo,,,,,"['monstrosity', 'melee']",1
+21,,2252,,457,Zorbo,,,,,"['monstrosity', 'melee']",1
+21,,2253,,458,Zorbo,,,,,"['monstrosity', 'melee']",1
+21,2.0,2251,50.0,459,Particularily Vicious Zorbo,,1.5,,,"['monstrosity', 'melee', 'boss']",2
+21,,2256,,460,Pterafolk,,,,,"['monstrosity', 'melee']",1
+21,,2257,,461,Pterafolk,,,,,"['monstrosity', 'melee']",1
+21,,2258,,462,Pterafolk,,,,,"['monstrosity', 'melee']",1
+21,2.0,2248,50.0,463,Quetzalcoatlus,,1.5,,,"['melee', 'boss', 'beast']",2
+21,2.0,2255,50.0,464,Pterafolk Leader,,1.5,,,"['monstrosity', 'melee', 'boss']",2
+76,2.0,2250,50.0,465,Nanny Pu'pu,"{'spawns_monster_ids': [466], 'shoot_frame': 8, 'projectile_x': -130, 'become_static_at': {'walk_to_wipe': True, 'attack_before_reaching': False, 'from_right_edge': 280}, 'projectile_y': -90, 'hits_based_damage': True}",1.5,,,"['fey', 'boss', 'ranged']",2
+21,2.0,2249,50.0,466,Flesh Golem,,1.5,,,"['construct', 'boss', 'melee']",2
+21,2.0,2260,50.0,467,Swarm of Flies,,1.5,,,"['boss', 'beast', 'melee']",2
+21,,1292,20.0,468,Specter,"{'die_after_damage_hero': True, 'hits_based_damage': True, 'insta_kill': True}",,,0.8,"['flying', 'undead', 'melee']",1
+0,,2242,20.0,469,Smashed Goblin Hut,{'hits_based_damage': True},,,,['static'],1
+0,,2283,30.0,470,Cliffside Debris,{'hits_based_damage': True},,,,['static'],1
+21,2.5,2368,50.0,471,Hydra,,1.5,,,"['monstrosity', 'boss', 'melee']",2
+21,2.5,2355,50.0,472,Lizardfolk Leader,,1.5,,,"['humanoid', 'lizardfolk', 'boss', 'melee']",2
+21,2.5,2367,50.0,473,Froghemoth,,1.5,,,"['monstrosity', 'melee', 'boss']",2
+78,2.5,2342,50.0,474,Giant Web Spitting Spider,"{'shoot_frame': 13, 'projectile_x': -95, 'projectile_y': -70}",1.5,,,"['beast', 'boss', 'ranged']",2
+21,2.5,2365,50.0,475,Chitine Butler,,1.5,,,"['monstrosity', 'boss', 'melee']",2
+21,2.5,2354,50.0,476,Drow Dungeon Warden,,1.5,,,"['humanoid', 'drow', 'melee', 'boss']",2
+45,2.5,2366,50.0,477,Cleric Spider Monstrosity,"{'shoot_frame': 10, 'projectile_x': -50, 'projectile_y': -150}",1.5,,,"['monstrosity', 'boss', 'ranged']",2
+79,2.5,2343,50.0,478,Huge Queen Spider,"{'shoot_frame': 13, 'projectile_x': -200, 'hit_stuns': False, 'additional_layers': [{'graphic_id': 2344, 'z_offset': -130}, {'graphic_id': 2465, 'z_offset': -30}], 'projectile_y': -125, 'hits_based_damage': True}",,,,"['beast', 'boss']",2
+34,2.5,2451,50.0,479,Drow Library Overseer,"{'shoot_frame': 8, 'projectile_x': -100, 'projectile_y': -85}",1.5,,,"['humanoid', 'drow', 'ranged', 'boss']",2
+21,,2359,,480,Lizardfolk Warrior,,,,,"['humanoid', 'lizardfolk', 'melee']",1
+21,,2360,,481,Lizardfolk Warrior,,,,,"['humanoid', 'lizardfolk', 'melee']",1
+21,,2361,,482,Lizardfolk Warrior,,,,,"['humanoid', 'lizardfolk', 'melee']",1
+22,,2356,,483,Lizardfolk Ranger,"{'shoot_frame': 20, 'projectile_x': -60, 'projectile_y': -110}",,,,"['humanoid', 'lizardfolk', 'ranged']",1
+22,,2357,,484,Lizardfolk Ranger,"{'shoot_frame': 20, 'projectile_x': -60, 'projectile_y': -110}",,,,"['humanoid', 'lizardfolk', 'ranged']",1
+22,,2358,,485,Lizardfolk Ranger,"{'shoot_frame': 20, 'projectile_x': -60, 'projectile_y': -110}",,,,"['humanoid', 'lizardfolk', 'ranged']",1
+21,,2348,,486,Bullywug,,,,,"['humanoid', 'bullywug', 'melee']",1
+21,,2349,,487,Bullywug,,,,,"['humanoid', 'bullywug', 'melee']",1
+21,,2350,,488,Bullywug,,,,,"['humanoid', 'bullywug', 'melee']",1
+77,,2345,,489,Bullywug Spear Thrower,"{'shoot_frame': 7, 'projectile_x': -50, 'projectile_y': -150}",,,,"['humanoid', 'bullywug', 'ranged']",1
+77,,2346,,490,Bullywug Spear Thrower,"{'shoot_frame': 7, 'projectile_x': -50, 'projectile_y': -150}",,,,"['humanoid', 'bullywug', 'ranged']",1
+77,,2347,,491,Bullywug Spear Thrower,"{'shoot_frame': 7, 'projectile_x': -50, 'projectile_y': -150}",,,,"['humanoid', 'bullywug', 'ranged']",1
+21,,2351,,492,Drow Cultist,,,,,"['humanoid', 'drow', 'melee']",1
+21,,2352,,493,Drow Cultist,,,,,"['humanoid', 'drow', 'melee']",1
+21,,2353,,494,Drow Cultist,,,,,"['humanoid', 'drow', 'melee']",1
+21,,2362,,495,Chitine,,,,,"['monstrosity', 'melee']",1
+21,,2363,,496,Chitine,,,,,"['monstrosity', 'melee']",1
+21,,2364,,497,Chitine,,,,,"['monstrosity', 'melee']",1
+21,2.5,2369,50.0,498,Rabbit Riding Pixie Leader,,1.5,,,"['melee', 'boss', 'fey', 'beast']",2
+34,2.5,2370,50.0,499,Powerful Will-o'-Wisp,"{'shoot_frame': 15, 'projectile_x': -170, 'projectile_y': -60}",1.5,,,"['undead', 'boss', 'ranged']",2
+0,,2275,5.0,500,Egg Sac,{'hits_based_damage': True},,,,['static'],1
+21,,2448,,501,Sea Gull,,,,,"['beast', 'melee']",1
+21,,2449,,502,Sea Gull,,,,,"['beast', 'melee']",1
+21,,2450,,503,Sea Gull,,,,,"['beast', 'melee']",1
+21,,2454,,504,Sea Spawn,,,,,"['humanoid', 'seaspawn', 'melee']",1
+21,,2455,,505,Sea Spawn,,,,,"['humanoid', 'seaspawn', 'melee']",1
+21,,2456,,506,Sea Spawn,,,,,"['seaspawn', 'humanoid', 'melee']",1
+21,2.5,2447,50.0,507,Giant Spiked Crab,,1.5,,,"['beast', 'boss', 'melee']",2
+21,2.5,2452,50.0,508,Sea Spawn Lookout,,1.5,,,"['humanoid', 'seaspawn', 'boss', 'melee']",2
+21,2.5,2453,50.0,509,Spiked Sea Spawn,,1.5,,,"['humanoid', 'seaspawn', 'melee', 'boss']",2
+0,1.5,2458,50.0,510,Adolescent Kraken,"{'spawns_monster_ids': [512, 513, 514], 'hits_based_damage': True, 'special_ability': {'type': 'kraken'}}",1.5,,,"['monstrosity', 'boss', 'ranged']",2
+21,2.5,1768,50.0,511,Rakish Thief,,1.5,,,"['bandit', 'boss', 'humanoid', 'melee', 'human']",2
+84,,2457,,512,Stunning Tentacle,"{'health_bar_bottom_offset_y': -75, 'sequences': {'idle': 0, 'gethit': 2, 'attack': 1}, 'target_offset_y': -300, 'gold_drop_offset_y': -350, 'attack_frame': 16, 'health_bar_range_y': 30}",,,,"['monstrosity', 'boss', 'ranged']",2
+85,,2457,,513,Smashing Tentacle,"{'health_bar_bottom_offset_y': -75, 'sequences': {'idle': 0, 'gethit': 2, 'attack': 1}, 'target_offset_y': -300, 'gold_drop_offset_y': -350, 'attack_frame': 16, 'health_bar_range_y': 30}",,,,"['monstrosity', 'boss', 'ranged']",2
+86,,2457,,514,Vampiric Tentacle,"{'health_bar_bottom_offset_y': -75, 'sequences': {'idle': 0, 'gethit': 2, 'attack': 1}, 'target_offset_y': -300, 'gold_drop_offset_y': -350, 'attack_frame': 16, 'health_bar_range_y': 30}",,,,"['monstrosity', 'boss', 'ranged']",2
+21,2.5,2508,50.0,515,Pixie Riding a Crocodile,,,,,"['boss', 'beast', 'fey', 'melee']",2
+21,2.5,2506,50.0,516,Tiger,,1.5,,,"['beast', 'boss', 'melee']",2
+33,2.5,2510,50.0,517,Red Grung Spellcaster,"{'shoot_frame': 8, 'projectile_x': -110, 'projectile_y': -85}",1.5,,,"['boss', 'grung', 'humanoid', 'ranged']",1
+21,,2512,,518,Aldani,,,,,"['monstrosity', 'melee']",1
+21,,2513,,519,Aldani,,,,,"['monstrosity', 'melee']",1
+21,,2514,,520,Aldani,,,,,"['monstrosity', 'melee']",1
+21,2.5,2511,50.0,521,Aldani Leader,,1.5,,,"['boss', 'monstrosity', 'melee']",2
+54,2.5,2515,50.0,522,Tri-Flower Frond,"{'shoot_frame': 6, 'projectile_x': -60, 'projectile_y': -100}",1.5,,,"['plant', 'boss', 'ranged']",2
+21,2.5,2509,50.0,523,Aarakocra Traitor,,1.5,,,"['melee', 'humanoid', 'aarakocra', 'boss']",2
+21,2.5,2507,50.0,524,Gargoyle Leader,,1.5,,,"['elemental', 'melee', 'boss']",2
+89,,2517,,525,Batiri Goblin Spear Thrower,"{'shoot_frame': 6, 'projectile_x': -70, 'projectile_y': -105}",,,,"['goblin', 'humanoid', 'ranged']",1
+89,,2518,,526,Batiri Goblin Spear Thrower,"{'shoot_frame': 6, 'projectile_x': -70, 'projectile_y': -105}",,,,"['goblin', 'humanoid', 'ranged']",1
+89,,2519,,527,Batiri Goblin Spear Thrower,"{'shoot_frame': 6, 'projectile_x': -70, 'projectile_y': -105}",,,,"['humanoid', 'goblin', 'ranged']",1
+45,2.5,2520,50.0,528,Batiri Goblin Warlock,{'shoot_frame': 6},1.5,,,"['goblin', 'humanoid', 'ranged', 'boss']",2
+21,,2524,,529,Yuan-ti Malison,,,,,"['yuan-ti', 'monstrosity', 'melee']",1
+21,,2525,,530,Yuan-ti Malison,,,,,"['monstrosity', 'yuan-ti', 'melee']",1
+21,,2526,,531,Yuan-ti Malison,,,,,"['monstrosity', 'melee', 'yuan-ti']",1
+21,2.5,2527,50.0,532,Yuan-ti Mind Whisperer,,1.5,,,"['monstrosity', 'melee', 'boss', 'yuan-ti']",2
+21,,2529,,533,Vegepygmy,,,,,"['plant', 'melee']",1
+21,,2530,,534,Vegepygmy,,,,,"['plant', 'melee']",1
+21,,2531,,535,Vegepygmy,,,,,"['plant', 'melee']",1
+21,2.5,2528,50.0,536,Vegepygmy Chief,,1.5,,,"['boss', 'plant', 'melee']",2
+90,,2521,,537,Ranged Sailor,"{'shoot_frame': 11, 'projectile_x': -100, 'projectile_y': -95}",,,,"['humanoid', 'bandit', 'ranged', 'human']",1
+90,,2522,,538,Ranged Sailor,"{'shoot_frame': 11, 'projectile_x': -100, 'projectile_y': -95}",,,,"['bandit', 'humanoid', 'elf', 'ranged']",1
+90,,2523,,539,Ranged Sailor,"{'shoot_frame': 11, 'projectile_x': -100, 'projectile_y': -95}",,,,"['bandit', 'humanoid', 'elf', 'ranged']",1
+91,2.5,2516,30.0,540,Cannon,"{'shoot_frame': 10, 'hits_based_damage': True, 'projectile_y': -75, 'projectile_x': -100}",1.5,,,"['construct', 'ranged', 'boss']",2
+21,2.5,2625,50.0,541,Drunken Fool,,1.5,,,"['humanoid', 'human', 'melee', 'boss']",2
+21,,2622,,542,Ogre Battering Ram,,1.5,,,"['ogre', 'giant', 'melee']",1
+21,,2631,,543,Ogre Battering Ram,,1.5,,,"['ogre', 'giant', 'melee']",1
+21,,2632,,544,Ogre Battering Ram,,1.5,,,"['ogre', 'giant', 'melee']",1
+96,,2623,,545,Ogre Bolt Launcher,"{'shoot_frame': 12, 'projectile_x': -85, 'projectile_y': -110}",1.5,,,"['ogre', 'ranged', 'giant']",1
+96,,2633,,546,Ogre Bolt Launcher,"{'shoot_frame': 12, 'projectile_x': -85, 'projectile_y': -110}",1.5,,,"['ogre', 'ranged', 'giant']",1
+96,,2634,,547,Ogre Bolt Launcher,"{'shoot_frame': 12, 'projectile_x': -85, 'projectile_y': -110}",1.5,,,"['ogre', 'ranged', 'giant']",1
+94,2.5,2624,50.0,548,Ogre Chain Brute,"{'attack_offset_x': 100, 'attack_offset_y': 25}",2.0,,,"['ogre', 'giant', 'boss', 'melee']",2
+21,2.5,2626,50.0,549,Intoxicated Yeti,,1.5,,,"['monstrosity', 'boss', 'melee']",2
+21,10.0,2621,50.0,550,Frost Giant,"{'attack_offset_x': 150, 'force_spawn_y': 700, 'armor_based_damage': True}",2.0,,2.0,"['melee', 'giant', 'boss']",2
+0,,2644,50.0,551,Rotting Log,{'hits_based_damage': True},,,,['static'],1
+0,,2645,50.0,552,Rotting Corpse,{'hits_based_damage': True},,,,['static'],1
+0,,2717,50.0,553,Burning Debris,"{'passable': False, 'footprint': {'width': 80, 'height': 300, 'x': 0, 'y': -150}, 'hits_based_damage': True}",,,,['static'],1
+21,,2625,16.0,554,Drunken Fool,"{'protects_other_monsters': {'effect_details': {'active_graphic_y': -40, 'active_graphic_id': 2723}, 'affects_generated_monsters': False, 'amount': 100}, 'hits_based_damage': True}",,,,"['humanoid', 'melee', 'human']",1
+21,,2625,,555,Drunken Fool,"{'effects_on_other_monsters': [{'effect_string': 'monster_speed_increase,300'}]}",,,,"['humanoid', 'human', 'melee']",1
+21,,2625,50.0,556,Drunken Fool,,,,,"['melee', 'humanoid', 'human']",1
+21,,2771,,557,Githyanki Warrior,,,,,"['humanoid', 'githyanki', 'gith', 'melee']",1
+21,,2772,,558,Githyanki Warrior,,,,,"['gith', 'githyanki', 'humanoid', 'melee']",1
+21,,2773,,559,Githyanki Warrior,,,,,"['gith', 'githyanki', 'melee', 'humanoid']",1
+21,2.5,2767,50.0,560,Githyanki Saboteur,,1.5,,,"['gith', 'githyanki', 'melee', 'humanoid', 'boss']",2
+22,,2768,,561,Githyanki Warrior,"{'shoot_frame': 19, 'projectile_x': -60, 'projectile_y': -125}",,,,"['githyanki', 'gith', 'ranged', 'humanoid']",1
+22,,2769,,562,Githyanki Warrior,"{'shoot_frame': 19, 'projectile_x': -60, 'projectile_y': -125}",,,,"['githyanki', 'gith', 'ranged', 'humanoid']",1
+22,,2770,,563,Githyanki Warrior,"{'shoot_frame': 19, 'projectile_x': -60, 'projectile_y': -122}",,,,"['githyanki', 'gith', 'ranged', 'humanoid']",1
+21,2.5,2765,50.0,564,Githyanki Gish,,1.5,,,"['githyanki', 'gith', 'humanoid', 'melee', 'boss']",2
+21,2.5,2766,50.0,565,Githyanki Kith'rak,,1.5,,,"['githyanki', 'gith', 'melee', 'humanoid', 'boss']",2
+21,2.5,2764,50.0,566,Mindwitness,,1.5,,,"['boss', 'aberration', 'melee']",2
+21,,2759,,567,Intellect Devourer,,,,,"['aberration', 'melee']",1
+21,,2760,,568,Intellect Devourer,,,,,"['aberration', 'melee']",1
+21,,2761,,569,Intellect Devourer,,,,,"['aberration', 'melee']",1
+21,2.5,2762,50.0,570,Mind Flayer,,1.5,,,"['aberration', 'boss', 'melee']",2
+21,,2774,,571,Quaggoth,,,,,"['humanoid', 'melee', 'quaggoth']",1
+21,,2775,,572,Quaggoth,,,,,"['humanoid', 'quaggoth', 'melee']",1
+21,,2776,,573,Quaggoth,,,,,"['quaggoth', 'humanoid', 'melee']",1
+21,2.5,2777,50.0,574,Quaggoth Thonot,,1.5,,,"['humanoid', 'quaggoth', 'boss', 'melee']",2
+45,2.5,2763,50.0,575,Mind Flayer Arcanist,,1.5,,,"['ranged', 'aberration', 'boss']",2
+45,2.5,2758,50.0,576,Elder Brain,{'hits_based_damage': True},1.5,,,"['aberration', 'boss', 'ranged']",2
+21,,2790,,577,Sentient Flower,,,,,"['plant', 'melee']",1
+21,,147,10.0,578,Strong Werewolf,"{'hits_based_damage': True, 'effect_on_hit': 'add_monster_health,5,self'}",,{'death': 96},,"['humanoid', 'melee', 'lycanthrope']",1
+21,,222,10.0,579,Speedy Werewolf,,,{'death': 96},3.0,"['humanoid', 'melee', 'lycanthrope']",1
+21,,606,,580,Terrifying Werewolf,,,{'death': 96},,"['humanoid', 'melee', 'lycanthrope']",1
+21,,2899,,581,Uthgardt Barbarian,,,,,"['humanoid', 'melee', 'uthgardt']",1
+21,,2900,,582,Uthgardt Barbarian,,,,,"['humanoid', 'uthgardt', 'melee']",1
+21,,2901,,583,Uthgardt Barbarian,,,,,"['humanoid', 'uthgardt', 'melee']",1
+21,2.5,2902,50.0,584,Uthgardt Shaman,,1.5,,,"['humanoid', 'uthgardt', 'melee', 'boss']",2
+21,2.5,2916,50.0,585,Pixie Riding an Owlbear,,1.5,,,"['monstrosity', 'fey', 'melee', 'boss']",2
+21,,2887,,586,Spring Eladrin,,,,,"['elf', 'fey', 'melee']",1
+21,,2888,,587,Spring Eladrin,,,,,"['elf', 'fey', 'melee']",1
+21,,2889,,588,Spring Eladrin,,,,,"['elf', 'fey', 'melee']",1
+21,,2891,,589,Summer Eladrin,,,,,"['elf', 'fey', 'melee']",1
+21,,2892,,590,Summer Eladrin,,,,,"['elf', 'fey', 'melee']",1
+21,,2893,,591,Summer Eladrin,,,,,"['elf', 'fey', 'melee']",1
+22,,2894,,592,Summer Eladrin,"{'shoot_frame': 19, 'projectile_x': -60, 'projectile_y': -120}",,,,"['elf', 'fey', 'ranged']",1
+22,,2895,,593,Summer Eladrin,"{'shoot_frame': 19, 'projectile_x': -60, 'projectile_y': -120}",,,,"['elf', 'fey', 'ranged']",1
+22,,2896,,594,Summer Eladrin,"{'shoot_frame': 19, 'projectile_x': -60, 'projectile_y': -120}",,,,"['elf', 'fey', 'ranged']",1
+22,,2917,,595,Spring Eladrin,"{'shoot_frame': 18, 'projectile_x': -55, 'projectile_y': -110}",,,,"['elf', 'fey', 'ranged']",1
+22,,2918,,596,Spring Eladrin,"{'shoot_frame': 18, 'projectile_x': -55, 'projectile_y': -110}",,,,"['elf', 'fey', 'ranged']",1
+22,,2919,,597,Spring Eladrin,"{'shoot_frame': 18, 'projectile_x': -55, 'projectile_y': -110}",,,,"['elf', 'fey', 'ranged']",1
+22,2.5,2920,50.0,598,Eladrin Ranger,"{'shoot_frame': 18, 'projectile_x': -55, 'projectile_y': -110}",1.5,,,"['elf', 'fey', 'ranged', 'boss']",2
+21,2.5,2890,50.0,599,Eladrin Champion,,1.5,,,"['boss', 'elf', 'fey', 'melee']",2
+21,2.5,2897,50.0,600,Drow House Captain,,1.5,,,"['elf', 'drow', 'humanoid', 'boss', 'melee']",2
+21,,2903,,601,Twisted Wood Woad,,,,,"['plant', 'melee']",1
+21,,2904,,602,Twisted Wood Woad,,,,,"['plant', 'melee']",1
+21,,2905,,603,Twisted Wood Woad,,,,,"['plant', 'melee']",1
+45,2.5,2898,50.0,604,Bailiearyl Tavebent,{'shoot_frame': 14},1.5,,,"['elf', 'drow', 'boss', 'ranged', 'humanoid']",2
+0,,2644,30.0,605,Fallen Log,{'hits_based_damage': True},,,,['static'],1
+0,,2921,5.0,606,Fire!,{'hits_based_damage': True},2.5,,,['static'],1

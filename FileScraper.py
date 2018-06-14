@@ -102,7 +102,7 @@ def parseUpgrades(heroesDict, fullUpgrades = None):
         fullUpgrades = readJSON("upgrade_defines", "cached_definitions")
     
     effectDict = {"hero_dps_multiplier_mult" : "Self Damage Boost",
-                  "global_dps_multiplier_mult" : "All Damage Boost",
+                  "global_dps_multiplier_mult" : "All Champion Damage Boost",
                   "buff_ultimate" : "Ultimate Boost",
                   "buff_upgrade" : "Ability Upgrade",
                   "buff_upgrades" : "Ability Upgrade",
@@ -127,12 +127,8 @@ def parseUpgrades(heroesDict, fullUpgrades = None):
     # Loop through fullUpgrades
     for x in fullUpgrades:
         
-        # Store {effect, hero_id, id, required_level, required_upgrade_id} to variables
-        upgradeEffect = x['effect']
-        upgradeHero = x['hero_id']
-        
         # Split Effect into Type and Value
-        tempList = upgradeEffect.split(",")
+        tempList = x['effect'].split(",")
         
         upgradeEffectName = tempList[0]
         #print(tempList[1])

@@ -3080,5 +3080,81 @@
    "ultimate"
   ],
   "target": "random"
+ },
+ {
+  "animations": [
+   {
+    "hit_sound": 133,
+    "projectile": "song_of_pain",
+    "projectile_graphic_id": 1,
+    "shoot_frame": 9,
+    "shoot_sound": 159,
+    "type": "ranged_attack"
+   }
+  ],
+  "aoe_radius": 0,
+  "cooldown": 3.7,
+  "damage_modifier": 1,
+  "damage_types": [
+   "magic"
+  ],
+  "description": "",
+  "graphic_id": 0,
+  "id": 101,
+  "long_description": "",
+  "name": "Vicious Mockery",
+  "num_targets": 1,
+  "tags": [
+   "ranged"
+  ],
+  "target": "front"
+ },
+ {
+  "animations": [
+   {
+    "damage_frame": 4,
+    "type": "melee_attack"
+   }
+  ],
+  "aoe_radius": 0,
+  "cooldown": 7,
+  "damage_modifier": 1,
+  "damage_types": [
+   "melee"
+  ],
+  "description": "Evelyn smashes the front-most enemy with her enormous battleaxe. Every third attack, she cleaves all nearby enemies as well.",
+  "graphic_id": 0,
+  "id": 102,
+  "long_description": "",
+  "name": "Mighty Axe",
+  "num_targets": 1,
+  "tags": [
+   "melee"
+  ],
+  "target": "front"
+ },
+ {
+  "animations": [
+   {
+    "damage_frame": 4,
+    "type": "melee_attack"
+   }
+  ],
+  "aoe_radius": 0,
+  "cooldown": 380,
+  "damage_modifier": 0.03,
+  "damage_types": [
+   "melee"
+  ],
+  "description": "Evelyn summons her Celestial Pegasus and dashes across the battlefield.",
+  "graphic_id": 3043,
+  "id": 103,
+  "long_description": "Evelyn summons her Celestial Pegasus and dashes across the battlefield, damaging all enemies in a line for massive damage and briefly stunning all damaged enemies.",
+  "name": "Find Steed",
+  "num_targets": 1,
+  "tags": [
+   "melee"
+  ],
+  "target": "random"
  }
 ]

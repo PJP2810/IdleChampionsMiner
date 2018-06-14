@@ -10752,5 +10752,363 @@
   "required_level": 870,
   "required_upgrade_id": 0,
   "upgrade_type": "unlock_ultimate"
+ },
+ {
+  "default_enabled": 1,
+  "effect": "health_mult,100",
+  "hero_id": 26,
+  "id": 1075,
+  "name": "Lathander's Grace",
+  "required_level": 25,
+  "required_upgrade_id": 0,
+  "tip_text": "Evelyn is a tanking champions focused on taking the hit for the team. Place her at the front of the formation.",
+  "upgrade_type": null
+ },
+ {
+  "default_enabled": 1,
+  "effect": "effect_def,145",
+  "hero_id": 26,
+  "id": 1076,
+  "name": "Divine Prayer",
+  "required_level": 50,
+  "required_upgrade_id": 0,
+  "tip_text": "Evelyn buffs everyone behind her based on recent actions taken by or against her.",
+  "upgrade_type": null
+ },
+ {
+  "default_enabled": 1,
+  "effect": "effect_def,147",
+  "hero_id": 26,
+  "id": 1077,
+  "name": "Channel Divinity",
+  "required_level": 100,
+  "required_upgrade_id": 0,
+  "upgrade_type": null
+ },
+ {
+  "default_enabled": 1,
+  "effect": "effect_def,149",
+  "hero_id": 26,
+  "id": 1078,
+  "name": "Steadfast Might",
+  "required_level": 150,
+  "required_upgrade_id": 0,
+  "upgrade_type": null
+ },
+ {
+  "default_enabled": 1,
+  "effect": "hero_dps_multiplier_mult,1",
+  "hero_id": 26,
+  "id": 1079,
+  "name": "Conduit of the Light",
+  "required_level": 200,
+  "required_upgrade_id": 0,
+  "upgrade_type": null
+ },
+ {
+  "default_enabled": 1,
+  "effect": "hero_dps_multiplier_mult,1",
+  "hero_id": 26,
+  "id": 1080,
+  "name": "",
+  "required_level": 300,
+  "required_upgrade_id": 0,
+  "specialization_description": "Divine Prayer is further increased when an ally comes under attack",
+  "specialization_graphic_id": 3042,
+  "specialization_name": "Fighting Style: Protection",
+  "upgrade_type": null
+ },
+ {
+  "default_enabled": 1,
+  "effect": "hero_dps_multiplier_mult,1",
+  "hero_id": 26,
+  "id": 1081,
+  "name": "",
+  "required_level": 300,
+  "required_upgrade_id": 0,
+  "specialization_description": "Divine Prayer is further increased when Evelyn attacks an enemy who has recently attacked her",
+  "specialization_graphic_id": 3041,
+  "specialization_name": "Compel Duel",
+  "upgrade_type": null
+ },
+ {
+  "default_enabled": 1,
+  "effect": "set_ultimate_attack,103",
+  "hero_id": 26,
+  "id": 1082,
+  "name": "",
+  "required_level": 250,
+  "required_upgrade_id": 0,
+  "upgrade_type": null
+ },
+ {
+  "default_enabled": 1,
+  "effect": "hero_dps_multiplier_mult,100",
+  "hero_id": 26,
+  "id": 1083,
+  "name": "",
+  "required_level": 10,
+  "required_upgrade_id": 0,
+  "upgrade_type": null
+ },
+ {
+  "default_enabled": 1,
+  "effect": "hero_dps_multiplier_mult,100",
+  "hero_id": 26,
+  "id": 1084,
+  "name": "",
+  "required_level": 40,
+  "required_upgrade_id": 0,
+  "upgrade_type": null
+ },
+ {
+  "default_enabled": 1,
+  "effect": "hero_dps_multiplier_mult,100",
+  "hero_id": 26,
+  "id": 1085,
+  "name": "",
+  "required_level": 70,
+  "required_upgrade_id": 0,
+  "upgrade_type": null
+ },
+ {
+  "default_enabled": 1,
+  "effect": "hero_dps_multiplier_mult,200",
+  "hero_id": 26,
+  "id": 1086,
+  "name": "",
+  "required_level": 90,
+  "required_upgrade_id": 0,
+  "upgrade_type": null
+ },
+ {
+  "default_enabled": 1,
+  "effect": "hero_dps_multiplier_mult,200",
+  "hero_id": 26,
+  "id": 1087,
+  "name": "",
+  "required_level": 125,
+  "required_upgrade_id": 0,
+  "upgrade_type": null
+ },
+ {
+  "default_enabled": 1,
+  "effect": "hero_dps_multiplier_mult,200",
+  "hero_id": 26,
+  "id": 1088,
+  "name": "",
+  "required_level": 160,
+  "required_upgrade_id": 0,
+  "upgrade_type": null
+ },
+ {
+  "default_enabled": 1,
+  "effect": "hero_dps_multiplier_mult,200",
+  "hero_id": 26,
+  "id": 1089,
+  "name": "",
+  "required_level": 190,
+  "required_upgrade_id": 0,
+  "upgrade_type": null
+ },
+ {
+  "default_enabled": 1,
+  "effect": "hero_dps_multiplier_mult,300",
+  "hero_id": 26,
+  "id": 1090,
+  "name": "",
+  "required_level": 225,
+  "required_upgrade_id": 0,
+  "upgrade_type": null
+ },
+ {
+  "default_enabled": 1,
+  "effect": "hero_dps_multiplier_mult,300",
+  "hero_id": 26,
+  "id": 1091,
+  "name": "",
+  "required_level": 260,
+  "required_upgrade_id": 0,
+  "upgrade_type": null
+ },
+ {
+  "default_enabled": 1,
+  "effect": "hero_dps_multiplier_mult,300",
+  "hero_id": 26,
+  "id": 1092,
+  "name": "",
+  "required_level": 310,
+  "required_upgrade_id": 0,
+  "upgrade_type": null
+ },
+ {
+  "default_enabled": 1,
+  "effect": "hero_dps_multiplier_mult,300",
+  "hero_id": 26,
+  "id": 1093,
+  "name": "",
+  "required_level": 345,
+  "required_upgrade_id": 0,
+  "upgrade_type": null
+ },
+ {
+  "default_enabled": 1,
+  "effect": "hero_dps_multiplier_mult,300",
+  "hero_id": 26,
+  "id": 1094,
+  "name": "",
+  "required_level": 830,
+  "required_upgrade_id": 0,
+  "upgrade_type": null
+ },
+ {
+  "default_enabled": 1,
+  "effect": "hero_dps_multiplier_mult,300",
+  "hero_id": 26,
+  "id": 1095,
+  "name": "",
+  "required_level": 385,
+  "required_upgrade_id": 0,
+  "upgrade_type": null
+ },
+ {
+  "default_enabled": 1,
+  "effect": "hero_dps_multiplier_mult,300",
+  "hero_id": 26,
+  "id": 1096,
+  "name": "",
+  "required_level": 430,
+  "required_upgrade_id": 0,
+  "upgrade_type": null
+ },
+ {
+  "default_enabled": 1,
+  "effect": "hero_dps_multiplier_mult,300",
+  "hero_id": 26,
+  "id": 1097,
+  "name": "",
+  "required_level": 475,
+  "required_upgrade_id": 0,
+  "upgrade_type": null
+ },
+ {
+  "default_enabled": 1,
+  "effect": "hero_dps_multiplier_mult,300",
+  "hero_id": 26,
+  "id": 1098,
+  "name": "",
+  "required_level": 525,
+  "required_upgrade_id": 0,
+  "upgrade_type": null
+ },
+ {
+  "default_enabled": 1,
+  "effect": "hero_dps_multiplier_mult,300",
+  "hero_id": 26,
+  "id": 1099,
+  "name": "",
+  "required_level": 580,
+  "required_upgrade_id": 0,
+  "upgrade_type": null
+ },
+ {
+  "default_enabled": 1,
+  "effect": "hero_dps_multiplier_mult,300",
+  "hero_id": 26,
+  "id": 1100,
+  "name": "",
+  "required_level": 635,
+  "required_upgrade_id": 0,
+  "upgrade_type": null
+ },
+ {
+  "default_enabled": 1,
+  "effect": "hero_dps_multiplier_mult,300",
+  "hero_id": 26,
+  "id": 1101,
+  "name": "",
+  "required_level": 695,
+  "required_upgrade_id": 0,
+  "upgrade_type": null
+ },
+ {
+  "default_enabled": 1,
+  "effect": "hero_dps_multiplier_mult,300",
+  "hero_id": 26,
+  "id": 1102,
+  "name": "",
+  "required_level": 760,
+  "required_upgrade_id": 0,
+  "upgrade_type": null
+ },
+ {
+  "default_enabled": 1,
+  "effect": "global_dps_multiplier_mult,100",
+  "hero_id": 26,
+  "id": 1103,
+  "name": "",
+  "required_level": 30,
+  "required_upgrade_id": 0,
+  "upgrade_type": null
+ },
+ {
+  "default_enabled": 1,
+  "effect": "global_dps_multiplier_mult,100",
+  "hero_id": 26,
+  "id": 1104,
+  "name": "",
+  "required_level": 275,
+  "required_upgrade_id": 0,
+  "upgrade_type": null
+ },
+ {
+  "default_enabled": 1,
+  "effect": "global_dps_multiplier_mult,100",
+  "hero_id": 26,
+  "id": 1105,
+  "name": "",
+  "required_level": 615,
+  "required_upgrade_id": 0,
+  "upgrade_type": null
+ },
+ {
+  "default_enabled": 1,
+  "effect": "global_dps_multiplier_mult,100",
+  "hero_id": 26,
+  "id": 1106,
+  "name": "",
+  "required_level": 810,
+  "required_upgrade_id": 0,
+  "upgrade_type": null
+ },
+ {
+  "default_enabled": 1,
+  "effect": "buff_upgrade,100,1076",
+  "hero_id": 26,
+  "id": 1107,
+  "name": "",
+  "required_level": 375,
+  "required_upgrade_id": 0,
+  "upgrade_type": null
+ },
+ {
+  "default_enabled": 1,
+  "effect": "buff_upgrade,100,1076",
+  "hero_id": 26,
+  "id": 1108,
+  "name": "",
+  "required_level": 500,
+  "required_upgrade_id": 0,
+  "upgrade_type": null
+ },
+ {
+  "default_enabled": 1,
+  "effect": "buff_upgrade,100,1076",
+  "hero_id": 26,
+  "id": 1109,
+  "name": "",
+  "required_level": 655,
+  "required_upgrade_id": 0,
+  "upgrade_type": null
  }
 ]

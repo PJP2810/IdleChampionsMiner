@@ -1672,7 +1672,7 @@
    "665": 1.03
   },
   "id": 25,
-  "name": "Catti-Brie",
+  "name": "Catti-brie",
   "portrait_graphic_id": 2912,
   "properties": {
    "animation_frames": {
@@ -1720,5 +1720,149 @@
    "companion"
   ],
   "ultimate_attack_id": 100
+ },
+ {
+  "base_attack_id": 102,
+  "base_cost": "78000000",
+  "base_damage": "430000",
+  "base_health": "5800",
+  "character_sheet_details": {
+   "ability_scores": {
+    "cha": 18,
+    "con": 16,
+    "dex": 14,
+    "int": 11,
+    "str": 19,
+    "wis": 12
+   },
+   "age": 22,
+   "alignment": "Neutral Good",
+   "backstory": "Caring, motherly, and endlessly optimistic, Evelyn has adventured across the realms as part of the Waffle Crew with Strix, Diath, and Paultin for many years. She's always first in battle, thanks to her flying boots, and will always take a hit to protect others. Short, yet tough, her devotion to Lathander has seen her through many perilous situations.",
+   "class": "Paladin",
+   "race": "Human"
+  },
+  "cost_curves": {
+   "1": 1.075
+  },
+  "graphic_id": 3066,
+  "health_curves": {
+   "1": 1.15,
+   "15": 1.053,
+   "250": 1.066,
+   "440": 1.077,
+   "650": 1
+  },
+  "id": 26,
+  "name": "Evelyn",
+  "portrait_graphic_id": 3087,
+  "properties": {
+   "animation_frames": {
+    "attack": 3,
+    "attack_b": 4,
+    "charge": 2,
+    "gethit": 6,
+    "idle": 0,
+    "koed": 7,
+    "run": 8,
+    "ultimate": 5,
+    "walk": 1
+   },
+   "attack_sound": 1,
+   "death_sound": 1,
+   "eye_height": 92,
+   "graphic_large": 3086,
+   "pain_sounds": [
+    155,
+    156,
+    157
+   ],
+   "permanent_effects": [
+    "effect_def,146"
+   ],
+   "portrait_center_offset": [
+    94,
+    66
+   ],
+   "ultimate_color": [
+    255,
+    0,
+    0
+   ]
+  },
+  "seat_id": 6,
+  "tags": [
+   "male",
+   "dwarf",
+   "dps",
+   "support",
+   "fighter",
+   "neutral",
+   "good",
+   "companion"
+  ],
+  "ultimate_attack_id": 103
+ },
+ {
+  "base_attack_id": 1,
+  "base_cost": "1",
+  "base_damage": "1",
+  "base_health": "1",
+  "character_sheet_details": {
+   "ability_scores": {
+    "cha": 12,
+    "con": 14,
+    "dex": 10,
+    "int": 8,
+    "str": 15,
+    "wis": 13
+   },
+   "age": 252,
+   "alignment": "Neutral Good",
+   "backstory": "Hailing from the Spine of the World, Bruenor is the leader of Clan Battlehammer. He is close friends with the celebrated drow Drizzt Do'Urden and the halfling Regis. Rounding out the 'Companions of the Hall' are his two adopted human children: Catti-Brie and Wulfgar.",
+   "class": "Fighter",
+   "race": "Shield Dwarf"
+  },
+  "cost_curves": {
+   "1": 1.01
+  },
+  "graphic_id": 2,
+  "health_curves": {
+   "1": 1.01
+  },
+  "id": 27,
+  "name": "Champion27",
+  "portrait_graphic_id": 13,
+  "properties": {
+   "attack_sound": 1,
+   "death_sound": 1,
+   "eye_height": 92,
+   "graphic_large": 174,
+   "pain_sounds": [
+    155,
+    156,
+    157
+   ],
+   "portrait_center_offset": [
+    94,
+    66
+   ],
+   "ultimate_color": [
+    255,
+    0,
+    0
+   ]
+  },
+  "seat_id": 11,
+  "tags": [
+   "male",
+   "dwarf",
+   "dps",
+   "support",
+   "fighter",
+   "neutral",
+   "good",
+   "companion"
+  ],
+  "ultimate_attack_id": 2
  }
 ]

@@ -2838,7 +2838,7 @@
  },
  {
   "descriptions": {
-   "desc": "Increases the chance for $(upgrade_name id) to crit by $amount%"
+   "desc": "Increases the chance for $(upgrade_name id) to cause a crit by $amount%"
   },
   "id": 271,
   "key": "buff_crit_chance",
@@ -2895,5 +2895,38 @@
   "owner": "",
   "param_names": "time",
   "properties": []
+ },
+ {
+  "descriptions": {
+   "desc": "Increases the damage done by $target by $amount%"
+  },
+  "id": 277,
+  "key": "monster_damage_increase",
+  "owner": "area",
+  "param_names": "",
+  "properties": []
+ },
+ {
+  "descriptions": {
+   "desc": "Increases the health of $target by $amount%"
+  },
+  "id": 278,
+  "key": "monster_health_increase_dynamic",
+  "owner": "area",
+  "param_names": "",
+  "properties": []
+ },
+ {
+  "descriptions": {
+   "desc": "Increaes the effect of $(upgrade_name id) by $amount% for each enemy attacking $source"
+  },
+  "id": 279,
+  "key": "buff_upgrade_per_attacking_monster",
+  "owner": "upgrade",
+  "param_names": "amount,int id",
+  "properties": {
+   "amount_func": "attacking_monsters",
+   "bonus_display": true
+  }
  }
 ]

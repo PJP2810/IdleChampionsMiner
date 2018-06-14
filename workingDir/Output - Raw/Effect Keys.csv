@@ -1,0 +1,276 @@
+descriptions,id,key,owner,param_names,properties
+{'desc': 'Reduces the damage of all Champions by $amount%'},3,global_dps_multiplier_reduce,global,,{'negative': True}
+"{'short': 'All Champions damage +$(amount)%', 'desc': 'Increases the damage of all Champions by $amount%'}",1,global_dps_multiplier_mult,global,,[]
+{'desc': 'Increases the damage of all Champions by $amount%'},2,global_dps_multiplier_add,global,,[]
+{'desc': 'Increases the damage of $target by $amount%'},4,hero_dps_multiplier_mult,,,[]
+{'desc': 'Increases the damage of $target by $amount%'},5,hero_dps_multiplier_add,,,[]
+{'desc': 'Reduces the damage of $target by $amount%'},6,hero_dps_multiplier_reduce,,,{'negative': True}
+"{'short': 'Gold Found +$(amount)%', 'desc': 'Increases all Gold found by $amount%'}",7,gold_multiplier_mult,global,,[]
+{'desc': 'Increases all Gold found by $amount%'},8,gold_multiplier_add,global,,[]
+{'desc': 'Reduces all Gold found by $amount%'},9,gold_multiplier_reduce,global,,{'negative': True}
+{'desc': '$target $(pluralize_verb increase) your Click Damage by $amount% of their damage'},10,global_click_damage_hero_dps_percent,global,,{'amount_func': 'hero_dps_percent'}
+{'desc': 'Increases your Critical Click Damage Multiplier by $amount'},11,critical_click_damage_multiplier,global,,[]
+{'desc': 'Increases your Critical Click Chance by $amount%'},12,critical_click_chance,global,,[]
+"{'short': 'Crit CLK +$(chance)%, Crit DMG +$(damage)', 'desc': 'Increases your Critical Click Chance by $chance% and Damage Multiplier by $damage'}",13,critical_click_chance_damage_mult,global,"chance,damage",[]
+"{'desc': ""$target's Base Attack attacks $amount additional nearby $pluralize_targets$(at_percent_damage percent) damage""}",179,add_attack_nearby_targets,hero,"amount,percent",[]
+{'desc': '$source immediately uses their Ultimate Attack (resets the cooldown)'},167,activate_ultimate,,,[]
+{'desc': 'Increases the base Click Damage of $target by $amount'},16,hero_base_click_damage,,,[]
+{'desc': 'Increases the Click Damage of $target by $amount%'},17,hero_click_damage_percent,,,[]
+"{'desc': ""For every $step_levels levels over and including $gte_levels, $target's Click Damage is multiplied by $(mult)x.^This multiplier stacks.""}",18,hero_level_click_damage_mult,,"mult,int step_levels,int gte_levels","{'amount_func': 'step_levels', 'percent_bonus': False}"
+{'desc': 'Increases your Click Damage by $amount%'},19,global_click_damage_multiplier_add,global,,[]
+{'desc': 'All Champion damage x$(as_multiplier amount)'},198,global_dps_multiplier_times_desc,global,,[]
+{'desc': 'Increases the DPS of $target by $amount% if their Base Attack cooldown is $seconds_comparison_description'},199,hero_dps_multiplier_if_attack_cooldown,,"amount,str comparison,check",{'amount_func': 'if_attack_cooldown'}
+{'desc': 'Increases your base Click Damage by $amount'},21,base_click_damage,,,[]
+"{'desc': ""Gain $amount% of an Enemy's gold per click""}",22,gold_clicks_percent,,,[]
+"{'desc': ""Unlocks the '$(ability_name id)' ability^^$(ability_name id):^$(ability_effect id)""}",23,unlock_ability,,int id,[]
+{'desc': 'Heals $target for $amount every second'},31,heal,,,[]
+"{'desc': ""$target's Ultimate Attack attacks $amount additional nearby $pluralize_targets$(at_percent_damage percent)""}",180,add_ultimate_nearby_targets,hero,"amount,percent",[]
+{'desc': 'Automatically Performs $amount Clicks per second'},25,clicks_per_seconds,,,[]
+{'desc': 'Increases damage by $amount% for every use of the Storm Rider ability'},26,stack_storm_rider,,,[]
+{'desc': 'Deal damage to all Enemies equal to $amount% of their max health'},27,damage_enemies,,,[]
+{'desc': 'Freeze all enemies in place for $amount seconds'},28,freeze_enemies,,,[]
+{'desc': 'Regen party members health by $amount% every 0.5 seconds'},29,regen_party_health,,,[]
+"{'desc': ""Increase the effectiveness of the next activated ability by $amount%.^Doesn't Stack""}",30,next_ability_multiplier,,,[]
+{'desc': 'Increases the health of $target by $amount%'},32,health_mult,,,[]
+{'desc': 'Reduce the health of $target by $amount%'},33,health_reduce,,,{'negative': True}
+{'desc': 'Reduces the health of all Champions by $amount%'},34,global_health_reduce,global,,{'negative': True}
+{'desc': 'Increases the effect of healing on $target by $amount%'},35,healing_mult,,,[]
+{'desc': '$target $(pluralize_verb take) $amount% less damage'},36,damage_reduction,,,{'negative': True}
+{'desc': '$target $(pluralize_verb take) $amount% more damage'},37,damage_increase,,,[]
+{'desc': 'Enemies attack $target less (attack priority -$amount)'},38,decrease_monster_attack_priority,,,{'negative': True}
+{'desc': 'Enemies attack $target more (attack priority $amount)'},39,increase_monster_attack_priority,,,[]
+{'desc': 'Increases the effect $(ability_name id) by $amount%'},40,buff_ability,ability,"amount,int id",[]
+"{'desc': ""For every $step_levels levels over and including $gte_levels, $(target)'s damage is multiplied by $(mult)x. This multiplier stacks.""}",43,hero_level_dps_mult,,"mult,int step_levels,int gte_levels","{'amount_func': 'step_levels', 'percent_bonus': False}"
+{'desc': 'Buffs damage of $target by $(buff)%'},44,absorb_and_buff_dps_percent,,"buff,absorb","{'note': 'stack time needed here?', 'stack_type': 'time_reset'}"
+{'desc': 'Reduces damage of $target to 0. Upgrades and abilities still apply'},45,freeze,,,"{'note': 'stack time needed here?', 'stack_type': 'time_reset'}"
+"{'desc': ""$target gains $amount% of $(hero_name id)'s damage""}",46,add_hero_percent_dps,,"amount,int id",{'amount_func': 'target_hero_dps'}
+{'desc': 'Instantly gain $(time_str time) worth of Gold and Tokens'},47,seconds_worth_of_gold,,time,[]
+{'desc': 'Instantly gain $(time_str time) worth of XP'},48,seconds_worth_of_xp,,time,[]
+{'desc': 'Instantly gain $(time_str time) worth of Gold and XP'},49,seconds_worth_of_gold_and_xp,,time,[]
+"{'short': '+$(time_str time) of Gold ($(time_gold time)) and XP', 'desc': 'Instantly gain $(time_str time) worth of Gold, XP, and cooldown reduction'}",50,seconds_worth_of_rewards,,time,[]
+"{'short': '$(amount)% damage to all Enemies', 'desc': 'Deal $(amount)% of your damage to all Enemies'}",51,dps_to_all_monsters,global,,[]
+"{'short': 'Enemy spawn speed +$(amount)%', 'desc': 'Increase Enemy spawn speed by $(amount)%'}",52,increase_monster_spawn_time_mult,area,,[]
+"{'desc': ""Reduces the cooldown on $target's Base Attack by $(seconds_plural amount)""}",178,reduce_attack_cooldown,,"amount,[int] optional_attack_ids",[]
+{'desc': 'Increases the damage of $(hero_name id) by $(amount)%'},53,target_hero_dps_multiplier_mult,hero,"amount,int id",[]
+{'desc': 'Uniquely buffs certain Champions! Click the notification for details.'},54,event_buff,,int id,[]
+"{'desc': 'Resets your current world, granting you $(idols) idols for your $(hero_levels) Champion levels (1 idol per $(levels_per_idol) levels$(idols_bonus_text)) and potential objective rewards'}",55,reset_world,,,[]
+{'desc': 'Deal $(amount)% of your damage to all Enemies for each Enemy on screen'},56,monsters_on_screen_dps_to_all_monsters,global,,"{'amount_func': 'monsters_on_screen', 'bonus_display': True}"
+{'desc': 'Decreases damage of $target by $(amount)%'},57,draw_power_from,,,{'negative': True}
+{'desc': 'Increases damage of $target by $(amount)%'},58,draw_power_to,,,"{'amount_func': 'draw_power_to', 'bonus_display_per_hero': True}"
+{'desc': 'Reduces ability cooldown by $(amount)%'},59,cooldown_reduction,ability,,{'negative': True}
+{'desc': 'Reduce the cooldown of $(ability_name id) by $(amount)% (Can reduce past cooldown cap)'},60,ability_cooldown_reduction_mult,ability,"amount,int id",{'negative': True}
+{'desc': 'Reduce the cooldown of $(ability_name id) by $(amount) minutes (Can reduce past cooldown cap)'},61,ability_cooldown_reduction,ability,"amount,int id",{'negative': True}
+{'desc': 'Increases damage by $(amount)% of your cooldown reduction over max'},62,surplus_cooldown_inc_dps,global,,{'amount_func': 'surplus_cooldown'}
+"{'desc': ""Disables $(target)'s formation abilities""}",63,disable_hero_formation_abilities,,,[]
+{'desc': 'Decrease Enemy spawn speed by $(amount)%'},64,decrease_monster_spawn_time_mult,area,,{'negative': True}
+{'desc': 'Reduces the move speed of the farthest Enemy by $(amount)%'},65,farthest_monster_move_speed_reduce,area,,"{'negative': True, 'has_target_description': False}"
+{'desc': 'Increases the damage of $target by $(amount)% for each of the $(describe_tags tag) $(targets_desc_plural targets)'},66,targets_with_tag_hero_dps_mult,hero,"amount,str targets,str tag","{'amount_func': 'per_tagged_crusader', 'bonus_display': True, 'has_target_description': False}"
+{'desc': 'Increases the damage of all Champions by $(amount)% for each of the $(describe_tags tag) $(targets_desc_plural targets)'},224,global_dps_multiplier_per_target_tag,global,"amount,str targets,str tag","{'amount_func': 'per_tagged_crusader', 'bonus_display': True}"
+{'desc': 'Decreases the damage of $target by $(amount)% for each of the $(describe_tags tag) $(targets_desc_plural targets)'},67,targets_with_tag_hero_dps_reduce,hero,"amount,str targets,str tag","{'amount_func': 'per_tagged_crusader', 'bonus_display': True, 'negative': True, 'has_target_description': False}"
+"{'desc': ""$target's Base Attack attacks $amount additional $pluralize_targets$(at_percent_damage percent)""}",188,add_attack_targets,hero,"amount,int optional_attack_id",[]
+"{'desc': ""Increases the effect of $(upgrade_hero id)'s $(upgrade_name id) ability by $(amount)%""}",68,buff_upgrade,upgrade,"amount,int id",[]
+"{'desc': ""Increases the effect of $(upgrade_hero ids)'s $(ability_list ids) by $(amount)%""}",69,buff_upgrades,upgrade,"amount,[int] ids",[]
+{'desc': 'Increases the duration of abilities by $(amount)%'},70,ability_duration_mult,global,,[]
+{'desc': 'Increases the duration of buffs by $(amount)%'},71,buff_duration_mult,global,,[]
+{'desc': 'Increase the damage of $(target) by $(amount)% for each enemy on screen'},72,monsters_on_screen_hero_dps_mult,,,"{'amount_func': 'monsters_on_screen', 'bonus_display': True}"
+"{'desc': 'Grants $(amount) temporary hit-points, hit points are reduced by $(percent_per_second time_limit)% every second'}",176,grant_timed_temporary_hp,,"amount,time_limit",[]
+{'desc': 'Decrease the damage of $(target) by $(amount)% for each enemy on screen'},73,monsters_on_screen_hero_dps_reduce,,,"{'amount_func': 'monsters_on_screen', 'bonus_display': True, 'negative': True}"
+{'desc': 'Increase the damage of all Champions by $(amount)% for each enemy attacking $target'},74,attacking_monsters_global_dps_mult,global,"amount,int id","{'amount_func': 'attacking_monsters', 'bonus_display': True, 'has_target_description': False}"
+"{'desc': ""Increases the damage of all Champions by $(amount)% for each enemy attacking Champions in $(hero_name id)'s column""}",75,attacking_monsters_col_global_dps_mult,global,"amount,int id","{'amount_func': 'attacking_monsters_col', 'bonus_display': True, 'has_target_description': False}"
+"{'desc': ""Changes $target's Base Attack to $(attack_name attack_id)""}",175,change_base_attack,hero,int attack_id,[]
+{'desc': 'Increases damage by $(amount)% of your Crit Chance'},76,crit_chance_inc_dps,global,,{'amount_func': 'crit_chance'}
+{'desc': 'Increases damage of Champions with 6 pieces of equipment by $(amount)%'},77,full_equip_dps_mult,all_heroes,,{'amount_func': 'full_equip'}
+"{'desc': ""$(ability_name id) now also increases all Champion's damage by $(amount)% while active""}",78,add_global_dps_increase_to_ability,ability,"amount,int id",[]
+"{'desc': ""$(formation_ability_name id) now also increases affected target's health by $(amount)%""}",79,add_health_mult_to_formation_ability,formation_ability,"amount,int id",[]
+"{'desc': '$(target) has $(chance)% chance to unleash Storm of Flame when ANY Champion is killed, dealing $(amount)% damage to all enemies on screen'}",80,storm_of_flame_chance_any_death,,"amount,chance,max_charges,cooldown",[]
+{'desc': 'Increases the damage done by Storm of Flame by $(amount)%'},81,storm_of_flame_damage_mult,global,,[]
+{'desc': 'Increases the gold found in Silver Chests by $(amount)%'},82,silver_chest_gold_find,,,[]
+{'desc': 'Increases damage of $hero by $(amount)%'},83,buffed_from_formation_ability,,"amount,int id,str targets","{'amount_func': 'buffed_from_formation_ability', 'bonus_display': True}"
+{'desc': 'Increases the damage of $target by $(amount)%. This amount is reduced by $(reduction)% for each $(describe_tags tag) $(targets_desc_plural targets).'},84,hero_dps_mult_reduced_by_tag,,"amount,reduction,str targets,str tag","{'amount_func': 'reduce_per_tagged_crusader', 'bonus_display': True, 'has_target_description': False}"
+"{'desc': 'Reduces the damage of all Champions by $(amount)% for each enemy killed, up to $limit%. (Resets when area changes or boss is killed)'}",85,global_dps_reduce_per_area_kill,global,"amount,limit","{'amount_func': 'area_or_boss_monsters_killed', 'bonus_display': True, 'negative': True}"
+{'desc': '$(ability_name id) now also reduces the damage taken by affected Champions by $(amount)%'},86,add_global_damage_reduction_to_ability,ability,"amount,int id",[]
+{'desc': 'Heals $target by $(amount)% of their max health every second; reduced by $reduction% for each enemy attacking them'},87,self_heal_reduced_by_attackers,,"amount,reduction",{'bonus_display': True}
+"{'desc': '$(target) has an $chance% chance to be resurrected at full health, pushing back and damaging all enemies on the screen ($(resurrect_damage_buff damage_percent)% of max health). This effect can only occur once every $(resurrect_cooldown_buff cooldown) seconds.'}",88,add_chance_revive,,"chance,damage_percent,int pushback,int cooldown",[]
+"{'desc': 'When a friendly Champion dies, it has a $chance% chance to be resurrected at full health, pushing back and damaging all enemies on the screen ($(resurrect_damage_buff damage_percent)% of max health). This effect can only occur once every $(resurrect_cooldown_buff cooldown) seconds.'}",89,add_chance_revive_all,,"chance,damage_percent,int pushback,int cooldown",[]
+{'desc': 'Increases the damage done by Resurrection by $amount%'},90,resurrection_damage_mult,resurrect,amount,[]
+{'desc': 'Reduces the cooldown of Resurrection by $amount%'},91,resurrection_cooldown_reduce,resurrect,amount,{'negative': True}
+{'desc': 'Enemies are stunned for $stun_time seconds when they start attacking $target'},92,stun_monster_on_attack,,stun_time,[]
+{'desc': 'Increase the damage of $target by $amount% for each enemy attacking them'},93,attacking_monsters_hero_dps_mult,,amount,"{'amount_func': 'attacking_monsters', 'bonus_display': True, 'has_target_description': False}"
+{'desc': 'Stores up $stored% of your damage over time as stored Click Damage. $released% of this stored damage is expelled with each click. Damage is only stored up while $target is alive and in your formation.'},94,store_dps_for_clk_dmg,global,"stored,released","{'bonus_display': True, 'has_target_description': False}"
+"{'desc': ""Clicking grants you 1 stack of the Wind-Up-Bunny buff. Each stack increases your damage by $amount%. Max $max_stacks Stacks. Lasts $(minutes stack_duration) minutes. This buff is removed if the $target dies or is removed from the formation. Duration is refreshed if you click while it's maxed. Runs/expires while offline.""}",95,stack_dps_mult_per_clk,global,"amount,int not_used_id,int not_used_max_stacks,int not_used_duration_minutes",{'bonus_display': True}
+{'desc': 'Increases the duration of $(upgrade_names ids) by $amount%'},96,increase_upgrades_effect_duration,upgrade,"amount,[int] ids",[]
+"{'desc': ""Reduces the cooldown on $target's Ultimate Attack by $amount seconds""}",172,reduce_ultimate_cooldown,hero,,[]
+{'desc': ''},97,xp_time_reduction,global,,{'negative': True}
+{'desc': 'Reduces damage of $target by $amount% for the number of slots they are away from center'},98,dist_from_center_hero_dps_mult_reduce,,"amount,int slot","{'amount_func': 'distance_from_center', 'negative': True, 'bonus_display_per_hero': True}"
+{'desc': 'Reduces all Gold found by $amount%'},99,gold_multiplier_add_reduce,global,,{'negative': True}
+{'desc': 'Increases the damage of each Champion by $amount% for each piece of Epic Gear they have'},100,hero_epics_dps_mult,all_heroes,,"{'amount_func': 'num_epics', 'bonus_display': True}"
+{'desc': 'seat_hero_epics_dps_mult DESC'},101,seat_hero_epics_dps_mult,all_heroes,,"{'amount_func': 'num_seat_epics', 'bonus_display': True}"
+{'desc': 'Reduces the Base damage of $target by $amount% (additive)'},102,hero_dps_multiplier_add_reduce,,,{'negative': True}
+{'desc': 'Increases $(reset_currency_name optional_currency) earned from Resets by $amount%'},103,bonus_favor_earned_from_reset,,"amount,int optional_currency",{'amount_func': 'if_correct_reset_currency'}
+"{'desc': 'Boo attacks up to $num_enemies Enemies, clawing at them for $attack_time seconds and making them take $damage_increase% more damage for $proc_time seconds'}",174,boo_ultimate,,"int num_enemies,double attack_time,double damage_increase,double proc_time",[]
+{'desc': 'idols_earned_bonus_per_100_areas DESC'},104,idols_earned_bonus_per_100_areas,,,{'amount_func': 'per_100_areas'}
+{'desc': 'Increases the effect of buffs received from $(hero_name source_hero) by $amount%'},105,increase_buff_effects_from_crusader,,"amount,int source_hero",[]
+{'desc': 'Increases Rubies earned from Daily Quests by $amount%'},106,bonus_rubies_from_daily_quests,,,[]
+"{'desc': 'Boo goes for the eyes of a random Enemy, increasing the amount of Damage they take by $amount%. He will jump to a new Enemy every $time seconds'}",168,boo_attack_increase_damage,,"amount,time",[]
+{'desc': 'Increases the health of $target by $amount'},169,health_add,,,[]
+"{'desc': ""Increases the potency of $target's heals by $amount%""}",108,healer_mult,,,[]
+{'desc': 'Disables the $(disabled_properties) of $target'},109,disable_hero_properties,,"int damage_flag,int upgrades_flag,int equipment_flag,int attacks_flag",[]
+"{'desc': 'Increase damage by $amount% for each $(describe_tags increase_tag) Champion, but decrease this bonus by $decrease_amount% for each $(describe_tags decrease_tag) Champion'}",110,hero_dps_mult_increase_by_tag_reduced_by_tag,,"amount,decrease_amount,str targets,str increase_tag,str decrease_tag","{'amount_func': 'increase_decrease_by_tags', 'bonus_display': True}"
+{'desc': '$target will periodically damage a random enemy for $amount% damage'},111,instant_damage_random_enemy_for_percent_dps,,,[]
+"{'desc': 'Enemies have a $(chance)% chance to drop two quest items at once, or count for two kills at once.'}",112,chance_multiply_monster_quest_rewards,global,"chance,mult",[]
+{'desc': 'Increases the damage of all Champions by $amount% per $(describe_tags tag) Champion in the formation'},113,global_dps_mult_by_tag_additive,global,"amount,str tag","{'amount_func': 'per_any_tagged_crusader', 'bonus_display': True}"
+{'desc': 'Increases the damage of $target by $amount% per $(describe_tags tag) in the formation'},114,hero_dps_mult_by_tag_additive,,"amount,str targets,str tag","{'amount_func': 'per_tagged_crusader', 'bonus_display': True}"
+"{'desc': ""$target's Ultimate Attack attacks $amount additional $pluralize_targets$(at_percent_damage percent)""}",189,add_ultimate_targets,hero,amount,[]
+"{'desc': '$target is immune to damage for $time seconds after taking damage. If this effect lasts for more than $max_time seconds in a row, it cannot occur for the next $cooldown_time seconds.'}",115,parry_damage,,"time,max_time,cooldown_time",[]
+{'desc': 'Increases the damage of all Champions by $amount% per XP point that $target has'},116,global_dps_mult_per_hero_xp_additive,global,,"{'amount_func': 'per_xp_point', 'bonus_display': True}"
+{'desc': '$(upgrade_name id) also applies to $(targets_desc_plural targets)'},117,add_target_to_upgrade,upgrade,"str targets,int id",[]
+"{'desc': ""Increases the speed of $target's Attack Timers by $amount%""}",165,attack_speed_mult,,,[]
+{'desc': 'Increases the base damage of $target by $amount% per $(targets_desc target)'},118,hero_dps_mult_per_target_crusader,,"amount,str target","{'amount_func': 'per_target_crusader', 'bonus_display': True}"
+{'desc': 'Reduces the Damage taken by $target by $amount%'},120,reduce_monster_damage,area,,{'negative': True}
+"{'desc': ""Increases the effect of $(upgrade_hero ids)'s $(ability_list ids) by $(amount)%""}",121,buff_upgrades_multiplicative,upgrade,"amount,[int] ids",[]
+"{'desc': ""Increases the effect of $(upgrade_hero id)'s $(upgrade_name id) ability by $(amount)%""}",122,buff_upgrade_multiplicative,upgrade,"amount,int id",[]
+"{'desc': ""$target receives (at a $(amount)% rate) all of the formation abilities that don't already affect $target""}",123,receive_all_formation_abilities,,amount,[]
+"{'desc': 'Increases the base damage of $target by $amount%, plus $additional_amount% per $(describe_tags tag) Champion in the formation'}",124,hero_dps_mult_increased_by_tag_additive,,"amount,additional_amount,str tag","{'amount_func': 'additional_per_any_tagged_crusader', 'bonus_display': True}"
+{'desc': 'Instantly grants all Champions $amount temporary hit-points'},173,grant_all_instant_temporary_hp,,amount,[]
+"{'desc': 'If killed, $target revives at full health with a $amount% damage reduction. Stacks up to $limit times (additive). Reset by changing areas.'}",125,revive_with_dps_reduction,,"amount,int limit","{'amount_func': 'per_hero_death', 'bonus_display': True, 'negative': True}"
+{'desc': 'Randomly either: $random_effect_list'},126,pick_random_effect,,,[]
+{'desc': 'Reduces the damage of all Champions by $amount% for every $(time_str time) spent in the current area. Caps at $(max)%'},127,global_dps_reduce_per_interval,global,"amount,max,interval","{'amount_func': 'per_click_or_change_area_seconds', 'bonus_display': True, 'negative': True}"
+{'desc': 'Increases the speed of $target by $amount%'},128,monster_speed_increase,area,,[]
+{'desc': 'Increases the health of $target by $amount%'},129,monster_health_increase,area,,[]
+{'desc': 'Spawns a $(monster_name id) $monster_condition_desc'},130,spawn_special_monster,global,int id,[]
+{'desc': 'Increases all Gold found by $amount% for each of the $(describe_tags tag) $(targets_desc_plural targets)'},131,targets_with_tag_gold_multiplier_mult,global,"amount,str targets,str tag","{'amount_func': 'per_tagged_crusader', 'bonus_display': True}"
+{'desc': 'Adds $amount $pluralize_shots to the $(formation_ability_name ability_id) ability'},132,damage_random_enemy_add_shots,,"amount,int ability_id",[]
+{'desc': 'Reduces the speed of $target by $amount%'},133,monster_speed_reduce,area,,{'negative': True}
+{'desc': 'Reduces the health of $target by $amount%'},134,monster_health_reduce,area,,{'negative': True}
+{'desc': '$effect_random_monster_desc'},135,effect_to_random_monsters,,int count,[]
+"{'desc': ""$(transfer)% of $target's damage transfered and buffed at $buff%""}",136,transfer_dps,,"buff,transfer","{'bonus_keys': ['buff'], 'negative': True}"
+"{'desc': ""$target gains $transfer% of $(hero_name id)'s damage, with a $buff% bonus""}",137,receive_transfered_dps,,"buff,transfer,id","{'amount_func': 'target_hero_dps_transfered', 'bonus_keys': ['buff'], 'manual_bonus_calc': True}"
+"{'desc': 'Increases global damage by $(eiralon_buff amount)%, at the expense of $(eiralon_buff health)% damage to $source_hero every $(time_str time)'}",138,health_for_global_dps_multiplier_mult,global,"amount,health,time",{'amount_func': 'with_eiralon_buff'}
+"{'desc': 'Increases damage of $target by $(eiralon_buff amount)%, at the expense of $(eiralon_buff health)% damage to $source_hero every $(time_str time)'}",139,health_for_hero_dps_multiplier_mult,,"amount,health,time",{'amount_func': 'with_eiralon_buff'}
+"{'desc': ""Increases both the damage boost and the health cost of Eiralon's Sacrifice and Ritual abilities by amount%""}",140,buff_eiralon_blood_magic_health_and_dps,,,[]
+{'desc': 'Increases all Gold found by $amount% for each Enemy attacking $(hero_name id)'},141,attacking_monsters_gold_multiplier_mult,global,"amount,int id","{'amount_func': 'attacking_monsters', 'bonus_display': True}"
+"{'desc': ""Unlocks $target's $(attack_name attack_id) Ultimate Attack""}",170,set_ultimate_attack,hero,int attack_id,[]
+"{'desc': ""Buffs $target's Ultimate Attack Damage by $amount%""}",171,buff_ultimate,hero,,[]
+"{'desc': 'Increases damage of $target by $amount%, plus $(bonus_mult)x the bonus amount of $(upgrade_name id)'}",143,hero_dps_multiplier_mult_plus_upgrade_bonus,,"amount,int id,bonus_mult","{'amount_func': 'plus_upgrade_bonus', 'bonus_display': True}"
+"{'note': 'upgrade_id only for description', 'desc': '$(upgrade_name upgrade_id) affects $amount more Enemies'}",144,effect_to_random_monsters_add_count,,"amount,int upgrade_id",[]
+{'desc': 'Increases the damage of $(hero_name id) by $(amount)% for each of the other $(describe_tags tag) $(targets_desc_plural targets)'},145,other_targets_with_tag_hero_dps_mult,hero,"amount,str targets,str tag,int id","{'exclude_self_tags': True, 'amount_func': 'per_tagged_crusader', 'bonus_display': True, 'has_target_description': False}"
+{'desc': 'Heals $target for $amount every second if their Health is less than $limit%'},177,heal_if_damaged_below,,"amount,limit",[]
+{'desc': 'Randomly swaps a Champion $(targets_desc target1) with a Champion $(targets_desc target2)'},147,swap_two_crusaders,,"str target1,str target2",[]
+"{'desc': ""$source_hero also has $(target)'s formation abilities, at a $amount% rate""}",148,duplicate_target_formation_abilities,,,[]
+"{'desc': 'When an enemy dies, it has a $buffed_explosion_chance% chance of exploding, damaging nearby enemies for $buffed_explosion_damage% of their health.'}",149,chance_monster_death_explodes,area,"chance,radius,damage",[]
+{'desc': 'Increases the chance of an enemy exploding by $amount% for each enemy on the screen (max $max% additional chance)'},150,monster_explodes_chance_increase_per_enemy,area,"amount,max",{'amount_func': 'monsters_on_screen_max'}
+{'desc': 'Increases the damage of exploding enemies by $amount%'},151,monster_explodes_damage_increase,area,,[]
+{'desc': 'Grants up to $(amount) temporary hit-points every $cooldown seconds to $target when $target is damaged'},152,grant_temporary_hp,,"amount,cooldown",[]
+{'desc': '$(describe_tags tag) Enemies take $amount% more damage'},153,monster_with_tag_more_damage,area,"amount,str tag","{'amount_func': 'if_monster_has_tag', 'off_when_benched': True}"
+"{'desc': ""All Enemies take $amount% of $source's damage, and are Stunned for $time seconds""}",154,damage_and_stun,area,"amount,time,str visual,int visual_graphic,int stun_graphic",[]
+"{'desc': ""$source's attacks Richochet $(count_times)to a nearby enemy, doing $amount% of the original attack damage.""}",155,attacks_ricochet,,"amount,int count,int graphic,speed",[]
+{'desc': '$target takes $amount damage per second'},156,damage_over_time,area,,[]
+"{'desc': ""When $target attacks an Enemy, they will take $amount% of $target's damage over $time seconds""}",157,add_damage_over_time,,"amount,time,int graphic_id",[]
+"{'desc': 'When $source lands the killing blow on an Enemy, they drop $amount% more Gold'}",158,owner_killing_blow_gold_bonus,area,,[]
+"{'desc': ""When $source's attacks land, they frighten the targeted Enemy for $amount seconds""}",159,attack_landed_frightens_enemy,,"amount,int stun_graphic_id",[]
+"{'desc': 'Increases the damage of all Champions by $amount%, minus $reduce% for each $(targets_desc targets)'}",160,global_dps_multiplier_mult_minus_targets,global,"amount,reduce,str targets","{'formation_effect': True, 'amount_func': 'minus_targets', 'bonus_display': True}"
+{'desc': 'All Enemies are pushed away from the Formation'},166,enemies_pushback,area,"amount,int graphic",[]
+"{'bonus': '$amount% for each other $(describe_tags tag) Champion in the formation', 'desc': 'Additively increases the effect of $(upgrade_name id) by $amount% for each other $(describe_tags tag) Champion in the formation (this can trigger for Champions already counted by $(upgrade_name id))'}",162,buff_upgrade_by_tag_additive,upgrade,"amount,int id,str targets,str tag","{'exclude_self_tags': True, 'amount_func': 'per_tagged_crusader', 'bonus_display': True, 'has_target_description': False}"
+{'desc': 'Increases the effect of $(upgrade_name id) by $amount% per $(targets_desc target)'},163,buff_upgrade_per_target_crusader,upgrade,"amount,int id,str target","{'amount_func': 'per_target_crusader', 'bonus_display': True}"
+{'desc': 'Increases the duration of effects from $(upgrade_name id) by $amount%'},164,buff_upgrade_duration,upgrade,"amount,int id",[]
+"{'desc': ""Increases the speed of $target's Base Attack timer by $amount%""}",181,base_attack_speed_mult,,,[]
+"{'desc': ""Decreases $target's Ultimate Attack cooldown by $amount%""}",182,ult_attack_speed_mult,,,[]
+{'desc': 'Increases the damage done to $target by $amount% when attacked by the $(attack_names_or attack_ids)'},202,increase_monster_damage_if_from_attacks,area,"amount,[int] attack_ids",[]
+"{'desc': ""Decreases the speed of $target's Base Attack timer by $amount%""}",183,base_attack_speed_decrease,,,{'negative': True}
+"{'desc': ""Decreases the speed of $target's Ultimate Attack timer by $amount%""}",184,ult_attack_speed_decrease,,,{'negative': True}
+{'desc': 'NOT USED'},185,global_health_mult,global,,[]
+"{'desc': ""Causes your clicks to do at least $amount% of a monster's max health""}",186,click_damage_percent_max_health,global,,[]
+{'desc': 'Increases your chance to get a chest from boss kills by $amount% (NYI)'},187,chest_chance,global,,[]
+"{'desc': 'Grants $(amount)% $(attack_type attack) Damage as temporary hit-points, which are reduced by $(percent_per_second time_limit)% every second'}",190,grant_attack_damage_timed_temporary_hp,,"amount,time_limit,str attack",[]
+{'desc': 'Instantly grants all Champions $amount temporary hit-points'},191,grant_all_instant_temporary_hp_with_bonus,,"amount,int bonus_upgrade_id",[]
+{'desc': 'Reduces damage done to $target by $amount (down to a minimum of $limit% of the original damage)'},192,reduce_damage_with_limit,,"amount,limit",[]
+"{'desc': ""$target's Attack applies some additional effect to Enemies""}",193,add_monster_hit_effects,,"amount,[int] optional_attack_ids",[]
+{'desc': 'Enemies have a $(buffed_extra_gold_chance)% chance of dropping $amount% more Gold'},194,chance_monster_extra_gold,area,"amount,chance",[]
+{'desc': 'Increases the Damage taken by $target by $amount%'},195,increase_monster_damage,area,,[]
+"{'desc': ""Monsters affected by $(formation_ability_owner_name id)'s $(formation_ability_name id) ability take $amount% more damage""}",196,increase_monster_damage_if_has_fa,area,"amount,int id",{'amount_func': 'if_monster_has_fa'}
+[],197,heal_all_to_percent,global,,[]
+{'desc': 'Gems dropped by Bosses +$amount'},200,increase_boss_gems,global,,[]
+{'desc': 'Distractions drop $amount% more Gold'},201,distraction_gold_mult,area,,[]
+"{'desc': ""Decreases the speed of $target's Base Attack timer by $amount% for their next $(attacks_remaining)""}",203,base_attack_speed_decrease_next_attack,,,{'negative': True}
+{'desc': 'Increases the damage done by $(attack_name attack_id) by $amount%'},204,buff_attack_damage,,"amount,int attack_id",[]
+"{'desc': 'Increases the DPS of $target by $amount%, minus $reduce% for every $every_years years old they are above age $(start_years) (to a minimum of $min%)'}",205,hero_dps_multiplier_reduced_by_age,,"amount,reduce,start_years,every_years,min","{'amount_func': 'decrease_by_age', 'bonus_display_per_hero': True}"
+{'desc': '$target $(pluralize_verb take) $amount% less damage from Melee Attacks'},206,damage_reduction_melee,,,{'negative': True}
+{'desc': '$target $(pluralize_verb take) $amount% less damage from Ranged Attacks'},207,damage_reduction_ranged,,,{'negative': True}
+"{'desc': ""When $target is hit by a Ranged or Melee attack, $target does $amount% of $target's Base Attack damage back to the attacker""}",208,return_damage_when_hit,,,[]
+"{'desc': ""Increases the speed of $target's attacks by $amount%""}",209,monster_attack_speed_increase,area,,[]
+"{'desc': ""Decreases the speed of $target's attacks by $amount%""}",210,monster_attack_speed_reduce,area,,{'negative': True}
+{'desc': 'Adds additional Enemy hit effects to an existing upgrade'},211,add_upgrade_monster_hit_effects,upgrade,int id,[]
+{'desc': '$target takes $amount% more damage if they are affected by effect id $effect_id'},212,increase_monster_damage_if_affected_by,area,"amount,int effect_id",[]
+"{'desc': ""$target's Attack now does $amount% AOE damage""}",213,add_attack_aoe_targets,hero,"amount,radius,[int] optional_attack_ids",[]
+"{'desc': ""If $target's Base Attack cooldown is $seconds_comparison_description, their Base Attack cooldown is reduced by $(seconds_plural amount)""}",214,reduce_attack_cooldown_if,,"amount,str comparison,check,[int] optional_attack_ids",{'amount_func': 'if_attack_base_cooldown'}
+"{'desc': ""If $target's Base Attack cooldown is $seconds_comparison_description, their Base Attack cooldown is increased by $(seconds_plural amount)""}",215,increase_attack_cooldown_if,,"amount,str comparison,check,[int] optional_attack_ids","{'amount_func': 'if_attack_base_cooldown', 'negative': True}"
+{'desc': 'Decreases the health of all Undead Monsters by $amount%'},216,monster_health_decrease_by_tag,area,"amount,str tag",{'negative': True}
+{'desc': 'Increases the amount of Favor gained from resetting in Event Campaigns by $amount%'},217,bonus_event_favor_earned_from_reset,global,,{'amount_func': 'if_event_campaign'}
+{'desc': 'Increases the chance of a Boss Chest upgrading to a Gold Chest by $amount%'},218,boss_gold_chest_chance,global,amount,[]
+{'desc': '$target takes $amount% of their Max Health in Damage every second'},219,percent_damage_per_second,,,{'note': 'hero version'}
+"{'desc': 'In $weather, $target takes $amount% of their Max Health in Damage every second'}",220,weather_percent_damage_per_second,,"amount,str weather","{'note': 'hero version, if the current area has certain weather'}"
+{'desc': 'DHADIUS STACKING ATTACK'},221,dhadius_stacking_damage_buff,hero,,{'note': 'use Effect.Count to set the stacking'}
+{'desc': '$target has a $amount% chance to miss their next attack'},222,next_attack_miss_chance,area,,[]
+{'desc': '$target does between $min_amount% and $amount% bonus $damage_type damage'},223,bonus_damage_range,,"amount,min_amount,str damage_type",[]
+"{'desc': ""Guenhwyvar stalks $target's enemies, dealing massive damage to a random enemy whenever $target attacks""}",225,guenhwyvar_stalking,,int attack_id,[]
+"{'desc': ""$target's next $base_attacks_remaining attack does $amount% more Damage""}",226,next_attack_damage_multiplier,,,[]
+"{'desc': ""$target's next Heal will grant temporary hit-points instead of healing""}",227,next_heal_is_bonus_health,upgrade,int id,[]
+{'desc': 'Each attack on $target does $amount% of global DPS as additional Damage'},228,per_attack_additional_global_dps_percent,area,,[]
+{'desc': '$target takes $amount% more damage from $(describe_tags damage_types) damage types'},229,increase_monster_damage_from,area,"amount,str damage_types",[]
+{'desc': '$target takes $amount% less damage from $(describe_tags damage_types) damage types'},230,decrease_monster_damage_from,area,"amount,str damage_types",[]
+{'desc': '$(upgrade_names ids) also applies to $(targets_desc_plural targets)'},231,add_target_to_upgrades,upgrade,"str targets,[int] ids",[]
+{'desc': '$name Stacks: $stacks/$max_stacks'},232,do_nothing_stacking_description,,"int stacks,int max_stacks,str name",[]
+{'desc': 'Blocks $amount% of Damage down to $target from killed Enemies'},233,block_monster_killed_hero_damage,,,[]
+{'desc': 'Grant $amount level(s) to a random piece of loot owned by the selected Champion.'},234,level_up_loot,,,[]
+"{'desc': 'Revert the specialization(s) of the selected Champion, allowing you to choose new specializations.'}",235,reset_specializations,,,[]
+"{'desc': 'Upgrades a random loot item owned by a random Champion to Shiny, granting it 50% more power.'}",236,random_shiny,,,[]
+"{'desc': ""Each click deals $amount seconds' worth of your global party damage.""}",237,click_damage_seconds_global_dps,global,,[]
+{'desc': 'Increases the effect of $(upgrade_name upgrade_name) by $amount% on $target'},238,buff_effects_from_upgrade_fa,,"amount,int upgrade_id",[]
+[],239,do_nothing,,,[]
+{'desc': '$target takes $amount% more damage when it is already damaged'},240,increase_monster_damage_when_damaged,area,,[]
+{'desc': '$target takes $amount% more damage when they are attacking'},241,increase_monster_damage_when_attacking,area,,[]
+{'desc': '$source does $amount% bonus damage to Enemies that are already damaged'},242,bonus_damage_when_monster_damaged,,,[]
+{'desc': '$source does $amount% bonus damage to Enemies that are attacking'},243,bonus_damage_when_monster_attacking,,,[]
+"{'desc': 'When $target is hit with Adventure damage, they get an effect'}",244,effect_when_hit_random_crusader_damage,,,[]
+{'desc': 'Instantly adds $amount health to monster id $monster_id'},245,add_monster_health,,"amount,int monster_id",[]
+{'desc': 'Multiplies game speed x$mult'},246,time_scale,,mult,[]
+"{'desc': 'If killed, $target gets revived at $gain_percent% health, and $source loses $lose_percent health% ($wait_time seconds cooldown)'}",247,revive_with_health_transfer,,"gain_percent,lose_percent,wait_time",[]
+{'desc': '$target takes $amount% more damage when they are $percent_to_party% of the way to reaching your formation'},248,increase_monster_damage_percent_to_party,area,"amount,percent_to_party","{'amount_func': 'percent_to_party', 'off_when_benched': True}"
+{'desc': 'Increases the Damage of all Champions by $amount% for every dead Champion in the formation'},249,global_dps_multiplier_per_dead_champion_additive,global,,"{'amount_func': 'per_dead_champion', 'bonus_display': True}"
+"{'desc': ""Decreases $target's Base Attack timer by $(seconds_plural amount) if the formation is under attack""}",250,reduce_attack_cooldown_if_formation_under_attack,,"amount,[int] optional_attack_ids",{'amount_func': 'if_formation_under_attack'}
+"{'desc': ""Increases the cooldown on $target's Base Attack by $(seconds_plural amount)""}",251,increase_attack_cooldown,,"amount,[int] optional_attack_ids",{'negative': True}
+{'desc': 'Strix does her ultimate'},253,strix_ultimate,,,[]
+{'desc': 'Prevent the spawn_monster_timer game change from activating'},254,block_spawn_monster_timer,area,,[]
+{'desc': 'Increases the damage of $target by $amount%'},255,hero_dps_multiplier_if_attack,,"amount,[int] attack_ids",{'amount_func': 'if_has_attack'}
+"{'desc': ""$target's Attack now does $amount% AOE damage, every $every_num_attacks attacks""}",256,add_attack_aoe_targets_every,,"amount,radius,int every_num_attacks,[int] optional_attack_ids",[]
+"{'desc': ""$target's Attack does $amount% more damage, every $every_num_attacks attacks""}",257,bonus_damage_every,,"amount,int every_num_attacks,[int] optional_attack_ids",
+"{'desc': ""If $target's Attack stuns any enemies, decreases $target's cooldown by $cooldown seconds and increases the Damage by $amount% per enemy for the next attack (up to $limit% damage buff)""}",258,stun_does_cooldown_and_damage_mult,,"amount,limit,cooldown,[int] optional_attack_ids",[]
+"{'desc': ""Reduces the cooldown on $target's next Base Attack by $(seconds_plural amount)""}",259,next_attack_reduce_cooldown,,"amount,[int] optional_attack_ids",[]
+"{'desc': ""$target's Base Attack has a $amount% chance to stun hit enemies for $duration seconds""}",260,add_attack_stun,,"chance,duration,int graphic,[int] optional_attack_ids",[]
+"{'desc': ""When $target's Base Attack hits a single enemy, they attack them again with $amount% more damage""}",261,single_hit_attacks_again,,"amount,[int] optional_attack_ids",[]
+"{'desc': ""Increases the radius of AOE effects on $target's Base Attack by $amount%""}",262,increase_aoe_radius,,"amount,[int] optional_attack_ids",[]
+"{'desc': ""Increases the duration of Stun effects on $target's Base Attack by $amount%""}",263,increase_stun_time,,"amount,[int] optional_attack_ids",[]
+"{'desc': ""$target's next Base Attack does $amount% bonus damage""}",264,next_attack_bonus_damage,,"amount,[int] optional_attack_ids",[]
+{'desc': '$target takes $amount% of their Max Health in unavoidable Damage'},265,damage_hero_percent,,,[]
+"{'desc': ""Buffs Nrakk's Ultimate effect by $amount%""}",266,buff_nrakk_ultimate,,,[]
+"{'desc': 'Starting from $start_percent% of the way from your formation, $target takes more damage the further they get from your formation, scaling up to $amount% more damage at $end_percent% distance'}",267,increase_monster_damage_percent_from_party_range,area,"amount,start_percent,end_percent","{'amount_func': 'percent_from_party', 'off_when_benched': True}"
+"{'desc': '$source deals additional damage to enemies the farther they are from the formation: starting at 0% when they are $start_percent% away from the formation, up to $amount% more damage when they are at $end_percent%'}",268,bonus_damage_monster_percent_from_party_range,,"amount,start_percent,end_percent",[]
+"{'desc': ""$source's attack has a $(buffed_crit_chance chance)% chance to crit for $amount% bonus damage""}",269,attack_crit_chance,,"amount,chance,[int] optional_attack_ids",[]
+"{'desc': 'When $source hits an enemy, they take $amount% more damage from all Champions for $seconds seconds. During this time, if they get hit $hits times, they will be stunned for $stun_time seconds'}",270,cattibrie_mark_for_death,,"amount,seconds,hits,stun_time,graphic,stun_graphic",[]
+{'desc': 'Increases the chance for $(upgrade_name id) to cause a crit by $amount%'},271,buff_crit_chance,upgrade,"amount,int id",[]
+{'desc': '$target does some effect on crit'},272,add_crit_effect,,"amount,[int] optional_attack_ids",[]
+{'desc': 'Champions have a $chance% chance to do a critical hit for $amount% bonus damage when attacking $target'},273,monster_crit_hit_chance,area,"amount,chance",[]
+{'desc': 'Copies attack_crit_chance effects to monsters as monster_crit_hit_chance'},274,add_monster_crit_chance_from_source,area,"time,int graphic_id",[]
+{'desc': '$(attack_names_and attack_ids) do double damage/hits'},275,increase_attack_effects,area,"amount,[int] attack_ids",[]
+"{'desc': ""Sets the cooldown on $target's Ultimate Attack to $time seconds""}",276,ultimate_cooldown_override,,time,[]
+{'desc': 'Increases the damage done by $target by $amount%'},277,monster_damage_increase,area,,[]
+{'desc': 'Increases the health of $target by $amount%'},278,monster_health_increase_dynamic,area,,[]
+{'desc': 'Increaes the effect of $(upgrade_name id) by $amount% for each enemy attacking $source'},279,buff_upgrade_per_attacking_monster,upgrade,"amount,int id","{'amount_func': 'attacking_monsters', 'bonus_display': True}"
+"{'desc': 'When $target is effectively healed by an ally, they get some effects'}",280,add_ally_effective_heal_effects,,amount,[]
+"{'desc': 'When $target is attacked by an enemy, they grant some effects to $source'}",281,add_hit_effect_to_source,,amount,[]
+{'desc': '$(describe_tags tag) Enemies have $amount% more health'},282,monster_with_tag_health_increase,area,"amount,str tag",[]
+{'desc': 'Increases the damage of $target based on their $(stat_name stat) stat modifier: $amount% increase for every +1 in their modifier'},283,hero_dps_multiplier_inc_per_stat_modifier,,"amount,str stat","{'amount_func': 'per_stat_modifier', 'bonus_display': True}"
+{'desc': 'Decreases the damage of $target based on their $(stat_name stat) stat modifier: $amount% decrease for every -1 in their modifier'},284,hero_dps_multiplier_dec_per_stat_modifier,,"amount,str stat","{'amount_func': 'per_stat_modifier_neg', 'bonus_display': True, 'negative': True}"
+"{'desc': 'When attacking, $target has a $(binwin_odds_buff base_odds)% chance to immediately attack another enemy for $amount% more damage, but adding $cooldown_added seconds to their next attack cooldown (this can trigger multiple times, with the chance being reduced by $reduce_odds% and damage being further increased by $amount% for each extra attack)', 'old_desc': '$target has a $(binwin_odds_buff base_odds)% chance to immediately attack another enemy with $amount% damage bonus after attacking, but adding $cooldown_added seconds to their next attack cooldown (can chain, with odds being reduced by $reduce_odds%, and damage increasing by $amount% for each chained attack)'}",285,binwin_multi_attack,,"amount,base_odds,cooldown_added,reduce_odds,int winded_graphic_id",[]
+{'desc': '$target does $(as_multiplier amount) more hits to enemies with Hit- and Armor-based health'},286,increase_num_unique_hits,,,[]
+"{'desc': ""Increases $target's chance to do Extra Attacks by $amount%""}",287,buff_binwin_multi_attack_chance,,,[]

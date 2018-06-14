@@ -412,11 +412,11 @@
   "details": {
    "inventory_graphic_id": 2860,
    "num_items": 3,
-   "short_name": "Silver Catti-Brie"
+   "short_name": "Silver Catti-brie"
   },
   "graphic_id": 2915,
   "id": 35,
-  "name": "Silver Catti-Brie Chest"
+  "name": "Silver Catti-brie Chest"
  },
  {
   "details": {
@@ -427,10 +427,80 @@
    "gold_is_quantum": true,
    "inventory_graphic_id": 2859,
    "num_items": 5,
-   "short_name": "Gold Catti-Brie"
+   "short_name": "Gold Catti-brie"
   },
   "graphic_id": 2914,
   "id": 36,
-  "name": "Gold Catti-Brie Chest"
+  "name": "Gold Catti-brie Chest"
+ },
+ {
+  "details": {
+   "card_description": "Each chest contains 6 random potions or contracts of rare or better quality",
+   "gold_is_quantum": true,
+   "inventory_graphic_id": 2931,
+   "num_items": 6,
+   "short_name": "Gold Supply"
+  },
+  "graphic_id": 2930,
+  "id": 37,
+  "name": "Gold Supply Chest"
+ },
+ {
+  "details": {
+   "gold_is_quantum": true,
+   "inventory_graphic_id": 2927,
+   "num_items": 5,
+   "short_name": "Gold Tough"
+  },
+  "graphic_id": 2926,
+  "id": 38,
+  "name": "Gold Tough Chest"
+ },
+ {
+  "details": {
+   "gold_is_quantum": true,
+   "inventory_graphic_id": 3016,
+   "num_items": 5,
+   "short_name": "Gold Magic"
+  },
+  "graphic_id": 3015,
+  "id": 39,
+  "name": "Gold Magic Chest"
+ },
+ {
+  "details": {
+   "inventory_graphic_id": 3058,
+   "num_items": 3,
+   "short_name": "Silver Evelyn"
+  },
+  "graphic_id": 3084,
+  "id": 40,
+  "name": "Silver Evelyn Chest"
+ },
+ {
+  "details": {
+   "cost": {
+    "event_currency": 10000,
+    "event_id": 26
+   },
+   "gold_is_quantum": true,
+   "inventory_graphic_id": 3057,
+   "num_items": 5,
+   "short_name": "Gold Evelyn"
+  },
+  "graphic_id": 3083,
+  "id": 41,
+  "name": "Gold Evelyn Chest"
+ },
+ {
+  "details": {
+   "gold_is_quantum": true,
+   "inventory_graphic_id": 3088,
+   "num_items": 5,
+   "short_name": "Gold Warrior"
+  },
+  "graphic_id": 3091,
+  "id": 42,
+  "name": "Gold Warrior Chest"
  }
 ]

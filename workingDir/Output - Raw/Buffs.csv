@@ -1,0 +1,63 @@
+description,duration,effect,graphic_id,id,name,odds,properties,rarity
+A transparent potion in which floats the sliver of a giant's fingernail.,300,"global_dps_multiplier_mult,100",730,1,Small Potion of Giant's Strength,100,{'inventory_graphic_id': 731},1
+A transparent potion in which floats the sliver of a giant's fingernail.,900,"global_dps_multiplier_mult,300",732,2,Medium Potion of Giant's Strength,50,{'inventory_graphic_id': 733},2
+A transparent potion in which floats the sliver of a giant's fingernail.,3600,"global_dps_multiplier_mult,500",734,3,Large Potion of Giant's Strength,20,{'inventory_graphic_id': 735},3
+A transparent potion in which floats the sliver of a giant's fingernail.,315360000,"global_dps_multiplier_mult,900",736,4,Huge Potion of Giant's Strength,5,{'inventory_graphic_id': 737},4
+An eyeball bobs in this yellowish potion.,300,"gold_multiplier_mult,100",714,5,Small Potion of Clairvoyance,100,{'inventory_graphic_id': 715},1
+An eyeball bobs in this yellowish potion.,900,"gold_multiplier_mult,200",716,6,Medium Potion of Clairvoyance,50,{'inventory_graphic_id': 717},2
+An eyeball bobs in this yellowish potion.,3600,"gold_multiplier_mult,300",718,7,Large Potion of Clairvoyance,20,{'inventory_graphic_id': 719},3
+An eyeball bobs in this yellowish potion.,315360000,"gold_multiplier_mult,400",720,8,Huge Potion of Clairvoyance,5,{'inventory_graphic_id': 721},4
+The orange liquid in this vial flickers and smoke fills the top of the container; it looks a little expired.,60,"click_damage_percent_max_health,1",2261,9,Small Expired Potion of Fire Breath,0,{'inventory_graphic_id': 2262},1
+The orange liquid in this vial flickers and smoke fills the top of the container; it looks a little expired.,120,"click_damage_percent_max_health,2",2263,10,Medium Expired Potion of Fire Breath,0,{'inventory_graphic_id': 2264},2
+The orange liquid in this vial flickers and smoke fills the top of the container; it looks a little expired.,240,"click_damage_percent_max_health,4",2265,11,Large Expired Potion of Fire Breath,0,{'inventory_graphic_id': 2266},3
+The orange liquid in this vial flickers and smoke fills the top of the container; it looks a little expired.,480,"click_damage_percent_max_health,8",2267,12,Huge Expired Potion of Fire Breath,0,{'inventory_graphic_id': 2268},4
+The blue liquid in this potion bubbles and steams as if boiling.,300,"health_mult,100",738,13,Small Potion of Heroism,0,{'inventory_graphic_id': 739},1
+The blue liquid in this potion bubbles and steams as if boiling.,900,"health_mult,300",740,14,Medium Potion of Heroism,0,{'inventory_graphic_id': 741},2
+The blue liquid in this potion bubbles and steams as if boiling.,3600,"health_mult,500",742,15,Large Potion of Heroism,0,{'inventory_graphic_id': 743},3
+The blue liquid in this potion bubbles and steams as if boiling.,315360000,"health_mult,900",744,16,Huge Potion of Heroism,0,{'inventory_graphic_id': 745},4
+Claim a bounty worth 5 minutes of offline gold earnings. Also awards event tokens if an event is running.,0,"seconds_worth_of_gold,300",698,17,Tiny Bounty Contract,100,"{'inventory_graphic_id': 699, 'exclude_unless_specified': True}",1
+Claim a bounty worth 30 minutes of offline gold earnings. Also awards event tokens if an event is running.,0,"seconds_worth_of_gold,1800",700,18,Small Bounty Contract,100,"{'inventory_graphic_id': 701, 'exclude_unless_specified': True}",2
+Claim a bounty worth 4 hours of offline gold earnings. Also awards event tokens if an event is running.,0,"seconds_worth_of_gold,14400",702,19,Medium Bounty Contract,10,"{'inventory_graphic_id': 703, 'exclude_unless_specified': True}",3
+Claim a bounty worth 8 hours of offline gold earnings. Also awards event tokens if an event is running.,0,"seconds_worth_of_gold,28800",704,20,Large Bounty Contract,1,"{'inventory_graphic_id': 705, 'exclude_unless_specified': True}",4
+Thanks for watching an ad!,14400,"global_dps_multiplier_mult,100",1,21,Opt-in Ad DPS Bonus,0,"{'show_on_active_buff_display': True, 'keep_on_reset': True, 'should_buff_duration': False, 'apply_offline': True}",4
+Thanks for watching an ad!,14400,"gold_multiplier_mult,50",1,22,Opt-in Ad Gold Bonus,0,"{'show_on_active_buff_display': True, 'keep_on_reset': True, 'should_buff_duration': False, 'apply_offline': True}",4
+Buffs Damage Done (x2),86400,"global_dps_multiplier_mult,100",970,23,Empowered Power Boost,0,"{'keep_on_reset': True, 'dont_show_on_buff_panel': True, 'inventory_graphic_id': 970, 'apply_offline': True}",4
+Buffs Damage Done More (x4),172800,"global_dps_multiplier_mult,300",971,24,Empowered Power Burst,0,"{'keep_on_reset': True, 'dont_show_on_buff_panel': True, 'inventory_graphic_id': 971, 'apply_offline': True}",4
+Buffs Reset Currency Earned (50% more),259200,"bonus_favor_earned_from_reset,50",972,25,Empowered Faith,0,"{'keep_on_reset': True, 'dont_show_on_buff_panel': True, 'inventory_graphic_id': 972, 'apply_offline': True}",4
+Buffs Gold Found (x2),345600,"gold_multiplier_mult,100",973,26,Empowered Clairvoyance,0,"{'keep_on_reset': True, 'dont_show_on_buff_panel': True, 'inventory_graphic_id': 973, 'apply_offline': True}",4
+Buffs Odd To Earn Chests (x2),432000,"chest_chance,100",969,27,Empowered Rewards,0,"{'keep_on_reset': True, 'dont_show_on_buff_panel': True, 'inventory_graphic_id': 969, 'apply_offline': True}",4
+It's the most wonderful time of the year (to be buffed).,1,"event_buff,6",1,28,Wonderful Winter Weekend,0,"{'show_on_active_buff_display': False, 'keep_on_reset': True, 'for_event_id': 6, 'apply_offline': True}",4
+Some buffs to help with the recent Tomb of Annihilation variants?,1,"event_buff,7",1,29,Grand Chultan Weekend,0,"{'show_on_active_buff_display': False, 'keep_on_reset': True, 'for_event_id': 7, 'apply_offline': True}",4
+There are new Grand Tour variants! Perhaps these buffs will help!,1,"event_buff,8",1,30,Wayside Inn Weekend,0,"{'show_on_active_buff_display': False, 'keep_on_reset': True, 'for_event_id': 8, 'apply_offline': True}",4
+Contract a master blacksmith to improve a piece of loot owned by one of your Champions.,0,"level_up_loot,1",2150,31,Tiny Blacksmithing Contract,100,"{'server_call': True, 'select_hero': True, 'inventory_graphic_id': 2151, 'has_use_count': False}",1
+Contract a master blacksmith to improve a piece of loot owned by one of your Champions.,0,"level_up_loot,2",2152,32,Small Blacksmithing Contract,50,"{'server_call': True, 'select_hero': True, 'inventory_graphic_id': 2153, 'has_use_count': False}",2
+Contract a master blacksmith to improve a piece of loot owned by one of your Champions.,0,"level_up_loot,6",2154,33,Medium Blacksmithing Contract,20,"{'server_call': True, 'select_hero': True, 'inventory_graphic_id': 2155, 'has_use_count': False}",3
+Contract a master blacksmith to improve a piece of loot owned by one of your Champions.,0,"level_up_loot,24",2156,34,Large Blacksmithing Contract,5,"{'server_call': True, 'select_hero': True, 'inventory_graphic_id': 2157, 'has_use_count': False}",4
+"The dense, purple liquid has an avoid cloud of pink floating in it.",0,"reset_specializations,1",2158,35,Potion of Specialization,10,"{'select_hero': True, 'inventory_graphic_id': 2159, 'wait_for_inventory_decrement': True, 'has_use_count': False}",2
+"This shiny, silver liquid clings to the edge of the bottle in an unusual way.",0,"random_shiny,1",2160,36,Potion of Polish,0,"{'server_call': True, 'inventory_graphic_id': 2161, 'has_use_count': False}",4
+The orange liquid in this vial flickers and smoke fills the top of the container.,300,"click_damage_seconds_global_dps,60",722,37,Small Potion of Fire Breath,100,{'inventory_graphic_id': 723},1
+The orange liquid in this vial flickers and smoke fills the top of the container.,900,"click_damage_seconds_global_dps,150",724,38,Medium Potion of Fire Breath,50,{'inventory_graphic_id': 725},2
+The orange liquid in this vial flickers and smoke fills the top of the container.,3600,"click_damage_seconds_global_dps,300",726,39,Large Potion of Fire Breath,20,{'inventory_graphic_id': 727},3
+The orange liquid in this vial flickers and smoke fills the top of the container.,315360000,"click_damage_seconds_global_dps,600",728,40,Huge Potion of Fire Breath,5,{'inventory_graphic_id': 729},4
+Tired of making a moral choices? Then this alignment is for you!,1,"event_buff,11",1,41,Truly Neutral Weekend,0,"{'show_on_active_buff_display': False, 'keep_on_reset': True, 'for_event_id': 11, 'apply_offline': True}",4
+Feel particularily evil? This weekend may be for you.,1,"event_buff,13",1,42,Extra Evil Weekend,0,"{'show_on_active_buff_display': False, 'keep_on_reset': True, 'for_event_id': 13, 'apply_offline': True}",4
+"We're feeling a little chaotic, which means some of your champions are buffed!",1,"event_buff,14",1,43,Chaotic Chaos Weekend,0,"{'show_on_active_buff_display': False, 'keep_on_reset': True, 'for_event_id': 14, 'apply_offline': True}",4
+Rested Champions move extra fast,600,"time_scale,2",2720,44,Rested,0,{'inventory_graphic_id': 2720},1
+The Monsters have been waiting for you!,600,"increase_monster_spawn_time_mult,100",720,45,Rested Monsters,0,{'keep_on_reset': True},1
+Your rested eyes spot collection items more quickly,600,"chance_multiply_monster_quest_rewards,100,2",720,46,Rested Eyes,0,{'keep_on_reset': True},1
+You feel even more rested,300,"time_scale,2",2720,47,Rested,0,{'inventory_graphic_id': 2720},1
+Mega rest bonus,120,"time_scale,2",2720,48,Rested,0,{'inventory_graphic_id': 2720},1
+Your rested eyes spot collection items more quickly,300,"chance_multiply_monster_quest_rewards,100,2",0,49,Rested Eyes Level 2,0,{'keep_on_reset': True},1
+Your rested eyes spot collection items more quickly,120,"chance_multiply_monster_quest_rewards,100,2",0,50,Rested Eyes Level 3,0,{'keep_on_reset': True},1
+We can't not have a good weekend! Whoops!,1,"event_buff,15",1,51,Generally Good Weekend,0,"{'show_on_active_buff_display': False, 'keep_on_reset': True, 'for_event_id': 15, 'apply_offline': True}",4
+Spring is a time of renewal.,1,"event_buff,17",1,52,Spring Showers Weekend,0,"{'show_on_active_buff_display': False, 'keep_on_reset': True, 'for_event_id': 17, 'apply_offline': True}",4
+"Who's short? Dwarves, halflings and gnomes. Who's tough? See previous answer.",1,"event_buff,24",1,57,Short 'n Tough Weekend,0,"{'show_on_active_buff_display': False, 'keep_on_reset': True, 'for_event_id': 24, 'apply_offline': True}",4
+Stop! In the name of the law!,1,"event_buff,19",1,53,Law Abiding Weekend,0,"{'show_on_active_buff_display': False, 'keep_on_reset': True, 'for_event_id': 19, 'apply_offline': True}",4
+Want to go on a jounrey to the Mithril Hall?,1,"event_buff,20",1,54,Companions' Weekend,0,"{'show_on_active_buff_display': False, 'keep_on_reset': True, 'for_event_id': 20, 'apply_offline': True}",4
+An elite force of popular players!,1,"event_buff,21",1,55,Force Grey Weekend,0,"{'show_on_active_buff_display': False, 'keep_on_reset': True, 'for_event_id': 21, 'apply_offline': True}",4
+Who likes birds? Not Justin's fiance.,1,"event_buff,22",1,56,Bird-Loving Weekend,0,"{'show_on_active_buff_display': False, 'keep_on_reset': True, 'for_event_id': 22, 'apply_offline': True}",4
+It's a magical time to be alive!,1,"event_buff,25",1,58,Marvelous Magic Weekend,0,"{'show_on_active_buff_display': False, 'keep_on_reset': True, 'for_event_id': 25, 'apply_offline': True}",4
+"Warrior women, unite!",1,"event_buff,27",1,59,Women Warriors Weekend,0,"{'show_on_active_buff_display': False, 'keep_on_reset': True, 'for_event_id': 27, 'apply_offline': True}",4
+Collectors’ Weekend,1,"event_buff,28",1,60,Collectors’ Weekend,0,"{'show_on_active_buff_display': False, 'keep_on_reset': True, 'for_event_id': 28, 'apply_offline': True}",4
+Go for the Eyes Weekend,1,"event_buff,29",1,61,Go for the Eyes Weekend,0,"{'show_on_active_buff_display': False, 'keep_on_reset': True, 'for_event_id': 29, 'apply_offline': True}",4
+Gutsy Gentlemen Weekend,1,"event_buff,31",1,62,Gutsy Gentlemen Weekend,0,"{'show_on_active_buff_display': False, 'keep_on_reset': True, 'for_event_id': 31, 'apply_offline': True}",4

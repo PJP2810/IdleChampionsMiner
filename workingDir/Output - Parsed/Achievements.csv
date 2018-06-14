@@ -1,0 +1,172 @@
+Name,Description,Effect,Effect Value (%),Category,Graphic ID
+Clicking Novice,Click 500 times,All Champion Damage Boost,1,"Clicks, Kills & Gold",830
+Clicking Expert,Click 2500 times,All Champion Damage Boost,1,"Clicks, Kills & Gold",830
+Not So Idle,Click 10000 times,All Champion Damage Boost,1,"Clicks, Kills & Gold",830
+Total Stunner,Click 25000 times,All Champion Damage Boost,1,"Clicks, Kills & Gold",830
+Stunlock Master,Click 50000 times,All Champion Damage Boost,5,"Clicks, Kills & Gold",830
+Golden,Earn 100000 gold,All Champion Damage Boost,1,"Clicks, Kills & Gold",835
+Set For Life,Earn 100M gold,All Champion Damage Boost,1,"Clicks, Kills & Gold",835
+Not Enough,Earn 1e14 gold,All Champion Damage Boost,1,"Clicks, Kills & Gold",835
+Need More Gold,Earn 1e20 gold,All Champion Damage Boost,1,"Clicks, Kills & Gold",835
+Can't Stop Earning,Earn 1e26 gold,All Champion Damage Boost,1,"Clicks, Kills & Gold",835
+Ludicrous Gold,Earn 1e32 gold,All Champion Damage Boost,1,"Clicks, Kills & Gold",835
+Gilded Gold,Earn 1e38 gold,All Champion Damage Boost,1,"Clicks, Kills & Gold",835
+Impressive Stash,Earn 1e44 gold,All Champion Damage Boost,1,"Clicks, Kills & Gold",835
+Keep On Golding,Earn 1e50 gold,All Champion Damage Boost,5,"Clicks, Kills & Gold",835
+Gold Obsessed,Earn 1e60 gold,All Champion Damage Boost,1,"Clicks, Kills & Gold",835
+Bank Breaker,Earn 1e70 gold,All Champion Damage Boost,1,"Clicks, Kills & Gold",835
+Safety Deposit Box,Earn 1e80 gold,All Champion Damage Boost,1,"Clicks, Kills & Gold",835
+Set For Multiple Lives,Earn 1e90 gold,All Champion Damage Boost,1,"Clicks, Kills & Gold",835
+Still Not Enough,Earn 1e100 gold,All Champion Damage Boost,5,"Clicks, Kills & Gold",835
+Gold Hoarder,Earn 1e125 gold,All Champion Damage Boost,1,"Clicks, Kills & Gold",835
+End Game Gold,Earn 1e150 gold,All Champion Damage Boost,1,"Clicks, Kills & Gold",835
+Understandably Golden,Earn 1e175 gold,All Champion Damage Boost,1,"Clicks, Kills & Gold",835
+Golden Dragons,Earn 1e200 gold,All Champion Damage Boost,5,"Clicks, Kills & Gold",835
+Adventurer,Complete area 10 in any adventure,All Champion Damage Boost,1,Adventures,814
+Tutorialist,Complete area 25 in any adventure,All Champion Damage Boost,1,Adventures,815
+Completionist,Complete area 50 in any adventure,All Champion Damage Boost,1,Adventures,816
+Double Completionist,Complete area 100 in any adventure,All Champion Damage Boost,5,Adventures,817
+Quadruple Completionist,Complete area 200 in any adventure,All Champion Damage Boost,1,Adventures,818
+We Must Go Deeper,Complete area 300 in any adventure,All Champion Damage Boost,1,Adventures,819
+Deja Vu,Complete area 400 in any adventure,All Champion Damage Boost,1,Adventures,820
+Will It Ever End?,Complete area 500 in any adventure,All Champion Damage Boost,5,Adventures,821
+Just Another Hundred,Complete area 600 in any adventure,All Champion Damage Boost,1,Adventures,822
+Keep On Pushing,Complete area 700 in any adventure,All Champion Damage Boost,1,Adventures,823
+Almost There,Complete area 800 in any adventure,All Champion Damage Boost,1,Adventures,824
+Perpetual Adventurer,Complete area 900 in any adventure,All Champion Damage Boost,1,Adventures,825
+Four-Digit Adventurer,Complete area 1000 in any adventure,All Champion Damage Boost,5,Adventures,826
+A Tutorial Completed,Complete the Tutorial Adventure,All Champion Damage Boost,1,Adventures,839
+Sword Coast Adventurer,Complete 2 Unique Adventures,All Champion Damage Boost,1,Adventures,840
+Seasoned Adventurer,Complete 4 Unique Adventures,All Champion Damage Boost,1,Adventures,840
+Change Things Up,Complete 4 Unique Adventure Variants,All Champion Damage Boost,1,Adventures,840
+Never A Dull Moment,Complete 7 Unique Adventure Variants,All Champion Damage Boost,1,Adventures,840
+Versatile Adventurer,Complete 10 Unique Adventure Variants,All Champion Damage Boost,1,Adventures,840
+Monster Mangler,Kill 500 Monsters,All Champion Damage Boost,1,"Clicks, Kills & Gold",836
+Monster Masher,Kill 25000 Monsters,All Champion Damage Boost,1,"Clicks, Kills & Gold",836
+Monster Obliterator,Kill 750000 Monsters,All Champion Damage Boost,1,"Clicks, Kills & Gold",836
+Monster Decimator,Kill 5000000 Monsters,All Champion Damage Boost,1,"Clicks, Kills & Gold",836
+The Real Monster Here,Kill 25000000 Monsters,All Champion Damage Boost,5,"Clicks, Kills & Gold",836
+Boss Smasher,Defeat 10 Bosses,All Champion Damage Boost,1,"Clicks, Kills & Gold",827
+Boss Grinder,Defeat 100 Bosses,All Champion Damage Boost,1,"Clicks, Kills & Gold",827
+Bossed Around,Defeat 1000 Bosses,All Champion Damage Boost,1,"Clicks, Kills & Gold",827
+Bossed Out,Defeat 5000 Bosses,All Champion Damage Boost,1,"Clicks, Kills & Gold",827
+Boss Idler,Defeat 10000 Bosses,All Champion Damage Boost,5,"Clicks, Kills & Gold",827
+Bringing the Team Together,Recruit 3 Champions,All Champion Damage Boost,1,Other,837
+A Good Sized Troupe,Recruit 6 Champions,All Champion Damage Boost,1,Other,837
+All Together Now,Recruit 12 Champions,All Champion Damage Boost,5,Other,837
+Treasure Chest Opener,Open 5 Chests,All Champion Damage Boost,1,Other,829
+Treasure Chest Hoarder,Open 50 Chests,All Champion Damage Boost,1,Other,829
+Treasure Chest Collector,Open 250 Chests,All Champion Damage Boost,1,Other,829
+Treasure Chest Connoisseur,Open 500 Chests,All Champion Damage Boost,1,Other,829
+Treasure Chest Expert,Open 1000 Chests,All Champion Damage Boost,5,Other,829
+Equipped,Find 5 pieces of Gear of any rarity,All Champion Damage Boost,1,Gear,813
+Well Equipped,Find 20 pieces of Gear of any rarity,All Champion Damage Boost,1,Gear,813
+Excellently Equipped,Find 60 pieces of Gear of any rarity,All Champion Damage Boost,1,Gear,813
+Buried in Equipment,Find 125 pieces of Gear of any rarity,All Champion Damage Boost,1,Gear,813
+Insanely Equipped,Find 250 pieces of Gear of any rarity,All Champion Damage Boost,5,Gear,813
+Epically Equipped,Find a piece of Epic Gear,All Champion Damage Boost,1,Gear,832
+Purple Fever,Find 5 pieces of Epic Gear,All Champion Damage Boost,1,Gear,832
+Epic Excitement,Find 15 pieces of Epic Gear,All Champion Damage Boost,1,Gear,832
+Endless Epics,Find 25 pieces of Epic Gear,All Champion Damage Boost,1,Gear,832
+Epics for Everyone,Find 50 pieces of Epic Gear,All Champion Damage Boost,5,Gear,832
+Fully Geared,Fully equip any Champion,All Champion Damage Boost,1,Gear,833
+Fully Geared Gang,Fully equip 4 Champions,All Champion Damage Boost,1,Gear,833
+Fully Geared Formation,Fully equip 12 Champions,All Champion Damage Boost,5,Gear,833
+Favor of the Gods,Reset the game twice,All Champion Damage Boost,1,Other,812
+Starting Over Again,Reset the game 5 times,All Champion Damage Boost,1,Other,812
+Much Faster Now,Reset the game 25 times,All Champion Damage Boost,1,Other,812
+Not So New Anymore,Reset the game 100 times,All Champion Damage Boost,1,Other,812
+Old Hat Resetter,Reset the game 250 times,All Champion Damage Boost,5,Other,812
+So Meta,Unlock 25 Achievements,All Champion Damage Boost,1,Other,811
+Achievement Hunter,Unlock 50 Achievements,All Champion Damage Boost,1,Other,811
+Achievement Master,Unlock 75 Achievements,All Champion Damage Boost,1,Other,811
+Achievement Achiever,Unlock 100 Achievements,All Champion Damage Boost,5,Other,811
+View the Credits,View the Credits,All Champion Damage Boost,1,Other,831
+Duplicated,Level a piece of Gear to level 10,All Champion Damage Boost,1,Gear,834
+Getting Better Now,Level a piece of Gear to level 50,All Champion Damage Boost,1,Gear,834
+A Significant Boost,Level a piece of Gear to level 250,All Champion Damage Boost,1,Gear,834
+Twice As Awesome,Level a piece of Gear to level 1000,All Champion Damage Boost,1,Gear,834
+Can't Stop Me Now,Level a piece of Gear to level 5000,All Champion Damage Boost,5,Gear,834
+Shiny!,Find a piece of Shiny gear,All Champion Damage Boost,1,Gear,838
+Twice as Lucky,Find 2 pieces of Shiny gear,All Champion Damage Boost,1,Gear,838
+Extremely Shiny,Find 5 pieces of Shiny gear,All Champion Damage Boost,1,Gear,838
+Never Tell Me The Odds,Find 10 pieces of Shiny gear,All Champion Damage Boost,1,Gear,838
+Blindingly Shiny,Find 20 pieces of Shiny gear,All Champion Damage Boost,5,Gear,838
+That's One Tough Dwarf,Level Bruenor up to level 500,All Champion Damage Boost,1,Champions,828
+Selûne's Blessing,Have Celeste heal 1B damage,All Champion Damage Boost,1,Champions,961
+Sworn Protector,Have Nayeli take 1q damage,All Champion Damage Boost,1,Champions,967
+The Most Particular Drow,Activate both of Jarlaxle's Formation Abilities at the same time,All Champion Damage Boost,1,Champions,964
+Shielding Melody,Have Calliope provide 1o total Damage Shield,All Champion Damage Boost,1,Champions,960
+Shared Bonds,Have each of Asharra's Bond specializations buff your highest damage Champion,All Champion Damage Boost,1,Champions,959
+Went For The Eyes,Have Minsc kill 15 or more Enemies in one Ultimate Attack,All Champion Damage Boost,1,Champions,966
+A Slow Death,Have Delina burn a Boss to death,All Champion Damage Boost,1,Champions,962
+The Fiend's Riches,Gain 1e39 Gold from Makos' Dark Luck,All Champion Damage Boost,1,Champions,965
+Shielding Fury,Gain 1e42 Shield HP from Tyril's Shielding Bite,All Champion Damage Boost,1,Champions,968
+Harvest Interrupted,"Complete all three variants of ""The Bandit's Harvest"" adventure",All Champion Damage Boost,1,HighHarvestide,1081
+Early Rage,Unlock Jamilah before unlocking Area 50,All Champion Damage Boost,1,Champions,963
+Flamethrower,Have Arkhan hit 20+ Enemies with Fire Breath,All Champion Damage Boost,1,Champions,958
+"Recruit Stami ""Stoki"" Gackle","Recruit Stami ""Stoki"" Gackle, the Gnome Monk",All Champion Damage Boost,1,HighHarvestide,1080
+Solemnly Geared,Obtain a piece of gear for each of Stoki's six equipment slots,All Champion Damage Boost,1,HighHarvestide,1082
+Endless Harvest,"Complete area 150 in ""The Bandit's Harvest"" free play",All Champion Damage Boost,1,HighHarvestide,1083
+I Loosened It For You,Have Champions other than Stoki kill 500 bosses that are affected by her Ki Strike,All Champion Damage Boost,1,HighHarvestide,1084
+Recruit Krond,"Recruit Krond, the Half-Orc Eldritch Knight",All Champion Damage Boost,1,Liars Night,1375
+The Trickster's End,"Complete all three variants of ""The Trickster's Delight"" adventure",All Champion Damage Boost,1,Liars Night,1376
+Heritage,Obtain a piece of gear for each of Krond's six equipment slots,All Champion Damage Boost,1,Liars Night,1377
+Endless Tricks,"Complete area 150 in ""The Trickster's Delight"" free play",All Champion Damage Boost,1,Liars Night,1378
+Arcane Versatility,Kill 100 enemies with each of Krond's Cantrips,All Champion Damage Boost,1,Liars Night,1379
+Recruit Gromma Nander,"Recruit Gromma Nander, the Tortle Druid",All Champion Damage Boost,1,Feast of the Moon,1451
+A Heavy Feast,"Complete all three variants of ""The Crypt of Legends"" adventure",All Champion Damage Boost,1,Feast of the Moon,1452
+Knick-Knacks For The Shell,Obtain a piece of gear for each of Gromma's six equipment slots,All Champion Damage Boost,1,Feast of the Moon,1453
+Endless Feasting,"Complete area 175 in ""The Crypt of Legends"" free play",All Champion Damage Boost,1,Feast of the Moon,1454
+Versitortle,Complete area 175 while using each of Gromma's three specializations,All Champion Damage Boost,1,Feast of the Moon,1455
+Recruit Dhadius the Scarlet,"Recruit Dhadius the Scarlet, the Human Wizard",All Champion Damage Boost,1,Simril,1640
+Simril is Saved!,"Complete all three variants of ""The Simril Spoilsport"" adventure",All Champion Damage Boost,1,Simril,1641
+Powerful Magic,Obtain a piece of gear for each of Dhadius' six equipment slots,All Champion Damage Boost,1,Simril,1642
+Frozen Adventure,"Complete area 175 in ""The Simril Spoilsport"" free play",All Champion Damage Boost,1,Simril,1643
+Chromatic Luck,Watch Dhadius cast the same Chromatic Orb element 6 times in a row,All Champion Damage Boost,1,Simril,1644
+Recruit Barrowin Undurr,"Recruit Barrowin Undurr, the Dwarf Cleric",All Champion Damage Boost,1,Wintershield,1862
+A Merry Chase,"Complete all three variants of ""The Merry Map Adventure"" adventure",All Champion Damage Boost,1,Wintershield,1863
+Gold Dwarved,Obtain a piece of gear for each of Barrowin's six equipment slots,All Champion Damage Boost,1,Wintershield,1864
+The Load Road,"Complete area 175 in ""The Merry Map Adventure"" free play",All Champion Damage Boost,1,Wintershield,1865
+The Faith Shield,Use Shield of Faith to provide 1e22 worth of damage shields,All Champion Damage Boost,1,Wintershield,1866
+Recruit Regis,"Recruit Regis, the Halfling Rogue",All Champion Damage Boost,1,Midwinter,1990
+Deadwinter Done,"Complete all three variants of the ""Deadwinter Day"" adventure",All Champion Damage Boost,1,Midwinter,1991
+Comfortable Attire,Obtain a piece of gear for each of Regis' six equipment slots,All Champion Damage Boost,1,Midwinter,1992
+The Long Patrol,"Complete area 175 in the ""Deadwinter Day"" free play",All Champion Damage Boost,1,Midwinter,1993
+Problem Solving Halfling,Use all six of Regis' specialization combinations,All Champion Damage Boost,1,Midwinter,1994
+Recruit Birdsong,"Recruit Birdsong, the Tabaxi Bard",All Champion Damage Boost,1,Grand Revel,2084
+Love's Never Lost,"Complete all three variants of the ""The Missing Merchants"" adventure",All Champion Damage Boost,1,Grand Revel,2085
+A Bard's Tale,Obtain a piece of gear for each of Birdsong's six equipment slots,All Champion Damage Boost,1,Grand Revel,2086
+Jungle Fever,"Complete area 175 in the ""The Missing Merchants"" free play",All Champion Damage Boost,1,Grand Revel,2087
+Warrior's Tempo,Maintain Tempo of Victory for a full minute with a full formation,All Champion Damage Boost,1,Grand Revel,2088
+Recruit Zorbu,"Recruit Zorbu ""Thunderbolt"" Natten, the Gnome Ranger",All Champion Damage Boost,1,Fleetswake,2393
+A Successful Fleetswake,"Complete all three variants of the ""The Unfair Sea"" adventure",All Champion Damage Boost,1,Fleetswake,2394
+A Gnome's Best Friends,Obtain a piece of gear for each of Zorbu's six equipment slots,All Champion Damage Boost,1,Fleetswake,2395
+The Deepest Sea,"Complete area 175 in the ""The Unfair Sea"" free play",All Champion Damage Boost,1,Fleetswake,2396
+The Unstoppable Force,Shoot a single crossbow bolt through 30 enemies at once,All Champion Damage Boost,1,Fleetswake,2397
+Recruit Strix,"Recruit Strix, the Tiefling Sorcerer also known as the Trash Witch",All Champion Damage Boost,1,Festival of Fools,2573
+Foolish Ventures,"Complete all three variants of the ""A Fool's Errand"" adventure",All Champion Damage Boost,1,Festival of Fools,2572
+Half Trash,Obtain a piece of gear for each of Strix's six equipment slots,All Champion Damage Boost,1,Festival of Fools,2574
+Extended Foolishness,"Complete area 175 in the ""A Fool's Errand"" free play",All Champion Damage Boost,1,Festival of Fools,2575
+Save The Day,"Use Death Ward to save an ally from death, then beat the area",All Champion Damage Boost,1,Festival of Fools,2576
+Recruit Nrakk,"Recruit Nrakk, the Githzerai Monk",All Champion Damage Boost,1,Greengrass,2656
+The Variants Below,"Complete all three variants of the ""The Endless War"" adventure",All Champion Damage Boost,1,Greengrass,2657
+Material Possessions,Obtain a piece of gear for each of Nrakk' six equipment slots,All Champion Damage Boost,1,Greengrass,2658
+The Endless Adventure,"Complete area 175 in the ""The Endless War"" free play",All Champion Damage Boost,1,Greengrass,2659
+Finish Him,Kill a boss with the damage bonus from the Kensei Advantage specialization,All Champion Damage Boost,1,Greengrass,2660
+Recruit Catti-brie,"Recruit Catti-brie, the Human Fighter",All Champion Damage Boost,1,The Running,2835
+Community Champion,For showcasing outstanding community leadership,,,"Hidden,  Other",831
+A Pretty Important Acorn,"Complete all three variants of the ""The Grandfather Acorn"" adventure",All Champion Damage Boost,1,The Running,2836
+Equipment of the Hall,Obtain a piece of gear for each of Catti-brie's six equipment slots,All Champion Damage Boost,1,The Running,2837
+Marathon,"Complete area 175 in the ""The Grandfather Acorn"" free play",All Champion Damage Boost,1,The Running,2838
+Critical Streak,Get 5 critical hits in a row with Catti-brie,All Champion Damage Boost,1,The Running,2839
+Recruit Evelyn,"Recruit Evelyn, the Human Paladin",All Champion Damage Boost,1,The Great Modron March,3027
+System Shut Down,"Complete all three variants of the ""The Mechanical Menace"" adventure",All Champion Damage Boost,1,The Great Modron March,3028
+For The Light!,Obtain a piece of gear for each of Evelyn's six equipment slots,All Champion Damage Boost,1,The Great Modron March,3029
+The Endless Menace,"Complete area 175 in the ""The Mechanical Menace"" free play",All Champion Damage Boost,1,The Great Modron March,3030
+Pega-crushed,"Have Evelyn trample 1,000 enemies using her Ultimate Attack",All Champion Damage Boost,1,The Great Modron March,3031
+Recruit Binwin,"Recruit Binwin, the Dwarf Fighter",All Champion Damage Boost,1,Dragondown,3200
+Different Ways To Die,"Complete all three variants of the ""Let Sleeping Dragons Lie"" adventure",All Champion Damage Boost,1,Dragondown,3201
+Binwin's Wares,Obtain a piece of gear for each of Binwin's six equipment slots,All Champion Damage Boost,1,Dragondown,3202
+A Long Rest,"Complete area 175 in the ""Let Sleeping Dragons Lie"" free play",All Champion Damage Boost,1,Dragondown,3203
+Super Winded,"Attack five extra times with Binwin's ""Extra Attacks"" ability",All Champion Damage Boost,1,Dragondown,3204
