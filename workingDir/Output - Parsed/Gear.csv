@@ -636,7 +636,7 @@ Hero,Name,Effect,Effect Value (%),Effect Description,Slot,Rarity,Item Descriptio
 27,Helm of Door-bashing,All Champion Damage Boost,120,,3,3,Best way through a door is headfirst. ,3172
 27,Helm of the Binwin,All Champion Damage Boost,230,,3,4,Bin it to win it!,3173
 27,Broken Quest Stone,buff_binwin_multi_attack_chance,10,,4,1,Given to me by my mother. She collects this kinda stuff. ,3174
-27,Chatty Quest Stone,buff_binwin_multi_attack_chance,35,,4,2,It started talking... and it won't show up! ,3174
+27,Chatty Quest Stone,buff_binwin_multi_attack_chance,35,,4,2,It started talking... and it won't shut up! ,3174
 27,Dwarven Quest Stone,buff_binwin_multi_attack_chance,60,,4,3,"Rewards its bearer with riches, but at what cost?",3175
 27,Lady Phylia,buff_binwin_multi_attack_chance,110,,4,4,"I am Lady Phylia Stoutheart, Dwarven Quest Stone of Friendship and Loyalty.",3176
 27,Rusty Barrel,Ultimate Boost,25,,5,1,"It wobbles, but it still rolls!",3165

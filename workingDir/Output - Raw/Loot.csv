@@ -636,7 +636,7 @@ It looks like the horn was chewed on by something.,"[{'effect_string': 'global_d
 Best way through a door is headfirst. ,"[{'effect_string': 'global_dps_multiplier_mult,120'}]",3172,27,635,Helm of Door-bashing,3,3
 Bin it to win it!,"[{'effect_string': 'global_dps_multiplier_mult,230'}]",3173,27,636,Helm of the Binwin,4,3
 Given to me by my mother. She collects this kinda stuff. ,"[{'effect_string': 'buff_binwin_multi_attack_chance,10'}]",3174,27,637,Broken Quest Stone,1,4
-It started talking... and it won't show up! ,"[{'effect_string': 'buff_binwin_multi_attack_chance,35'}]",3174,27,638,Chatty Quest Stone,2,4
+It started talking... and it won't shut up! ,"[{'effect_string': 'buff_binwin_multi_attack_chance,35'}]",3174,27,638,Chatty Quest Stone,2,4
 "Rewards its bearer with riches, but at what cost?","[{'effect_string': 'buff_binwin_multi_attack_chance,60'}]",3175,27,639,Dwarven Quest Stone,3,4
 "I am Lady Phylia Stoutheart, Dwarven Quest Stone of Friendship and Loyalty.","[{'effect_string': 'buff_binwin_multi_attack_chance,110'}]",3176,27,640,Lady Phylia,4,4
 "It wobbles, but it still rolls!","[{'effect_string': 'buff_ultimate,25'}]",3165,27,641,Rusty Barrel,1,5
